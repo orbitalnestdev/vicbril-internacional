@@ -23,7 +23,7 @@ const About: React.FC = () => {
                   <div className="w-full md:w-1/2 relative">
                      <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-orange-600 -mt-4 -ml-4"></div>
                      <img
-                        src="/images/about-engineers.png"
+                        src="/images/vicbril-warehouse-2.jpg"
                         alt="Ingenieros en planta industrial"
                         className="shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 w-full h-auto object-cover"
                      />

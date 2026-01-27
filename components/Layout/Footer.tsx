@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               <p className="text-[10px] uppercase tracking-[0.4em] text-orange-600 font-bold mt-1">Internacional</p>
             </div>
             <p className="text-sm leading-relaxed text-slate-400 max-w-xs">
-              Suministro estratégico de conductores eléctricos para la industria, construcción y proyectos de infraestructura crítica en México.
+              Soluciones en conductores eléctricos para la industria y la energía.
             </p>
             <div className="flex space-x-2 pt-2">
               {/* Social placeholders */}
@@ -41,10 +41,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-white font-oswald font-bold tracking-wider mb-6">PRODUCTOS</h3>
             <ul className="space-y-3 text-sm">
-              <li><Link to="/productos?cat=1" className="hover:text-orange-500 transition">Baja Tensión</Link></li>
-              <li><Link to="/productos?cat=2" className="hover:text-orange-500 transition">Media Tensión</Link></li>
-              <li><Link to="/productos?cat=3" className="hover:text-orange-500 transition">Cables de Control</Link></li>
-              <li><Link to="/productos?cat=4" className="hover:text-orange-500 transition">Cobre Desnudo</Link></li>
+              <li><Link to="/productos?cat=1" className="hover:text-orange-500 transition">Baja y Media Tensión</Link></li>
+              <li><Link to="/productos?cat=2" className="hover:text-orange-500 transition">Cables Especiales</Link></li>
+              <li><Link to="/productos?cat=3" className="hover:text-orange-500 transition">Fibra Óptica</Link></li>
+              <li><Link to="/productos?cat=4" className="hover:text-orange-500 transition">Cables Subterráneos</Link></li>
             </ul>
           </div>
 
