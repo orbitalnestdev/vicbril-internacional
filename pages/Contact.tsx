@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
                         <div>
                            <h3 className="font-oswald font-bold text-lg">TELÉFONOS</h3>
                            <p className="text-slate-400 text-sm mt-1">
-                              11 3124-0403 (WhatsApp Comercial)<br />
+                              +54 9 11 3124-0403 (WhatsApp Comercial)<br />
                            </p>
                         </div>
                      </div>
@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
                      </div>
                      <div className="group">
                         <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2 group-focus-within:text-orange-600 transition-colors">Teléfono</label>
-                        <input type="tel" className="w-full border-b border-gray-300 py-3 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-slate-900 placeholder-slate-300" placeholder="11 0000 0000" />
+                        <input type="tel" className="w-full border-b border-gray-300 py-3 focus:border-orange-600 focus:outline-none transition-colors bg-transparent text-slate-900 placeholder-slate-300" placeholder="+54 9 11 0000 0000" />
                      </div>
                   </div>
 
