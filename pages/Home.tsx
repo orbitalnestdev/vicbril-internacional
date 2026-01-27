@@ -12,13 +12,13 @@ const Home: React.FC = () => {
         {/* Background Layer */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/vicbril-hero-2.jpg"
+            src="/images/vicbril-hero-3.jpg"
             alt="Infraestructura Eléctrica Industrial"
-            className="w-full h-full object-cover opacity-50 scale-105 animate-pulse-slow"
+            className="w-full h-full object-cover opacity-80 scale-105 animate-pulse-slow"
             style={{ animationDuration: '30s' }}
           />
           {/* Heavy gradient for text legibility */}
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/90 to-slate-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/70 to-transparent"></div>
           {/* Grid pattern overlay */}
           <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
         </div>
@@ -81,8 +81,12 @@ const Home: React.FC = () => {
                 <p>En Vicbril Internacional S.A. brindamos un servicio de excelencia en la provisión de conductores eléctricos, respaldados por trayectoria, infraestructura y un equipo especializado.</p>
               </div>
             </div>
-            <div className="hidden md:block">
-              <span className="font-oswald text-9xl text-gray-50 opacity-50 absolute -mt-32 right-10 -z-10">25+</span>
+            <div className="hidden md:block relative w-1/3">
+              <img
+                src="/images/vicbril-cable-detail.png"
+                alt="Detalle de cable técnico"
+                className="w-full max-w-sm ml-auto object-contain transform hover:scale-105 transition-transform duration-500 drop-shadow-2xl"
+              />
             </div>
           </div>
 
