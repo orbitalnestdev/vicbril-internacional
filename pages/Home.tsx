@@ -166,7 +166,7 @@ const Home: React.FC = () => {
       {/* Corporate CTA */}
       <section className="py-28 bg-slate-900 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="/images/vicbril-warehouse-1.jpg" alt="Centro Logístico Vicbril" className="w-full h-full object-cover opacity-20" />
+          <img src="/images/vicbril-warehouse-cta.jpg" alt="Centro Logístico Vicbril" className="w-full h-full object-cover opacity-20" />
           <div className="absolute inset-0 bg-slate-900/80"></div>
         </div>
         <div className="absolute top-0 right-0 w-1/2 h-full bg-orange-600/10 skew-x-12 transform translate-x-20 z-0"></div>
