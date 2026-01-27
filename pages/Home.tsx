@@ -8,7 +8,7 @@ const Home: React.FC = () => {
     <div className="flex flex-col w-full overflow-hidden">
 
       {/* Hero Section - Industrial Impact */}
-      <section className="relative min-h-screen flex items-center bg-slate-900">
+      <section className="relative min-h-screen flex flex-col bg-slate-900 overflow-hidden">
         {/* Background Layer */}
         <div className="absolute inset-0 z-0">
           <img
@@ -23,36 +23,39 @@ const Home: React.FC = () => {
           <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
         </div>
 
-        <div className="container mx-auto px-6 z-10 relative pt-20">
-          <div className="max-w-4xl">
-            <div className="flex items-center space-x-4 mb-8">
-              <div className="h-[1px] w-12 bg-orange-600"></div>
-              <span className="text-orange-500 text-xs font-bold tracking-[0.3em] uppercase">Distribución mayorista de cables eléctricos</span>
-            </div>
+        {/* Content Area */}
+        <div className="flex-grow flex items-center relative z-10 pt-20">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl">
+              <div className="flex items-center space-x-4 mb-8">
+                <div className="h-[1px] w-12 bg-orange-600"></div>
+                <span className="text-orange-500 text-xs font-bold tracking-[0.3em] uppercase">Distribución mayorista de cables eléctricos</span>
+              </div>
 
-            <h1 className="text-5xl md:text-7xl lg:text-7xl font-bold font-oswald text-white leading-[0.9] mb-8 tracking-tight">
-              CABLES DE BAJA Y MEDIA <br className="hidden md:block" />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-gray-500">TENSIÓN</span> PARA <br />
-              PROYECTOS EXIGENTES
-            </h1>
+              <h1 className="text-5xl md:text-7xl lg:text-7xl font-bold font-oswald text-white leading-[0.9] mb-8 tracking-tight">
+                CABLES DE BAJA Y MEDIA <br className="hidden md:block" />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-gray-500">TENSIÓN</span> PARA <br />
+                PROYECTOS EXIGENTES
+              </h1>
 
-            <p className="text-lg md:text-xl text-slate-300 mb-12 leading-relaxed max-w-xl font-light border-l-2 border-slate-700 pl-6">
-              Somos distribuidores mayoristas de conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.
-            </p>
+              <p className="text-lg md:text-xl text-slate-300 mb-12 leading-relaxed max-w-xl font-light border-l-2 border-slate-700 pl-6">
+                Somos distribuidores mayoristas de conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.
+              </p>
 
-            <div className="flex flex-col sm:flex-row gap-6">
-              <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 hover:bg-orange-700 transition shadow-lg hover:shadow-orange-900/20 flex items-center justify-center">
-                Solicitar Cotización
-              </Link>
-              <Link to="/contacto" className="group bg-transparent border border-slate-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 hover:border-white transition flex items-center justify-center">
-                Solicitar Cotización <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
-              </Link>
+              <div className="flex flex-col sm:flex-row gap-6">
+                <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 hover:bg-orange-700 transition shadow-lg hover:shadow-orange-900/20 flex items-center justify-center">
+                  Solicitar Cotización
+                </Link>
+                <Link to="/contacto" className="group bg-transparent border border-slate-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 hover:border-white transition flex items-center justify-center">
+                  Solicitar Cotización <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Stats Strip */}
-        <div className="absolute bottom-0 left-0 w-full bg-[#003B4D] py-6 hidden md:block z-20 translate-y-[1px] shadow-[0_1px_0_#003B4D]">
+        {/* Stats Strip - Integrated in flow to prevent gaps */}
+        <div className="relative w-full bg-[#003B4D] py-6 hidden md:block z-20">
           <div className="container mx-auto px-6 flex justify-between text-slate-200 font-mono text-xs tracking-wider">
             <div className="flex items-center space-x-2">
               <CheckCircle size={14} className="text-orange-500" /> <span>STOCK DISPONIBLE</span>
