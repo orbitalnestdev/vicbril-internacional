@@ -29,13 +29,7 @@ export const categories: Category[] = [
     image: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=800&auto=format&fit=crop', // Underground/Tunnel
     banner: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=2000&auto=format&fit=crop'
   },
-  {
-    id: '5',
-    name: 'Libres de Halógenos',
-    slug: 'libres-halogenos',
-    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=800&auto=format&fit=crop', // Clean/Safe conceptual
-    banner: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2000&auto=format&fit=crop'
-  }
+
 ];
 
 export const products: Product[] = [

@@ -41,8 +41,8 @@ const Home: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6">
-              <Link to="/productos" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 hover:bg-orange-700 transition shadow-lg hover:shadow-orange-900/20 flex items-center justify-center">
-                Ver Catálogo
+              <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 hover:bg-orange-700 transition shadow-lg hover:shadow-orange-900/20 flex items-center justify-center">
+                Solicitar Cotización
               </Link>
               <Link to="/contacto" className="group bg-transparent border border-slate-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 hover:border-white transition flex items-center justify-center">
                 Solicitar Cotización <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
@@ -112,29 +112,26 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center mb-12">
             <h2 className="text-3xl font-oswald font-bold text-slate-900">LÍNEAS DE PRODUCTO</h2>
-            <Link to="/productos" className="hidden md:flex items-center text-xs font-bold uppercase tracking-widest text-slate-900 hover:text-orange-600 transition">
-              Ver Todo El Catálogo <ArrowRight size={16} className="ml-2" />
-            </Link>
+
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {categories.map((cat, idx) => (
-              <Link to={`/productos?cat=${cat.id}`} key={cat.id} className="group relative h-80 overflow-hidden bg-slate-900">
+              <div key={cat.id} className="group relative h-80 overflow-hidden bg-slate-900">
                 <img src={cat.image} alt={cat.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-70 group-hover:opacity-50" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent"></div>
                 <div className="absolute inset-0 flex flex-col justify-end p-8">
                   <div className="border-l-4 border-orange-600 pl-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                     <h3 className="text-2xl font-oswald font-bold text-white mb-1">{cat.name}</h3>
-                    <p className="text-gray-300 text-xs uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity delay-100">Ver Especificaciones</p>
                   </div>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Featured Products - Tech Spec Style */}
+      {/* Featured Products - Tech Spec Style
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto mb-16">
@@ -155,8 +152,8 @@ const Home: React.FC = () => {
                   <h3 className="text-xl font-oswald font-bold text-slate-900 mb-3">{product.name}</h3>
                   <div className="h-px w-10 bg-orange-600 mb-4"></div>
                   <p className="text-sm text-slate-500 leading-relaxed mb-6 line-clamp-2">{product.description}</p>
-                  <Link to="/productos" className="inline-block text-xs font-bold uppercase tracking-widest text-slate-900 hover:text-orange-600 transition border-b-2 border-transparent hover:border-orange-600 pb-1">
-                    Consultar Ficha Técnica
+                  <Link to="/contacto" className="inline-block text-xs font-bold uppercase tracking-widest text-slate-900 hover:text-orange-600 transition border-b-2 border-transparent hover:border-orange-600 pb-1">
+                    Consultar Disponibilidad
                   </Link>
                 </div>
               </div>
@@ -164,6 +161,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+      */}
 
       {/* Corporate CTA */}
       <section className="py-28 bg-slate-900 relative overflow-hidden">
