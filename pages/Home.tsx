@@ -52,7 +52,7 @@ const Home: React.FC = () => {
         </div>
 
         {/* Stats Strip */}
-        <div className="absolute -bottom-[1px] left-0 w-full bg-[#003B4D] backdrop-blur-md py-6 hidden md:block z-20 border-none shadow-[0_-5px_20px_rgba(0,0,0,0.4)]">
+        <div className="absolute -bottom-1 left-0 w-full bg-[#003B4D] py-6 hidden md:block z-20">
           <div className="container mx-auto px-6 flex justify-between text-slate-200 font-mono text-xs tracking-wider">
             <div className="flex items-center space-x-2">
               <CheckCircle size={14} className="text-orange-500" /> <span>STOCK DISPONIBLE</span>
