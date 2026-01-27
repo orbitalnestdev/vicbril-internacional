@@ -6,7 +6,7 @@ import { ChatMessage, MessageRole } from '../../types';
 export const FloatingWhatsApp: React.FC = () => {
   return (
     <a
-      href="https://wa.me/525512345678"
+      href="https://wa.me/5491131240403"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-40 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:bg-[#1da851] transition-all duration-300 hover:scale-105 flex items-center justify-center group border-2 border-white/20"
@@ -83,8 +83,8 @@ export const TechnicalAssistant: React.FC = () => {
             {messages.map((msg, idx) => (
               <div key={idx} className={`flex ${msg.role === MessageRole.USER ? 'justify-end' : 'justify-start'}`}>
                 <div className={`max-w-[85%] p-3 text-xs leading-relaxed ${msg.role === MessageRole.USER
-                    ? 'bg-slate-800 text-white rounded-l-lg rounded-tr-lg'
-                    : 'bg-white border border-gray-200 text-slate-700 rounded-r-lg rounded-tl-lg shadow-sm'
+                  ? 'bg-slate-800 text-white rounded-l-lg rounded-tr-lg'
+                  : 'bg-white border border-gray-200 text-slate-700 rounded-r-lg rounded-tl-lg shadow-sm'
                   }`}>
                   {msg.text}
                 </div>

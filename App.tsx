@@ -25,7 +25,7 @@ function App() {
         </main>
         <Footer />
         <FloatingWhatsApp />
-        <TechnicalAssistant />
+
       </div>
     </Router>
   );
