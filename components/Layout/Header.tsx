@@ -21,7 +21,7 @@ const Header: React.FC = () => {
 
   return (
     <header className={`fixed w-full z-50 transition-all duration-500 border-b ${isScrolled ? 'bg-white/95 backdrop-blur-sm border-gray-200 shadow-sm py-2' : 'bg-white border-transparent py-4'}`}>
-      
+
       {/* Top Bar - Premium Industrial Look */}
       <div className={`hidden md:block absolute top-0 right-0 left-0 bg-slate-950 text-slate-400 text-[10px] tracking-widest uppercase transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-10 opacity-100'}`}>
         <div className="container mx-auto px-6 h-full flex justify-between items-center">
@@ -43,18 +43,10 @@ const Header: React.FC = () => {
       {/* Main Nav */}
       <div className={`container mx-auto px-6 transition-all duration-300 ${isScrolled ? 'mt-0' : 'mt-8'}`}>
         <div className="flex justify-between items-center">
-          
+
           {/* Logo */}
           <Link to="/" className="flex items-center group relative z-50">
-             <div className="flex flex-col">
-               <h1 className="text-3xl font-bold font-oswald text-slate-900 leading-none tracking-tight group-hover:text-slate-700 transition">
-                 VICBRIL
-               </h1>
-               <div className="flex items-center">
-                 <div className="h-0.5 w-8 bg-orange-600 mr-2"></div>
-                 <span className="text-[9px] font-bold tracking-[0.3em] text-slate-500 uppercase">Internacional</span>
-               </div>
-             </div>
+            <img src="/images/vicbril-logo.jpg" alt="Vicbril Internacional" className="h-16 w-auto object-contain" />
           </Link>
 
           {/* Desktop Menu */}
@@ -65,25 +57,24 @@ const Header: React.FC = () => {
               { path: '/productos', label: 'Catálogo' },
               { path: '/faq', label: 'Ayuda' },
             ].map((link) => (
-              <Link 
+              <Link
                 key={link.path}
-                to={link.path} 
-                className={`text-sm font-semibold tracking-wide uppercase relative py-2 group transition-colors ${
-                  location.pathname === link.path ? 'text-orange-600' : 'text-slate-600 hover:text-slate-900'
-                }`}
+                to={link.path}
+                className={`text-sm font-semibold tracking-wide uppercase relative py-2 group transition-colors ${location.pathname === link.path ? 'text-orange-600' : 'text-slate-600 hover:text-slate-900'
+                  }`}
               >
                 {link.label}
                 <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 transform origin-left transition-transform duration-300 ${location.pathname === link.path ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`}></span>
               </Link>
             ))}
-            
+
             <Link to="/contacto" className="bg-slate-900 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 hover:bg-orange-600 transition-colors duration-300 flex items-center">
               Cotizar Proyecto <ChevronRight size={14} className="ml-1" />
             </Link>
           </nav>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden text-slate-900 focus:outline-none relative z-50 p-2"
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -102,7 +93,7 @@ const Header: React.FC = () => {
           <Link to="/contacto" className="text-orange-600 text-2xl font-oswald font-bold pt-4 flex items-center">
             SOLICITAR COTIZACIÓN <ChevronRight className="ml-2" />
           </Link>
-          
+
           <div className="mt-auto pb-12 text-slate-500 text-sm">
             <p className="mb-2">Ciudad de México</p>
             <p className="font-mono text-slate-900">+52 (55) 1234-5678</p>

@@ -10,12 +10,7 @@ const Footer: React.FC = () => {
 
           {/* Brand Column */}
           <div className="space-y-6">
-            <div>
-              <h2 className="text-3xl font-bold text-white font-oswald leading-none">
-                VICBRIL
-              </h2>
-              <p className="text-[10px] uppercase tracking-[0.4em] text-orange-600 font-bold mt-1">Internacional</p>
-            </div>
+            <img src="/images/vicbril-logo.jpg" alt="Vicbril Internacional" className="h-20 w-auto object-contain bg-white p-2 rounded" />
             <p className="text-sm leading-relaxed text-slate-400 max-w-xs">
               Soluciones en conductores eléctricos para la industria y la energía.
             </p>
