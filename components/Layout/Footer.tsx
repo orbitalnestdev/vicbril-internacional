@@ -49,15 +49,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start group">
                 <MapPin size={18} className="mr-3 text-orange-600 flex-shrink-0 mt-0.5 group-hover:text-white transition-colors" />
-                <span>Parque Industrial Norte, Nave 4,<br />Ciudad de México, CP 55000</span>
+                <span>Calle 6 N° 2185, Parque Industrial Spegazzini,<br />Ezeiza, Buenos Aires</span>
               </li>
               <li className="flex items-center group">
                 <Phone size={18} className="mr-3 text-orange-600 flex-shrink-0 group-hover:text-white transition-colors" />
-                <span className="font-mono">+52 (55) 1234-5678</span>
+                <span className="font-mono">11 3124-0403</span>
               </li>
               <li className="flex items-center group">
                 <Mail size={18} className="mr-3 text-orange-600 flex-shrink-0 group-hover:text-white transition-colors" />
-                <span>ventas@vicbril.com</span>
+                <span>info@vicbrilinternacional.com</span>
               </li>
             </ul>
           </div>

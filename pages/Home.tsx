@@ -52,19 +52,19 @@ const Home: React.FC = () => {
         </div>
 
         {/* Stats Strip */}
-        <div className="absolute bottom-0 left-0 w-full border-t border-slate-800 bg-slate-950/50 backdrop-blur-md py-6 hidden md:block">
-          <div className="container mx-auto px-6 flex justify-between text-slate-400 font-mono text-xs">
+        <div className="absolute bottom-0 left-0 w-full border-t border-white/10 bg-slate-900/90 backdrop-blur-md py-6 hidden md:block z-20">
+          <div className="container mx-auto px-6 flex justify-between text-slate-200 font-mono text-xs tracking-wider">
             <div className="flex items-center space-x-2">
-              <CheckCircle size={14} className="text-green-500" /> <span>STOCK DISPONIBLE</span>
+              <CheckCircle size={14} className="text-orange-500" /> <span>STOCK DISPONIBLE</span>
             </div>
             <div className="flex items-center space-x-2">
-              <CheckCircle size={14} className="text-green-500" /> <span>CERTIFICACIÓN ANCE</span>
+              <CheckCircle size={14} className="text-orange-500" /> <span>CERTIFICACIÓN ANCE</span>
             </div>
             <div className="flex items-center space-x-2">
-              <CheckCircle size={14} className="text-green-500" /> <span>ENVÍOS NACIONALES</span>
+              <CheckCircle size={14} className="text-orange-500" /> <span>ENVÍOS NACIONALES</span>
             </div>
             <div className="flex items-center space-x-2">
-              <CheckCircle size={14} className="text-green-500" /> <span>ATENCIÓN ESPECIALIZADA</span>
+              <CheckCircle size={14} className="text-orange-500" /> <span>ATENCIÓN ESPECIALIZADA</span>
             </div>
           </div>
         </div>

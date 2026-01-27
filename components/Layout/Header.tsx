@@ -27,10 +27,10 @@ const Header: React.FC = () => {
         <div className="container mx-auto px-6 h-full flex justify-between items-center">
           <div className="flex items-center space-x-8">
             <span className="flex items-center hover:text-white transition cursor-pointer">
-              <Phone size={12} className="mr-2 text-orange-600" /> +52 (55) 1234-5678
+              <Phone size={12} className="mr-2 text-orange-600" /> 11 3124-0403
             </span>
             <span className="flex items-center hover:text-white transition cursor-pointer">
-              <Mail size={12} className="mr-2 text-orange-600" /> VENTAS@VICBRIL.COM
+              <Mail size={12} className="mr-2 text-orange-600" /> INFO@VICBRILINTERNACIONAL.COM
             </span>
           </div>
           <div className="flex items-center space-x-6">
@@ -95,8 +95,8 @@ const Header: React.FC = () => {
           </Link>
 
           <div className="mt-auto pb-12 text-slate-500 text-sm">
-            <p className="mb-2">Ciudad de México</p>
-            <p className="font-mono text-slate-900">+52 (55) 1234-5678</p>
+            <p className="mb-2">Buenos Aires, Argentina</p>
+            <p className="font-mono text-slate-900">11 3124-0403</p>
           </div>
         </div>
       </div>
