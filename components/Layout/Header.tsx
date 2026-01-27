@@ -54,18 +54,27 @@ const Header: React.FC = () => {
             {[
               { path: '/', label: 'Inicio' },
               { path: '/nosotros', label: 'Nosotros' },
-              { path: '/productos', label: 'Catálogo' },
-              { path: '/faq', label: 'Ayuda' },
+              { label: 'Catálogo', isStatic: true },
+              { label: 'Ayuda', isStatic: true },
             ].map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`text-sm font-semibold tracking-wide uppercase relative py-2 group transition-colors ${location.pathname === link.path ? 'text-orange-600' : 'text-slate-600 hover:text-slate-900'
-                  }`}
-              >
-                {link.label}
-                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 transform origin-left transition-transform duration-300 ${location.pathname === link.path ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`}></span>
-              </Link>
+              link.isStatic ? (
+                <span
+                  key={link.label}
+                  className="text-sm font-semibold tracking-wide uppercase relative py-2 text-slate-400 cursor-default"
+                >
+                  {link.label}
+                </span>
+              ) : (
+                <Link
+                  key={link.path}
+                  to={link.path!}
+                  className={`text-sm font-semibold tracking-wide uppercase relative py-2 group transition-colors ${location.pathname === link.path ? 'text-orange-600' : 'text-slate-600 hover:text-slate-900'
+                    }`}
+                >
+                  {link.label}
+                  <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 transform origin-left transition-transform duration-300 ${location.pathname === link.path ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`}></span>
+                </Link>
+              )
             ))}
 
             <Link to="/contacto" className="bg-slate-900 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 hover:bg-orange-600 transition-colors duration-300 flex items-center">
@@ -88,8 +97,8 @@ const Header: React.FC = () => {
         <div className="flex flex-col h-full justify-center px-8 space-y-8">
           <Link to="/" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">INICIO</Link>
           <Link to="/nosotros" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">NOSOTROS</Link>
-          <Link to="/productos" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">CATÁLOGO</Link>
-          <Link to="/faq" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">AYUDA</Link>
+          <span className="text-3xl font-oswald font-bold text-slate-300 border-b border-gray-100 pb-4">CATÁLOGO</span>
+          <span className="text-3xl font-oswald font-bold text-slate-300 border-b border-gray-100 pb-4">AYUDA</span>
           <Link to="/contacto" className="text-orange-600 text-2xl font-oswald font-bold pt-4 flex items-center">
             SOLICITAR COTIZACIÓN <ChevronRight className="ml-2" />
           </Link>
