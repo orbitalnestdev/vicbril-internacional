@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const images = [
-    "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1200",
-    "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=1200"
+    "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=1200",
+    "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200",
+    "https://images.unsplash.com/photo-1581093458791-9f3c3250bb8b?q=80&w=1200"
 ];
 
 const AboutSection: React.FC = () => {

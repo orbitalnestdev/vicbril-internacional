@@ -15,12 +15,16 @@ const Home: React.FC = () => {
       <section className="relative min-h-screen flex flex-col bg-slate-900 overflow-hidden">
         {/* Background Layer */}
         <div className="absolute inset-0 z-0">
-          <img
-            src="/images/vicbril-hero-3.jpg"
-            alt="Infraestructura Eléctrica Industrial"
-            className="w-full h-full object-cover opacity-80 scale-105 animate-pulse-slow"
-            style={{ animationDuration: '30s' }}
-          />
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster="/images/vicbril-hero-3.jpg"
+            className="w-full h-full object-cover opacity-60"
+          >
+            <source src="/images/videohero.mp4" type="video/mp4" />
+          </video>
           {/* Heavy gradient for text legibility */}
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/70 to-transparent"></div>
           {/* Grid pattern overlay */}

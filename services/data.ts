@@ -33,14 +33,14 @@ export const categories: Category[] = [
     id: '5',
     name: 'Alumbrado Profesional',
     slug: 'alumbrado-profesional',
-    image: 'https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=800&auto=format&fit=crop', // Industrial lighting/lamps
-    banner: 'https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=2000&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1543131001-3f7ba8d32d0f?q=80&w=800&auto=format&fit=crop', // High-bay industrial lighting
+    banner: 'https://images.unsplash.com/photo-1543131001-3f7ba8d32d0f?q=80&w=2000&auto=format&fit=crop'
   },
   {
     id: '6',
     name: 'Protección y Maniobra',
     slug: 'proteccion-maniobra',
-    image: 'https://images.unsplash.com/photo-1610473215682-62ce98e9860b?q=80&w=800&auto=format&fit=crop', // Electrical panel/switchgear
+    image: 'https://images.unsplash.com/photo-1610473215682-62ce98e9860b?q=80&w=800&auto=format&fit=crop', // Electrical cabinet/protection units
     banner: 'https://images.unsplash.com/photo-1610473215682-62ce98e9860b?q=80&w=2000&auto=format&fit=crop'
   }
 
