@@ -32,9 +32,10 @@ const Home: React.FC = () => {
             <div className="max-w-4xl">
               <span className="text-orange-600 text-[10px] font-bold tracking-[0.5em] uppercase mb-6 block">Especialistas en materiales eléctricos</span>
 
-              <h1 className="text-5xl md:text-8xl lg:text-8xl font-black font-oswald text-slate-900 leading-[0.85] mb-10 tracking-tight">
-                CABLES DE<br />
-                <span className="text-orange-600">ALTA</span> GAMA
+              <h1 className="text-5xl md:text-7xl lg:text-7xl font-bold font-oswald text-slate-900 leading-[0.9] mb-10 tracking-tight">
+                CABLES DE BAJA Y MEDIA <br className="hidden md:block" />
+                <span className="text-orange-600">TENSIÓN</span> PARA <br />
+                PROYECTOS EXIGENTES
               </h1>
 
               <p className="text-lg md:text-xl text-slate-600 mb-12 leading-relaxed max-w-xl font-medium">
