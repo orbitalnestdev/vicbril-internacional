@@ -71,8 +71,8 @@ const Header: React.FC = () => {
                   key={link.path}
                   to={link.path!}
                   className={`text-sm font-semibold tracking-wide uppercase relative py-2 group transition-colors ${location.pathname === link.path
-                      ? 'text-orange-600'
-                      : (isScrolled || !isHome) ? 'text-slate-600 hover:text-slate-900' : 'text-white hover:text-orange-100'
+                    ? 'text-orange-600'
+                    : 'text-slate-600 hover:text-slate-900'
                     }`}
                 >
                   {link.label}
@@ -81,14 +81,14 @@ const Header: React.FC = () => {
               )
             ))}
 
-            <Link to="/contacto" className={`${isScrolled || !isHome ? 'bg-slate-900 text-white' : 'bg-white/10 backdrop-blur-md border border-white/20 text-white'} text-xs font-bold uppercase tracking-widest px-6 py-3 hover:bg-orange-600 hover:text-white transition-all duration-300 flex items-center`}>
+            <Link to="/contacto" className={`${isScrolled || !isHome ? 'bg-slate-900 text-white' : 'bg-slate-900/5 backdrop-blur-md border border-slate-200 text-slate-900'} text-xs font-bold uppercase tracking-widest px-6 py-3 hover:bg-orange-600 hover:text-white transition-all duration-300 flex items-center`}>
               Cotizar Proyecto <ChevronRight size={14} className="ml-1" />
             </Link>
           </nav>
 
           {/* Mobile Menu Button */}
           <button
-            className={`md:hidden focus:outline-none relative z-50 p-2 ${isScrolled || !isHome ? 'text-slate-900' : 'text-white'}`}
+            className={`md:hidden focus:outline-none relative z-50 p-2 ${isScrolled || !isHome ? 'text-slate-900' : 'text-slate-900'}`}
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
