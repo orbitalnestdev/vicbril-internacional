@@ -21,6 +21,10 @@ const Home: React.FC = () => {
             loop
             playsInline
             className="w-full h-full object-contain"
+            style={{
+              objectPosition: '90% center',
+              scale: '1.1'
+            }}
           >
             <source src="/images/videohero.mp4" type="video/mp4" />
           </video>

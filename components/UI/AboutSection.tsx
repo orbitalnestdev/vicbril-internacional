@@ -4,11 +4,12 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const images = [
     "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=1200",
     "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200",
-    "https://images.unsplash.com/photo-1581093458791-9f3c3250bb8b?q=80&w=1200"
+    "/images/foto.jpg"
 ];
 
 const AboutSection: React.FC = () => {
     const [current, setCurrent] = useState(0);
+    const [loaded, setLoaded] = useState<{ [key: number]: boolean }>({});
 
     const prev = () => setCurrent((curr) => (curr === 0 ? images.length - 1 : curr - 1));
     const next = () => setCurrent((curr) => (curr === images.length - 1 ? 0 : curr + 1));
@@ -22,18 +23,26 @@ const AboutSection: React.FC = () => {
         <section className="bg-white overflow-hidden">
             <div className="flex flex-col lg:flex-row min-h-[600px]">
                 {/* Left: Image Slider */}
-                <div className="lg:w-1/2 relative h-[400px] lg:h-auto overflow-hidden">
+                <div className="lg:w-1/2 relative h-[500px] lg:h-auto overflow-hidden bg-slate-200">
                     <div
-                        className="flex transition-transform duration-700 ease-in-out h-full"
+                        className="flex transition-transform duration-700 ease-in-out h-full w-full"
                         style={{ transform: `translateX(-${current * 100}%)` }}
                     >
                         {images.map((img, i) => (
-                            <img
-                                key={i}
-                                src={img}
-                                alt="Industrial context"
-                                className="w-full h-full object-cover flex-shrink-0"
-                            />
+                            <div key={i} className="w-full h-full flex-shrink-0 relative">
+                                {!loaded[i] && (
+                                    <div className="absolute inset-0 flex items-center justify-center bg-slate-200 text-slate-400 font-oswald animate-pulse">
+                                        CARGANDO IMAGEN...
+                                    </div>
+                                )}
+                                <img
+                                    src={img}
+                                    alt={`Industrial infrastructure ${i + 1}`}
+                                    className={`w-full h-full object-cover transition-opacity duration-500 ${loaded[i] ? 'opacity-100' : 'opacity-0'}`}
+                                    onLoad={() => setLoaded(prev => ({ ...prev, [i]: true }))}
+                                    loading="eager"
+                                />
+                            </div>
                         ))}
                     </div>
 
