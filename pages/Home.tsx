@@ -12,48 +12,46 @@ const Home: React.FC = () => {
     <div className="flex flex-col w-full overflow-hidden">
 
       {/* Hero Section - Industrial Impact */}
-      <section className="relative min-h-screen flex flex-col bg-slate-900 overflow-hidden">
-        {/* Background Layer */}
+      <section className="relative min-h-[80vh] flex flex-col bg-white overflow-hidden border-b border-gray-100">
+        {/* Background Layer - Clean & White Focus */}
         <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-white/40 z-10"></div>
           <video
             autoPlay
             muted
             loop
             playsInline
             poster="/images/vicbril-hero-3.jpg"
-            className="w-full h-full object-cover opacity-80"
+            className="w-full h-full object-cover opacity-30 transform rotate-90 scale-150"
           >
             <source src="/images/videohero.mp4" type="video/mp4" />
           </video>
-          {/* Subtle gradient for text legibility without blocking the "clean/horizontal" view */}
-          <div className="absolute inset-0 bg-slate-900/40"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80"></div>
         </div>
 
         {/* Content Area */}
-        <div className="flex-grow flex items-center relative z-10 pt-20">
+        <div className="flex-grow flex items-center relative z-10 py-20">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl">
               <div className="flex items-center space-x-4 mb-8">
                 <div className="h-[1px] w-12 bg-orange-600"></div>
-                <span className="text-orange-500 text-xs font-bold tracking-[0.3em] uppercase">Distribución mayorista de cables eléctricos</span>
+                <span className="text-orange-600 text-xs font-bold tracking-[0.3em] uppercase">Distribución mayorista de cables eléctricos</span>
               </div>
 
-              <h1 className="text-5xl md:text-7xl lg:text-7xl font-bold font-oswald text-white leading-[0.9] mb-8 tracking-tight">
+              <h1 className="text-5xl md:text-7xl lg:text-7xl font-bold font-oswald text-slate-900 leading-[0.9] mb-8 tracking-tight">
                 CABLES DE BAJA Y MEDIA <br className="hidden md:block" />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">TENSIÓN</span> PARA <br />
+                <span className="text-orange-600">TENSIÓN</span> PARA <br />
                 PROYECTOS EXIGENTES
               </h1>
 
-              <p className="text-lg md:text-xl text-slate-100 mb-12 leading-relaxed max-w-xl font-light border-l-2 border-orange-600 pl-6">
+              <p className="text-lg md:text-xl text-slate-600 mb-12 leading-relaxed max-w-xl font-light border-l-2 border-slate-200 pl-6">
                 Somos distribuidores mayoristas de conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-6">
-                <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 transition shadow-lg flex items-center justify-center">
+                <Link to="/contacto" className="bg-slate-900 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 transition shadow-xl hover:bg-orange-600 flex items-center justify-center">
                   Solicitar Cotización
                 </Link>
-                <Link to="/contacto" className="bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 transition flex items-center justify-center hover:bg-white/20">
+                <Link to="/contacto" className="bg-white border border-slate-200 text-slate-900 text-sm font-bold uppercase tracking-widest px-10 py-5 transition flex items-center justify-center hover:border-slate-900">
                   Ver Catálogo <ArrowRight className="ml-2" size={16} />
                 </Link>
               </div>
