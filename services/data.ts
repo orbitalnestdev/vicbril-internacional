@@ -29,6 +29,20 @@ export const categories: Category[] = [
     image: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=800&auto=format&fit=crop', // Underground/Tunnel
     banner: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=2000&auto=format&fit=crop'
   },
+  {
+    id: '5',
+    name: 'Alumbrado Profesional',
+    slug: 'alumbrado-profesional',
+    image: 'https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=800&auto=format&fit=crop', // Industrial lighting/lamps
+    banner: 'https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=2000&auto=format&fit=crop'
+  },
+  {
+    id: '6',
+    name: 'Protección y Maniobra',
+    slug: 'proteccion-maniobra',
+    image: 'https://images.unsplash.com/photo-1610473215682-62ce98e9860b?q=80&w=800&auto=format&fit=crop', // Electrical panel/switchgear
+    banner: 'https://images.unsplash.com/photo-1610473215682-62ce98e9860b?q=80&w=2000&auto=format&fit=crop'
+  }
 
 ];
 
@@ -37,7 +51,7 @@ export const products: Product[] = [
     id: 'bt-01',
     name: 'Cable THW-LS / THHW-LS',
     category: 'Baja y Media Tensión',
-    description: 'Conductor de cobre suave con aislamiento termoplástico de PVC. Ideal para instalaciones industriales y comerciales.',
+    description: 'Conductor de cobre suave con aislamiento termoplástico de PVC. Ideal para instalaciones industriales and comerciales.',
     // Nueva imagen: Rollos industriales de cable con enfoque en el aislamiento y conductor
     image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1000&auto=format&fit=crop',
     specs: ['600V', '90°C', 'Antiflama', 'Baja emisión de humos']
@@ -73,7 +87,7 @@ export const products: Product[] = [
     id: 'ctrl-01',
     name: 'Cable Control Blindado',
     category: 'Cables Especiales',
-    description: 'Multiconductor para sistemas de control y señalización. Blindaje de cinta de aluminio para evitar interferencias.',
+    description: 'Multiconductor para sistemas de control and señalización. Blindaje de cinta de aluminio para evitar interferencias.',
     // Múltiples cables/hilos (Networking/Control vibe)
     image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=1000&auto=format&fit=crop',
     specs: ['600V', 'PVC/PVC', 'Blindaje Electrostático']
@@ -87,4 +101,12 @@ export const products: Product[] = [
     image: 'https://images.unsplash.com/photo-1617757041766-3d71190479b3?q=80&w=1000&auto=format&fit=crop',
     specs: ['ASTM B-3', 'Alta pureza', 'Temple suave']
   }
+];
+
+export const brands = [
+  { name: 'MH', logo: 'https://images.weserv.nl/?url=https://www.industriasmh.com.ar/wp-content/themes/industriasmh/assets/img/logo.png&w=400&fit=contain&format=webp' },
+  { name: 'Neutroluz', logo: 'https://images.weserv.nl/?url=https://distribuidoradelnorte.com/wp-content/uploads/2021/10/Marca_neutroluz.png&w=400&fit=contain&format=webp' },
+  { name: 'JELUZ', logo: 'https://images.weserv.nl/?url=https://www.jeluz.net/wp-content/uploads/2021/05/Logo-Jeluz-1.png&w=400&fit=contain&format=webp' },
+  { name: 'Schneider Electric', logo: 'https://images.weserv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Schneider_Electric_2007.svg/1024px-Schneider_Electric_2007.svg.png&w=400&fit=contain&format=webp' },
+  { name: 'CHINT', logo: 'https://images.weserv.nl/?url=https://chintglobal.com/wp-content/uploads/2021/04/logo.png&w=400&fit=contain&format=webp' }
 ];

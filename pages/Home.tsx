@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Truck, Zap, ClipboardList, CheckCircle } from 'lucide-react';
 import { categories, products } from '../services/data';
+import BrandCarousel from '../components/UI/BrandCarousel';
+import GoogleMap from '../components/UI/GoogleMap';
+import AboutSection from '../components/UI/AboutSection';
+import WhyChooseUs from '../components/UI/WhyChooseUs';
 
 const Home: React.FC = () => {
   return (
@@ -110,6 +114,10 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      <AboutSection />
+
+      <BrandCarousel />
+
       {/* Product Lines - Visual Cards */}
       <section className="py-24 bg-slate-50">
         <div className="container mx-auto px-6">
@@ -118,7 +126,7 @@ const Home: React.FC = () => {
 
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {categories.map((cat, idx) => (
               <div key={cat.id} className="group relative h-80 overflow-hidden bg-slate-900">
                 <img src={cat.image} alt={cat.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-70 group-hover:opacity-50" />
@@ -133,6 +141,8 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <WhyChooseUs />
 
       {/* Featured Products - Tech Spec Style
       <section className="py-24 bg-white">
@@ -165,6 +175,8 @@ const Home: React.FC = () => {
         </div>
       </section>
       */}
+
+      <GoogleMap />
 
       {/* Corporate CTA */}
       <section className="py-28 bg-slate-900 relative overflow-hidden">
