@@ -34,28 +34,28 @@ const Home: React.FC = () => {
         {/* Content Area */}
         <div className="flex-grow flex items-center relative z-10 pt-20">
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl">
+            <div className="max-w-4xl bg-white/90 backdrop-blur-md p-10 md:p-16 rounded-3xl border border-white/20 shadow-2xl">
               <div className="flex items-center space-x-4 mb-8">
                 <div className="h-[1px] w-12 bg-orange-600"></div>
-                <span className="text-orange-500 text-xs font-bold tracking-[0.3em] uppercase">Distribución mayorista de cables eléctricos</span>
+                <span className="text-orange-600 text-xs font-bold tracking-[0.3em] uppercase">Distribución mayorista de cables eléctricos</span>
               </div>
 
-              <h1 className="text-5xl md:text-7xl lg:text-7xl font-bold font-oswald text-white leading-[0.9] mb-8 tracking-tight">
+              <h1 className="text-5xl md:text-7xl lg:text-7xl font-bold font-oswald text-slate-900 leading-[0.9] mb-8 tracking-tight">
                 CABLES DE BAJA Y MEDIA <br className="hidden md:block" />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-gray-500">TENSIÓN</span> PARA <br />
+                TENSIÓN PARA <br />
                 PROYECTOS EXIGENTES
               </h1>
 
-              <p className="text-lg md:text-xl text-slate-300 mb-12 leading-relaxed max-w-xl font-light border-l-2 border-slate-700 pl-6">
+              <p className="text-lg md:text-xl text-slate-600 mb-12 leading-relaxed max-w-xl font-light border-l-2 border-orange-600 pl-6">
                 Somos distribuidores mayoristas de conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-6">
-                <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 hover:bg-orange-700 transition shadow-lg hover:shadow-orange-900/20 flex items-center justify-center">
+                <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 transition shadow-lg flex items-center justify-center">
                   Solicitar Cotización
                 </Link>
-                <Link to="/contacto" className="group bg-transparent border border-slate-600 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 hover:border-white transition flex items-center justify-center">
-                  Solicitar Cotización <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
+                <Link to="/contacto" className="bg-slate-900 text-white text-sm font-bold uppercase tracking-widest px-10 py-5 transition flex items-center justify-center">
+                  Solicitar Cotización <ArrowRight className="ml-2" size={16} />
                 </Link>
               </div>
             </div>
