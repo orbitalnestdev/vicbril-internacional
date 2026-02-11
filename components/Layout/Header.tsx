@@ -20,10 +20,10 @@ const Header: React.FC = () => {
   }, [location]);
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-500 ${isScrolled ? 'bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm py-2' : 'bg-transparent border-transparent py-4'}`}>
+    <header className={`fixed w-full z-50 transition-all duration-500 border-b ${isScrolled ? 'bg-white/95 backdrop-blur-sm border-gray-200 shadow-sm py-2' : 'bg-white border-transparent py-4'}`}>
 
-      {/* Top Bar - Only show when NOT scrolled and make it transparent or very subtle */}
-      <div className={`hidden md:block absolute top-0 right-0 left-0 bg-slate-900/40 text-white/80 text-[10px] tracking-widest uppercase transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-10 opacity-100'}`}>
+      {/* Top Bar - Premium Industrial Look */}
+      <div className={`hidden md:block absolute top-0 right-0 left-0 bg-slate-950 text-slate-400 text-[10px] tracking-widest uppercase transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-10 opacity-100'}`}>
         <div className="container mx-auto px-6 h-full flex justify-between items-center">
           <div className="flex items-center space-x-8">
             <span className="flex items-center hover:text-white transition cursor-pointer">
@@ -68,9 +68,7 @@ const Header: React.FC = () => {
                 <Link
                   key={link.path}
                   to={link.path!}
-                  className={`text-xs font-bold tracking-widest uppercase relative py-2 group transition-colors ${isScrolled
-                    ? (location.pathname === link.path ? 'text-orange-600' : 'text-slate-600 hover:text-slate-900')
-                    : (location.pathname === link.path ? 'text-white' : 'text-white/80 hover:text-white')
+                  className={`text-sm font-semibold tracking-wide uppercase relative py-2 group transition-colors ${location.pathname === link.path ? 'text-orange-600' : 'text-slate-600 hover:text-slate-900'
                     }`}
                 >
                   {link.label}
@@ -79,14 +77,14 @@ const Header: React.FC = () => {
               )
             ))}
 
-            <Link to="/contacto" className={`${isScrolled ? 'bg-slate-900 text-white' : 'bg-blue-600 text-white'} text-[10px] font-bold uppercase tracking-widest px-6 py-3 hover:bg-orange-600 transition-colors duration-300 flex items-center rounded-md`}>
+            <Link to="/contacto" className="bg-slate-900 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 hover:bg-orange-600 transition-colors duration-300 flex items-center">
               Cotizar Proyecto <ChevronRight size={14} className="ml-1" />
             </Link>
           </nav>
 
           {/* Mobile Menu Button */}
           <button
-            className={`md:hidden focus:outline-none relative z-50 p-2 ${isScrolled ? 'text-slate-900' : 'text-white'}`}
+            className="md:hidden text-slate-900 focus:outline-none relative z-50 p-2"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
