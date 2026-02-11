@@ -19,8 +19,10 @@ const Header: React.FC = () => {
     setIsOpen(false);
   }, [location]);
 
+  const isHome = location.pathname === '/';
+
   return (
-    <header className={`fixed w-full z-50 transition-all duration-500 border-b ${isScrolled ? 'bg-white/95 backdrop-blur-sm border-gray-200 shadow-sm py-2' : 'bg-transparent border-transparent py-4'}`}>
+    <header className={`fixed w-full z-50 transition-all duration-500 border-b ${isScrolled || !isHome ? 'bg-white/95 backdrop-blur-sm border-gray-200 shadow-sm py-2' : 'bg-transparent border-transparent py-4'}`}>
 
       {/* Top Bar - Premium Industrial Look */}
       <div className={`hidden md:block absolute top-0 right-0 left-0 bg-slate-950 text-slate-400 text-[10px] tracking-widest uppercase transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-10 opacity-100'}`}>
@@ -68,7 +70,9 @@ const Header: React.FC = () => {
                 <Link
                   key={link.path}
                   to={link.path!}
-                  className={`text-sm font-semibold tracking-wide uppercase relative py-2 group transition-colors ${location.pathname === link.path ? 'text-orange-600' : 'text-slate-600 hover:text-slate-900'
+                  className={`text-sm font-semibold tracking-wide uppercase relative py-2 group transition-colors ${location.pathname === link.path
+                      ? 'text-orange-600'
+                      : (isScrolled || !isHome) ? 'text-slate-600 hover:text-slate-900' : 'text-white hover:text-orange-100'
                     }`}
                 >
                   {link.label}
@@ -77,14 +81,14 @@ const Header: React.FC = () => {
               )
             ))}
 
-            <Link to="/contacto" className="bg-slate-900 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 hover:bg-orange-600 transition-colors duration-300 flex items-center">
+            <Link to="/contacto" className={`${isScrolled || !isHome ? 'bg-slate-900 text-white' : 'bg-white/10 backdrop-blur-md border border-white/20 text-white'} text-xs font-bold uppercase tracking-widest px-6 py-3 hover:bg-orange-600 hover:text-white transition-all duration-300 flex items-center`}>
               Cotizar Proyecto <ChevronRight size={14} className="ml-1" />
             </Link>
           </nav>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-slate-900 focus:outline-none relative z-50 p-2"
+            className={`md:hidden focus:outline-none relative z-50 p-2 ${isScrolled || !isHome ? 'text-slate-900' : 'text-white'}`}
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
