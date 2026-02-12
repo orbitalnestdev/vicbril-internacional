@@ -88,11 +88,11 @@ const Home: React.FC = () => {
                 <p>En Vicbril Internacional S.A. brindamos un servicio de excelencia en la provisión de conductores eléctricos, respaldados por trayectoria, infraestructura y un equipo especializado.</p>
               </div>
             </div>
-            <div className="hidden md:block relative w-1/3">
+            <div className="hidden md:block relative w-2/5">
               <img
                 src="/images/foto.jpg"
                 alt="Centro Logístico Vicbril"
-                className="w-full max-w-sm ml-auto aspect-square object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
+                className="w-full ml-auto aspect-[16/10] object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
