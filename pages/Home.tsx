@@ -90,9 +90,9 @@ const Home: React.FC = () => {
             </div>
             <div className="hidden md:block relative w-1/3">
               <img
-                src="/images/vicbril-cable-detail.png"
-                alt="Detalle de cable técnico"
-                className="w-full max-w-sm ml-auto object-contain transform hover:scale-105 transition-transform duration-500 drop-shadow-2xl"
+                src="/images/foto.jpg"
+                alt="Centro Logístico Vicbril"
+                className="w-full max-w-sm ml-auto aspect-square object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
