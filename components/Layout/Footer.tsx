@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
 
           {/* Brand Column */}
           <div className="space-y-6">
-            <img src="/images/vicbril-logo.jpg" alt="Vicbril Internacional" className="h-20 w-auto object-contain bg-white p-2 rounded" />
+            <img src="/images/logo-footer.png" alt="Vicbril Internacional" className="h-20 w-auto object-contain" />
             <p className="text-sm leading-relaxed text-slate-400 max-w-xs">
               Soluciones en conductores eléctricos para la industria y la energía.
             </p>
