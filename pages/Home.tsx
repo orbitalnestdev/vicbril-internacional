@@ -26,7 +26,7 @@ const Home: React.FC = () => {
         <div className="flex-grow flex items-center relative z-10 pt-20">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl">
-              <span className="text-orange-600 text-xs font-bold tracking-[0.5em] uppercase mb-6 block">somos vicbril</span>
+              <span className="text-orange-600 text-6xl font-bold tracking-[0.5em] uppercase mb-6 block">somos vicbril</span>
 
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-oswald text-slate-900 leading-[0.9] mb-10 tracking-tight">
                 <span className="text-orange-600">CABLES</span> DE BAJA Y <br />
@@ -83,8 +83,8 @@ const Home: React.FC = () => {
             ].map((item, idx) => (
               <div key={idx} className="bg-white p-10 hover:bg-gray-50 transition-colors group">
                 <item.icon size={32} strokeWidth={1.5} className="text-slate-400 mb-6 group-hover:text-orange-600 transition-colors" />
-                <h3 className="text-xl font-oswald font-bold text-slate-900 mb-3 tracking-wide">{item.title}</h3>
-                <p className="text-base text-slate-500 leading-relaxed">{item.desc}</p>
+                <h3 className="text-3xl font-oswald font-bold text-slate-900 mb-3 tracking-wide">{item.title}</h3>
+                <p className="text-xl text-slate-500 leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>

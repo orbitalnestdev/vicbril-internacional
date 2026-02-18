@@ -8,20 +8,20 @@ const GoogleMap: React.FC = () => {
                     <div className="w-full md:w-1/3">
                         <div className="flex items-center space-x-4 mb-6">
                             <div className="h-[1px] w-12 bg-orange-600"></div>
-                            <span className="text-orange-500 text-xs font-bold tracking-[0.3em] uppercase">Nuestra Ubicación</span>
+                            <span className="text-orange-500 text-xl font-bold tracking-[0.3em] uppercase">Nuestra Ubicación</span>
                         </div>
-                        <h2 className="text-4xl font-oswald font-bold text-slate-900 mb-6">ESTRATÉGICAMENTE UBICADOS</h2>
-                        <p className="text-slate-500 leading-relaxed mb-8">
+                        <h2 className="text-6xl font-oswald font-bold text-slate-900 mb-6">ESTRATÉGICAMENTE UBICADOS</h2>
+                        <p className="text-slate-500 leading-relaxed mb-8 text-xl">
                             Nuestro centro logístico se encuentra en el <strong>Polo Industrial Spegazzini</strong>, un punto neurálgico para la distribución en la Provincia de Buenos Aires y todo el país.
                         </p>
                         <div className="space-y-4 text-slate-700">
                             <div className="flex items-start space-x-3">
-                                <div className="mt-1 flex-shrink-0 w-2 h-2 rounded-full bg-orange-600"></div>
-                                <p className="text-sm">Parque Industrial Spegazzini, Carlos Spegazzini</p>
+                                <div className="mt-2 flex-shrink-0 w-2 h-2 rounded-full bg-orange-600"></div>
+                                <p className="text-lg">Parque Industrial Spegazzini, Carlos Spegazzini</p>
                             </div>
                             <div className="flex items-start space-x-3">
-                                <div className="mt-1 flex-shrink-0 w-2 h-2 rounded-full bg-orange-600"></div>
-                                <p className="text-sm">Provincia de Buenos Aires, Argentina</p>
+                                <div className="mt-2 flex-shrink-0 w-2 h-2 rounded-full bg-orange-600"></div>
+                                <p className="text-lg">Provincia de Buenos Aires, Argentina</p>
                             </div>
                         </div>
                     </div>
