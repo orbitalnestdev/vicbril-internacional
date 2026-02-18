@@ -26,7 +26,7 @@ const Home: React.FC = () => {
         <div className="flex-grow flex items-center relative z-10 pt-20">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl">
-              <span className="text-orange-600 text-6xl font-bold tracking-[0.5em] uppercase mb-6 block">somos vicbril</span>
+              <span className="text-orange-600 text-6xl font-bold uppercase mb-6 block">somos vicbril</span>
 
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-oswald text-slate-900 leading-[0.9] mb-10 tracking-tight">
                 <span className="text-orange-600">CABLES</span> DE BAJA Y <br />
