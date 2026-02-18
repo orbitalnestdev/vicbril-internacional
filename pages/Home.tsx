@@ -35,7 +35,7 @@ const Home: React.FC = () => {
               </h1>
 
               <p className="text-lg md:text-xl text-slate-600 mb-12 leading-relaxed max-w-xl font-medium">
-                Somos distribuidores mayoristas de conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.
+                Somos <span className="font-bold text-orange-600">VICBRIL</span>, distribuidores mayoristas de conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
