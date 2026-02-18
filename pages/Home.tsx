@@ -60,7 +60,7 @@ const Home: React.FC = () => {
                 SOMOS <span className="text-orange-600">VICBRIL</span> DISTRIBUIDORES MAYORISTAS
               </h2>
               <div className="text-slate-500 text-lg leading-relaxed space-y-5">
-                <p>de conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.</p>
+                <p>De conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.</p>
                 <p>Contamos con un centro logístico propio en el Nuevo Polo Spegazzini, con más de 5.000 m² de capacidad operativa, lo que nos permite garantizar disponibilidad, respuesta rápida y entregas eficientes en todo el país.</p>
                 <p>En Vicbril Internacional S.A. brindamos un servicio de excelencia en la provisión de conductores eléctricos, respaldados por trayectoria, infraestructura y un equipo especializado.</p>
               </div>
