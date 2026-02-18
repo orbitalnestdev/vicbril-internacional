@@ -48,7 +48,7 @@ const Header: React.FC = () => {
 
           {/* Logo */}
           <Link to="/" className="flex items-center group relative z-50">
-            <img src="/images/logo-header.png" alt="Vicbril Internacional" className="h-16 w-auto object-contain" />
+            <img src="/images/logo-header.png" alt="Vicbril Internacional" className="h-24 w-auto object-contain" />
           </Link>
 
           {/* Desktop Menu */}

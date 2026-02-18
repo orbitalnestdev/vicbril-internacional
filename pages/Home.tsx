@@ -49,25 +49,9 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
-
-        {/* Stats Strip - Integrated in flow to prevent gaps */}
-        <div className="relative w-full bg-white/60 backdrop-blur-md border-t border-slate-100 py-6 hidden md:block z-20">
-          <div className="container mx-auto px-6 flex justify-between text-slate-500 font-mono text-[10px] tracking-widest">
-            <div className="flex items-center space-x-2">
-              <CheckCircle size={14} className="text-orange-500" /> <span>STOCK DISPONIBLE</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <CheckCircle size={14} className="text-orange-500" /> <span>CERTIFICACIÓN ANCE</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <CheckCircle size={14} className="text-orange-500" /> <span>ENVÍOS NACIONALES</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <CheckCircle size={14} className="text-orange-500" /> <span>ATENCIÓN ESPECIALIZADA</span>
-            </div>
-          </div>
-        </div>
       </section>
+
+
 
       {/* Value Proposition - Technical Grid */}
       <section className="py-24 bg-white">
