@@ -26,7 +26,7 @@ const Home: React.FC = () => {
         <div className="flex-grow flex items-center relative z-10 pt-20">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl">
-              <span className="text-orange-600 text-xs font-bold tracking-[0.5em] uppercase mb-6 block">Especialistas en materiales eléctricos</span>
+              <span className="text-orange-600 text-xs font-bold tracking-[0.5em] uppercase mb-6 block">somos vicbril</span>
 
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-oswald text-slate-900 leading-[0.9] mb-10 tracking-tight">
                 <span className="text-orange-600">CABLES</span> DE BAJA Y <br />
@@ -55,9 +55,9 @@ const Home: React.FC = () => {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 border-b border-gray-100 pb-8">
-            <div className="max-w-xl">
+            <div className="max-w-3xl">
               <h2 className="text-5xl md:text-6xl font-oswald font-bold text-slate-900 mb-6">
-                SOMOS <span className="text-orange-600">VICBRIL</span> DISTRIBUIDORES MAYORISTAS
+                DISTRIBUIDORES MAYORISTAS
               </h2>
               <div className="text-slate-500 text-lg leading-relaxed space-y-5">
                 <p>De conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.</p>
@@ -89,7 +89,7 @@ const Home: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section >
 
       <AboutSection />
 
@@ -181,7 +181,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-    </div>
+    </div >
   );
 };
 
