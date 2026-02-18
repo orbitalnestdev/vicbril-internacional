@@ -14,20 +14,12 @@ const Home: React.FC = () => {
       {/* Hero Section - Industrial Impact */}
       <section className="relative min-h-screen flex flex-col bg-white overflow-hidden">
         {/* Background Layer */}
-        <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full h-full object-contain"
-            style={{
-              objectPosition: '90% center',
-              scale: '1.1'
-            }}
-          >
-            <source src="/images/videohero.mp4" type="video/mp4" />
-          </video>
+        <div className="absolute inset-x-0 bottom-0 top-24 z-0 bg-slate-50">
+          <img
+            src="/images/Vicbril-banner_01-1.png"
+            alt="Vicbril Banner"
+            className="w-full h-full object-contain object-center"
+          />
         </div>
 
         {/* Content Area */}
@@ -89,11 +81,15 @@ const Home: React.FC = () => {
               </div>
             </div>
             <div className="hidden md:block relative w-2/5">
-              <img
-                src="/images/foto.jpg"
-                alt="Centro Logístico Vicbril"
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
                 className="w-full ml-auto aspect-[16/10] object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
-              />
+              >
+                <source src="/images/videohero.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
 
