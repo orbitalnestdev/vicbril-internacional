@@ -26,24 +26,22 @@ const Home: React.FC = () => {
         <div className="flex-grow flex items-center relative z-10 pt-20">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl">
-              <span className="text-orange-600 text-[10px] font-bold tracking-[0.5em] uppercase mb-6 block">Especialistas en materiales eléctricos</span>
+              <span className="text-orange-600 text-xs font-bold tracking-[0.5em] uppercase mb-6 block">Especialistas en materiales eléctricos</span>
 
-              <h1 className="text-5xl md:text-7xl lg:text-7xl font-bold font-oswald text-slate-900 leading-[0.9] mb-10 tracking-tight">
-                CABLES DE BAJA Y MEDIA <br className="hidden md:block" />
-                <span className="text-orange-600">TENSIÓN</span> PARA <br />
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-oswald text-slate-900 leading-[0.9] mb-10 tracking-tight">
+                <span className="text-orange-600">CABLES</span> DE BAJA Y <br />
+                MEDIA TENSIÓN PARA <br />
                 PROYECTOS EXIGENTES
               </h1>
 
-              <p className="text-lg md:text-xl text-slate-600 mb-12 leading-relaxed max-w-xl font-medium">
-                Somos <span className="font-bold text-orange-600">VICBRIL</span>, distribuidores mayoristas de conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.
-              </p>
+
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/contacto" className="bg-orange-600 text-white text-[11px] font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center shadow-xl shadow-orange-600/20">
+                <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center shadow-xl shadow-orange-600/20">
                   Cotizar Proyecto
                 </Link>
-                <Link to="/contacto" className="group bg-white/80 backdrop-blur-sm border border-slate-200 text-slate-900 text-[11px] font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-white transition-all duration-300 flex items-center justify-center">
-                  Ver Catálogo <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={14} />
+                <Link to="/contacto" className="group bg-white/80 backdrop-blur-sm border border-slate-200 text-slate-900 text-sm font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-white transition-all duration-300 flex items-center justify-center">
+                  Ver Catálogo <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
                 </Link>
               </div>
             </div>
@@ -58,22 +56,21 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 border-b border-gray-100 pb-8">
             <div className="max-w-xl">
-              <h2 className="text-4xl font-oswald font-bold text-slate-900 mb-4">LOGÍSTICA Y CALIDAD <br />SIN COMPROMISOS</h2>
-              <div className="text-slate-500 leading-relaxed space-y-4">
+              <h2 className="text-5xl md:text-6xl font-oswald font-bold text-slate-900 mb-6">
+                SOMOS <span className="text-orange-600">VICBRIL</span> DISTRIBUIDORES MAYORISTAS
+              </h2>
+              <div className="text-slate-500 text-lg leading-relaxed space-y-5">
+                <p>de conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.</p>
                 <p>Contamos con un centro logístico propio en el Nuevo Polo Spegazzini, con más de 5.000 m² de capacidad operativa, lo que nos permite garantizar disponibilidad, respuesta rápida y entregas eficientes en todo el país.</p>
                 <p>En Vicbril Internacional S.A. brindamos un servicio de excelencia en la provisión de conductores eléctricos, respaldados por trayectoria, infraestructura y un equipo especializado.</p>
               </div>
             </div>
             <div className="hidden md:block relative w-2/5">
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
+              <img
+                src="/images/vicbril-imagen.webp"
+                alt="Vicbril Internacional"
                 className="w-full ml-auto aspect-[16/10] object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
-              >
-                <source src="/images/videohero.mp4" type="video/mp4" />
-              </video>
+              />
             </div>
           </div>
 
@@ -86,8 +83,8 @@ const Home: React.FC = () => {
             ].map((item, idx) => (
               <div key={idx} className="bg-white p-10 hover:bg-gray-50 transition-colors group">
                 <item.icon size={32} strokeWidth={1.5} className="text-slate-400 mb-6 group-hover:text-orange-600 transition-colors" />
-                <h3 className="text-lg font-oswald font-bold text-slate-900 mb-3 tracking-wide">{item.title}</h3>
-                <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
+                <h3 className="text-xl font-oswald font-bold text-slate-900 mb-3 tracking-wide">{item.title}</h3>
+                <p className="text-base text-slate-500 leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
