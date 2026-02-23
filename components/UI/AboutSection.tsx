@@ -83,7 +83,16 @@ const AboutSection: React.FC = () => {
                                 Vicbril Internacional S.A. es una organización con más de 25 años de trayectoria en el mercado eléctrico nacional, especializándose en la distribución mayorista de conductores de energía de hasta 33kV.
                             </p>
                             <p>
-                                Nuestra actividad se basa en brindar soluciones integrales mediante el asesoramiento técnico especializado y la provisión de materiales de la más alta calidad. Profundizamos en las necesidades de cada proyecto para lograr una integración total con las exigencias del sector OIL & GAS, energía e infraestructura.
+                                Nuestra actividad se basa en ofrecer disponibilidad inmediata de conductores eléctricos de baja y media tensión, con el portafolio más amplio del mercado en variedades de polímeros conductores y secciones.
+                            </p>
+                            <p>
+                                Contamos con stock permanente para responder de forma ágil a proyectos de distintas escalas, garantizando rapidez en la entrega y consistencia en la calidad.
+                            </p>
+                            <p>
+                                Acompañamos cada operación con asesoramiento técnico especializado, orientado a optimizar tiempos, costos y desempeño, integrándonos a las exigencias de los sectores de energía, infraestructura y OIL &amp; GAS.
+                            </p>
+                            <p>
+                                Así, nos posicionamos como un socio estratégico capaz de abastecer con confiabilidad, rapidez y precisión técnica cada etapa del proyecto.
                             </p>
                         </div>
 

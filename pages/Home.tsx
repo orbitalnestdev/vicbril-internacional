@@ -31,7 +31,7 @@ const Home: React.FC = () => {
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-oswald text-slate-900 leading-[0.9] mb-10 tracking-tight">
                 <span className="text-orange-600">CABLES</span> DE BAJA Y <br />
                 MEDIA TENSIÓN PARA <br />
-                PROYECTOS EXIGENTES
+                ENTREGA INMEDIATA
               </h1>
 
 
@@ -60,9 +60,11 @@ const Home: React.FC = () => {
                 DISTRIBUIDORES MAYORISTAS
               </h2>
               <div className="text-slate-500 text-lg leading-relaxed space-y-5">
-                <p>De conductores eléctricos y cables especiales, trabajando con más de 15 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL & GAS y redes eléctricas.</p>
-                <p>Contamos con un centro logístico propio en el Nuevo Polo Spegazzini, con más de 5.000 m² de capacidad operativa, lo que nos permite garantizar disponibilidad, respuesta rápida y entregas eficientes en todo el país.</p>
-                <p>En Vicbril Internacional S.A. brindamos un servicio de excelencia en la provisión de conductores eléctricos, respaldados por trayectoria, infraestructura y un equipo especializado.</p>
+                <p>De conductores eléctricos y cables especiales, trabajando con más de 25 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL &amp; GAS y redes eléctricas.</p>
+                <p>Contamos con un centro logístico propio en el Nuevo Polo Spegazzini, con más de 5.000 m² de capacidad operativa, junto con flota propia de alta capacidad de carga, lo que nos permite garantizar disponibilidad permanente, respuesta rápida y entregas eficientes en todo el país.</p>
+                <p>En Vicbril Internacional S.A. brindamos un servicio de excelencia en la provisión de conductores eléctricos, respaldados por trayectoria, infraestructura y un equipo técnico especializado.</p>
+                <p>Comercializamos conductores eléctricos bajo normas internacionales IEC, destacándose IEC 60228, IEC 60502, IEC 60332, IEC 60754, entre otras.</p>
+                <p>Cada conductor cuenta con su protocolo de ensayo correspondiente, y los ensayos pueden ser presenciados, garantizando trazabilidad, calidad y cumplimiento normativo en cada suministro.</p>
               </div>
             </div>
             <div className="hidden md:block relative w-2/5">
