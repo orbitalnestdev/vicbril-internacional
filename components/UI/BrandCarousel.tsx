@@ -18,12 +18,12 @@ const BrandCarousel: React.FC = () => {
                             {displayBrands.map((brand, idx) => (
                                 <div
                                     key={`${brand.name}-${idx}`}
-                                    className="flex items-center justify-center min-w-[160px] md:min-w-[220px] transition-all duration-300 hover:scale-110"
+                                    className="flex items-center justify-center w-48 md:w-64 lg:w-[350px] px-8 transition-all duration-300 hover:scale-110 flex-shrink-0"
                                 >
                                     <img
                                         src={brand.logo}
                                         alt={brand.name}
-                                        className="h-10 md:h-16 w-auto object-contain pointer-events-none drop-shadow-sm"
+                                        className="w-full h-auto max-h-32 object-contain pointer-events-none drop-shadow-sm mix-blend-multiply"
                                         loading="lazy"
                                         onError={(e) => {
                                             (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${brand.name}&background=f1f5f9&color=0f172a&bold=true&font-size=0.3`;

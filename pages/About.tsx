@@ -11,7 +11,7 @@ const About: React.FC = () => {
                <span className="text-orange-500 text-xl font-bold tracking-[0.4em] uppercase mb-4 block">Nuestra Esencia</span>
                <h1 className="text-6xl md:text-8xl font-oswald font-bold text-white mb-6">MÁS QUE DISTRIBUIDORES,<br />SOCIOS ESTRATÉGICOS</h1>
                <p className="text-slate-300 max-w-2xl mx-auto text-2xl font-light leading-relaxed">
-                  Desde 1998, construyendo la red de energía más confiable para la industria mexicana.
+                  Desde 1998, construyendo la red de energía más confiable para la industria argentina.
                </p>
             </div>
          </div>
@@ -50,9 +50,9 @@ const About: React.FC = () => {
             <div className="container mx-auto px-6">
                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   {[
-                     { icon: Target, title: "MISIÓN", text: "Suministrar soluciones en conducción eléctrica que garanticen la seguridad y eficiencia energética de los proyectos de nuestros clientes, mediante un servicio técnico y logístico de excelencia." },
-                     { icon: Award, title: "VISIÓN", text: "Ser reconocidos como la referencia de confianza y calidad técnica en el mercado de alta tensión en México, impulsando el crecimiento de nuestra industria." },
-                     { icon: Briefcase, title: "VALORES", text: "Integridad en cada trato, Precisión en cada entrega, y Conocimiento Técnico como base de nuestra asesoría. Creemos en relaciones de largo plazo." }
+                     { icon: Target, title: "MISIÓN", text: "Nuestra misión es suministrar las mejores soluciones en cables de energía para nuestros clientes, contribuyendo asimismo a optimizar su seguridad y también su productividad." },
+                     { icon: Award, title: "VISIÓN", text: "Nuestra visión es trabajar cerca de sus clientes brindando soluciones confiables de Punta a Punta basadas en su concepto de Valor Institucional, Productivo, Humano y Tecnológico." },
+                     { icon: Briefcase, title: "CALIDAD", text: "Hemos incrementado su presencia internacional, constituyéndose en la empresa Argentina del sector eléctrico con más reconocimientos por su vocación exportadora." }
                   ].map((item, idx) => (
                      <div key={idx} className="bg-white p-10 shadow-sm border border-gray-100 hover:shadow-xl transition-shadow duration-300 border-t-4 border-t-slate-900 hover:border-t-orange-600 group">
                         <item.icon size={40} className="text-slate-300 mb-8 group-hover:text-orange-600 transition-colors" />

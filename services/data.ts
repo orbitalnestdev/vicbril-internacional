@@ -104,9 +104,9 @@ export const products: Product[] = [
 ];
 
 export const brands = [
-  { name: 'MH', logo: 'https://images.weserv.nl/?url=https://www.industriasmh.com.ar/wp-content/themes/industriasmh/assets/img/logo.png&w=400&fit=contain&format=webp' },
-  { name: 'Neutroluz', logo: 'https://images.weserv.nl/?url=https://distribuidoradelnorte.com/wp-content/uploads/2021/10/Marca_neutroluz.png&w=400&fit=contain&format=webp' },
-  { name: 'JELUZ', logo: 'https://images.weserv.nl/?url=https://www.jeluz.net/wp-content/uploads/2021/05/Logo-Jeluz-1.png&w=400&fit=contain&format=webp' },
-  { name: 'Schneider Electric', logo: 'https://images.weserv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Schneider_Electric_2007.svg/1024px-Schneider_Electric_2007.svg.png&w=400&fit=contain&format=webp' },
-  { name: 'CHINT', logo: 'https://images.weserv.nl/?url=https://chintglobal.com/wp-content/uploads/2021/04/logo.png&w=400&fit=contain&format=webp' }
+  { name: 'Logo 1', logo: '/images/logos/Logos_-1.png' },
+  { name: 'Logo 2', logo: '/images/logos/Logos_-2.png' },
+  { name: 'Logo 3', logo: '/images/logos/Logos_-3.png' },
+  { name: 'Logo 4', logo: '/images/logos/Logos_-4.png' },
+  { name: 'Logo 5', logo: '/images/logos/Logos_-5.png' }
 ];
