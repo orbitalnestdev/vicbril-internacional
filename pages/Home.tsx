@@ -16,9 +16,9 @@ const Home: React.FC = () => {
         {/* Background Layer */}
         <div className="absolute inset-x-0 bottom-0 top-24 z-0 bg-slate-50">
           <img
-            src="/images/Vicbril-banner_01-1.png"
+            src="/images/banner-principal.png"
             alt="Vicbril Banner"
-            className="w-full h-full object-contain object-center"
+            className="w-full h-full object-cover object-center"
           />
         </div>
 
@@ -122,7 +122,7 @@ const Home: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent"></div>
                 <div className="absolute inset-0 flex flex-col justify-end p-8">
                   <div className="border-l-4 border-orange-600 pl-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                    <h3 className="text-2xl font-oswald font-bold text-white mb-1">{cat.name}</h3>
+                    <h3 className="text-3xl md:text-4xl font-oswald font-bold text-white mb-1 uppercase tracking-tight">{cat.name}</h3>
                   </div>
                 </div>
               </div>
