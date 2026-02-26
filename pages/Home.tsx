@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Truck, Zap, ClipboardList, CheckCircle } from 'lucide-react';
-import { categories, products } from '../services/data';
+import { categories, products, brands } from '../services/data';
 import BrandCarousel from '../components/UI/BrandCarousel';
 import GoogleMap from '../components/UI/GoogleMap';
 import AboutSection from '../components/UI/AboutSection';
@@ -34,7 +34,17 @@ const Home: React.FC = () => {
                 ENTREGA INMEDIATA
               </h1>
 
-
+              {/* Brands Logos precisely under Hero Title */}
+              <div className="mb-12 flex flex-wrap items-center gap-x-12 gap-y-6">
+                {brands.map((brand, idx) => (
+                  <img
+                    key={idx}
+                    src={brand.logo}
+                    alt={brand.name}
+                    className="h-10 md:h-14 w-auto object-contain transition-all duration-500 hover:scale-110"
+                  />
+                ))}
+              </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center shadow-xl shadow-orange-600/20">

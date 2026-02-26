@@ -3,47 +3,46 @@ import { Product, Category } from '../types';
 export const categories: Category[] = [
   {
     id: '1',
-    name: 'Baja y Media Tensión',
-    slug: 'baja-media-tension',
-    image: '/images/category-low-voltage.png',
-    banner: 'https://images.unsplash.com/photo-1544724569-5f546fd6dd2d?q=80&w=2000&auto=format&fit=crop'
+    name: 'Cables Unipolares',
+    slug: 'cables-unipolares',
+    image: '/images/cables/Cables unipolares.jpg',
+    banner: '/images/cables/Cables unipolares.jpg'
   },
   {
     id: '2',
-    name: 'Cables Especiales',
-    slug: 'cables-especiales',
-    image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=800&auto=format&fit=crop',
-    banner: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop'
+    name: 'Media Tensión',
+    slug: 'media-tension',
+    image: '/images/cables/Cables media tension.jpg',
+    banner: '/images/cables/Cables media tension.jpg'
   },
   {
     id: '3',
-    name: 'Fibra Óptica',
-    slug: 'fibra-optica',
-    image: 'https://images.unsplash.com/photo-1597733336794-12d05021d510?q=80&w=800&auto=format&fit=crop', // Fiber optics
-    banner: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop'
+    name: 'Cables de Comando',
+    slug: 'cables-comando',
+    image: '/images/cables/Cables-comando.jpg',
+    banner: '/images/cables/Cables-comando.jpg'
   },
   {
     id: '4',
     name: 'Cables Subterráneos',
     slug: 'cables-subterraneos',
-    image: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=800&auto=format&fit=crop', // Underground/Tunnel
-    banner: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=2000&auto=format&fit=crop'
+    image: '/images/cables/Cables-subterraneos.jpg',
+    banner: '/images/cables/Cables-subterraneos.jpg'
   },
   {
     id: '5',
-    name: 'Alumbrado Profesional',
-    slug: 'alumbrado-profesional',
-    image: 'https://images.unsplash.com/photo-1543131001-3f7ba8d32d0f?q=80&w=800&auto=format&fit=crop', // High-bay industrial lighting
-    banner: 'https://images.unsplash.com/photo-1543131001-3f7ba8d32d0f?q=80&w=2000&auto=format&fit=crop'
+    name: 'Cables de Instrumentación',
+    slug: 'cables-instrumentacion',
+    image: '/images/cables/Cables de instrumentación.jpg',
+    banner: '/images/cables/Cables de instrumentación.jpg'
   },
   {
     id: '6',
-    name: 'Protección y Maniobra',
-    slug: 'proteccion-maniobra',
-    image: 'https://images.unsplash.com/photo-1610473215682-62ce98e9860b?q=80&w=800&auto=format&fit=crop', // Electrical cabinet/protection units
-    banner: 'https://images.unsplash.com/photo-1610473215682-62ce98e9860b?q=80&w=2000&auto=format&fit=crop'
+    name: 'Cables Tipo Taller',
+    slug: 'cables-tipo-taller',
+    image: '/images/cables/Cables-tipo-taller.jpg',
+    banner: '/images/cables/Cables-tipo-taller.jpg'
   }
-
 ];
 
 export const products: Product[] = [
