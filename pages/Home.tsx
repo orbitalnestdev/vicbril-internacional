@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       {/* Hero Section - Industrial Impact */}
       <section className="relative min-h-screen flex flex-col bg-white overflow-hidden">
         {/* Background Layer */}
-        <div className="absolute inset-x-0 bottom-0 top-[160px] z-0 bg-white flex items-center justify-end">
+        <div className="absolute inset-x-0 bottom-0 top-[120px] z-0 bg-white flex items-center justify-end">
           <img
             src="/images/banner-principal.png"
             alt="Vicbril Banner"
