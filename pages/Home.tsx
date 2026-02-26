@@ -14,11 +14,11 @@ const Home: React.FC = () => {
       {/* Hero Section - Industrial Impact */}
       <section className="relative min-h-screen flex flex-col bg-white overflow-hidden">
         {/* Background Layer */}
-        <div className="absolute inset-x-0 bottom-0 top-24 z-0 bg-slate-50">
+        <div className="absolute inset-x-0 bottom-0 top-0 z-0 bg-slate-50 flex items-end">
           <img
             src="/images/banner-principal.png"
             alt="Vicbril Banner"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-contain md:object-cover object-bottom"
           />
         </div>
 
