@@ -14,16 +14,16 @@ const Home: React.FC = () => {
       {/* Hero Section - Industrial Impact */}
       <section className="relative min-h-screen flex flex-col bg-white overflow-hidden">
         {/* Background Layer */}
-        <div className="absolute inset-x-0 bottom-0 top-0 z-0 bg-slate-50 flex items-end">
+        <div className="absolute inset-x-0 bottom-0 top-[160px] z-0 bg-white flex items-center justify-end">
           <img
             src="/images/banner-principal.png"
             alt="Vicbril Banner"
-            className="w-full h-full object-contain md:object-cover object-bottom"
+            className="w-full h-full object-contain object-right"
           />
         </div>
 
         {/* Content Area */}
-        <div className="flex-grow flex items-center relative z-10 pt-20">
+        <div className="flex-grow flex items-center relative z-10 pt-44">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl">
               <span className="text-orange-600 text-6xl font-bold uppercase mb-6 block">somos vicbril</span>
