@@ -3,45 +3,45 @@ import { Product, Category } from '../types';
 export const categories: Category[] = [
   {
     id: '1',
-    name: 'Cables Unipolares',
-    slug: 'cables-unipolares',
-    image: '/images/cables/Cables unipolares.jpg',
-    banner: '/images/cables/Cables unipolares.jpg'
-  },
-  {
-    id: '2',
     name: 'Media Tensión',
     slug: 'media-tension',
     image: '/images/cables/Cables media tension.jpg',
     banner: '/images/cables/Cables media tension.jpg'
   },
   {
-    id: '3',
-    name: 'Cables de Comando',
-    slug: 'cables-comando',
-    image: '/images/cables/Cables-comando.jpg',
-    banner: '/images/cables/Cables-comando.jpg'
-  },
-  {
-    id: '4',
-    name: 'Cables Subterráneos',
-    slug: 'cables-subterraneos',
-    image: '/images/cables/Cables-subterraneos.jpg',
-    banner: '/images/cables/Cables-subterraneos.jpg'
-  },
-  {
-    id: '5',
+    id: '2',
     name: 'Cables de Instrumentación',
     slug: 'cables-instrumentacion',
     image: '/images/cables/Cables de instrumentación.jpg',
     banner: '/images/cables/Cables de instrumentación.jpg'
   },
   {
-    id: '6',
+    id: '3',
+    name: 'Cables Unipolares',
+    slug: 'cables-unipolares',
+    image: '/images/cables/Cables unipolares.jpg',
+    banner: '/images/cables/Cables unipolares.jpg'
+  },
+  {
+    id: '4',
     name: 'Cables Tipo Taller',
     slug: 'cables-tipo-taller',
     image: '/images/cables/Cables-tipo-taller.jpg',
     banner: '/images/cables/Cables-tipo-taller.jpg'
+  },
+  {
+    id: '5',
+    name: 'Cables Subterráneos',
+    slug: 'cables-subterraneos',
+    image: '/images/cables/Cables-subterraneos.jpg',
+    banner: '/images/cables/Cables-subterraneos.jpg'
+  },
+  {
+    id: '6',
+    name: 'Cables de Comando',
+    slug: 'cables-comando',
+    image: '/images/cables/Cables-comando.jpg',
+    banner: '/images/cables/Cables-comando.jpg'
   }
 ];
 

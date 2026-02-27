@@ -6,6 +6,7 @@ import BrandCarousel from '../components/UI/BrandCarousel';
 import GoogleMap from '../components/UI/GoogleMap';
 import AboutSection from '../components/UI/AboutSection';
 import WhyChooseUs from '../components/UI/WhyChooseUs';
+import ContactForm from '../components/UI/ContactForm';
 
 const Home: React.FC = () => {
   return (
@@ -167,7 +168,7 @@ const Home: React.FC = () => {
 
       <GoogleMap />
 
-      {/* Corporate CTA */}
+      {/* Corporate CTA & Contact Form */}
       <section className="py-28 bg-slate-900 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img src="/images/vicbril-warehouse-cta.jpg" alt="Centro Logístico Vicbril" className="w-full h-full object-cover opacity-20" />
@@ -175,19 +176,31 @@ const Home: React.FC = () => {
         </div>
         <div className="absolute top-0 right-0 w-1/2 h-full bg-orange-600/10 skew-x-12 transform translate-x-20 z-0"></div>
         <div className="container mx-auto px-6 relative z-10">
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="max-w-2xl mb-10 md:mb-0">
-              <h2 className="text-4xl md:text-5xl font-oswald font-bold text-white mb-6 leading-tight">
+          <div className="flex flex-col lg:flex-row items-start justify-between gap-16">
+            <div className="max-w-2xl mt-10">
+              <span className="text-orange-500 font-bold text-xs uppercase tracking-[0.3em] mb-4 block border-l-2 border-orange-500 pl-4">Hablemos de tu proyecto</span>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-oswald font-bold text-white mb-8 leading-tight">
                 ¿TIENES UN PROYECTO <br /> EN PUERTA?
               </h2>
-              <p className="text-slate-400 text-lg">
-                Solicita una cotización formal para tu lista de materiales. Precios competitivos por volumen y atención dedicada a empresas.
-              </p>
+              <div className="space-y-6 text-slate-400 text-lg mb-10">
+                <p>
+                  Solicita una cotización formal para tu lista de materiales. Precios competitivos por volumen y atención dedicada a empresas.
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6">
+                  <div className="bg-white/5 backdrop-blur-sm p-6 border border-white/10">
+                    <h3 className="text-white font-oswald font-bold uppercase mb-2">Entrega Inmediata</h3>
+                    <p className="text-sm">Stock permanente en los calibres de mayor rotación.</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm p-6 border border-white/10">
+                    <h3 className="text-white font-oswald font-bold uppercase mb-2">Precios Mayoristas</h3>
+                    <p className="text-sm">Beneficios exclusivos para constructoras y gremio.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-              <Link to="/contacto" className="bg-white text-slate-900 font-bold font-oswald text-lg px-12 py-6 uppercase tracking-widest hover:bg-orange-600 hover:text-white transition-colors shadow-2xl">
-                Contactar Asesor
-              </Link>
+
+            <div className="w-full lg:w-[500px] xl:w-[600px]">
+              <ContactForm />
             </div>
           </div>
         </div>
