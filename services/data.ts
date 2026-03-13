@@ -2,46 +2,67 @@ import { Product, Category } from '../types';
 
 export const categories: Category[] = [
   {
-    id: '1',
-    name: 'Media Tensión',
+    id: 'civil',
+    name: 'Cables para Instalación Civil',
+    slug: 'instalacion-civil',
+    image: '/images/home_productos/Cables para Instalación Civil.jpg',
+    banner: '/images/home_productos/Cables para Instalación Civil.jpg'
+  },
+  {
+    id: 'aerea',
+    name: 'Cables Instalación Aérea',
+    slug: 'instalacion-aerea',
+    image: '/images/home_productos/Cables Instalación Aérea.jpg',
+    banner: '/images/home_productos/Cables Instalación Aérea.jpg'
+  },
+  {
+    id: 'potencia',
+    name: 'Cables de Potencia',
+    slug: 'potencia',
+    image: '/images/home_productos/Cables de potencia.jpg',
+    banner: '/images/home_productos/Cables de potencia.jpg'
+  },
+  {
+    id: 'media-tension',
+    name: 'Cables Media Tensión',
     slug: 'media-tension',
-    image: '/images/cables/Cables media tension.jpg',
-    banner: '/images/cables/Cables media tension.jpg'
+    image: '/images/home_productos/Cables-media-tension.jpg',
+    banner: '/images/home_productos/Cables-media-tension.jpg'
   },
   {
-    id: '2',
-    name: 'Cables de Instrumentación',
-    slug: 'cables-instrumentacion',
-    image: '/images/cables/Cables de instrumentación.jpg',
-    banner: '/images/cables/Cables de instrumentación.jpg'
+    id: 'industriales',
+    name: 'Cables Industriales',
+    slug: 'industriales',
+    image: '/images/home_productos/Cables industriales.jpg',
+    banner: '/images/home_productos/Cables industriales.jpg'
   },
   {
-    id: '3',
-    name: 'Cables Unipolares',
-    slug: 'cables-unipolares',
-    image: '/images/cables/Cables unipolares.jpg',
-    banner: '/images/cables/Cables unipolares.jpg'
+    id: 'alta-temperatura',
+    name: 'Cables Alta Temperatura',
+    slug: 'alta-temperatura',
+    image: '/images/home_productos/Cables-alta-temperatura.jpg',
+    banner: '/images/home_productos/Cables-alta-temperatura.jpg'
   },
   {
-    id: '4',
-    name: 'Cables Tipo Taller',
-    slug: 'cables-tipo-taller',
-    image: '/images/cables/Cables-tipo-taller.jpg',
-    banner: '/images/cables/Cables-tipo-taller.jpg'
+    id: 'armados',
+    name: 'Cables Armados',
+    slug: 'armados',
+    image: '/images/home_productos/Cables-armados.jpg',
+    banner: '/images/home_productos/Cables-armados.jpg'
   },
   {
-    id: '5',
-    name: 'Cables Subterráneos',
-    slug: 'cables-subterraneos',
-    image: '/images/cables/Cables-subterraneos.jpg',
-    banner: '/images/cables/Cables-subterraneos.jpg'
+    id: 'especiales',
+    name: 'Resto de Cables Especiales',
+    slug: 'cables-especiales',
+    image: '/images/home_productos/Resto-de-Cables-Especiales.jpg',
+    banner: '/images/home_productos/Resto-de-Cables-Especiales.jpg'
   },
   {
-    id: '6',
-    name: 'Cables de Comando',
-    slug: 'cables-comando',
-    image: '/images/cables/Cables-comando.jpg',
-    banner: '/images/cables/Cables-comando.jpg'
+    id: 'materiales-electricos',
+    name: 'Resto de Materiales Eléctricos',
+    slug: 'materiales-electricos',
+    image: '/images/home_productos/Materiales electricos.jpg',
+    banner: '/images/home_productos/Materiales electricos.jpg'
   }
 ];
 
