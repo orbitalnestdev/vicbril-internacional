@@ -5,64 +5,64 @@ export const categories: Category[] = [
     id: 'civil',
     name: 'Cables para Instalación Civil',
     slug: 'instalacion-civil',
-    image: '/images/home_productos/Cables para Instalación Civil.jpg',
-    banner: '/images/home_productos/Cables para Instalación Civil.jpg'
+    image: '/images/fotos-nuevas/Cables para Instalación Civil.jpg',
+    banner: '/images/fotos-nuevas/Cables para Instalación Civil.jpg'
   },
   {
     id: 'aerea',
     name: 'Cables Instalación Aérea',
     slug: 'instalacion-aerea',
-    image: '/images/home_productos/Cables Instalación Aérea.jpg',
-    banner: '/images/home_productos/Cables Instalación Aérea.jpg'
+    image: '/images/fotos-nuevas/Cables Instalación Aérea.jpg',
+    banner: '/images/fotos-nuevas/Cables Instalación Aérea.jpg'
   },
   {
     id: 'potencia',
     name: 'Cables de Potencia',
     slug: 'potencia',
-    image: '/images/home_productos/Cables de potencia.jpg',
-    banner: '/images/home_productos/Cables de potencia.jpg'
+    image: '/images/fotos-nuevas/Cables de potencia.jpg',
+    banner: '/images/fotos-nuevas/Cables de potencia.jpg'
   },
   {
     id: 'media-tension',
     name: 'Cables Media Tensión',
     slug: 'media-tension',
-    image: '/images/home_productos/Cables-media-tension.jpg',
-    banner: '/images/home_productos/Cables-media-tension.jpg'
+    image: '/images/fotos-nuevas/Cables-media-tension.jpg',
+    banner: '/images/fotos-nuevas/Cables-media-tension.jpg'
   },
   {
     id: 'industriales',
     name: 'Cables Industriales',
     slug: 'industriales',
-    image: '/images/home_productos/Cables industriales.jpg',
-    banner: '/images/home_productos/Cables industriales.jpg'
+    image: '/images/fotos-nuevas/Cables industriales.jpg',
+    banner: '/images/fotos-nuevas/Cables industriales.jpg'
   },
   {
     id: 'alta-temperatura',
     name: 'Cables Alta Temperatura',
     slug: 'alta-temperatura',
-    image: '/images/home_productos/Cables-alta-temperatura.jpg',
-    banner: '/images/home_productos/Cables-alta-temperatura.jpg'
+    image: '/images/fotos-nuevas/Cables-alta-temperatura.jpg',
+    banner: '/images/fotos-nuevas/Cables-alta-temperatura.jpg'
   },
   {
     id: 'armados',
     name: 'Cables Armados',
     slug: 'armados',
-    image: '/images/home_productos/Cables-armados.jpg',
-    banner: '/images/home_productos/Cables-armados.jpg'
+    image: '/images/fotos-nuevas/Cables-armados.jpg',
+    banner: '/images/fotos-nuevas/Cables-armados.jpg'
   },
   {
     id: 'especiales',
     name: 'Resto de Cables Especiales',
     slug: 'cables-especiales',
-    image: '/images/home_productos/Resto-de-Cables-Especiales.jpg',
-    banner: '/images/home_productos/Resto-de-Cables-Especiales.jpg'
+    image: '/images/fotos-nuevas/Resto-de-Cables-Especiales.jpg',
+    banner: '/images/fotos-nuevas/Resto-de-Cables-Especiales.jpg'
   },
   {
     id: 'materiales-electricos',
     name: 'Resto de Materiales Eléctricos',
     slug: 'materiales-electricos',
-    image: '/images/home_productos/Materiales electricos.jpg',
-    banner: '/images/home_productos/Materiales electricos.jpg'
+    image: '/images/fotos-nuevas/Materiales electricos.jpg',
+    banner: '/images/fotos-nuevas/Materiales electricos.jpg'
   }
 ];
 
