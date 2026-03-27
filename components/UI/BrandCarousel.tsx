@@ -6,39 +6,39 @@ const BrandCarousel: React.FC = () => {
     const displayBrands = [...brands, ...brands, ...brands];
 
     return (
-        <section className="py-24 bg-slate-900 relative overflow-hidden">
+        <section className="py-16 md:py-24 bg-slate-900 relative overflow-hidden">
             <div className="container mx-auto px-6">
-                <div className="bg-white rounded-[5rem] py-16 md:py-24 px-12 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.6)]">
-                    <div className="flex flex-wrap justify-center gap-y-16 md:gap-y-24">
-                        {/* First 4: Full row on desktop */}
-                        <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 md:gap-24 w-full place-items-center">
+                <div className="bg-white rounded-[4rem] py-12 md:py-16 px-6 md:px-12 shadow-[0_20px_50px_rgba(0,0,0,0.4)]">
+                    <div className="flex flex-col items-center gap-12 md:gap-16">
+                        {/* Top row: 4 logos */}
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 w-full max-w-6xl">
                             {brands.slice(0, 4).map((brand, idx) => (
                                 <div
                                     key={`${brand.name}-${idx}`}
-                                    className="flex items-center justify-center w-full transition-all duration-700 hover:scale-110 hover:rotate-2 opacity-0 animate-[fadeIn_0.5s_ease-out_forwards]"
-                                    style={{ animationDelay: `${idx * 150}ms` }}
+                                    className="flex items-center justify-center h-24 md:h-32 w-full transition-all duration-500 hover:scale-110 opacity-0 animate-[fadeIn_0.6s_ease-out_forwards]"
+                                    style={{ animationDelay: `${idx * 100}ms` }}
                                 >
                                     <img
                                         src={brand.logo}
                                         alt={brand.name}
-                                        className="w-full h-auto max-h-24 md:max-h-32 object-contain pointer-events-none transition-all duration-500 hover:brightness-110"
+                                        className="h-full w-auto max-w-[85%] object-contain pointer-events-none drop-shadow-sm"
                                         loading="lazy"
                                     />
                                 </div>
                             ))}
                         </div>
-                        {/* Remaining brands (1 or more): Centered row */}
-                        <div className="flex flex-wrap justify-center gap-12 md:gap-24 w-full">
+                        {/* Bottom row: Center logo */}
+                        <div className="flex justify-center w-full">
                             {brands.slice(4).map((brand, idx) => (
                                 <div
                                     key={`${brand.name}-${idx}`}
-                                    className="flex items-center justify-center w-52 md:w-64 lg:w-72 transition-all duration-700 hover:scale-110 hover:-rotate-2 opacity-0 animate-[fadeIn_0.5s_ease-out_forwards]"
-                                    style={{ animationDelay: `${(idx + 4) * 150}ms` }}
+                                    className="flex items-center justify-center h-24 md:h-32 w-full max-w-[250px] transition-all duration-500 hover:scale-110 opacity-0 animate-[fadeIn_0.6s_ease-out_forwards]"
+                                    style={{ animationDelay: `${(idx + 4) * 100}ms` }}
                                 >
                                     <img
                                         src={brand.logo}
                                         alt={brand.name}
-                                        className="w-full h-auto max-h-24 md:max-h-32 object-contain pointer-events-none transition-all duration-500 hover:brightness-110"
+                                        className="h-full w-auto max-w-[90%] object-contain pointer-events-none drop-shadow-sm"
                                         loading="lazy"
                                     />
                                 </div>
