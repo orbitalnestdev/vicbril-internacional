@@ -43,12 +43,12 @@ const Header: React.FC = () => {
       </div>
 
       {/* Main Nav */}
-      <div className={`container mx-auto px-6 transition-all duration-300 ${isScrolled ? 'mt-0' : 'mt-8'}`}>
+      <div className={`container mx-auto px-6 transition-all duration-300 ${isScrolled ? 'mt-0' : 'mt-6'}`}>
         <div className="flex justify-between items-center">
 
           {/* Logo */}
           <Link to="/" className="flex items-center group relative z-50">
-            <img src="/images/logo-header.png" alt="Vicbril Internacional" className="h-24 w-auto object-contain" />
+            <img src="/images/logo-header.png" alt="Vicbril Internacional" className="h-28 md:h-40 w-auto object-contain transition-all duration-300" />
           </Link>
 
           {/* Desktop Menu */}

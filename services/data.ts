@@ -70,7 +70,7 @@ export const products: Product[] = [
   {
     id: 'bt-01',
     name: 'Cable THW-LS / THHW-LS',
-    category: 'Baja y Media Tensión',
+    category: 'Baja, Media y Alta Tensión',
     description: 'Conductor de cobre suave con aislamiento termoplástico de PVC. Ideal para instalaciones industriales and comerciales.',
     // Nueva imagen: Rollos industriales de cable con enfoque en el aislamiento y conductor
     image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1000&auto=format&fit=crop',
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: 'bt-02',
     name: 'Cable XHHW-2 Industrial',
-    category: 'Baja y Media Tensión',
+    category: 'Baja, Media y Alta Tensión',
     description: 'Aislamiento de polietileno de cadena cruzada (XLPE). Resistente a la abrasión y humedad. Diseñado para entornos exigentes.',
     // Imagen actualizada: Enfoque técnico en cableado industrial robusto
     image: 'https://images.unsplash.com/photo-1562408590-e32931084e23?q=80&w=1000&auto=format&fit=crop',
@@ -88,7 +88,7 @@ export const products: Product[] = [
   {
     id: 'mt-01',
     name: 'Cable Media Tensión XLP',
-    category: 'Baja y Media Tensión',
+    category: 'Baja, Media y Alta Tensión',
     description: 'Para distribución aérea o subterránea. Aislamiento XLP con pantalla electrostática para máxima seguridad.',
     // Imagen actualizada: Infraestructura eléctrica de potencia
     image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1000&auto=format&fit=crop',
@@ -97,7 +97,7 @@ export const products: Product[] = [
   {
     id: 'mt-02',
     name: 'Cable Energía EPR',
-    category: 'Baja y Media Tensión',
+    category: 'Baja, Media y Alta Tensión',
     description: 'Aislamiento de etileno propileno (EPR). Alta flexibilidad y resistencia al efecto corona.',
     // Detalle técnico de cable grueso
     image: 'https://images.unsplash.com/photo-1601058268499-e52658b8bb88?q=80&w=1000&auto=format&fit=crop',

@@ -5,17 +5,17 @@ const WhyChooseUs: React.FC = () => {
     const cards = [
         {
             title: 'Misión',
-            description: 'Nuestra misión es suministrar las mejores soluciones en cables de energía para nuestros clientes, contribuyendo asimismo a optimizar su seguridad y también su productividad.',
+            description: 'Brindar soluciones en cables y conductores eléctricos, garantizando disponibilidad de productos, asesoramiento técnico y una respuesta ágil que contribuya a la continuidad y eficiencia de cada proyecto.',
             icon: Target,
         },
         {
             title: 'Visión',
-            description: 'Nuestra visión es trabajar cerca de sus clientes brindando soluciones confiables de Punta a Punta basadas en su concepto de Valor Institucional, Productivo, Humano y Tecnológico.',
+            description: 'Consolidarnos como líderes en la distribución de conductores eléctricos, destacándonos por el stock permanente, la entrega inmediata y una logística propia que asegure respuestas rápidas y confiables.',
             icon: Eye,
         },
         {
             title: 'Calidad',
-            description: 'Hemos incrementado su presencia internacional, constituyéndose en la empresa Argentina del sector eléctrico con más reconocimientos por su vocación exportadora.',
+            description: 'Trabajamos con fabricantes líderes del mercado y sostenemos altos estándares en cada etapa del proceso, desde la selección de productos hasta la entrega, asegurando confiabilidad y cumplimiento en cada operación.',
             icon: Award,
         },
     ];

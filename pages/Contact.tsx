@@ -23,8 +23,8 @@ const Contact: React.FC = () => {
                         <div>
                            <h3 className="font-oswald font-bold text-2xl">OFICINAS Y CEDIS</h3>
                            <p className="text-slate-400 text-lg mt-1 leading-relaxed">
-                              Calle 6 N° 2185, Parque Industrial Spegazzini<br />
-                              Ezeiza, Buenos Aires
+                              San Salvador de Jujuy 1305, Lote 219.<br />
+                              Polo Industrial Spegazzini. Carlos Spegazzini, B.A.
                            </p>
                         </div>
                      </div>

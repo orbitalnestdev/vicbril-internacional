@@ -23,7 +23,7 @@ const About: React.FC = () => {
                   <div className="w-full md:w-1/2 relative">
                      <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-orange-600 -mt-4 -ml-4"></div>
                      <img
-                        src="/images/vicbril-warehouse-2.jpg"
+                        src="/images/home-nosotros/20260116_174205.jpg"
                         alt="Ingenieros en planta industrial"
                         className="shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 w-full h-auto object-cover"
                      />
@@ -50,9 +50,9 @@ const About: React.FC = () => {
             <div className="container mx-auto px-6">
                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   {[
-                     { icon: Target, title: "MISIÓN", text: "Nuestra misión es suministrar las mejores soluciones en cables de energía para nuestros clientes, contribuyendo asimismo a optimizar su seguridad y también su productividad." },
-                     { icon: Award, title: "VISIÓN", text: "Nuestra visión es trabajar cerca de sus clientes brindando soluciones confiables de Punta a Punta basadas en su concepto de Valor Institucional, Productivo, Humano y Tecnológico." },
-                     { icon: Briefcase, title: "CALIDAD", text: "Hemos incrementado su presencia internacional, constituyéndose en la empresa Argentina del sector eléctrico con más reconocimientos por su vocación exportadora." }
+                     { icon: Target, title: "MISIÓN", text: "Brindar soluciones en cables y conductores eléctricos, garantizando disponibilidad de productos, asesoramiento técnico y una respuesta ágil que contribuya a la continuidad y eficiencia de cada proyecto." },
+                     { icon: Award, title: "VISIÓN", text: "Consolidarnos como líderes en la distribución de conductores eléctricos, destacándonos por el stock permanente, la entrega inmediata y una logística propia que asegure respuestas rápidas y confiables." },
+                     { icon: Briefcase, title: "CALIDAD", text: "Trabajamos con fabricantes líderes del mercado y sostenemos altos estándares en cada etapa del proceso, desde la selección de productos hasta la entrega, asegurando confiabilidad y cumplimiento en cada operación." }
                   ].map((item, idx) => (
                      <div key={idx} className="bg-white p-10 shadow-sm border border-gray-100 hover:shadow-xl transition-shadow duration-300 border-t-4 border-t-slate-900 hover:border-t-orange-600 group">
                         <item.icon size={40} className="text-slate-300 mb-8 group-hover:text-orange-600 transition-colors" />

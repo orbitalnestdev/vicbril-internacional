@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start group">
                 <MapPin size={18} className="mr-3 text-orange-600 flex-shrink-0 mt-0.5 group-hover:text-white transition-colors" />
-                <span>Calle 6 N° 2185, Parque Industrial Spegazzini,<br />Ezeiza, Buenos Aires</span>
+                <span>San Salvador de Jujuy 1305, Lote 219. Polo Industrial Spegazzini.<br />Carlos Spegazzini, Buenos Aires.</span>
               </li>
               <li className="flex items-center group">
                 <Phone size={18} className="mr-3 text-orange-600 flex-shrink-0 group-hover:text-white transition-colors" />

@@ -30,22 +30,12 @@ const Home: React.FC = () => {
               <span className="text-orange-600 text-6xl font-bold uppercase mb-6 block">somos vicbril</span>
 
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-oswald text-slate-900 leading-[0.9] mb-10 tracking-tight">
-                <span className="text-orange-600">CABLES</span> DE BAJA Y <br />
-                MEDIA TENSIÓN PARA <br />
+                <span className="text-orange-600">CABLES</span> DE BAJA, MEDIA <br />
+                Y ALTA TENSIÓN PARA <br />
                 ENTREGA INMEDIATA
               </h1>
 
-              {/* Brands Logos precisely under Hero Title */}
-              <div className="mb-12 flex flex-wrap items-center gap-x-12 gap-y-6">
-                {brands.map((brand, idx) => (
-                  <img
-                    key={idx}
-                    src={brand.logo}
-                    alt={brand.name}
-                    className="h-10 md:h-14 w-auto object-contain transition-all duration-500 hover:scale-110"
-                  />
-                ))}
-              </div>
+
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center shadow-xl shadow-orange-600/20">
@@ -138,7 +128,7 @@ const Home: React.FC = () => {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-orange-600 text-xs font-bold tracking-widest uppercase mb-4 block">Especialistas en cables eléctricos de baja y media tensión</span>
+            <span className="text-orange-600 text-xs font-bold tracking-widest uppercase mb-4 block">Especialistas en cables eléctricos de baja, media y alta tensión</span>
             <h2 className="text-4xl font-oswald font-bold text-slate-900 mb-4">PRODUCTOS DESTACADOS</h2>
           </div>
 

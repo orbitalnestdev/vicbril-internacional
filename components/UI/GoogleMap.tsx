@@ -17,11 +17,11 @@ const GoogleMap: React.FC = () => {
                         <div className="space-y-4 text-slate-700">
                             <div className="flex items-start space-x-3">
                                 <div className="mt-2 flex-shrink-0 w-2 h-2 rounded-full bg-orange-600"></div>
-                                <p className="text-lg">Parque Industrial Spegazzini, Carlos Spegazzini</p>
+                                <p className="text-lg">San Salvador de Jujuy 1305, Lote 219. Polo Industrial Spegazzini.</p>
                             </div>
                             <div className="flex items-start space-x-3">
                                 <div className="mt-2 flex-shrink-0 w-2 h-2 rounded-full bg-orange-600"></div>
-                                <p className="text-lg">Provincia de Buenos Aires, Argentina</p>
+                                <p className="text-lg">Carlos Spegazzini, Buenos Aires, Argentina</p>
                             </div>
                         </div>
                     </div>
