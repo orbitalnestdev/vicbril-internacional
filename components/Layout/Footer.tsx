@@ -70,13 +70,13 @@ const Footer: React.FC = () => {
             <div className="flex space-x-6">
               {/* Badges Mockup */}
               <div className="flex items-center space-x-2 border border-slate-800 px-3 py-1 rounded">
-                <ShieldCheck size={16} /> <span className="text-xs font-bold">NOM-ANCE</span>
+                <ShieldCheck size={16} /> <span className="text-xs font-bold">IRAM</span>
               </div>
               <div className="flex items-center space-x-2 border border-slate-800 px-3 py-1 rounded">
                 <ShieldCheck size={16} /> <span className="text-xs font-bold">ISO 9001</span>
               </div>
               <div className="flex items-center space-x-2 border border-slate-800 px-3 py-1 rounded">
-                <ShieldCheck size={16} /> <span className="text-xs font-bold">CFE LAPEM</span>
+                <ShieldCheck size={16} /> <span className="text-xs font-bold">IEC</span>
               </div>
             </div>
           </div>

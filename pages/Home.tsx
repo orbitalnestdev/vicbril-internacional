@@ -80,7 +80,7 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-200 border border-gray-200">
             {[
               { icon: Truck, title: "LOGÍSTICA INTEGRAL", desc: "Coordinación precisa para entregas en obra o almacén." },
-              { icon: ShieldCheck, title: "NORMATIVIDAD", desc: "Material 100% certificado bajo normas NOM y estándares internacionales." },
+              { icon: ShieldCheck, title: "NORMATIVIDAD", desc: "Material 100% certificado bajo normas IEC e IRAM y estándares internacionales." },
               { icon: Zap, title: "STOCK PERMANENTE", desc: "Inventario robusto en calibres de alta rotación y especialidades." },
               { icon: ClipboardList, title: "SOPORTE TÉCNICO", desc: "Asesoría de ingenieros para la correcta especificación de conductores." }
             ].map((item, idx) => (
