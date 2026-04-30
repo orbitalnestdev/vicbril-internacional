@@ -43,12 +43,12 @@ const Header: React.FC = () => {
       </div>
 
       {/* Main Nav */}
-      <div className={`container mx-auto px-6 transition-all duration-300 ${isScrolled ? 'mt-0' : 'mt-6'}`}>
+      <div className={`container mx-auto px-6 transition-all duration-300 ${isScrolled ? 'mt-0' : 'mt-4'}`}>
         <div className="flex justify-between items-center">
 
           {/* Logo */}
-          <Link to="/" className="flex items-center group relative z-50">
-            <img src="/images/logo-header.png" alt="Vicbril Internacional" className="h-28 md:h-40 w-auto object-contain transition-all duration-300" />
+          <Link to="/" className="flex items-center group relative z-50 py-2">
+            <img src="/images/logo-header.png" alt="Vicbril Internacional" className="h-16 md:h-24 w-auto object-contain transition-all duration-300" />
           </Link>
 
           {/* Desktop Menu */}
@@ -56,7 +56,7 @@ const Header: React.FC = () => {
             {[
               { path: '/', label: 'Inicio' },
               { path: '/nosotros', label: 'Nosotros' },
-              { label: 'Catálogo', isStatic: true },
+              { path: '/productos', label: 'Catálogo' },
               { label: 'Ayuda', isStatic: true },
             ].map((link) => (
               link.isStatic ? (
@@ -81,9 +81,14 @@ const Header: React.FC = () => {
               )
             ))}
 
-            <Link to="/contacto" className={`${isScrolled || !isHome ? 'bg-slate-900 text-white' : 'bg-slate-900/5 backdrop-blur-md border border-slate-200 text-slate-900'} text-xs font-bold uppercase tracking-widest px-6 py-3 hover:bg-orange-600 hover:text-white transition-all duration-300 flex items-center`}>
-              Cotizar Proyecto <ChevronRight size={14} className="ml-1" />
-            </Link>
+            <a 
+              href="https://wa.me/5491131240403?text=Hola%20Vicbril,%20quisiera%20realizar%20una%20consulta." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={`${isScrolled || !isHome ? 'bg-slate-900 text-white' : 'bg-slate-900/5 backdrop-blur-md border border-slate-200 text-slate-900'} text-xs font-bold uppercase tracking-widest px-6 py-3 hover:bg-orange-600 hover:text-white transition-all duration-300 flex items-center shadow-sm`}
+            >
+              Consultar WhatsApp <ChevronRight size={14} className="ml-1" />
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -101,11 +106,16 @@ const Header: React.FC = () => {
         <div className="flex flex-col h-full justify-center px-8 space-y-8">
           <Link to="/" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">INICIO</Link>
           <Link to="/nosotros" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">NOSOTROS</Link>
-          <span className="text-3xl font-oswald font-bold text-slate-300 border-b border-gray-100 pb-4">CATÁLOGO</span>
+          <Link to="/productos" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">CATÁLOGO</Link>
           <span className="text-3xl font-oswald font-bold text-slate-300 border-b border-gray-100 pb-4">AYUDA</span>
-          <Link to="/contacto" className="text-orange-600 text-2xl font-oswald font-bold pt-4 flex items-center">
-            SOLICITAR COTIZACIÓN <ChevronRight className="ml-2" />
-          </Link>
+          <a 
+            href="https://wa.me/5491131240403?text=Hola%20Vicbril,%20quisiera%20realizar%20una%20consulta." 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-orange-600 text-2xl font-oswald font-bold pt-4 flex items-center"
+          >
+            CONSULTAR WHATSAPP <ChevronRight className="ml-2" />
+          </a>
 
           <div className="mt-auto pb-12 text-slate-500 text-sm">
             <p className="mb-2">Buenos Aires, Argentina</p>

@@ -41,7 +41,7 @@ const Home: React.FC = () => {
                 <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center shadow-xl shadow-orange-600/20">
                   Cotizar Proyecto
                 </Link>
-                <Link to="/contacto" className="group bg-white/80 backdrop-blur-sm border border-slate-200 text-slate-900 text-sm font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-white transition-all duration-300 flex items-center justify-center">
+                <Link to="/productos" className="group bg-white/80 backdrop-blur-sm border border-slate-200 text-slate-900 text-sm font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-white transition-all duration-300 flex items-center justify-center">
                   Ver Catálogo <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
                 </Link>
               </div>
@@ -108,15 +108,20 @@ const Home: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {categories.map((cat, idx) => (
-              <div key={cat.id} className="group relative h-80 overflow-hidden bg-slate-900">
+              <Link 
+                key={cat.id} 
+                to={`/productos?cat=${cat.id}`}
+                className="group relative h-80 overflow-hidden bg-slate-900 block"
+              >
                 <img src={cat.image} alt={cat.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-70 group-hover:opacity-50" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent"></div>
                 <div className="absolute inset-0 flex flex-col justify-end p-8">
                   <div className="border-l-4 border-orange-600 pl-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                     <h3 className="text-3xl md:text-4xl font-oswald font-bold text-white mb-1 uppercase tracking-tight">{cat.name}</h3>
+                    <p className="text-orange-500 text-xs font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-300">Ver Catálogo</p>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

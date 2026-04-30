@@ -5,8 +5,8 @@ export const categories: Category[] = [
     id: 'civil',
     name: 'Cables para Instalación Civil',
     slug: 'instalacion-civil',
-    image: '/images/fotos-nuevas/Cables para Instalación Civil.jpg',
-    banner: '/images/fotos-nuevas/Cables para Instalación Civil.jpg'
+    image: '/images/PRODUCTOS/PORTADA.png',
+    banner: '/images/PRODUCTOS/PORTADA.png'
   },
   {
     id: 'aerea',
@@ -68,58 +68,94 @@ export const categories: Category[] = [
 
 export const products: Product[] = [
   {
-    id: 'bt-01',
-    name: 'Cable THW-LS / THHW-LS',
-    category: 'Baja, Media y Alta Tensión',
-    description: 'Conductor de cobre suave con aislamiento termoplástico de PVC. Ideal para instalaciones industriales and comerciales.',
-    // Nueva imagen: Rollos industriales de cable con enfoque en el aislamiento y conductor
-    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1000&auto=format&fit=crop',
-    specs: ['600V', '90°C', 'Antiflama', 'Baja emisión de humos']
+    id: 'unipolar-pvc',
+    name: 'Cable Unipolar PVC',
+    category: 'Cables para Instalación Civil',
+    subCategory: '1-CABLE UNIPOLAR',
+    description: 'Conductores de cobre con aislación de PVC para instalaciones fijas.',
+    detailedDescription: 'Cable unipolar de cobre electrolítico recocido, aislado con una capa de PVC/A. Diseñados para instalaciones fijas en viviendas, oficinas y edificios industriales. Gran facilidad de deslizamiento en conductos.',
+    image: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/PORTADA.jpg',
+    gallery: [
+      '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/foto producto dentro de ficha tecnica.jpeg'
+    ],
+    technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/marcas disponibles unipolar pvc.jpg',
+    pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/FICHA TECNICA UNIP PVC (REEMPLAZAR FOTO DE ABAJO).pdf',
+    specs: ['750V', 'Norma IRAM 247-3', 'PVC Ecológico']
   },
   {
-    id: 'bt-02',
-    name: 'Cable XHHW-2 Industrial',
-    category: 'Baja, Media y Alta Tensión',
-    description: 'Aislamiento de polietileno de cadena cruzada (XLPE). Resistente a la abrasión y humedad. Diseñado para entornos exigentes.',
-    // Imagen actualizada: Enfoque técnico en cableado industrial robusto
-    image: 'https://images.unsplash.com/photo-1562408590-e32931084e23?q=80&w=1000&auto=format&fit=crop',
-    specs: ['600V', '90°C', 'Resistente a la luz solar']
+    id: 'unipolar-lsoh',
+    name: 'Cable Unipolar LSOH',
+    category: 'Cables para Instalación Civil',
+    subCategory: '1-CABLE UNIPOLAR',
+    description: 'Conductores de cobre con aislación libre de halógenos (Baja emisión de humos).',
+    detailedDescription: 'Cables unipolares con aislación de compuesto termoplástico libre de halógenos, con baja emisión de humos y gases corrosivos. Ideales para lugares con alta concentración de personas y locales de pública concurrencia.',
+    image: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/PORTADA.jpeg',
+    gallery: [
+      '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/foto producto dentro de ficha tecnica.jpeg'
+    ],
+    technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/MARCAS DISPONIBLES UNIPOLAR LSOH.jpg',
+    pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/FICHA TECNICA UNIP. LSOH (REEMPLAZAR FOTO).pdf',
+    specs: ['1.1kV', 'Libre de Halógenos', 'Baja Emisión de Humos']
   },
   {
-    id: 'mt-01',
-    name: 'Cable Media Tensión XLP',
-    category: 'Baja, Media y Alta Tensión',
-    description: 'Para distribución aérea o subterránea. Aislamiento XLP con pantalla electrostática para máxima seguridad.',
-    // Imagen actualizada: Infraestructura eléctrica de potencia
-    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1000&auto=format&fit=crop',
-    specs: ['5kV - 35kV', 'Cobre o Aluminio', 'Pantalla de cinta de cobre']
+    id: 'bipolar-vaina-chata',
+    name: 'Cable Envainado Chato',
+    category: 'Cables para Instalación Civil',
+    subCategory: '2-CABLE BIPOLAR',
+    description: 'Cables bipolares o tripolares chatos para instalaciones superficiales o discretas.',
+    detailedDescription: 'Conductores de cobre aislados y protegidos por una vaina exterior chata de PVC. Su forma compacta permite instalaciones más estéticas y seguras en paredes o bajo alfombras/canaletas pequeñas.',
+    image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/portada.jpg',
+    gallery: [
+      '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/foto producto dentro de ficha tecnica.png'
+    ],
+    technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/MARCAS DISPONIBLES VAINA CHATA.jpg',
+    pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/FICHA TECNICA VAINA CHATA.pdf',
+    specs: ['300/500V', 'Perfil chato', 'PVC de alta calidad']
   },
   {
-    id: 'mt-02',
-    name: 'Cable Energía EPR',
-    category: 'Baja, Media y Alta Tensión',
-    description: 'Aislamiento de etileno propileno (EPR). Alta flexibilidad y resistencia al efecto corona.',
-    // Detalle técnico de cable grueso
-    image: 'https://images.unsplash.com/photo-1601058268499-e52658b8bb88?q=80&w=1000&auto=format&fit=crop',
-    specs: ['5kV - 35kV', '105°C', '133% Nivel de aislamiento']
+    id: 'bipolar-paralelo',
+    name: 'Cable Paralelo (Bipolar)',
+    category: 'Cables para Instalación Civil',
+    subCategory: '2-CABLE BIPOLAR',
+    description: 'Cordones paralelos de cobre para alimentación de artefactos livianos y prolongaciones.',
+    detailedDescription: 'Conductores de cobre flexible dispuestos en paralelo con aislamiento de PVC. Ideales para conexiones de veladores, radios y electrodomésticos de baja potencia.',
+    image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/portada.jpeg',
+    gallery: [
+      '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/foto producto dentro de ficha tecnica.jpeg'
+    ],
+    technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/MARCAS DISPONIBLES PARALELO.jpg',
+    pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/FICHA TECNICA PARALELO.pdf',
+    specs: ['300V', 'Flexible', 'PVC Blanco/Negro']
   },
   {
-    id: 'ctrl-01',
-    name: 'Cable Control Blindado',
-    category: 'Cables Especiales',
-    description: 'Multiconductor para sistemas de control and señalización. Blindaje de cinta de aluminio para evitar interferencias.',
-    // Múltiples cables/hilos (Networking/Control vibe)
-    image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=1000&auto=format&fit=crop',
-    specs: ['600V', 'PVC/PVC', 'Blindaje Electrostático']
+    id: 'bipolar-paralelo-parlante',
+    name: 'Cable Paralelo Parlante',
+    category: 'Cables para Instalación Civil',
+    subCategory: '2-CABLE BIPOLAR',
+    description: 'Cables específicos para audio y parlantes con identificación de polaridad.',
+    detailedDescription: 'Cordones de cobre flexible con aislación de PVC cristal o bicolor. Diseñados para la interconexión de sistemas de audio, garantizando fidelidad en la señal.',
+    image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/portada.jpeg',
+    gallery: [
+      '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/foto producto dentro de ficha tecnica.jpeg'
+    ],
+    technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/MARCAS DISPONIBLES PARALELO PARLANTE.jpg',
+    pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE.pdf',
+    specs: ['Audio', 'Extra flexible', 'Bicolor/Cristal']
   },
   {
-    id: 'cu-01',
-    name: 'Cable Cobre Desnudo',
-    category: 'Cables Especiales',
-    description: 'Utilizado en sistemas de puesta a tierra y conexiones de equipos. Alta pureza garantizada.',
-    // Primer plano brillante de textura de cobre
-    image: 'https://images.unsplash.com/photo-1617757041766-3d71190479b3?q=80&w=1000&auto=format&fit=crop',
-    specs: ['ASTM B-3', 'Alta pureza', 'Temple suave']
+    id: 'civil-03',
+    name: 'Cable Tipo Taller (TT)',
+    category: 'Cables para Instalación Civil',
+    subCategory: '3-CABLE TIPO TALLER',
+    description: 'Cables multipolares flexibles para uso en aparatos portátiles and máquinas.',
+    detailedDescription: 'Conductores de cobre flexible con aislamiento de PVC and vaina exterior de PVC color negro o gris.',
+    image: '/images/PRODUCTOS/3-CABLE TIPO TALLER/PORTADA.jpeg',
+    gallery: [
+      '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/foto producto dentro de ficha tecnica.jpeg'
+    ],
+    technicalTable: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/MARCAS DISPONIBLES TIPO TALLER.jpg',
+    pdf: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/FICHA TECNICA TIPO TALLER (REEMPLAZAR FOTO).pdf',
+    specs: ['300/500V', 'Extra flexible', 'Vaina de protección']
   }
 ];
 

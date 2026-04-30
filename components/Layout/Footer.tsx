@@ -36,10 +36,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-white font-oswald font-bold tracking-wider mb-6">PRODUCTOS</h3>
             <ul className="space-y-3 text-sm">
-              <li><Link to="/productos?cat=1" className="hover:text-orange-500 transition">Baja y Media Tensión</Link></li>
-              <li><Link to="/productos?cat=2" className="hover:text-orange-500 transition">Cables Especiales</Link></li>
-              <li><Link to="/productos?cat=3" className="hover:text-orange-500 transition">Fibra Óptica</Link></li>
-              <li><Link to="/productos?cat=4" className="hover:text-orange-500 transition">Cables Subterráneos</Link></li>
+              <li><Link to="/productos?cat=civil" className="hover:text-orange-500 transition">Instalación Civil</Link></li>
+              <li><Link to="/productos?cat=industriales" className="hover:text-orange-500 transition">Cables Industriales</Link></li>
+              <li><Link to="/productos?cat=media-tension" className="hover:text-orange-500 transition">Media Tensión</Link></li>
+              <li><Link to="/productos?cat=especiales" className="hover:text-orange-500 transition">Cables Especiales</Link></li>
             </ul>
           </div>
 
