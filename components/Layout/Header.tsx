@@ -22,7 +22,7 @@ const Header: React.FC = () => {
   const isHome = location.pathname === '/';
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-500 border-b ${isScrolled || !isHome ? 'bg-white/95 backdrop-blur-sm border-gray-200 shadow-sm py-2' : 'bg-transparent border-transparent py-4'}`}>
+    <header className={`fixed w-full z-50 transition-all duration-500 border-b animate-slide-down ${isScrolled || !isHome ? 'bg-white/95 backdrop-blur-sm border-gray-200 shadow-sm py-2' : 'bg-transparent border-transparent py-4'}`}>
 
       {/* Top Bar - Premium Industrial Look */}
       <div className={`hidden md:block absolute top-0 right-0 left-0 bg-slate-950 text-slate-400 text-[10px] tracking-widest uppercase transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-10 opacity-100'}`}>
@@ -48,7 +48,11 @@ const Header: React.FC = () => {
 
           {/* Logo */}
           <Link to="/" className="flex items-center group relative z-50 py-2">
-            <img src="/images/logo-header.png" alt="Vicbril Internacional" className="h-16 md:h-24 w-auto object-contain transition-all duration-300" />
+            <img 
+              src="/images/logo-header.png" 
+              alt="Vicbril Internacional" 
+              className="h-16 md:h-24 w-auto object-contain transition-all duration-500 hover:scale-110 active:scale-95 animate-float" 
+            />
           </Link>
 
           {/* Desktop Menu */}

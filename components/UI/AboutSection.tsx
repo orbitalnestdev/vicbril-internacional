@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useScrollReveal } from '../../services/hooks';
 
 const images = [
     "/images/home-nosotros/20260116_174205.jpg",
@@ -9,6 +10,8 @@ const images = [
 const AboutSection: React.FC = () => {
     const [current, setCurrent] = useState(0);
     const [loaded, setLoaded] = useState<{ [key: number]: boolean }>({});
+    const imageReveal = useScrollReveal(0.2);
+    const textReveal = useScrollReveal(0.2);
 
     const prev = () => setCurrent((curr) => (curr === 0 ? images.length - 1 : curr - 1));
     const next = () => setCurrent((curr) => (curr === images.length - 1 ? 0 : curr + 1));
@@ -22,7 +25,10 @@ const AboutSection: React.FC = () => {
         <section className="bg-white overflow-hidden">
             <div className="flex flex-col lg:flex-row min-h-[600px]">
                 {/* Left: Image Slider */}
-                <div className="lg:w-1/2 relative h-[500px] lg:h-auto overflow-hidden bg-slate-200">
+                <div 
+                    className={`lg:w-1/2 relative h-[500px] lg:h-auto overflow-hidden bg-slate-200 transition-all duration-1000 ${imageReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}
+                    ref={imageReveal.ref}
+                >
                     <div
                         className="flex transition-transform duration-700 ease-in-out h-full w-full"
                         style={{ transform: `translateX(-${current * 100}%)` }}
@@ -71,7 +77,10 @@ const AboutSection: React.FC = () => {
                 </div>
 
                 {/* Right: Text Area */}
-                <div className="lg:w-1/2 bg-slate-900 flex items-center p-12 lg:p-24">
+                <div 
+                    className={`lg:w-1/2 bg-slate-900 flex items-center p-12 lg:p-24 transition-all duration-1000 ${textReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}`}
+                    ref={textReveal.ref}
+                >
                     <div className="max-w-xl">
                         <h2 className="text-white text-4xl lg:text-5xl font-bold font-oswald mb-8 uppercase tracking-tight">
                             Sobre Nosotros
@@ -98,7 +107,7 @@ const AboutSection: React.FC = () => {
                         <div className="mt-12">
                             <a
                                 href="#/nosotros"
-                                className="inline-block border border-white/30 hover:border-white text-white px-8 py-3 rounded-full transition-all text-sm font-bold tracking-widest uppercase"
+                                className="inline-block border border-white/30 hover:border-white text-white px-8 py-3 rounded-full transition-all text-sm font-bold tracking-widest uppercase hover:bg-white hover:text-slate-900 glass-shine"
                             >
                                 Más información
                             </a>
@@ -111,3 +120,4 @@ const AboutSection: React.FC = () => {
 };
 
 export default AboutSection;
+

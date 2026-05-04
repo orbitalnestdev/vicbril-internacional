@@ -1,7 +1,9 @@
 import React from 'react';
 import { Target, Eye, Award } from 'lucide-react';
+import { useScrollReveal } from '../../services/hooks';
 
 const WhyChooseUs: React.FC = () => {
+    const reveal = useScrollReveal(0.1);
     const cards = [
         {
             title: 'Misión',
@@ -23,7 +25,10 @@ const WhyChooseUs: React.FC = () => {
     return (
         <section className="py-24 bg-slate-50">
             <div className="container mx-auto px-6">
-                <h2 className="text-6xl font-oswald font-bold text-slate-900 mb-16 text-center">
+                <h2 
+                    className={`text-6xl font-oswald font-bold text-slate-900 mb-16 text-center transition-all duration-1000 ${reveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+                    ref={reveal.ref}
+                >
                     ¿POR QUÉ ELEGIRNOS?
                 </h2>
 
@@ -31,7 +36,8 @@ const WhyChooseUs: React.FC = () => {
                     {cards.map((card, idx) => (
                         <div
                             key={idx}
-                            className="bg-white p-10 rounded-2xl shadow-sm border border-slate-100 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 group"
+                            className={`bg-white p-10 rounded-2xl shadow-sm border border-slate-100 transition-all duration-1000 hover:shadow-xl hover-lift group ${reveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
+                            style={{ transitionDelay: `${idx * 200}ms` }}
                         >
                             <div className="mb-8 p-4 bg-slate-50 w-fit rounded-xl group-hover:bg-orange-50 transition-colors">
                                 <card.icon size={40} className="text-slate-400 group-hover:text-orange-600 transition-colors" strokeWidth={1.5} />
@@ -51,3 +57,4 @@ const WhyChooseUs: React.FC = () => {
 };
 
 export default WhyChooseUs;
+
