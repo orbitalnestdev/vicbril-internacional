@@ -116,9 +116,12 @@ const Home: React.FC = () => {
               </div>
             </div>
             <div className="hidden md:block relative w-2/5 animate-reveal-right">
-              <img
-                src="/images/vicbril-imagen.webp"
-                alt="Vicbril Internacional"
+              <video
+                src="/images/VIDEO LOGO VICBRIL.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="w-full ml-auto aspect-[16/10] object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
               />
             </div>

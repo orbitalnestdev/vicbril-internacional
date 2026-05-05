@@ -83,6 +83,47 @@ const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ isOpen, onClose
                 ))}
               </div>
 
+              {/* Technical Details */}
+              <div className="space-y-8 pt-6 border-t border-gray-100">
+                {product.characteristics && (
+                  <div>
+                    <h4 className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 flex items-center gap-2">
+                      <span className="w-1.5 h-6 bg-orange-600 block"></span> Características Técnicas
+                    </h4>
+                    <ul className="grid grid-cols-1 gap-2 text-sm text-slate-600 pl-4">
+                      {product.characteristics.map((char, i) => (
+                        <li key={i} className="flex items-start gap-2">
+                          <span className="text-orange-500 mt-1">•</span>
+                          {char}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                
+                {product.applications && (
+                  <div>
+                    <h4 className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 flex items-center gap-2">
+                      <span className="w-1.5 h-6 bg-orange-600 block"></span> Aplicaciones
+                    </h4>
+                    <p className="text-sm text-slate-600 leading-relaxed pl-4">
+                      {product.applications}
+                    </p>
+                  </div>
+                )}
+
+                {product.installation && (
+                  <div>
+                    <h4 className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 flex items-center gap-2">
+                      <span className="w-1.5 h-6 bg-orange-600 block"></span> Instalación y Montaje
+                    </h4>
+                    <p className="text-sm text-slate-600 leading-relaxed pl-4">
+                      {product.installation}
+                    </p>
+                  </div>
+                )}
+              </div>
+
               {product.technicalTable && (
                 <div className="border border-slate-200 p-6 bg-slate-50">
                   <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-4 border-b border-slate-200 pb-2">Tabla Técnica / Marcas</h4>

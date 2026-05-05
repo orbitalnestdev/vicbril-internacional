@@ -10,6 +10,9 @@ export interface Product {
   pdf?: string;
   specs: string[];
   subCategory?: string;
+  characteristics?: string[];
+  applications?: string;
+  installation?: string;
 }
 
 export interface Category {
