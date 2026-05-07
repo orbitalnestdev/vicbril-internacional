@@ -1,0 +1,103 @@
+[
+    {
+        "key": "group_65e1f2b3c4d5e",
+        "title": "Campos de Producto Vicbril",
+        "fields": [
+            {
+                "key": "field_65e1f2b3c4d5e_sub",
+                "label": "Subcategoría",
+                "name": "sub_category",
+                "type": "text",
+                "instructions": "Ej: 1-CABLE UNIPOLAR",
+                "required": 0,
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_65e1f2b3c4d5f",
+                "label": "Descripción Detallada",
+                "name": "detailed_description",
+                "type": "textarea",
+                "instructions": "Descripción larga que aparece en el modal.",
+                "required": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 4,
+                "new_lines": "br"
+            },
+            {
+                "key": "field_65e1f2b3c4d60",
+                "label": "Especificaciones Rápidas",
+                "name": "specs",
+                "type": "text",
+                "instructions": "Resumen separado por comas (ej: 750V, Norma IRAM).",
+                "required": 0,
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_65e1f2b3c4d61",
+                "label": "Aplicaciones",
+                "name": "applications",
+                "type": "textarea",
+                "instructions": "Dónde se usa el producto.",
+                "required": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": "br"
+            },
+            {
+                "key": "field_65e1f2b3c4d62",
+                "label": "Instalación y Montaje",
+                "name": "installation",
+                "type": "textarea",
+                "instructions": "Consejos técnicos de instalación.",
+                "required": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": "br"
+            },
+            {
+                "key": "field_65e1f2b3c4d63",
+                "label": "Tabla Técnica (HTML)",
+                "name": "specs_table_html",
+                "type": "textarea",
+                "instructions": "Pega aquí el código HTML de la tabla extraída.",
+                "required": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "producto"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

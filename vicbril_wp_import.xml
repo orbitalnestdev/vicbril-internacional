@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+	<title>Vicbril Internacional</title>
+	<link>http://localhost:3000</link>
+	<description>Importación Completa de Productos</description>
+	<pubDate>Thu, 07 May 2026 12:45:00 +0000</pubDate>
+	<language>es-ES</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://localhost:3000</wp:base_site_url>
+	<wp:base_blog_url>http://localhost:3000</wp:base_blog_url>
+
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>admin@example.com</wp:author_email><wp:author_display_name>Admin</wp:author_display_name></wp:author>
+
+	<!-- PRODUCT: Unipolar PVC -->
+	<item>
+		<title>Cable Unipolar PVC</title>
+		<link>http://localhost:3000/productos/unipolar-pvc</link>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">unipolar-pvc</guid>
+		<content:encoded><![CDATA[Conductores de cobre con aislación de PVC para instalaciones fijas.]]></content:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_name>unipolar-pvc</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>producto</wp:post_type>
+		<category domain="categoria_producto" nicename="instalacion-civil"><![CDATA[Cables para Instalación Civil]]></category>
+		<wp:postmeta><wp:meta_key>sub_category</wp:meta_key><wp:meta_value><![CDATA[1-CABLE UNIPOLAR]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>detailed_description</wp:meta_key><wp:meta_value><![CDATA[Cable unipolar de cobre electrolítico recocido, aislado con una capa de PVC/A. Diseñados para instalaciones fijas en viviendas, oficinas y edificios industriales. Gran facilidad de deslizamiento en conductos.]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>specs</wp:meta_key><wp:meta_value><![CDATA[750V, Norma IRAM 247-3, PVC Ecológico]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>specs_table_html</wp:meta_key><wp:meta_value><![CDATA[<table class="specs-table"><thead><tr><th>Sección (mm²)</th><th>Espesor (mm)</th><th>Diámetro (mm)</th><th>Peso (kg/km)</th><th>Resist. (Ohm/km)</th><th>Amp (*)</th></tr></thead><tbody><tr><td>0,5</td><td>0,60</td><td>2,1</td><td>8,2</td><td>39</td><td>4,8</td></tr><tr><td>0,75</td><td>0,60</td><td>2,3</td><td>10,8</td><td>26</td><td>7,2</td></tr><tr><td>1</td><td>0,70</td><td>2,7</td><td>14,4</td><td>19,5</td><td>9,6</td></tr><tr><td>1,5</td><td>0,70</td><td>3,0</td><td>20</td><td>13,3</td><td>13</td></tr><tr><td>2,5</td><td>0,80</td><td>3,6</td><td>31</td><td>7,98</td><td>18</td></tr><tr><td>4</td><td>0,80</td><td>4,1</td><td>45</td><td>4,95</td><td>24</td></tr><tr><td>6</td><td>0,80</td><td>4,7</td><td>63</td><td>3,3</td><td>31</td></tr><tr><td>10</td><td>1,00</td><td>6,2</td><td>112</td><td>1,91</td><td>43</td></tr><tr><td>16</td><td>1,00</td><td>7,1</td><td>166</td><td>1,21</td><td>59</td></tr></tbody></table>]]></wp:meta_value></wp:postmeta>
+	</item>
+
+	<!-- PRODUCT: Unipolar LSOH -->
+	<item>
+		<title>Cable Unipolar LSOH</title>
+		<link>http://localhost:3000/productos/unipolar-lsoh</link>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">unipolar-lsoh</guid>
+		<content:encoded><![CDATA[Conductores de cobre con aislación libre de halógenos (Baja emisión de humos).]]></content:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_name>unipolar-lsoh</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>producto</wp:post_type>
+		<category domain="categoria_producto" nicename="instalacion-civil"><![CDATA[Cables para Instalación Civil]]></category>
+		<wp:postmeta><wp:meta_key>sub_category</wp:meta_key><wp:meta_value><![CDATA[1-CABLE UNIPOLAR]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>detailed_description</wp:meta_key><wp:meta_value><![CDATA[Cables unipolares con aislación de compuesto termoplástico libre de halógenos, con baja emisión de humos y gases corrosivos. Ideales para lugares con alta concentración de personas y locales de pública concurrencia.]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>specs</wp:meta_key><wp:meta_value><![CDATA[1.1kV, Libre de Halógenos, Baja Emisión de Humos]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>specs_table_html</wp:meta_key><wp:meta_value><![CDATA[<table class="specs-table"><thead><tr><th>Sección (mm²)</th><th>Espesor (mm)</th><th>Diámetro (mm)</th><th>Peso (kg/km)</th><th>Resist. (Ohm/km)</th><th>Amp (*)</th></tr></thead><tbody><tr><td>0,5</td><td>0,60</td><td>2,1</td><td>8,2</td><td>39</td><td>4,8</td></tr><tr><td>0,75</td><td>0,60</td><td>2,3</td><td>10,8</td><td>26</td><td>7,2</td></tr><tr><td>1</td><td>0,70</td><td>2,7</td><td>14,4</td><td>19,5</td><td>9,6</td></tr><tr><td>1,5</td><td>0,70</td><td>3,0</td><td>20</td><td>13,3</td><td>13</td></tr><tr><td>2,5</td><td>0,80</td><td>3,6</td><td>31</td><td>7,98</td><td>18</td></tr><tr><td>4</td><td>0,80</td><td>4,1</td><td>45</td><td>4,95</td><td>24</td></tr><tr><td>6</td><td>0,80</td><td>4,7</td><td>63</td><td>3,3</td><td>31</td></tr><tr><td>10</td><td>1,00</td><td>6,2</td><td>112</td><td>1,91</td><td>43</td></tr><tr><td>16</td><td>1,00</td><td>7,1</td><td>166</td><td>1,21</td><td>59</td></tr></tbody></table>]]></wp:meta_value></wp:postmeta>
+	</item>
+
+	<!-- PRODUCT: Vaina Chata -->
+	<item>
+		<title>Cable Envainado Chato</title>
+		<link>http://localhost:3000/productos/bipolar-vaina-chata</link>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">bipolar-vaina-chata</guid>
+		<content:encoded><![CDATA[Cables bipolares o tripolares chatos para instalaciones superficiales o discretas.]]></content:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_name>bipolar-vaina-chata</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>producto</wp:post_type>
+		<category domain="categoria_producto" nicename="instalacion-civil"><![CDATA[Cables para Instalación Civil]]></category>
+		<wp:postmeta><wp:meta_key>sub_category</wp:meta_key><wp:meta_value><![CDATA[2-CABLE BIPOLAR]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>specs_table_html</wp:meta_key><wp:meta_value><![CDATA[<table class="specs-table"><thead><tr><th>Formación</th><th>Diám. Alambre</th><th>Esp. Aisl.</th><th>Esp. Env.</th><th>Dimensiones</th><th>Peso</th><th>Amp</th></tr></thead><tbody><tr><td>2x1</td><td>0,21</td><td>0,6</td><td>0,6</td><td>4,1 x 6,6</td><td>44</td><td>7</td></tr><tr><td>2x1,5</td><td>0,26</td><td>0,7</td><td>0,6</td><td>4,5 x 7,5</td><td>58</td><td>10</td></tr><tr><td>2x2,5</td><td>0,26</td><td>0,8</td><td>0,6</td><td>5,1 x 8,8</td><td>85</td><td>16</td></tr><tr><td>3x1</td><td>0,21</td><td>0,6</td><td>0,6</td><td>4,1 x 9,2</td><td>64</td><td>7</td></tr><tr><td>3x1,5</td><td>0,26</td><td>0,7</td><td>0,6</td><td>4,5 x 10,6</td><td>86</td><td>10</td></tr><tr><td>3x2,5</td><td>0,26</td><td>0,8</td><td>0,6</td><td>5,1 x 12,5</td><td>126</td><td>16</td></tr></tbody></table>]]></wp:meta_value></wp:postmeta>
+	</item>
+
+	<!-- PRODUCT: Paralelo -->
+	<item>
+		<title>Cable Paralelo (Bipolar)</title>
+		<link>http://localhost:3000/productos/bipolar-paralelo</link>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">bipolar-paralelo</guid>
+		<content:encoded><![CDATA[Cordones paralelos de cobre para alimentación de artefactos livianos y prolongaciones.]]></content:encoded>
+		<wp:post_id>105</wp:post_id>
+		<wp:post_name>bipolar-paralelo</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>producto</wp:post_type>
+		<category domain="categoria_producto" nicename="instalacion-civil"><![CDATA[Cables para Instalación Civil]]></category>
+		<wp:postmeta><wp:meta_key>sub_category</wp:meta_key><wp:meta_value><![CDATA[2-CABLE BIPOLAR]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>specs_table_html</wp:meta_key><wp:meta_value><![CDATA[<table class="specs-table"><thead><tr><th>Formación</th><th>Diám. Alambre</th><th>Esp. Aisl.</th><th>Esp. Env.</th><th>Dimensiones</th><th>Peso</th><th>Amp</th></tr></thead><tbody><tr><td>2x1</td><td>0,21</td><td>0,6</td><td>0,6</td><td>4,1 x 6,6</td><td>44</td><td>7</td></tr><tr><td>2x1,5</td><td>0,26</td><td>0,7</td><td>0,6</td><td>4,5 x 7,5</td><td>58</td><td>10</td></tr><tr><td>2x2,5</td><td>0,26</td><td>0,8</td><td>0,6</td><td>5,1 x 8,8</td><td>85</td><td>16</td></tr></tbody></table>]]></wp:meta_value></wp:postmeta>
+	</item>
+
+	<!-- PRODUCT: Paralelo Parlante -->
+	<item>
+		<title>Cable Paralelo Parlante</title>
+		<link>http://localhost:3000/productos/bipolar-paralelo-parlante</link>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">bipolar-paralelo-parlante</guid>
+		<content:encoded><![CDATA[Cables específicos para audio y parlantes con identificación de polaridad.]]></content:encoded>
+		<wp:post_id>106</wp:post_id>
+		<wp:post_name>bipolar-paralelo-parlante</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>producto</wp:post_type>
+		<category domain="categoria_producto" nicename="instalacion-civil"><![CDATA[Cables para Instalación Civil]]></category>
+		<wp:postmeta><wp:meta_key>sub_category</wp:meta_key><wp:meta_value><![CDATA[2-CABLE BIPOLAR]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>specs_table_html</wp:meta_key><wp:meta_value><![CDATA[<table class="specs-table"><thead><tr><th>Formación</th><th>Diám. Alambre</th><th>Esp. Aisl.</th><th>Esp. Env.</th><th>Dimensiones</th><th>Peso</th><th>Amp</th></tr></thead><tbody><tr><td>2x1</td><td>0,21</td><td>0,6</td><td>0,6</td><td>4,1 x 6,6</td><td>44</td><td>7</td></tr><tr><td>2x1,5</td><td>0,26</td><td>0,7</td><td>0,6</td><td>4,5 x 7,5</td><td>58</td><td>10</td></tr></tbody></table>]]></wp:meta_value></wp:postmeta>
+	</item>
+
+	<!-- PRODUCT: Tipo Taller -->
+	<item>
+		<title>Cable Tipo Taller (TT)</title>
+		<link>http://localhost:3000/productos/civil-03</link>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">civil-03</guid>
+		<content:encoded><![CDATA[Cables multipolares flexibles para uso en aparatos portátiles and máquinas.]]></content:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_name>civil-03</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>producto</wp:post_type>
+		<category domain="categoria_producto" nicename="instalacion-civil"><![CDATA[Cables para Instalación Civil]]></category>
+		<wp:postmeta><wp:meta_key>sub_category</wp:meta_key><wp:meta_value><![CDATA[3-CABLE TIPO TALLER]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>specs_table_html</wp:meta_key><wp:meta_value><![CDATA[<table class="specs-table"><thead><tr><th>Formación</th><th>Espesor Nom.</th><th>Cubierta</th><th>Diámetro</th><th>Peso</th><th>Resist.</th></tr></thead><tbody><tr><td>2x0,75</td><td>0,6</td><td>0,8</td><td>6,2</td><td>52</td><td>26</td></tr><tr><td>2x1,0</td><td>0,6</td><td>0,8</td><td>6,5</td><td>60</td><td>19,5</td></tr><tr><td>2x1,5</td><td>0,7</td><td>0,8</td><td>7,4</td><td>80</td><td>13,3</td></tr><tr><td>2x2,5</td><td>0,8</td><td>1</td><td>9,1</td><td>125</td><td>7,98</td></tr><tr><td>3x1,0</td><td>0,6</td><td>0,8</td><td>6,9</td><td>72</td><td>19,5</td></tr><tr><td>3x1,5</td><td>0,7</td><td>0,9</td><td>8,1</td><td>101</td><td>13,3</td></tr><tr><td>3x2,5</td><td>0,8</td><td>1,1</td><td>9,9</td><td>157</td><td>7,98</td></tr><tr><td>4x1,5</td><td>0,7</td><td>1</td><td>9,1</td><td>128</td><td>13,3</td></tr><tr><td>4x2,5</td><td>0,8</td><td>1,1</td><td>10,8</td><td>191</td><td>7,98</td></tr></tbody></table>]]></wp:meta_value></wp:postmeta>
+	</item>
+
+</channel>
+</rss>
