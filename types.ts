@@ -13,6 +13,7 @@ export interface Product {
   characteristics?: string[];
   applications?: string;
   installation?: string;
+  specsTable?: Record<string, string>[];
 }
 
 export interface Category {

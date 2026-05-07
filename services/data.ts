@@ -89,7 +89,18 @@ export const products: Product[] = [
       'Norma de conductores: IEC 60228 / IRAM NM 280'
     ],
     applications: 'Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales. Permite cableado en tableros, cañerías embutidas y cañerías a la vista, recomendando el uso de bandejas portantes.',
-    installation: 'Montaje: Radio mínimo de curvatura igual a 7 x diámetro exterior del cable. Tracción máxima: 5daN/mm² aplicados sobre los conductores. Temperatura de montaje: Igual o mayor a 5°C.'
+    installation: 'Montaje: Radio mínimo de curvatura igual a 7 x diámetro exterior del cable. Tracción máxima: 5daN/mm² aplicados sobre los conductores. Temperatura de montaje: Igual o mayor a 5°C.',
+    specsTable: [
+      { "Sección (mm²)": "0,5", "Espesor (mm)": "0,60", "Diámetro (mm)": "2,1", "Peso (kg/km)": "8,2", "Resist. (Ohm/km)": "39", "Amp (*)": "4,8" },
+      { "Sección (mm²)": "0,75", "Espesor (mm)": "0,60", "Diámetro (mm)": "2,3", "Peso (kg/km)": "10,8", "Resist. (Ohm/km)": "26", "Amp (*)": "7,2" },
+      { "Sección (mm²)": "1", "Espesor (mm)": "0,70", "Diámetro (mm)": "2,7", "Peso (kg/km)": "14,4", "Resist. (Ohm/km)": "19,5", "Amp (*)": "9,6" },
+      { "Sección (mm²)": "1,5", "Espesor (mm)": "0,70", "Diámetro (mm)": "3,0", "Peso (kg/km)": "20", "Resist. (Ohm/km)": "13,3", "Amp (*)": "13" },
+      { "Sección (mm²)": "2,5", "Espesor (mm)": "0,80", "Diámetro (mm)": "3,6", "Peso (kg/km)": "31", "Resist. (Ohm/km)": "7,98", "Amp (*)": "18" },
+      { "Sección (mm²)": "4", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,1", "Peso (kg/km)": "45", "Resist. (Ohm/km)": "4,95", "Amp (*)": "24" },
+      { "Sección (mm²)": "6", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,7", "Peso (kg/km)": "63", "Resist. (Ohm/km)": "3,3", "Amp (*)": "31" },
+      { "Sección (mm²)": "10", "Espesor (mm)": "1,00", "Diámetro (mm)": "6,2", "Peso (kg/km)": "112", "Resist. (Ohm/km)": "1,91", "Amp (*)": "43" },
+      { "Sección (mm²)": "16", "Espesor (mm)": "1,00", "Diámetro (mm)": "7,1", "Peso (kg/km)": "166", "Resist. (Ohm/km)": "1,21", "Amp (*)": "59" }
+    ]
   },
   {
     id: 'unipolar-lsoh',
@@ -112,7 +123,18 @@ export const products: Product[] = [
       'Conductor: Cobre electrolítico recocido, clase 5'
     ],
     applications: 'Cableado en tableros, cañerías embutidas y a la vista. Se recomienda el uso de bandejas portantes.',
-    installation: 'Radio de curvatura: Mínimo 7 veces el diámetro exterior. Tracción máxima: 5daN/mm² sobre conductores de cobre. Temperatura de montaje: ≥ 5°C.'
+    installation: 'Radio de curvatura: Mínimo 7 veces el diámetro exterior. Tracción máxima: 5daN/mm² sobre conductores de cobre. Temperatura de montaje: ≥ 5°C.',
+    specsTable: [
+      { "Sección (mm²)": "0,5", "Espesor (mm)": "0,60", "Diámetro (mm)": "2,1", "Peso (kg/km)": "8,2", "Resist. (Ohm/km)": "39", "Amp (*)": "4,8" },
+      { "Sección (mm²)": "0,75", "Espesor (mm)": "0,60", "Diámetro (mm)": "2,3", "Peso (kg/km)": "10,8", "Resist. (Ohm/km)": "26", "Amp (*)": "7,2" },
+      { "Sección (mm²)": "1", "Espesor (mm)": "0,70", "Diámetro (mm)": "2,7", "Peso (kg/km)": "14,4", "Resist. (Ohm/km)": "19,5", "Amp (*)": "9,6" },
+      { "Sección (mm²)": "1,5", "Espesor (mm)": "0,70", "Diámetro (mm)": "3,0", "Peso (kg/km)": "20", "Resist. (Ohm/km)": "13,3", "Amp (*)": "13" },
+      { "Sección (mm²)": "2,5", "Espesor (mm)": "0,80", "Diámetro (mm)": "3,6", "Peso (kg/km)": "31", "Resist. (Ohm/km)": "7,98", "Amp (*)": "18" },
+      { "Sección (mm²)": "4", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,1", "Peso (kg/km)": "45", "Resist. (Ohm/km)": "4,95", "Amp (*)": "24" },
+      { "Sección (mm²)": "6", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,7", "Peso (kg/km)": "63", "Resist. (Ohm/km)": "3,3", "Amp (*)": "31" },
+      { "Sección (mm²)": "10", "Espesor (mm)": "1,00", "Diámetro (mm)": "6,2", "Peso (kg/km)": "112", "Resist. (Ohm/km)": "1,91", "Amp (*)": "43" },
+      { "Sección (mm²)": "16", "Espesor (mm)": "1,00", "Diámetro (mm)": "7,1", "Peso (kg/km)": "166", "Resist. (Ohm/km)": "1,21", "Amp (*)": "59" }
+    ]
   },
   {
     id: 'bipolar-vaina-chata',
@@ -135,7 +157,15 @@ export const products: Product[] = [
       'Materiales: Aislación y cubierta de PVC negro (no propagante)'
     ],
     applications: 'Instalaciones móviles industriales y domésticas, aparatos portátiles (excepto calefacción) e interconexión de máquinas fabriles.',
-    installation: 'Apto para uso industrial y domiciliario; incluye conductor de tierra verde/amarillo.'
+    installation: 'Apto para uso industrial y domiciliario; incluye conductor de tierra verde/amarillo.',
+    specsTable: [
+      { "Formación": "2x1", "Diám. Alambre": "0,21", "Esp. Aisl.": "0,6", "Esp. Env.": "0,6", "Dimensiones": "4,1 x 6,6", "Peso": "44", "Amp": "7" },
+      { "Formación": "2x1,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,7", "Esp. Env.": "0,6", "Dimensiones": "4,5 x 7,5", "Peso": "58", "Amp": "10" },
+      { "Formación": "2x2,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,8", "Esp. Env.": "0,6", "Dimensiones": "5,1 x 8,8", "Peso": "85", "Amp": "16" },
+      { "Formación": "3x1", "Diám. Alambre": "0,21", "Esp. Aisl.": "0,6", "Esp. Env.": "0,6", "Dimensiones": "4,1 x 9,2", "Peso": "64", "Amp": "7" },
+      { "Formación": "3x1,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,7", "Esp. Env.": "0,6", "Dimensiones": "4,5 x 10,6", "Peso": "86", "Amp": "10" },
+      { "Formación": "3x2,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,8", "Esp. Env.": "0,6", "Dimensiones": "5,1 x 12,5", "Peso": "126", "Amp": "16" }
+    ]
   },
   {
     id: 'bipolar-paralelo',
@@ -157,7 +187,12 @@ export const products: Product[] = [
       'Aislación de PVC'
     ],
     applications: 'Instalaciones móviles y aparatos portátiles en general.',
-    installation: 'Apto para instalaciones móviles y uso doméstico.'
+    installation: 'Apto para instalaciones móviles y uso doméstico.',
+    specsTable: [
+      { "Formación": "2x1", "Diám. Alambre": "0,21", "Esp. Aisl.": "0,6", "Esp. Env.": "0,6", "Dimensiones": "4,1 x 6,6", "Peso": "44", "Amp": "7" },
+      { "Formación": "2x1,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,7", "Esp. Env.": "0,6", "Dimensiones": "4,5 x 7,5", "Peso": "58", "Amp": "10" },
+      { "Formación": "2x2,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,8", "Esp. Env.": "0,6", "Dimensiones": "5,1 x 8,8", "Peso": "85", "Amp": "16" }
+    ]
   },
   {
     id: 'bipolar-paralelo-parlante',
@@ -179,7 +214,11 @@ export const products: Product[] = [
       'Tensión nominal 300/500V'
     ],
     applications: 'Interconexión de equipos y aparatos portátiles.',
-    installation: 'Diseñado para flexibilidad en instalaciones móviles.'
+    installation: 'Diseñado para flexibilidad en instalaciones móviles.',
+    specsTable: [
+      { "Formación": "2x1", "Diám. Alambre": "0,21", "Esp. Aisl.": "0,6", "Esp. Env.": "0,6", "Dimensiones": "4,1 x 6,6", "Peso": "44", "Amp": "7" },
+      { "Formación": "2x1,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,7", "Esp. Env.": "0,6", "Dimensiones": "4,5 x 7,5", "Peso": "58", "Amp": "10" }
+    ]
   },
   {
     id: 'civil-03',
@@ -203,7 +242,18 @@ export const products: Product[] = [
       'Cubierta: PVC Negro, no propagante'
     ],
     applications: 'Instalaciones móviles industriales y domésticas, maquinaria de mano y aparatos portátiles en general.',
-    installation: 'Radio de curvatura: Mínimo 7 veces el diámetro exterior. Tracción máxima: 5daN/mm². Temperatura de montaje: ≥ 5°C.'
+    installation: 'Radio de curvatura: Mínimo 7 veces el diámetro exterior. Tracción máxima: 5daN/mm². Temperatura de montaje: ≥ 5°C.',
+    specsTable: [
+      { "Formación": "2x0,75", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,2", "Peso": "52", "Resist.": "26" },
+      { "Formación": "2x1,0", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,5", "Peso": "60", "Resist.": "19,5" },
+      { "Formación": "2x1,5", "Espesor Nom.": "0,7", "Cubierta": "0,8", "Diámetro": "7,4", "Peso": "80", "Resist.": "13,3" },
+      { "Formación": "2x2,5", "Espesor Nom.": "0,8", "Cubierta": "1", "Diámetro": "9,1", "Peso": "125", "Resist.": "7,98" },
+      { "Formación": "3x1,0", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,9", "Peso": "72", "Resist.": "19,5" },
+      { "Formación": "3x1,5", "Espesor Nom.": "0,7", "Cubierta": "0,9", "Diámetro": "8,1", "Peso": "101", "Resist.": "13,3" },
+      { "Formación": "3x2,5", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "9,9", "Peso": "157", "Resist.": "7,98" },
+      { "Formación": "4x1,5", "Espesor Nom.": "0,7", "Cubierta": "1", "Diámetro": "9,1", "Peso": "128", "Resist.": "13,3" },
+      { "Formación": "4x2,5", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "10,8", "Peso": "191", "Resist.": "7,98" }
+    ]
   }
 ];
 
