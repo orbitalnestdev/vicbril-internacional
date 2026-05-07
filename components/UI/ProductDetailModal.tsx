@@ -156,16 +156,6 @@ const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ isOpen, onClose
                 </div>
               )}
 
-              {product.technicalTable && (
-                <div className="border border-slate-200 p-6 bg-slate-50">
-                  <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-4 border-b border-slate-200 pb-2">Tabla Técnica / Marcas</h4>
-                  <img
-                    src={product.technicalTable}
-                    alt="Tabla Técnica"
-                    className="w-full h-auto shadow-sm"
-                  />
-                </div>
-              )}
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <button
