@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Download, MessageSquare, Info } from 'lucide-react';
+import { X, MessageSquare, Info } from 'lucide-react';
 import { Product } from '../../types';
 
 interface ProductDetailModalProps {
@@ -168,17 +168,6 @@ const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ isOpen, onClose
               )}
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                {product.pdf && (
-                  <a 
-                    href={product.pdf} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex-1 bg-slate-100 text-slate-900 font-bold py-4 px-6 flex items-center justify-center gap-3 hover:bg-slate-200 transition uppercase tracking-widest text-xs"
-                  >
-                    <Download size={18} />
-                    Ficha Técnica PDF
-                  </a>
-                )}
                 <button 
                   onClick={() => {
                     onQuote(product.name);
