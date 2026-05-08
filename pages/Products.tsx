@@ -1,19 +1,17 @@
 import React, { useState, useEffect } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, useNavigate, Link } from 'react-router-dom';
 import { categories, products } from '../services/data';
 import { Filter, Download, Search, ChevronRight, Folder, ArrowLeft } from 'lucide-react';
 import QuoteModal from '../components/UI/QuoteModal';
-import ProductDetailModal from '../components/UI/ProductDetailModal';
 import { Product } from '../types';
 
 const Products: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [activeSubCategory, setActiveSubCategory] = useState<string>('all');
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isDetailOpen, setIsDetailOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<string>('');
-  const [currentProduct, setCurrentProduct] = useState<Product | null>(null);
 
   useEffect(() => {
     const cat = searchParams.get('cat');
@@ -70,8 +68,7 @@ const Products: React.FC = () => {
   };
 
   const handleProductClick = (product: Product) => {
-    setCurrentProduct(product);
-    setIsDetailOpen(true);
+    navigate(`/productos/${product.id}`);
   };
 
   // Determine Banner Content
@@ -84,18 +81,11 @@ const Products: React.FC = () => {
   const pageSubtitle = 'Nuestro Catálogo';
 
   return (
-    <div className="pt-20 pb-20 bg-gray-50 min-h-screen font-sans">
+    <div className="pt-44 pb-20 bg-gray-50 min-h-screen font-sans">
       <QuoteModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
         productName={selectedProduct}
-      />
-
-      <ProductDetailModal
-        isOpen={isDetailOpen}
-        onClose={() => setIsDetailOpen(false)}
-        product={currentProduct}
-        onQuote={handleQuoteClick}
       />
 
       {/* Dynamic Header Banner */}
@@ -122,9 +112,6 @@ const Products: React.FC = () => {
 
             {/* Header Actions */}
             <div className="flex flex-wrap gap-4">
-              <button className="flex items-center text-xs font-bold uppercase tracking-widest text-white bg-white/10 hover:bg-orange-600 transition border border-white/20 px-6 py-3 backdrop-blur-sm">
-                <Download size={14} className="mr-2" /> Ficha Técnica PDF
-              </button>
               {activeCategory !== 'all' && (
                 <button
                   onClick={() => handleCategoryChange('all')}
@@ -200,28 +187,39 @@ const Products: React.FC = () => {
           {/* Product Grid / Subcategory Folders */}
           <div className="flex-1">
             {/* Breadcrumbs / Back button */}
-            {activeCategory !== 'all' && (
-              <div className="mb-8 flex items-center gap-4">
+            <div className="mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
+                <Link to="/" className="hover:text-orange-600 transition-colors">Inicio</Link>
+                <ChevronRight size={10} className="text-slate-300" />
+                {activeCategory === 'all' ? (
+                  <span className="text-orange-600">Catálogo</span>
+                ) : (
+                  <>
+                    <Link to="/productos" className="hover:text-orange-600 transition-colors">Catálogo</Link>
+                    <ChevronRight size={10} className="text-slate-300" />
+                    <span className={activeSubCategory === 'all' ? 'text-orange-600' : 'text-slate-900'}>
+                      {currentCategoryInfo?.name}
+                    </span>
+                    {activeSubCategory !== 'all' && (
+                      <>
+                        <ChevronRight size={10} className="text-slate-300" />
+                        <span className="text-orange-600">{activeSubCategory}</span>
+                      </>
+                    )}
+                  </>
+                )}
+              </div>
+
+              {activeCategory !== 'all' && (
                 <button
                   onClick={() => activeSubCategory !== 'all' ? handleSubCategoryChange('all') : handleCategoryChange('all')}
-                  className="flex items-center text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-slate-900 transition"
+                  className="flex items-center text-xs font-bold uppercase tracking-widest text-slate-900 hover:text-orange-600 transition group"
                 >
-                  <ArrowLeft size={14} className="mr-2" /> {activeSubCategory !== 'all' ? 'Volver a Subcategorías' : 'Ver Todas las Líneas'}
+                  <ArrowLeft size={14} className="mr-2 group-hover:-translate-x-1 transition-transform" /> 
+                  {activeSubCategory !== 'all' ? 'Volver a Subcategorías' : 'Ver Todas las Líneas'}
                 </button>
-                <div className="h-4 w-px bg-gray-300"></div>
-                <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
-                  <span>Catálogo</span>
-                  <ChevronRight size={10} />
-                  <span className="text-slate-900">{currentCategoryInfo?.name}</span>
-                  {activeSubCategory !== 'all' && (
-                    <>
-                      <ChevronRight size={10} />
-                      <span className="text-orange-600">{activeSubCategory}</span>
-                    </>
-                  )}
-                </div>
-              </div>
-            )}
+              )}
+            </div>
 
             {/* If Category has subcategories and none is selected, show Subcategory folders with IMAGES */}
             {activeCategory !== 'all' && subCategories.length > 0 && activeSubCategory === 'all' ? (

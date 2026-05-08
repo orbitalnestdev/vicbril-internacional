@@ -5,6 +5,7 @@ import Footer from './components/Layout/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
+import ProductDetail from './pages/ProductDetail';
 import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
 import { FloatingWhatsApp, TechnicalAssistant } from './components/UI/FloatingButtons';
@@ -43,6 +44,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/nosotros" element={<About />} />
             <Route path="/productos" element={<Products />} />
+            <Route path="/productos/:id" element={<ProductDetail />} />
             <Route path="/contacto" element={<Contact />} />
             <Route path="/faq" element={<FAQ />} />
           </Routes>
