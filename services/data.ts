@@ -290,8 +290,13 @@ export const products: Product[] = [
     specsTable: [
       { "Formación": "2x16", "Sección Fase": "16", "Neutro": "16", "Diámetro": "15,5", "Peso": "145" },
       { "Formación": "2x25", "Sección Fase": "25", "Neutro": "25", "Diámetro": "18,2", "Peso": "215" },
+      { "Formación": "2x35", "Sección Fase": "35", "Neutro": "35", "Diámetro": "20,5", "Peso": "290" },
       { "Formación": "4x16", "Sección Fase": "16", "Neutro": "16", "Diámetro": "18,5", "Peso": "290" },
-      { "Formación": "4x25", "Sección Fase": "25", "Neutro": "25", "Diámetro": "22,1", "Peso": "430" }
+      { "Formación": "4x25", "Sección Fase": "25", "Neutro": "25", "Diámetro": "22,1", "Peso": "430" },
+      { "Formación": "4x35", "Sección Fase": "35", "Neutro": "35", "Diámetro": "25,2", "Peso": "580" },
+      { "Formación": "4x50", "Sección Fase": "50", "Neutro": "50", "Diámetro": "29,1", "Peso": "790" },
+      { "Formación": "4x70", "Sección Fase": "70", "Neutro": "70", "Diámetro": "33,5", "Peso": "1120" },
+      { "Formación": "4x95", "Sección Fase": "95", "Neutro": "95", "Diámetro": "38,8", "Peso": "1540" }
     ]
   },
   {
@@ -307,8 +312,19 @@ export const products: Product[] = [
     specsTable: [
       { "Formación": "2x1,5", "Diámetro": "10,5", "Peso": "165", "Amp (Tierra)": "32", "Amp (Aire)": "24" },
       { "Formación": "2x2,5", "Diámetro": "11,5", "Peso": "205", "Amp (Tierra)": "42", "Amp (Aire)": "32" },
-      { "Formación": "4x4", "Diámetro": "14,5", "Peso": "380", "Amp (Tierra)": "54", "Amp (Aire)": "42" },
-      { "Formación": "4x10", "Diámetro": "18,5", "Peso": "710", "Amp (Tierra)": "92", "Amp (Aire)": "75" }
+      { "Formación": "2x4", "Diámetro": "12,8", "Peso": "270", "Amp (Tierra)": "54", "Amp (Aire)": "42" },
+      { "Formación": "2x6", "Diámetro": "14,0", "Peso": "340", "Amp (Tierra)": "68", "Amp (Aire)": "54" },
+      { "Formación": "3x1,5", "Diámetro": "11,2", "Peso": "195", "Amp (Tierra)": "27", "Amp (Aire)": "20" },
+      { "Formación": "3x2,5", "Diámetro": "12,2", "Peso": "250", "Amp (Tierra)": "36", "Amp (Aire)": "28" },
+      { "Formación": "3x4", "Diámetro": "13,6", "Peso": "320", "Amp (Tierra)": "46", "Amp (Aire)": "36" },
+      { "Formación": "4x1,5", "Diámetro": "12,1", "Peso": "225", "Amp (Tierra)": "27", "Amp (Aire)": "20" },
+      { "Formación": "4x2,5", "Diámetro": "13,3", "Peso": "295", "Amp (Tierra)": "36", "Amp (Aire)": "28" },
+      { "Formación": "4x4", "Diámetro": "14,8", "Peso": "395", "Amp (Tierra)": "46", "Amp (Aire)": "36" },
+      { "Formación": "4x6", "Diámetro": "16,2", "Peso": "510", "Amp (Tierra)": "58", "Amp (Aire)": "46" },
+      { "Formación": "4x10", "Diámetro": "18,8", "Peso": "750", "Amp (Tierra)": "77", "Amp (Aire)": "64" },
+      { "Formación": "4x16", "Diámetro": "21,5", "Peso": "1080", "Amp (Tierra)": "100", "Amp (Aire)": "85" },
+      { "Formación": "4x25", "Diámetro": "25,8", "Peso": "1620", "Amp (Tierra)": "130", "Amp (Aire)": "112" },
+      { "Formación": "4x35", "Diámetro": "28,5", "Peso": "2150", "Amp (Tierra)": "155", "Amp (Aire)": "137" }
     ]
   },
   {
@@ -323,7 +339,13 @@ export const products: Product[] = [
     specsTable: [
       { "Sección": "35", "Diámetro": "24,5", "Peso": "980", "Amp (Tierra)": "165" },
       { "Sección": "50", "Diámetro": "26,1", "Peso": "1150", "Amp (Tierra)": "195" },
-      { "Sección": "95", "Diámetro": "30,5", "Peso": "1750", "Amp (Tierra)": "285" }
+      { "Sección": "70", "Diámetro": "28,2", "Peso": "1420", "Amp (Tierra)": "240" },
+      { "Sección": "95", "Diámetro": "30,5", "Peso": "1750", "Amp (Tierra)": "285" },
+      { "Sección": "120", "Diámetro": "32,4", "Peso": "2100", "Amp (Tierra)": "325" },
+      { "Sección": "150", "Diámetro": "34,8", "Peso": "2450", "Amp (Tierra)": "365" },
+      { "Sección": "185", "Diámetro": "37,2", "Peso": "2900", "Amp (Tierra)": "415" },
+      { "Sección": "240", "Diámetro": "41,5", "Peso": "3650", "Amp (Tierra)": "480" },
+      { "Sección": "300", "Diámetro": "45,2", "Peso": "4400", "Amp (Tierra)": "540" }
     ]
   },
   {
@@ -368,7 +390,44 @@ export const products: Product[] = [
     specsTable: [
       { "Formación": "4x16", "Diámetro": "24,5", "Peso": "1150" },
       { "Formación": "4x25", "Diámetro": "28,2", "Peso": "1680" },
-      { "Formación": "4x50", "Diámetro": "34,1", "Peso": "2850" }
+      { "Formación": "4x35", "Diámetro": "31,5", "Peso": "2150" },
+      { "Formación": "4x50", "Diámetro": "34,1", "Peso": "2850" },
+      { "Formación": "4x70", "Diámetro": "38,5", "Peso": "3850" },
+      { "Formación": "4x95", "Diámetro": "43,2", "Peso": "5100" }
+    ]
+  },
+  {
+    id: 'cobre-desnudo',
+    name: 'Cobre Desnudo',
+    category: 'Cables para Instalación Civil',
+    subCategory: 'CONDUCTORES DESNUDOS',
+    description: 'Cables de cobre sin aislación para puesta a tierra y redes aéreas.',
+    detailedDescription: 'Conductores de cobre electrolítico recocido o duro, cableados en capas concéntricas. Alta conductividad y resistencia a la corrosión.',
+    image: '/images/PRODUCTOS/PORTADA.png',
+    specs: ['Cobre Electrolítico', 'Norma IRAM 2004', 'Alta Conductividad'],
+    specsTable: [
+      { "Sección (mm²)": "16", "Formación": "7x1,70", "Diámetro": "5,1", "Peso": "142" },
+      { "Sección (mm²)": "25", "Formación": "7x2,14", "Diámetro": "6,4", "Peso": "225" },
+      { "Sección (mm²)": "35", "Formación": "7x2,52", "Diámetro": "7,6", "Peso": "312" },
+      { "Sección (mm²)": "50", "Formación": "19x1,78", "Diámetro": "8,9", "Peso": "438" },
+      { "Sección (mm²)": "70", "Formación": "19x2,14", "Diámetro": "10,7", "Peso": "635" },
+      { "Sección (mm²)": "95", "Formación": "19x2,52", "Diámetro": "12,6", "Peso": "882" },
+      { "Sección (mm²)": "120", "Formación": "37x2,03", "Diámetro": "14,2", "Peso": "1120" }
+    ]
+  },
+  {
+    id: 'redes-utp',
+    name: 'Cables de Red UTP/FTP',
+    category: 'Resto de Materiales Eléctricos',
+    subCategory: 'DATOS Y REDES',
+    description: 'Cables de par trenzado para transmisión de datos y redes informáticas.',
+    detailedDescription: 'Conductores de cobre sólido de 24AWG o 23AWG, aislados con polietileno y reunidos en 4 pares.',
+    image: '/images/fotos-nuevas/Materiales electricos.jpg',
+    specs: ['Cat 5e / Cat 6', '100% Cobre', 'Interior/Exterior'],
+    specsTable: [
+      { "Tipo": "UTP Cat 5e", "AWG": "24", "Pares": "4", "Diámetro": "5,2", "Uso": "Interior" },
+      { "Tipo": "UTP Cat 6", "AWG": "23", "Pares": "4", "Diámetro": "6,1", "Uso": "Gigabit" },
+      { "Tipo": "FTP Cat 6", "AWG": "23", "Pares": "4", "Diámetro": "6,5", "Uso": "Blindado" }
     ]
   }
 ];
