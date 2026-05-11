@@ -171,6 +171,18 @@ const ProductDetail: React.FC = () => {
                       <MessageSquare size={18} className="group-hover:scale-110 transition-transform" />
                       Consultar Ahora
                     </button>
+                    
+                    {product.pdf && (
+                      <a
+                        href={product.pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 bg-slate-900 text-white font-bold py-5 px-8 flex items-center justify-center gap-4 hover:bg-slate-800 transition-all shadow-xl shadow-slate-900/20 uppercase tracking-[0.2em] text-xs group"
+                      >
+                        <Download size={18} className="group-hover:translate-y-1 transition-transform" />
+                        Ficha Técnica PDF
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
@@ -185,12 +197,12 @@ const ProductDetail: React.FC = () => {
                   </h4>
                 </div>
                 <div className="border border-slate-200 bg-white overflow-hidden shadow-2xl">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-xs text-left border-collapse">
+                  <div className="overflow-x-auto lg:overflow-x-visible">
+                    <table className="w-full text-[10px] md:text-[11px] text-left border-collapse table-auto lg:table-fixed">
                       <thead>
                         <tr className="bg-slate-900 border-b border-slate-800">
                           {Object.keys(product.specsTable[0]).map((header) => (
-                            <th key={header} className="px-6 py-4 font-bold text-white uppercase tracking-widest whitespace-nowrap">
+                            <th key={header} className="px-2 md:px-4 py-4 font-bold text-white uppercase tracking-wider whitespace-normal leading-tight break-words align-middle border-x border-slate-800 first:border-l-0 last:border-r-0">
                               {header}
                             </th>
                           ))}
@@ -200,7 +212,7 @@ const ProductDetail: React.FC = () => {
                         {product.specsTable.map((row, i) => (
                           <tr key={i} className="hover:bg-orange-50/50 transition-colors group">
                             {Object.values(row).map((val, j) => (
-                              <td key={j} className="px-6 py-4 text-slate-600 font-medium whitespace-nowrap group-hover:text-slate-900 transition-colors">
+                              <td key={j} className="px-2 md:px-4 py-4 text-slate-600 font-medium break-words group-hover:text-slate-900 transition-colors border-x border-slate-50 first:border-l-0 last:border-r-0">
                                 {val}
                               </td>
                             ))}
