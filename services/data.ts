@@ -207,9 +207,12 @@ export const products: Product[] = [
     applications: 'Instalaciones móviles y aparatos portátiles en general.',
     installation: 'Apto para instalaciones móviles y uso doméstico.',
     specsTable: [
+      { "Formación (Nº x mm²)": "2x0,50", "Diám. máx. alambres (mm)": "0,21", "Esp. aislación nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "2,4 x 4,8", "Masa aprox. (kg/km)": "24", "Resistencia eléctrica máx. 20°C (Ohm/km)": "39", "Intensidad continua (A)": "3" },
+      { "Formación (Nº x mm²)": "2x0,75", "Diám. máx. alambres (mm)": "0,21", "Esp. aislación nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "2,6 x 5,2", "Masa aprox. (kg/km)": "28", "Resistencia eléctrica máx. 20°C (Ohm/km)": "26", "Intensidad continua (A)": "6" },
       { "Formación (Nº x mm²)": "2x1", "Diám. máx. alambres (mm)": "0,21", "Esp. aislación nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "2,7 x 5,4", "Masa aprox. (kg/km)": "32", "Resistencia eléctrica máx. 20°C (Ohm/km)": "19,5", "Intensidad continua (A)": "6" },
       { "Formación (Nº x mm²)": "2x1,5", "Diám. máx. alambres (mm)": "0,26", "Esp. aislación nominal (mm)": "0,7", "Dimensiones exteriores aprox. (mm)": "3,0 x 6,1", "Masa aprox. (kg/km)": "45", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad continua (A)": "10" },
-      { "Formación (Nº x mm²)": "2x2,5", "Diám. máx. alambres (mm)": "0,26", "Esp. aislación nominal (mm)": "0,8", "Dimensiones exteriores aprox. (mm)": "3,6 x 7,4", "Masa aprox. (kg/km)": "72", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad continua (A)": "15" }
+      { "Formación (Nº x mm²)": "2x2,5", "Diám. máx. alambres (mm)": "0,26", "Esp. aislación nominal (mm)": "0,8", "Dimensiones exteriores aprox. (mm)": "3,6 x 7,4", "Masa aprox. (kg/km)": "72", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad continua (A)": "15" },
+      { "Formación (Nº x mm²)": "2x4", "Diám. máx. alambres (mm)": "0,31", "Esp. aislación nominal (mm)": "0,8", "Dimensiones exteriores aprox. (mm)": "4,2 x 8,6", "Masa aprox. (kg/km)": "110", "Resistencia eléctrica máx. 20°C (Ohm/km)": "4,95", "Intensidad continua (A)": "20" }
     ]
   },
   {
