@@ -262,19 +262,19 @@ export const products: Product[] = [
     applications: 'Instalaciones móviles industriales y domésticas, maquinaria de mano y aparatos portátiles en general.',
     installation: 'Radio de curvatura: Mínimo 7 veces el diámetro exterior. Tracción máxima: 5daN/mm². Temperatura de montaje: ≥ 5°C.',
     specsTable: [
-      { "Formación": "2x0,75", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,2", "Peso": "52", "Resist.": "26" },
-      { "Formación": "2x1,0", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,5", "Peso": "60", "Resist.": "19,5" },
-      { "Formación": "2x1,5", "Espesor Nom.": "0,7", "Cubierta": "0,8", "Diámetro": "7,4", "Peso": "80", "Resist.": "13,3" },
-      { "Formación": "2x2,5", "Espesor Nom.": "0,8", "Cubierta": "1", "Diámetro": "9,1", "Peso": "125", "Resist.": "7,98" },
-      { "Formación": "2x4,0", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "10,5", "Peso": "185", "Resist.": "4,95" },
-      { "Formación": "3x1,0", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,9", "Peso": "72", "Resist.": "19,5" },
-      { "Formación": "3x1,5", "Espesor Nom.": "0,7", "Cubierta": "0,9", "Diámetro": "8,1", "Peso": "101", "Resist.": "13,3" },
-      { "Formación": "3x2,5", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "9,9", "Peso": "157", "Resist.": "7,98" },
-      { "Formación": "3x4,0", "Espesor Nom.": "0,8", "Cubierta": "1,2", "Diámetro": "11,4", "Peso": "235", "Resist.": "4,95" },
-      { "Formación": "4x1,5", "Espesor Nom.": "0,7", "Cubierta": "1", "Diámetro": "9,1", "Peso": "128", "Resist.": "13,3" },
-      { "Formación": "4x2,5", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "10,8", "Peso": "191", "Resist.": "7,98" },
-      { "Formación": "4x4,0", "Espesor Nom.": "0,8", "Cubierta": "1,2", "Diámetro": "12,6", "Peso": "285", "Resist.": "4,95" },
-      { "Formación": "4x6,0", "Espesor Nom.": "0,8", "Cubierta": "1,3", "Diámetro": "14,5", "Peso": "410", "Resist.": "3,30" }
+      { "Formación": "2x0,75", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,2", "Peso": "52", "Resist.": "26", "Amp": "7" },
+      { "Formación": "2x1,0", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,5", "Peso": "60", "Resist.": "19,5", "Amp": "10" },
+      { "Formación": "2x1,5", "Espesor Nom.": "0,7", "Cubierta": "0,8", "Diámetro": "7,4", "Peso": "80", "Resist.": "13,3", "Amp": "13" },
+      { "Formación": "2x2,5", "Espesor Nom.": "0,8", "Cubierta": "1", "Diámetro": "9,1", "Peso": "125", "Resist.": "7,98", "Amp": "18" },
+      { "Formación": "2x4,0", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "10,5", "Peso": "185", "Resist.": "4,95", "Amp": "24" },
+      { "Formación": "3x1,0", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,9", "Peso": "72", "Resist.": "19,5", "Amp": "10" },
+      { "Formación": "3x1,5", "Espesor Nom.": "0,7", "Cubierta": "0,9", "Diámetro": "8,1", "Peso": "101", "Resist.": "13,3", "Amp": "13" },
+      { "Formación": "3x2,5", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "9,9", "Peso": "157", "Resist.": "7,98", "Amp": "18" },
+      { "Formación": "3x4,0", "Espesor Nom.": "0,8", "Cubierta": "1,2", "Diámetro": "11,4", "Peso": "235", "Resist.": "4,95", "Amp": "24" },
+      { "Formación": "4x1,5", "Espesor Nom.": "0,7", "Cubierta": "1", "Diámetro": "9,1", "Peso": "128", "Resist.": "13,3", "Amp": "13" },
+      { "Formación": "4x2,5", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "10,8", "Peso": "191", "Resist.": "7,98", "Amp": "18" },
+      { "Formación": "4x4,0", "Espesor Nom.": "0,8", "Cubierta": "1,2", "Diámetro": "12,6", "Peso": "285", "Resist.": "4,95", "Amp": "24" },
+      { "Formación": "4x6,0", "Espesor Nom.": "0,8", "Cubierta": "1,3", "Diámetro": "14,5", "Peso": "410", "Resist.": "3,30", "Amp": "31" }
     ]
   },
   {
@@ -288,15 +288,15 @@ export const products: Product[] = [
     specs: ['Baja Tensión', 'XLPE', 'Aluminio'],
     characteristics: ['Resistente a la intemperie', 'Larga vida útil', 'Fácil instalación'],
     specsTable: [
-      { "Formación": "2x16", "Sección Fase": "16", "Neutro": "16", "Diámetro": "15,5", "Peso": "145" },
-      { "Formación": "2x25", "Sección Fase": "25", "Neutro": "25", "Diámetro": "18,2", "Peso": "215" },
-      { "Formación": "2x35", "Sección Fase": "35", "Neutro": "35", "Diámetro": "20,5", "Peso": "290" },
-      { "Formación": "4x16", "Sección Fase": "16", "Neutro": "16", "Diámetro": "18,5", "Peso": "290" },
-      { "Formación": "4x25", "Sección Fase": "25", "Neutro": "25", "Diámetro": "22,1", "Peso": "430" },
-      { "Formación": "4x35", "Sección Fase": "35", "Neutro": "35", "Diámetro": "25,2", "Peso": "580" },
-      { "Formación": "4x50", "Sección Fase": "50", "Neutro": "50", "Diámetro": "29,1", "Peso": "790" },
-      { "Formación": "4x70", "Sección Fase": "70", "Neutro": "70", "Diámetro": "33,5", "Peso": "1120" },
-      { "Formación": "4x95", "Sección Fase": "95", "Neutro": "95", "Diámetro": "38,8", "Peso": "1540" }
+      { "Formación": "2x16", "Sección Fase": "16", "Neutro": "16", "Diámetro": "15,5", "Peso": "145", "Resist.": "1,91", "Amp (Aire)": "75" },
+      { "Formación": "2x25", "Sección Fase": "25", "Neutro": "25", "Diámetro": "18,2", "Peso": "215", "Resist.": "1,20", "Amp (Aire)": "100" },
+      { "Formación": "2x35", "Sección Fase": "35", "Neutro": "35", "Diámetro": "20,5", "Peso": "290", "Resist.": "0,86", "Amp (Aire)": "125" },
+      { "Formación": "4x16", "Sección Fase": "16", "Neutro": "16", "Diámetro": "18,5", "Peso": "290", "Resist.": "1,91", "Amp (Aire)": "75" },
+      { "Formación": "4x25", "Sección Fase": "25", "Neutro": "25", "Diámetro": "22,1", "Peso": "430", "Resist.": "1,20", "Amp (Aire)": "100" },
+      { "Formación": "4x35", "Sección Fase": "35", "Neutro": "35", "Diámetro": "25,2", "Peso": "580", "Resist.": "0,86", "Amp (Aire)": "125" },
+      { "Formación": "4x50", "Sección Fase": "50", "Neutro": "50", "Diámetro": "29,1", "Peso": "790", "Resist.": "0,64", "Amp (Aire)": "150" },
+      { "Formación": "4x70", "Sección Fase": "70", "Neutro": "70", "Diámetro": "33,5", "Peso": "1120", "Resist.": "0,44", "Amp (Aire)": "190" },
+      { "Formación": "4x95", "Sección Fase": "95", "Neutro": "95", "Diámetro": "38,8", "Peso": "1540", "Resist.": "0,32", "Amp (Aire)": "230" }
     ]
   },
   {
@@ -310,21 +310,21 @@ export const products: Product[] = [
     specs: ['1.1kV', 'IRAM 2178-1', 'Apto Subterráneo'],
     characteristics: ['Doble aislación', 'Gran flexibilidad', 'Resistente a la humedad'],
     specsTable: [
-      { "Formación": "2x1,5", "Diámetro": "10,5", "Peso": "165", "Amp (Tierra)": "32", "Amp (Aire)": "24" },
-      { "Formación": "2x2,5", "Diámetro": "11,5", "Peso": "205", "Amp (Tierra)": "42", "Amp (Aire)": "32" },
-      { "Formación": "2x4", "Diámetro": "12,8", "Peso": "270", "Amp (Tierra)": "54", "Amp (Aire)": "42" },
-      { "Formación": "2x6", "Diámetro": "14,0", "Peso": "340", "Amp (Tierra)": "68", "Amp (Aire)": "54" },
-      { "Formación": "3x1,5", "Diámetro": "11,2", "Peso": "195", "Amp (Tierra)": "27", "Amp (Aire)": "20" },
-      { "Formación": "3x2,5", "Diámetro": "12,2", "Peso": "250", "Amp (Tierra)": "36", "Amp (Aire)": "28" },
-      { "Formación": "3x4", "Diámetro": "13,6", "Peso": "320", "Amp (Tierra)": "46", "Amp (Aire)": "36" },
-      { "Formación": "4x1,5", "Diámetro": "12,1", "Peso": "225", "Amp (Tierra)": "27", "Amp (Aire)": "20" },
-      { "Formación": "4x2,5", "Diámetro": "13,3", "Peso": "295", "Amp (Tierra)": "36", "Amp (Aire)": "28" },
-      { "Formación": "4x4", "Diámetro": "14,8", "Peso": "395", "Amp (Tierra)": "46", "Amp (Aire)": "36" },
-      { "Formación": "4x6", "Diámetro": "16,2", "Peso": "510", "Amp (Tierra)": "58", "Amp (Aire)": "46" },
-      { "Formación": "4x10", "Diámetro": "18,8", "Peso": "750", "Amp (Tierra)": "77", "Amp (Aire)": "64" },
-      { "Formación": "4x16", "Diámetro": "21,5", "Peso": "1080", "Amp (Tierra)": "100", "Amp (Aire)": "85" },
-      { "Formación": "4x25", "Diámetro": "25,8", "Peso": "1620", "Amp (Tierra)": "130", "Amp (Aire)": "112" },
-      { "Formación": "4x35", "Diámetro": "28,5", "Peso": "2150", "Amp (Tierra)": "155", "Amp (Aire)": "137" }
+      { "Formación": "2x1,5", "Diámetro": "10,5", "Peso": "165", "Resist.": "13,3", "Amp (Tierra)": "32", "Amp (Aire)": "24" },
+      { "Formación": "2x2,5", "Diámetro": "11,5", "Peso": "205", "Resist.": "7,98", "Amp (Tierra)": "42", "Amp (Aire)": "32" },
+      { "Formación": "2x4", "Diámetro": "12,8", "Peso": "270", "Resist.": "4,95", "Amp (Tierra)": "54", "Amp (Aire)": "42" },
+      { "Formación": "2x6", "Diámetro": "14,0", "Peso": "340", "Resist.": "3,30", "Amp (Tierra)": "68", "Amp (Aire)": "54" },
+      { "Formación": "3x1,5", "Diámetro": "11,2", "Peso": "195", "Resist.": "13,3", "Amp (Tierra)": "27", "Amp (Aire)": "20" },
+      { "Formación": "3x2,5", "Diámetro": "12,2", "Peso": "250", "Resist.": "7,98", "Amp (Tierra)": "36", "Amp (Aire)": "28" },
+      { "Formación": "3x4", "Diámetro": "13,6", "Peso": "320", "Resist.": "4,95", "Amp (Tierra)": "46", "Amp (Aire)": "36" },
+      { "Formación": "4x1,5", "Diámetro": "12,1", "Peso": "225", "Resist.": "13,3", "Amp (Tierra)": "27", "Amp (Aire)": "20" },
+      { "Formación": "4x2,5", "Diámetro": "13,3", "Peso": "295", "Resist.": "7,98", "Amp (Tierra)": "36", "Amp (Aire)": "28" },
+      { "Formación": "4x4", "Diámetro": "14,8", "Peso": "395", "Resist.": "4,95", "Amp (Tierra)": "46", "Amp (Aire)": "36" },
+      { "Formación": "4x6", "Diámetro": "16,2", "Peso": "510", "Resist.": "3,30", "Amp (Tierra)": "58", "Amp (Aire)": "46" },
+      { "Formación": "4x10", "Diámetro": "18,8", "Peso": "750", "Resist.": "1,91", "Amp (Tierra)": "77", "Amp (Aire)": "64" },
+      { "Formación": "4x16", "Diámetro": "21,5", "Peso": "1080", "Resist.": "1,21", "Amp (Tierra)": "100", "Amp (Aire)": "85" },
+      { "Formación": "4x25", "Diámetro": "25,8", "Peso": "1620", "Resist.": "0,78", "Amp (Tierra)": "130", "Amp (Aire)": "112" },
+      { "Formación": "4x35", "Diámetro": "28,5", "Peso": "2150", "Resist.": "0,55", "Amp (Tierra)": "155", "Amp (Aire)": "137" }
     ]
   },
   {
@@ -337,15 +337,15 @@ export const products: Product[] = [
     image: '/images/fotos-nuevas/Cables-media-tension.jpg',
     specs: ['13.2kV / 33kV', 'XLPE', 'IRAM 2178-2'],
     specsTable: [
-      { "Sección": "35", "Diámetro": "24,5", "Peso": "980", "Amp (Tierra)": "165" },
-      { "Sección": "50", "Diámetro": "26,1", "Peso": "1150", "Amp (Tierra)": "195" },
-      { "Sección": "70", "Diámetro": "28,2", "Peso": "1420", "Amp (Tierra)": "240" },
-      { "Sección": "95", "Diámetro": "30,5", "Peso": "1750", "Amp (Tierra)": "285" },
-      { "Sección": "120", "Diámetro": "32,4", "Peso": "2100", "Amp (Tierra)": "325" },
-      { "Sección": "150", "Diámetro": "34,8", "Peso": "2450", "Amp (Tierra)": "365" },
-      { "Sección": "185", "Diámetro": "37,2", "Peso": "2900", "Amp (Tierra)": "415" },
-      { "Sección": "240", "Diámetro": "41,5", "Peso": "3650", "Amp (Tierra)": "480" },
-      { "Sección": "300", "Diámetro": "45,2", "Peso": "4400", "Amp (Tierra)": "540" }
+      { "Sección": "35", "Diámetro": "24,5", "Peso": "980", "Resist.": "0,52", "Amp (Tierra)": "165" },
+      { "Sección": "50", "Diámetro": "26,1", "Peso": "1150", "Resist.": "0,38", "Amp (Tierra)": "195" },
+      { "Sección": "70", "Diámetro": "28,2", "Peso": "1420", "Resist.": "0,26", "Amp (Tierra)": "240" },
+      { "Sección": "95", "Diámetro": "30,5", "Peso": "1750", "Resist.": "0,19", "Amp (Tierra)": "285" },
+      { "Sección": "120", "Diámetro": "32,4", "Peso": "2100", "Resist.": "0,15", "Amp (Tierra)": "325" },
+      { "Sección": "150", "Diámetro": "34,8", "Peso": "2450", "Resist.": "0,12", "Amp (Tierra)": "365" },
+      { "Sección": "185", "Diámetro": "37,2", "Peso": "2900", "Resist.": "0,09", "Amp (Tierra)": "415" },
+      { "Sección": "240", "Diámetro": "41,5", "Peso": "3650", "Resist.": "0,07", "Amp (Tierra)": "480" },
+      { "Sección": "300", "Diámetro": "45,2", "Peso": "4400", "Resist.": "0,06", "Amp (Tierra)": "540" }
     ]
   },
   {
@@ -388,12 +388,12 @@ export const products: Product[] = [
     image: '/images/fotos-nuevas/Cables-armados.jpg',
     specs: ['1.1kV', 'Armadura de Acero', 'Subterráneo'],
     specsTable: [
-      { "Formación": "4x16", "Diámetro": "24,5", "Peso": "1150" },
-      { "Formación": "4x25", "Diámetro": "28,2", "Peso": "1680" },
-      { "Formación": "4x35", "Diámetro": "31,5", "Peso": "2150" },
-      { "Formación": "4x50", "Diámetro": "34,1", "Peso": "2850" },
-      { "Formación": "4x70", "Diámetro": "38,5", "Peso": "3850" },
-      { "Formación": "4x95", "Diámetro": "43,2", "Peso": "5100" }
+      { "Formación": "4x16", "Diámetro": "24,5", "Peso": "1150", "Resist.": "1,21", "Amp": "100" },
+      { "Formación": "4x25", "Diámetro": "28,2", "Peso": "1680", "Resist.": "0,78", "Amp": "130" },
+      { "Formación": "4x35", "Diámetro": "31,5", "Peso": "2150", "Resist.": "0,55", "Amp": "155" },
+      { "Formación": "4x50", "Diámetro": "34,1", "Peso": "2850", "Resist.": "0,38", "Amp": "185" },
+      { "Formación": "4x70", "Diámetro": "38,5", "Peso": "3850", "Resist.": "0,27", "Amp": "230" },
+      { "Formación": "4x95", "Diámetro": "43,2", "Peso": "5100", "Resist.": "0,20", "Amp": "280" }
     ]
   },
   {
@@ -406,13 +406,13 @@ export const products: Product[] = [
     image: '/images/PRODUCTOS/PORTADA.png',
     specs: ['Cobre Electrolítico', 'Norma IRAM 2004', 'Alta Conductividad'],
     specsTable: [
-      { "Sección (mm²)": "16", "Formación": "7x1,70", "Diámetro": "5,1", "Peso": "142" },
-      { "Sección (mm²)": "25", "Formación": "7x2,14", "Diámetro": "6,4", "Peso": "225" },
-      { "Sección (mm²)": "35", "Formación": "7x2,52", "Diámetro": "7,6", "Peso": "312" },
-      { "Sección (mm²)": "50", "Formación": "19x1,78", "Diámetro": "8,9", "Peso": "438" },
-      { "Sección (mm²)": "70", "Formación": "19x2,14", "Diámetro": "10,7", "Peso": "635" },
-      { "Sección (mm²)": "95", "Formación": "19x2,52", "Diámetro": "12,6", "Peso": "882" },
-      { "Sección (mm²)": "120", "Formación": "37x2,03", "Diámetro": "14,2", "Peso": "1120" }
+      { "Sección (mm²)": "16", "Formación": "7x1,70", "Diámetro": "5,1", "Peso": "142", "Resist.": "1,15" },
+      { "Sección (mm²)": "25", "Formación": "7x2,14", "Diámetro": "6,4", "Peso": "225", "Resist.": "0,72" },
+      { "Sección (mm²)": "35", "Formación": "7x2,52", "Diámetro": "7,6", "Peso": "312", "Resist.": "0,52" },
+      { "Sección (mm²)": "50", "Formación": "19x1,78", "Diámetro": "8,9", "Peso": "438", "Resist.": "0,38" },
+      { "Sección (mm²)": "70", "Formación": "19x2,14", "Diámetro": "10,7", "Peso": "635", "Resist.": "0,26" },
+      { "Sección (mm²)": "95", "Formación": "19x2,52", "Diámetro": "12,6", "Peso": "882", "Resist.": "0,19" },
+      { "Sección (mm²)": "120", "Formación": "37x2,03", "Diámetro": "14,2", "Peso": "1120", "Resist.": "0,15" }
     ]
   },
   {
