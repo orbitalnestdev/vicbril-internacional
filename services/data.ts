@@ -91,24 +91,24 @@ export const products: Product[] = [
     applications: 'Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales. Permite cableado en tableros, cañerías embutidas y cañerías a la vista, recomendando el uso de bandejas portantes.',
     installation: 'Montaje: Radio mínimo de curvatura igual a 7 x diámetro exterior del cable. Tracción máxima: 5daN/mm² aplicados sobre los conductores. Temperatura de montaje: Igual o mayor a 5°C.',
     specsTable: [
-      { "Sección (mm²)": "0,5", "Espesor (mm)": "0,60", "Diámetro (mm)": "2,1", "Peso (kg/km)": "8,2", "Resist. (Ohm/km)": "39", "Amp (*)": "4,8" },
-      { "Sección (mm²)": "0,75", "Espesor (mm)": "0,60", "Diámetro (mm)": "2,3", "Peso (kg/km)": "10,8", "Resist. (Ohm/km)": "26", "Amp (*)": "7,2" },
-      { "Sección (mm²)": "1", "Espesor (mm)": "0,70", "Diámetro (mm)": "2,7", "Peso (kg/km)": "14,4", "Resist. (Ohm/km)": "19,5", "Amp (*)": "9,6" },
-      { "Sección (mm²)": "1,5", "Espesor (mm)": "0,70", "Diámetro (mm)": "3,0", "Peso (kg/km)": "20", "Resist. (Ohm/km)": "13,3", "Amp (*)": "13" },
-      { "Sección (mm²)": "2,5", "Espesor (mm)": "0,80", "Diámetro (mm)": "3,6", "Peso (kg/km)": "31", "Resist. (Ohm/km)": "7,98", "Amp (*)": "18" },
-      { "Sección (mm²)": "4", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,1", "Peso (kg/km)": "45", "Resist. (Ohm/km)": "4,95", "Amp (*)": "24" },
-      { "Sección (mm²)": "6", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,7", "Peso (kg/km)": "63", "Resist. (Ohm/km)": "3,3", "Amp (*)": "31" },
-      { "Sección (mm²)": "10", "Espesor (mm)": "1,00", "Diámetro (mm)": "6,2", "Peso (kg/km)": "112", "Resist. (Ohm/km)": "1,91", "Amp (*)": "43" },
-      { "Sección (mm²)": "16", "Espesor (mm)": "1,00", "Diámetro (mm)": "7,1", "Peso (kg/km)": "166", "Resist. (Ohm/km)": "1,21", "Amp (*)": "59" },
-      { "Sección (mm²)": "25", "Espesor (mm)": "1,20", "Diámetro (mm)": "8,7", "Peso (kg/km)": "260", "Resist. (Ohm/km)": "0,78", "Amp (*)": "77" },
-      { "Sección (mm²)": "35", "Espesor (mm)": "1,20", "Diámetro (mm)": "9,8", "Peso (kg/km)": "350", "Resist. (Ohm/km)": "0,55", "Amp (*)": "96" },
-      { "Sección (mm²)": "50", "Espesor (mm)": "1,40", "Diámetro (mm)": "11,5", "Peso (kg/km)": "485", "Resist. (Ohm/km)": "0,38", "Amp (*)": "117" },
-      { "Sección (mm²)": "70", "Espesor (mm)": "1,40", "Diámetro (mm)": "13,2", "Peso (kg/km)": "680", "Resist. (Ohm/km)": "0,27", "Amp (*)": "148" },
-      { "Sección (mm²)": "95", "Espesor (mm)": "1,60", "Diámetro (mm)": "15,4", "Peso (kg/km)": "930", "Resist. (Ohm/km)": "0,20", "Amp (*)": "180" },
-      { "Sección (mm²)": "120", "Espesor (mm)": "1,60", "Diámetro (mm)": "17,1", "Peso (kg/km)": "1160", "Resist. (Ohm/km)": "0,16", "Amp (*)": "207" },
-      { "Sección (mm²)": "150", "Espesor (mm)": "1,80", "Diámetro (mm)": "19,1", "Peso (kg/km)": "1450", "Resist. (Ohm/km)": "0,12", "Amp (*)": "237" },
-      { "Sección (mm²)": "185", "Espesor (mm)": "2,00", "Diámetro (mm)": "21,4", "Peso (kg/km)": "1810", "Resist. (Ohm/km)": "0,10", "Amp (*)": "270" },
-      { "Sección (mm²)": "240", "Espesor (mm)": "2,20", "Diámetro (mm)": "24,3", "Peso (kg/km)": "2370", "Resist. (Ohm/km)": "0,08", "Amp (*)": "318" }
+      { "Sección nominal (mm²)": "0,5", "Espesor aislación (mm)": "0,60", "Diámetro exterior (mm)": "2,1", "Peso (kg/km)": "8,2", "Resistencia eléctrica (Ohm/km)": "39", "Intensidad admisible (A)": "4,8" },
+      { "Sección nominal (mm²)": "0,75", "Espesor aislación (mm)": "0,60", "Diámetro exterior (mm)": "2,3", "Peso (kg/km)": "10,8", "Resistencia eléctrica (Ohm/km)": "26", "Intensidad admisible (A)": "7,2" },
+      { "Sección nominal (mm²)": "1", "Espesor aislación (mm)": "0,70", "Diámetro exterior (mm)": "2,7", "Peso (kg/km)": "14,4", "Resistencia eléctrica (Ohm/km)": "19,5", "Intensidad admisible (A)": "9,6" },
+      { "Sección nominal (mm²)": "1,5", "Espesor aislación (mm)": "0,70", "Diámetro exterior (mm)": "3,0", "Peso (kg/km)": "20", "Resistencia eléctrica (Ohm/km)": "13,3", "Intensidad admisible (A)": "13" },
+      { "Sección nominal (mm²)": "2,5", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "3,6", "Peso (kg/km)": "31", "Resistencia eléctrica (Ohm/km)": "7,98", "Intensidad admisible (A)": "18" },
+      { "Sección nominal (mm²)": "4", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "4,1", "Peso (kg/km)": "45", "Resistencia eléctrica (Ohm/km)": "4,95", "Intensidad admisible (A)": "24" },
+      { "Sección nominal (mm²)": "6", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "4,7", "Peso (kg/km)": "63", "Resistencia eléctrica (Ohm/km)": "3,3", "Intensidad admisible (A)": "31" },
+      { "Sección nominal (mm²)": "10", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "6,2", "Peso (kg/km)": "112", "Resistencia eléctrica (Ohm/km)": "1,91", "Intensidad admisible (A)": "43" },
+      { "Sección nominal (mm²)": "16", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "7,1", "Peso (kg/km)": "166", "Resistencia eléctrica (Ohm/km)": "1,21", "Intensidad admisible (A)": "59" },
+      { "Sección nominal (mm²)": "25", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "8,7", "Peso (kg/km)": "260", "Resistencia eléctrica (Ohm/km)": "0,78", "Intensidad admisible (A)": "77" },
+      { "Sección nominal (mm²)": "35", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "9,8", "Peso (kg/km)": "350", "Resistencia eléctrica (Ohm/km)": "0,55", "Intensidad admisible (A)": "96" },
+      { "Sección nominal (mm²)": "50", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "11,5", "Peso (kg/km)": "485", "Resistencia eléctrica (Ohm/km)": "0,38", "Intensidad admisible (A)": "117" },
+      { "Sección nominal (mm²)": "70", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "13,2", "Peso (kg/km)": "680", "Resistencia eléctrica (Ohm/km)": "0,27", "Intensidad admisible (A)": "148" },
+      { "Sección nominal (mm²)": "95", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "15,4", "Peso (kg/km)": "930", "Resistencia eléctrica (Ohm/km)": "0,20", "Intensidad admisible (A)": "180" },
+      { "Sección nominal (mm²)": "120", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "17,1", "Peso (kg/km)": "1160", "Resistencia eléctrica (Ohm/km)": "0,16", "Intensidad admisible (A)": "207" },
+      { "Sección nominal (mm²)": "150", "Espesor aislación (mm)": "1,80", "Diámetro exterior (mm)": "19,1", "Peso (kg/km)": "1450", "Resistencia eléctrica (Ohm/km)": "0,12", "Intensidad admisible (A)": "237" },
+      { "Sección nominal (mm²)": "185", "Espesor aislación (mm)": "2,00", "Diámetro exterior (mm)": "21,4", "Peso (kg/km)": "1810", "Resistencia eléctrica (Ohm/km)": "0,10", "Intensidad admisible (A)": "270" },
+      { "Sección nominal (mm²)": "240", "Espesor aislación (mm)": "2,20", "Diámetro exterior (mm)": "24,3", "Peso (kg/km)": "2370", "Resistencia eléctrica (Ohm/km)": "0,08", "Intensidad admisible (A)": "318" }
     ]
   },
   {
@@ -134,24 +134,24 @@ export const products: Product[] = [
     applications: 'Cableado en tableros, cañerías embutidas y a la vista. Se recomienda el uso de bandejas portantes.',
     installation: 'Radio de curvatura: Mínimo 7 veces el diámetro exterior. Tracción máxima: 5daN/mm² sobre conductores de cobre. Temperatura de montaje: ≥ 5°C.',
     specsTable: [
-      { "Sección (mm²)": "0,5", "Espesor (mm)": "0,60", "Diámetro (mm)": "2,1", "Peso (kg/km)": "8,2", "Resist. (Ohm/km)": "39", "Amp (*)": "4,8" },
-      { "Sección (mm²)": "0,75", "Espesor (mm)": "0,60", "Diámetro (mm)": "2,3", "Peso (kg/km)": "10,8", "Resist. (Ohm/km)": "26", "Amp (*)": "7,2" },
-      { "Sección (mm²)": "1", "Espesor (mm)": "0,70", "Diámetro (mm)": "2,7", "Peso (kg/km)": "14,4", "Resist. (Ohm/km)": "19,5", "Amp (*)": "9,6" },
-      { "Sección (mm²)": "1,5", "Espesor (mm)": "0,70", "Diámetro (mm)": "3,0", "Peso (kg/km)": "20", "Resist. (Ohm/km)": "13,3", "Amp (*)": "13" },
-      { "Sección (mm²)": "2,5", "Espesor (mm)": "0,80", "Diámetro (mm)": "3,6", "Peso (kg/km)": "31", "Resist. (Ohm/km)": "7,98", "Amp (*)": "18" },
-      { "Sección (mm²)": "4", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,1", "Peso (kg/km)": "45", "Resist. (Ohm/km)": "4,95", "Amp (*)": "24" },
-      { "Sección (mm²)": "6", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,7", "Peso (kg/km)": "63", "Resist. (Ohm/km)": "3,3", "Amp (*)": "31" },
-      { "Sección (mm²)": "10", "Espesor (mm)": "1,00", "Diámetro (mm)": "6,2", "Peso (kg/km)": "112", "Resist. (Ohm/km)": "1,91", "Amp (*)": "43" },
-      { "Sección (mm²)": "16", "Espesor (mm)": "1,00", "Diámetro (mm)": "7,1", "Peso (kg/km)": "166", "Resist. (Ohm/km)": "1,21", "Amp (*)": "59" },
-      { "Sección (mm²)": "25", "Espesor (mm)": "1,20", "Diámetro (mm)": "8,7", "Peso (kg/km)": "260", "Resist. (Ohm/km)": "0,78", "Amp (*)": "77" },
-      { "Sección (mm²)": "35", "Espesor (mm)": "1,20", "Diámetro (mm)": "9,8", "Peso (kg/km)": "350", "Resist. (Ohm/km)": "0,55", "Amp (*)": "96" },
-      { "Sección (mm²)": "50", "Espesor (mm)": "1,40", "Diámetro (mm)": "11,5", "Peso (kg/km)": "485", "Resist. (Ohm/km)": "0,38", "Amp (*)": "117" },
-      { "Sección (mm²)": "70", "Espesor (mm)": "1,40", "Diámetro (mm)": "13,2", "Peso (kg/km)": "680", "Resist. (Ohm/km)": "0,27", "Amp (*)": "148" },
-      { "Sección (mm²)": "95", "Espesor (mm)": "1,60", "Diámetro (mm)": "15,4", "Peso (kg/km)": "930", "Resist. (Ohm/km)": "0,20", "Amp (*)": "180" },
-      { "Sección (mm²)": "120", "Espesor (mm)": "1,60", "Diámetro (mm)": "17,1", "Peso (kg/km)": "1160", "Resist. (Ohm/km)": "0,16", "Amp (*)": "207" },
-      { "Sección (mm²)": "150", "Espesor (mm)": "1,80", "Diámetro (mm)": "19,1", "Peso (kg/km)": "1450", "Resist. (Ohm/km)": "0,12", "Amp (*)": "237" },
-      { "Sección (mm²)": "185", "Espesor (mm)": "2,00", "Diámetro (mm)": "21,4", "Peso (kg/km)": "1810", "Resist. (Ohm/km)": "0,10", "Amp (*)": "270" },
-      { "Sección (mm²)": "240", "Espesor (mm)": "2,20", "Diámetro (mm)": "24,3", "Peso (kg/km)": "2370", "Resist. (Ohm/km)": "0,08", "Amp (*)": "318" }
+      { "Sección nominal (mm²)": "0,5", "Espesor aislación (mm)": "0,60", "Diámetro exterior (mm)": "2,1", "Peso (kg/km)": "8,2", "Resistencia eléctrica (Ohm/km)": "39", "Intensidad admisible (A)": "4,8" },
+      { "Sección nominal (mm²)": "0,75", "Espesor aislación (mm)": "0,60", "Diámetro exterior (mm)": "2,3", "Peso (kg/km)": "10,8", "Resistencia eléctrica (Ohm/km)": "26", "Intensidad admisible (A)": "7,2" },
+      { "Sección nominal (mm²)": "1", "Espesor aislación (mm)": "0,70", "Diámetro exterior (mm)": "2,7", "Peso (kg/km)": "14,4", "Resistencia eléctrica (Ohm/km)": "19,5", "Intensidad admisible (A)": "9,6" },
+      { "Sección nominal (mm²)": "1,5", "Espesor aislación (mm)": "0,70", "Diámetro exterior (mm)": "3,0", "Peso (kg/km)": "20", "Resistencia eléctrica (Ohm/km)": "13,3", "Intensidad admisible (A)": "13" },
+      { "Sección nominal (mm²)": "2,5", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "3,6", "Peso (kg/km)": "31", "Resistencia eléctrica (Ohm/km)": "7,98", "Intensidad admisible (A)": "18" },
+      { "Sección nominal (mm²)": "4", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "4,1", "Peso (kg/km)": "45", "Resistencia eléctrica (Ohm/km)": "4,95", "Intensidad admisible (A)": "24" },
+      { "Sección nominal (mm²)": "6", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "4,7", "Peso (kg/km)": "63", "Resistencia eléctrica (Ohm/km)": "3,3", "Intensidad admisible (A)": "31" },
+      { "Sección nominal (mm²)": "10", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "6,2", "Peso (kg/km)": "112", "Resistencia eléctrica (Ohm/km)": "1,91", "Intensidad admisible (A)": "43" },
+      { "Sección nominal (mm²)": "16", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "7,1", "Peso (kg/km)": "166", "Resistencia eléctrica (Ohm/km)": "1,21", "Intensidad admisible (A)": "59" },
+      { "Sección nominal (mm²)": "25", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "8,7", "Peso (kg/km)": "260", "Resistencia eléctrica (Ohm/km)": "0,78", "Intensidad admisible (A)": "77" },
+      { "Sección nominal (mm²)": "35", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "9,8", "Peso (kg/km)": "350", "Resistencia eléctrica (Ohm/km)": "0,55", "Intensidad admisible (A)": "96" },
+      { "Sección nominal (mm²)": "50", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "11,5", "Peso (kg/km)": "485", "Resistencia eléctrica (Ohm/km)": "0,38", "Intensidad admisible (A)": "117" },
+      { "Sección nominal (mm²)": "70", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "13,2", "Peso (kg/km)": "680", "Resistencia eléctrica (Ohm/km)": "0,27", "Intensidad admisible (A)": "148" },
+      { "Sección nominal (mm²)": "95", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "15,4", "Peso (kg/km)": "930", "Resistencia eléctrica (Ohm/km)": "0,20", "Intensidad admisible (A)": "180" },
+      { "Sección nominal (mm²)": "120", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "17,1", "Peso (kg/km)": "1160", "Resistencia eléctrica (Ohm/km)": "0,16", "Intensidad admisible (A)": "207" },
+      { "Sección nominal (mm²)": "150", "Espesor aislación (mm)": "1,80", "Diámetro exterior (mm)": "19,1", "Peso (kg/km)": "1450", "Resistencia eléctrica (Ohm/km)": "0,12", "Intensidad admisible (A)": "237" },
+      { "Sección nominal (mm²)": "185", "Espesor aislación (mm)": "2,00", "Diámetro exterior (mm)": "21,4", "Peso (kg/km)": "1810", "Resistencia eléctrica (Ohm/km)": "0,10", "Intensidad admisible (A)": "270" },
+      { "Sección nominal (mm²)": "240", "Espesor aislación (mm)": "2,20", "Diámetro exterior (mm)": "24,3", "Peso (kg/km)": "2370", "Resistencia eléctrica (Ohm/km)": "0,08", "Intensidad admisible (A)": "318" }
     ]
   },
   {
@@ -177,12 +177,12 @@ export const products: Product[] = [
     applications: 'Instalaciones móviles industriales y domésticas, aparatos portátiles (excepto calefacción) e interconexión de máquinas fabriles.',
     installation: 'Apto para uso industrial y domiciliario; incluye conductor de tierra verde/amarillo.',
     specsTable: [
-      { "Formación": "2x1", "Diám. Alambre": "0,21", "Esp. Aisl.": "0,6", "Esp. Env.": "0,6", "Dimensiones": "4,1 x 6,6", "Peso": "44", "Resist.": "19,5", "Amp": "7" },
-      { "Formación": "2x1,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,7", "Esp. Env.": "0,6", "Dimensiones": "4,5 x 7,5", "Peso": "58", "Resist.": "13,3", "Amp": "10" },
-      { "Formación": "2x2,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,8", "Esp. Env.": "0,6", "Dimensiones": "5,1 x 8,8", "Peso": "85", "Resist.": "7,98", "Amp": "16" },
-      { "Formación": "3x1", "Diám. Alambre": "0,21", "Esp. Aisl.": "0,6", "Esp. Env.": "0,6", "Dimensiones": "4,1 x 9,2", "Peso": "64", "Resist.": "19,5", "Amp": "7" },
-      { "Formación": "3x1,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,7", "Esp. Env.": "0,6", "Dimensiones": "4,5 x 10,6", "Peso": "86", "Resist.": "13,3", "Amp": "10" },
-      { "Formación": "3x2,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,8", "Esp. Env.": "0,6", "Dimensiones": "5,1 x 12,5", "Peso": "126", "Resist.": "7,98", "Amp": "16" }
+      { "Formación (Nº x mm²)": "2x1", "Diám. máx. alambres (mm)": "0,21", "Espesor aislación nominal (mm)": "0,6", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,1 x 6,6", "Masa aprox. (kg/km)": "44", "Resistencia eléctrica máx. 20°C (Ohm/km)": "19,5", "Intensidad continua (A)": "7" },
+      { "Formación (Nº x mm²)": "2x1,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,7", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,5 x 7,5", "Masa aprox. (kg/km)": "58", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad continua (A)": "10" },
+      { "Formación (Nº x mm²)": "2x2,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "5,1 x 8,8", "Masa aprox. (kg/km)": "85", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad continua (A)": "16" },
+      { "Formación (Nº x mm²)": "3x1", "Diám. máx. alambres (mm)": "0,21", "Espesor aislación nominal (mm)": "0,6", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,1 x 9,2", "Masa aprox. (kg/km)": "64", "Resistencia eléctrica máx. 20°C (Ohm/km)": "19,5", "Intensidad continua (A)": "7" },
+      { "Formación (Nº x mm²)": "3x1,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,7", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,5 x 10,6", "Masa aprox. (kg/km)": "86", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad continua (A)": "10" },
+      { "Formación (Nº x mm²)": "3x2,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "5,1 x 12,5", "Masa aprox. (kg/km)": "126", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad continua (A)": "16" }
     ]
   },
   {
@@ -207,9 +207,9 @@ export const products: Product[] = [
     applications: 'Instalaciones móviles y aparatos portátiles en general.',
     installation: 'Apto para instalaciones móviles y uso doméstico.',
     specsTable: [
-      { "Formación": "2x1", "Diám. Alambre": "0,21", "Esp. Aisl.": "0,6", "Dimensiones": "2,7 x 5,4", "Peso": "32", "Resist.": "19,5", "Amp": "6" },
-      { "Formación": "2x1,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,7", "Dimensiones": "3,0 x 6,1", "Peso": "45", "Resist.": "13,3", "Amp": "10" },
-      { "Formación": "2x2,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,8", "Dimensiones": "3,6 x 7,4", "Peso": "72", "Resist.": "7,98", "Amp": "15" }
+      { "Formación (Nº x mm²)": "2x1", "Diám. máx. alambres (mm)": "0,21", "Esp. aislación nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "2,7 x 5,4", "Masa aprox. (kg/km)": "32", "Resistencia eléctrica máx. 20°C (Ohm/km)": "19,5", "Intensidad continua (A)": "6" },
+      { "Formación (Nº x mm²)": "2x1,5", "Diám. máx. alambres (mm)": "0,26", "Esp. aislación nominal (mm)": "0,7", "Dimensiones exteriores aprox. (mm)": "3,0 x 6,1", "Masa aprox. (kg/km)": "45", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad continua (A)": "10" },
+      { "Formación (Nº x mm²)": "2x2,5", "Diám. máx. alambres (mm)": "0,26", "Esp. aislación nominal (mm)": "0,8", "Dimensiones exteriores aprox. (mm)": "3,6 x 7,4", "Masa aprox. (kg/km)": "72", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad continua (A)": "15" }
     ]
   },
   {
@@ -234,8 +234,8 @@ export const products: Product[] = [
     applications: 'Interconexión de equipos y aparatos portátiles.',
     installation: 'Diseñado para flexibilidad en instalaciones móviles.',
     specsTable: [
-      { "Formación": "2x1", "Diám. Alambre": "0,21", "Esp. Aisl.": "0,6", "Esp. Env.": "0,6", "Dimensiones": "4,1 x 6,6", "Peso": "44", "Amp": "7" },
-      { "Formación": "2x1,5", "Diám. Alambre": "0,26", "Esp. Aisl.": "0,7", "Esp. Env.": "0,6", "Dimensiones": "4,5 x 7,5", "Peso": "58", "Amp": "10" }
+      { "Formación (Nº x mm²)": "2x1", "Diám. máx. alambres (mm)": "0,21", "Espesor aislación nominal (mm)": "0,6", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,1 x 6,6", "Masa aprox. (kg/km)": "44", "Intensidad continua (A)": "7" },
+      { "Formación (Nº x mm²)": "2x1,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,7", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,5 x 7,5", "Masa aprox. (kg/km)": "58", "Intensidad continua (A)": "10" }
     ]
   },
   {
@@ -262,19 +262,19 @@ export const products: Product[] = [
     applications: 'Instalaciones móviles industriales y domésticas, maquinaria de mano y aparatos portátiles en general.',
     installation: 'Radio de curvatura: Mínimo 7 veces el diámetro exterior. Tracción máxima: 5daN/mm². Temperatura de montaje: ≥ 5°C.',
     specsTable: [
-      { "Formación": "2x0,75", "Esp. Aisl.": "0,6", "Esp. Vaina": "0,8", "Diámetro": "6,2", "Peso": "52", "Resist.": "26", "Amp": "7" },
-      { "Formación": "2x1,0", "Esp. Aisl.": "0,6", "Esp. Vaina": "0,8", "Diámetro": "6,5", "Peso": "60", "Resist.": "19,5", "Amp": "10" },
-      { "Formación": "2x1,5", "Esp. Aisl.": "0,7", "Esp. Vaina": "0,8", "Diámetro": "7,4", "Peso": "80", "Resist.": "13,3", "Amp": "13" },
-      { "Formación": "2x2,5", "Esp. Aisl.": "0,8", "Esp. Vaina": "1", "Diámetro": "9,1", "Peso": "125", "Resist.": "7,98", "Amp": "18" },
-      { "Formación": "2x4,0", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,1", "Diámetro": "10,5", "Peso": "185", "Resist.": "4,95", "Amp": "24" },
-      { "Formación": "3x1,0", "Esp. Aisl.": "0,6", "Esp. Vaina": "0,8", "Diámetro": "6,9", "Peso": "72", "Resist.": "19,5", "Amp": "10" },
-      { "Formación": "3x1,5", "Esp. Aisl.": "0,7", "Esp. Vaina": "0,9", "Diámetro": "8,1", "Peso": "101", "Resist.": "13,3", "Amp": "13" },
-      { "Formación": "3x2,5", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,1", "Diámetro": "9,9", "Peso": "157", "Resist.": "7,98", "Amp": "18" },
-      { "Formación": "3x4,0", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,2", "Diámetro": "11,4", "Peso": "235", "Resist.": "4,95", "Amp": "24" },
-      { "Formación": "4x1,5", "Esp. Aisl.": "0,7", "Esp. Vaina": "1", "Diámetro": "9,1", "Peso": "128", "Resist.": "13,3", "Amp": "13" },
-      { "Formación": "4x2,5", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,1", "Diámetro": "10,8", "Peso": "191", "Resist.": "7,98", "Amp": "18" },
-      { "Formación": "4x4,0", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,2", "Diámetro": "12,6", "Peso": "285", "Resist.": "4,95", "Amp": "24" },
-      { "Formación": "4x6,0", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,3", "Diámetro": "14,5", "Peso": "410", "Resist.": "3,30", "Amp": "31" }
+      { "Sección nominal (mm²)": "2x0,75", "Espesor nominal (mm)": "0,6", "Espesor cubierta (mm)": "0,8", "Diámetro exterior (mm)": "6,2", "Peso (kg/km)": "52", "Resistencia eléctrica 20°C (Ohm/km)": "26" },
+      { "Sección nominal (mm²)": "2x1,0", "Espesor nominal (mm)": "0,6", "Espesor cubierta (mm)": "0,8", "Diámetro exterior (mm)": "6,5", "Peso (kg/km)": "60", "Resistencia eléctrica 20°C (Ohm/km)": "19,5" },
+      { "Sección nominal (mm²)": "2x1,5", "Espesor nominal (mm)": "0,7", "Espesor cubierta (mm)": "0,8", "Diámetro exterior (mm)": "7,4", "Peso (kg/km)": "80", "Resistencia eléctrica 20°C (Ohm/km)": "13,3" },
+      { "Sección nominal (mm²)": "2x2,5", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1", "Diámetro exterior (mm)": "9,1", "Peso (kg/km)": "125", "Resistencia eléctrica 20°C (Ohm/km)": "7,98" },
+      { "Sección nominal (mm²)": "2x4,0", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,1", "Diámetro exterior (mm)": "10,5", "Peso (kg/km)": "185", "Resistencia eléctrica 20°C (Ohm/km)": "4,95" },
+      { "Sección nominal (mm²)": "3x1,0", "Espesor nominal (mm)": "0,6", "Espesor cubierta (mm)": "0,8", "Diámetro exterior (mm)": "6,9", "Peso (kg/km)": "72", "Resistencia eléctrica 20°C (Ohm/km)": "19,5" },
+      { "Sección nominal (mm²)": "3x1,5", "Espesor nominal (mm)": "0,7", "Espesor cubierta (mm)": "0,9", "Diámetro exterior (mm)": "8,1", "Peso (kg/km)": "101", "Resistencia eléctrica 20°C (Ohm/km)": "13,3" },
+      { "Sección nominal (mm²)": "3x2,5", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,1", "Diámetro exterior (mm)": "9,9", "Peso (kg/km)": "157", "Resistencia eléctrica 20°C (Ohm/km)": "7,98" },
+      { "Sección nominal (mm²)": "3x4,0", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,2", "Diámetro exterior (mm)": "11,4", "Peso (kg/km)": "235", "Resistencia eléctrica 20°C (Ohm/km)": "4,95" },
+      { "Sección nominal (mm²)": "4x1,5", "Espesor nominal (mm)": "0,7", "Espesor cubierta (mm)": "1", "Diámetro exterior (mm)": "9,1", "Peso (kg/km)": "128", "Resistencia eléctrica 20°C (Ohm/km)": "13,3" },
+      { "Sección nominal (mm²)": "4x2,5", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,1", "Diámetro exterior (mm)": "10,8", "Peso (kg/km)": "191", "Resistencia eléctrica 20°C (Ohm/km)": "7,98" },
+      { "Sección nominal (mm²)": "4x4,0", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,2", "Diámetro exterior (mm)": "12,6", "Peso (kg/km)": "285", "Resistencia eléctrica 20°C (Ohm/km)": "4,95" },
+      { "Sección nominal (mm²)": "4x6,0", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,3", "Diámetro exterior (mm)": "14,5", "Peso (kg/km)": "410", "Resistencia eléctrica 20°C (Ohm/km)": "3,30" }
     ]
   },
   {
@@ -310,21 +310,21 @@ export const products: Product[] = [
     specs: ['1.1kV', 'IRAM 2178-1', 'Apto Subterráneo'],
     characteristics: ['Doble aislación', 'Gran flexibilidad', 'Resistente a la humedad'],
     specsTable: [
-      { "Formación": "2x1,5", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,8", "Diámetro": "10,5", "Peso": "165", "Resist.": "13,3", "Amp (Tierra)": "32", "Amp (Aire)": "24" },
-      { "Formación": "2x2,5", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,8", "Diámetro": "11,5", "Peso": "205", "Resist.": "7,98", "Amp (Tierra)": "42", "Amp (Aire)": "32" },
-      { "Formación": "2x4", "Esp. Aisl.": "1,0", "Esp. Vaina": "1,8", "Diámetro": "12,8", "Peso": "270", "Resist.": "4,95", "Amp (Tierra)": "54", "Amp (Aire)": "42" },
-      { "Formación": "2x6", "Esp. Aisl.": "1,0", "Esp. Vaina": "1,8", "Diámetro": "14,0", "Peso": "340", "Resist.": "3,30", "Amp (Tierra)": "68", "Amp (Aire)": "54" },
-      { "Formación": "3x1,5", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,8", "Diámetro": "11,2", "Peso": "195", "Resist.": "13,3", "Amp (Tierra)": "27", "Amp (Aire)": "20" },
-      { "Formación": "3x2,5", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,8", "Diámetro": "12,2", "Peso": "250", "Resist.": "7,98", "Amp (Tierra)": "36", "Amp (Aire)": "28" },
-      { "Formación": "3x4", "Esp. Aisl.": "1,0", "Esp. Vaina": "1,8", "Diámetro": "13,6", "Peso": "320", "Resist.": "4,95", "Amp (Tierra)": "46", "Amp (Aire)": "36" },
-      { "Formación": "4x1,5", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,8", "Diámetro": "12,1", "Peso": "225", "Resist.": "13,3", "Amp (Tierra)": "27", "Amp (Aire)": "20" },
-      { "Formación": "4x2,5", "Esp. Aisl.": "0,8", "Esp. Vaina": "1,8", "Diámetro": "13,3", "Peso": "295", "Resist.": "7,98", "Amp (Tierra)": "36", "Amp (Aire)": "28" },
-      { "Formación": "4x4", "Esp. Aisl.": "1,0", "Esp. Vaina": "1,8", "Diámetro": "14,8", "Peso": "395", "Resist.": "4,95", "Amp (Tierra)": "46", "Amp (Aire)": "36" },
-      { "Formación": "4x6", "Esp. Aisl.": "1,0", "Esp. Vaina": "1,8", "Diámetro": "16,2", "Peso": "510", "Resist.": "3,30", "Amp (Tierra)": "58", "Amp (Aire)": "46" },
-      { "Formación": "4x10", "Esp. Aisl.": "1,0", "Esp. Vaina": "1,8", "Diámetro": "18,8", "Peso": "750", "Resist.": "1,91", "Amp (Tierra)": "77", "Amp (Aire)": "64" },
-      { "Formación": "4x16", "Esp. Aisl.": "1,0", "Esp. Vaina": "1,8", "Diámetro": "21,5", "Peso": "1080", "Resist.": "1,21", "Amp (Tierra)": "100", "Amp (Aire)": "85" },
-      { "Formación": "4x25", "Esp. Aisl.": "1,2", "Esp. Vaina": "1,8", "Diámetro": "25,8", "Peso": "1620", "Resist.": "0,78", "Amp (Tierra)": "130", "Amp (Aire)": "112" },
-      { "Formación": "4x35", "Esp. Aisl.": "1,2", "Esp. Vaina": "2,0", "Diámetro": "28,5", "Peso": "2150", "Resist.": "0,55", "Amp (Tierra)": "155", "Amp (Aire)": "137" }
+      { "Formación (Nº x mm²)": "2x1,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "10,5", "Masa aprox. (kg/km)": "165", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad admisible (A) Tierra": "32", "Intensidad admisible (A) Aire": "24" },
+      { "Formación (Nº x mm²)": "2x2,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "11,5", "Masa aprox. (kg/km)": "205", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad admisible (A) Tierra": "42", "Intensidad admisible (A) Aire": "32" },
+      { "Formación (Nº x mm²)": "2x4", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "12,8", "Masa aprox. (kg/km)": "270", "Resistencia eléctrica máx. 20°C (Ohm/km)": "4,95", "Intensidad admisible (A) Tierra": "54", "Intensidad admisible (A) Aire": "42" },
+      { "Formación (Nº x mm²)": "2x6", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "14,0", "Masa aprox. (kg/km)": "340", "Resistencia eléctrica máx. 20°C (Ohm/km)": "3,30", "Intensidad admisible (A) Tierra": "68", "Intensidad admisible (A) Aire": "54" },
+      { "Formación (Nº x mm²)": "3x1,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "11,2", "Masa aprox. (kg/km)": "195", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad admisible (A) Tierra": "27", "Intensidad admisible (A) Aire": "20" },
+      { "Formación (Nº x mm²)": "3x2,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "12,2", "Masa aprox. (kg/km)": "250", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad admisible (A) Tierra": "36", "Intensidad admisible (A) Aire": "28" },
+      { "Formación (Nº x mm²)": "3x4", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "13,6", "Masa aprox. (kg/km)": "320", "Resistencia eléctrica máx. 20°C (Ohm/km)": "4,95", "Intensidad admisible (A) Tierra": "46", "Intensidad admisible (A) Aire": "36" },
+      { "Formación (Nº x mm²)": "4x1,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "12,1", "Masa aprox. (kg/km)": "225", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad admisible (A) Tierra": "27", "Intensidad admisible (A) Aire": "20" },
+      { "Formación (Nº x mm²)": "4x2,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "13,3", "Masa aprox. (kg/km)": "295", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad admisible (A) Tierra": "36", "Intensidad admisible (A) Aire": "28" },
+      { "Formación (Nº x mm²)": "4x4", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "14,8", "Masa aprox. (kg/km)": "395", "Resistencia eléctrica máx. 20°C (Ohm/km)": "4,95", "Intensidad admisible (A) Tierra": "46", "Intensidad admisible (A) Aire": "36" },
+      { "Formación (Nº x mm²)": "4x6", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "16,2", "Masa aprox. (kg/km)": "510", "Resistencia eléctrica máx. 20°C (Ohm/km)": "3,30", "Intensidad admisible (A) Tierra": "58", "Intensidad admisible (A) Aire": "46" },
+      { "Formación (Nº x mm²)": "4x10", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "18,8", "Masa aprox. (kg/km)": "750", "Resistencia eléctrica máx. 20°C (Ohm/km)": "1,91", "Intensidad admisible (A) Tierra": "77", "Intensidad admisible (A) Aire": "64" },
+      { "Formación (Nº x mm²)": "4x16", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "21,5", "Masa aprox. (kg/km)": "1080", "Resistencia eléctrica máx. 20°C (Ohm/km)": "1,21", "Intensidad admisible (A) Tierra": "100", "Intensidad admisible (A) Aire": "85" },
+      { "Formación (Nº x mm²)": "4x25", "Espesor aislación nominal (mm)": "1,2", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "25,8", "Masa aprox. (kg/km)": "1620", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,78", "Intensidad admisible (A) Tierra": "130", "Intensidad admisible (A) Aire": "112" },
+      { "Formación (Nº x mm²)": "4x35", "Espesor aislación nominal (mm)": "1,2", "Espesor envoltura nominal (mm)": "2,0", "Diámetro exterior aprox. (mm)": "28,5", "Masa aprox. (kg/km)": "2150", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,55", "Intensidad admisible (A) Tierra": "155", "Intensidad admisible (A) Aire": "137" }
     ]
   },
   {
@@ -337,15 +337,15 @@ export const products: Product[] = [
     image: '/images/fotos-nuevas/Cables-media-tension.jpg',
     specs: ['13.2kV / 33kV', 'XLPE', 'IRAM 2178-2'],
     specsTable: [
-      { "Sección": "35", "Esp. Aisl.": "3,4", "Diámetro": "24,5", "Peso": "980", "Resist.": "0,52", "Amp (Tierra)": "165" },
-      { "Sección": "50", "Esp. Aisl.": "3,4", "Diámetro": "26,1", "Peso": "1150", "Resist.": "0,38", "Amp (Tierra)": "195" },
-      { "Sección": "70", "Esp. Aisl.": "3,4", "Diámetro": "28,2", "Peso": "1420", "Resist.": "0,26", "Amp (Tierra)": "240" },
-      { "Sección": "95", "Esp. Aisl.": "3,4", "Diámetro": "30,5", "Peso": "1750", "Resist.": "0,19", "Amp (Tierra)": "285" },
-      { "Sección": "120", "Esp. Aisl.": "3,4", "Diámetro": "32,4", "Peso": "2100", "Resist.": "0,15", "Amp (Tierra)": "325" },
-      { "Sección": "150", "Esp. Aisl.": "3,4", "Diámetro": "34,8", "Peso": "2450", "Resist.": "0,12", "Amp (Tierra)": "365" },
-      { "Sección": "185", "Esp. Aisl.": "3,4", "Diámetro": "37,2", "Peso": "2900", "Resist.": "0,09", "Amp (Tierra)": "415" },
-      { "Sección": "240", "Esp. Aisl.": "3,4", "Diámetro": "41,5", "Peso": "3650", "Resist.": "0,07", "Amp (Tierra)": "480" },
-      { "Sección": "300", "Esp. Aisl.": "3,4", "Diámetro": "45,2", "Peso": "4400", "Resist.": "0,06", "Amp (Tierra)": "540" }
+      { "Sección nominal (mm²)": "35", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "24,5", "Masa aprox. (kg/km)": "980", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,52", "Intensidad admisible (A) Tierra": "165" },
+      { "Sección nominal (mm²)": "50", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "26,1", "Masa aprox. (kg/km)": "1150", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,38", "Intensidad admisible (A) Tierra": "195" },
+      { "Sección nominal (mm²)": "70", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "28,2", "Masa aprox. (kg/km)": "1420", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,26", "Intensidad admisible (A) Tierra": "240" },
+      { "Sección nominal (mm²)": "95", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "30,5", "Masa aprox. (kg/km)": "1750", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,19", "Intensidad admisible (A) Tierra": "285" },
+      { "Sección nominal (mm²)": "120", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "32,4", "Masa aprox. (kg/km)": "2100", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,15", "Intensidad admisible (A) Tierra": "325" },
+      { "Sección nominal (mm²)": "150", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "34,8", "Masa aprox. (kg/km)": "2450", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,12", "Intensidad admisible (A) Tierra": "365" },
+      { "Sección nominal (mm²)": "185", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "37,2", "Masa aprox. (kg/km)": "2900", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,09", "Intensidad admisible (A) Tierra": "415" },
+      { "Sección nominal (mm²)": "240", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "41,5", "Masa aprox. (kg/km)": "3650", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,07", "Intensidad admisible (A) Tierra": "480" },
+      { "Sección nominal (mm²)": "300", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "45,2", "Masa aprox. (kg/km)": "4400", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,06", "Intensidad admisible (A) Tierra": "540" }
     ]
   },
   {
@@ -388,12 +388,12 @@ export const products: Product[] = [
     image: '/images/fotos-nuevas/Cables-armados.jpg',
     specs: ['1.1kV', 'Armadura de Acero', 'Subterráneo'],
     specsTable: [
-      { "Formación": "4x16", "Esp. Aisl.": "1,0", "Esp. Vaina": "1,8", "Diámetro": "24,5", "Peso": "1150", "Resist.": "1,21", "Amp": "100" },
-      { "Formación": "4x25", "Esp. Aisl.": "1,2", "Esp. Vaina": "1,8", "Diámetro": "28,2", "Peso": "1680", "Resist.": "0,78", "Amp": "130" },
-      { "Formación": "4x35", "Esp. Aisl.": "1,2", "Esp. Vaina": "2,0", "Diámetro": "31,5", "Peso": "2150", "Resist.": "0,55", "Amp": "155" },
-      { "Formación": "4x50", "Esp. Aisl.": "1,4", "Esp. Vaina": "2,2", "Diámetro": "34,1", "Peso": "2850", "Resist.": "0,38", "Amp": "185" },
-      { "Formación": "4x70", "Esp. Aisl.": "1,4", "Esp. Vaina": "2,4", "Diámetro": "38,5", "Peso": "3850", "Resist.": "0,27", "Amp": "230" },
-      { "Formación": "4x95", "Esp. Aisl.": "1,6", "Esp. Vaina": "2,6", "Diámetro": "43,2", "Peso": "5100", "Resist.": "0,20", "Amp": "280" }
+      { "Formación (Nº x mm²)": "4x16", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "24,5", "Masa aprox. (kg/km)": "1150", "Resistencia eléctrica máx. 20°C (Ohm/km)": "1,21", "Intensidad admisible (A)": "100" },
+      { "Formación (Nº x mm²)": "4x25", "Espesor aislación nominal (mm)": "1,2", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "28,2", "Masa aprox. (kg/km)": "1680", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,78", "Intensidad admisible (A)": "130" },
+      { "Formación (Nº x mm²)": "4x35", "Espesor aislación nominal (mm)": "1,2", "Espesor envoltura nominal (mm)": "2,0", "Diámetro exterior aprox. (mm)": "31,5", "Masa aprox. (kg/km)": "2150", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,55", "Intensidad admisible (A)": "155" },
+      { "Formación (Nº x mm²)": "4x50", "Espesor aislación nominal (mm)": "1,4", "Espesor envoltura nominal (mm)": "2,2", "Diámetro exterior aprox. (mm)": "34,1", "Masa aprox. (kg/km)": "2850", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,38", "Intensidad admisible (A)": "185" },
+      { "Formación (Nº x mm²)": "4x70", "Espesor aislación nominal (mm)": "1,4", "Espesor envoltura nominal (mm)": "2,4", "Diámetro exterior aprox. (mm)": "38,5", "Masa aprox. (kg/km)": "3850", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,27", "Intensidad admisible (A)": "230" },
+      { "Formación (Nº x mm²)": "4x95", "Espesor aislación nominal (mm)": "1,6", "Espesor envoltura nominal (mm)": "2,6", "Diámetro exterior aprox. (mm)": "43,2", "Masa aprox. (kg/km)": "5100", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,20", "Intensidad admisible (A)": "280" }
     ]
   },
   {
@@ -406,13 +406,13 @@ export const products: Product[] = [
     image: '/images/PRODUCTOS/PORTADA.png',
     specs: ['Cobre Electrolítico', 'Norma IRAM 2004', 'Alta Conductividad'],
     specsTable: [
-      { "Sección (mm²)": "16", "Formación": "7x1,70", "Diámetro": "5,1", "Peso": "142", "Resist.": "1,15" },
-      { "Sección (mm²)": "25", "Formación": "7x2,14", "Diámetro": "6,4", "Peso": "225", "Resist.": "0,72" },
-      { "Sección (mm²)": "35", "Formación": "7x2,52", "Diámetro": "7,6", "Peso": "312", "Resist.": "0,52" },
-      { "Sección (mm²)": "50", "Formación": "19x1,78", "Diámetro": "8,9", "Peso": "438", "Resist.": "0,38" },
-      { "Sección (mm²)": "70", "Formación": "19x2,14", "Diámetro": "10,7", "Peso": "635", "Resist.": "0,26" },
-      { "Sección (mm²)": "95", "Formación": "19x2,52", "Diámetro": "12,6", "Peso": "882", "Resist.": "0,19" },
-      { "Sección (mm²)": "120", "Formación": "37x2,03", "Diámetro": "14,2", "Peso": "1120", "Resist.": "0,15" }
+      { "Sección nominal (mm²)": "16", "Formación (Nº x mm)": "7x1,70", "Diámetro exterior (mm)": "5,1", "Masa aprox. (kg/km)": "142", "Resistencia eléctrica máx. 20°C (Ohm/km)": "1,15" },
+      { "Sección nominal (mm²)": "25", "Formación (Nº x mm)": "7x2,14", "Diámetro exterior (mm)": "6,4", "Masa aprox. (kg/km)": "225", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,72" },
+      { "Sección nominal (mm²)": "35", "Formación (Nº x mm)": "7x2,52", "Diámetro exterior (mm)": "7,6", "Masa aprox. (kg/km)": "312", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,52" },
+      { "Sección nominal (mm²)": "50", "Formación (Nº x mm)": "19x1,78", "Diámetro exterior (mm)": "8,9", "Masa aprox. (kg/km)": "438", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,38" },
+      { "Sección nominal (mm²)": "70", "Formación (Nº x mm)": "19x2,14", "Diámetro exterior (mm)": "10,7", "Masa aprox. (kg/km)": "635", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,26" },
+      { "Sección nominal (mm²)": "95", "Formación (Nº x mm)": "19x2,52", "Diámetro exterior (mm)": "12,6", "Masa aprox. (kg/km)": "882", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,19" },
+      { "Sección nominal (mm²)": "120", "Formación (Nº x mm)": "37x2,03", "Diámetro exterior (mm)": "14,2", "Masa aprox. (kg/km)": "1120", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,15" }
     ]
   },
   {
