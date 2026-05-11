@@ -99,7 +99,16 @@ export const products: Product[] = [
       { "Sección (mm²)": "4", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,1", "Peso (kg/km)": "45", "Resist. (Ohm/km)": "4,95", "Amp (*)": "24" },
       { "Sección (mm²)": "6", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,7", "Peso (kg/km)": "63", "Resist. (Ohm/km)": "3,3", "Amp (*)": "31" },
       { "Sección (mm²)": "10", "Espesor (mm)": "1,00", "Diámetro (mm)": "6,2", "Peso (kg/km)": "112", "Resist. (Ohm/km)": "1,91", "Amp (*)": "43" },
-      { "Sección (mm²)": "16", "Espesor (mm)": "1,00", "Diámetro (mm)": "7,1", "Peso (kg/km)": "166", "Resist. (Ohm/km)": "1,21", "Amp (*)": "59" }
+      { "Sección (mm²)": "16", "Espesor (mm)": "1,00", "Diámetro (mm)": "7,1", "Peso (kg/km)": "166", "Resist. (Ohm/km)": "1,21", "Amp (*)": "59" },
+      { "Sección (mm²)": "25", "Espesor (mm)": "1,20", "Diámetro (mm)": "8,7", "Peso (kg/km)": "260", "Resist. (Ohm/km)": "0,78", "Amp (*)": "77" },
+      { "Sección (mm²)": "35", "Espesor (mm)": "1,20", "Diámetro (mm)": "9,8", "Peso (kg/km)": "350", "Resist. (Ohm/km)": "0,55", "Amp (*)": "96" },
+      { "Sección (mm²)": "50", "Espesor (mm)": "1,40", "Diámetro (mm)": "11,5", "Peso (kg/km)": "485", "Resist. (Ohm/km)": "0,38", "Amp (*)": "117" },
+      { "Sección (mm²)": "70", "Espesor (mm)": "1,40", "Diámetro (mm)": "13,2", "Peso (kg/km)": "680", "Resist. (Ohm/km)": "0,27", "Amp (*)": "148" },
+      { "Sección (mm²)": "95", "Espesor (mm)": "1,60", "Diámetro (mm)": "15,4", "Peso (kg/km)": "930", "Resist. (Ohm/km)": "0,20", "Amp (*)": "180" },
+      { "Sección (mm²)": "120", "Espesor (mm)": "1,60", "Diámetro (mm)": "17,1", "Peso (kg/km)": "1160", "Resist. (Ohm/km)": "0,16", "Amp (*)": "207" },
+      { "Sección (mm²)": "150", "Espesor (mm)": "1,80", "Diámetro (mm)": "19,1", "Peso (kg/km)": "1450", "Resist. (Ohm/km)": "0,12", "Amp (*)": "237" },
+      { "Sección (mm²)": "185", "Espesor (mm)": "2,00", "Diámetro (mm)": "21,4", "Peso (kg/km)": "1810", "Resist. (Ohm/km)": "0,10", "Amp (*)": "270" },
+      { "Sección (mm²)": "240", "Espesor (mm)": "2,20", "Diámetro (mm)": "24,3", "Peso (kg/km)": "2370", "Resist. (Ohm/km)": "0,08", "Amp (*)": "318" }
     ]
   },
   {
@@ -133,7 +142,16 @@ export const products: Product[] = [
       { "Sección (mm²)": "4", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,1", "Peso (kg/km)": "45", "Resist. (Ohm/km)": "4,95", "Amp (*)": "24" },
       { "Sección (mm²)": "6", "Espesor (mm)": "0,80", "Diámetro (mm)": "4,7", "Peso (kg/km)": "63", "Resist. (Ohm/km)": "3,3", "Amp (*)": "31" },
       { "Sección (mm²)": "10", "Espesor (mm)": "1,00", "Diámetro (mm)": "6,2", "Peso (kg/km)": "112", "Resist. (Ohm/km)": "1,91", "Amp (*)": "43" },
-      { "Sección (mm²)": "16", "Espesor (mm)": "1,00", "Diámetro (mm)": "7,1", "Peso (kg/km)": "166", "Resist. (Ohm/km)": "1,21", "Amp (*)": "59" }
+      { "Sección (mm²)": "16", "Espesor (mm)": "1,00", "Diámetro (mm)": "7,1", "Peso (kg/km)": "166", "Resist. (Ohm/km)": "1,21", "Amp (*)": "59" },
+      { "Sección (mm²)": "25", "Espesor (mm)": "1,20", "Diámetro (mm)": "8,7", "Peso (kg/km)": "260", "Resist. (Ohm/km)": "0,78", "Amp (*)": "77" },
+      { "Sección (mm²)": "35", "Espesor (mm)": "1,20", "Diámetro (mm)": "9,8", "Peso (kg/km)": "350", "Resist. (Ohm/km)": "0,55", "Amp (*)": "96" },
+      { "Sección (mm²)": "50", "Espesor (mm)": "1,40", "Diámetro (mm)": "11,5", "Peso (kg/km)": "485", "Resist. (Ohm/km)": "0,38", "Amp (*)": "117" },
+      { "Sección (mm²)": "70", "Espesor (mm)": "1,40", "Diámetro (mm)": "13,2", "Peso (kg/km)": "680", "Resist. (Ohm/km)": "0,27", "Amp (*)": "148" },
+      { "Sección (mm²)": "95", "Espesor (mm)": "1,60", "Diámetro (mm)": "15,4", "Peso (kg/km)": "930", "Resist. (Ohm/km)": "0,20", "Amp (*)": "180" },
+      { "Sección (mm²)": "120", "Espesor (mm)": "1,60", "Diámetro (mm)": "17,1", "Peso (kg/km)": "1160", "Resist. (Ohm/km)": "0,16", "Amp (*)": "207" },
+      { "Sección (mm²)": "150", "Espesor (mm)": "1,80", "Diámetro (mm)": "19,1", "Peso (kg/km)": "1450", "Resist. (Ohm/km)": "0,12", "Amp (*)": "237" },
+      { "Sección (mm²)": "185", "Espesor (mm)": "2,00", "Diámetro (mm)": "21,4", "Peso (kg/km)": "1810", "Resist. (Ohm/km)": "0,10", "Amp (*)": "270" },
+      { "Sección (mm²)": "240", "Espesor (mm)": "2,20", "Diámetro (mm)": "24,3", "Peso (kg/km)": "2370", "Resist. (Ohm/km)": "0,08", "Amp (*)": "318" }
     ]
   },
   {
@@ -248,11 +266,109 @@ export const products: Product[] = [
       { "Formación": "2x1,0", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,5", "Peso": "60", "Resist.": "19,5" },
       { "Formación": "2x1,5", "Espesor Nom.": "0,7", "Cubierta": "0,8", "Diámetro": "7,4", "Peso": "80", "Resist.": "13,3" },
       { "Formación": "2x2,5", "Espesor Nom.": "0,8", "Cubierta": "1", "Diámetro": "9,1", "Peso": "125", "Resist.": "7,98" },
+      { "Formación": "2x4,0", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "10,5", "Peso": "185", "Resist.": "4,95" },
       { "Formación": "3x1,0", "Espesor Nom.": "0,6", "Cubierta": "0,8", "Diámetro": "6,9", "Peso": "72", "Resist.": "19,5" },
       { "Formación": "3x1,5", "Espesor Nom.": "0,7", "Cubierta": "0,9", "Diámetro": "8,1", "Peso": "101", "Resist.": "13,3" },
       { "Formación": "3x2,5", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "9,9", "Peso": "157", "Resist.": "7,98" },
+      { "Formación": "3x4,0", "Espesor Nom.": "0,8", "Cubierta": "1,2", "Diámetro": "11,4", "Peso": "235", "Resist.": "4,95" },
       { "Formación": "4x1,5", "Espesor Nom.": "0,7", "Cubierta": "1", "Diámetro": "9,1", "Peso": "128", "Resist.": "13,3" },
-      { "Formación": "4x2,5", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "10,8", "Peso": "191", "Resist.": "7,98" }
+      { "Formación": "4x2,5", "Espesor Nom.": "0,8", "Cubierta": "1,1", "Diámetro": "10,8", "Peso": "191", "Resist.": "7,98" },
+      { "Formación": "4x4,0", "Espesor Nom.": "0,8", "Cubierta": "1,2", "Diámetro": "12,6", "Peso": "285", "Resist.": "4,95" },
+      { "Formación": "4x6,0", "Espesor Nom.": "0,8", "Cubierta": "1,3", "Diámetro": "14,5", "Peso": "410", "Resist.": "3,30" }
+    ]
+  },
+  {
+    id: 'aerea-preensamblado',
+    name: 'Cable Preensamblado Aluminio',
+    category: 'Cables Instalación Aérea',
+    subCategory: 'CABLES AÉREOS',
+    description: 'Conductores de aluminio para redes de distribución aérea de baja tensión.',
+    detailedDescription: 'Cables formados por uno o más conductores de aluminio aislados con XLPE, trenzados alrededor de un elemento portante.',
+    image: '/images/fotos-nuevas/Cables Instalación Aérea.jpg',
+    specs: ['Baja Tensión', 'XLPE', 'Aluminio'],
+    characteristics: ['Resistente a la intemperie', 'Larga vida útil', 'Fácil instalación'],
+    specsTable: [
+      { "Formación": "2x16", "Sección Fase": "16", "Neutro": "16", "Diámetro": "15,5", "Peso": "145" },
+      { "Formación": "2x25", "Sección Fase": "25", "Neutro": "25", "Diámetro": "18,2", "Peso": "215" },
+      { "Formación": "4x16", "Sección Fase": "16", "Neutro": "16", "Diámetro": "18,5", "Peso": "290" },
+      { "Formación": "4x25", "Sección Fase": "25", "Neutro": "25", "Diámetro": "22,1", "Peso": "430" }
+    ]
+  },
+  {
+    id: 'potencia-sintenax',
+    name: 'Cable de Potencia Sintenax',
+    category: 'Cables de Potencia',
+    subCategory: 'CABLES DE POTENCIA',
+    description: 'Cables para distribución de energía en baja tensión, aptos para enterrar.',
+    detailedDescription: 'Conductores de cobre con aislación de PVC y vaina de PVC. Gran resistencia mecánica y a agentes químicos.',
+    image: '/images/fotos-nuevas/Cables de potencia.jpg',
+    specs: ['1.1kV', 'IRAM 2178-1', 'Apto Subterráneo'],
+    characteristics: ['Doble aislación', 'Gran flexibilidad', 'Resistente a la humedad'],
+    specsTable: [
+      { "Formación": "2x1,5", "Diámetro": "10,5", "Peso": "165", "Amp (Tierra)": "32", "Amp (Aire)": "24" },
+      { "Formación": "2x2,5", "Diámetro": "11,5", "Peso": "205", "Amp (Tierra)": "42", "Amp (Aire)": "32" },
+      { "Formación": "4x4", "Diámetro": "14,5", "Peso": "380", "Amp (Tierra)": "54", "Amp (Aire)": "42" },
+      { "Formación": "4x10", "Diámetro": "18,5", "Peso": "710", "Amp (Tierra)": "92", "Amp (Aire)": "75" }
+    ]
+  },
+  {
+    id: 'media-tension-xlp',
+    name: 'Cable Media Tensión XLP',
+    category: 'Cables Media Tensión',
+    subCategory: 'MEDIA TENSIÓN',
+    description: 'Cables de potencia para media tensión de 13.2kV a 33kV.',
+    detailedDescription: 'Aislación de polietileno reticulado (XLPE) con pantalla metálica de cintas o alambres de cobre.',
+    image: '/images/fotos-nuevas/Cables-media-tension.jpg',
+    specs: ['13.2kV / 33kV', 'XLPE', 'IRAM 2178-2'],
+    specsTable: [
+      { "Sección": "35", "Diámetro": "24,5", "Peso": "980", "Amp (Tierra)": "165" },
+      { "Sección": "50", "Diámetro": "26,1", "Peso": "1150", "Amp (Tierra)": "195" },
+      { "Sección": "95", "Diámetro": "30,5", "Peso": "1750", "Amp (Tierra)": "285" }
+    ]
+  },
+  {
+    id: 'industrial-control',
+    name: 'Cable de Control Apantallado',
+    category: 'Cables Industriales',
+    subCategory: 'CONTROL',
+    description: 'Cables para circuitos de control y comando con protección contra interferencias.',
+    detailedDescription: 'Conductores de cobre flexible con pantalla de cinta de aluminio o malla de cobre para protección electromagnética.',
+    image: '/images/fotos-nuevas/Cables industriales.jpg',
+    specs: ['300/500V', 'Blindado', 'Flexible'],
+    specsTable: [
+      { "Formación": "7x1,5", "Diámetro": "13,5", "Peso": "280" },
+      { "Formación": "12x1,5", "Diámetro": "16,2", "Peso": "420" },
+      { "Formación": "19x1,5", "Diámetro": "19,5", "Peso": "610" }
+    ]
+  },
+  {
+    id: 'alta-temperatura-silicona',
+    name: 'Cable Siliconado (Alta Temperatura)',
+    category: 'Cables Alta Temperatura',
+    subCategory: 'ALTA TEMPERATURA',
+    description: 'Conductores con aislación de silicona para temperaturas de hasta 180°C.',
+    detailedDescription: 'Cables diseñados para soportar condiciones térmicas extremas sin perder flexibilidad ni propiedades eléctricas.',
+    image: '/images/fotos-nuevas/Cables-alta-temperatura.jpg',
+    specs: ['180°C', 'Extra Flexible', 'Clase H'],
+    specsTable: [
+      { "Sección": "1,5", "Diámetro": "3,2", "Peso": "22" },
+      { "Sección": "2,5", "Diámetro": "4,0", "Peso": "34" },
+      { "Sección": "4", "Diámetro": "4,8", "Peso": "52" }
+    ]
+  },
+  {
+    id: 'armados-acero',
+    name: 'Cable Armado (Protección Mecánica)',
+    category: 'Cables Armados',
+    subCategory: 'ARMADOS',
+    description: 'Cables con armadura de hilos o fleje de acero para máxima protección mecánica.',
+    detailedDescription: 'Diseñados para instalaciones donde se requiere resistencia a impactos, aplastamiento o ataques de roedores.',
+    image: '/images/fotos-nuevas/Cables-armados.jpg',
+    specs: ['1.1kV', 'Armadura de Acero', 'Subterráneo'],
+    specsTable: [
+      { "Formación": "4x16", "Diámetro": "24,5", "Peso": "1150" },
+      { "Formación": "4x25", "Diámetro": "28,2", "Peso": "1680" },
+      { "Formación": "4x50", "Diámetro": "34,1", "Peso": "2850" }
     ]
   }
 ];
