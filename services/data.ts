@@ -100,16 +100,19 @@ export const products: Product[] = [
       { "Sección nominal (mm²)": "6", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "4,7", "Peso (kg/km)": "63", "Resistencia eléctrica (Ohm/km)": "3,3", "Intensidad admisible (A)": "31" },
       { "Sección nominal (mm²)": "10", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "6,2", "Peso (kg/km)": "112", "Resistencia eléctrica (Ohm/km)": "1,91", "Intensidad admisible (A)": "43" },
       { "Sección nominal (mm²)": "16", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "7,1", "Peso (kg/km)": "166", "Resistencia eléctrica (Ohm/km)": "1,21", "Intensidad admisible (A)": "59" },
-      { "Sección nominal (mm²)": "25", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "8,7", "Peso (kg/km)": "260", "Resistencia eléctrica (Ohm/km)": "0,78", "Intensidad admisible (A)": "77" },
-      { "Sección nominal (mm²)": "35", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "9,8", "Peso (kg/km)": "350", "Resistencia eléctrica (Ohm/km)": "0,55", "Intensidad admisible (A)": "96" },
-      { "Sección nominal (mm²)": "50", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "11,5", "Peso (kg/km)": "485", "Resistencia eléctrica (Ohm/km)": "0,38", "Intensidad admisible (A)": "117" },
-      { "Sección nominal (mm²)": "70", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "13,2", "Peso (kg/km)": "680", "Resistencia eléctrica (Ohm/km)": "0,27", "Intensidad admisible (A)": "148" },
-      { "Sección nominal (mm²)": "95", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "15,4", "Peso (kg/km)": "930", "Resistencia eléctrica (Ohm/km)": "0,20", "Intensidad admisible (A)": "180" },
-      { "Sección nominal (mm²)": "120", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "17,1", "Peso (kg/km)": "1160", "Resistencia eléctrica (Ohm/km)": "0,16", "Intensidad admisible (A)": "207" },
-      { "Sección nominal (mm²)": "150", "Espesor aislación (mm)": "1,80", "Diámetro exterior (mm)": "19,1", "Peso (kg/km)": "1450", "Resistencia eléctrica (Ohm/km)": "0,12", "Intensidad admisible (A)": "237" },
-      { "Sección nominal (mm²)": "185", "Espesor aislación (mm)": "2,00", "Diámetro exterior (mm)": "21,4", "Peso (kg/km)": "1810", "Resistencia eléctrica (Ohm/km)": "0,10", "Intensidad admisible (A)": "270" },
-      { "Sección nominal (mm²)": "240", "Espesor aislación (mm)": "2,20", "Diámetro exterior (mm)": "24,3", "Peso (kg/km)": "2370", "Resistencia eléctrica (Ohm/km)": "0,08", "Intensidad admisible (A)": "318" }
-    ]
+      { "Sección nominal (mm²)": "25", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "8,7", "Peso (kg/km)": "256", "Resistencia eléctrica (Ohm/km)": "0,78", "Intensidad admisible (A)": "77" },
+      { "Sección nominal (mm²)": "35", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "9,7", "Peso (kg/km)": "358", "Resistencia eléctrica (Ohm/km)": "0,554", "Intensidad admisible (A)": "96" },
+      { "Sección nominal (mm²)": "50", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "11,5", "Peso (kg/km)": "504", "Resistencia eléctrica (Ohm/km)": "0,386", "Intensidad admisible (A)": "116" },
+      { "Sección nominal (mm²)": "70", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "13,5", "Peso (kg/km)": "688", "Resistencia eléctrica (Ohm/km)": "0,272", "Intensidad admisible (A)": "148" },
+      { "Sección nominal (mm²)": "95", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "15,9", "Peso (kg/km)": "904", "Resistencia eléctrica (Ohm/km)": "0,206", "Intensidad admisible (A)": "180" },
+      { "Sección nominal (mm²)": "120", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "17,3", "Peso (kg/km)": "1136", "Resistencia eléctrica (Ohm/km)": "0,161", "Intensidad admisible (A)": "207" },
+      { "Sección nominal (mm²)": "150", "Espesor aislación (mm)": "1,80", "Diámetro exterior (mm)": "19,9", "Peso (kg/km)": "1415", "Resistencia eléctrica (Ohm/km)": "0,129", "Intensidad admisible (A)": "228" },
+      { "Sección nominal (mm²)": "185", "Espesor aislación (mm)": "2,00", "Diámetro exterior (mm)": "21,7", "Peso (kg/km)": "1730", "Resistencia eléctrica (Ohm/km)": "0,106", "Intensidad admisible (A)": "260" },
+      { "Sección nominal (mm²)": "240", "Espesor aislación (mm)": "2,20", "Diámetro exterior (mm)": "25,1", "Peso (kg/km)": "2256", "Resistencia eléctrica (Ohm/km)": "0,0801", "Intensidad admisible (A)": "290" },
+      { "Sección nominal (mm²)": "300", "Espesor aislación (mm)": "2,40", "Diámetro exterior (mm)": "28,3", "Peso (kg/km)": "2796", "Resistencia eléctrica (Ohm/km)": "0,0641", "Intensidad admisible (A)": "340" }
+    ],
+    certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
   {
     id: 'unipolar-lsoh',
@@ -143,16 +146,19 @@ export const products: Product[] = [
       { "Sección nominal (mm²)": "6", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "4,7", "Peso (kg/km)": "63", "Resistencia eléctrica (Ohm/km)": "3,3", "Intensidad admisible (A)": "31" },
       { "Sección nominal (mm²)": "10", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "6,2", "Peso (kg/km)": "112", "Resistencia eléctrica (Ohm/km)": "1,91", "Intensidad admisible (A)": "43" },
       { "Sección nominal (mm²)": "16", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "7,1", "Peso (kg/km)": "166", "Resistencia eléctrica (Ohm/km)": "1,21", "Intensidad admisible (A)": "59" },
-      { "Sección nominal (mm²)": "25", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "8,7", "Peso (kg/km)": "260", "Resistencia eléctrica (Ohm/km)": "0,78", "Intensidad admisible (A)": "77" },
-      { "Sección nominal (mm²)": "35", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "9,8", "Peso (kg/km)": "350", "Resistencia eléctrica (Ohm/km)": "0,55", "Intensidad admisible (A)": "96" },
-      { "Sección nominal (mm²)": "50", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "11,5", "Peso (kg/km)": "485", "Resistencia eléctrica (Ohm/km)": "0,38", "Intensidad admisible (A)": "117" },
-      { "Sección nominal (mm²)": "70", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "13,2", "Peso (kg/km)": "680", "Resistencia eléctrica (Ohm/km)": "0,27", "Intensidad admisible (A)": "148" },
-      { "Sección nominal (mm²)": "95", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "15,4", "Peso (kg/km)": "930", "Resistencia eléctrica (Ohm/km)": "0,20", "Intensidad admisible (A)": "180" },
-      { "Sección nominal (mm²)": "120", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "17,1", "Peso (kg/km)": "1160", "Resistencia eléctrica (Ohm/km)": "0,16", "Intensidad admisible (A)": "207" },
-      { "Sección nominal (mm²)": "150", "Espesor aislación (mm)": "1,80", "Diámetro exterior (mm)": "19,1", "Peso (kg/km)": "1450", "Resistencia eléctrica (Ohm/km)": "0,12", "Intensidad admisible (A)": "237" },
-      { "Sección nominal (mm²)": "185", "Espesor aislación (mm)": "2,00", "Diámetro exterior (mm)": "21,4", "Peso (kg/km)": "1810", "Resistencia eléctrica (Ohm/km)": "0,10", "Intensidad admisible (A)": "270" },
-      { "Sección nominal (mm²)": "240", "Espesor aislación (mm)": "2,20", "Diámetro exterior (mm)": "24,3", "Peso (kg/km)": "2370", "Resistencia eléctrica (Ohm/km)": "0,08", "Intensidad admisible (A)": "318" }
-    ]
+      { "Sección nominal (mm²)": "25", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "8,7", "Peso (kg/km)": "256", "Resistencia eléctrica (Ohm/km)": "0,78", "Intensidad admisible (A)": "77" },
+      { "Sección nominal (mm²)": "35", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "9,7", "Peso (kg/km)": "358", "Resistencia eléctrica (Ohm/km)": "0,554", "Intensidad admisible (A)": "96" },
+      { "Sección nominal (mm²)": "50", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "11,5", "Peso (kg/km)": "504", "Resistencia eléctrica (Ohm/km)": "0,386", "Intensidad admisible (A)": "116" },
+      { "Sección nominal (mm²)": "70", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "13,5", "Peso (kg/km)": "688", "Resistencia eléctrica (Ohm/km)": "0,272", "Intensidad admisible (A)": "148" },
+      { "Sección nominal (mm²)": "95", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "15,9", "Peso (kg/km)": "904", "Resistencia eléctrica (Ohm/km)": "0,206", "Intensidad admisible (A)": "180" },
+      { "Sección nominal (mm²)": "120", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "17,3", "Peso (kg/km)": "1136", "Resistencia eléctrica (Ohm/km)": "0,161", "Intensidad admisible (A)": "207" },
+      { "Sección nominal (mm²)": "150", "Espesor aislación (mm)": "1,80", "Diámetro exterior (mm)": "19,9", "Peso (kg/km)": "1415", "Resistencia eléctrica (Ohm/km)": "0,129", "Intensidad admisible (A)": "228" },
+      { "Sección nominal (mm²)": "185", "Espesor aislación (mm)": "2,00", "Diámetro exterior (mm)": "21,7", "Peso (kg/km)": "1730", "Resistencia eléctrica (Ohm/km)": "0,106", "Intensidad admisible (A)": "260" },
+      { "Sección nominal (mm²)": "240", "Espesor aislación (mm)": "2,20", "Diámetro exterior (mm)": "25,1", "Peso (kg/km)": "2256", "Resistencia eléctrica (Ohm/km)": "0,0801", "Intensidad admisible (A)": "290" },
+      { "Sección nominal (mm²)": "300", "Espesor aislación (mm)": "2,40", "Diámetro exterior (mm)": "28,3", "Peso (kg/km)": "2796", "Resistencia eléctrica (Ohm/km)": "0,0641", "Intensidad admisible (A)": "340" }
+    ],
+    certifications: ['iram', 'seguridad', 'bajos-humos', 'libre-halogenos', 'marcacion-secuencial', 'espacios-publicos', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio', 'cuerdas-flexibles'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
   {
     id: 'bipolar-vaina-chata',
@@ -183,7 +189,9 @@ export const products: Product[] = [
       { "Formación (Nº x mm²)": "3x1", "Diám. máx. alambres (mm)": "0,21", "Espesor aislación nominal (mm)": "0,6", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,1 x 9,2", "Masa aprox. (kg/km)": "64", "Resistencia eléctrica máx. 20°C (Ohm/km)": "19,5", "Intensidad continua (A)": "7" },
       { "Formación (Nº x mm²)": "3x1,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,7", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,5 x 10,6", "Masa aprox. (kg/km)": "86", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad continua (A)": "10" },
       { "Formación (Nº x mm²)": "3x2,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "5,1 x 12,5", "Masa aprox. (kg/km)": "126", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad continua (A)": "16" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio', 'cuerdas-flexibles'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
   {
     id: 'bipolar-paralelo',
@@ -213,7 +221,9 @@ export const products: Product[] = [
       { "Formación (Nº x mm²)": "2x1,5", "Diám. máx. alambres (mm)": "0,26", "Esp. aislación nominal (mm)": "0,7", "Dimensiones exteriores aprox. (mm)": "3,0 x 6,1", "Masa aprox. (kg/km)": "45", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad continua (A)": "10" },
       { "Formación (Nº x mm²)": "2x2,5", "Diám. máx. alambres (mm)": "0,26", "Esp. aislación nominal (mm)": "0,8", "Dimensiones exteriores aprox. (mm)": "3,6 x 7,4", "Masa aprox. (kg/km)": "72", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad continua (A)": "15" },
       { "Formación (Nº x mm²)": "2x4", "Diám. máx. alambres (mm)": "0,31", "Esp. aislación nominal (mm)": "0,8", "Dimensiones exteriores aprox. (mm)": "4,2 x 8,6", "Masa aprox. (kg/km)": "110", "Resistencia eléctrica máx. 20°C (Ohm/km)": "4,95", "Intensidad continua (A)": "20" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad', 'instalacion-domiciliaria', 'temperatura-servicio', 'cuerdas-flexibles'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
   {
     id: 'bipolar-paralelo-parlante',
@@ -239,7 +249,9 @@ export const products: Product[] = [
     specsTable: [
       { "Formación (Nº x mm²)": "2x1", "Diám. máx. alambres (mm)": "0,21", "Espesor aislación nominal (mm)": "0,6", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,1 x 6,6", "Masa aprox. (kg/km)": "44", "Intensidad continua (A)": "7" },
       { "Formación (Nº x mm²)": "2x1,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,7", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,5 x 7,5", "Masa aprox. (kg/km)": "58", "Intensidad continua (A)": "10" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad', 'instalacion-domiciliaria', 'temperatura-servicio', 'cuerdas-flexibles'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
   {
     id: 'civil-03',
@@ -278,7 +290,9 @@ export const products: Product[] = [
       { "Sección nominal (mm²)": "4x2,5", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,1", "Diámetro exterior (mm)": "10,8", "Peso (kg/km)": "191", "Resistencia eléctrica 20°C (Ohm/km)": "7,98" },
       { "Sección nominal (mm²)": "4x4,0", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,2", "Diámetro exterior (mm)": "12,6", "Peso (kg/km)": "285", "Resistencia eléctrica 20°C (Ohm/km)": "4,95" },
       { "Sección nominal (mm²)": "4x6,0", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,3", "Diámetro exterior (mm)": "14,5", "Peso (kg/km)": "410", "Resistencia eléctrica 20°C (Ohm/km)": "3,30" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio', 'cuerdas-flexibles'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
   {
     id: 'aerea-preensamblado',
@@ -300,7 +314,8 @@ export const products: Product[] = [
       { "Formación": "4x50", "Sección Fase": "50", "Neutro": "50", "Esp. Aisl.": "1,8", "Diámetro": "29,1", "Peso": "790", "Resist.": "0,64", "Amp (Aire)": "150" },
       { "Formación": "4x70", "Sección Fase": "70", "Neutro": "70", "Esp. Aisl.": "1,8", "Diámetro": "33,5", "Peso": "1120", "Resist.": "0,44", "Amp (Aire)": "190" },
       { "Formación": "4x95", "Sección Fase": "95", "Neutro": "95", "Esp. Aisl.": "2,0", "Diámetro": "38,8", "Peso": "1540", "Resist.": "0,32", "Amp (Aire)": "230" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad', 'marcacion-secuencial']
   },
   {
     id: 'potencia-sintenax',
@@ -328,7 +343,8 @@ export const products: Product[] = [
       { "Formación (Nº x mm²)": "4x16", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "21,5", "Masa aprox. (kg/km)": "1080", "Resistencia eléctrica máx. 20°C (Ohm/km)": "1,21", "Intensidad admisible (A) Tierra": "100", "Intensidad admisible (A) Aire": "85" },
       { "Formación (Nº x mm²)": "4x25", "Espesor aislación nominal (mm)": "1,2", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "25,8", "Masa aprox. (kg/km)": "1620", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,78", "Intensidad admisible (A) Tierra": "130", "Intensidad admisible (A) Aire": "112" },
       { "Formación (Nº x mm²)": "4x35", "Espesor aislación nominal (mm)": "1,2", "Espesor envoltura nominal (mm)": "2,0", "Diámetro exterior aprox. (mm)": "28,5", "Masa aprox. (kg/km)": "2150", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,55", "Intensidad admisible (A) Tierra": "155", "Intensidad admisible (A) Aire": "137" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'no-propagacion', 'temperatura-servicio']
   },
   {
     id: 'media-tension-xlp',
@@ -349,7 +365,8 @@ export const products: Product[] = [
       { "Sección nominal (mm²)": "185", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "37,2", "Masa aprox. (kg/km)": "2900", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,09", "Intensidad admisible (A) Tierra": "415" },
       { "Sección nominal (mm²)": "240", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "41,5", "Masa aprox. (kg/km)": "3650", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,07", "Intensidad admisible (A) Tierra": "480" },
       { "Sección nominal (mm²)": "300", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "45,2", "Masa aprox. (kg/km)": "4400", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,06", "Intensidad admisible (A) Tierra": "540" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'no-propagacion']
   },
   {
     id: 'industrial-control',
@@ -364,7 +381,8 @@ export const products: Product[] = [
       { "Formación": "7x1,5", "Diámetro": "13,5", "Peso": "280" },
       { "Formación": "12x1,5", "Diámetro": "16,2", "Peso": "420" },
       { "Formación": "19x1,5", "Diámetro": "19,5", "Peso": "610" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'no-propagacion', 'temperatura-servicio']
   },
   {
     id: 'alta-temperatura-silicona',
@@ -379,7 +397,8 @@ export const products: Product[] = [
       { "Sección": "1,5", "Diámetro": "3,2", "Peso": "22" },
       { "Sección": "2,5", "Diámetro": "4,0", "Peso": "34" },
       { "Sección": "4", "Diámetro": "4,8", "Peso": "52" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion', 'temperatura-servicio', 'cuerdas-flexibles']
   },
   {
     id: 'armados-acero',
@@ -397,7 +416,8 @@ export const products: Product[] = [
       { "Formación (Nº x mm²)": "4x50", "Espesor aislación nominal (mm)": "1,4", "Espesor envoltura nominal (mm)": "2,2", "Diámetro exterior aprox. (mm)": "34,1", "Masa aprox. (kg/km)": "2850", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,38", "Intensidad admisible (A)": "185" },
       { "Formación (Nº x mm²)": "4x70", "Espesor aislación nominal (mm)": "1,4", "Espesor envoltura nominal (mm)": "2,4", "Diámetro exterior aprox. (mm)": "38,5", "Masa aprox. (kg/km)": "3850", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,27", "Intensidad admisible (A)": "230" },
       { "Formación (Nº x mm²)": "4x95", "Espesor aislación nominal (mm)": "1,6", "Espesor envoltura nominal (mm)": "2,6", "Diámetro exterior aprox. (mm)": "43,2", "Masa aprox. (kg/km)": "5100", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,20", "Intensidad admisible (A)": "280" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'no-propagacion']
   },
   {
     id: 'cobre-desnudo',
@@ -416,7 +436,8 @@ export const products: Product[] = [
       { "Sección nominal (mm²)": "70", "Formación (Nº x mm)": "19x2,14", "Diámetro exterior (mm)": "10,7", "Masa aprox. (kg/km)": "635", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,26" },
       { "Sección nominal (mm²)": "95", "Formación (Nº x mm)": "19x2,52", "Diámetro exterior (mm)": "12,6", "Masa aprox. (kg/km)": "882", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,19" },
       { "Sección nominal (mm²)": "120", "Formación (Nº x mm)": "37x2,03", "Diámetro exterior (mm)": "14,2", "Masa aprox. (kg/km)": "1120", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,15" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad']
   },
   {
     id: 'redes-utp',
@@ -431,7 +452,8 @@ export const products: Product[] = [
       { "Tipo": "UTP Cat 5e", "AWG": "24", "Pares": "4", "Diámetro": "5,2", "Uso": "Interior" },
       { "Tipo": "UTP Cat 6", "AWG": "23", "Pares": "4", "Diámetro": "6,1", "Uso": "Gigabit" },
       { "Tipo": "FTP Cat 6", "AWG": "23", "Pares": "4", "Diámetro": "6,5", "Uso": "Blindado" }
-    ]
+    ],
+    certifications: ['iram', 'seguridad']
   }
 ];
 

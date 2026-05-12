@@ -3,6 +3,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import { MessageSquare, Info, ArrowLeft, Download, ChevronRight } from 'lucide-react';
 import { products, categories } from '../services/data';
 import { Product } from '../types';
+import CertificationIcons from '../components/CertificationIcons';
 
 const ProductDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -67,11 +68,11 @@ const ProductDetail: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
               {/* Left Column: Images */}
               <div className="space-y-8">
-                <div className="aspect-square bg-white border border-gray-100 overflow-hidden shadow-inner flex items-center justify-center p-8">
+                <div className="bg-white border border-gray-100 overflow-hidden shadow-inner flex items-center justify-center p-3">
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-contain"
+                    className="w-full h-auto max-h-[500px] object-contain"
                   />
                 </div>
 
@@ -89,6 +90,37 @@ const ProductDetail: React.FC = () => {
                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                           />
                         </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Certification Icons */}
+                {product.certifications && product.certifications.length > 0 && (
+                  <div>
+                    <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-6 flex items-center gap-2">
+                      <span className="w-8 h-px bg-slate-200"></span> Certificaciones y Normas
+                    </h4>
+                    <div className="bg-slate-50 border border-slate-100 p-6 shadow-sm">
+                      <CertificationIcons certifications={product.certifications} />
+                    </div>
+                  </div>
+                )}
+
+                {/* Marcas Disponibles */}
+                {product.availableBrands && product.availableBrands.length > 0 && (
+                  <div>
+                    <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4 flex items-center gap-2">
+                      <span className="w-8 h-px bg-slate-200"></span> Marcas Disponibles
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {product.availableBrands.map((brand, i) => (
+                        <span
+                          key={i}
+                          className="inline-flex items-center px-3 py-1.5 bg-white border border-slate-200 text-slate-700 text-xs font-semibold tracking-wide rounded-sm shadow-sm hover:border-orange-400 hover:text-orange-700 hover:bg-orange-50 transition-all duration-200"
+                        >
+                          {brand}
+                        </span>
                       ))}
                     </div>
                   </div>
@@ -172,17 +204,7 @@ const ProductDetail: React.FC = () => {
                       Consultar Ahora
                     </button>
                     
-                    {product.pdf && (
-                      <a
-                        href={product.pdf}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 bg-slate-900 text-white font-bold py-5 px-8 flex items-center justify-center gap-4 hover:bg-slate-800 transition-all shadow-xl shadow-slate-900/20 uppercase tracking-[0.2em] text-xs group"
-                      >
-                        <Download size={18} className="group-hover:translate-y-1 transition-transform" />
-                        Ficha Técnica PDF
-                      </a>
-                    )}
+
                   </div>
                 </div>
               </div>
@@ -227,6 +249,8 @@ const ProductDetail: React.FC = () => {
                 </p>
               </div>
             )}
+
+
           </div>
         </div>
       </div>

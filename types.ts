@@ -14,6 +14,8 @@ export interface Product {
   applications?: string;
   installation?: string;
   specsTable?: Record<string, string>[];
+  certifications?: string[];
+  availableBrands?: string[];
 }
 
 export interface Category {
