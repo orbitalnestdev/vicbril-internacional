@@ -1,3 +1,9 @@
+export interface ProductColor {
+  label: string;
+  values: string[];
+  codes: string[];
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -16,6 +22,7 @@ export interface Product {
   specsTable?: Record<string, string>[];
   certifications?: string[];
   availableBrands?: string[];
+  colors?: ProductColor[];
 }
 
 export interface Category {

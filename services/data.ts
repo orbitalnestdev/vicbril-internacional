@@ -12,57 +12,8 @@ export const categories: Category[] = [
     id: 'aerea',
     name: 'Cables Instalación Aérea',
     slug: 'instalacion-aerea',
-    image: '/images/fotos-nuevas/Cables Instalación Aérea.jpg',
-    banner: '/images/fotos-nuevas/Cables Instalación Aérea.jpg'
-  },
-  {
-    id: 'potencia',
-    name: 'Cables de Potencia',
-    slug: 'potencia',
-    image: '/images/fotos-nuevas/Cables de potencia.jpg',
-    banner: '/images/fotos-nuevas/Cables de potencia.jpg'
-  },
-  {
-    id: 'media-tension',
-    name: 'Cables Media Tensión',
-    slug: 'media-tension',
-    image: '/images/fotos-nuevas/Cables-media-tension.jpg',
-    banner: '/images/fotos-nuevas/Cables-media-tension.jpg'
-  },
-  {
-    id: 'industriales',
-    name: 'Cables Industriales',
-    slug: 'industriales',
-    image: '/images/fotos-nuevas/Cables industriales.jpg',
-    banner: '/images/fotos-nuevas/Cables industriales.jpg'
-  },
-  {
-    id: 'alta-temperatura',
-    name: 'Cables Alta Temperatura',
-    slug: 'alta-temperatura',
-    image: '/images/fotos-nuevas/Cables-alta-temperatura.jpg',
-    banner: '/images/fotos-nuevas/Cables-alta-temperatura.jpg'
-  },
-  {
-    id: 'armados',
-    name: 'Cables Armados',
-    slug: 'armados',
-    image: '/images/fotos-nuevas/Cables-armados.jpg',
-    banner: '/images/fotos-nuevas/Cables-armados.jpg'
-  },
-  {
-    id: 'especiales',
-    name: 'Resto de Cables Especiales',
-    slug: 'cables-especiales',
-    image: '/images/fotos-nuevas/Resto-de-Cables-Especiales.jpg',
-    banner: '/images/fotos-nuevas/Resto-de-Cables-Especiales.jpg'
-  },
-  {
-    id: 'materiales-electricos',
-    name: 'Resto de Materiales Eléctricos',
-    slug: 'materiales-electricos',
-    image: '/images/fotos-nuevas/Materiales electricos.jpg',
-    banner: '/images/fotos-nuevas/Materiales electricos.jpg'
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/PORTADA.jpeg',
+    banner: '/images/PRODUCTOS/2-LINEAS AEREAS/PORTADA.jpeg'
   }
 ];
 
@@ -72,44 +23,44 @@ export const products: Product[] = [
     name: 'Cable Unipolar PVC',
     category: 'Cables para Instalación Civil',
     subCategory: '1-CABLE UNIPOLAR',
-    description: 'Conductores de cobre con aislación de PVC para instalaciones fijas.',
-    detailedDescription: 'Cable unipolar de cobre electrolítico recocido, aislado con una capa de PVC/A. Diseñados para instalaciones fijas en viviendas, oficinas y edificios industriales. Gran facilidad de deslizamiento en conductos.',
+    description: 'Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.',
+    detailedDescription: 'Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.',
     image: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/PORTADA.jpg',
     gallery: [
       '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/foto producto dentro de ficha tecnica.jpeg'
     ],
     technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/marcas disponibles unipolar pvc.jpg',
     pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/FICHA TECNICA UNIP PVC (REEMPLAZAR FOTO DE ABAJO).pdf',
-    specs: ['750V', 'Norma IRAM 247-3', 'PVC Ecológico'],
+    specs: ['450/750 V', '70°', 'PVC'],
     characteristics: [
       'Temperatura máxima: 70° C de servicio',
-      'Tensión nominal: 450/750 Volt',
+      'Tensión normal: 450/750 Volt.',
       'Norma constructiva: IEC 60227-3 - IRAM NM 247-3',
-      'Norma de fuego: IEC 60332-3-23 / IRAM NM IEC 60332-3-23',
+      'Norma de fuego: IEC 60332-3-23 / IRAM NM IEC 60332-3-23 - No propagación de incendio.',
       'Norma de conductores: IEC 60228 / IRAM NM 280'
     ],
-    applications: 'Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales. Permite cableado en tableros, cañerías embutidas y cañerías a la vista, recomendando el uso de bandejas portantes.',
-    installation: 'Montaje: Radio mínimo de curvatura igual a 7 x diámetro exterior del cable. Tracción máxima: 5daN/mm² aplicados sobre los conductores. Temperatura de montaje: Igual o mayor a 5°C.',
+    applications: 'Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes',
+    installation: 'Montaje: Radio mínimo de curvatura igual a 7 x diámetro exterior del cable. Tracción máxima: 5daN/mm² aplicados sobre los conductores. Temperatura de montaje: igual o mayor a 5°C.',
     specsTable: [
-      { "Sección nominal (mm²)": "0,5", "Espesor aislación (mm)": "0,60", "Diámetro exterior (mm)": "2,1", "Peso (kg/km)": "8,2", "Resistencia eléctrica (Ohm/km)": "39", "Intensidad admisible (A)": "4,8" },
-      { "Sección nominal (mm²)": "0,75", "Espesor aislación (mm)": "0,60", "Diámetro exterior (mm)": "2,3", "Peso (kg/km)": "10,8", "Resistencia eléctrica (Ohm/km)": "26", "Intensidad admisible (A)": "7,2" },
-      { "Sección nominal (mm²)": "1", "Espesor aislación (mm)": "0,70", "Diámetro exterior (mm)": "2,7", "Peso (kg/km)": "14,4", "Resistencia eléctrica (Ohm/km)": "19,5", "Intensidad admisible (A)": "9,6" },
-      { "Sección nominal (mm²)": "1,5", "Espesor aislación (mm)": "0,70", "Diámetro exterior (mm)": "3,0", "Peso (kg/km)": "20", "Resistencia eléctrica (Ohm/km)": "13,3", "Intensidad admisible (A)": "13" },
-      { "Sección nominal (mm²)": "2,5", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "3,6", "Peso (kg/km)": "31", "Resistencia eléctrica (Ohm/km)": "7,98", "Intensidad admisible (A)": "18" },
-      { "Sección nominal (mm²)": "4", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "4,1", "Peso (kg/km)": "45", "Resistencia eléctrica (Ohm/km)": "4,95", "Intensidad admisible (A)": "24" },
-      { "Sección nominal (mm²)": "6", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "4,7", "Peso (kg/km)": "63", "Resistencia eléctrica (Ohm/km)": "3,3", "Intensidad admisible (A)": "31" },
-      { "Sección nominal (mm²)": "10", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "6,2", "Peso (kg/km)": "112", "Resistencia eléctrica (Ohm/km)": "1,91", "Intensidad admisible (A)": "43" },
-      { "Sección nominal (mm²)": "16", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "7,1", "Peso (kg/km)": "166", "Resistencia eléctrica (Ohm/km)": "1,21", "Intensidad admisible (A)": "59" },
-      { "Sección nominal (mm²)": "25", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "8,7", "Peso (kg/km)": "256", "Resistencia eléctrica (Ohm/km)": "0,78", "Intensidad admisible (A)": "77" },
-      { "Sección nominal (mm²)": "35", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "9,7", "Peso (kg/km)": "358", "Resistencia eléctrica (Ohm/km)": "0,554", "Intensidad admisible (A)": "96" },
-      { "Sección nominal (mm²)": "50", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "11,5", "Peso (kg/km)": "504", "Resistencia eléctrica (Ohm/km)": "0,386", "Intensidad admisible (A)": "116" },
-      { "Sección nominal (mm²)": "70", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "13,5", "Peso (kg/km)": "688", "Resistencia eléctrica (Ohm/km)": "0,272", "Intensidad admisible (A)": "148" },
-      { "Sección nominal (mm²)": "95", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "15,9", "Peso (kg/km)": "904", "Resistencia eléctrica (Ohm/km)": "0,206", "Intensidad admisible (A)": "180" },
-      { "Sección nominal (mm²)": "120", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "17,3", "Peso (kg/km)": "1136", "Resistencia eléctrica (Ohm/km)": "0,161", "Intensidad admisible (A)": "207" },
-      { "Sección nominal (mm²)": "150", "Espesor aislación (mm)": "1,80", "Diámetro exterior (mm)": "19,9", "Peso (kg/km)": "1415", "Resistencia eléctrica (Ohm/km)": "0,129", "Intensidad admisible (A)": "228" },
-      { "Sección nominal (mm²)": "185", "Espesor aislación (mm)": "2,00", "Diámetro exterior (mm)": "21,7", "Peso (kg/km)": "1730", "Resistencia eléctrica (Ohm/km)": "0,106", "Intensidad admisible (A)": "260" },
-      { "Sección nominal (mm²)": "240", "Espesor aislación (mm)": "2,20", "Diámetro exterior (mm)": "25,1", "Peso (kg/km)": "2256", "Resistencia eléctrica (Ohm/km)": "0,0801", "Intensidad admisible (A)": "290" },
-      { "Sección nominal (mm²)": "300", "Espesor aislación (mm)": "2,40", "Diámetro exterior (mm)": "28,3", "Peso (kg/km)": "2796", "Resistencia eléctrica (Ohm/km)": "0,0641", "Intensidad admisible (A)": "340" }
+      { "Sección nominal mm": "0,5", "Espesor aislación mm": "0,60", "Diámetro exterior mm": "2,1", "Peso kg/km": "8,2", "Resistencia eléctrica Ohm/km": "39", "Intensidad admisible Amper (*)": "4,8" },
+      { "Sección nominal mm": "0,75", "Espesor aislación mm": "0,60", "Diámetro exterior mm": "2,3", "Peso kg/km": "10,8", "Resistencia eléctrica Ohm/km": "26", "Intensidad admisible Amper (*)": "7,2" },
+      { "Sección nominal mm": "1", "Espesor aislación mm": "0,70", "Diámetro exterior mm": "2,7", "Peso kg/km": "14,4", "Resistencia eléctrica Ohm/km": "19,5", "Intensidad admisible Amper (*)": "9,6" },
+      { "Sección nominal mm": "1,5", "Espesor aislación mm": "0,70", "Diámetro exterior mm": "3,0", "Peso kg/km": "20", "Resistencia eléctrica Ohm/km": "13,3", "Intensidad admisible Amper (*)": "13" },
+      { "Sección nominal mm": "2,5", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "3,6", "Peso kg/km": "31", "Resistencia eléctrica Ohm/km": "7,98", "Intensidad admisible Amper (*)": "18" },
+      { "Sección nominal mm": "4", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "4,1", "Peso kg/km": "45", "Resistencia eléctrica Ohm/km": "4,95", "Intensidad admisible Amper (*)": "24" },
+      { "Sección nominal mm": "6", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "4,7", "Peso kg/km": "63", "Resistencia eléctrica Ohm/km": "3,3", "Intensidad admisible Amper (*)": "31" },
+      { "Sección nominal mm": "10", "Espesor aislación mm": "1,00", "Diámetro exterior mm": "6,2", "Peso kg/km": "112", "Resistencia eléctrica Ohm/km": "1,91", "Intensidad admisible Amper (*)": "43" },
+      { "Sección nominal mm": "16", "Espesor aislación mm": "1,00", "Diámetro exterior mm": "7,1", "Peso kg/km": "166", "Resistencia eléctrica Ohm/km": "1,21", "Intensidad admisible Amper (*)": "59" },
+      { "Sección nominal mm": "25", "Espesor aislación mm": "1,20", "Diámetro exterior mm": "8,7", "Peso kg/km": "256", "Resistencia eléctrica Ohm/km": "0,78", "Intensidad admisible Amper (*)": "77" },
+      { "Sección nominal mm": "35", "Espesor aislación mm": "1,20", "Diámetro exterior mm": "9,7", "Peso kg/km": "358", "Resistencia eléctrica Ohm/km": "0,554", "Intensidad admisible Amper (*)": "96" },
+      { "Sección nominal mm": "50", "Espesor aislación mm": "1,40", "Diámetro exterior mm": "11,5", "Peso kg/km": "504", "Resistencia eléctrica Ohm/km": "0,386", "Intensidad admisible Amper (*)": "116" },
+      { "Sección nominal mm": "70", "Espesor aislación mm": "1,40", "Diámetro exterior mm": "13,5", "Peso kg/km": "688", "Resistencia eléctrica Ohm/km": "0,272", "Intensidad admisible Amper (*)": "148" },
+      { "Sección nominal mm": "95", "Espesor aislación mm": "1,60", "Diámetro exterior mm": "15,9", "Peso kg/km": "904", "Resistencia eléctrica Ohm/km": "0,206", "Intensidad admisible Amper (*)": "180" },
+      { "Sección nominal mm": "120", "Espesor aislación mm": "1,60", "Diámetro exterior mm": "17,3", "Peso kg/km": "1136", "Resistencia eléctrica Ohm/km": "0,161", "Intensidad admisible Amper (*)": "207" },
+      { "Sección nominal mm": "150", "Espesor aislación mm": "1,80", "Diámetro exterior mm": "19,9", "Peso kg/km": "1415", "Resistencia eléctrica Ohm/km": "0,129", "Intensidad admisible Amper (*)": "228" },
+      { "Sección nominal mm": "185", "Espesor aislación mm": "2,00", "Diámetro exterior mm": "21,7", "Peso kg/km": "1730", "Resistencia eléctrica Ohm/km": "0,106", "Intensidad admisible Amper (*)": "260" },
+      { "Sección nominal mm": "240", "Espesor aislación mm": "2,20", "Diámetro exterior mm": "25,1", "Peso kg/km": "2256", "Resistencia eléctrica Ohm/km": "0,0801", "Intensidad admisible Amper (*)": "290" },
+      { "Sección nominal mm": "300", "Espesor aislación mm": "2,40", "Diámetro exterior mm": "28,3", "Peso kg/km": "2796", "Resistencia eléctrica Ohm/km": "0,641", "Intensidad admisible Amper (*)": "340" }
     ],
     certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
@@ -119,78 +70,95 @@ export const products: Product[] = [
     name: 'Cable Unipolar LSOH',
     category: 'Cables para Instalación Civil',
     subCategory: '1-CABLE UNIPOLAR',
-    description: 'Conductores de cobre con aislación libre de halógenos (Baja emisión de humos).',
-    detailedDescription: 'Cables unipolares con aislación de compuesto termoplástico libre de halógenos, con baja emisión de humos y gases corrosivos. Ideales para lugares con alta concentración de personas y locales de pública concurrencia.',
+    description: 'Conductores a instalar en lugares cerrados con alto tránsito de personas donde la evacuación por incendio resulta difícil de resolver.',
+    detailedDescription: 'Conductores a instalar en lugares cerrados con alto tránsito de personas, por ejemplo cines, sanatorios, teatros, estaciones de trenes subterráneos, universidades, centros comerciales, escuelas, túneles de minas, etc; es decir todo lugar dónde la evacuación por incendio resulta difícil de resolver.',
     image: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/foto producto dentro de ficha tecnica.jpeg'
     ],
     technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/MARCAS DISPONIBLES UNIPOLAR LSOH.jpg',
     pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/FICHA TECNICA UNIP. LSOH (REEMPLAZAR FOTO).pdf',
-    specs: ['1.1kV', 'Libre de Halógenos', 'Baja Emisión de Humos'],
+    specs: ['450/750 Volt', '70° C', 'IRAM 62267'],
     characteristics: [
-      'Temperatura: Máxima de servicio 70°C',
-      'Tensión: 450/750 Volt',
-      'Normas: IRAM 62267, IEC 60332-3-24, IEC 60754-1/2, IEC 61034, NES 713',
-      'Conductor: Cobre electrolítico recocido, clase 5'
+      'Temperatura máxima: 70° C de servicio',
+      'Tensión normal: 450/750 Volt.',
+      'Norma constructiva: IRAM 62267',
+      'Norma de fuego: IEC 60332-3-24 / IRAM NM IEC 60332-3-24 - No propagación de incendio.',
+      'Norma de halógenos: IEC 60754 - 1/2 - Ausencia de halógenos',
+      'Norma de humos: IEC 61034 - Transparencia de humos.',
+      'Norma de toxicidad: NES 713 / CEI 20-37 - Ausencia de tóxicos',
+      'Norma de conductores: IEC 60228 / IRAM NM 280',
+      'Conductor: Metal cobre electrolítico recocido en formación clase 5.',
+      'Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228'
     ],
-    applications: 'Cableado en tableros, cañerías embutidas y a la vista. Se recomienda el uso de bandejas portantes.',
-    installation: 'Radio de curvatura: Mínimo 7 veces el diámetro exterior. Tracción máxima: 5daN/mm² sobre conductores de cobre. Temperatura de montaje: ≥ 5°C.',
+    applications: 'Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes.',
+    installation: 'Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable. Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre. Temperatura de montaje: igual o mayor a 5°C.',
     specsTable: [
-      { "Sección nominal (mm²)": "0,5", "Espesor aislación (mm)": "0,60", "Diámetro exterior (mm)": "2,1", "Peso (kg/km)": "8,2", "Resistencia eléctrica (Ohm/km)": "39", "Intensidad admisible (A)": "4,8" },
-      { "Sección nominal (mm²)": "0,75", "Espesor aislación (mm)": "0,60", "Diámetro exterior (mm)": "2,3", "Peso (kg/km)": "10,8", "Resistencia eléctrica (Ohm/km)": "26", "Intensidad admisible (A)": "7,2" },
-      { "Sección nominal (mm²)": "1", "Espesor aislación (mm)": "0,70", "Diámetro exterior (mm)": "2,7", "Peso (kg/km)": "14,4", "Resistencia eléctrica (Ohm/km)": "19,5", "Intensidad admisible (A)": "9,6" },
-      { "Sección nominal (mm²)": "1,5", "Espesor aislación (mm)": "0,70", "Diámetro exterior (mm)": "3,0", "Peso (kg/km)": "20", "Resistencia eléctrica (Ohm/km)": "13,3", "Intensidad admisible (A)": "13" },
-      { "Sección nominal (mm²)": "2,5", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "3,6", "Peso (kg/km)": "31", "Resistencia eléctrica (Ohm/km)": "7,98", "Intensidad admisible (A)": "18" },
-      { "Sección nominal (mm²)": "4", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "4,1", "Peso (kg/km)": "45", "Resistencia eléctrica (Ohm/km)": "4,95", "Intensidad admisible (A)": "24" },
-      { "Sección nominal (mm²)": "6", "Espesor aislación (mm)": "0,80", "Diámetro exterior (mm)": "4,7", "Peso (kg/km)": "63", "Resistencia eléctrica (Ohm/km)": "3,3", "Intensidad admisible (A)": "31" },
-      { "Sección nominal (mm²)": "10", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "6,2", "Peso (kg/km)": "112", "Resistencia eléctrica (Ohm/km)": "1,91", "Intensidad admisible (A)": "43" },
-      { "Sección nominal (mm²)": "16", "Espesor aislación (mm)": "1,00", "Diámetro exterior (mm)": "7,1", "Peso (kg/km)": "166", "Resistencia eléctrica (Ohm/km)": "1,21", "Intensidad admisible (A)": "59" },
-      { "Sección nominal (mm²)": "25", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "8,7", "Peso (kg/km)": "256", "Resistencia eléctrica (Ohm/km)": "0,78", "Intensidad admisible (A)": "77" },
-      { "Sección nominal (mm²)": "35", "Espesor aislación (mm)": "1,20", "Diámetro exterior (mm)": "9,7", "Peso (kg/km)": "358", "Resistencia eléctrica (Ohm/km)": "0,554", "Intensidad admisible (A)": "96" },
-      { "Sección nominal (mm²)": "50", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "11,5", "Peso (kg/km)": "504", "Resistencia eléctrica (Ohm/km)": "0,386", "Intensidad admisible (A)": "116" },
-      { "Sección nominal (mm²)": "70", "Espesor aislación (mm)": "1,40", "Diámetro exterior (mm)": "13,5", "Peso (kg/km)": "688", "Resistencia eléctrica (Ohm/km)": "0,272", "Intensidad admisible (A)": "148" },
-      { "Sección nominal (mm²)": "95", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "15,9", "Peso (kg/km)": "904", "Resistencia eléctrica (Ohm/km)": "0,206", "Intensidad admisible (A)": "180" },
-      { "Sección nominal (mm²)": "120", "Espesor aislación (mm)": "1,60", "Diámetro exterior (mm)": "17,3", "Peso (kg/km)": "1136", "Resistencia eléctrica (Ohm/km)": "0,161", "Intensidad admisible (A)": "207" },
-      { "Sección nominal (mm²)": "150", "Espesor aislación (mm)": "1,80", "Diámetro exterior (mm)": "19,9", "Peso (kg/km)": "1415", "Resistencia eléctrica (Ohm/km)": "0,129", "Intensidad admisible (A)": "228" },
-      { "Sección nominal (mm²)": "185", "Espesor aislación (mm)": "2,00", "Diámetro exterior (mm)": "21,7", "Peso (kg/km)": "1730", "Resistencia eléctrica (Ohm/km)": "0,106", "Intensidad admisible (A)": "260" },
-      { "Sección nominal (mm²)": "240", "Espesor aislación (mm)": "2,20", "Diámetro exterior (mm)": "25,1", "Peso (kg/km)": "2256", "Resistencia eléctrica (Ohm/km)": "0,0801", "Intensidad admisible (A)": "290" },
-      { "Sección nominal (mm²)": "300", "Espesor aislación (mm)": "2,40", "Diámetro exterior (mm)": "28,3", "Peso (kg/km)": "2796", "Resistencia eléctrica (Ohm/km)": "0,0641", "Intensidad admisible (A)": "340" }
+      { "Sección nominal mm": "0,5", "Espesor aislación mm": "0,60", "Diámetro exterior mm": "2,1", "Peso kg/km": "8,2", "Resistencia eléctrica Ohm/km": "39", "Intensidad admisible Amper (*)": "4,8" },
+      { "Sección nominal mm": "0,75", "Espesor aislación mm": "0,60", "Diámetro exterior mm": "2,3", "Peso kg/km": "10,8", "Resistencia eléctrica Ohm/km": "26", "Intensidad admisible Amper (*)": "7,2" },
+      { "Sección nominal mm": "1", "Espesor aislación mm": "0,70", "Diámetro exterior mm": "2,7", "Peso kg/km": "14,4", "Resistencia eléctrica Ohm/km": "19,5", "Intensidad admisible Amper (*)": "9,6" },
+      { "Sección nominal mm": "1,5", "Espesor aislación mm": "0,70", "Diámetro exterior mm": "3,0", "Peso kg/km": "20", "Resistencia eléctrica Ohm/km": "13,3", "Intensidad admisible Amper (*)": "13" },
+      { "Sección nominal mm": "2,5", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "3,6", "Peso kg/km": "31", "Resistencia eléctrica Ohm/km": "7,98", "Intensidad admisible Amper (*)": "18" },
+      { "Sección nominal mm": "4", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "4,1", "Peso kg/km": "45", "Resistencia eléctrica Ohm/km": "4,95", "Intensidad admisible Amper (*)": "24" },
+      { "Sección nominal mm": "6", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "4,7", "Peso kg/km": "63", "Resistencia eléctrica Ohm/km": "3,3", "Intensidad admisible Amper (*)": "31" },
+      { "Sección nominal mm": "10", "Espesor aislación mm": "1,00", "Diámetro exterior mm": "6,2", "Peso kg/km": "112", "Resistencia eléctrica Ohm/km": "1,91", "Intensidad admisible Amper (*)": "43" },
+      { "Sección nominal mm": "16", "Espesor aislación mm": "1,00", "Diámetro exterior mm": "7,1", "Peso kg/km": "166", "Resistencia eléctrica Ohm/km": "1,21", "Intensidad admisible Amper (*)": "59" },
+      { "Sección nominal mm": "25", "Espesor aislación mm": "1,20", "Diámetro exterior mm": "8,7", "Peso kg/km": "256", "Resistencia eléctrica Ohm/km": "0,78", "Intensidad admisible Amper (*)": "77" },
+      { "Sección nominal mm": "35", "Espesor aislación mm": "1,20", "Diámetro exterior mm": "9,7", "Peso kg/km": "358", "Resistencia eléctrica Ohm/km": "0,554", "Intensidad admisible Amper (*)": "96" },
+      { "Sección nominal mm": "50", "Espesor aislación mm": "1,40", "Diámetro exterior mm": "11,5", "Peso kg/km": "504", "Resistencia eléctrica Ohm/km": "0,386", "Intensidad admisible Amper (*)": "116" },
+      { "Sección nominal mm": "70", "Espesor aislación mm": "1,40", "Diámetro exterior mm": "13,5", "Peso kg/km": "688", "Resistencia eléctrica Ohm/km": "0,272", "Intensidad admisible Amper (*)": "148" },
+      { "Sección nominal mm": "95", "Espesor aislación mm": "1,60", "Diámetro exterior mm": "15,9", "Peso kg/km": "904", "Resistencia eléctrica Ohm/km": "0,206", "Intensidad admisible Amper (*)": "180" },
+      { "Sección nominal mm": "120", "Espesor aislación mm": "1,60", "Diámetro exterior mm": "17,3", "Peso kg/km": "1136", "Resistencia eléctrica Ohm/km": "0,161", "Intensidad admisible Amper (*)": "207" },
+      { "Sección nominal mm": "150", "Espesor aislación mm": "1,80", "Diámetro exterior mm": "19,9", "Peso kg/km": "1415", "Resistencia eléctrica Ohm/km": "0,129", "Intensidad admisible Amper (*)": "228" },
+      { "Sección nominal mm": "185", "Espesor aislación mm": "2,00", "Diámetro exterior mm": "21,7", "Peso kg/km": "1730", "Resistencia eléctrica Ohm/km": "0,106", "Intensidad admisible Amper (*)": "260" },
+      { "Sección nominal mm": "240", "Espesor aislación mm": "2,20", "Diámetro exterior mm": "25,1", "Peso kg/km": "2256", "Resistencia eléctrica Ohm/km": "0,0801", "Intensidad admisible Amper (*)": "290" },
+      { "Sección nominal mm": "300", "Espesor aislación mm": "2,40", "Diámetro exterior mm": "28,3", "Peso kg/km": "2796", "Resistencia eléctrica Ohm/km": "0,0641", "Intensidad admisible Amper (*)": "340" }
     ],
-    certifications: ['iram', 'seguridad', 'bajos-humos', 'libre-halogenos', 'marcacion-secuencial', 'espacios-publicos', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio', 'cuerdas-flexibles'],
-    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+    certifications: ['iram', 'seguridad', 'bajos-humos', 'libre-halogenos', 'marcacion-secuencial', 'espacios-publicos', 'instalacion-domiciliaria']
   },
   {
     id: 'bipolar-vaina-chata',
     name: 'Cable Envainado Chato',
     category: 'Cables para Instalación Civil',
     subCategory: '2-CABLE BIPOLAR',
-    description: 'Cables bipolares o tripolares chatos para instalaciones superficiales o discretas.',
-    detailedDescription: 'Conductores de cobre aislados y protegidos por una vaina exterior chata de PVC. Su forma compacta permite instalaciones más estéticas y seguras en paredes o bajo alfombras/canaletas pequeñas.',
+    description: 'Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas.',
+    detailedDescription: 'Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general, excluyendo los aparatos de calefacción.',
     image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/portada.jpg',
     gallery: [
       '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/foto producto dentro de ficha tecnica.png'
     ],
     technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/MARCAS DISPONIBLES VAINA CHATA.jpg',
     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/FICHA TECNICA VAINA CHATA.pdf',
-    specs: ['300/500V', 'Perfil chato', 'PVC de alta calidad'],
+    specs: ['300/500 V', '70°', 'PVC/PVC'],
     characteristics: [
-      'Temperatura: 70°C servicio, 160°C cortocircuito',
-      'Tensión: 300/500 Volt',
-      'Normas: IEC 60227-7, IRAM NM 60332-1',
-      'Materiales: Aislación y cubierta de PVC negro (no propagante)'
+      'Temperatura máxima: 70°C de servicio, 160°C de cortocircuito.',
+      'Tensión nominal: 300/500 Volt.',
+      'Norma constructiva: IEC 60227-7.',
+      'Norma de fuego: IRAM NM 60332-1.',
+      'Norma de conductores: IEC 60228 / IRAM NM 280.',
+      'Conductor: Cobre electrolítico recocido en formación clase 5.',
+      'Aislación: PVC.',
+      'Identificación: Color negro con identificación alfanumérica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo.',
+      'Cubierta: PVC negro, no propagante del incendio.'
     ],
-    applications: 'Instalaciones móviles industriales y domésticas, aparatos portátiles (excepto calefacción) e interconexión de máquinas fabriles.',
+    applications: 'Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquinas - herramientas y equipamientos de mano. Los cables están permitidos para su conexión directa a la red eléctrica.',
     installation: 'Apto para uso industrial y domiciliario; incluye conductor de tierra verde/amarillo.',
-    specsTable: [
-      { "Formación (Nº x mm²)": "2x1", "Diám. máx. alambres (mm)": "0,21", "Espesor aislación nominal (mm)": "0,6", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,1 x 6,6", "Masa aprox. (kg/km)": "44", "Resistencia eléctrica máx. 20°C (Ohm/km)": "19,5", "Intensidad continua (A)": "7" },
-      { "Formación (Nº x mm²)": "2x1,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,7", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,5 x 7,5", "Masa aprox. (kg/km)": "58", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad continua (A)": "10" },
-      { "Formación (Nº x mm²)": "2x2,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "5,1 x 8,8", "Masa aprox. (kg/km)": "85", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad continua (A)": "16" },
-      { "Formación (Nº x mm²)": "3x1", "Diám. máx. alambres (mm)": "0,21", "Espesor aislación nominal (mm)": "0,6", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,1 x 9,2", "Masa aprox. (kg/km)": "64", "Resistencia eléctrica máx. 20°C (Ohm/km)": "19,5", "Intensidad continua (A)": "7" },
-      { "Formación (Nº x mm²)": "3x1,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,7", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,5 x 10,6", "Masa aprox. (kg/km)": "86", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad continua (A)": "10" },
-      { "Formación (Nº x mm²)": "3x2,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "5,1 x 12,5", "Masa aprox. (kg/km)": "126", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad continua (A)": "16" }
+    colors: [
+      { 
+        label: 'Bipolar', 
+        values: ['Blanco', 'Marrón', 'Negro'], 
+        codes: ['#FFFFFF', '#8B4513', '#000000'] 
+      }
     ],
-    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio', 'cuerdas-flexibles'],
+    specsTable: [
+      { "Formación Nº x mm²": "2x1", "Diámetro máximo de alambres del conductor mm": "0,21", "Espesor de aislación nominal mm": "0,6", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "4,1 x 6,6", "Masa aprox kg/km": "44", "Intensidad de corriente admisible en servicio continuo (A)": "7", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "19,5" },
+      { "Formación Nº x mm²": "2x1,5", "Diámetro máximo de alambres del conductor mm": "0,26", "Espesor de aislación nominal mm": "0,7", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "4,5 x 7,5", "Masa aprox kg/km": "58", "Intensidad de corriente admisible en servicio continuo (A)": "10", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "13,3" },
+      { "Formación Nº x mm²": "2x2,5", "Diámetro máximo de alambres del conductor mm": "0,26", "Espesor de aislación nominal mm": "0,8", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "5,1 x 8,8", "Masa aprox kg/km": "85", "Intensidad de corriente admisible en servicio continuo (A)": "16", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "7,98" },
+      { "Formación Nº x mm²": "3x1", "Diámetro máximo de alambres del conductor mm": "0,21", "Espesor de aislación nominal mm": "0,6", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "4,1 x 9,2", "Masa aprox kg/km": "64", "Intensidad de corriente admisible en servicio continuo (A)": "7", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "19,5" },
+      { "Formación Nº x mm²": "3x1,5", "Diámetro máximo de alambres del conductor mm": "0,26", "Espesor de aislación nominal mm": "0,7", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "4,5 x 10,6", "Masa aprox kg/km": "86", "Intensidad de corriente admisible en servicio continuo (A)": "10", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "13,3" },
+      { "Formación Nº x mm²": "3x2,5", "Diámetro máximo de alambres del conductor mm": "0,26", "Espesor de aislación nominal mm": "0,8", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "5,1 x 12,5", "Masa aprox kg/km": "126", "Intensidad de corriente admisible en servicio continuo (A)": "16", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "7,98" }
+    ],
+    certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'no-propagacion', 'marcacion-secuencial', 'instalacion-industrial', 'conductor-tierra', 'instalacion-domiciliaria'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
   {
@@ -244,8 +212,15 @@ export const products: Product[] = [
       'Aislación de PVC',
       'Tensión nominal 300/500V'
     ],
-    applications: 'Interconexión de equipos y aparatos portátiles.',
+    applications: 'Interconexión de equipos de audio y aparatos portátiles.',
     installation: 'Diseñado para flexibilidad en instalaciones móviles.',
+    colors: [
+      { 
+        label: 'Bipolar', 
+        values: ['Negro', 'Rojo'], 
+        codes: ['#000000', '#FF0000'] 
+      }
+    ],
     specsTable: [
       { "Formación (Nº x mm²)": "2x1", "Diám. máx. alambres (mm)": "0,21", "Espesor aislación nominal (mm)": "0,6", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,1 x 6,6", "Masa aprox. (kg/km)": "44", "Intensidad continua (A)": "7" },
       { "Formación (Nº x mm²)": "2x1,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,7", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,5 x 7,5", "Masa aprox. (kg/km)": "58", "Intensidad continua (A)": "10" }
@@ -258,200 +233,212 @@ export const products: Product[] = [
     name: 'Cable Tipo Taller (TT)',
     category: 'Cables para Instalación Civil',
     subCategory: '3-CABLE TIPO TALLER',
-    description: 'Cables multipolares flexibles para uso en aparatos portátiles and máquinas.',
-    detailedDescription: 'Conductores de cobre flexible con aislamiento de PVC and vaina exterior de PVC color negro o gris.',
+    description: 'Conductores diseñados para instalaciones móviles familiares, comerciales e industriales.',
+    detailedDescription: 'Conductores diseñados para instalaciones móviles familiares, comerciales e industriales, máquinas manipuladas manualmente y dispositivos portátiles en general.',
     image: '/images/PRODUCTOS/3-CABLE TIPO TALLER/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/foto producto dentro de ficha tecnica.jpeg'
     ],
     technicalTable: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/MARCAS DISPONIBLES TIPO TALLER.jpg',
     pdf: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/FICHA TECNICA TIPO TALLER (REEMPLAZAR FOTO).pdf',
-    specs: ['300/500V', 'Extra flexible', 'Vaina de protección'],
+    specs: ['300/500 V', '70°', 'IRAM 247-5'],
     characteristics: [
-      'Temperatura: 70°C servicio, 160°C cortocircuito',
-      'Tensión: 300/500 Volt',
-      'Normas: IRAM NM-247-5, IRAM NM IEC 60332-1',
-      'Conductor: Cobre electrolítico flexible clase 5',
-      'Cubierta: PVC Negro, no propagante'
+      'Temperatura máxima: 70° C de servicio, 160° C de cortocircuito',
+      'Tensión nominal: 300/ 500 Volt.',
+      'Norma constructiva: IRAM NM-247-5',
+      'Norma de fuego: IRAM NM IEC 60332-1',
+      'Norma de conductores: IEC 60228 / IRAM NM 280',
+      'Conductor: Metal cobre electrolítico recocido en formación clase 5.',
+      'Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228',
+      'Cubierta externa: PVC Negro, no propagante de incendio',
+      'Aislacion: PVC'
     ],
     applications: 'Instalaciones móviles industriales y domésticas, maquinaria de mano y aparatos portátiles en general.',
-    installation: 'Radio de curvatura: Mínimo 7 veces el diámetro exterior. Tracción máxima: 5daN/mm². Temperatura de montaje: ≥ 5°C.',
-    specsTable: [
-      { "Sección nominal (mm²)": "2x0,75", "Espesor nominal (mm)": "0,6", "Espesor cubierta (mm)": "0,8", "Diámetro exterior (mm)": "6,2", "Peso (kg/km)": "52", "Resistencia eléctrica 20°C (Ohm/km)": "26" },
-      { "Sección nominal (mm²)": "2x1,0", "Espesor nominal (mm)": "0,6", "Espesor cubierta (mm)": "0,8", "Diámetro exterior (mm)": "6,5", "Peso (kg/km)": "60", "Resistencia eléctrica 20°C (Ohm/km)": "19,5" },
-      { "Sección nominal (mm²)": "2x1,5", "Espesor nominal (mm)": "0,7", "Espesor cubierta (mm)": "0,8", "Diámetro exterior (mm)": "7,4", "Peso (kg/km)": "80", "Resistencia eléctrica 20°C (Ohm/km)": "13,3" },
-      { "Sección nominal (mm²)": "2x2,5", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1", "Diámetro exterior (mm)": "9,1", "Peso (kg/km)": "125", "Resistencia eléctrica 20°C (Ohm/km)": "7,98" },
-      { "Sección nominal (mm²)": "2x4,0", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,1", "Diámetro exterior (mm)": "10,5", "Peso (kg/km)": "185", "Resistencia eléctrica 20°C (Ohm/km)": "4,95" },
-      { "Sección nominal (mm²)": "3x1,0", "Espesor nominal (mm)": "0,6", "Espesor cubierta (mm)": "0,8", "Diámetro exterior (mm)": "6,9", "Peso (kg/km)": "72", "Resistencia eléctrica 20°C (Ohm/km)": "19,5" },
-      { "Sección nominal (mm²)": "3x1,5", "Espesor nominal (mm)": "0,7", "Espesor cubierta (mm)": "0,9", "Diámetro exterior (mm)": "8,1", "Peso (kg/km)": "101", "Resistencia eléctrica 20°C (Ohm/km)": "13,3" },
-      { "Sección nominal (mm²)": "3x2,5", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,1", "Diámetro exterior (mm)": "9,9", "Peso (kg/km)": "157", "Resistencia eléctrica 20°C (Ohm/km)": "7,98" },
-      { "Sección nominal (mm²)": "3x4,0", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,2", "Diámetro exterior (mm)": "11,4", "Peso (kg/km)": "235", "Resistencia eléctrica 20°C (Ohm/km)": "4,95" },
-      { "Sección nominal (mm²)": "4x1,5", "Espesor nominal (mm)": "0,7", "Espesor cubierta (mm)": "1", "Diámetro exterior (mm)": "9,1", "Peso (kg/km)": "128", "Resistencia eléctrica 20°C (Ohm/km)": "13,3" },
-      { "Sección nominal (mm²)": "4x2,5", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,1", "Diámetro exterior (mm)": "10,8", "Peso (kg/km)": "191", "Resistencia eléctrica 20°C (Ohm/km)": "7,98" },
-      { "Sección nominal (mm²)": "4x4,0", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,2", "Diámetro exterior (mm)": "12,6", "Peso (kg/km)": "285", "Resistencia eléctrica 20°C (Ohm/km)": "4,95" },
-      { "Sección nominal (mm²)": "4x6,0", "Espesor nominal (mm)": "0,8", "Espesor cubierta (mm)": "1,3", "Diámetro exterior (mm)": "14,5", "Peso (kg/km)": "410", "Resistencia eléctrica 20°C (Ohm/km)": "3,30" }
+    installation: 'Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable. Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre. Temperatura de montaje: igual o mayor a 5°C.',
+    colors: [
+      { label: 'Bipolar', values: ['Celeste', 'Marrón'], codes: ['#00AEEF', '#8B4513'] },
+      { label: 'Tripolar', values: ['Verde-Amarillo', 'Celeste', 'Marrón'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#00AEEF', '#8B4513'] },
+      { label: 'Tetrapolar', values: ['Verde-Amarillo', 'Negro', 'Celeste', 'Marrón'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#000000', '#00AEEF', '#8B4513'] },
+      { label: 'Pentapolar', values: ['Verde-Amarillo', 'Negro', 'Celeste', 'Marrón', 'Rojo'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#000000', '#00AEEF', '#8B4513', '#FF0000'] }
     ],
-    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio', 'cuerdas-flexibles'],
+    specsTable: [
+      { "Sección nominal mm": "0,5", "Espesor nominal mm": "0,6", "Espesor cubierta mm": "0,8", "Diámetro exterior mm": "5,7", "Peso kg/km": "43", "Resistencia eléctrica a 20°C en CC Ohm/km": "39" },
+      { "Sección nominal mm": "0,75", "Espesor nominal mm": "0,6", "Espesor cubierta mm": "0,8", "Diámetro exterior mm": "6,2", "Peso kg/km": "52", "Resistencia eléctrica a 20°C en CC Ohm/km": "26" },
+      { "Sección nominal mm": "1,0", "Espesor nominal mm": "0,6", "Espesor cubierta mm": "0,8", "Diámetro exterior mm": "6,5", "Peso kg/km": "60", "Resistencia eléctrica a 20°C en CC Ohm/km": "19,5" },
+      { "Sección nominal mm": "1,5", "Espesor nominal mm": "0,7", "Espesor cubierta mm": "0,8", "Diámetro exterior mm": "7,4", "Peso kg/km": "80", "Resistencia eléctrica a 20°C en CC Ohm/km": "13,3" },
+      { "Sección nominal mm": "2,5", "Espesor nominal mm": "0,8", "Espesor cubierta mm": "1", "Diámetro exterior mm": "9,1", "Peso kg/km": "125", "Resistencia eléctrica a 20°C en CC Ohm/km": "7,98" },
+      { "Sección nominal mm": "4,0", "Espesor nominal mm": "0,8", "Espesor cubierta mm": "1,1", "Diámetro exterior mm": "10,4", "Peso kg/km": "172", "Resistencia eléctrica a 20°C en CC Ohm/km": "4,95" },
+      { "Sección nominal mm": "6,0", "Espesor nominal mm": "0,8", "Espesor cubierta mm": "1,3", "Diámetro exterior mm": "11,9", "Peso kg/km": "236", "Resistencia eléctrica a 20°C en CC Ohm/km": "3,3" },
+      { "Sección nominal mm": "10", "Espesor nominal mm": "1,0", "Espesor cubierta mm": "1,5", "Diámetro exterior mm": "15,1", "Peso kg/km": "389", "Resistencia eléctrica a 20°C en CC Ohm/km": "1,91" }
+    ],
+    certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'no-propagacion', 'marcacion-secuencial', 'instalacion-industrial', 'conductor-tierra', 'instalacion-domiciliaria'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
   {
-    id: 'aerea-preensamblado',
-    name: 'Cable Preensamblado Aluminio',
+    id: 'aerea-preensamblado-aluminio',
+    name: 'Preensamblado de Aluminio',
     category: 'Cables Instalación Aérea',
-    subCategory: 'CABLES AÉREOS',
+    subCategory: '1-ENVAINADOS',
     description: 'Conductores de aluminio para redes de distribución aérea de baja tensión.',
-    detailedDescription: 'Cables formados por uno o más conductores de aluminio aislados con XLPE, trenzados alrededor de un elemento portante.',
-    image: '/images/fotos-nuevas/Cables Instalación Aérea.jpg',
-    specs: ['Baja Tensión', 'XLPE', 'Aluminio'],
-    characteristics: ['Resistente a la intemperie', 'Larga vida útil', 'Fácil instalación'],
-    specsTable: [
-      { "Formación": "2x16", "Sección Fase": "16", "Neutro": "16", "Esp. Aisl.": "1,2", "Diámetro": "15,5", "Peso": "145", "Resist.": "1,91", "Amp (Aire)": "75" },
-      { "Formación": "2x25", "Sección Fase": "25", "Neutro": "25", "Esp. Aisl.": "1,4", "Diámetro": "18,2", "Peso": "215", "Resist.": "1,20", "Amp (Aire)": "100" },
-      { "Formación": "2x35", "Sección Fase": "35", "Neutro": "35", "Esp. Aisl.": "1,6", "Diámetro": "20,5", "Peso": "290", "Resist.": "0,86", "Amp (Aire)": "125" },
-      { "Formación": "4x16", "Sección Fase": "16", "Neutro": "16", "Esp. Aisl.": "1,2", "Diámetro": "18,5", "Peso": "290", "Resist.": "1,91", "Amp (Aire)": "75" },
-      { "Formación": "4x25", "Sección Fase": "25", "Neutro": "25", "Esp. Aisl.": "1,4", "Diámetro": "22,1", "Peso": "430", "Resist.": "1,20", "Amp (Aire)": "100" },
-      { "Formación": "4x35", "Sección Fase": "35", "Neutro": "35", "Esp. Aisl.": "1,6", "Diámetro": "25,2", "Peso": "580", "Resist.": "0,86", "Amp (Aire)": "125" },
-      { "Formación": "4x50", "Sección Fase": "50", "Neutro": "50", "Esp. Aisl.": "1,8", "Diámetro": "29,1", "Peso": "790", "Resist.": "0,64", "Amp (Aire)": "150" },
-      { "Formación": "4x70", "Sección Fase": "70", "Neutro": "70", "Esp. Aisl.": "1,8", "Diámetro": "33,5", "Peso": "1120", "Resist.": "0,44", "Amp (Aire)": "190" },
-      { "Formación": "4x95", "Sección Fase": "95", "Neutro": "95", "Esp. Aisl.": "2,0", "Diámetro": "38,8", "Peso": "1540", "Resist.": "0,32", "Amp (Aire)": "230" }
+    detailedDescription: 'Cables formados por uno o más conductores de aluminio aislados con XLPE, trenzados alrededor de un elemento portante (neutro) de aleación de aluminio. Diseñados para soportar condiciones climáticas extremas.',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    gallery: [
+      '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/FICHA TECNICA/foto dentro de ficha tecnica.jpeg'
     ],
-    certifications: ['iram', 'seguridad', 'marcacion-secuencial']
+    pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    specs: ['0,6 / 1,1 kV', '90° C', 'IRAM 2263'],
+    characteristics: [
+      'Conductor de fase: Aluminio grado eléctrico 1350.',
+      'Conductor neutro portante: Aleación de aluminio 6101.',
+      'Aislación: Polietileno reticulado (XLPE) resistente a rayos UV.',
+      'Temperatura máxima: 90° C de servicio, 250° C de cortocircuito.',
+      'Norma constructiva: IRAM 2263.'
+    ],
+    applications: 'Redes aéreas de distribución de energía eléctrica en baja tensión.',
+    installation: 'Tendido aéreo sobre postes o fachadas. No requiere elementos portantes externos adicionales.',
+    specsTable: [
+      { "Formación (mm²)": "2 x 16", "Diámetro ext. aprox. (mm)": "15,5", "Peso total aprox. (kg/km)": "145", "Resistencia máx. 20°C (Ohm/km)": "1,91", "Capacidad corriente (A)": "75" },
+      { "Formación (mm²)": "2 x 25", "Diámetro ext. aprox. (mm)": "18,2", "Peso total aprox. (kg/km)": "215", "Resistencia máx. 20°C (Ohm/km)": "1,20", "Capacidad corriente (A)": "100" },
+      { "Formación (mm²)": "4 x 16", "Diámetro ext. aprox. (mm)": "18,5", "Peso total aprox. (kg/km)": "290", "Resistencia máx. 20°C (Ohm/km)": "1,91", "Capacidad corriente (A)": "75" },
+      { "Formación (mm²)": "4 x 25", "Diámetro ext. aprox. (mm)": "22,1", "Peso total aprox. (kg/km)": "430", "Resistencia máx. 20°C (Ohm/km)": "1,20", "Capacidad corriente (A)": "100" },
+      { "Formación (mm²)": "3x35+50+25", "Diámetro ext. aprox. (mm)": "31,0", "Peso total aprox. (kg/km)": "580", "Resistencia máx. 20°C (Ohm/km)": "0,868", "Capacidad corriente (A)": "125" },
+      { "Formación (mm²)": "3x50+50+25", "Diámetro ext. aprox. (mm)": "34,5", "Peso total aprox. (kg/km)": "730", "Resistencia máx. 20°C (Ohm/km)": "0,641", "Capacidad corriente (A)": "150" },
+      { "Formación (mm²)": "3x70+50+25", "Diámetro ext. aprox. (mm)": "38,2", "Peso total aprox. (kg/km)": "950", "Resistencia máx. 20°C (Ohm/km)": "0,443", "Capacidad corriente (A)": "185" }
+    ],
+    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'resistente-uv']
   },
   {
-    id: 'potencia-sintenax',
-    name: 'Cable de Potencia Sintenax',
-    category: 'Cables de Potencia',
-    subCategory: 'CABLES DE POTENCIA',
-    description: 'Cables para distribución de energía en baja tensión, aptos para enterrar.',
-    detailedDescription: 'Conductores de cobre con aislación de PVC y vaina de PVC. Gran resistencia mecánica y a agentes químicos.',
-    image: '/images/fotos-nuevas/Cables de potencia.jpg',
-    specs: ['1.1kV', 'IRAM 2178-1', 'Apto Subterráneo'],
-    characteristics: ['Doble aislación', 'Gran flexibilidad', 'Resistente a la humedad'],
-    specsTable: [
-      { "Formación (Nº x mm²)": "2x1,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "10,5", "Masa aprox. (kg/km)": "165", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad admisible (A) Tierra": "32", "Intensidad admisible (A) Aire": "24" },
-      { "Formación (Nº x mm²)": "2x2,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "11,5", "Masa aprox. (kg/km)": "205", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad admisible (A) Tierra": "42", "Intensidad admisible (A) Aire": "32" },
-      { "Formación (Nº x mm²)": "2x4", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "12,8", "Masa aprox. (kg/km)": "270", "Resistencia eléctrica máx. 20°C (Ohm/km)": "4,95", "Intensidad admisible (A) Tierra": "54", "Intensidad admisible (A) Aire": "42" },
-      { "Formación (Nº x mm²)": "2x6", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "14,0", "Masa aprox. (kg/km)": "340", "Resistencia eléctrica máx. 20°C (Ohm/km)": "3,30", "Intensidad admisible (A) Tierra": "68", "Intensidad admisible (A) Aire": "54" },
-      { "Formación (Nº x mm²)": "3x1,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "11,2", "Masa aprox. (kg/km)": "195", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad admisible (A) Tierra": "27", "Intensidad admisible (A) Aire": "20" },
-      { "Formación (Nº x mm²)": "3x2,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "12,2", "Masa aprox. (kg/km)": "250", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad admisible (A) Tierra": "36", "Intensidad admisible (A) Aire": "28" },
-      { "Formación (Nº x mm²)": "3x4", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "13,6", "Masa aprox. (kg/km)": "320", "Resistencia eléctrica máx. 20°C (Ohm/km)": "4,95", "Intensidad admisible (A) Tierra": "46", "Intensidad admisible (A) Aire": "36" },
-      { "Formación (Nº x mm²)": "4x1,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "12,1", "Masa aprox. (kg/km)": "225", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad admisible (A) Tierra": "27", "Intensidad admisible (A) Aire": "20" },
-      { "Formación (Nº x mm²)": "4x2,5", "Espesor aislación nominal (mm)": "0,8", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "13,3", "Masa aprox. (kg/km)": "295", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad admisible (A) Tierra": "36", "Intensidad admisible (A) Aire": "28" },
-      { "Formación (Nº x mm²)": "4x4", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "14,8", "Masa aprox. (kg/km)": "395", "Resistencia eléctrica máx. 20°C (Ohm/km)": "4,95", "Intensidad admisible (A) Tierra": "46", "Intensidad admisible (A) Aire": "36" },
-      { "Formación (Nº x mm²)": "4x6", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "16,2", "Masa aprox. (kg/km)": "510", "Resistencia eléctrica máx. 20°C (Ohm/km)": "3,30", "Intensidad admisible (A) Tierra": "58", "Intensidad admisible (A) Aire": "46" },
-      { "Formación (Nº x mm²)": "4x10", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "18,8", "Masa aprox. (kg/km)": "750", "Resistencia eléctrica máx. 20°C (Ohm/km)": "1,91", "Intensidad admisible (A) Tierra": "77", "Intensidad admisible (A) Aire": "64" },
-      { "Formación (Nº x mm²)": "4x16", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "21,5", "Masa aprox. (kg/km)": "1080", "Resistencia eléctrica máx. 20°C (Ohm/km)": "1,21", "Intensidad admisible (A) Tierra": "100", "Intensidad admisible (A) Aire": "85" },
-      { "Formación (Nº x mm²)": "4x25", "Espesor aislación nominal (mm)": "1,2", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "25,8", "Masa aprox. (kg/km)": "1620", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,78", "Intensidad admisible (A) Tierra": "130", "Intensidad admisible (A) Aire": "112" },
-      { "Formación (Nº x mm²)": "4x35", "Espesor aislación nominal (mm)": "1,2", "Espesor envoltura nominal (mm)": "2,0", "Diámetro exterior aprox. (mm)": "28,5", "Masa aprox. (kg/km)": "2150", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,55", "Intensidad admisible (A) Tierra": "155", "Intensidad admisible (A) Aire": "137" }
+    id: 'aerea-acometida-cobre',
+    name: 'Acometidas de Cobre',
+    category: 'Cables Instalación Aérea',
+    subCategory: '1-ENVAINADOS',
+    description: 'Cables preensamblados de cobre para conexiones domiciliarias.',
+    detailedDescription: 'Conductores de cobre flexible aislados con XLPE o PVC, reunidos en espiral. Utilizados principalmente para la bajada desde la red aérea hasta el medidor domiciliario.',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    gallery: [
+      '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
     ],
-    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'no-propagacion', 'temperatura-servicio']
+    pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    specs: ['0,6 / 1,1 kV', 'Flexible', 'IRAM 2164'],
+    characteristics: [
+      'Conductores: Cobre electrolítico recocido, clase 2 o 5.',
+      'Aislación: XLPE o PVC resistente a la intemperie.',
+      'Tensión nominal: 0,6/1,1 kV.',
+      'Norma constructiva: IRAM 2164.'
+    ],
+    applications: 'Conexiones de acometida domiciliaria monofásica o trifásica.',
+    installation: 'Instalación aérea entre el poste de la red de distribución y el punto de recepción del usuario.',
+    specsTable: [
+      { "Formación (mm²)": "2 x 4", "Diámetro ext. (mm)": "11,5", "Peso (kg/km)": "140", "Resistencia máx. 20°C (Ohm/km)": "4,61" },
+      { "Formación (mm²)": "2 x 6", "Diámetro ext. (mm)": "12,8", "Peso (kg/km)": "185", "Resistencia máx. 20°C (Ohm/km)": "3,08" },
+      { "Formación (mm²)": "4 x 4", "Diámetro ext. (mm)": "13,2", "Peso (kg/km)": "260", "Resistencia máx. 20°C (Ohm/km)": "4,61" },
+      { "Formación (mm²)": "4 x 6", "Diámetro ext. (mm)": "14,8", "Peso (kg/km)": "350", "Resistencia máx. 20°C (Ohm/km)": "3,08" }
+    ],
+    certifications: ['iram', 'seguridad', 'resistente-uv']
   },
   {
-    id: 'media-tension-xlp',
-    name: 'Cable Media Tensión XLP',
-    category: 'Cables Media Tensión',
-    subCategory: 'MEDIA TENSIÓN',
-    description: 'Cables de potencia para media tensión de 13.2kV a 33kV.',
-    detailedDescription: 'Aislación de polietileno reticulado (XLPE) con pantalla metálica de cintas o alambres de cobre.',
-    image: '/images/fotos-nuevas/Cables-media-tension.jpg',
-    specs: ['13.2kV / 33kV', 'XLPE', 'IRAM 2178-2'],
-    specsTable: [
-      { "Sección nominal (mm²)": "35", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "24,5", "Masa aprox. (kg/km)": "980", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,52", "Intensidad admisible (A) Tierra": "165" },
-      { "Sección nominal (mm²)": "50", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "26,1", "Masa aprox. (kg/km)": "1150", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,38", "Intensidad admisible (A) Tierra": "195" },
-      { "Sección nominal (mm²)": "70", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "28,2", "Masa aprox. (kg/km)": "1420", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,26", "Intensidad admisible (A) Tierra": "240" },
-      { "Sección nominal (mm²)": "95", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "30,5", "Masa aprox. (kg/km)": "1750", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,19", "Intensidad admisible (A) Tierra": "285" },
-      { "Sección nominal (mm²)": "120", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "32,4", "Masa aprox. (kg/km)": "2100", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,15", "Intensidad admisible (A) Tierra": "325" },
-      { "Sección nominal (mm²)": "150", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "34,8", "Masa aprox. (kg/km)": "2450", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,12", "Intensidad admisible (A) Tierra": "365" },
-      { "Sección nominal (mm²)": "185", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "37,2", "Masa aprox. (kg/km)": "2900", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,09", "Intensidad admisible (A) Tierra": "415" },
-      { "Sección nominal (mm²)": "240", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "41,5", "Masa aprox. (kg/km)": "3650", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,07", "Intensidad admisible (A) Tierra": "480" },
-      { "Sección nominal (mm²)": "300", "Espesor aislación nominal (mm)": "3,4", "Diámetro exterior aprox. (mm)": "45,2", "Masa aprox. (kg/km)": "4400", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,06", "Intensidad admisible (A) Tierra": "540" }
+    id: 'aerea-concentrico-antihurto',
+    name: 'Concéntricos (Antihurto)',
+    category: 'Cables Instalación Aérea',
+    subCategory: '1-ENVAINADOS',
+    description: 'Cables de seguridad diseñados para prevenir conexiones clandestinas.',
+    detailedDescription: 'Cable con conductor central de fase y conductor neutro formado por una corona de alambres de cobre que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía.',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    specs: ['0,6 / 1 kV', 'Antihurto', 'IRAM 63001'],
+    characteristics: [
+      'Conductor central (Fase): Cobre recocido clase 2.',
+      'Conductor concéntrico (Neutro): Corona de alambres de cobre.',
+      'Aislación y Vaina: Polietileno reticulado (XLPE).',
+      'Protección: Difícil acceso al conductor de fase sin afectar el neutro.',
+      'Norma: IRAM 63001 / IEC 60502-1.'
     ],
-    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'no-propagacion']
+    applications: 'Acometidas de seguridad en zonas con alto riesgo de conexiones clandestinas.',
+    installation: 'Uso en bajadas domiciliarias desde líneas aéreas o subterráneas.',
+    specsTable: [
+      { "Sección (mm²)": "1x4+4", "Diámetro ext. aprox. (mm)": "9,2", "Peso aprox. (kg/km)": "125", "Resistencia máx. 20°C (Ohm/km)": "4,61" },
+      { "Sección (mm²)": "1x6+6", "Diámetro ext. aprox. (mm)": "10,5", "Peso aprox. (kg/km)": "170", "Resistencia máx. 20°C (Ohm/km)": "3,08" },
+      { "Sección (mm²)": "1x10+10", "Diámetro ext. aprox. (mm)": "12,5", "Peso aprox. (kg/km)": "260", "Resistencia máx. 20°C (Ohm/km)": "1,83" }
+    ],
+    certifications: ['iram', 'seguridad', 'resistente-uv', 'antihurto']
   },
   {
-    id: 'industrial-control',
-    name: 'Cable de Control Apantallado',
-    category: 'Cables Industriales',
-    subCategory: 'CONTROL',
-    description: 'Cables para circuitos de control y comando con protección contra interferencias.',
-    detailedDescription: 'Conductores de cobre flexible con pantalla de cinta de aluminio o malla de cobre para protección electromagnética.',
-    image: '/images/fotos-nuevas/Cables industriales.jpg',
-    specs: ['300/500V', 'Blindado', 'Flexible'],
-    specsTable: [
-      { "Formación": "7x1,5", "Diámetro": "13,5", "Peso": "280" },
-      { "Formación": "12x1,5", "Diámetro": "16,2", "Peso": "420" },
-      { "Formación": "19x1,5", "Diámetro": "19,5", "Peso": "610" }
+    id: 'aerea-desnudo-aluminio',
+    name: 'Cables Desnudos de Aluminio',
+    category: 'Cables Instalación Aérea',
+    subCategory: '2-DESNUDOS',
+    description: 'Conductores de aluminio puro para líneas aéreas de transporte y distribución.',
+    detailedDescription: 'Conductores formados por alambres de aluminio grado eléctrico 1350-H19 cableados concéntricamente. Ofrecen una excelente relación conductividad-peso, ideales para vanos cortos y medios.',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/PORTADA (ELIMINAR LOGO GEMINI).jpeg',
+    specs: ['Aluminio 1350', 'Temple Duro', 'IRAM 2212'],
+    characteristics: [
+      'Material: Aluminio 1350-H19.',
+      'Formación: Alambres cableados concéntricamente.',
+      'Alta conductividad eléctrica.',
+      'Bajo peso por metro.',
+      'Norma: IRAM 2212 / ASTM B231.'
     ],
-    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'no-propagacion', 'temperatura-servicio']
-  },
-  {
-    id: 'alta-temperatura-silicona',
-    name: 'Cable Siliconado (Alta Temperatura)',
-    category: 'Cables Alta Temperatura',
-    subCategory: 'ALTA TEMPERATURA',
-    description: 'Conductores con aislación de silicona para temperaturas de hasta 180°C.',
-    detailedDescription: 'Cables diseñados para soportar condiciones térmicas extremas sin perder flexibilidad ni propiedades eléctricas.',
-    image: '/images/fotos-nuevas/Cables-alta-temperatura.jpg',
-    specs: ['180°C', 'Extra Flexible', 'Clase H'],
+    applications: 'Líneas aéreas de distribución y transmisión donde se requiere bajo peso.',
+    installation: 'Tendido aéreo sobre aisladores, requiere elementos de tensión específicos para aluminio.',
     specsTable: [
-      { "Sección": "1,5", "Diámetro": "3,2", "Peso": "22" },
-      { "Sección": "2,5", "Diámetro": "4,0", "Peso": "34" },
-      { "Sección": "4", "Diámetro": "4,8", "Peso": "52" }
-    ],
-    certifications: ['iram', 'seguridad', 'no-propagacion', 'temperatura-servicio', 'cuerdas-flexibles']
-  },
-  {
-    id: 'armados-acero',
-    name: 'Cable Armado (Protección Mecánica)',
-    category: 'Cables Armados',
-    subCategory: 'ARMADOS',
-    description: 'Cables con armadura de hilos o fleje de acero para máxima protección mecánica.',
-    detailedDescription: 'Diseñados para instalaciones donde se requiere resistencia a impactos, aplastamiento o ataques de roedores.',
-    image: '/images/fotos-nuevas/Cables-armados.jpg',
-    specs: ['1.1kV', 'Armadura de Acero', 'Subterráneo'],
-    specsTable: [
-      { "Formación (Nº x mm²)": "4x16", "Espesor aislación nominal (mm)": "1,0", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "24,5", "Masa aprox. (kg/km)": "1150", "Resistencia eléctrica máx. 20°C (Ohm/km)": "1,21", "Intensidad admisible (A)": "100" },
-      { "Formación (Nº x mm²)": "4x25", "Espesor aislación nominal (mm)": "1,2", "Espesor envoltura nominal (mm)": "1,8", "Diámetro exterior aprox. (mm)": "28,2", "Masa aprox. (kg/km)": "1680", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,78", "Intensidad admisible (A)": "130" },
-      { "Formación (Nº x mm²)": "4x35", "Espesor aislación nominal (mm)": "1,2", "Espesor envoltura nominal (mm)": "2,0", "Diámetro exterior aprox. (mm)": "31,5", "Masa aprox. (kg/km)": "2150", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,55", "Intensidad admisible (A)": "155" },
-      { "Formación (Nº x mm²)": "4x50", "Espesor aislación nominal (mm)": "1,4", "Espesor envoltura nominal (mm)": "2,2", "Diámetro exterior aprox. (mm)": "34,1", "Masa aprox. (kg/km)": "2850", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,38", "Intensidad admisible (A)": "185" },
-      { "Formación (Nº x mm²)": "4x70", "Espesor aislación nominal (mm)": "1,4", "Espesor envoltura nominal (mm)": "2,4", "Diámetro exterior aprox. (mm)": "38,5", "Masa aprox. (kg/km)": "3850", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,27", "Intensidad admisible (A)": "230" },
-      { "Formación (Nº x mm²)": "4x95", "Espesor aislación nominal (mm)": "1,6", "Espesor envoltura nominal (mm)": "2,6", "Diámetro exterior aprox. (mm)": "43,2", "Masa aprox. (kg/km)": "5100", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,20", "Intensidad admisible (A)": "280" }
-    ],
-    certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'no-propagacion']
-  },
-  {
-    id: 'cobre-desnudo',
-    name: 'Cobre Desnudo',
-    category: 'Cables para Instalación Civil',
-    subCategory: 'CONDUCTORES DESNUDOS',
-    description: 'Cables de cobre sin aislación para puesta a tierra y redes aéreas.',
-    detailedDescription: 'Conductores de cobre electrolítico recocido o duro, cableados en capas concéntricas. Alta conductividad y resistencia a la corrosión.',
-    image: '/images/PRODUCTOS/PORTADA.png',
-    specs: ['Cobre Electrolítico', 'Norma IRAM 2004', 'Alta Conductividad'],
-    specsTable: [
-      { "Sección nominal (mm²)": "16", "Formación (Nº x mm)": "7x1,70", "Diámetro exterior (mm)": "5,1", "Masa aprox. (kg/km)": "142", "Resistencia eléctrica máx. 20°C (Ohm/km)": "1,15" },
-      { "Sección nominal (mm²)": "25", "Formación (Nº x mm)": "7x2,14", "Diámetro exterior (mm)": "6,4", "Masa aprox. (kg/km)": "225", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,72" },
-      { "Sección nominal (mm²)": "35", "Formación (Nº x mm)": "7x2,52", "Diámetro exterior (mm)": "7,6", "Masa aprox. (kg/km)": "312", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,52" },
-      { "Sección nominal (mm²)": "50", "Formación (Nº x mm)": "19x1,78", "Diámetro exterior (mm)": "8,9", "Masa aprox. (kg/km)": "438", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,38" },
-      { "Sección nominal (mm²)": "70", "Formación (Nº x mm)": "19x2,14", "Diámetro exterior (mm)": "10,7", "Masa aprox. (kg/km)": "635", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,26" },
-      { "Sección nominal (mm²)": "95", "Formación (Nº x mm)": "19x2,52", "Diámetro exterior (mm)": "12,6", "Masa aprox. (kg/km)": "882", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,19" },
-      { "Sección nominal (mm²)": "120", "Formación (Nº x mm)": "37x2,03", "Diámetro exterior (mm)": "14,2", "Masa aprox. (kg/km)": "1120", "Resistencia eléctrica máx. 20°C (Ohm/km)": "0,15" }
+      { "Sección (mm²)": "16", "Formación (Nº x mm)": "7 x 1,70", "Diámetro (mm)": "5,1", "Peso (kg/km)": "43", "Resistencia (Ohm/km)": "1,80" },
+      { "Sección (mm²)": "25", "Formación (Nº x mm)": "7 x 2,13", "Diámetro (mm)": "6,4", "Peso (kg/km)": "68", "Resistencia (Ohm/km)": "1,14" },
+      { "Sección (mm²)": "35", "Formación (Nº x mm)": "7 x 2,52", "Diámetro (mm)": "7,6", "Peso (kg/km)": "95", "Resistencia (Ohm/km)": "0,81" },
+      { "Sección (mm²)": "50", "Formación (Nº x mm)": "7 x 3,02", "Diámetro (mm)": "9,1", "Peso (kg/km)": "136", "Resistencia (Ohm/km)": "0,56" },
+      { "Sección (mm²)": "70", "Formación (Nº x mm)": "19 x 2,14", "Diámetro (mm)": "10,7", "Peso (kg/km)": "192", "Resistencia (Ohm/km)": "0,40" }
     ],
     certifications: ['iram', 'seguridad']
   },
   {
-    id: 'redes-utp',
-    name: 'Cables de Red UTP/FTP',
-    category: 'Resto de Materiales Eléctricos',
-    subCategory: 'DATOS Y REDES',
-    description: 'Cables de par trenzado para transmisión de datos y redes informáticas.',
-    detailedDescription: 'Conductores de cobre sólido de 24AWG o 23AWG, aislados con polietileno y reunidos en 4 pares.',
-    image: '/images/fotos-nuevas/Materiales electricos.jpg',
-    specs: ['Cat 5e / Cat 6', '100% Cobre', 'Interior/Exterior'],
+    id: 'aerea-desnudo-cobre',
+    name: 'Cables Desnudos de Cobre Duro',
+    category: 'Cables Instalación Aérea',
+    subCategory: '2-DESNUDOS',
+    description: 'Conductores de cobre electrolítico de alta pureza para redes aéreas.',
+    detailedDescription: 'Conductores de cobre electrolítico recocido o duro, cableados en capas concéntricas. Alta conductividad y excelente resistencia a la corrosión ambiental.',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/PORTADA (ELIMINAR LOGO GEMINI).jpeg',
+    specs: ['Cobre Electrolítico', 'Temple Duro', 'IRAM 2004'],
+    characteristics: [
+      'Material: Cobre electrolítico de alta pureza (99.9%).',
+      'Temple: Duro (para líneas aéreas) o Recocido (para puestas a tierra).',
+      'Alta resistencia a la tracción.',
+      'Excelente resistencia a la corrosión.',
+      'Norma: IRAM 2004.'
+    ],
+    applications: 'Redes aéreas de distribución, líneas de transmisión y sistemas de puesta a tierra.',
+    installation: 'Tendido aéreo sobre aisladores o instalación directa en tierra para sistemas de descarga.',
     specsTable: [
-      { "Tipo": "UTP Cat 5e", "AWG": "24", "Pares": "4", "Diámetro": "5,2", "Uso": "Interior" },
-      { "Tipo": "UTP Cat 6", "AWG": "23", "Pares": "4", "Diámetro": "6,1", "Uso": "Gigabit" },
-      { "Tipo": "FTP Cat 6", "AWG": "23", "Pares": "4", "Diámetro": "6,5", "Uso": "Blindado" }
+      { "Sección (mm²)": "16", "Formación (Nº x mm)": "7 x 1,70", "Diámetro (mm)": "5,1", "Peso (kg/km)": "142", "Resistencia (Ohm/km)": "1,15" },
+      { "Sección (mm²)": "25", "Formación (Nº x mm)": "7 x 2,14", "Diámetro (mm)": "6,4", "Peso (kg/km)": "225", "Resistencia (Ohm/km)": "0,72" },
+      { "Sección (mm²)": "35", "Formación (Nº x mm)": "7 x 2,52", "Diámetro (mm)": "7,6", "Peso (kg/km)": "312", "Resistencia (Ohm/km)": "0,52" },
+      { "Sección (mm²)": "50", "Formación (Nº x mm)": "19 x 1,78", "Diámetro (mm)": "8,9", "Peso (kg/km)": "438", "Resistencia (Ohm/km)": "0,38" },
+      { "Sección (mm²)": "70", "Formación (Nº x mm)": "19 x 2,14", "Diámetro (mm)": "10,7", "Peso (kg/km)": "635", "Resistencia (Ohm/km)": "0,26" }
+    ],
+    certifications: ['iram', 'seguridad']
+  },
+  {
+    id: 'aerea-aluminio-acero',
+    name: 'Cable Aluminio-Acero (ACSR)',
+    category: 'Cables Instalación Aérea',
+    subCategory: '2-DESNUDOS',
+    description: 'Conductores reforzados con alma de acero para grandes vanos y alta resistencia mecánica.',
+    detailedDescription: 'Conductores formados por alambres de aluminio grado 1350-H19 cableados sobre un núcleo central de acero galvanizado. Combina la conductividad del aluminio con la resistencia mecánica del acero.',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/PORTADA (ELIMINAR LOGO GEMINI).jpeg',
+    specs: ['ACSR', 'Reforzado', 'IRAM 2187'],
+    characteristics: [
+      'Material: Aluminio 1350 y Acero Galvanizado.',
+      'Estructura: Núcleo de acero portante.',
+      'Alta resistencia a la rotura.',
+      'Permite vanos (distancia entre postes) mucho más largos.',
+      'Norma: IRAM 2187.'
+    ],
+    applications: 'Líneas de alta tensión, transmisión y distribución rural de energía.',
+    installation: 'Tendido aéreo de largo alcance. Requiere herrajes de amarre y suspensión diseñados para ACSR.',
+    specsTable: [
+      { "Sección (Al/Ac)": "16/2.5", "Diámetro (mm)": "5,6", "Peso (kg/km)": "62", "Carga Rotura (kgf)": "570" },
+      { "Sección (Al/Ac)": "25/4", "Diámetro (mm)": "7,0", "Peso (kg/km)": "95", "Carga Rotura (kgf)": "920" },
+      { "Sección (Al/Ac)": "35/6", "Diámetro (mm)": "8,4", "Peso (kg/km)": "145", "Carga Rotura (kgf)": "1350" },
+      { "Sección (Al/Ac)": "50/8", "Diámetro (mm)": "10,1", "Peso (kg/km)": "205", "Carga Rotura (kgf)": "1850" },
+      { "Sección (Al/Ac)": "70/12", "Diámetro (mm)": "12,0", "Peso (kg/km)": "285", "Sección (Al/Ac)": "95/15", "Carga Rotura (kgf)": "2450" }
     ],
     certifications: ['iram', 'seguridad']
   }
