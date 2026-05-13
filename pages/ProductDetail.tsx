@@ -9,6 +9,7 @@ const ProductDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const [product, setProduct] = React.useState<Product | null>(null);
+  const [activeTab, setActiveTab] = React.useState('DESCRIPCIÓN');
 
   useEffect(() => {
     const foundProduct = products.find(p => p.id === id);
@@ -113,19 +114,21 @@ const ProductDetail: React.FC = () => {
         </div>
 
         {/* Tab Navigation */}
-        <div className="md:sticky md:top-28 z-40 bg-slate-50 border-y border-slate-200 mb-12 shadow-sm">
-          <div className="flex flex-col md:flex-row justify-center container mx-auto px-0 md:px-6">
-            {['DESCRIPCIÓN', 'APLICACIONES', 'CARACTERÍSTICAS', 'INSTALACIÓN', 'CERTIFICACIONES', 'TABLA'].map((tab) => (
+        <div className="md:sticky md:top-28 z-40 bg-slate-50 border-y border-slate-200 mb-12 shadow-sm overflow-x-auto no-scrollbar">
+          <div className="flex flex-col md:flex-row justify-center container mx-auto px-0 md:px-6 min-w-max md:min-w-0">
+            {[
+              { id: 'DESCRIPCIÓN', label: 'DESCRIPCIÓN', target: 'descripcion', hasContent: !!product.detailedDescription },
+              { id: 'APLICACIONES', label: 'APLICACIONES', target: 'usos', hasContent: !!product.applications },
+              { id: 'CARACTERÍSTICAS', label: 'CARACTERÍSTICAS', target: 'caracteristicas', hasContent: !!product.characteristics && product.characteristics.length > 0 },
+              { id: 'INSTALACIÓN', label: 'INSTALACIÓN', target: 'instalacion', hasContent: !!product.installation },
+              { id: 'CERTIFICACIONES', label: 'CERTIFICACIONES', target: 'certificaciones', hasContent: !!product.certifications && product.certifications.length > 0 },
+              { id: 'TABLA', label: 'TABLA', target: 'formaciones', hasContent: (!!product.specsTable && product.specsTable.length > 0) || (!!product.specsTables && product.specsTables.length > 0) },
+            ].filter(tab => tab.hasContent).map((tab) => (
               <button
-                key={tab}
+                key={tab.id}
                 onClick={() => {
-                  let targetId = tab.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-                  if (targetId === 'aplicaciones') targetId = 'usos';
-                  if (targetId === 'caracteristicas') targetId = 'construccion';
-                  if (targetId === 'certificaciones') targetId = 'normas';
-                  if (targetId === 'tabla') targetId = 'formaciones';
-                  
-                  const element = document.getElementById(targetId);
+                  setActiveTab(tab.id);
+                  const element = document.getElementById(tab.target);
                   if (element) {
                     const offset = window.innerWidth < 768 ? 100 : 180;
                     window.scrollTo({
@@ -134,9 +137,13 @@ const ProductDetail: React.FC = () => {
                     });
                   }
                 }}
-                className="px-8 py-4 md:py-5 text-[12px] font-bold uppercase tracking-[0.2em] text-slate-400 hover:text-orange-600 hover:bg-white transition-all border-b md:border-b-0 md:border-r border-slate-200 last:border-b-0 md:last:border-r-0 whitespace-nowrap text-left md:text-center"
+                className={`px-8 py-4 md:py-5 text-[12px] font-bold uppercase tracking-[0.2em] transition-all border-b md:border-b-0 md:border-r border-slate-200 last:border-b-0 md:last:border-r-0 whitespace-nowrap text-left md:text-center ${
+                  activeTab === tab.id 
+                    ? 'bg-white text-orange-600' 
+                    : 'text-slate-400 hover:text-orange-600 hover:bg-white'
+                }`}
               >
-                {tab}
+                {tab.label}
               </button>
             ))}
           </div>
@@ -146,8 +153,11 @@ const ProductDetail: React.FC = () => {
         <div className="space-y-24 pb-32 max-w-5xl">
           {/* Descripción */}
           <section id="descripcion" className="scroll-mt-40">
+            <div className="mb-6">
+              <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">DESCRIPCIÓN</h2>
+            </div>
             <div className="border-l-2 border-slate-100 pl-8">
-              <p className="text-slate-600 leading-relaxed text-xl font-medium">
+              <p className="text-slate-600 leading-relaxed text-xl font-medium whitespace-pre-line">
                 {product.detailedDescription || product.description}
               </p>
             </div>
@@ -157,7 +167,7 @@ const ProductDetail: React.FC = () => {
           {product.applications && (
             <section id="usos" className="scroll-mt-40">
               <div className="mb-6">
-                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-slate-900 uppercase tracking-wider">Aplicaciones</h2>
+                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">USO</h2>
               </div>
               <div className="border-l-2 border-slate-100 pl-8">
                 <p className="text-slate-600 leading-relaxed text-base font-medium">
@@ -171,11 +181,11 @@ const ProductDetail: React.FC = () => {
           {product.characteristics && (
             <section id="construccion" className="scroll-mt-40">
               <div className="mb-6">
-                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-slate-900 uppercase tracking-wider">Características</h2>
+                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">CONSTRUCCIÓN</h2>
               </div>
               <div className="space-y-1">
-                {product.characteristics.map((char, i) => (
-                  <div key={i} className="flex items-start gap-4 py-1.5 border-b border-slate-50 group hover:border-orange-200 transition-colors">
+                {product.characteristics.filter(char => char !== 'CONSTRUCCIÓN').map((char, i) => (
+                  <div key={i} className="flex items-start gap-4 py-1.5 border-b border-slate-50 group hover:border-[#004b61] transition-colors">
                     <span className="w-1.5 h-1.5 rounded-full bg-orange-600 mt-[9px] shrink-0"></span>
                     <span className="text-slate-600 text-base leading-tight font-medium">{char}</span>
                   </div>
@@ -215,15 +225,21 @@ const ProductDetail: React.FC = () => {
             </section>
           )}
 
-          <section id="normas" className="scroll-mt-40 -mt-16">
-            <CertificationIcons certifications={product.certifications || []} />
-          </section>
+          {/* NORMAS / Certificaciones */}
+          {product.certifications && product.certifications.length > 0 && (
+            <section id="certificaciones" className="scroll-mt-40 pt-10 border-t border-slate-100">
+              <div className="mb-8">
+                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">NORMAS</h2>
+              </div>
+              <CertificationIcons certifications={product.certifications} />
+            </section>
+          )}
 
           {/* Instalación */}
           {product.installation && (
             <section id="instalacion" className="scroll-mt-40">
               <div className="mb-6">
-                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-slate-900 uppercase tracking-wider">Instalación</h2>
+                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">INSTALACIÓN</h2>
               </div>
               <div className="border-l-2 border-slate-100 pl-8">
                 <p className="text-slate-600 leading-relaxed text-base font-medium">
@@ -234,40 +250,122 @@ const ProductDetail: React.FC = () => {
           )}
 
           {/* Technical Table */}
-          {product.specsTable && product.specsTable.length > 0 && (
+          {(product.specsTables || (product.specsTable && product.specsTable.length > 0)) && (
             <section id="formaciones" className="scroll-mt-40 pt-10 border-t border-slate-100">
               <div className="mb-8">
-                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-slate-900 uppercase tracking-wider">Tabla de Especificaciones</h2>
+                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">ESPECIFICACIONES TÉCNICAS</h2>
               </div>
-              <div className="bg-white border border-slate-200 overflow-hidden shadow-2xl rounded-sm">
-                <div className="overflow-x-auto">
-                  <table className="w-full text-[12px] md:text-[13px] text-left border-collapse table-auto">
-                    <thead>
-                      <tr className="bg-slate-900 text-white border-b border-slate-800">
-                        {Object.keys(product.specsTable[0]).map((header) => (
-                          <th key={header} className="px-4 py-5 font-bold uppercase tracking-wider border-x border-slate-800 first:border-l-0 last:border-r-0 text-center leading-tight">
-                            {header}
-                          </th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-slate-100">
-                      {product.specsTable.map((row, i) => (
-                        <tr key={i} className={`hover:bg-slate-50 transition-colors group ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
-                          {Object.values(row).map((val, j) => (
-                            <td key={j} className="px-4 py-5 text-slate-600 font-bold text-center border-x border-slate-50 first:border-l-0 last:border-r-0">
-                              {val}
-                            </td>
-                          ))}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+
+              {product.technicalIntro && (
+                <div className="mb-10 bg-slate-50 border-l-4 border-[#004b61] p-8 rounded-sm shadow-sm">
+                  <div className="text-slate-600 text-sm leading-relaxed whitespace-pre-line font-medium">
+                    {product.technicalIntro}
+                  </div>
                 </div>
+              )}
+              
+              <div className="space-y-12">
+                {product.specsTables ? (
+                  product.specsTables.map((table, tIdx) => (
+                    <div key={tIdx} className="space-y-4">
+                      {table.title && (
+                        <h3 className="text-lg font-bold text-slate-800 uppercase tracking-wide border-l-4 border-orange-600 pl-4">
+                          {table.title}
+                        </h3>
+                      )}
+                      <div className="bg-white border border-slate-200 overflow-hidden shadow-xl rounded-sm">
+                        <div className="overflow-x-auto">
+                          <table className="w-full text-[11px] md:text-[12px] text-left border-collapse table-auto">
+                            {!table.isHorizontal && (
+                              <thead>
+                                <tr className="bg-slate-900 text-white border-b border-slate-800">
+                                  {table.headers.map((header, hIdx) => (
+                                    <th key={hIdx} className="px-3 py-4 font-bold uppercase tracking-wider border-x border-slate-800 first:border-l-0 last:border-r-0 text-center leading-tight">
+                                      {header}
+                                    </th>
+                                  ))}
+                                </tr>
+                              </thead>
+                            )}
+                            <tbody className="divide-y divide-slate-100">
+                              {table.rows.map((row, i) => {
+                                if ('isSubtitle' in row && row.isSubtitle) {
+                                  return (
+                                    <tr key={i} className="bg-slate-100 border-y border-slate-200">
+                                      <td colSpan={table.isHorizontal ? table.rows[0].length : table.headers.length} className="px-4 py-3 text-slate-800 font-extrabold italic uppercase tracking-wider text-xs">
+                                        {row.content}
+                                      </td>
+                                    </tr>
+                                  );
+                                }
+                                
+                                const dataRow = row as string[];
+                                return (
+                                  <tr key={i} className={`hover:bg-slate-50 transition-colors group ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
+                                    {dataRow.map((val, j) => {
+                                      const isRowLabel = table.isHorizontal && j === 0;
+                                      return (
+                                        <td 
+                                          key={j} 
+                                          className={`px-3 py-4 text-center border-x border-slate-50 first:border-l-0 last:border-r-0 font-bold ${
+                                            isRowLabel 
+                                              ? 'bg-slate-900 text-white uppercase text-[10px] tracking-wider' 
+                                              : 'text-slate-600'
+                                          }`}
+                                        >
+                                          {val}
+                                        </td>
+                                      );
+                                    })}
+                                  </tr>
+                                );
+                              })}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      {table.note && (
+                        <p className="text-[10px] text-slate-400 font-medium italic">
+                          {table.note}
+                        </p>
+                      )}
+                    </div>
+                  ))
+                ) : (
+                  <div className="bg-white border border-slate-200 overflow-hidden shadow-2xl rounded-sm">
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-[12px] md:text-[13px] text-left border-collapse table-auto">
+                        <thead>
+                          <tr className="bg-slate-900 text-white border-b border-slate-800">
+                            {Object.keys(product.specsTable![0]).map((header) => (
+                              <th key={header} className="px-4 py-5 font-bold uppercase tracking-wider border-x border-slate-800 first:border-l-0 last:border-r-0 text-center leading-tight">
+                                {header}
+                              </th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100">
+                          {product.specsTable!.map((row, i) => (
+                            <tr key={i} className={`hover:bg-slate-50 transition-colors group ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
+                              {Object.values(row).map((val, j) => (
+                                <td key={j} className="px-4 py-5 text-slate-600 font-bold text-center border-x border-slate-50 first:border-l-0 last:border-r-0">
+                                  {val}
+                                </td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
               </div>
-              <p className="mt-6 text-[9px] text-slate-400 uppercase tracking-[0.2em] font-bold border-l-2 border-orange-600 pl-4 leading-relaxed">
-                (*) Los valores expresados en esta tabla son aproximados y están sujetos a variaciones de fabricación según normas vigentes.
-              </p>
+              
+              {!product.specsTables && (
+                <p className="mt-6 text-[9px] text-slate-400 uppercase tracking-[0.2em] font-bold border-l-2 border-orange-600 pl-4 leading-relaxed">
+                  (*) Los valores expresados en esta tabla son aproximados y están sujetos a variaciones de fabricación según normas vigentes.
+                </p>
+              )}
             </section>
           )}
 

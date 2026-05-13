@@ -19,7 +19,15 @@ export interface Product {
   characteristics?: string[];
   applications?: string;
   installation?: string;
+  technicalIntro?: string;
   specsTable?: Record<string, string>[];
+  specsTables?: {
+    title: string;
+    headers: string[];
+    rows: (string[] | { isSubtitle: boolean; content: string })[];
+    note?: string;
+    isHorizontal?: boolean;
+  }[];
   certifications?: string[];
   availableBrands?: string[];
   colors?: ProductColor[];
