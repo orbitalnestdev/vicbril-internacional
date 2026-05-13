@@ -24,7 +24,16 @@ export const products: Product[] = [
     category: 'Cables para Instalación Civil',
     subCategory: '1-CABLE UNIPOLAR',
     description: 'Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.',
-    detailedDescription: 'Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.',
+    detailedDescription: `DESCRIPCIÓN
+Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.
+
+USO
+Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes.
+
+NORMAS
+IEC 60227-3 - IRAM NM 247-3
+Norma de fuego: IEC 60332-3-23 / IRAM NM IEC 60332-3-23 - No propagación de incendio.
+Norma de conductores: IEC 60228 / IRAM NM 280.`,
     image: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/PORTADA.jpg',
     gallery: [
       '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/foto producto dentro de ficha tecnica.jpeg'
@@ -32,35 +41,42 @@ export const products: Product[] = [
     technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/marcas disponibles unipolar pvc.jpg',
     pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/FICHA TECNICA UNIP PVC (REEMPLAZAR FOTO DE ABAJO).pdf',
     specs: ['450/750 V', '70°', 'PVC'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor: Cobre electrolítico recocido clase 5.
+Aislación: PVC.`,
     characteristics: [
       'Temperatura máxima: 70° C de servicio',
       'Tensión normal: 450/750 Volt.',
-      'Norma constructiva: IEC 60227-3 - IRAM NM 247-3',
-      'Norma de fuego: IEC 60332-3-23 / IRAM NM IEC 60332-3-23 - No propagación de incendio.',
-      'Norma de conductores: IEC 60228 / IRAM NM 280'
+      'Montaje: Radio mínimo de curvatura igual a 7 x diámetro exterior del cable.',
+      'Tracción máxima: 5daN/mm² aplicados sobre los conductores.',
+      'Temperatura de montaje: igual o mayor a 5°C.'
     ],
-    applications: 'Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes',
-    installation: 'Montaje: Radio mínimo de curvatura igual a 7 x diámetro exterior del cable. Tracción máxima: 5daN/mm² aplicados sobre los conductores. Temperatura de montaje: igual o mayor a 5°C.',
-    specsTable: [
-      { "Sección nominal mm": "0,5", "Espesor aislación mm": "0,60", "Diámetro exterior mm": "2,1", "Peso kg/km": "8,2", "Resistencia eléctrica Ohm/km": "39", "Intensidad admisible Amper (*)": "4,8" },
-      { "Sección nominal mm": "0,75", "Espesor aislación mm": "0,60", "Diámetro exterior mm": "2,3", "Peso kg/km": "10,8", "Resistencia eléctrica Ohm/km": "26", "Intensidad admisible Amper (*)": "7,2" },
-      { "Sección nominal mm": "1", "Espesor aislación mm": "0,70", "Diámetro exterior mm": "2,7", "Peso kg/km": "14,4", "Resistencia eléctrica Ohm/km": "19,5", "Intensidad admisible Amper (*)": "9,6" },
-      { "Sección nominal mm": "1,5", "Espesor aislación mm": "0,70", "Diámetro exterior mm": "3,0", "Peso kg/km": "20", "Resistencia eléctrica Ohm/km": "13,3", "Intensidad admisible Amper (*)": "13" },
-      { "Sección nominal mm": "2,5", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "3,6", "Peso kg/km": "31", "Resistencia eléctrica Ohm/km": "7,98", "Intensidad admisible Amper (*)": "18" },
-      { "Sección nominal mm": "4", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "4,1", "Peso kg/km": "45", "Resistencia eléctrica Ohm/km": "4,95", "Intensidad admisible Amper (*)": "24" },
-      { "Sección nominal mm": "6", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "4,7", "Peso kg/km": "63", "Resistencia eléctrica Ohm/km": "3,3", "Intensidad admisible Amper (*)": "31" },
-      { "Sección nominal mm": "10", "Espesor aislación mm": "1,00", "Diámetro exterior mm": "6,2", "Peso kg/km": "112", "Resistencia eléctrica Ohm/km": "1,91", "Intensidad admisible Amper (*)": "43" },
-      { "Sección nominal mm": "16", "Espesor aislación mm": "1,00", "Diámetro exterior mm": "7,1", "Peso kg/km": "166", "Resistencia eléctrica Ohm/km": "1,21", "Intensidad admisible Amper (*)": "59" },
-      { "Sección nominal mm": "25", "Espesor aislación mm": "1,20", "Diámetro exterior mm": "8,7", "Peso kg/km": "256", "Resistencia eléctrica Ohm/km": "0,78", "Intensidad admisible Amper (*)": "77" },
-      { "Sección nominal mm": "35", "Espesor aislación mm": "1,20", "Diámetro exterior mm": "9,7", "Peso kg/km": "358", "Resistencia eléctrica Ohm/km": "0,554", "Intensidad admisible Amper (*)": "96" },
-      { "Sección nominal mm": "50", "Espesor aislación mm": "1,40", "Diámetro exterior mm": "11,5", "Peso kg/km": "504", "Resistencia eléctrica Ohm/km": "0,386", "Intensidad admisible Amper (*)": "116" },
-      { "Sección nominal mm": "70", "Espesor aislación mm": "1,40", "Diámetro exterior mm": "13,5", "Peso kg/km": "688", "Resistencia eléctrica Ohm/km": "0,272", "Intensidad admisible Amper (*)": "148" },
-      { "Sección nominal mm": "95", "Espesor aislación mm": "1,60", "Diámetro exterior mm": "15,9", "Peso kg/km": "904", "Resistencia eléctrica Ohm/km": "0,206", "Intensidad admisible Amper (*)": "180" },
-      { "Sección nominal mm": "120", "Espesor aislación mm": "1,60", "Diámetro exterior mm": "17,3", "Peso kg/km": "1136", "Resistencia eléctrica Ohm/km": "0,161", "Intensidad admisible Amper (*)": "207" },
-      { "Sección nominal mm": "150", "Espesor aislación mm": "1,80", "Diámetro exterior mm": "19,9", "Peso kg/km": "1415", "Resistencia eléctrica Ohm/km": "0,129", "Intensidad admisible Amper (*)": "228" },
-      { "Sección nominal mm": "185", "Espesor aislación mm": "2,00", "Diámetro exterior mm": "21,7", "Peso kg/km": "1730", "Resistencia eléctrica Ohm/km": "0,106", "Intensidad admisible Amper (*)": "260" },
-      { "Sección nominal mm": "240", "Espesor aislación mm": "2,20", "Diámetro exterior mm": "25,1", "Peso kg/km": "2256", "Resistencia eléctrica Ohm/km": "0,0801", "Intensidad admisible Amper (*)": "290" },
-      { "Sección nominal mm": "300", "Espesor aislación mm": "2,40", "Diámetro exterior mm": "28,3", "Peso kg/km": "2796", "Resistencia eléctrica Ohm/km": "0,641", "Intensidad admisible Amper (*)": "340" }
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Sección (mm²)", "Espesor Aisl. (mm)", "Diámetro Ext. (mm)", "Peso (kg/km)", "Resistencia (Ohm/km)", "Intensidad (A)"],
+        rows: [
+          ["0,5", "0,60", "2,1", "8,2", "39", "4,8"],
+          ["0,75", "0,60", "2,3", "10,8", "26", "7,2"],
+          ["1", "0,70", "2,7", "14,4", "19,5", "9,6"],
+          ["1,5", "0,70", "3,0", "20", "13,3", "13"],
+          ["2,5", "0,80", "3,6", "31", "7,98", "18"],
+          ["4", "0,80", "4,1", "45", "4,95", "24"],
+          ["6", "0,80", "4,7", "63", "3,3", "31"],
+          ["10", "1,00", "6,2", "112", "1,91", "43"],
+          ["16", "1,00", "7,1", "166", "1,21", "59"],
+          ["25", "1,20", "8,7", "256", "0,78", "77"],
+          ["35", "1,20", "9,7", "358", "0,554", "96"],
+          ["50", "1,40", "11,5", "504", "0,386", "116"],
+          ["70", "1,40", "13,5", "688", "0,272", "148"],
+          ["95", "1,60", "15,9", "904", "0,206", "180"],
+          ["120", "1,60", "17,3", "1136", "0,161", "207"],
+          ["150", "1,80", "19,9", "1415", "0,129", "228"],
+          ["185", "2,00", "21,7", "1730", "0,106", "260"],
+          ["240", "2,20", "25,1", "2256", "0,0801", "290"],
+          ["300", "2,40", "28,3", "2796", "0,0641", "340"]
+        ]
+      }
     ],
     certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
@@ -71,7 +87,19 @@ export const products: Product[] = [
     category: 'Cables para Instalación Civil',
     subCategory: '1-CABLE UNIPOLAR',
     description: 'Conductores a instalar en lugares cerrados con alto tránsito de personas donde la evacuación por incendio resulta difícil de resolver.',
-    detailedDescription: 'Conductores a instalar en lugares cerrados con alto tránsito de personas, por ejemplo cines, sanatorios, teatros, estaciones de trenes subterráneos, universidades, centros comerciales, escuelas, túneles de minas, etc; es decir todo lugar dónde la evacuación por incendio resulta difícil de resolver.',
+    detailedDescription: `DESCRIPCIÓN
+Conductores a instalar en lugares cerrados con alto tránsito de personas, por ejemplo cines, sanatorios, teatros, estaciones de trenes subterráneos, universidades, centros comerciales, escuelas, túneles de minas, etc; es decir todo lugar dónde la evacuación por incendio resulta difícil de resolver.
+
+USO
+Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes.
+
+NORMAS
+IRAM 62267
+Norma de fuego: IEC 60332-3-24 / IRAM NM IEC 60332-3-24 - No propagación de incendio.
+Norma de halógenos: IEC 60754 - 1/2 - Ausencia de halógenos.
+Norma de humos: IEC 61034 - Transparencia de humos.
+Norma de toxicidad: NES 713 / CEI 20-37 - Ausencia de tóxicos.
+Norma de conductores: IEC 60228 / IRAM NM 280.`,
     image: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/foto producto dentro de ficha tecnica.jpeg'
@@ -79,40 +107,42 @@ export const products: Product[] = [
     technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/MARCAS DISPONIBLES UNIPOLAR LSOH.jpg',
     pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/FICHA TECNICA UNIP. LSOH (REEMPLAZAR FOTO).pdf',
     specs: ['450/750 Volt', '70° C', 'IRAM 62267'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor: Metal cobre electrolítico recocido en formación clase 5.
+Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228.`,
     characteristics: [
       'Temperatura máxima: 70° C de servicio',
       'Tensión normal: 450/750 Volt.',
-      'Norma constructiva: IRAM 62267',
-      'Norma de fuego: IEC 60332-3-24 / IRAM NM IEC 60332-3-24 - No propagación de incendio.',
-      'Norma de halógenos: IEC 60754 - 1/2 - Ausencia de halógenos',
-      'Norma de humos: IEC 61034 - Transparencia de humos.',
-      'Norma de toxicidad: NES 713 / CEI 20-37 - Ausencia de tóxicos',
-      'Norma de conductores: IEC 60228 / IRAM NM 280',
-      'Conductor: Metal cobre electrolítico recocido en formación clase 5.',
-      'Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228'
+      'Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable.',
+      'Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre.',
+      'Temperatura de montaje: igual o mayor a 5°C.'
     ],
-    applications: 'Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes.',
-    installation: 'Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable. Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre. Temperatura de montaje: igual o mayor a 5°C.',
-    specsTable: [
-      { "Sección nominal mm": "0,5", "Espesor aislación mm": "0,60", "Diámetro exterior mm": "2,1", "Peso kg/km": "8,2", "Resistencia eléctrica Ohm/km": "39", "Intensidad admisible Amper (*)": "4,8" },
-      { "Sección nominal mm": "0,75", "Espesor aislación mm": "0,60", "Diámetro exterior mm": "2,3", "Peso kg/km": "10,8", "Resistencia eléctrica Ohm/km": "26", "Intensidad admisible Amper (*)": "7,2" },
-      { "Sección nominal mm": "1", "Espesor aislación mm": "0,70", "Diámetro exterior mm": "2,7", "Peso kg/km": "14,4", "Resistencia eléctrica Ohm/km": "19,5", "Intensidad admisible Amper (*)": "9,6" },
-      { "Sección nominal mm": "1,5", "Espesor aislación mm": "0,70", "Diámetro exterior mm": "3,0", "Peso kg/km": "20", "Resistencia eléctrica Ohm/km": "13,3", "Intensidad admisible Amper (*)": "13" },
-      { "Sección nominal mm": "2,5", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "3,6", "Peso kg/km": "31", "Resistencia eléctrica Ohm/km": "7,98", "Intensidad admisible Amper (*)": "18" },
-      { "Sección nominal mm": "4", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "4,1", "Peso kg/km": "45", "Resistencia eléctrica Ohm/km": "4,95", "Intensidad admisible Amper (*)": "24" },
-      { "Sección nominal mm": "6", "Espesor aislación mm": "0,80", "Diámetro exterior mm": "4,7", "Peso kg/km": "63", "Resistencia eléctrica Ohm/km": "3,3", "Intensidad admisible Amper (*)": "31" },
-      { "Sección nominal mm": "10", "Espesor aislación mm": "1,00", "Diámetro exterior mm": "6,2", "Peso kg/km": "112", "Resistencia eléctrica Ohm/km": "1,91", "Intensidad admisible Amper (*)": "43" },
-      { "Sección nominal mm": "16", "Espesor aislación mm": "1,00", "Diámetro exterior mm": "7,1", "Peso kg/km": "166", "Resistencia eléctrica Ohm/km": "1,21", "Intensidad admisible Amper (*)": "59" },
-      { "Sección nominal mm": "25", "Espesor aislación mm": "1,20", "Diámetro exterior mm": "8,7", "Peso kg/km": "256", "Resistencia eléctrica Ohm/km": "0,78", "Intensidad admisible Amper (*)": "77" },
-      { "Sección nominal mm": "35", "Espesor aislación mm": "1,20", "Diámetro exterior mm": "9,7", "Peso kg/km": "358", "Resistencia eléctrica Ohm/km": "0,554", "Intensidad admisible Amper (*)": "96" },
-      { "Sección nominal mm": "50", "Espesor aislación mm": "1,40", "Diámetro exterior mm": "11,5", "Peso kg/km": "504", "Resistencia eléctrica Ohm/km": "0,386", "Intensidad admisible Amper (*)": "116" },
-      { "Sección nominal mm": "70", "Espesor aislación mm": "1,40", "Diámetro exterior mm": "13,5", "Peso kg/km": "688", "Resistencia eléctrica Ohm/km": "0,272", "Intensidad admisible Amper (*)": "148" },
-      { "Sección nominal mm": "95", "Espesor aislación mm": "1,60", "Diámetro exterior mm": "15,9", "Peso kg/km": "904", "Resistencia eléctrica Ohm/km": "0,206", "Intensidad admisible Amper (*)": "180" },
-      { "Sección nominal mm": "120", "Espesor aislación mm": "1,60", "Diámetro exterior mm": "17,3", "Peso kg/km": "1136", "Resistencia eléctrica Ohm/km": "0,161", "Intensidad admisible Amper (*)": "207" },
-      { "Sección nominal mm": "150", "Espesor aislación mm": "1,80", "Diámetro exterior mm": "19,9", "Peso kg/km": "1415", "Resistencia eléctrica Ohm/km": "0,129", "Intensidad admisible Amper (*)": "228" },
-      { "Sección nominal mm": "185", "Espesor aislación mm": "2,00", "Diámetro exterior mm": "21,7", "Peso kg/km": "1730", "Resistencia eléctrica Ohm/km": "0,106", "Intensidad admisible Amper (*)": "260" },
-      { "Sección nominal mm": "240", "Espesor aislación mm": "2,20", "Diámetro exterior mm": "25,1", "Peso kg/km": "2256", "Resistencia eléctrica Ohm/km": "0,0801", "Intensidad admisible Amper (*)": "290" },
-      { "Sección nominal mm": "300", "Espesor aislación mm": "2,40", "Diámetro exterior mm": "28,3", "Peso kg/km": "2796", "Resistencia eléctrica Ohm/km": "0,0641", "Intensidad admisible Amper (*)": "340" }
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Sección (mm²)", "Espesor Aisl. (mm)", "Diámetro Ext. (mm)", "Peso (kg/km)", "Resistencia (Ohm/km)", "Intensidad (A)"],
+        rows: [
+          ["0,5", "0,60", "2,1", "8,2", "39", "4,8"],
+          ["0,75", "0,60", "2,3", "10,8", "26", "7,2"],
+          ["1", "0,70", "2,7", "14,4", "19,5", "9,6"],
+          ["1,5", "0,70", "3,0", "20", "13,3", "13"],
+          ["2,5", "0,80", "3,6", "31", "7,98", "18"],
+          ["4", "0,80", "4,1", "45", "4,95", "24"],
+          ["6", "0,80", "4,7", "63", "3,3", "31"],
+          ["10", "1,00", "6,2", "112", "1,91", "43"],
+          ["16", "1,00", "7,1", "166", "1,21", "59"],
+          ["25", "1,20", "8,7", "256", "0,78", "77"],
+          ["35", "1,20", "9,7", "358", "0,554", "96"],
+          ["50", "1,40", "11,5", "504", "0,386", "116"],
+          ["70", "1,40", "13,5", "688", "0,272", "148"],
+          ["95", "1,60", "15,9", "904", "0,206", "180"],
+          ["120", "1,60", "17,3", "1136", "0,161", "207"],
+          ["150", "1,80", "19,9", "1415", "0,129", "228"],
+          ["185", "2,00", "21,7", "1730", "0,106", "260"],
+          ["240", "2,20", "25,1", "2256", "0,0801", "290"],
+          ["300", "2,40", "28,3", "2796", "0,0641", "340"]
+        ]
+      }
     ],
     certifications: ['iram', 'seguridad', 'bajos-humos', 'libre-halogenos', 'marcacion-secuencial', 'espacios-publicos', 'instalacion-domiciliaria']
   },
@@ -122,7 +152,17 @@ export const products: Product[] = [
     category: 'Cables para Instalación Civil',
     subCategory: '2-CABLE BIPOLAR',
     description: 'Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas.',
-    detailedDescription: 'Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general, excluyendo los aparatos de calefacción.',
+    detailedDescription: `DESCRIPCIÓN
+Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general, excluyendo los aparatos de calefacción.
+
+USO
+Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquinas - herramientas y equipamientos de mano. Los cables están permitidos para su conexión directa a la red eléctrica.
+Apto para uso industrial y domiciliario; incluye conductor de tierra verde/amarillo.
+
+NORMAS
+IEC 60227-7
+Norma de fuego: IRAM NM 60332-1
+Norma de conductores: IEC 60228 / IRAM NM 280`,
     image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/portada.jpg',
     gallery: [
       '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/foto producto dentro de ficha tecnica.png'
@@ -130,19 +170,15 @@ export const products: Product[] = [
     technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/MARCAS DISPONIBLES VAINA CHATA.jpg',
     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/FICHA TECNICA VAINA CHATA.pdf',
     specs: ['300/500 V', '70°', 'PVC/PVC'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor: Cobre electrolítico recocido en formación clase 5.
+Aislación: PVC.
+Cubierta: PVC negro, no propagante del incendio.
+Identificación: Color negro con identificación alfanumérica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo.`,
     characteristics: [
       'Temperatura máxima: 70°C de servicio, 160°C de cortocircuito.',
-      'Tensión nominal: 300/500 Volt.',
-      'Norma constructiva: IEC 60227-7.',
-      'Norma de fuego: IRAM NM 60332-1.',
-      'Norma de conductores: IEC 60228 / IRAM NM 280.',
-      'Conductor: Cobre electrolítico recocido en formación clase 5.',
-      'Aislación: PVC.',
-      'Identificación: Color negro con identificación alfanumérica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo.',
-      'Cubierta: PVC negro, no propagante del incendio.'
+      'Tensión nominal: 300/500 Volt.'
     ],
-    applications: 'Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquinas - herramientas y equipamientos de mano. Los cables están permitidos para su conexión directa a la red eléctrica.',
-    installation: 'Apto para uso industrial y domiciliario; incluye conductor de tierra verde/amarillo.',
     colors: [
       { 
         label: 'Bipolar', 
@@ -150,13 +186,19 @@ export const products: Product[] = [
         codes: ['#FFFFFF', '#8B4513', '#000000'] 
       }
     ],
-    specsTable: [
-      { "Formación Nº x mm²": "2x1", "Diámetro máximo de alambres del conductor mm": "0,21", "Espesor de aislación nominal mm": "0,6", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "4,1 x 6,6", "Masa aprox kg/km": "44", "Intensidad de corriente admisible en servicio continuo (A)": "7", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "19,5" },
-      { "Formación Nº x mm²": "2x1,5", "Diámetro máximo de alambres del conductor mm": "0,26", "Espesor de aislación nominal mm": "0,7", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "4,5 x 7,5", "Masa aprox kg/km": "58", "Intensidad de corriente admisible en servicio continuo (A)": "10", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "13,3" },
-      { "Formación Nº x mm²": "2x2,5", "Diámetro máximo de alambres del conductor mm": "0,26", "Espesor de aislación nominal mm": "0,8", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "5,1 x 8,8", "Masa aprox kg/km": "85", "Intensidad de corriente admisible en servicio continuo (A)": "16", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "7,98" },
-      { "Formación Nº x mm²": "3x1", "Diámetro máximo de alambres del conductor mm": "0,21", "Espesor de aislación nominal mm": "0,6", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "4,1 x 9,2", "Masa aprox kg/km": "64", "Intensidad de corriente admisible en servicio continuo (A)": "7", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "19,5" },
-      { "Formación Nº x mm²": "3x1,5", "Diámetro máximo de alambres del conductor mm": "0,26", "Espesor de aislación nominal mm": "0,7", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "4,5 x 10,6", "Masa aprox kg/km": "86", "Intensidad de corriente admisible en servicio continuo (A)": "10", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "13,3" },
-      { "Formación Nº x mm²": "3x2,5", "Diámetro máximo de alambres del conductor mm": "0,26", "Espesor de aislación nominal mm": "0,8", "Espesor de envoltura nominal mm": "0,6", "Dimensiones exteriores aproximadas mm": "5,1 x 12,5", "Masa aprox kg/km": "126", "Intensidad de corriente admisible en servicio continuo (A)": "16", "Resistencia eléctrica máxima a 20° C y C.C Ohm/km": "7,98" }
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Formación (mm²)", "Diám. máx. alambres (mm)", "Espesor Aisl. (mm)", "Espesor Env. (mm)", "Dimensiones Ext. (mm)", "Masa (kg/km)", "Intensidad (A)", "Resistencia (Ohm/km)"],
+        rows: [
+          ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7", "19,5"],
+          ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10", "13,3"],
+          ["2x2,5", "0,26", "0,8", "0,6", "5,1 x 8,8", "85", "16", "7,98"],
+          ["3x1", "0,21", "0,6", "0,6", "4,1 x 9,2", "64", "7", "19,5"],
+          ["3x1,5", "0,26", "0,7", "0,6", "4,5 x 10,6", "86", "10", "13,3"],
+          ["3x2,5", "0,26", "0,8", "0,6", "5,1 x 12,5", "126", "16", "7,98"]
+        ]
+      }
     ],
     certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'no-propagacion', 'marcacion-secuencial', 'instalacion-industrial', 'conductor-tierra', 'instalacion-domiciliaria'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
@@ -167,7 +209,11 @@ export const products: Product[] = [
     category: 'Cables para Instalación Civil',
     subCategory: '2-CABLE BIPOLAR',
     description: 'Cordones paralelos de cobre para alimentación de artefactos livianos y prolongaciones.',
-    detailedDescription: 'Conductores de cobre flexible dispuestos en paralelo con aislamiento de PVC. Ideales para conexiones de veladores, radios y electrodomésticos de baja potencia.',
+    detailedDescription: `DESCRIPCIÓN
+Conductores de cobre flexible dispuestos en paralelo con aislamiento de PVC. Ideales para conexiones de veladores, radios y electrodomésticos de baja potencia.
+
+USO
+Instalaciones móviles y aparatos portátiles en general. Apto para uso doméstico y artefactos de iluminación.`,
     image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/portada.jpeg',
     gallery: [
       '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/foto producto dentro de ficha tecnica.jpeg'
@@ -175,20 +221,25 @@ export const products: Product[] = [
     technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/MARCAS DISPONIBLES PARALELO.jpg',
     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/FICHA TECNICA PARALELO.pdf',
     specs: ['300V', 'Flexible', 'PVC Blanco/Negro'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor: Cobre flexible formación clase 5.
+Aislación: PVC.`,
     characteristics: [
-      'Tensión: 300/500V',
-      'Formación clase 5',
-      'Aislación de PVC'
+      'Tensión nominal: 300/500V'
     ],
-    applications: 'Instalaciones móviles y aparatos portátiles en general.',
-    installation: 'Apto para instalaciones móviles y uso doméstico.',
-    specsTable: [
-      { "Formación (Nº x mm²)": "2x0,50", "Diám. máx. alambres (mm)": "0,21", "Esp. aislación nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "2,4 x 4,8", "Masa aprox. (kg/km)": "24", "Resistencia eléctrica máx. 20°C (Ohm/km)": "39", "Intensidad continua (A)": "3" },
-      { "Formación (Nº x mm²)": "2x0,75", "Diám. máx. alambres (mm)": "0,21", "Esp. aislación nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "2,6 x 5,2", "Masa aprox. (kg/km)": "28", "Resistencia eléctrica máx. 20°C (Ohm/km)": "26", "Intensidad continua (A)": "6" },
-      { "Formación (Nº x mm²)": "2x1", "Diám. máx. alambres (mm)": "0,21", "Esp. aislación nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "2,7 x 5,4", "Masa aprox. (kg/km)": "32", "Resistencia eléctrica máx. 20°C (Ohm/km)": "19,5", "Intensidad continua (A)": "6" },
-      { "Formación (Nº x mm²)": "2x1,5", "Diám. máx. alambres (mm)": "0,26", "Esp. aislación nominal (mm)": "0,7", "Dimensiones exteriores aprox. (mm)": "3,0 x 6,1", "Masa aprox. (kg/km)": "45", "Resistencia eléctrica máx. 20°C (Ohm/km)": "13,3", "Intensidad continua (A)": "10" },
-      { "Formación (Nº x mm²)": "2x2,5", "Diám. máx. alambres (mm)": "0,26", "Esp. aislación nominal (mm)": "0,8", "Dimensiones exteriores aprox. (mm)": "3,6 x 7,4", "Masa aprox. (kg/km)": "72", "Resistencia eléctrica máx. 20°C (Ohm/km)": "7,98", "Intensidad continua (A)": "15" },
-      { "Formación (Nº x mm²)": "2x4", "Diám. máx. alambres (mm)": "0,31", "Esp. aislación nominal (mm)": "0,8", "Dimensiones exteriores aprox. (mm)": "4,2 x 8,6", "Masa aprox. (kg/km)": "110", "Resistencia eléctrica máx. 20°C (Ohm/km)": "4,95", "Intensidad continua (A)": "20" }
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Formación (mm²)", "Diám. máx. alambres (mm)", "Espesor Aisl. (mm)", "Dimensiones Ext. (mm)", "Masa (kg/km)", "Resistencia (Ohm/km)", "Intensidad (A)"],
+        rows: [
+          ["2x0,50", "0,21", "0,6", "2,4 x 4,8", "24", "39", "3"],
+          ["2x0,75", "0,21", "0,6", "2,6 x 5,2", "28", "26", "6"],
+          ["2x1", "0,21", "0,6", "2,7 x 5,4", "32", "19,5", "6"],
+          ["2x1,5", "0,26", "0,7", "3,0 x 6,1", "45", "13,3", "10"],
+          ["2x2,5", "0,26", "0,8", "3,6 x 7,4", "72", "7,98", "15"],
+          ["2x4", "0,31", "0,8", "4,2 x 8,6", "110", "4,95", "20"]
+        ]
+      }
     ],
     certifications: ['iram', 'seguridad', 'instalacion-domiciliaria', 'temperatura-servicio', 'cuerdas-flexibles'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
@@ -199,7 +250,11 @@ export const products: Product[] = [
     category: 'Cables para Instalación Civil',
     subCategory: '2-CABLE BIPOLAR',
     description: 'Cables específicos para audio y parlantes con identificación de polaridad.',
-    detailedDescription: 'Cordones de cobre flexible con aislación de PVC cristal o bicolor. Diseñados para la interconexión de sistemas de audio, garantizando fidelidad en la señal.',
+    detailedDescription: `DESCRIPCIÓN
+Cordones de cobre flexible con aislación de PVC cristal o bicolor. Diseñados para la interconexión de sistemas de audio, garantizando fidelidad en la señal.
+
+USO
+Interconexión de equipos de audio y aparatos portátiles. Diseñado para flexibilidad en instalaciones móviles.`,
     image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/portada.jpeg',
     gallery: [
       '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/foto producto dentro de ficha tecnica.jpeg'
@@ -207,13 +262,12 @@ export const products: Product[] = [
     technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/MARCAS DISPONIBLES PARALELO PARLANTE.jpg',
     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE.pdf',
     specs: ['Audio', 'Extra flexible', 'Bicolor/Cristal'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor: Cobre flexible formación clase 5.
+Aislación: PVC cristal o bicolor.`,
     characteristics: [
-      'Conductor de cobre flexible clase 5',
-      'Aislación de PVC',
       'Tensión nominal 300/500V'
     ],
-    applications: 'Interconexión de equipos de audio y aparatos portátiles.',
-    installation: 'Diseñado para flexibilidad en instalaciones móviles.',
     colors: [
       { 
         label: 'Bipolar', 
@@ -221,9 +275,15 @@ export const products: Product[] = [
         codes: ['#000000', '#FF0000'] 
       }
     ],
-    specsTable: [
-      { "Formación (Nº x mm²)": "2x1", "Diám. máx. alambres (mm)": "0,21", "Espesor aislación nominal (mm)": "0,6", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,1 x 6,6", "Masa aprox. (kg/km)": "44", "Intensidad continua (A)": "7" },
-      { "Formación (Nº x mm²)": "2x1,5", "Diám. máx. alambres (mm)": "0,26", "Espesor aislación nominal (mm)": "0,7", "Espesor envoltura nominal (mm)": "0,6", "Dimensiones exteriores aprox. (mm)": "4,5 x 7,5", "Masa aprox. (kg/km)": "58", "Intensidad continua (A)": "10" }
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Formación (mm²)", "Diám. máx. alambres (mm)", "Espesor Aisl. (mm)", "Espesor Env. (mm)", "Dimensiones Ext. (mm)", "Masa (kg/km)", "Intensidad (A)"],
+        rows: [
+          ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7"],
+          ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10"]
+        ]
+      }
     ],
     certifications: ['iram', 'seguridad', 'instalacion-domiciliaria', 'temperatura-servicio', 'cuerdas-flexibles'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
@@ -234,7 +294,16 @@ export const products: Product[] = [
     category: 'Cables para Instalación Civil',
     subCategory: '3-CABLE TIPO TALLER',
     description: 'Conductores diseñados para instalaciones móviles familiares, comerciales e industriales.',
-    detailedDescription: 'Conductores diseñados para instalaciones móviles familiares, comerciales e industriales, máquinas manipuladas manualmente y dispositivos portátiles en general.',
+    detailedDescription: `DESCRIPCIÓN
+Conductores diseñados para instalaciones móviles familiares, comerciales e industriales, máquinas manipuladas manualmente y dispositivos portátiles en general.
+
+USO
+Maquinaria de mano, electrodomésticos y aparatos portátiles.
+
+NORMAS
+IRAM NM-247-5
+Norma de fuego: IRAM NM IEC 60332-1
+Norma de conductores: IEC 60228 / IRAM NM 280`,
     image: '/images/PRODUCTOS/3-CABLE TIPO TALLER/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/foto producto dentro de ficha tecnica.jpeg'
@@ -242,38 +311,86 @@ export const products: Product[] = [
     technicalTable: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/MARCAS DISPONIBLES TIPO TALLER.jpg',
     pdf: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/FICHA TECNICA TIPO TALLER (REEMPLAZAR FOTO).pdf',
     specs: ['300/500 V', '70°', 'IRAM 247-5'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor: Metal cobre electrolítico recocido en formación clase 5.
+Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228.
+Aislación: PVC.
+Cubierta externa: PVC Negro, no propagante de incendio.`,
     characteristics: [
-      'Temperatura máxima: 70° C de servicio, 160° C de cortocircuito',
-      'Tensión nominal: 300/ 500 Volt.',
-      'Norma constructiva: IRAM NM-247-5',
-      'Norma de fuego: IRAM NM IEC 60332-1',
-      'Norma de conductores: IEC 60228 / IRAM NM 280',
-      'Conductor: Metal cobre electrolítico recocido en formación clase 5.',
-      'Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228',
-      'Cubierta externa: PVC Negro, no propagante de incendio',
-      'Aislacion: PVC'
+      'Temperatura máxima: 70° C de servicio, 160° C de cortocircuito.',
+      'Tensión nominal: 300/500 Volt.',
+      'Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable.',
+      'Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre.',
+      'Temperatura de montaje: igual o mayor a 5°C.'
     ],
-    applications: 'Instalaciones móviles industriales y domésticas, maquinaria de mano y aparatos portátiles en general.',
-    installation: 'Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable. Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre. Temperatura de montaje: igual o mayor a 5°C.',
     colors: [
       { label: 'Bipolar', values: ['Celeste', 'Marrón'], codes: ['#00AEEF', '#8B4513'] },
       { label: 'Tripolar', values: ['Verde-Amarillo', 'Celeste', 'Marrón'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#00AEEF', '#8B4513'] },
       { label: 'Tetrapolar', values: ['Verde-Amarillo', 'Negro', 'Celeste', 'Marrón'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#000000', '#00AEEF', '#8B4513'] },
       { label: 'Pentapolar', values: ['Verde-Amarillo', 'Negro', 'Celeste', 'Marrón', 'Rojo'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#000000', '#00AEEF', '#8B4513', '#FF0000'] }
     ],
-    specsTable: [
-      { "Sección nominal mm": "0,5", "Espesor nominal mm": "0,6", "Espesor cubierta mm": "0,8", "Diámetro exterior mm": "5,7", "Peso kg/km": "43", "Resistencia eléctrica a 20°C en CC Ohm/km": "39" },
-      { "Sección nominal mm": "0,75", "Espesor nominal mm": "0,6", "Espesor cubierta mm": "0,8", "Diámetro exterior mm": "6,2", "Peso kg/km": "52", "Resistencia eléctrica a 20°C en CC Ohm/km": "26" },
-      { "Sección nominal mm": "1,0", "Espesor nominal mm": "0,6", "Espesor cubierta mm": "0,8", "Diámetro exterior mm": "6,5", "Peso kg/km": "60", "Resistencia eléctrica a 20°C en CC Ohm/km": "19,5" },
-      { "Sección nominal mm": "1,5", "Espesor nominal mm": "0,7", "Espesor cubierta mm": "0,8", "Diámetro exterior mm": "7,4", "Peso kg/km": "80", "Resistencia eléctrica a 20°C en CC Ohm/km": "13,3" },
-      { "Sección nominal mm": "2,5", "Espesor nominal mm": "0,8", "Espesor cubierta mm": "1", "Diámetro exterior mm": "9,1", "Peso kg/km": "125", "Resistencia eléctrica a 20°C en CC Ohm/km": "7,98" },
-      { "Sección nominal mm": "4,0", "Espesor nominal mm": "0,8", "Espesor cubierta mm": "1,1", "Diámetro exterior mm": "10,4", "Peso kg/km": "172", "Resistencia eléctrica a 20°C en CC Ohm/km": "4,95" },
-      { "Sección nominal mm": "6,0", "Espesor nominal mm": "0,8", "Espesor cubierta mm": "1,3", "Diámetro exterior mm": "11,9", "Peso kg/km": "236", "Resistencia eléctrica a 20°C en CC Ohm/km": "3,3" },
-      { "Sección nominal mm": "10", "Espesor nominal mm": "1,0", "Espesor cubierta mm": "1,5", "Diámetro exterior mm": "15,1", "Peso kg/km": "389", "Resistencia eléctrica a 20°C en CC Ohm/km": "1,91" }
+    specsTables: [
+      {
+        title: "Bipolar",
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica (Ohm/km)"],
+        rows: [
+          ["0,5", "0,6", "0,8", "5,7", "43", "39"],
+          ["0,75", "0,6", "0,8", "6,2", "52", "26"],
+          ["1,0", "0,6", "0,8", "6,5", "60", "19,5"],
+          ["1,5", "0,7", "0,8", "7,4", "80", "13,3"],
+          ["2,5", "0,8", "1", "9,1", "125", "7,98"],
+          ["4,0", "0,8", "1,1", "10,4", "172", "4,95"],
+          ["6,0", "0,8", "1,3", "11,9", "236", "3,3"],
+          ["10", "1,0", "1,5", "15,1", "389", "1,91"]
+        ]
+      },
+      {
+        title: "Tripolar",
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica (Ohm/km)"],
+        rows: [
+          ["0,5", "0,6", "0,8", "6", "50", "39"],
+          ["0,75", "0,6", "0,8", "6,6", "62", "26"],
+          ["1,0", "0,6", "0,8", "6,9", "72", "19,5"],
+          ["1,5", "0,7", "0,9", "8,1", "101", "13,3"],
+          ["2,5", "0,8", "1,1", "9,9", "157", "7,98"],
+          ["4,0", "0,8", "1,2", "11,3", "219", "4,95"],
+          ["6,0", "0,8", "1,4", "12,9", "301", "3,3"],
+          ["10", "1,0", "1,6", "16", "486", "1,91"]
+        ]
+      },
+      {
+        title: "Tetrapolar",
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica (Ohm/km)"],
+        rows: [
+          ["0,5", "0,6", "0,8", "6,6", "60", "39"],
+          ["0,75", "0,6", "0,9", "7,2", "75", "26"],
+          ["1,0", "0,6", "0,9", "7,8", "91", "19,5"],
+          ["1,5", "0,7", "1", "9,1", "128", "13,3"],
+          ["2,5", "0,8", "1,1", "10,8", "191", "7,98"],
+          ["4,0", "0,8", "1,3", "12,5", "273", "4,95"],
+          ["6,0", "0,8", "1,4", "14,1", "371", "3,3"],
+          ["10", "1,0", "1,6", "17,8", "612", "1,91"]
+        ]
+      },
+      {
+        title: "Pentapolar",
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica (Ohm/km)"],
+        rows: [
+          ["0,5", "0,6", "0,8", "7,2", "72", "39"],
+          ["0,75", "0,6", "0,9", "8", "94", "26"],
+          ["1,0", "0,6", "0,9", "8,4", "110", "19,5"],
+          ["1,5", "0,7", "1,1", "10,1", "159", "13,3"],
+          ["2,5", "0,8", "1,2", "12", "237", "7,98"],
+          ["4,0", "0,8", "1,3", "13,7", "333", "4,95"],
+          ["6,0", "0,8", "1,5", "15,6", "459", "3,3"],
+          ["10", "1,0", "1,6", "19,5", "748", "1,91"]
+        ]
+      }
     ],
     certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'no-propagacion', 'marcacion-secuencial', 'instalacion-industrial', 'conductor-tierra', 'instalacion-domiciliaria'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
-  },
+  }
+,
   {
     id: 'aerea-preensamblado-aluminio',
     name: 'Preensamblado de Aluminio (cePRET)',
