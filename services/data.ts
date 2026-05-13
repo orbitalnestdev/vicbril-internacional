@@ -27,13 +27,8 @@ export const products: Product[] = [
     detailedDescription: `DESCRIPCIÓN
 Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.
 
-USO
-Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes.
-
-NORMAS
-IEC 60227-3 - IRAM NM 247-3
-Norma de fuego: IEC 60332-3-23 / IRAM NM IEC 60332-3-23 - No propagación de incendio.
-Norma de conductores: IEC 60228 / IRAM NM 280.`,
+APLICACIONES
+Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes.`,
     image: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/PORTADA.jpg',
     gallery: [
       '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/foto producto dentro de ficha tecnica.jpeg'
@@ -41,20 +36,22 @@ Norma de conductores: IEC 60228 / IRAM NM 280.`,
     technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/marcas disponibles unipolar pvc.jpg',
     pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/FICHA TECNICA UNIP PVC (REEMPLAZAR FOTO DE ABAJO).pdf',
     specs: ['450/750 V', '70°', 'PVC'],
-    technicalIntro: `CONSTRUCCIÓN
-Conductor: Cobre electrolítico recocido clase 5.
-Aislación: PVC.`,
-    characteristics: [
-      'Temperatura máxima: 70° C de servicio',
-      'Tensión normal: 450/750 Volt.',
-      'Montaje: Radio mínimo de curvatura igual a 7 x diámetro exterior del cable.',
-      'Tracción máxima: 5daN/mm² aplicados sobre los conductores.',
-      'Temperatura de montaje: igual o mayor a 5°C.'
-    ],
+    technicalIntro: `CARACTERÍSTICAS
+Temperatura máxima: 70° C de servicio
+Tensión normal: 450/750 Volt.
+Norma constructiva: IEC 60227-3 - IRAM NM 247-3
+Norma de fuego: IEC 60332-3-23 / IRAM NM IEC 60332-3-23 - No propagación de incendio.
+Norma de conductores: IEC 60228 / IRAM NM 280
+
+INSTALACIÓN
+Montaje: Radio mínimo de curvatura igual a 7 x diámetro exterior del cable
+Tracción máxima: 5daN/mm² aplicados sobre los conductores
+Temperatura de montaje: igual o mayor a 5°C`,
+    characteristics: [],
     specsTables: [
       {
         title: "Tabla de Datos Técnicos",
-        headers: ["Sección (mm²)", "Espesor Aisl. (mm)", "Diámetro Ext. (mm)", "Peso (kg/km)", "Resistencia (Ohm/km)", "Intensidad (A)"],
+        headers: ["Sección nominal (mm²)", "Espesor aislación (mm)", "Diámetro exterior (mm)", "Peso (kg/km)", "Resistencia eléctrica (Ohm/km)", "Intensidad admisible Amper (*)"],
         rows: [
           ["0,5", "0,60", "2,1", "8,2", "39", "4,8"],
           ["0,75", "0,60", "2,3", "10,8", "26", "7,2"],
@@ -75,7 +72,8 @@ Aislación: PVC.`,
           ["185", "2,00", "21,7", "1730", "0,106", "260"],
           ["240", "2,20", "25,1", "2256", "0,0801", "290"],
           ["300", "2,40", "28,3", "2796", "0,0641", "340"]
-        ]
+        ],
+        note: "(*) Valores para una temperatura ambiente de 40° C y temperatura en el conductor de 70° C para una terna de conductores instalados en cañería embutida en mampostería."
       }
     ],
     certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio'],
@@ -90,16 +88,8 @@ Aislación: PVC.`,
     detailedDescription: `DESCRIPCIÓN
 Conductores a instalar en lugares cerrados con alto tránsito de personas, por ejemplo cines, sanatorios, teatros, estaciones de trenes subterráneos, universidades, centros comerciales, escuelas, túneles de minas, etc; es decir todo lugar dónde la evacuación por incendio resulta difícil de resolver.
 
-USO
-Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes.
-
-NORMAS
-IRAM 62267
-Norma de fuego: IEC 60332-3-24 / IRAM NM IEC 60332-3-24 - No propagación de incendio.
-Norma de halógenos: IEC 60754 - 1/2 - Ausencia de halógenos.
-Norma de humos: IEC 61034 - Transparencia de humos.
-Norma de toxicidad: NES 713 / CEI 20-37 - Ausencia de tóxicos.
-Norma de conductores: IEC 60228 / IRAM NM 280.`,
+APLICACIONES
+Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes.`,
     image: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/foto producto dentro de ficha tecnica.jpeg'
@@ -107,20 +97,29 @@ Norma de conductores: IEC 60228 / IRAM NM 280.`,
     technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/MARCAS DISPONIBLES UNIPOLAR LSOH.jpg',
     pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/FICHA TECNICA UNIP. LSOH (REEMPLAZAR FOTO).pdf',
     specs: ['450/750 Volt', '70° C', 'IRAM 62267'],
-    technicalIntro: `CONSTRUCCIÓN
+    technicalIntro: `CARACTERÍSTICAS
+Temperatura máxima: 70° C de servicio
+Tensión normal: 450/750 Volt.
+Norma constructiva: IRAM 62267
+Norma de fuego: IEC 60332-3-24 / IRAM NM IEC 60332-3-24 - No propagación de incendio.
+Norma de halógenos: IEC 60754 - 1/2 - Ausencia de halógenos.
+Norma de humos: IEC 61034 - Transparencia de humos.
+Norma de toxicidad: NES 713 / CEI 20-37 - Ausencia de tóxicos.
+Norma de conductores: IEC 60228 / IRAM NM 280.
+
+CONSTRUCCIÓN
 Conductor: Metal cobre electrolítico recocido en formación clase 5.
-Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228.`,
-    characteristics: [
-      'Temperatura máxima: 70° C de servicio',
-      'Tensión normal: 450/750 Volt.',
-      'Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable.',
-      'Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre.',
-      'Temperatura de montaje: igual o mayor a 5°C.'
-    ],
+Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228.
+
+INSTALACIÓN
+Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable.
+Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre.
+Temperatura de montaje: igual o mayor a 5°C.`,
+    characteristics: [],
     specsTables: [
       {
         title: "Tabla de Datos Técnicos",
-        headers: ["Sección (mm²)", "Espesor Aisl. (mm)", "Diámetro Ext. (mm)", "Peso (kg/km)", "Resistencia (Ohm/km)", "Intensidad (A)"],
+        headers: ["Sección nominal (mm²)", "Espesor aislación (mm)", "Diámetro exterior (mm)", "Peso (kg/km)", "Resistencia eléctrica (Ohm/km)", "Intensidad admisible (A)"],
         rows: [
           ["0,5", "0,60", "2,1", "8,2", "39", "4,8"],
           ["0,75", "0,60", "2,3", "10,8", "26", "7,2"],
@@ -148,21 +147,18 @@ Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228.`,
   },
   {
     id: 'bipolar-vaina-chata',
-    name: 'Cable Envainado Chato',
+    name: 'Cable Envainado Chato (Bajo Plomo)',
     category: 'Cables para Instalación Civil',
     subCategory: '2-CABLE BIPOLAR',
     description: 'Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas.',
-    detailedDescription: `DESCRIPCIÓN
+    detailedDescription: `TIPO BAJO PLOMO
+MULTIPOLAR - PVC/PVC - 300/500 VOLT - 70°C
+
+DESCRIPCIÓN
 Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general, excluyendo los aparatos de calefacción.
 
-USO
-Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquinas - herramientas y equipamientos de mano. Los cables están permitidos para su conexión directa a la red eléctrica.
-Apto para uso industrial y domiciliario; incluye conductor de tierra verde/amarillo.
-
-NORMAS
-IEC 60227-7
-Norma de fuego: IRAM NM 60332-1
-Norma de conductores: IEC 60228 / IRAM NM 280`,
+APLICACIONES
+Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquinas - herramientas y equipamientos de mano. Los cables están permitidos para su conexión directa a la red eléctrica.`,
     image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/portada.jpg',
     gallery: [
       '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/foto producto dentro de ficha tecnica.png'
@@ -170,26 +166,33 @@ Norma de conductores: IEC 60228 / IRAM NM 280`,
     technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/MARCAS DISPONIBLES VAINA CHATA.jpg',
     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/FICHA TECNICA VAINA CHATA.pdf',
     specs: ['300/500 V', '70°', 'PVC/PVC'],
-    technicalIntro: `CONSTRUCCIÓN
+    technicalIntro: `CARACTERÍSTICAS
+Temperatura máxima: 70°C de servicio, 160°C de cortocircuito.
+Tensión nominal: 300/500 Volt.
+Norma constructiva: IEC 60227-7.
+Norma de fuego: IRAM NM 60332-1.
+Norma de conductores: IEC 60228 / IRAM NM 280.
 Conductor: Cobre electrolítico recocido en formación clase 5.
 Aislación: PVC.
-Cubierta: PVC negro, no propagante del incendio.
-Identificación: Color negro con identificación alfanumérica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo.`,
-    characteristics: [
-      'Temperatura máxima: 70°C de servicio, 160°C de cortocircuito.',
-      'Tensión nominal: 300/500 Volt.'
-    ],
+Identificación: Color negro con identificación alfanumerica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo en el total de conductores indicados.
+Cubierta: PVC negro, no propagante del incendio.`,
+    characteristics: [],
     colors: [
       { 
         label: 'Bipolar', 
-        values: ['Blanco', 'Marrón', 'Negro'], 
-        codes: ['#FFFFFF', '#8B4513', '#000000'] 
+        values: ['Celeste', 'Marrón'], 
+        codes: ['#00AEEF', '#8B4513'] 
+      },
+      { 
+        label: 'Tripolar', 
+        values: ['Verde-Amarillo', 'Celeste', 'Marrón'], 
+        codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#00AEEF', '#8B4513'] 
       }
     ],
     specsTables: [
       {
         title: "Tabla de Datos Técnicos",
-        headers: ["Formación (mm²)", "Diám. máx. alambres (mm)", "Espesor Aisl. (mm)", "Espesor Env. (mm)", "Dimensiones Ext. (mm)", "Masa (kg/km)", "Intensidad (A)", "Resistencia (Ohm/km)"],
+        headers: ["Formación N° x mm²", "Diámetro máx. alambres mm", "Espesor aislación nominal mm", "Espesor envoltura nominal mm", "Dimensiones exteriores aprox. mm", "Masa aprox. kg/km", "Intensidad admisible (A)", "Resistencia eléctrica máx a 20°C (Ohm/km)"],
         rows: [
           ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7", "19,5"],
           ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10", "13,3"],
@@ -209,10 +212,12 @@ Identificación: Color negro con identificación alfanumérica en color blanco o
     category: 'Cables para Instalación Civil',
     subCategory: '2-CABLE BIPOLAR',
     description: 'Cordones paralelos de cobre para alimentación de artefactos livianos y prolongaciones.',
-    detailedDescription: `DESCRIPCIÓN
-Conductores de cobre flexible dispuestos en paralelo con aislamiento de PVC. Ideales para conexiones de veladores, radios y electrodomésticos de baja potencia.
+    detailedDescription: `CABLE PARALELO (BIPOLAR) - 300/300V
 
-USO
+DESCRIPCIÓN
+Cordones paralelos de cobre para alimentación de artefactos livianos y prolongaciones. Ideales para conexiones de veladores, radios y electrodomésticos de baja potencia.
+
+APLICACIONES
 Instalaciones móviles y aparatos portátiles en general. Apto para uso doméstico y artefactos de iluminación.`,
     image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/portada.jpeg',
     gallery: [
@@ -221,12 +226,11 @@ Instalaciones móviles y aparatos portátiles en general. Apto para uso domésti
     technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/MARCAS DISPONIBLES PARALELO.jpg',
     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/FICHA TECNICA PARALELO.pdf',
     specs: ['300V', 'Flexible', 'PVC Blanco/Negro'],
-    technicalIntro: `CONSTRUCCIÓN
-Conductor: Cobre flexible formación clase 5.
+    technicalIntro: `CARACTERÍSTICAS
+Tensión nominal: 300/300V
+Conductor: Cobre flexible en formación clase 5.
 Aislación: PVC.`,
-    characteristics: [
-      'Tensión nominal: 300/500V'
-    ],
+    characteristics: [],
     specsTables: [
       {
         title: "Tabla de Datos Técnicos",
@@ -250,10 +254,12 @@ Aislación: PVC.`,
     category: 'Cables para Instalación Civil',
     subCategory: '2-CABLE BIPOLAR',
     description: 'Cables específicos para audio y parlantes con identificación de polaridad.',
-    detailedDescription: `DESCRIPCIÓN
+    detailedDescription: `CABLE PARALELO PARLANTE
+
+DESCRIPCIÓN
 Cordones de cobre flexible con aislación de PVC cristal o bicolor. Diseñados para la interconexión de sistemas de audio, garantizando fidelidad en la señal.
 
-USO
+APLICACIONES
 Interconexión de equipos de audio y aparatos portátiles. Diseñado para flexibilidad en instalaciones móviles.`,
     image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/portada.jpeg',
     gallery: [
@@ -262,12 +268,11 @@ Interconexión de equipos de audio y aparatos portátiles. Diseñado para flexib
     technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/MARCAS DISPONIBLES PARALELO PARLANTE.jpg',
     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE.pdf',
     specs: ['Audio', 'Extra flexible', 'Bicolor/Cristal'],
-    technicalIntro: `CONSTRUCCIÓN
+    technicalIntro: `CARACTERÍSTICAS
+Tensión nominal 300/500V.
 Conductor: Cobre flexible formación clase 5.
 Aislación: PVC cristal o bicolor.`,
-    characteristics: [
-      'Tensión nominal 300/500V'
-    ],
+    characteristics: [],
     colors: [
       { 
         label: 'Bipolar', 
@@ -294,16 +299,14 @@ Aislación: PVC cristal o bicolor.`,
     category: 'Cables para Instalación Civil',
     subCategory: '3-CABLE TIPO TALLER',
     description: 'Conductores diseñados para instalaciones móviles familiares, comerciales e industriales.',
-    detailedDescription: `DESCRIPCIÓN
+    detailedDescription: `BAJA TENSIÓN 300/500 VOLT
+MULTIPOLAR - PVC/PVC - 70° C - IRAM 247-5
+
+DESCRIPCIÓN
 Conductores diseñados para instalaciones móviles familiares, comerciales e industriales, máquinas manipuladas manualmente y dispositivos portátiles en general.
 
-USO
-Maquinaria de mano, electrodomésticos y aparatos portátiles.
-
-NORMAS
-IRAM NM-247-5
-Norma de fuego: IRAM NM IEC 60332-1
-Norma de conductores: IEC 60228 / IRAM NM 280`,
+APLICACIONES
+Instalaciones móviles industriales y domésticas, maquinaria de mano y aparatos portátiles en general.`,
     image: '/images/PRODUCTOS/3-CABLE TIPO TALLER/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/foto producto dentro de ficha tecnica.jpeg'
@@ -311,18 +314,22 @@ Norma de conductores: IEC 60228 / IRAM NM 280`,
     technicalTable: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/MARCAS DISPONIBLES TIPO TALLER.jpg',
     pdf: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/FICHA TECNICA TIPO TALLER (REEMPLAZAR FOTO).pdf',
     specs: ['300/500 V', '70°', 'IRAM 247-5'],
-    technicalIntro: `CONSTRUCCIÓN
+    technicalIntro: `CARACTERÍSTICAS
+Temperatura máxima: 70° C de servicio, 160° C de cortocircuito
+Tensión nominal: 300/ 500 Volt.
+Norma constructiva: IRAM NM-247-5
+Norma de fuego: IRAM NM IEC 60332-1
+Norma de conductores: IEC 60228 / IRAM NM 280
 Conductor: Metal cobre electrolítico recocido en formación clase 5.
-Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228.
-Aislación: PVC.
-Cubierta externa: PVC Negro, no propagante de incendio.`,
-    characteristics: [
-      'Temperatura máxima: 70° C de servicio, 160° C de cortocircuito.',
-      'Tensión nominal: 300/500 Volt.',
-      'Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable.',
-      'Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre.',
-      'Temperatura de montaje: igual o mayor a 5°C.'
-    ],
+Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228
+Cubierta externa: PVC Negro, no propagante de incendio
+Aislacion: PVC
+
+INSTALACIÓN
+Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable
+Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre.
+Temperatura de montaje: igual o mayor a 5°C.`,
+    characteristics: [],
     colors: [
       { label: 'Bipolar', values: ['Celeste', 'Marrón'], codes: ['#00AEEF', '#8B4513'] },
       { label: 'Tripolar', values: ['Verde-Amarillo', 'Celeste', 'Marrón'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#00AEEF', '#8B4513'] },
@@ -332,7 +339,7 @@ Cubierta externa: PVC Negro, no propagante de incendio.`,
     specsTables: [
       {
         title: "Bipolar",
-        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica (Ohm/km)"],
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica a 20°C en C.C Ohm/km"],
         rows: [
           ["0,5", "0,6", "0,8", "5,7", "43", "39"],
           ["0,75", "0,6", "0,8", "6,2", "52", "26"],
@@ -346,7 +353,7 @@ Cubierta externa: PVC Negro, no propagante de incendio.`,
       },
       {
         title: "Tripolar",
-        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica (Ohm/km)"],
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica a 20°C en C.C Ohm/km"],
         rows: [
           ["0,5", "0,6", "0,8", "6", "50", "39"],
           ["0,75", "0,6", "0,8", "6,6", "62", "26"],
@@ -360,7 +367,7 @@ Cubierta externa: PVC Negro, no propagante de incendio.`,
       },
       {
         title: "Tetrapolar",
-        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica (Ohm/km)"],
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica a 20°C en C.C Ohm/km"],
         rows: [
           ["0,5", "0,6", "0,8", "6,6", "60", "39"],
           ["0,75", "0,6", "0,9", "7,2", "75", "26"],
@@ -374,7 +381,7 @@ Cubierta externa: PVC Negro, no propagante de incendio.`,
       },
       {
         title: "Pentapolar",
-        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica (Ohm/km)"],
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica a 20°C en C.C Ohm/km"],
         rows: [
           ["0,5", "0,6", "0,8", "7,2", "72", "39"],
           ["0,75", "0,6", "0,9", "8", "94", "26"],
