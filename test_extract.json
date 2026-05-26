@@ -1,0 +1,141 @@
+{
+  "text": "PAYTON® XLPE 13,2 kV CATEGORÍA I -\nUNIPOLARES\nCables unipolares subterraneos de potencia, de cobre o aluminio, aislación de XLPE y\nenvoltura de PVC, PE, TPO HFFR o TPU.\nUsos: Instalaciones fijas, ya sea a la Normas: IRAM 2178-2 en concordancia con la\nintemperie, sobre bandejas, alojados en norma internacional IEC 60502-2.\nductos eléctricos o bien directamente Rango de fabricación: 35 a 630 mm2.\nenterrados.\n15\nDiámetro exterior Peso aproximado\nSección Diámetro del aproximado Cu Al\nnominal conduct",
+  "tables": [
+    [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        "15"
+      ]
+    ],
+    [
+      [
+        "Cu"
+      ],
+      [
+        "s/armar armado"
+      ],
+      [
+        "kg/km kg/km"
+      ],
+      [
+        "728 1028"
+      ],
+      [
+        "852 1177"
+      ],
+      [
+        "1096 1445"
+      ],
+      [
+        "1347 1730"
+      ],
+      [
+        "1621 2025"
+      ],
+      [
+        "1897 2305"
+      ],
+      [
+        "2227 2655"
+      ],
+      [
+        "2903 3368"
+      ],
+      [
+        "3374 3879"
+      ],
+      [
+        "4375 4947"
+      ],
+      [
+        "5203 5810"
+      ],
+      [
+        "-"
+      ]
+    ],
+    [
+      [
+        "Cu",
+        "Al",
+        "Cu"
+      ],
+      [
+        "Ohm/km",
+        "Ohm/km",
+        "Ohm/km"
+      ],
+      [
+        "0,524",
+        "-",
+        "0,668"
+      ],
+      [
+        "0,387",
+        "0,641",
+        "0,494"
+      ],
+      [
+        "0,268",
+        "0,443",
+        "0,342"
+      ],
+      [
+        "0,193",
+        "0,320",
+        "0,246"
+      ],
+      [
+        "0,153",
+        "0,253",
+        "0,195"
+      ],
+      [
+        "0,124",
+        "0,206",
+        "0,159"
+      ],
+      [
+        "0,0991",
+        "0,164",
+        "0,157"
+      ],
+      [
+        "0,0754",
+        "0,125",
+        "0,097"
+      ],
+      [
+        "0,0601",
+        "0,100",
+        "0,0766"
+      ],
+      [
+        "0,047",
+        "0,0778",
+        "0,0599"
+      ],
+      [
+        "0,0366",
+        "0,0605",
+        "-"
+      ],
+      [
+        "0,0283",
+        null,
+        ""
+      ]
+    ],
+    [
+      [
+        "",
+        ""
+      ]
+    ]
+  ]
+}

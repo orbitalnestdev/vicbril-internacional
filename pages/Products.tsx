@@ -8,58 +8,50 @@ import { Product } from '../types';
 const Products: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
-  const [activeCategory, setActiveCategory] = useState<string>('all');
-  const [activeSubCategory, setActiveSubCategory] = useState<string>('all');
+  const [activePath, setActivePath] = useState<string[]>([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<string>('');
 
   useEffect(() => {
-    const cat = searchParams.get('cat');
-    const sub = searchParams.get('sub');
-    if (cat) {
-      setActiveCategory(cat);
-      if (sub) {
-        setActiveSubCategory(sub);
+    const pathParam = searchParams.get('path');
+    const catParam = searchParams.get('cat');
+    if (pathParam) {
+      setActivePath(pathParam.split('||'));
+    } else if (catParam) {
+      const matchedCat = categories.find(c => c.id === catParam);
+      if (matchedCat) {
+        setActivePath([matchedCat.name]);
       } else {
-        setActiveSubCategory('all');
+        setActivePath([]);
       }
     } else {
-      setActiveCategory('all');
-      setActiveSubCategory('all');
+      setActivePath([]);
     }
   }, [searchParams]);
 
-  const handleCategoryChange = (catId: string) => {
-    setActiveCategory(catId);
-    setActiveSubCategory('all');
-    if (catId === 'all') {
+  const handlePathChange = (newPath: string[]) => {
+    setActivePath(newPath);
+    if (newPath.length === 0) {
       setSearchParams({});
     } else {
-      setSearchParams({ cat: catId });
+      setSearchParams({ path: newPath.join('||') });
     }
   };
 
-  const handleSubCategoryChange = (subName: string) => {
-    setActiveSubCategory(subName);
-    if (subName === 'all') {
-      setSearchParams({ cat: activeCategory });
-    } else {
-      setSearchParams({ cat: activeCategory, sub: subName });
-    }
-  };
-
-  const allProductsForCategory = activeCategory === 'all'
+  const filteredProducts = activePath.length === 0
     ? products
     : products.filter(p => {
-      const catName = categories.find(c => c.id === activeCategory)?.name;
-      return p.category === catName;
-    });
+        return activePath.every((segment, index) => p.categoryPath[index] === segment);
+      });
 
-  const subCategories = Array.from(new Set(allProductsForCategory.map(p => p.subCategory).filter(Boolean))) as string[];
-
-  const filteredProducts = activeSubCategory === 'all'
-    ? allProductsForCategory
-    : allProductsForCategory.filter(p => p.subCategory === activeSubCategory);
+  const currentDepth = activePath.length;
+  const nextLevelFolders = Array.from(new Set(
+    filteredProducts
+      .filter(p => p.categoryPath.length > currentDepth)
+      .map(p => p.categoryPath[currentDepth])
+  ));
+  
+  const visibleProducts = filteredProducts;
 
   const handleQuoteClick = (prodName: string) => {
     const phoneNumber = "5491131240403";
@@ -71,13 +63,18 @@ const Products: React.FC = () => {
     navigate(`/productos/${product.id}`);
   };
 
-  // Determine Banner Content
-  const currentCategoryInfo = categories.find(c => c.id === activeCategory);
+  const rootCategoryName = activePath.length > 0 ? activePath[0] : null;
+  const currentCategoryInfo = categories.find(c => c.name === rootCategoryName);
   const bannerImage = currentCategoryInfo
     ? currentCategoryInfo.banner
-    : '/images/vicbril-hero-1.jpg'; // Default Industrial Warehouse
+    : '/images/vicbril-hero-1.jpg';
 
-  const pageTitle = currentCategoryInfo ? currentCategoryInfo.name.toUpperCase() : 'CONDUCTORES ELÉCTRICOS';
+  const formatCategoryName = (name: string) => {
+    if (!name) return '';
+    return name.replace(/^\d+[-_ ]*/, '');
+  };
+
+  const pageTitle = currentCategoryInfo ? formatCategoryName(currentCategoryInfo.name).toUpperCase() : 'CONDUCTORES ELÉCTRICOS';
   const pageSubtitle = 'Nuestro Catálogo';
 
   return (
@@ -112,9 +109,9 @@ const Products: React.FC = () => {
 
             {/* Header Actions */}
             <div className="flex flex-wrap gap-4">
-              {activeCategory !== 'all' && (
+              {activePath.length > 0 && (
                 <button
-                  onClick={() => handleCategoryChange('all')}
+                  onClick={() => handlePathChange([])}
                   className="flex items-center text-xs font-bold uppercase tracking-widest text-slate-300 hover:text-white transition px-4 py-3"
                 >
                   <ChevronRight className="rotate-180 mr-2" size={14} /> Ver Todo
@@ -128,7 +125,7 @@ const Products: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row gap-12">
 
-          {/* Sidebar Filter - Technical Look */}
+          {/* Sidebar Filter */}
           <aside className="w-full lg:w-72 flex-shrink-0">
             <div className="sticky top-32">
               <div className="bg-white border border-gray-200 p-6 shadow-sm">
@@ -139,39 +136,45 @@ const Products: React.FC = () => {
 
                 <div className="space-y-1">
                   <button
-                    onClick={() => handleCategoryChange('all')}
-                    className={`w-full text-left px-4 py-3 text-sm flex justify-between items-center transition-colors border-l-2 ${activeCategory === 'all' ? 'bg-slate-50 border-orange-600 text-slate-900 font-bold' : 'border-transparent text-slate-500 hover:text-slate-900'}`}
+                    onClick={() => handlePathChange([])}
+                    className={`w-full text-left px-4 py-3 text-sm flex justify-between items-center transition-colors border-l-2 ${activePath.length === 0 ? 'bg-slate-50 border-orange-600 text-slate-900 font-bold' : 'border-transparent text-slate-500 hover:text-slate-900'}`}
                   >
                     Todos
-                    {activeCategory === 'all' && <ChevronRight size={14} />}
+                    {activePath.length === 0 && <ChevronRight size={14} />}
                   </button>
-                  {categories.map(cat => (
-                    <div key={cat.id}>
-                      <button
-                        onClick={() => handleCategoryChange(cat.id)}
-                        className={`w-full text-left px-4 py-3 text-sm flex justify-between items-center transition-colors border-l-2 ${activeCategory === cat.id ? 'bg-slate-50 border-orange-600 text-slate-900 font-bold' : 'border-transparent text-slate-500 hover:text-slate-900'}`}
-                      >
-                        {cat.name}
-                        {activeCategory === cat.id && <ChevronRight size={14} />}
-                      </button>
-
-                      {/* Nested Subcategories in Sidebar */}
-                      {activeCategory === cat.id && subCategories.length > 0 && (
-                        <div className="bg-slate-50/50 pb-2 animate-in slide-in-from-top-2 duration-300">
-                          {subCategories.map((sub, j) => (
-                            <button
-                              key={j}
-                              onClick={() => handleSubCategoryChange(sub)}
-                              className={`w-full text-left pl-8 pr-4 py-2 text-[11px] font-bold uppercase tracking-widest transition-colors flex items-center ${activeSubCategory === sub ? 'text-orange-600' : 'text-slate-400 hover:text-slate-700'}`}
-                            >
-                              <div className={`w-1.5 h-1.5 rounded-full mr-2 ${activeSubCategory === sub ? 'bg-orange-600' : 'bg-slate-300'}`}></div>
-                              {sub}
-                            </button>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  ))}
+                  {categories.map(cat => {
+                    const isExpanded = activePath.length > 0 && activePath[0] === cat.name;
+                    return (
+                      <div key={cat.id}>
+                        <button
+                          onClick={() => handlePathChange([cat.name])}
+                          className={`w-full text-left px-4 py-3 text-sm flex justify-between items-center transition-colors border-l-2 ${isExpanded ? 'bg-slate-50 border-orange-600 text-slate-900 font-bold' : 'border-transparent text-slate-500 hover:text-slate-900'}`}
+                        >
+                          {formatCategoryName(cat.name)}
+                          {isExpanded && <ChevronRight size={14} className="rotate-90" />}
+                        </button>
+                        
+                        {/* Nested Subcategories in Sidebar */}
+                        {isExpanded && (
+                          <div className="bg-slate-50/50 pb-2 animate-in slide-in-from-top-2 duration-300">
+                            {Array.from(new Set(products.filter(p => p.categoryPath && p.categoryPath[0] === cat.name && p.categoryPath.length > 1).map(p => p.categoryPath[1]))).map((sub, j) => {
+                              const isActiveSub = activePath.length > 1 && activePath[1] === sub;
+                              return (
+                                <button
+                                  key={j}
+                                  onClick={() => handlePathChange([cat.name, sub])}
+                                  className={`w-full text-left pl-8 pr-4 py-2 text-[11px] font-bold uppercase tracking-widest transition-colors flex items-center ${isActiveSub ? 'text-orange-600' : 'text-slate-400 hover:text-slate-700'}`}
+                                >
+                                  <div className={`w-1.5 h-1.5 rounded-full mr-2 ${isActiveSub ? 'bg-orange-600' : 'bg-slate-300'}`}></div>
+                                  {formatCategoryName(sub)}
+                                </button>
+                              );
+                            })}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
 
@@ -188,55 +191,65 @@ const Products: React.FC = () => {
           <div className="flex-1">
             {/* Breadcrumbs / Back button */}
             <div className="mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
+              <div className="flex flex-wrap items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
                 <Link to="/" className="hover:text-orange-600 transition-colors">Inicio</Link>
-                <ChevronRight size={10} className="text-slate-300" />
-                {activeCategory === 'all' ? (
+                <ChevronRight size={10} className="text-slate-300 flex-shrink-0" />
+                {activePath.length === 0 ? (
                   <span className="text-orange-600">Catálogo</span>
                 ) : (
                   <>
                     <Link to="/productos" className="hover:text-orange-600 transition-colors">Catálogo</Link>
-                    <ChevronRight size={10} className="text-slate-300" />
-                    <span className={activeSubCategory === 'all' ? 'text-orange-600' : 'text-slate-900'}>
-                      {currentCategoryInfo?.name}
-                    </span>
-                    {activeSubCategory !== 'all' && (
-                      <>
-                        <ChevronRight size={10} className="text-slate-300" />
-                        <span className="text-orange-600">{activeSubCategory}</span>
-                      </>
-                    )}
+                    {activePath.map((segment, index) => (
+                      <React.Fragment key={index}>
+                        <ChevronRight size={10} className="text-slate-300 flex-shrink-0" />
+                        {index === activePath.length - 1 ? (
+                          <span className="text-orange-600 break-words">{formatCategoryName(segment)}</span>
+                        ) : (
+                          <button 
+                            onClick={() => handlePathChange(activePath.slice(0, index + 1))}
+                            className="hover:text-orange-600 transition-colors truncate max-w-[150px]"
+                            title={formatCategoryName(segment)}
+                          >
+                            {formatCategoryName(segment)}
+                          </button>
+                        )}
+                      </React.Fragment>
+                    ))}
                   </>
                 )}
               </div>
 
-              {activeCategory !== 'all' && (
+              {activePath.length > 0 && (
                 <button
-                  onClick={() => activeSubCategory !== 'all' ? handleSubCategoryChange('all') : handleCategoryChange('all')}
-                  className="flex items-center text-xs font-bold uppercase tracking-widest text-slate-900 hover:text-orange-600 transition group"
+                  onClick={() => handlePathChange(activePath.slice(0, -1))}
+                  className="flex items-center text-xs font-bold uppercase tracking-widest text-slate-900 hover:text-orange-600 transition group flex-shrink-0"
                 >
                   <ArrowLeft size={14} className="mr-2 group-hover:-translate-x-1 transition-transform" /> 
-                  {activeSubCategory !== 'all' ? 'Volver a Subcategorías' : 'Ver Todas las Líneas'}
+                  Volver Atrás
                 </button>
               )}
             </div>
 
-            {/* If Category has subcategories and none is selected, show Subcategory folders with IMAGES */}
-            {activeCategory !== 'all' && subCategories.length > 0 && activeSubCategory === 'all' ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {subCategories.map((sub, i) => {
+            {/* Folders */}
+            {nextLevelFolders.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                {nextLevelFolders.map((sub, i) => {
                   const subCategoryImages: Record<string, string> = {
                     '1-CABLE UNIPOLAR': '/images/PRODUCTOS/1-CABLE UNIPOLAR/PORTADA.png',
                     '2-CABLE BIPOLAR': '/images/PRODUCTOS/2-CABLE BIPOLAR/portada.jpeg',
-                    '3-CABLE TIPO TALLER': '/images/PRODUCTOS/3-CABLE TIPO TALLER/PORTADA.jpeg'
+                    '3-CABLE TIPO TALLER': '/images/PRODUCTOS/3-CABLE TIPO TALLER/PORTADA.jpeg',
+                    '3-CONCENTRICOS (ANTIHURTO)': '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/PORTADA.jpeg',
+                    '1-CONCENTRICOS ALUMINIO': '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+                    '2-CONCENTRICOS COBRE': '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg'
                   };
 
-                  const folderImage = subCategoryImages[sub] || allProductsForCategory.find(p => p.subCategory === sub)?.image;
+                  const productsInThisFolder = filteredProducts.filter(p => p.categoryPath[currentDepth] === sub);
+                  const folderImage = subCategoryImages[sub] || productsInThisFolder[0]?.image || '/images/vicbril-hero-1.jpg';
 
                   return (
                     <div
                       key={i}
-                      onClick={() => handleSubCategoryChange(sub)}
+                      onClick={() => handlePathChange([...activePath, sub])}
                       className="group cursor-pointer"
                     >
                       <div className="bg-white border border-gray-200 overflow-hidden shadow-sm group-hover:border-orange-500 transition-all duration-500">
@@ -252,9 +265,9 @@ const Products: React.FC = () => {
                           </div>
                         </div>
                         <div className="p-6 text-center">
-                          <h3 className="font-oswald font-bold text-lg text-slate-900 uppercase tracking-tight mb-2 group-hover:text-orange-600 transition-colors">{sub}</h3>
+                          <h3 className="font-oswald font-bold text-lg text-slate-900 uppercase tracking-tight mb-2 group-hover:text-orange-600 transition-colors">{formatCategoryName(sub)}</h3>
                           <p className="text-[10px] text-slate-400 font-bold uppercase tracking-[0.2em] flex items-center justify-center">
-                            {allProductsForCategory.filter(p => p.subCategory === sub).length} Productos
+                            {productsInThisFolder.length} Elementos
                             <ChevronRight size={12} className="ml-1 group-hover:translate-x-1 transition-transform" />
                           </p>
                         </div>
@@ -263,9 +276,12 @@ const Products: React.FC = () => {
                   );
                 })}
               </div>
-            ) : (
+            ) : null}
+
+            {/* Products */}
+            {visibleProducts.length > 0 && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {filteredProducts.map(product => (
+                {visibleProducts.map(product => (
                   <div key={product.id} className="bg-white border border-gray-200 hover:border-orange-300 transition-colors duration-300 group flex flex-col h-full overflow-hidden">
                     <div
                       className="w-full h-64 relative overflow-hidden bg-gray-100 cursor-pointer"
@@ -273,7 +289,7 @@ const Products: React.FC = () => {
                     >
                       <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                       <div className="absolute top-4 left-4">
-                        <span className="text-[10px] font-bold text-slate-900 bg-white/90 backdrop-blur uppercase tracking-widest px-3 py-1 shadow-sm">{product.category}</span>
+                        <span className="text-[10px] font-bold text-slate-900 bg-white/90 backdrop-blur uppercase tracking-widest px-3 py-1 shadow-sm">{formatCategoryName(product.categoryPath && product.categoryPath[0])}</span>
                       </div>
                       <div className="absolute inset-0 bg-slate-900/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <span className="bg-white text-slate-900 text-[10px] font-bold uppercase tracking-[0.2em] px-6 py-3">Ver Detalles</span>
@@ -286,7 +302,7 @@ const Products: React.FC = () => {
 
                       <div className="space-y-4">
                         <div className="flex flex-wrap gap-2">
-                          {product.specs.map((spec, i) => (
+                          {product.specs && product.specs.map((spec, i) => (
                             <span key={i} className="text-[10px] bg-slate-100 text-slate-600 px-2 py-1 font-medium">{spec}</span>
                           ))}
                         </div>
@@ -310,11 +326,12 @@ const Products: React.FC = () => {
                 ))}
               </div>
             )}
-
-            {filteredProducts.length === 0 && (
-              <div className="text-center py-20 bg-white border border-dashed border-gray-300">
-                <Search size={48} className="mx-auto text-gray-300 mb-4" />
-                <p className="text-gray-500 font-medium">No se encontraron productos en esta categoría.</p>
+            
+            {nextLevelFolders.length === 0 && visibleProducts.length === 0 && (
+              <div className="text-center py-20 bg-white border border-gray-200">
+                <Folder size={48} className="mx-auto text-slate-200 mb-4" />
+                <h3 className="text-xl font-oswald font-bold text-slate-900 mb-2">No hay elementos aquí</h3>
+                <p className="text-slate-500">Intenta navegar hacia otra categoría.</p>
               </div>
             )}
           </div>

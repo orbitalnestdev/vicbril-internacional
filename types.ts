@@ -7,15 +7,14 @@ export interface ProductColor {
 export interface Product {
   id: string;
   name: string;
-  category: string;
-  description: string;
+    description: string;
   detailedDescription?: string;
   image: string;
   gallery?: string[];
   technicalTable?: string;
   pdf?: string;
   specs: string[];
-  subCategory?: string;
+  categoryPath: string[];
   characteristics?: string[];
   applications?: string;
   installation?: string;
@@ -36,8 +35,8 @@ export interface Product {
 export interface Category {
   id: string;
   name: string;
-  slug: string;
-  image: string;
+  slug?: string;
+  image?: string;
   banner: string;
 }
 

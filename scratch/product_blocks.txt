@@ -1,0 +1,896 @@
+=== subterraneo-xlpe-aluminio ===
+{
+    id: 'subterraneo-xlpe-aluminio',
+    name: 'SUBTERRANEO XLPE',
+    categoryPath: ['Cables de Potencia','Subterráneos','Subterráneo Aluminio'],
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
+    detailedDescription: 'Cables subterráneos de potencia, de cobre o aluminio, con aislación XLPE  y vaina de PVC, para tensiones de servicios de 1.1 Kv. Cables de energía y potencia para múltiples aplicaciones. Normas: IRAM NM 247-1, la identificación de',
+    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO ALUMINIO/SUBTERRANEO XLPE/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO ALUMINIO/SUBTERRANEO XLPE/FICHA TECNICA/ficha tecnica subte aluminio xlpe.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [
+  {
+    title: "Especificaciones",
+    headers: [
+      "Sección nominal",
+      "Diám. del alambre",
+      "Espesor de la aislación",
+      "Espesor nominal vaina",
+      "Diam. exterior del cable 1",
+      "Peso final del cable 1"
+    ],
+    rows: [
+      [
+        "mm2",
+        "mm",
+        "mm",
+        "mm",
+        "mm",
+        "Kg/Km"
+      ],
+      [
+        "1.50",
+        "0.26",
+        "0.80",
+        "1.40",
+        "5.9",
+        "56"
+      ]
+    ]
+  },
+  {
+    title: "Especificaciones",
+    headers: [
+      "N° de Fases",
+      "Celeste",
+      "Marrón",
+      "Rojo",
+      "Negro",
+      "Verde",
+      "Violeta"
+    ],
+    rows: [
+      [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "aammaarriilllloo",
+        "-"
+      ],
+      [
+        "1",
+        "-",
+        "•",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "2",
+        "•",
+        "•",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "3",
+        "-",
+        "•",
+        "•",
+        "•",
+        "-",
+        "-"
+      ],
+      [
+        "4",
+        "•",
+        "•",
+        "•",
+        "•",
+        "-",
+        "-"
+      ],
+      [
+        "5",
+        "•",
+        "•",
+        "•",
+        "•",
+        "-",
+        "-"
+      ],
+      [
+        "Vaina",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "•"
+      ]
+    ]
+  },
+  {
+    title: "Especificaciones",
+    headers: [
+      "Sección nominal",
+      "Diam. conductor",
+      "Espesor de la aislación",
+      "Espesor nominal vaina",
+      "Diam. exterior del cable 1",
+      "",
+      "Peso final del cable (Cu) 1",
+      "Peso final del cable (Al) 1"
+    ],
+    rows: [
+      [
+        "mm2",
+        "mm",
+        "mm",
+        "mm",
+        "mm",
+        "-",
+        "Kg/Km",
+        "Kg/Km"
+      ],
+      [
+        "3x50",
+        "-",
+        "1.0",
+        "2.0",
+        "25",
+        "-",
+        "1794",
+        "933"
+      ],
+      [
+        "3x70 - 1.1 2.1 29",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "2521",
+        "1224"
+      ],
+      [
+        "3x95",
+        "-",
+        "1.1",
+        "2.2",
+        "33",
+        "-",
+        "3261",
+        "1586"
+      ],
+      [
+        "3x120 - 1.2 2.4 35",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "4089",
+        "1908"
+      ],
+      [
+        "3x150",
+        "-",
+        "1.48",
+        "2.5",
+        "42",
+        "-",
+        "5016",
+        "2302"
+      ],
+      [
+        "3x185 - 1.70 2.50 42",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "6143",
+        "2636"
+      ],
+      [
+        "3x240",
+        "-",
+        "1.80",
+        "2.80",
+        "52",
+        "-",
+        "7871",
+        "3327"
+      ],
+      [
+        "3x300",
+        "-",
+        "1.90",
+        "3.00",
+        "56",
+        "-",
+        "9795",
+        "4039"
+      ],
+      [
+        "3x25+16",
+        "-",
+        "1.2/1.0",
+        "1.8",
+        "26",
+        "-",
+        "-",
+        "635"
+      ],
+      [
+        "3x35+16",
+        "-",
+        "1.2/1.0",
+        "1.8",
+        "28",
+        "-",
+        "-",
+        "758"
+      ],
+      [
+        "3x50+25",
+        "-",
+        "1.0/0.9",
+        "1.9",
+        "27",
+        "-",
+        "1900",
+        "843"
+      ],
+      [
+        "3x70+35",
+        "-",
+        "1.1/0.9",
+        "2",
+        "31",
+        "-",
+        "2660",
+        "1102"
+      ],
+      [
+        "3x95+50",
+        "-",
+        "1.1/1.0",
+        "2.2",
+        "35",
+        "-",
+        "3524",
+        "1442"
+      ],
+      [
+        "3x120+70",
+        "-",
+        "1.2/1.1",
+        "2.3",
+        "39",
+        "-",
+        "4545",
+        "1840"
+      ],
+      [
+        "3x150+70",
+        "-",
+        "1.5/1.1",
+        "2.5",
+        "42",
+        "-",
+        "5719",
+        "2443"
+      ],
+      [
+        "3x185+95",
+        "-",
+        "1.7/1.1",
+        "2.7",
+        "46",
+        "-",
+        "7084",
+        "2981"
+      ],
+      [
+        "3x240+120",
+        "-",
+        "1.8/1.2",
+        "2.9",
+        "51",
+        "-",
+        "9092",
+        "3786"
+      ],
+      [
+        "3x300+150",
+        "-",
+        "1.9/1.4",
+        "3.1",
+        "59",
+        "11000",
+        "11000",
+        "4589"
+      ]
+    ]
+  },
+  {
+    title: "Especificaciones",
+    headers: [
+      "Sección nominal",
+      "Corriente Adm, aires unipolares",
+      "Corriente Adm, aire Multipolares",
+      "Corriente Adm, enterrados unipolares",
+      "Corriente Adm, enterrados multipolares",
+      "Caída de tensión unipolares",
+      "Caída de tensión Multipolares"
+    ],
+    rows: [
+      [
+        "mm2",
+        "A",
+        "A",
+        "A",
+        "A",
+        "V/A km",
+        "V/A km"
+      ],
+      [
+        "1.5",
+        "19",
+        "24",
+        "32",
+        "34",
+        "21",
+        "21"
+      ]
+    ]
+  },
+  {
+    title: "Especificaciones",
+    headers: [
+      "Características eléctricas cables de cobre Sección Corriente Adm, Corriente Adm, Corriente Adm, Corriente Adm, Caída de tensión Caída de tensión nominal aires unipolares aire Multipolares enterrados enterrados unipolares Multipolares unipolares multipolares mm2 A A A A V/A km V/A km 35 144 168 189 210 1.09 1.01 50 175 205 231 251 0.84 0.76 70 224 263 280 307 0.63 0.55 95 271 320 327 369 0.49 0.42 120 315 373 379 420 0.42 0.35 150 363 430 424 472 0.37 0.29 185 415 493 473 535 0.32 0.25 240 489 583 555 626 0.28 0.21 300 565 674 624 704 0.27 0.18",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    rows: [
+      [
+        "-",
+        "Sección nominal",
+        "Corriente Adm, aires unipolares",
+        "Corriente Adm, aire Multipolares",
+        "Corriente Adm, enterrados unipolares",
+        "Corriente Adm, enterrados multipolares",
+        "Caída de tensión unipolares",
+        "Caída de tensión Multipolares",
+        "-"
+      ],
+      [
+        "-",
+        "mm2",
+        "A",
+        "A",
+        "A",
+        "A",
+        "V/A km",
+        "V/A km",
+        "-"
+      ],
+      [
+        "-",
+        "35",
+        "144",
+        "168",
+        "189",
+        "210",
+        "1.09",
+        "1.01",
+        "-"
+      ],
+      [
+        "-",
+        "50",
+        "175",
+        "205",
+        "231",
+        "251",
+        "0.84",
+        "0.76",
+        "-"
+      ],
+      [
+        "-",
+        "70",
+        "224",
+        "263",
+        "280",
+        "307",
+        "0.63",
+        "0.55",
+        "-"
+      ],
+      [
+        "-",
+        "95",
+        "271",
+        "320",
+        "327",
+        "369",
+        "0.49",
+        "0.42",
+        "-"
+      ],
+      [
+        "-",
+        "120",
+        "315",
+        "373",
+        "379",
+        "420",
+        "0.42",
+        "0.35",
+        "-"
+      ],
+      [
+        "-",
+        "150",
+        "363",
+        "430",
+        "424",
+        "472",
+        "0.37",
+        "0.29",
+        "-"
+      ],
+      [
+        "-",
+        "185",
+        "415",
+        "493",
+        "473",
+        "535",
+        "0.32",
+        "0.25",
+        "-"
+      ],
+      [
+        "-",
+        "240",
+        "489",
+        "583",
+        "555",
+        "626",
+        "0.28",
+        "0.21",
+        "-"
+      ],
+      [
+        "-",
+        "300",
+        "565",
+        "674",
+        "624",
+        "704",
+        "0.27",
+        "0.18",
+        "-"
+      ]
+    ]
+  }
+
+=== subterraneo-xlpe-cobre ===
+{
+    id: 'subterraneo-xlpe-cobre',
+    name: 'SUBTERRANEO XLPE',
+    categoryPath: ['Cables de Potencia','Subterráneos','Subterráneo Cobre'],
+    description: 'Cables de energía, aislados con dieléctricos sólidos para  una tensión nominal U0/U/Um de',
+    detailedDescription: 'Cables de energía, aislados con dieléctricos sólidos para Cables de energía, aislados con dieléctricos sólidos para  una tensión nominal U0/U/Um de Normas: IRAM 2178-1',
+    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO XLPE/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO XLPE/FICHA TECNICA/ficha tecnica subte cobre xlpe.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [
+  {
+    title: "Especificaciones",
+    headers: [
+      "3 Una sola capa fijada debajo de cielorraso. 0.95 0.81 0.72 0.68 0.66 0.64 0.63 0.62",
+      ""
+    ],
+    rows: [
+      [
+        "reducción 4 Una sola capa sobre más de n una bandeja perforada 1.00 0.88 0.82 0.77 0.75 0.73 0.73 0.72 0.72 circuitos o horizontal o vertical. multipola 5 Una sola capa sobre bandeja tipo escalera 1.00 0.87 0.82 0.80 0.80 0.79 0.79 0.78 0.78 o engrapada.",
+        "para ueve cables res. Métodos E y F"
+      ],
+      [
+        "5 Una sola capa sobre bandeja tipo escalera 1.00 0.87 0.82 0.80 0.80 0.79 0.79 0.78 o engrapada.",
+        "-"
+      ]
+    ]
+  }
+],
+    certifications: []
+  }
+
+=== 2-para-bomba-sumergible ===
+{
+    id: '2-para-bomba-sumergible',
+    name: '2-PARA BOMBA SUMERGIBLE',
+    categoryPath: ['Cables de Potencia','Bomba Sumergible'],
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
+    detailedDescription: 'cables llevan un marcado secuencial metro a metro sobre su vaina  exterior, facilitando el corte a medida exacta. Cables de energía y potencia para múltiples aplicaciones. Normas: IRAM NM-280',
+    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/2-PARA BOMBA SUMERGIBLE/foto ficha tecnica(1).jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/2-PARA BOMBA SUMERGIBLE/FICHA TECNICA BOMBA SUMERGIBLE.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [
+  {
+    title: "Características Dimensionales",
+    headers: [
+      "Código",
+      "Formación",
+      "Espesor aislación (mm)",
+      "Espesor vaina (mm)",
+      "Medidas aprox. (mm)",
+      "Peso aprox. (kgs/100m)"
+    ],
+    rows: [
+      [
+        "B150",
+        "3 x 1,50",
+        "1,2",
+        "1,5",
+        "15 x 7,15",
+        "20"
+      ],
+      [
+        "B250",
+        "3 x 2,50",
+        "1,2",
+        "1,4",
+        "16,60 x 7,90",
+        "28"
+      ]
+    ]
+  }
+],
+    certifications: []
+  }
+
+=== 3-para-variador-de-frecuencia ===
+{
+    id: '3-para-variador-de-frecuencia',
+    name: '3-PARA VARIADOR DE FRECUENCIA',
+    categoryPath: ['Cables de Potencia','Variador de Frecuencia'],
+    description: 'Alimentación de motores con variadores de frecuencia. (VDF)  Características Temperatura máxima: 90ºC de servicio, 13...',
+    detailedDescription: 'cables pueden ser suministrados con cuerdas semirígidas en clase 2. Alimentación de motores con variadores de frecuencia. (VDF)  Características Temperatura máxima: 90ºC de servicio, 13... Normas: constructiva: IEC 60502-1 / IRAM 2178.',
+    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/3-PARA VARIADOR DE FRECUENCIA/foto ficha tecnica(1).jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/3-PARA VARIADOR DE FRECUENCIA/FICHA TECNICA VDF.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [
+  {
+    title: "Dimensiones y Pesos",
+    headers: [
+      "Sección (N° x mm²)",
+      "Código",
+      "Diam. bajo armadura (mm)",
+      "Diámetro exterior (mm)",
+      "Peso (kg/km)"
+    ],
+    rows: [
+      [
+        "3x1",
+        "BX 0310",
+        "7,7",
+        "12,7",
+        "233"
+      ],
+      [
+        "3x1,5",
+        "BX 0315",
+        "8,4",
+        "13,4",
+        "259"
+      ],
+      [
+        "3x2,5",
+        "BX 0325",
+        "9,3",
+        "14,3",
+        "300"
+      ],
+      [
+        "3x4",
+        "BX 0340",
+        "10,3",
+        "15,3",
+        "359"
+      ],
+      [
+        "3x6",
+        "BX 0360",
+        "11,7",
+        "16,7",
+        "443"
+      ],
+      [
+        "3x10",
+        "BX 3100",
+        "14,0",
+        "19,0",
+        "646"
+      ],
+      [
+        "3x16",
+        "BX 3160",
+        "16,0",
+        "21,0",
+        "892"
+      ],
+      [
+        "3x25",
+        "BX 3250",
+        "19,5",
+        "24,5",
+        "1230"
+      ],
+      [
+        "3x35",
+        "BX 3350",
+        "21,7",
+        "26,7",
+        "1553"
+      ],
+      [
+        "3x50",
+        "BX 3500",
+        "25,1",
+        "30,1",
+        "2118"
+      ],
+      [
+        "3x70",
+        "BX 3700",
+        "30,3",
+        "35,7",
+        "2997"
+      ],
+      [
+        "3x95",
+        "BX 3950",
+        "34,6",
+        "41,3",
+        "3909"
+      ],
+      [
+        "3x120",
+        "BX 31200",
+        "38,0",
+        "44,9",
+        "5174"
+      ],
+      [
+        "3x150",
+        "BX 31500",
+        "44,1",
+        "51,4",
+        "6085"
+      ],
+      [
+        "3x185",
+        "BX 31850",
+        "47,9",
+        "55,4",
+        "7387"
+      ],
+      [
+        "3x240",
+        "BX 32400",
+        "55,3",
+        "63,2",
+        "9697"
+      ],
+      [
+        "3x300",
+        "BX 33000",
+        "61,7",
+        "70,0",
+        "12009"
+      ]
+    ]
+  }
+],
+    certifications: []
+  }
+
+=== 13-2-kv-aluminio ===
+{
+    id: '13-2-kv-aluminio',
+    name: '13,2 KV',
+    categoryPath: ['Cables de Media Tensión','Aluminio','13.2 kV'],
+    description: 'Instalaciones fijas, ya sea a la  intemperie, sobre bandejas, alojados en  ductos eléctricos o bien directamente',
+    detailedDescription: 'Cables unipolares subterraneos de potencia, de cobre o aluminio, aislación de XLPE y  envoltura de PVC, PE, TPO HFFR o TPU. Instalaciones fijas, ya sea a la  intemperie, sobre bandejas, alojados en  ductos eléctricos o bien directamente Normas: IRAM 2178-2 en concordancia con la',
+    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/13,2 KV/portada.jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/13,2 KV/FICHA TECNICA MT 13.2KV ALUMINIO.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [
+      {
+        title: "DIMENSIONES Y PESOS APROXIMADOS",
+        headers: [
+          "Sección",
+          "Diám. cond.",
+          "Diám. ext s/arm",
+          "Diám. ext arm",
+          "Peso s/arm",
+          "Peso arm"
+        ],
+        rows: [
+          [
+            "35",
+            "7,05",
+            "19,65",
+            "24,55",
+            "-",
+            "-"
+          ],
+          [
+            "50",
+            "8,1",
+            "20,7",
+            "25,6",
+            "-",
+            "-"
+          ],
+          [
+            "70",
+            "9,9",
+            "22,5",
+            "27,4",
+            "679",
+            "1027"
+          ],
+          [
+            "95",
+            "11,5",
+            "24,1",
+            "29,2",
+            "783",
+            "1166"
+          ],
+          [
+            "120",
+            "13,05",
+            "25,65",
+            "30,75",
+            "893",
+            "1296"
+          ],
+          [
+            "150",
+            "14,4",
+            "27",
+            "32,3",
+            "1009",
+            "1417"
+          ],
+          [
+            "185",
+            "15,95",
+            "28,8",
+            "33,85",
+            "1136",
+            "1565"
+          ],
+          [
+            "240",
+            "18,65",
+            "31,7",
+            "36,75",
+            "1396",
+            "1861"
+          ],
+          [
+            "300",
+            "20,4",
+            "34,2",
+            "39,1",
+            "1569",
+            "2075"
+          ],
+          [
+            "400",
+            "23,65",
+            "37,65",
+            "42,95",
+            "1944",
+            "2516"
+          ],
+          [
+            "500",
+            "26.1",
+            "42,3",
+            "47,8",
+            "2294",
+            "2901"
+          ],
+          [
+            "630",
+            "29,6",
+            "46",
+            "51,5",
+            "3424",
+            "1.  Temperatura del terreno: 20 C. "
+          ]
+        ]
+      }
+    ],
+    certifications: []
+  }
+
+=== 33-kv-aluminio ===
+{
+    id: '33-kv-aluminio',
+    name: '33 KV',
+    categoryPath: ['Cables de Media Tensión','Aluminio','33 kV'],
+    description: 'Instalaciones fijas, ya sea a la  intemperie, sobre bandejas, alojados en  ductos eléctricos o bien directamente',
+    detailedDescription: 'Cables unipolares o tripolares subterráneos de potencia, de cobre o aluminio, aislación  de XLPE y vaina de PVC, PE, TPO HFFR o TPU. Instalaciones fijas, ya sea a la  intemperie, sobre bandejas, alojados en  ductos eléctricos o bien directamente Normas: IRAM 2178-2 en concordancia con la',
+    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/33 KV/portada.jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/33 KV/FICHA TECNICA MT 33KV ALUMINIO.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [],
+    certifications: []
+  }
+
+=== 13-2-kv-cobre ===
+{
+    id: '13-2-kv-cobre',
+    name: '13,2 KV',
+    categoryPath: ['Cables de Media Tensión','Cobre','13.2 kV'],
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
+    detailedDescription: 'Cables de energía y potencia para múltiples aplicaciones.',
+    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/13,2 KV/portada.jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/13,2 KV/FICHA TECNICA MT 13.2KV COBRE.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [],
+    certifications: []
+  }
+
+=== 33-kv-cobre ===
+{
+    id: '33-kv-cobre',
+    name: '33 KV',
+    categoryPath: ['Cables de Media Tensión','Cobre','33 kV'],
+    description: 'Instalaciones fijas, ya sea a la  intemperie, sobre bandejas, alojados en  ductos eléctricos o bien directamente',
+    detailedDescription: 'Cables unipolares o tripolares subterráneos de potencia, de cobre o aluminio, aislación  de XLPE y vaina de PVC, PE, TPO HFFR o TPU. Instalaciones fijas, ya sea a la  intemperie, sobre bandejas, alojados en  ductos eléctricos o bien directamente Normas: IRAM 2178-2 en concordancia con la',
+    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/33 KV/portada.jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/33 KV/FICHA TECNICA MT 33KV COBRE.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [],
+    certifications: []
+  }
+

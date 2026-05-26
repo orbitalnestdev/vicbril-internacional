@@ -5,6 +5,84 @@ import { products, categories } from '../services/data';
 import { Product } from '../types';
 import CertificationIcons from '../components/CertificationIcons';
 
+const FormattedText: React.FC<{ 
+  text: string, 
+  defaultHeader?: string,
+  ignoredHeaders?: string[],
+  contentClassName?: string,
+  wrapperClassName?: string
+}> = ({ 
+  text, 
+  defaultHeader,
+  ignoredHeaders = [],
+  contentClassName = "text-slate-600 text-sm md:text-base leading-relaxed font-medium",
+  wrapperClassName = "bg-slate-50 border-l-4 border-[#004b61] p-8 rounded-sm shadow-sm"
+}) => {
+  if (!text) return null;
+  const lines = text.split('\n');
+  
+  const sections: { title: string | null, content: string[] }[] = [];
+  
+  let currentTitle: string | null = defaultHeader || null;
+  let currentContent: string[] = [];
+
+  lines.forEach((line, i) => {
+    const trimmed = line.trim();
+    if (!trimmed) return;
+    
+    // Detect headers: all caps, reasonable length, no colons or dots at the end
+    const isHeader = trimmed === trimmed.toUpperCase() && trimmed.length > 2 && trimmed.length < 50 && !trimmed.endsWith(':') && !trimmed.endsWith('.') && !trimmed.startsWith('•') && !trimmed.startsWith('-');
+    
+    if (isHeader) {
+      if (ignoredHeaders.includes(trimmed)) {
+        return; // skip this line entirely
+      }
+
+      if (i === 0) {
+        currentTitle = trimmed;
+      } else {
+        if (currentContent.length > 0 || currentTitle) {
+          sections.push({ title: currentTitle, content: currentContent });
+        }
+        currentTitle = trimmed;
+        currentContent = [];
+      }
+    } else {
+      currentContent.push(trimmed);
+    }
+  });
+
+  if (currentContent.length > 0 || currentTitle) {
+    sections.push({ title: currentTitle, content: currentContent });
+  }
+
+  return (
+    <div className="space-y-24">
+      {sections.map((sec, idx) => (
+        <div key={idx}>
+          {sec.title && (
+            <div className="mb-6">
+              <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">{sec.title}</h2>
+            </div>
+          )}
+          <div className={wrapperClassName}>
+            <div className="space-y-4">
+              {sec.content.map((p, i) => (
+                <p key={i} className={contentClassName}>{p}</p>
+              ))}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+const formatCategoryName = (name: string) => {
+  if (!name) return '';
+  return name.replace(/^\d+[-_ ]*/, '');
+};
+
 const ProductDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
@@ -29,26 +107,27 @@ const ProductDetail: React.FC = () => {
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
-  const categoryInfo = categories.find(c => c.name === product.category);
-
   return (
     <div className="pt-32 md:pt-40 pb-12 bg-white min-h-screen font-sans">
       {/* Category Header Bar */}
       <div className="bg-orange-600 mb-8 py-3 shadow-md">
         <div className="container mx-auto px-6">
-          <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.2em] text-white">
+          <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.2em] text-white flex-wrap">
             <Link to="/" className="hover:text-orange-200 transition-colors">Inicio</Link>
             <ChevronRight size={10} className="opacity-50" />
             <Link to="/productos" className="hover:text-orange-200 transition-colors">Catálogo</Link>
             <ChevronRight size={10} className="opacity-50" />
-            {categoryInfo && (
-              <>
-                <Link to={`/productos?cat=${categoryInfo.id}`} className="hover:text-orange-200 transition-colors">
-                  {product.category}
+            {product.categoryPath && product.categoryPath.map((segment, idx) => (
+              <React.Fragment key={idx}>
+                <Link 
+                  to={`/productos?path=${encodeURIComponent(product.categoryPath.slice(0, idx + 1).join('||'))}`} 
+                  className="hover:text-orange-200 transition-colors"
+                >
+                  {formatCategoryName(segment)}
                 </Link>
                 <ChevronRight size={10} className="opacity-50" />
-              </>
-            )}
+              </React.Fragment>
+            ))}
             <span className="opacity-80 font-medium">{product.name}</span>
           </div>
         </div>
@@ -59,7 +138,7 @@ const ProductDetail: React.FC = () => {
         <div className="mb-10 border-b border-slate-100 pb-8">
           <div className="text-center md:text-left">
             <span className="text-[11px] font-bold text-orange-600 uppercase tracking-[0.4em] mb-2 block">
-              {product.subCategory || product.category}
+              {product.categoryPath && product.categoryPath.slice(-1)[0]}
             </span>
             <h1 className="text-5xl md:text-7xl font-oswald font-bold text-slate-900 uppercase tracking-tight">
               {product.name}
@@ -77,20 +156,6 @@ const ProductDetail: React.FC = () => {
                 className="w-full max-w-full h-auto max-h-[750px] object-contain drop-shadow-2xl hover:scale-[1.02] transition-transform duration-700"
               />
             </div>
-            
-            {product.gallery && product.gallery.length > 0 && (
-              <div className="flex gap-4 mt-4 justify-center">
-                {product.gallery.map((img, i) => (
-                  <div key={i} className="w-24 h-24 bg-white border border-slate-100 overflow-hidden cursor-zoom-in group shadow-sm rounded-sm">
-                    <img
-                      src={img}
-                      alt={`${product.name} gallery ${i}`}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                  </div>
-                ))}
-              </div>
-            )}
           </div>
 
           <div className="lg:col-span-5 space-y-6">
@@ -109,6 +174,18 @@ const ProductDetail: React.FC = () => {
                 <MessageSquare size={18} className="group-hover:scale-110 transition-transform" />
                 Consultar por WhatsApp
               </button>
+              
+              {product.pdf && (
+                <a
+                  href={product.pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-white text-slate-900 border-2 border-slate-900 font-bold py-4 px-8 flex items-center justify-center gap-4 hover:bg-slate-50 transition-all uppercase tracking-[0.2em] text-xs group"
+                >
+                  <Download size={18} className="group-hover:-translate-y-1 transition-transform" />
+                  Descargar PDF
+                </a>
+              )}
             </div>
           </div>
         </div>
@@ -156,40 +233,41 @@ const ProductDetail: React.FC = () => {
             <div className="mb-6">
               <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">DESCRIPCIÓN</h2>
             </div>
-            <div className="border-l-2 border-slate-100 pl-8">
-              <p className="text-slate-600 leading-relaxed text-xl font-medium whitespace-pre-line">
-                {product.detailedDescription || product.description}
-              </p>
-            </div>
+            <FormattedText 
+              text={product.detailedDescription || product.description} 
+              ignoredHeaders={['DESCRIPCIÓN']}
+              contentClassName="text-slate-600 leading-relaxed text-lg md:text-xl font-medium"
+              wrapperClassName="border-l-2 border-slate-100 pl-8"
+            />
           </section>
 
           {/* Aplicaciones */}
           {product.applications && (
             <section id="usos" className="scroll-mt-40">
               <div className="mb-6">
-                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">USO</h2>
+                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">APLICACIONES</h2>
               </div>
-              <div className="border-l-2 border-slate-100 pl-8">
-                <p className="text-slate-600 leading-relaxed text-base font-medium">
-                  {product.applications}
-                </p>
-              </div>
+              <FormattedText 
+                text={product.applications} 
+                ignoredHeaders={['APLICACIONES', 'USO']}
+              />
             </section>
           )}
 
           {/* Características */}
-          {product.characteristics && (
-            <section id="construccion" className="scroll-mt-40">
+          {product.characteristics && product.characteristics.length > 0 && (
+            <section id="caracteristicas" className="scroll-mt-40">
               <div className="mb-6">
-                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">CONSTRUCCIÓN</h2>
+                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">CARACTERÍSTICAS</h2>
               </div>
-              <div className="space-y-1">
-                {product.characteristics.filter(char => char !== 'CONSTRUCCIÓN').map((char, i) => (
-                  <div key={i} className="flex items-start gap-4 py-1.5 border-b border-slate-50 group hover:border-[#004b61] transition-colors">
-                    <span className="w-1.5 h-1.5 rounded-full bg-orange-600 mt-[9px] shrink-0"></span>
-                    <span className="text-slate-600 text-base leading-tight font-medium">{char}</span>
-                  </div>
-                ))}
+              <div className="bg-slate-50 border-l-4 border-[#004b61] p-8 rounded-sm shadow-sm">
+                <div className="space-y-2">
+                  {product.characteristics.filter(char => char !== 'CONSTRUCCIÓN' && char !== 'CARACTERÍSTICAS').map((char, i) => (
+                    <div key={i} className="text-slate-600 text-sm md:text-base leading-relaxed font-medium">
+                      {char}
+                    </div>
+                  ))}
+                </div>
               </div>
             </section>
           )}
@@ -241,11 +319,10 @@ const ProductDetail: React.FC = () => {
               <div className="mb-6">
                 <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">INSTALACIÓN</h2>
               </div>
-              <div className="border-l-2 border-slate-100 pl-8">
-                <p className="text-slate-600 leading-relaxed text-base font-medium">
-                  {product.installation}
-                </p>
-              </div>
+              <FormattedText 
+                text={product.installation} 
+                ignoredHeaders={['INSTALACIÓN']}
+              />
             </section>
           )}
 
@@ -257,10 +334,8 @@ const ProductDetail: React.FC = () => {
               </div>
 
               {product.technicalIntro && (
-                <div className="mb-10 bg-slate-50 border-l-4 border-[#004b61] p-8 rounded-sm shadow-sm">
-                  <div className="text-slate-600 text-sm leading-relaxed whitespace-pre-line font-medium">
-                    {product.technicalIntro}
-                  </div>
+                <div className="mb-10">
+                  <FormattedText text={product.technicalIntro} ignoredHeaders={['CONSTRUCCIÓN']} />
                 </div>
               )}
               
@@ -370,22 +445,25 @@ const ProductDetail: React.FC = () => {
           )}
 
           {/* Marcas Disponibles */}
-          <section className="pt-10 border-t border-slate-100">
-            <div className="mb-6">
-              <h4 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest pb-2">Marcas Disponibles</h4>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              {product.availableBrands?.map((brand, i) => (
-                <span
-                  key={i}
-                  className="px-4 py-3 bg-slate-50 border border-slate-200 text-slate-900 text-[11px] font-bold rounded-sm shadow-sm hover:border-orange-500 hover:bg-orange-50 transition-all flex items-center gap-2"
-                >
-                  <div className="w-1.5 h-1.5 rounded-full bg-orange-600"></div>
-                  {brand}
-                </span>
-              ))}
-            </div>
-          </section>
+          {product.availableBrands && product.availableBrands.length > 0 && (
+            <section className="pt-10 border-t border-slate-100">
+              <div className="mb-6">
+                <h4 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest pb-2">Marcas Disponibles</h4>
+              </div>
+              
+              <div className="flex flex-wrap gap-2">
+                {product.availableBrands.map((brand, i) => (
+                  <span
+                    key={i}
+                    className="px-4 py-3 bg-slate-50 border border-slate-200 text-slate-900 text-[11px] font-bold rounded-sm shadow-sm hover:border-orange-500 hover:bg-orange-50 transition-all flex items-center gap-2"
+                  >
+                    <div className="w-1.5 h-1.5 rounded-full bg-orange-600"></div>
+                    {brand}
+                  </span>
+                ))}
+              </div>
+            </section>
+          )}
         </div>
       </div>
     </div>

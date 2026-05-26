@@ -1,0 +1,948 @@
+
+--- PAGE 1 ---
+Av. Presidente Juan D. Perón 26399
+B1722CXD, Merlo, Buenos Aires, Argentina
+T. +54 11 220 404 6700
+imsa.com.ar
+Cables unipolares subterraneos de potencia, de cobre o aluminio, aislación de XLPE y 
+envoltura de PVC, PE, TPO HFFR o TPU.
+Usos: Instalaciones fijas, ya sea a la 
+intemperie, sobre bandejas, alojados en 
+ductos eléctricos o bien directamente 
+enterrados.
+Normas: IRAM 2178-2 en concordancia con la 
+norma internacional IEC 60502-2.
+Rango de fabricación: 35 a 630 mm2.
+PAYTON® XLPE 13,2 kV
+15
+CATEGORÍA I - 
+UNIPOLARES
+Sección
+nominal
+Diámetro del 
+conductor
+Diámetro exterior 
+aproximado
+Peso aproximado
+Cu
+Al
+s/armar
+armado
+s/armar
+armado
+s/armar
+armado
+mm²
+mm
+mm
+mm
+kg/km
+kg/km
+kg/km
+kg/km
+35
+7,05
+19,65
+24,55
+728
+1028
+-
+-
+50
+8,1
+20,7
+25,6
+852
+1177
+-
+-
+70
+9,9
+22,5
+27,4
+1096
+1445
+679
+1027
+95
+11,5
+24,1
+29,2
+1347
+1730
+783
+1166
+120
+13,05
+25,65
+30,75
+1621
+2025
+893
+1296
+150
+14,4
+27
+32,3
+1897
+2305
+1009
+1417
+185
+15,95
+28,8
+33,85
+2227
+2655
+1136
+1565
+240
+18,65
+31,7
+36,75
+2903
+3368
+1396
+1861
+300
+20,4
+34,2
+39,1
+3374
+3879
+1569
+2075
+400
+23,65
+37,65
+42,95
+4375
+4947
+1944
+2516
+500
+26.1
+42,3
+47,8
+5203
+5810
+2294
+2901
+630
+29,6
+46
+51,5
+-
+2767
+3424
+1.	 Temperatura del terreno: 20 ºC. 
+	
+Temperatura ambiente: 30 ºC.
+	
+Temperatura en el conductor: 90 ºC.
+Profundidad de instalación: 0,7 m.
+Resistividad térmica del terreno: 1,5 K.m/W.
+Pantallas unidas en ambos extremos. Para otras condiciones de 
+instalación consultar nuestro capítulo técnico. Especificaciones sujetas 
+a cambios.
+1.	 Valores aproximados.
+2.	 Valor genérico aproximado.
+Sección
+nominal
+Resistencia máxima 
+en CC a 20˚C
+Resistencia máxima 
+en CA a 90˚C
+Reactancia 
+inductiva 
+por fase a 50Hz
+Caída de tensión
+Cu
+Al
+Cu
+Al
+s/armar
+armado
+mm²
+Ohm/km
+Ohm/km
+Ohm/km
+Ohm/km
+Ohm/km
+V/A km
+V/A km
+35
+0,524
+-
+0,668
+-
+0,175
+0,186
+0,200
+50
+0,387
+0,641
+0,494
+0,818
+0,171
+0,179
+0,192
+70
+0,268
+0,443
+0,342
+0,565
+0,166
+0,171
+0,183
+95
+0,193
+0,320
+0,246
+0,408
+0,161
+0,165
+0,177
+120
+0,153
+0,253
+0,195
+0,323
+0,157
+0,161
+0,172
+150
+0,124
+0,206
+0,159
+0,263
+0,154
+0,158
+0,169
+185
+0,0991
+0,164
+0,157
+0,210
+0,149
+0,155
+0,165
+240
+0,0754
+0,125
+0,097
+0,160
+0,147
+0,151
+0,160
+300
+0,0601
+0,100
+0,0766
+0,128
+0,145
+0,150
+0,158
+400
+0,047
+0,0778
+0,0599
+0,099
+0,144
+0,147
+0,155
+500
+0,0366
+0,0605
+-
+-
+-
+0,148
+0,156
+630
+0,0283
+0,0469
+-
+-
+-
+0,145
+0,152
+SIGUE 
+
+--- PAGE 2 ---
+Av. Presidente Juan D. Perón 26399
+B1722CXD, Merlo, Buenos Aires, Argentina
+T. +54 11 220 404 6700
+imsa.com.ar
+Cables unipolares subterraneos de potencia, de cobre o aluminio, aislación de XLPE, 
+TPU y vaina de PVC, PE, TPO HFFR y TPU.
+Usos: Instalaciones fijas, ya sea a la 
+intemperie, sobre bandejas, alojados en 
+ductos eléctricos o bien directamente 
+enterrados. 
+Normas: IRAM 2178-2 en concordancia con la 
+norma internacional IEC 60502-2.
+Rango de fabricación: 35 hasta 630 mm2.
+15
+13,2kV
+Sección
+nominal
+Diámetro del 
+conductor
+Diámetro exterior 
+aproximado
+Peso aproximado
+Cu
+Al
+s/armar
+armado
+s/armar
+armado
+s/armar
+armado
+mm²
+mm
+mm
+mm
+kg/km
+kg/km
+kg/km
+kg/km
+35
+7,05
+24,65
+29,75
+807
+1147
+596
+936
+50
+8,1
+25,7
+30,8
+934
+1288
+656
+1010
+70
+9,9
+27,5
+32,8
+1184
+1576
+767
+1158
+95
+11,5
+29
+34,4
+1453
+1853
+889
+1289
+120
+13,05
+30,85
+35,95
+1733
+2152
+1005
+1424
+150
+14,4
+32,4
+37,3
+2015
+2437
+1127
+1549
+185
+15,95
+33,95
+39,05
+2351
+2810
+1260
+1719
+240
+18,65
+36,65
+41,95
+3021
+3533
+1515
+2026
+300
+20,4
+38,6
+43,9
+3520
+4057
+1715
+2253
+400
+23,65
+42,05
+47,55
+4532
+5136
+2101
+2705
+500
+26,05
+44,65
+50,15
+5372
+6011
+2463
+3102
+630
+29,55
+48,35
+53,85
+-
+-
+2950
+3639
+Sección
+nominal
+Resistencia máxima 
+en CC a 20˚C
+Resistencia máxima 
+en CA a 90˚C
+Reactancia inductiva 
+por fase a 50Hz
+Cu
+Al
+Cu
+Al
+mm²
+Ohm/km
+Ohm/km
+Ohm/km
+Ohm/km
+Ohm/km
+35
+0,524
+-
+0,668
+-
+0,198
+50
+0,387
+0,641
+0,494
+0,818
+0,191
+70
+0,268
+0,443
+0,342
+0,565
+0,183
+95
+0,193
+0,32
+0,246
+0,408
+0,177
+120
+0,153
+0,253
+0,195
+0,323
+0,173
+150
+0,124
+0,206
+0,159
+0,263
+0,169
+185
+0,0991
+0,164
+0,157
+0,21
+0,166
+240
+0,0754
+0,125
+0,097
+0,16
+0,161
+300
+0,0601
+0,1
+0,0766
+0,128
+0,158
+400
+0,047
+0,0778
+0,0599
+0,099
+0,155
+1.	 Temperatura del terreno: 20 ºC. 
+	
+Temperatura ambiente: 30 ºC.
+	
+Temperatura en el conductor: 90 ºC.
+Disposición plana c/cable separado un diámetro de resto y la  
+superficie de apoyo, bandeja perforada.
+Profundidad de instalación: 0,8 m.
+Resistividad térmica del terreno: 1,5 k.m/W.
+Pantallas unidas en ambos extremos. Para otras condiciones de 
+instalación consultar nuestro capítulo técnico. Especificaciones  
+sujetas a cambios.
+1.	 Valores aproximados.
+2.	 Valor genérico aproximado.
+PAYTON® XLPE 13,2 kV
+CATEGORÍA II - 
+UNIPOLARES
+SIGUE 
+
+--- PAGE 3 ---
+Av. Presidente Juan D. Perón 26399
+B1722CXD, Merlo, Buenos Aires, Argentina
+T. +54 11 220 404 6700
+imsa.com.ar
+Cables unipolares subterráneos de potencia, de cobre o aluminio, aislación de XLPE y 
+envoltura de PVC, PE, TPO HFFR o TPU.
+Usos: Instalaciones fijas, ya sea a la 
+intemperie, sobre bandejas, alojados en 
+ductos eléctricos o bien directamente 
+enterrados. 
+Normas: IRAM 2178-2 en concordancia con la 
+norma internacional IEC 60502-2.
+Rango de fabricación: 25 hasta 400 mm2.
+PAYTON® XLPE 13,2 kV
+15
+13,2kV
+Sección
+nominal
+Diámetro del 
+conductor
+Diámetro exterior 
+aproximado
+Peso aproximado
+Cu
+Al
+s/armar
+armado
+s/armar
+armado
+s/armar
+armado
+mm²
+mm
+mm
+mm
+kg/km
+kg/km
+kg/km
+kg/km
+25
+6
+48,18
+50,7
+2866
+3756
+-
+-
+35
+7,05
+50,44
+52,96
+3289
+4224
+-
+-
+50
+8,1
+52,9
+55,62
+3783
+4790
+2946
+3953
+70
+9,9
+57,38
+59,7
+4773
+5807
+3517
+4551
+95
+11,5
+61,03
+63,55
+5735
+6865
+4036
+5167
+120
+13,05
+64,57
+67,09
+6773
+7970
+4580
+5777
+150
+14,4
+67,68
+70,2
+7764
+9021
+5090
+6347
+185
+15,95
+71,02
+74,14
+8965
+10389
+5681
+7105
+240
+18,65
+77,63
+80,35
+11464
+12945
+6928
+8409
+300
+20,4
+81,61
+86,13
+13177
+15718
+7745
+10286
+1.	 Temperatura del terreno: 20 ºC. 
+	
+Temperatura ambiente: 30 ºC.
+	
+Temperatura en el conductor: 90 ºC.
+Profundidad de instalación: 0,7 m.
+Resistividad térmica del terreno: 1,5 K.m/W.
+Pantallas unidas en ambos extremos. Para otras condiciones de 
+instalación consultar nuestro capítulo técnico. Especificaciones  
+sujetas a cambios.
+CATEGORÍA I - 
+TRIPOLARES
+Sección
+nominal
+Resistencia máxima 
+en CC a 20˚C
+Resistencia máxima 
+en CA a 90˚C
+Reactancia 
+inductiva 
+por fase a 50Hz
+Caída de tensión
+Cu
+Al
+Cu
+Al
+Cu
+Al
+s/armar
+armado
+mm²
+Ohm/km
+Ohm/km
+Ohm/km
+Ohm/km
+Ohm/km
+V/A km
+V/A km
+35
+0,524
+-
+0,668
+-
+0,128
+1,06
+50
+0,387
+0,641
+0,494
+0,822
+0,121
+0,81
+1,26
+70
+0,268
+0,443
+0,342
+0,568
+0,113
+0,59
+0,90
+95
+0,193
+0,320
+0,247
+0,411
+0,107
+0,45
+0,68
+120
+0,153
+0,253
+0,196
+0,325
+0,107
+0,38
+0,56
+150
+0,124
+0,206
+0,159
+0,265
+0,1
+0,32
+0,47
+185
+0,0991
+0,164
+0,128
+0,211
+0,097
+0,28
+0,39
+240
+0,0754
+0,125
+0,0983
+0,162
+0,092
+0,23
+0,32
+300
+0,0601
+0,100
+0,0793
+0,130
+0,09
+0,20
+0,27
+400
+0,0470
+0,0778
+0,0633
+0,102
+0,086
+0,18
+0,23
+SIGUE 
+
+--- PAGE 4 ---
+Av. Presidente Juan D. Perón 26399
+B1722CXD, Merlo, Buenos Aires, Argentina
+T. +54 11 220 404 6700
+imsa.com.ar
+Cables unipolares subterráneos de potencia, de cobre o aluminio, aislación de XLPE y 
+vaina de PVC, PE o TPO HFFR.
+Usos: Instalaciones fijas, ya sea a la 
+intemperie, sobre bandejas, alojados en 
+ductos eléctricos o bien directamente 
+enterrados. 
+Normas: IRAM 2178-2 en concordancia con la 
+norma internacional IEC 60502-2.
+Rango de fabricación: 35 a 400 mm2.
+15
+13,2kV
+Sección
+nominal
+Diámetro del 
+conductor
+Diámetro exterior 
+del cable1
+Peso del cable2
+Cu
+Al
+s/armar
+armado
+s/armar
+armado
+s/armar
+armado
+mm²
+mm
+mm
+mm
+kg/km
+kg/km
+kg/km
+kg/km
+35
+7,05
+55,38
+58,3
+3761
+4843
+-
+-
+50
+8,1
+58,24
+60,96
+4328
+5436
+3491
+4599
+70
+9,9
+62,32
+65,04
+5320
+6504
+4064
+5248
+95
+11,5
+65,97
+68,69
+6313
+7570
+4615
+5872
+120
+13,05
+69,51
+72,23
+7383
+8707
+5190
+6514
+150
+14,4
+73,02
+75,54
+8466
+9821
+5792
+7147
+185
+15,95
+76,56
+79,28
+9727
+11186
+6443
+7902
+240
+18,65
+82,57
+87,09
+12182
+14755
+7646
+10219
+300
+20,4
+86,55
+91,27
+13937
+16678
+8504
+11246
+Sección
+nominal
+Resistencia máxima 
+en CC a 20˚C
+Resistencia máxima 
+en CA a 90˚C
+Reactancia inductiva 
+por fase a 50Hz
+Cu
+Al
+Cu
+Al
+mm²
+Ohm/km
+Ohm/km
+Ohm/km
+Ohm/km
+Ohm/km
+35
+0,524
+-
+0,668
+-
+0,118
+50
+0,387
+0,641
+0,494
+0,818
+0,113
+70
+0,268
+0,443
+0,342
+0,565
+0,107
+95
+0,193
+0,32
+0,246
+0,408
+0,102
+120
+0,153
+0,253
+0,195
+0,323
+0,099
+150
+0,124
+0,206
+0,159
+0,263
+0,096
+185
+0,0991
+0,164
+0,157
+0,21
+0,093
+240
+0,0754
+0,125
+0,097
+0,16
+0,09
+300
+0,0601
+0,1
+0,0766
+0,128
+0,087
+400
+0,047
+0,0778
+0,0599
+0,099
+0,085
+1.	 Temperatura del terreno: 20 ºC. 
+	
+Temperatura ambiente: 30 ºC.
+	
+Temperatura en el conductor: 90 ºC.
+Disposición plana c/cable separado un diámetro de resto y la  
+superficie de apoyo, bandeja perforada.
+Profundidad de instalación: 0,8 m.
+Resistividad térmica del terreno: 1,5 k.m/W,
+Pantallas unidas en ambos extremos. Para otras condiciones de 
+instalación consultar nuestro capítulo técnico. Especificaciones  
+sujetas a cambios.
+1.	 Valores aproximados.
+2.	 Valor genérico aproximado.
+PAYTON® XLPE 13,2 kV
+CATEGORÍA II - 
+TRIPOLARES

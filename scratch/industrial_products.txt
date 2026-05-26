@@ -1,0 +1,61 @@
+--- PRODUCT 1 ---
+id: 'industriales',
+    name: 'Cables Industriales',
+    slug: 'cables-industriales',
+    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/portada.jpeg',
+    banner: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/portada.jpeg'
+  },
+  {
+    
+
+--- PRODUCT 2 ---
+id: '1-instrumentaci-n-electronica',
+    name: '1- INSTRUMENTACIÓN ELECTRONICA',
+    categoryPath: ['Cables Industriales','Instrumentación Electrónica'],
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
+    detailedDescription: 'Cables de energía y potencia para múltiples aplicaciones. Normas: constructiva:UL 13 tipo PLTC - UL 2250 tipo ITC',
+    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/portada.jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/FICHA TECNICA/FICHA TECNICA INSTRUMENTAR.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [],
+    certifications: []
+  },
+  {
+    
+
+--- PRODUCT 3 ---
+id: '2-automatizaci-n',
+    name: '2-AUTOMATIZACIÓN',
+    categoryPath: ['Cables Industriales','Automatización'],
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
+    detailedDescription: 'Cables de energía y potencia para múltiples aplicaciones. Normas: constructiva:VDE0812',
+    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/FICHA TECNICA/FICHA TECNICA AUTOMATIZAR.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [],
+    certifications: []
+  },
+  {
+    
+
+--- PRODUCT 4 ---
+id: '3-cable-comando',
+    name: '3-CABLE COMANDO',
+    categoryPath: ['Cables Industriales','Comando y Señalización'],
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
+    detailedDescription: 'Cables de energía y potencia para múltiples aplicaciones.',
+    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/3-CABLE COMANDO/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/3-CABLE COMANDO/FICHA TECNICA/FICHA TECNICA COMANDO.pdf',
+    specs: [],
+    characteristics: [],
+    specsTables: [],
+    certifications: []
+  },
+  {
+    
+

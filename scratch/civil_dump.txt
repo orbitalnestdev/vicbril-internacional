@@ -1,0 +1,378 @@
+
+================ ID: unipolar-pvc ================ 
+{
+    id: 'unipolar-pvc',
+    name: 'Cable Unipolar PVC',
+    categoryPath: ['Cables para Instalación Civil', 'Unipolar'],
+    description: 'Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.',
+    detailedDescription: `DESCRIPCIÓN
+Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.
+
+APLICACIONES
+Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes.`,
+    image: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/PORTADA.jpg',
+    gallery: [
+      '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/foto producto dentro de ficha tecnica.jpeg'
+    ],
+    technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/marcas disponibles unipolar pvc.jpg',
+    pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/FICHA TECNICA UNIP PVC (REEMPLAZAR FOTO DE ABAJO).pdf',
+    specs: ['450/750 V', '70°', 'PVC'],
+    installation: `Montaje: Radio mínimo de curvatura igual a 7 x diámetro exterior del cable
+Tracción máxima: 5daN/mm² aplicados sobre los conductores
+Temperatura de montaje: igual o mayor a 5°C`,
+    characteristics: [
+      'Temperatura máxima: 70° C de servicio',
+      'Tensión normal: 450/750 Volt.',
+      'Norma constructiva: IEC 60227-3 - IRAM NM 247-3',
+      'Norma de fuego: IEC 60332-3-23 / IRAM NM IEC 60332-3-23 - No propagación de incendio.',
+      'Norma de conductores: IEC 60228 / IRAM NM 280'
+    ],
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Sección nominal (mm²)", "Espesor aislación (mm)", "Diámetro exterior (mm)", "Peso (kg/km)", "Resistencia eléctrica (Ohm/km)", "Intensidad admisible Amper (*)"],
+        rows: [
+          ["0,5", "0,60", "2,1", "8,2", "39", "4,8"],
+          ["0,75", "0,60", "2,3", "10,8", "26", "7,2"],
+          ["1", "0,70", "2,7", "14,4", "19,5", "9,6"],
+          ["1,5", "0,70", "3,0", "20", "13,3", "13"],
+          ["2,5", "0,80", "3,6", "31", "7,98", "18"],
+          ["4", "0,80", "4,1", "45", "4,95", "24"],
+          ["6", "0,80", "4,7", "63", "3,3", "31"],
+          ["10", "1,00", "6,2", "112", "1,91", "43"],
+          ["16", "1,00", "7,1", "166", "1,21", "59"],
+          ["25", "1,20", "8,7", "256", "0,78", "77"],
+          ["35", "1,20", "9,7", "358", "0,554", "96"],
+          ["50", "1,40", "11,5", "504", "0,386", "116"],
+          ["70", "1,40", "13,5", "688", "0,272", "148"],
+          ["95", "1,60", "15,9", "904", "0,206", "180"],
+          ["120", "1,60", "17,3", "1136", "0,161", "207"],
+          ["150", "1,80", "19,9", "1415", "0,129", "228"],
+          ["185", "2,00", "21,7", "1730", "0,106", "260"],
+          ["240", "2,20", "25,1", "2256", "0,0801", "290"],
+          ["300", "2,40", "28,3", "2796", "0,0641", "340"]
+        ],
+        note: "(*) Valores para una temperatura ambiente de 40° C y temperatura en el conductor de 70° C para una terna de conductores instalados en cañería embutida en mampostería."
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'instalacion-domiciliaria', 'no-propagacion', 'temperatura-servicio'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  }
+
+================ ID: unipolar-lsoh ================ 
+{
+    id: 'unipolar-lsoh',
+    name: 'Cable Unipolar LSOH',
+    categoryPath: ['Cables para Instalación Civil', 'Unipolar'],
+    description: 'Conductores a instalar en lugares cerrados con alto tránsito de personas donde la evacuación por incendio resulta difícil de resolver.',
+    detailedDescription: `DESCRIPCIÓN
+Conductores a instalar en lugares cerrados con alto tránsito de personas, por ejemplo cines, sanatorios, teatros, estaciones de trenes subterráneos, universidades, centros comerciales, escuelas, túneles de minas, etc; es decir todo lugar dónde la evacuación por incendio resulta difícil de resolver.
+
+APLICACIONES
+Permite cableado en tableros, cañerías embutidas y cañerías a la vista recomendando el uso de bandejas portantes.`,
+    image: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/PORTADA.jpeg',
+    gallery: [
+      '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/foto producto dentro de ficha tecnica.jpeg'
+    ],
+    technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/MARCAS DISPONIBLES UNIPOLAR LSOH.jpg',
+    pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/FICHA TECNICA UNIP. LSOH (REEMPLAZAR FOTO).pdf',
+    specs: ['450/750 Volt', '70° C', 'IRAM 62267'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor: Metal cobre electrolítico recocido en formación clase 5.
+Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228.`,
+    installation: `Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable.
+Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre.
+Temperatura de montaje: igual o mayor a 5°C.`,
+    characteristics: [
+      'Temperatura máxima: 70° C de servicio',
+      'Tensión normal: 450/750 Volt.',
+      'Norma constructiva: IRAM 62267',
+      'Norma de fuego: IEC 60332-3-24 / IRAM NM IEC 60332-3-24 - No propagación de incendio.',
+      'Norma de halógenos: IEC 60754 - 1/2 - Ausencia de halógenos.',
+      'Norma de humos: IEC 61034 - Transparencia de humos.',
+      'Norma de toxicidad: NES 713 / CEI 20-37 - Ausencia de tóxicos.',
+      'Norma de conductores: IEC 60228 / IRAM NM 280.'
+    ],
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Sección nominal (mm²)", "Espesor aislación (mm)", "Diámetro exterior (mm)", "Peso (kg/km)", "Resistencia eléctrica (Ohm/km)", "Intensidad admisible (A)"],
+        rows: [
+          ["0,5", "0,60", "2,1", "8,2", "39", "4,8"],
+          ["0,75", "0,60", "2,3", "10,8", "26", "7,2"],
+          ["1", "0,70", "2,7", "14,4", "19,5", "9,6"],
+          ["1,5", "0,70", "3,0", "20", "13,3", "13"],
+          ["2,5", "0,80", "3,6", "31", "7,98", "18"],
+          ["4", "0,80", "4,1", "45", "4,95", "24"],
+          ["6", "0,80", "4,7", "63", "3,3", "31"],
+          ["10", "1,00", "6,2", "112", "1,91", "43"],
+          ["16", "1,00", "7,1", "166", "1,21", "59"],
+          ["25", "1,20", "8,7", "256", "0,78", "77"],
+          ["35", "1,20", "9,7", "358", "0,554", "96"],
+          ["50", "1,40", "11,5", "504", "0,386", "116"],
+          ["70", "1,40", "13,5", "688", "0,272", "148"],
+          ["95", "1,60", "15,9", "904", "0,206", "180"],
+          ["120", "1,60", "17,3", "1136", "0,161", "207"],
+          ["150", "1,80", "19,9", "1415", "0,129", "228"],
+          ["185", "2,00", "21,7", "1730", "0,106", "260"],
+          ["240", "2,20", "25,1", "2256", "0,0801", "290"],
+          ["300", "2,40", "28,3", "2796", "0,0641", "340"]
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'bajos-humos', 'libre-halogenos', 'marcacion-secuencial', 'espacios-publicos', 'instalacion-domiciliaria', 'cuerdas-flexibles', 'no-propagacion', 'temperatura-servicio']
+  }
+
+================ ID: bipolar-vaina-chata ================ 
+{
+    id: 'bipolar-vaina-chata',
+    name: 'Cable Envainado Chato (Bajo Plomo)',
+    categoryPath: ['Cables para Instalación Civil', 'Bipolar'],
+    description: 'Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas.',
+    detailedDescription: `TIPO BAJO PLOMO
+MULTIPOLAR - PVC/PVC - 300/500 VOLT - 70°C
+
+DESCRIPCIÓN
+Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general, excluyendo los aparatos de calefacción.
+
+APLICACIONES
+Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquinas - herramientas y equipamientos de mano. Los cables están permitidos para su conexión directa a la red eléctrica.`,
+    image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/portada.jpg',
+    gallery: [
+      '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/foto producto dentro de ficha tecnica.png'
+    ],
+    technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/MARCAS DISPONIBLES VAINA CHATA.jpg',
+    pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/FICHA TECNICA VAINA CHATA.pdf',
+    specs: ['300/500 V', '70°', 'PVC/PVC'],
+    characteristics: [
+      'Temperatura máxima: 70°C de servicio, 160°C de cortocircuito.',
+      'Tensión nominal: 300/500 Volt.',
+      'Norma constructiva: IEC 60227-7.',
+      'Norma de fuego: IRAM NM 60332-1.',
+      'Norma de conductores: IEC 60228 / IRAM NM 280.',
+      'Conductor: Cobre electrolítico recocido en formación clase 5.',
+      'Aislación: PVC.',
+      'Identificación: Color negro con identificación alfanumerica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo en el total de conductores indicados.',
+      'Cubierta: PVC negro, no propagante del incendio.'
+    ],
+    colors: [
+      { 
+        label: 'Bipolar', 
+        values: ['Celeste', 'Marrón'], 
+        codes: ['#00AEEF', '#8B4513'] 
+      },
+      { 
+        label: 'Tripolar', 
+        values: ['Verde-Amarillo', 'Celeste', 'Marrón'], 
+        codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#00AEEF', '#8B4513'] 
+      }
+    ],
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Formación N° x mm²", "Diámetro máx. alambres mm", "Espesor aislación nominal mm", "Espesor envoltura nominal mm", "Dimensiones exteriores aprox. mm", "Masa aprox. kg/km", "Intensidad admisible (A)", "Resistencia eléctrica máx a 20°C (Ohm/km)"],
+        rows: [
+          ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7", "19,5"],
+          ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10", "13,3"],
+          ["2x2,5", "0,26", "0,8", "0,6", "5,1 x 8,8", "85", "16", "7,98"],
+          ["3x1", "0,21", "0,6", "0,6", "4,1 x 9,2", "64", "7", "19,5"],
+          ["3x1,5", "0,26", "0,7", "0,6", "4,5 x 10,6", "86", "10", "13,3"],
+          ["3x2,5", "0,26", "0,8", "0,6", "5,1 x 12,5", "126", "16", "7,98"]
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'no-propagacion', 'marcacion-secuencial', 'instalacion-industrial', 'conductor-tierra', 'instalacion-domiciliaria'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  }
+
+================ ID: bipolar-paralelo ================ 
+{
+    id: 'bipolar-paralelo',
+    name: 'Cable Paralelo (Bipolar)',
+    categoryPath: ['Cables para Instalación Civil', 'Bipolar'],
+    description: 'Cordones paralelos de cobre para alimentación de artefactos livianos y prolongaciones.',
+    detailedDescription: `CABLE PARALELO (BIPOLAR) - 300/300V
+
+DESCRIPCIÓN
+Cordones paralelos de cobre para alimentación de artefactos livianos y prolongaciones. Ideales para conexiones de veladores, radios y electrodomésticos de baja potencia.
+
+APLICACIONES
+Instalaciones móviles y aparatos portátiles en general. Apto para uso doméstico y artefactos de iluminación.`,
+    image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/portada.jpeg',
+    gallery: [
+      '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/foto producto dentro de ficha tecnica.jpeg'
+    ],
+    technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/MARCAS DISPONIBLES PARALELO.jpg',
+    pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/FICHA TECNICA PARALELO.pdf',
+    specs: ['300V', 'Flexible', 'PVC Blanco/Negro'],
+    characteristics: [
+      'Tensión nominal: 300/300V',
+      'Conductor: Cobre flexible en formación clase 5.',
+      'Aislación: PVC.'
+    ],
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Formación (mm²)", "Diám. máx. alambres (mm)", "Espesor Aisl. (mm)", "Dimensiones Ext. (mm)", "Masa (kg/km)", "Resistencia (Ohm/km)", "Intensidad (A)"],
+        rows: [
+          ["2x0,50", "0,21", "0,6", "2,4 x 4,8", "24", "39", "3"],
+          ["2x0,75", "0,21", "0,6", "2,6 x 5,2", "28", "26", "6"],
+          ["2x1", "0,21", "0,6", "2,7 x 5,4", "32", "19,5", "6"],
+          ["2x1,5", "0,26", "0,7", "3,0 x 6,1", "45", "13,3", "10"],
+          ["2x2,5", "0,26", "0,8", "3,6 x 7,4", "72", "7,98", "15"],
+          ["2x4", "0,31", "0,8", "4,2 x 8,6", "110", "4,95", "20"]
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'instalacion-domiciliaria', 'temperatura-servicio', 'cuerdas-flexibles'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  }
+
+================ ID: bipolar-paralelo-parlante ================ 
+{
+    id: 'bipolar-paralelo-parlante',
+    name: 'Cable Paralelo Parlante',
+    categoryPath: ['Cables para Instalación Civil', 'Bipolar'],
+    description: 'Cables específicos para audio y parlantes con identificación de polaridad.',
+    detailedDescription: `CABLE PARALELO PARLANTE
+
+DESCRIPCIÓN
+Cordones de cobre flexible con aislación de PVC cristal o bicolor. Diseñados para la interconexión de sistemas de audio, garantizando fidelidad en la señal.
+
+APLICACIONES
+Interconexión de equipos de audio y aparatos portátiles. Diseñado para flexibilidad en instalaciones móviles.`,
+    image: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/portada.jpeg',
+    gallery: [
+      '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/foto producto dentro de ficha tecnica.jpeg'
+    ],
+    technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/MARCAS DISPONIBLES PARALELO PARLANTE.jpg',
+    pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE.pdf',
+    specs: ['Audio', 'Extra flexible', 'Bicolor/Cristal'],
+    characteristics: [
+      'Tensión nominal 300/500V.',
+      'Conductor: Cobre flexible formación clase 5.',
+      'Aislación: PVC cristal o bicolor.'
+    ],
+    colors: [
+      { 
+        label: 'Bipolar', 
+        values: ['Negro', 'Rojo'], 
+        codes: ['#000000', '#FF0000'] 
+      }
+    ],
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Formación (mm²)", "Diám. máx. alambres (mm)", "Espesor Aisl. (mm)", "Espesor Env. (mm)", "Dimensiones Ext. (mm)", "Masa (kg/km)", "Intensidad (A)"],
+        rows: [
+          ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7"],
+          ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10"]
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'instalacion-domiciliaria', 'temperatura-servicio', 'cuerdas-flexibles'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  }
+
+================ ID: civil-03 ================ 
+{
+    id: 'civil-03',
+    name: 'Cable Tipo Taller (TT)',
+    categoryPath: ['Cables para Instalación Civil', 'Tipo Taller'],
+    description: 'Conductores diseñados para instalaciones móviles familiares, comerciales e industriales.',
+    detailedDescription: `BAJA TENSIÓN 300/500 VOLT
+MULTIPOLAR - PVC/PVC - 70° C - IRAM 247-5
+
+DESCRIPCIÓN
+Conductores diseñados para instalaciones móviles familiares, comerciales e industriales, máquinas manipuladas manualmente y dispositivos portátiles en general.
+
+APLICACIONES
+Instalaciones móviles industriales y domésticas, maquinaria de mano y aparatos portátiles en general.`,
+    image: '/images/PRODUCTOS/3-CABLE TIPO TALLER/PORTADA.jpeg',
+    gallery: [
+      '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/foto producto dentro de ficha tecnica.jpeg'
+    ],
+    technicalTable: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/MARCAS DISPONIBLES TIPO TALLER.jpg',
+    pdf: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/FICHA TECNICA TIPO TALLER (REEMPLAZAR FOTO).pdf',
+    specs: ['300/500 V', '70°', 'IRAM 247-5'],
+    installation: `Montaje: Radio mínimo de curvatura a 7 x diámetro exterior del cable
+Tracción máxima: 5daN/mm² aplicados sobre los conductores de cobre.
+Temperatura de montaje: igual o mayor a 5°C.`,
+    characteristics: [
+      'Temperatura máxima: 70° C de servicio, 160° C de cortocircuito',
+      'Tensión nominal: 300/ 500 Volt.',
+      'Norma constructiva: IRAM NM-247-5',
+      'Norma de fuego: IRAM NM IEC 60332-1',
+      'Norma de conductores: IEC 60228 / IRAM NM 280',
+      'Conductor: Metal cobre electrolítico recocido en formación clase 5.',
+      'Flexibilidad: Clase 5; según IRAM NM-280 e IEC 60228',
+      'Cubierta externa: PVC Negro, no propagante de incendio',
+      'Aislacion: PVC'
+    ],
+    colors: [
+      { label: 'Bipolar', values: ['Celeste', 'Marrón'], codes: ['#00AEEF', '#8B4513'] },
+      { label: 'Tripolar', values: ['Verde-Amarillo', 'Celeste', 'Marrón'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#00AEEF', '#8B4513'] },
+      { label: 'Tetrapolar', values: ['Verde-Amarillo', 'Negro', 'Celeste', 'Marrón'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#000000', '#00AEEF', '#8B4513'] },
+      { label: 'Pentapolar', values: ['Verde-Amarillo', 'Negro', 'Celeste', 'Marrón', 'Rojo'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#000000', '#00AEEF', '#8B4513', '#FF0000'] }
+    ],
+    specsTables: [
+      {
+        title: "Bipolar",
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica a 20°C en C.C Ohm/km"],
+        rows: [
+          ["0,5", "0,6", "0,8", "5,7", "43", "39"],
+          ["0,75", "0,6", "0,8", "6,2", "52", "26"],
+          ["1,0", "0,6", "0,8", "6,5", "60", "19,5"],
+          ["1,5", "0,7", "0,8", "7,4", "80", "13,3"],
+          ["2,5", "0,8", "1", "9,1", "125", "7,98"],
+          ["4,0", "0,8", "1,1", "10,4", "172", "4,95"],
+          ["6,0", "0,8", "1,3", "11,9", "236", "3,3"],
+          ["10", "1,0", "1,5", "15,1", "389", "1,91"]
+        ]
+      },
+      {
+        title: "Tripolar",
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica a 20°C en C.C Ohm/km"],
+        rows: [
+          ["0,5", "0,6", "0,8", "6", "50", "39"],
+          ["0,75", "0,6", "0,8", "6,6", "62", "26"],
+          ["1,0", "0,6", "0,8", "6,9", "72", "19,5"],
+          ["1,5", "0,7", "0,9", "8,1", "101", "13,3"],
+          ["2,5", "0,8", "1,1", "9,9", "157", "7,98"],
+          ["4,0", "0,8", "1,2", "11,3", "219", "4,95"],
+          ["6,0", "0,8", "1,4", "12,9", "301", "3,3"],
+          ["10", "1,0", "1,6", "16", "486", "1,91"]
+        ]
+      },
+      {
+        title: "Tetrapolar",
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica a 20°C en C.C Ohm/km"],
+        rows: [
+          ["0,5", "0,6", "0,8", "6,6", "60", "39"],
+          ["0,75", "0,6", "0,9", "7,2", "75", "26"],
+          ["1,0", "0,6", "0,9", "7,8", "91", "19,5"],
+          ["1,5", "0,7", "1", "9,1", "128", "13,3"],
+          ["2,5", "0,8", "1,1", "10,8", "191", "7,98"],
+          ["4,0", "0,8", "1,3", "12,5", "273", "4,95"],
+          ["6,0", "0,8", "1,4", "14,1", "371", "3,3"],
+          ["10", "1,0", "1,6", "17,8", "612", "1,91"]
+        ]
+      },
+      {
+        title: "Pentapolar",
+        headers: ["Sección nominal mm²", "Espesor nominal mm", "Espesor cubierta mm", "Diámetro exterior mm", "Peso Kg/km", "Resistencia eléctrica a 20°C en C.C Ohm/km"],
+        rows: [
+          ["0,5", "0,6", "0,8", "7,2", "72", "39"],
+          ["0,75", "0,6", "0,9", "8", "94", "26"],
+          ["1,0", "0,6", "0,9", "8,4", "110", "19,5"],
+          ["1,5", "0,7", "1,1", "10,1", "159", "13,3"],
+          ["2,5", "0,8", "1,2", "12", "237", "7,98"],
+          ["4,0", "0,8", "1,3", "13,7", "333", "4,95"],
+          ["6,0", "0,8", "1,5", "15,6", "459", "3,3"],
+          ["10", "1,0", "1,6", "19,5", "748", "1,91"]
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'no-propagacion', 'marcacion-secuencial', 'instalacion-industrial', 'conductor-tierra', 'instalacion-domiciliaria'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  }

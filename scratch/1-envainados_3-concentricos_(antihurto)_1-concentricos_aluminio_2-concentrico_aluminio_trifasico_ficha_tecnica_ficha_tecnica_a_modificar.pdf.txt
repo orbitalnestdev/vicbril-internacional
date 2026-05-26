@@ -1,0 +1,801 @@
+
+--- PAGE 1 ---
+CeCONEX
+CECONEX
+CABLES PARA ACOMETIDAS AÉREAS CON NEUTRO CONCNTRICO
+cearca
+CONDUCTORES ELECTRICOS
+Confiabilidad de punta a punta
+
+--- PAGE 2 ---
+CECONEX
+Cables aéreos para acometidas domiciliarias
+con neutro concéntrico
+DESCRIPCIÓN
+Cable para acometidas domiciliarias, construido con uno, dos
+o tres conductores cableados de cobre recocido o aluminio,
+aislados con XLPE o PVC, conductor concéntrico, dos o
+tres conductores de señales, cubierta externa de polietileno
+reticulado (XLPE), poli cloruro de vinilo (PVC) о
+polietileno termoplástico (PE). Tensión nominal 0.6/1 kV.
+USO
+Estos cables están especialmente diseñados para
+acometidas desde líneas aéreas preensambladas,
+transformadores, cajas de derivación y dispositivos
+medidores de energía. Sin conexiones intermedias para
+minimizar la posibilidad de conexiones clandestinas. Los
+conductores de señal conectan los repetidores de lectura
+en sistemas de energía prepaga.
+cearca
+CONDUCTORES ELECTRICOS
+cearcа 2 х 10+10 MM:
+ca
+rca
+2 X 10+10 MM2 0,6/1KV
+cear
+a
+2 X 10+ 10 MM2
+0.6/1KV
+cearo
+CONDUCTORES ELECTRI
+NORMAS
+Los cables son construidos y ensayados con alguna de las
+siguientes normas, IRAM 63001, ICEA S-95-658, IEC
+60502-1, y/o especificación del usuario.
+Nota: los cables según IEC 60502-1 e ICEA S-95-658 son
+aptos par uso subterráneo.
+CERTIFICACIONES
+Los cables con conductor concéntrico tienen certificación
+IRAM (IQNet) y UL Argentina.
+CONSTRUCCIÓN
+Conductor de fase
+7 hilos de cobre recocido o aluminio, clase 2 no compacto.
+Aislamiento del conductor de fase
+Polietileno reticulado (XLPE), temperatura de servicio
+90°C, sobrecarga de emergencia 130°C, temperatura final
+del cortocircuito 250°C. Resistente a la luz del sol, XLPE
+con 2% de negro de humo. Poli cloruro de vinilo
+(PVC/A), temperatura de servicio 70°C, temperatura final
+del cortocircuito 160°C.
+Identificación por colores
+- Cable con un conductor de fase, negro.
+- Cable con dos conductores de fase, negro y azul.
+- Cable con tres conductores de fase, negro, rojo y blanco.
+Aislaciones resistentes a la luz del sol
+Negro con nervaduras longitudinales continuas.
+Conductor de fase concéntrico
+Una segunda fase puede ser cableada en forma concéntrica,
+construida de alambres de cobre recocido o aluminio, cobertura
+cerrada, encintado separador de material sintético, aislación de
+polietileno reticulado.
+Reunido
+Dos o tres conductores de fase son reunidos con paso adecuado.
+Revestimiento interno
+Sobre el reunido de los cables con dos y tres conductores de
+fase se aplica un revestimiento extruido de PVC.
+Conductor neutro concéntrico
+Construido con alambres de cobre recocido o aluminio
+cableados concentricamente, con 100% de cobertura para
+cables unipolares y 90% para los multipolares. Un encintado
+de material sintético separa los alambres de la cubierta externa.
+Conductor de señal
+Alambre de cobre recocido.
+Aislamiento del conductor de señal
+Polietileno reticulado (XLPE), temperatura de servicio 90°C,
+sobrecarga de emergencia 130°C, temperatura final del
+cortocircuito 250°C. Resistente a la luz del sol, XLPE con
+2% de negro de humo. Poli cloruro de vinilo (PVC/A),
+temperatura de servicio 70°C, temperatura final del
+cortocircuito 160°С.
+Aislación reforzada o cubierta
+Polietileno reticulado (XLPE), Poli cloruro de vinilo negro
+o Polietileno termoplástico resistentes a la intemperie
+(IRAM 63001).
+
+--- PAGE 3 ---
+Cable concéntrico de aluminio según norma ICEA S-66-524
+Espesor
+Sección
+de
+Espesor de la
+cubierta, mínimo
+Diámetro
+Peso
+exterior
+nominal
+aislación
+en un punto
+aprox.
+aprox.
+a 40°C
+Intensidad
+de corriente
+admisible
+Resistencia
+eléctrica
+en C.C. a 20°С
+Reactancia
+inductiva
+a 50 Hz
+AWG
+mm
+mm
+mm
+Kg/Km
+A
+ohm/Km
+ohm/Km
+1x6+6
+1.14
+1,14
+11
+130
+60
+2.214
+0,101
+1x4+4
+1,14
+1,14
+13
+188
+84
+1,390
+0.095
+1x2+2
+1.14
+1,52
+16
+295
+110
+0,872
+0.091
+2x6+6
+1,14
+1,52
+20
+394
+59
+2,214
+0.101
+2x4+4
+1,14
+2,03
+23
+565
+82
+1,390
+0,095
+2x2+2
+1,14
+2,03
+27
+789
+103
+0,872
+0,091
+3x6+6
+1.14
+1,52
+21
+432
+52
+2,214
+0.101
+3x4+4
+1,14
+2,03
+25
+622
+73
+1,390
+0,095
+3x2+2
+1.14
+2,03
+28
+871
+90
+0.872
+0,091
+Factores de corrección aplicables a las capacidades de carga para temperaturas ambientes distintas de 40°C
+Temperatura en °C
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Factor de corrección
+1,26 1,23 1,19
+1,11
+1.10
+1,05
+1,0
+0,96 0,90
+Cables según norma IEC 60502-1 secciones en AWG
+Espesor
+Sección
+nominal
+de
+aislación
+Espesor de la
+cubierta, mínimo
+Diámetro
+Peso
+exterior
+Intensidad
+de corriente
+admisible
+Resistencia
+Reactancia
+en un punto
+a 40°C
+eléctrica
+en C.C. a 20°С
+inductiva
+a 50 Hz
+AWG
+mm
+mm
+mm
+Kq/Km
+A
+ohm/Km
+ohm/Km
+1 x 10+ 10
+1.1
+1.2
+9
+130
+50
+3.41
+0.094
+1x8+8
+1.1
+1.2
+10
+200
+55
+2.14
+0.089
+1x6+6
+1.1
+1.2
+11.5
+320
+75
+1.35
+0.083
+Cables multipolares, norma IEC 60502-1, secciones en AWG
+Sección
+nominal
+Espesor
+de
+aislación
+Espesor de la
+cubierta, mínimo
+Diámetro
+exterior
+Peso
+en un punto
+Intensidad
+de corriente
+admisible
+a 40°C
+Resistencia
+eléctrica
+en C.C. g 20°С
+Reactancia
+inductiva
+a 50 Hz
+AWG
+mm
+mm
+mm
+Kg/Km
+A
+ohm/Km
+ohm/Km
+2x 10+10
+0.7
+1.24
+13
+224
+40
+3.48
+0.084
+2x8+8
+0.7
+1.24
+14
+308
+55
+2.18
+0.079
+2x6+6
+0.7
+1.24
+16
+466
+70
+1.38
+0.076
+2x4+4
+0.7
+1.24
+18
+685
+90
+0.863
+0.073
+3x 10+10
+0.7
+1.24
+13
+262
+35
+3.48
+0.084
+3x8+8
+0.7
+1.24
+16
+405
+45
+2.18
+0.079
+3x6+6
+0.7
+1.24
+18
+595
+60
+1.38
+0.076
+3x4+4
+0.7
+1.24
+19
+796
+85
+0.863
+0.073
+CONSTRUCCIÓN DEL CABLE
+Conductor de fase: Cobre recocido o aluminio, clase 2
+Aislación de XLPE o PVC
+Conductor neutro: cobre recocido o aluminio,
+cableado concéntrico, cobertura 100%
+Cinta de Poliéster
+cearca sa
+Envoltura de XLPE, PVC o PE
+
+--- PAGE 4 ---
+Cables según norma IRAM 63001, secciones en mm²
+Espesor
+Espesor de aislación exterior
+Diámetro exterior
+Peso
+Sección
+nominal
+de
+aislación
+Simple
+Reforzada
+Simple
+Reforzada
+Simple
+Reforzada
+Intensidad
+de corriente
+admisible
+a 40°C
+Resistencia
+Reactancia
+eléctrica en
+inductiva
+C.C. a 20°С
+a 50 Hz
+mm²
+mm
+mm
+mm
+mm
+mm
+Kg/Km
+kg/km
+A
+ohm/km
+ohm/Km
+1x4+4
+1.0
+1.2
+1.7
+9
+10
+105
+120
+41
+4.61
+0.104
+1x6+6
+1.0
+1.2
+1.7
+10
+11
+145
+160
+55
+3.08
+0.100
+1 x 10+ 10
+1.0
+1.2
+1.7
+11
+12
+230
+240
+70
+1.83
+0.099
+1x16+16
+1.0
+1.2
+1.7
+13
+14
+335
+365
+92
+1.15
+0.095
+Cables multipolares, norma IEC 60502-1, secciones en mm²
+Espesor
+Espesor de la
+Diámetro
+Sección
+nominal
+de aislación
+nominal
+cubierta, mínimo
+Peso
+Intensidad
+de corriente
+Resistencia
+Reactancia
+exterior
+en un punto
+aprox.
+admisible
+aprox.
+a 40°C
+eléctrica
+en C.C. a 20°С
+inductiva
+a 50 Hz
+mm²
+mm
+mm
+mm
+Kg/Km
+A
+ohm/Km
+ohm/Km
+2x4+4
+0.7
+1,24
+13
+224
+44
+4.61
+0.087
+2x6+6
+0,7
+1,24
+14
+308
+57
+3.08
+0.082
+2x 10+10
+0,7
+1,24
+16
+466
+78
+1.83
+0.078
+2x16+16
+0,9
+1,24
+18
+685
+104
+1.15
+0.075
+3x4+4
+0.7
+1.24
+13
+262
+38
+4.61
+0.087
+3x6+6
+0.7
+1.24
+16
+405
+49
+3.08
+0.082
+3x 10+ 10
+0.7
+1.24
+18
+595
+68
+1.83
+0.078
+3x16+16
+0.7
+1.24
+19
+796
+91
+1.15
+0.075
+Cables con conductor de fase y conductor neutro concéntricos, norma IEC 60502-1, secciones en mm²
+Sección
+Espesor
+de
+Espesor de la
+cubierta, mínimo
+Intensidad
+Diómetro
+de corriente
+Peso
+Resistencia
+eléctrica
+Reactancia
+inductiva
+nominal
+exterior
+aislación
+en un punto
+admisible
+a 40°C
+en C.C. a 20°C
+a 50 Hz
+mm2
+mm
+mm
+mm
+Kq/Km
+A
+ohm/Km
+ohm/Km
+1x4+4+4
+0.7
+1.24
+13
+224
+44
+4.61
+0.087
+1x6+6+6
+0.7
+1.24
+14
+308
+57
+3.08
+0.082
+1x 10+10+10
+0.7
+1.24
+16
+466
+78
+1.83
+0.078
+Cable concéntrico de aluminio, Norma IEC 60502-1
+Sección
+Espesor
+de aislación
+Espesor de la
+cubierta, minimo
+nominal
+nominal
+Diámetro
+exterior aprox.
+Peso
+aprox.
+en un punto
+a 40°C
+Intensidad
+de corriente
+admisible
+Resistencia
+eléctrica
+en C.C. a 20°C
+Reactancia
+inductiva
+a 50 Hz
+mm²
+mm
+mm
+mm
+Kg/Km
+A
+ohm/Km
+ohm/Km
+1x6+6
+0.7
+1,24
+9
+80
+42
+4,61
+0,082
+1x 10+10
+0.7
+1,24
+10
+106
+51
+3,08
+0.078
+1x 16+16
+0.7
+1,24
+12
+150
+72
+1,91
+0.075
+1 x 25 + 25
+0,9
+1,24
+14
+225
+94
+1,2
+0,072
+2x6+6
+0,7
+1,24
+16
+324
+38
+4,61
+0,082
+2x 10+10
+0,7
+1,24
+18
+392
+50
+3,08
+0,078
+2x 16+16
+0,7
+1,24
+20
+505
+70
+1,91
+0,075
+2 x 25 +25
+0,9
+1,24
+23
+690
+88
+1,2
+0,072
+3x6+6
+0,7
+1,24
+17
+339
+34
+4,61
+0,082
+3x 10+10
+0,7
+1,24
+19
+408
+44
+3,08
+0,078
+3x 16+16
+0,7
+1,24
+21
+515
+62
+1,91
+0,075
+3x 25+25
+0,9
+1,24
+24
+698
+77
+1,2
+0,072
+
+--- PAGE 5 ---
+Conductor de fase: Cobre recocido o aluminio, clase 2
+Aislación de XLPE o PVC
+Cinta de Poliéster
+cearca sa
+Conductor neutro: cobre recocido o aluminio,
+cableado concéntrico, cobertura 100%
+Aislación de XLPE o PVC
+Envoltura de XLPE, PVC o PE
+Conductor de señales: cobre recocido, clase 1
+2 o 3 conductores de fase: cobre recocido o aluminio, clase 2
+Conductor neutro: cobre recocido o aluminio,
+cableado concéntrico, cobertura 90%
+cearca sa
+Revestimiento interno de PVC
+Cinta de Poliéster
+Envoltura de XLPE. PVC o PE
+Aislación de XLPE o PVC
+2 o 3 conductores de fase: cobre recocido o aluminio, clase 2
+Conductor neutro: cobre recocido o aluminio,
+cableado concéntrico, cobertura 90%
+Aislación de XLPE o PVC
+Revestimiento interno de PVC
+Cinta de Poliéster
+cearca sa
+Aislación de XLPE o PVC
+Envoltura de XLPE, PVC o PE
+Conductor de señales: cobre recocido, clase 1
+Conductor de fase: Cobre recocido o aluminio, clase 2
+Aislación de XLPE o PVC
+Cinta de Poliéster
+Cinta de Poliéster
+Conductor neutro:
+cobre recocido o aluminio,
+cableado concéntrico,
+cobertura 100%
+Aislación de XLPE o PVC
+cearca sa
+Envoltura de XLPE, PVC o PE
+Conductor de tierra: cobre recocido o aluminio,
+cableado concéntrico, cobertura 90%
+F0306-C1
+
+--- PAGE 6 ---
+Conductor de fase: Cobre recocido o aluminio, clase 2
+Aislación de XLPE o PVC
+Cinta de Poliéster
+Conductor de tierra: cobre recocido o aluminio,
+cableado concéntrico, cobertura 90%
+Cinta de Poliéster
+cearca sa
+Conductor neutro:
+cobre recocido o aluminio,
+cableado concéntrico,
+cobertura 100%
+Aislación de XLPE o PVC
+Envoltura de XLPE, PVC o PE
+Conductor de señales: cobre recocido,
+clase 1
+Aislación de XLPE o PVC
+cearca
+CONDUCTORES ELECTRICOS
+Confiabilidad de punta a punta
+CEARCA S.A. Dean Funes 1946 - B1751CYD - Villa Madero - Pcia. Buenos Aires - Argentina
+Tel/Fax: (54-11) 5082-9500 (Línea Rotativa) - e-mail: info@cearca.com - www.cearca.com
+TUV
+CERT
+DIN EN IS0 9001:20

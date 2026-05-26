@@ -1,0 +1,59 @@
+id: 'bipolar-vaina-chata',
+    name: 'Cable Envainado Chato (Bajo Plomo)',
+    categoryPath: ['Cables para Instalación Civil', 'Bipolar'],
+    description: 'Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas.',
+    detailedDescription: `TIPO BAJO PLOMO
+MULTIPOLAR - PVC/PVC - 300/500 VOLT - 70°°C
+
+DESCRIPCIÓN
+Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general, excluyendo los aparatos de calefacción.
+
+APLICACIONES
+Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquinas - herramientas y equipamientos de mano. Los cables están permitidos para su conexión directa a la red eléctrica.`,
+    image: '/images/ProductosNuevos/1-CABLES PARA INSTALACION CIVIL/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/portada.jpg',
+    gallery: [
+      '/images/ProductosNuevos/1-CABLES PARA INSTALACION CIVIL/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/foto producto dentro de ficha tecnica.png'
+    ],
+    technicalTable: '/images/ProductosNuevos/1-CABLES PARA INSTALACION CIVIL/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/MARCAS DISPONIBLES VAINA CHATA.jpg',
+    pdf: '/images/ProductosNuevos/1-CABLES PARA INSTALACION CIVIL/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/FICHA TECNICA VAINA CHATA.pdf',
+    specs: ['300/500 V', '70°°', 'PVC/PVC'],
+    technicalIntro: `CARACTERÍSTICAS
+Temperatura máxima: 70°°C de servicio, 160°C de cortocircuito.
+Tensión nominal: 300/500 Volt.
+Norma constructiva: IEC 60227-7.
+Norma de fuego: IRAM NM 60332-1.
+Norma de conductores: IEC 60228 / IRAM NM 280.
+Conductor: Cobre electrolítico recocido en formación clase 5.
+Aislación: PVC.
+Identificación: Color negro con identificación alfanumerica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo en el total de conductores indicados.
+Cubierta: PVC negro, no propagante del incendio.`,
+    characteristics: [],
+    colors: [
+      { 
+        label: 'Bipolar', 
+        values: ['Celeste', 'Marrón'], 
+        codes: ['#00AEEF', '#8B4513'] 
+      },
+      { 
+        label: 'Tripolar', 
+        values: ['Verde-Amarillo', 'Celeste', 'Marrón'], 
+        codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#00AEEF', '#8B4513'] 
+      }
+    ],
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Formación N° x mm²", "Diámetro máx. alambres mm", "Espesor aislación nominal mm", "Espesor envoltura nominal mm", "Dimensiones exteriores aprox. mm", "Masa aprox. kg/km", "Intensidad admisible (A)", "Resistencia eléctrica máx a 20°C (Ohm/km)"],
+        rows: [
+          ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7", "19,5"],
+          ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10", "13,3"],
+          ["2x2,5", "0,26", "0,8", "0,6", "5,1 x 8,8", "85", "16", "7,98"],
+          ["3x1", "0,21", "0,6", "0,6", "4,1 x 9,2", "64", "7", "19,5"],
+          ["3x1,5", "0,26", "0,7", "0,6", "4,5 x 10,6", "86", "10", "13,3"],
+          ["3x2,5", "0,26", "0,8", "0,6", "5,1 x 12,5", "126", "16", "7,98"]
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'no-propagacion', 'marcacion-secuencial', 'instalacion-industrial', 'conductor-tierra', 'instalacion-domiciliaria'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },

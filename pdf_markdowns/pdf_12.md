@@ -1,0 +1,411 @@
+<!-- Source: public/images/ProductosNuevos/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/FICHA TECNICA/FICHA TECNICA INSTRUMENTAR.pdf -->
+
+**==> picture [228 x 49] intentionally omitted <==**
+
+## serie AR 
+
+**==> picture [155 x 42] intentionally omitted <==**
+
+_Par, terna, cuadrete, multipar, multiterna_ 
+
+**==> picture [420 x 113] intentionally omitted <==**
+
+**==> picture [41 x 41] intentionally omitted <==**
+
+**==> picture [41 x 41] intentionally omitted <==**
+
+## _300 Volt Cu 22 a 12 AWG PVC 105°C / PVC UL 13 PLTC_ 
+
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca. Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de señales de alarma. Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o en ductos. 
+
+**==> picture [43 x 43] intentionally omitted <==**
+
+_No propagación de incendio_ 
+
+**==> picture [43 x 43] intentionally omitted <==**
+
+**==> picture [39 x 12] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+Resistente a<br>hidrocarburos<br>**----- End of picture text -----**<br>
+
+
+**==> picture [43 x 44] intentionally omitted <==**
+
+_Resistente al aceite mineral_ 
+
+**==> picture [43 x 44] intentionally omitted <==**
+
+_Resistente luz solar_ 
+
+**==> picture [43 x 49] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+Uso refinerías<br>**----- End of picture text -----**<br>
+
+
+**==> picture [52 x 50] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+Apto uso bandejas<br>**----- End of picture text -----**<br>
+
+
+## CARACTERÍSTICAS 
+
+**Temperatura máxima:** 105°C **Tensión nominal:** 300 Volt **Norma constructiva:** UL 13 tipo PLTC - UL 2250 tipo ITC **Norma de conductores:** ASTM B8 Clase B **Conductor:** Cobre electrolítico recocido en formación de 7 hilos **Aislación:** PVC 
+
+**Paso del trenzado:** 50mm (20 torsiones por metro) **Blindaje:** Cinta aluminio-poliéster más conductor de drenaje de cobre estañado **Cubierta:** PVC no propagante del incendio, resistente a la luz solar e hidrocarburos **Norma de fuego:** UL 1685 
+
+**Norma hidrocarburos:** NFC 32-200 - ASTM D 1239 **Norma aceites:** ICEA S 73-532 
+
+**Norma de intemperismo:** UL 2556 (rayos UV) 
+
+**Código NEC (NFPA 70):** Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2 
+
+## IDENTIFICACIÓN 
+
+## INSTALACIÓN 
+
+**==> picture [408 x 101] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+Estandar Seguridad Intrínseca<br>Cubierta Conductores Cubierta Conductores<br>Par<br>Temperatura Sobre los Radio<br>Terna montaje conductores curvatura<br>mínimo<br>Cuadrete<br>Multipar +N +N<br>Multiterna +N +N<br>**----- End of picture text -----**<br>
+
+
+1 
+
+_Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso_ 
+
+www.marlew.com.ar 
+
+serie AR _Par, terna, cuadrete, multipar, multiterna_ 
+
+**==> picture [95 x 95] intentionally omitted <==**
+
+## VARIANTES CONSTRUCTIVAS 
+
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes alternativas de materiales de aislación y/o cubierta. 
+
+Se pueden fabricar cables de instrumentación bajo otras normas, tales como: NBR 10300, EN 50288-7 o ICEA S 73-532, cumpliendo otros parámetros eléctricos y dimensionales. 
+
+## CARACTERÍSTICAS ELÉCTRICAS 
+
+|Calibre de los<br>conductores|Estructura del cable|Tipo de blindaje|Resistencia eléctrica<br>en C.C. a 20°C|Capacidad<br>mutua entre<br>conductores|Impedancia<br>característica|Inductancia<br>mutua|
+|---|---|---|---|---|---|---|
+|AWG|||ohm/km|pf/m|ohm|microH/km|
+|20|Par /terna / cuadrete|Sin blindar|35,78|98|76|588|
+|||Blindado||180|41||
+||Multipar / multiterna|Blindaje general||111|67||
+|||Blindaje individual y general||180|41||
+|18|Par /terna / cuadrete|Sin blindar|22,78|85|88|641|
+|||Blindado||165|50||
+||Multipar / multiterna|Blindaje general||98|76||
+|||Blindaje individual y general||165|50||
+|16|Par /terna / cuadrete|Sin blindar|14,25|112|66|544|
+|||Blindado||210|35||
+||Multipar / multiterna|Blindaje general||122|61||
+|||Blindaje individual y general||210|35||
+|14|Par /terna / cuadrete|Sin blindar|8,94|103|68|553|
+|||Blindado||203|37||
+||Multipar / multiterna|Blindaje general||133|56||
+|||Blindaje individual y general||203|37||
+|12|Par /terna / cuadrete|Sin blindar|5,63|121|62|522|
+|||Blindado||228|33||
+
+
+
+pF/m = Capacidad mutua entre conductores en picoFaradio por metro / uH/km = Inductancia mutua entre conductores en microHenry por kilómetro. 
+
+**==> picture [35 x 29] intentionally omitted <==**
+
+2 
+
+_Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso_ 
+
+www.marlew.com.ar 
+
+## serie AR _Par, terna, cuadrete, multipar, multiterna_ 
+
+**==> picture [95 x 95] intentionally omitted <==**
+
+## DIMENSIONES Y PESOS 
+
+## Par 
+
+|AWG|Blindaje|Drenaje|Diámetro exterior mm|Peso kg/km|Código|Mat Number|
+|---|---|---|---|---|---|---|
+|20|--|--|4.9|30|AR 1P20|810000030|
+||Si|22|5|33|AR-O 1P20|810000040|
+|18|--|--|5.6|40|AR 1P18|810000050|
+||Si|20|5.7|45|AR-O 1P18|810000060|
+|16|--|--|6.2|53|AR 1P16|810000070|
+||Si|18|6.3|61|AR-O 1P16|810000080|
+|14|--|--|7.7|82|AR 1P14|810000090|
+||Si|18|7.8|89|AR-O 1P14|810000100|
+|12|--|--|8.7|111|AR 1P12|810000110|
+||Si|18|8.8|119|AR-O 1P12|810000120|
+
+
+
+## Terna - Blindado 
+
+|AWG|Drenaje|Diámetro exterior mm|Peso kg/km|Código|Mat Number|
+|---|---|---|---|---|---|
+|20|22|5.3|41|AR-O 1T20|810000140|
+|18|20|6|57|AR-O 1T18|810000150|
+|16|18|6.7|78|AR-O 1T16|810000160|
+|14|18|8.3|116|AR-O 1T14|810000170|
+|12|18|9.3|159|AR-O 1T12|810000180|
+
+
+
+## Cuadrete - Blindado 
+
+|AWG|Drenaje|Diámetro exterior mm|Peso kg/km|Código|Mat Number|
+|---|---|---|---|---|---|
+|20|22|5.7|50|AR-O 1Q20|810000200|
+|18|20|6.5|70|AR-O 1Q18|810000210|
+|16|18|7.5|101|AR-O 1Q16|810000220|
+|14|18|9|146|AR-O 1Q14|810000230|
+|12|18|10.7|214|AR-O 1Q12|810000240|
+
+
+
+3 
+
+_Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso_ 
+
+www.marlew.com.ar 
+
+**==> picture [95 x 95] intentionally omitted <==**
+
+serie AR _Par, terna, cuadrete, multipar, multiterna_ 
+
+## Multipares 
+
+|Nro. Pares|AWG|Blindaje General|Blindaje General|Blindaje General|Blindaje General|
+|---|---|---|---|---|---|
+|||Diámetro exterior mm|Peso kg/km|Código|Mat Number|
+|2|20|7.4|65|AR-O 2P20|810000360|
+|3||7.8|79|AR-O 3P20|810000370|
+|4||8.5|100|AR-O 4P20|810000380|
+|6||10.6|147|AR-O 6P20|810000390|
+|8||11.4|178|AR-O 8P20|810000400|
+|12||13.6|245|AR-O 12P20|810000410|
+|16||15.1|307|AR-O 16P20|810000420|
+|20||17.2|390|AR-O 20P20|810000430|
+|24||19|456|AR-O 24P20|810000440|
+|36||21.7|634|AR-O 36P20|810000460|
+|2|18|8.3|87|AR-O 2P18|810000470|
+|3||9.1|111|AR-O 3P18|810000480|
+|4||10.5|152|AR-O 4P18|810000490|
+|6||12.4|205|AR-O 6P18|810000500|
+|8||13.4|252|AR-O 8P18|810000510|
+|12||16.7|370|AR-O 12P18|810000520|
+|16||18.4|465|AR-O 16P18|810000530|
+|20||20.4|562|AR-O 20P18|810000540|
+|24||23.3|688|AR-O 24P18|810000550|
+|36||26.5|961|AR-O 36P18|810000570|
+|2|16|9|111|AR-O 2P16|810000580|
+|3||10.8|159|AR-O 3P16|810000590|
+|4||11.7|200|AR-O 4P16|810000600|
+|6||13.9|275|AR-O 6P16|810000610|
+|8||15.1|344|AR-O 8P16|810000620|
+|12||18.8|508|AR-O 12P16|810000630|
+|16||20.9|646|AR-O 16P16|810000640|
+|20||23.7|813|AR-O 20P16|810000650|
+|24||26.4|959|AR-O 24P16|810000660|
+|36||30.2|1359|AR-O 36P16|810000680|
+|2|14|11.1|170|AR-O 2P14|810000690|
+|3||13.1|230|AR-O 3P14|810000700|
+|4||14.3|292|AR-O 4P14|810000710|
+|6||17.7|429|AR-O 6P14|810000720|
+|8||19.2|539|AR-O 8P14|810000730|
+|12||24|796|AR-O 12P14|810000740|
+|16||26.6|1016|AR-O 16P14|810000750|
+|20||29.5|1239|AR-O 20P14|810000760|
+|24||33.4|1503|AR-O 24P14|810000770|
+|36||38.3|2144|AR-O 36P14|810000790|
+
+
+
+**==> picture [35 x 29] intentionally omitted <==**
+
+4 
+
+_Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso_ 
+
+www.marlew.com.ar 
+
+## serie AR _Par, terna, cuadrete, multipar, multiterna_ 
+
+**==> picture [95 x 95] intentionally omitted <==**
+
+|Nro. Pares|AWG|Blindaje individual y general|Blindaje individual y general|Blindaje individual y general|Blindaje individual y general|
+|---|---|---|---|---|---|
+|||Diámetro exterior mm|Peso kg/km|Código|Mat Number|
+|2|20|7,4|72|AR-IO 2P20|810000910|
+|3||8,3|94|AR-IO 3P20|810000920|
+|4||9,1|120|AR-IO 4P20|810000930|
+|6||11,3|176|AR-IO 6P20|810000940|
+|8||12,1|215|AR-IO 8P20|810000950|
+|12||14,6|300|AR-IO 12P20|810000960|
+|16||16,7|397|AR-IO 16P20|810000970|
+|20||18,4|479|AR-IO 20P20|810000980|
+|24||20,4|562|AR-IO 24P20|810000990|
+|36||23,9|818|AR-IO 36P20|810001010|
+|2|18|8,3|98|AR-IO 2P18|810001020|
+|3||10,3|143|AR-IO 3P18|810001030|
+|4||11,2|180|AR-IO 4P18|810001040|
+|6||13,2|245|AR-IO 6P18|810001050|
+|8||14,3|305|AR-IO 8P18|810001060|
+|12||17,9|451|AR-IO 12P18|810001070|
+|16||19,8|570|AR-IO 16P18|810001080|
+|20||21,9|691|AR-IO 20P18|810001090|
+|24||25|845|AR-IO 24P18|810001100|
+|36||28,5|1192|AR-IO 36P18|810001120|
+|2|16|9|128|AR-IO 2P16|810001130|
+|3||11,5|190|AR-IO 3P16|810001140|
+|4||12,5|241|AR-IO 4P16|810001150|
+|6||14,9|335|AR-IO 6P16|810001160|
+|8||16,7|441|AR-IO 8P16|810001170|
+|12||20,2|626|AR-IO 12P16|810001180|
+|16||23|827|AR-IO 16P16|810001190|
+|20||25,5|1006|AR-IO 20P16|810001200|
+|24||28,4|1190|AR-IO 24P16|810001210|
+|36||33|1737|AR-IO 36P16|810001230|
+|2|14|11,1|187|AR-IO 2P14|810001240|
+|3||14|264|AR-IO 3P14|810001250|
+|4||15,9|354|AR-IO 4P14|810001260|
+|6||19|495|AR-IO 6P14|810001270|
+|8||20,6|624|AR-IO 8P14|810001280|
+|12||25,7|923|AR-IO 12P14|810001290|
+|16||28,6|1183|AR-IO 16P14|810001300|
+|20||32,3|1482|AR-IO 20P14|810001310|
+|24||36|1754|AR-IO 24P14|810001320|
+|36||41,8|2559|AR-IO 36P14|810001340|
+
+
+
+5 
+
+_Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso_ 
+
+www.marlew.com.ar 
+
+**==> picture [95 x 95] intentionally omitted <==**
+
+serie AR _Par, terna, cuadrete, multipar, multiterna_ 
+
+## Multiternas 
+
+|Nro. Ternas|AWG|Blindaje General|Blindaje General|Blindaje General|Blindaje General|
+|---|---|---|---|---|---|
+|||Diámetro exterior mm|Peso kg/km|Código|Mat Number|
+|2|20|8,9|85|AR-O 2T20|810001460|
+|3||9,4|107|AR-O 3T20|810001470|
+|4||10,8|148|AR-O 4T20|810001480|
+|6||12,8|201|AR-O 6T20|810001490|
+|8||13,8|246|AR-O 8T20|810001500|
+|12||17,2|363|AR-O 12T20|810001510|
+|16||19,1|456|AR-O 16T20|810001520|
+|20||21,1|550|AR-O 20T20|810001530|
+|24||24,1|676|AR-O 24T20|810001540|
+|36||27,5|942|AR-O 36T20|810001560|
+|2|18|10,8|129|AR-O 2T18|810001570|
+|3||11,5|164|AR-O 3T18|810001580|
+|4||12,5|205|AR-O 4T18|810001590|
+|6||14,9|282|AR-O 6T18|810001600|
+|8||16,6|370|AR-O 8T18|810001610|
+|12||20,2|519|AR-O 12T18|810001620|
+|16||23,0|685|AR-O 16T18|810001630|
+|20||25,4|829|AR-O 20T18|810001640|
+|24||28,3|976|AR-O 24T18|810001650|
+|36||32,9|1417|AR-O 36T18|810001670|
+|2|16|12,2|168|AR-O 2T16|810001680|
+|3||13,0|219|AR-O 3T16|810001690|
+|4||14,2|273|AR-O 4T16|810001700|
+|6||17,5|402|AR-O 6T16|810001710|
+|8||18,9|504|AR-O 8T16|810001720|
+|12||23,7|747|AR-O 12T16|810001730|
+|16||26,3|953|AR-O 16T16|810001740|
+|20||29,1|1161|AR-O 20T16|810001750|
+|24||33,0|1412|AR-O 24T16|810001760|
+|36||37,8|2009|AR-O 36T16|810001780|
+|2|14|15,0|242|AR-O 2T14|810001790|
+|3||16,5|341|AR-O 3T14|810001800|
+|4||18,0|431|AR-O 4T14|810001810|
+|6||21,7|607|AR-O 6T14|810001820|
+|8||24,2|798|AR-O 8T14|810001830|
+|12||29,5|1140|AR-O 12T14|810001840|
+|16||33,3|1502|AR-O 16T14|810001850|
+|20||37,1|1836|AR-O 20T14|810001860|
+|24||41,9|2223|AR-O 24T14|810001870|
+|36||48,1|3180|AR-O 36T14|810001890|
+
+
+
+**==> picture [35 x 29] intentionally omitted <==**
+
+6 
+
+_Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso_ 
+
+www.marlew.com.ar 
+
+## serie AR _Par, terna, cuadrete, multipar, multiterna_ 
+
+**==> picture [95 x 95] intentionally omitted <==**
+
+|Nro. Ternas|AWG|Blindaje individual y general|Blindaje individual y general|Blindaje individual y general|Blindaje individual y general|
+|---|---|---|---|---|---|
+|||Diámetro exterior mm|Peso kg/km|Código|Mat Number|
+|2|20|9,1|94|AR-IO 2T20|810002010|
+|3||10,2|133|AR-IO 3T20|810002020|
+|4||11,0|166|AR-IO 4T20|810002030|
+|6||13,1|227|AR-IO 6T20|810002040|
+|8||14,2|282|AR-IO 8T20|810002050|
+|12||17,7|416|AR-IO 12T20|810002060|
+|16||19,6|526|AR-IO 16T20|810002070|
+|20||21,7|637|AR-IO 20T20|810002080|
+|24||24,7|779|AR-IO 24T20|810002090|
+|36||28,2|1096|AR-IO 36T20|810002110|
+|2|18|11,0|142|AR-IO 2T18|810002120|
+|3||11,7|184|AR-IO 3T18|810002130|
+|4||12,7|231|AR-IO 4T18|810002140|
+|6||15,2|321|AR-IO 6T18|810002150|
+|8||17,0|421|AR-IO 8T18|810002160|
+|12||20,6|596|AR-IO 12T18|810002170|
+|16||23,4|786|AR-IO 16T18|810002180|
+|20||26,0|956|AR-IO 20T18|810002190|
+|24||28,9|1128|AR-IO 24T18|810002200|
+|36||33,6|1644|AR-IO 36T18|810002220|
+|2|16|12,4|188|AR-IO 2T16|810002230|
+|3||13,2|248|AR-IO 3T16|810002240|
+|4||14,4|315|AR-IO 4T16|810002250|
+|6||17,8|463|AR-IO 6T16|810002260|
+|8||19,3|585|AR-IO 8T16|810002270|
+|12||24,1|864|AR-IO 12T16|810002280|
+|16||26,7|1107|AR-IO 16T16|810002290|
+|20||29,7|1353|AR-IO 20T16|810002300|
+|24||33,6|1640|AR-IO 24T16|810002310|
+|36||38,5|2348|AR-IO 36T16|810002330|
+|2|14|15,2|263|AR-IO 2T14|810002340|
+|3||16,7|372|AR-IO 3T14|810002350|
+|4||18,3|472|AR-IO 4T14|810002360|
+|6||22,0|667|AR-IO 6T14|810002370|
+|8||24,5|877|AR-IO 8T14|810002380|
+|12||29,9|1258|AR-IO 12T14|810002390|
+|16||33,8|1660|AR-IO 16T14|810002400|
+|20||37,6|2032|AR-IO 20T14|810002410|
+|24||42,5|2459|AR-IO 24T14|810002420|
+|36||48,8|3532|AR-IO 36T14|810002440|
+
+
+
+7 
+
+_Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso_ 
+
+www.marlew.com.ar 
+

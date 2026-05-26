@@ -1,0 +1,481 @@
+
+--- PAGE 1 ---
+CePRET 88
+CEPRET88®
+CABLES PREENSAMBLADOS
+PARA LÍNEAS DE DISTRIBUCIÓN AÉREA DE HASTA 1 KV
+cearca S/a INDUSTRIA ARGENTINA
+cearca
+CONDUCTORES ELECTRICOS
+Confiabilidad de punta a punta
+
+--- PAGE 2 ---
+CEPRET88
+Cables preensamblados para lineas de distribución aérea
+de hasta 1 kV
+DESCRIPCIÓN
+Cable preensamblado para líneas aéreas de distribución de
+energía eléctrica en baja tensión, constituído por tres fases
+aisladas cableadas a espiral visible con un neutro portante
+(mensajero), aislado o desnudo; para tensiones nominales de
+servicio de hasta 1 kV entre fases. El conjunto básico
+descripto puede suministrarse con una o dos fases
+adicionales para alumbrado público.
+INDUSTRIA ARGENTINA
+cearca
+NDUCTORES ELECTRICOS
+STRIA ARGENTINA
+USO
+Estos cables se utilizan en líneas aéreas de distribución en
+baja tensión, instalados sobre postes, fachadas y en zonas
+arboladas.
+NORMAS
+La construcción y ensayo de los cables contemplados en el
+presente folleto responden a las normas IRAM 2263, NBR
+8182, ICEA S-76-474 y NFC 33209.
+CONSTRUCCIÓN
+Conductores Fases: aluminio puro 1350 (AAC), clase 2,
+compactadas (a pedido se pueden fabricar sin compactar).
+Neutro portante: aleación de aluminio (AAAC), aluminio
+con alma de acero (ACSR) o aluminio puro 1350 H-19
+(AAC).
+Alumbrado: aluminio puro 1350 (AAC), clase 2,
+compactadas (a pedido se pueden fabricar sin compactar).
+Aislación - Polietileno reticulado (XLPE) color negro, de
+elevada resistencia a la intemperie y a los rayos
+ultravioletas, color negro, apto para trabajar a una
+temperatura máxima en el conductor de 90°C en
+condiciones normales, 130°C en condiciones de emergencia
+y 250°C en condiciones de cortocircuito.
+Polietileno termoplástico (PEBD) color negro, de elevada
+resistencia a la intemperie y a los rayos ultravioletas, color
+negro, apto para trabajar a una temperatura máxima en el
+conductor de 75°C en condiciones normales, 95°C en
+condiciones de emergencia y 150°C en condiciones de
+cortocircuito.
+La identificación de los conductores puede realizarse
+mediante números o bien con nervaduras.
+Los conductores son reunidos a espiral visible, con una
+relación de cableado de 20 a 25 veces el diámetro del
+conjunto o 60 veces el diámetro de un conductor de fase
+aislado.
+earca
+S F
+ELECCIÓN DE LOS CABLES
+La sección de los cables se determina en función de la corriente
+a transmitir, caída de tensión e intensidad de cortocircuito
+admisible.
+Intensidad de corriente admisible Los valores están indicados
+en las tablas adjuntas.
+Caída de tensión Se determina mediante la siguiente
+expresión:
+AU=KIL (Rca cosф + X senф(
+AU caída de tensión, en V
+K
+1.73 para líneas trifásicas
+corriente a transmitir, en A
+L
+longitud de la línea, en km.
+cos
+factor de potencia
+Rca, X resistencia eléctrica de los conductores a la temperatura
+de servicio y reactancia inductiva por fase a 50 Hz según tabla
+adjunta, en ohm/km.
+Intensidad de cortocircuito admisible Se verifica con la
+siguiente expresión:
+1=kS
+VE
+I
+K:
+S:
+intensidad de corriente de cortocircuito admisible, en A
+92 (para cables aislados con XLPE)
+sección del conductor, en mm2
+t:
+duración del cortocircuito, en segundos.
+
+--- PAGE 3 ---
+DATOS CONSTRUCTIVOS Y CARACTERÍSTICAS ELÉCTRICAS
+A continuación se detallan los datos correspondientes a los conductores de fases y neutro portante en forma individual:
+Conductores de fase aislados con XLPE
+Sección
+Número
+de alambres
+Espesor
+aislación
+Diámetro aprox.
+conductor aislado
+Peso aprox
+del conductor aislado
+Intensidad de
+corriente admisible (1)
+Resistencia eléctrica
+en c.a. a 90° С
+Reactancia inductiva
+media por  fase a 50 Hz
+N
+mm
+mm
+kg/km
+A
+W/km
+W/km
+Secciones en mm²
+10
+7
+1,2
+6,0
+45
+55
+3,949
+0,105
+16
+7
+1,2
+7,2
+63
+65
+2,449
+0,098
+25
+7
+1,4
+9,0
+98
+75
+1,539
+0,097
+35
+1.6
+10,5
+135
+100
+1,113
+0,097
+50
+7
+1,6
+11,4
+173
+120
+0,822
+0,093
+70
+14
+1,8
+13,6
+244
+155
+0,568
+0,092
+95
+19
+2,0
+15,8
+332
+190
+0,410
+0,089
+120
+19
+2,0
+17,0
+400
+230
+0,324
+0,088
+150
+19
+2,2
+19,2
+502
+270
+0,264
+0,085
+Secciones en AWG
+6
+7
+1,2
+7,0
+56
+70
+2,782
+0,098
+4
+기
+1,2
+8,0
+113
+85
+1,744
+0,094
+2
+7
+1,2
+9,7
+124
+120
+1,097
+0,087
+1/0
+76 19
+1,5
+11,7
+176
+150
+0,690
+0,090
+2/0
+19
+1,5
+13,0
+232
+190
+0,547
+0,087
+4/0
+19
+1,5
+15,5
+352
+250
+0,345
+0,084
+(1) valores válidos para conjuntos trifásicos, expuestos al sol con una temperatura ambiente de 40° C y de 90° C en los conductores.
+Conductor neutro portante aislado con XLPE
+Sección
+Formación
+Diámetro aprox.
+conductor Desnudo
+Diámetro aprox.
+conductor aislado
+Peso aprox.
+del conductor aislado
+Resistencia eléctrica
+en CA. a 90° С
+Resistencia mínima
+a la tracción
+N°xmm
+mm
+mm
+kg/km
+W/km
+daN
+Secciones en mm²
+16-AAAC
+7x 1,70
+5.1
+7,5
+70
+2.598
+444
+25-AAAС
+7 x 2,15
+6.5
+9.3
+109
+1,628
+710
+35-AAAC
+7 x 2.52
+7,6
+10,8
+149
+1,183
+976
+50-AAAС
+7 x 3,02
+9,1
+12,3
+202
+0,824
+1401
+54.6-AAAС
+7x3.15
+9.5
+12.7
+217
+0.757
+1577
+70-AAAC
+7x 3,50
+10,6
+14,2
+274
+0,602
+1928
+Secciones en AWG
+6-AAC
+7 x 1,55
+4,7
+7,0
+57
+2,782
+250
+4-AAC
+7  x 1,96
+5,9
+8.2
+82
+1,744
+392
+2-AAC
+7 x 2,47
+7,4
+9,7
+122
+1,097
+601
+1/0-AAC
+7x3,12
+9,4
+12,5
+191
+0,690
+884
+2/0-AAC
+7 x 3,50
+10,5
+13,6
+233
+0.547
+1117
+4/0-AAC
+7 x 4,42
+11,8
+14.9
+359
+0,345
+1705
+30.58-AAAC
+7 x 1,68
+5,0
+7.5
+76
+2,685
+492
+48.89 - AAAC
+7x2,12
+6,4
+9,0
+119
+1,690
+784
+77.47- AAAC
+7 x 2,67
+8.0
+10.5
+179
+1,060
+1250
+123.3-AAAC
+7 x 3,37
+10,1
+13,5
+289
+0,666
+1900
+155.4-AAAC
+7 x 3.78
+11,4
+14,5
+355
+0,528
+2400
+246.9-AAAC
+7  x 4,77
+14,3
+17.5
+544
+0,333
+3810
+6-ACSR
+6+1 x 1,68
+5.0
+7,4
+76
+2,769
+528
+4-ACSR
+6+1x2.12
+6,4
+8,7
+119
+1.744
+827
+2-ACSR
+6+1x2,67
+8.0
+10,3
+179
+1,092
+1264
+1/0-ACSR
+6+1x3.37
+10.1
+13,2
+289
+0,687
+1950
+2/0-ACSR
+6+1 x3,78
+11,3
+14,4
+355
+0,546
+2352
+4/0-ACSR
+6+1 x 4,77
+14,3
+17,4
+544
+0,344
+3714
+COEFICIENTES DE CORRECCIÓN DE LA INTENSIDAD ADMISIBLE
+Cables instalados con temperatura distinta a 40С
+Temperatura en°C
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Factor de corrección
+1,26
+1,22
+1,18
+1,14
+1,10
+1,05
+1,00
+0,95
+0,90
+F0306-A1
+
+--- PAGE 4 ---
+ESQUEMA DE CONSTRUCCIÓN
+33333
+222
+33332
+cearca sa - industria argentina - 3 x
++ 50 mm²
+11LTL
+Fases: Conductores de aluminio puro 1350 (AAC) - clase 2 - compactadas (sin compactar a pedido)
+Neutro portante: Conductores de aleación de aluminio (AAAC); aluminio con alma de acero (ACSR) o aluminio 1350 H-19 (AAC)
+(Mensajero) de acuerdo a la solicitud del cliente, aislados o desnudos.
+Aislantes: Polietileno reticulado (XLPE) o polietileno termoplástico (PEBD), color negro, segæn requerimiento del cliente.
+Temperatura máxima de operación normal: 90° C
+Normas de fabricación y ensayos: IRAM 2263 - NBR 8182 - NF C 33209 - ICEA S -76-474
+Los conductores aislados son reunidos en espiral visible con una relación de cableado de 20 a 25 veces el diámetro del conjunto
+o 60 veces el diámetro de una fase.
+cearca
+CONDUCTORES ELECTRICOS
+Confiabilidad de punta a punta
+CEARCA S.A. Dean Funes 1946 - B1751CYD - Villa Madero - Pcia. Buenos Aires - Argentina
+Tel/Fax: (54-11) 5082-9500 (Línea Rotativa) - e-mail: info@cearca.com - www.cearca.com
+TUV
+CERT
+DIN EN ISO 9001:00

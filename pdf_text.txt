@@ -1,0 +1,59 @@
+Av. Presidente Juan D. Perón 26399
+B1722CXD, Merlo, Buenos Aires, ArgentinaT. +54 11 220 404 6700
+imsa.com.arCables unipolares subterraneos de potencia, de cobre o aluminio, aislación de XLPE y 
+envoltura de PVC, PE, TPO HFFR o TPU.
+Usos: Instalaciones fijas, ya sea a la 
+intemperie, sobre bandejas, alojados en 
+ductos eléctricos o bien directamente 
+enterrados.Normas: IRAM 2178-2 en concordancia con la 
+norma internacional IEC 60502-2.
+Rango de fabricación: 35 a 630 mm2.PAYTON® XLPE 13,2 kV
+15CATEGORÍA I - 
+UNIPOLARES
+Sección
+nominalDiámetro del 
+conductorDiámetro exterior 
+aproximadoPeso aproximado
+Cu Al
+s/armar armado s/armar armado s/armar armado
+mm² mm mm mm kg/km kg/km kg/km kg/km
+35 7,05 19,65 24,55 728 1028 - -
+50 8,1 20,7 25,6 852 1177 - -
+70 9,9 22,5 27,4 1096 1445 679 1027
+95 11,5 24,1 29,2 1347 1730 783 1166
+120 13,05 25,65 30,75 1621 2025 893 1296
+150 14,4 27 32,3 1897 2305 1009 1417
+185 15,95 28,8 33,85 2227 2655 1136 1565
+240 18,65 31,7 36,75 2903 3368 1396 1861
+300 20,4 34,2 39,1 3374 3879 1569 2075
+400 23,65 37,65 42,95 4375 4947 1944 2516
+500 26.1 42,3 47,8 5203 5810 2294 2901
+630 29,6 46 51,5 - 2767 3424
+1. Temperatura del terreno: 20 ºC. 
+ Temperatura ambiente: 30 ºC.
+ Temperatura en el conductor: 90 ºC.
+Profundidad de instalación: 0,7 m.Resistividad térmica del terreno: 1,5 K.m/W.
+Pantallas unidas en ambos extremos. Para otras condiciones de 
+instalación consultar nuestro capítulo técnico. Especificaciones sujetas 
+a cambios.1. Valores aproximados. 2. Valor genérico aproximado.
+Sección
+nominalResistencia máxima 
+en CC a 20˚CResistencia máxima 
+en CA a 90˚CReactancia 
+inductiva 
+por fase a 50HzCaída de tensión
+Cu Al Cu Al s/armar armado
+mm² Ohm/km Ohm/km Ohm/km Ohm/km Ohm/km V/A km V/A km
+35 0,524 - 0,668 - 0,175 0,186 0,200
+50 0,387 0,641 0,494 0,818 0,171 0,179 0,192
+70 0,268 0,443 0,342 0,565 0,166 0,171 0,183
+95 0,193 0,320 0,246 0,408 0,161 0,165 0,177
+120 0,153 0,253 0,195 0,323 0,157 0,161 0,172
+150 0,124 0,206 0,159 0,263 0,154 0,158 0,169
+185 0,0991 0,164 0,157 0,210 0,149 0,155 0,165
+240 0,0754 0,125 0,097 0,160 0,147 0,151 0,160
+300 0,0601 0,100 0,0766 0,128 0,145 0,150 0,158
+400 0,047 0,0778 0,0599 0,099 0,144 0,147 0,155
+500 0,0366 0,0605 - - - 0,148 0,156
+630 0,0283 0,0469 - - - 0,145 0,152
+SIGUE  

@@ -1,0 +1,161 @@
+
+--- PAGE 1 ---
+CABLE ACOMETIDA 
+ANTI-HURTO 
+Con neutro concéntrico 
+CU-XLPE
+
+--- PAGE 2 ---
+1
+Cable con conductor central de cuerda clase 2 (IRAM-NM 280) construida con 
+alambres cableados de cobre recocido aislado en polietileno reticulado (XLPE), con 
+conductor neutro concéntrico de alambres de cobre dispuesto en forma helicoidal, al 
+conjunto se le aplica una cinta poliester (MYLAR) como separador y sobre esta una 
+vaina de polietileno reticulado (XLPE).
+CONSTRUCCIÓN:
+De polietileno reticulado (XLPE) de gran resistencia mecánica y a la intemperie en 
+color negro.
+VAINA EXTERIOR:
+A la intemperie, con o sin exposición al sol.
+CONDICIONES DE INSTALACIÓN:
+Sistema de impresión láser de alta velocidad, color dorado, relieve al tacto, indeleble, 
+de alta resistencia.
+Identificación: marca, composición, sección del conductor, tensión, norma, lote, 
+industria argentina.
+Marcación secuencial metro a metro.
+MARCACIÓN DEL CABLE:
+Tendidos aéreos para distribución de energía en baja tensión (hasta 1 KV). 
+Como conexión de derivación monofásica de la línea preensamblada trifásica 
+de distribución de energía hacia el medidor del cliente. 
+Por su diseño, imposibilita las conexiones clandestinas destinadas al hurto de 
+energía eléctrica evitando conexiones no autorizadas mediante “enganches”, y 
+por ser neutro concéntrico se evade la posibilidad de “pelar” el cable por el alto 
+riesgo de cortocircuito.
+UTILIZACIÓN:
+
+--- PAGE 3 ---
+2
+NORMAS
+Especificaciones técnicas 
+según entes de energía.
+Especificaciones internas
+CARACTERÍSTICAS
+Tensión nominal
+0.6/1kV
+Temperatura máxima 
+de servicio
+90 °C
+Marcaje:
+1 m (15 ± 3) d
+RESISTENCIA:
+Resistente a 
+los rayos UV
+Golpes
+Abrasión
+Resistencia
+al agua
+Sustancias
+químicas
+SUMINISTROS
+Bobina de madera
+Rollos de 200 m
+Servicio de corte a medida
+CABLE ILUSTRADO:
+
+--- PAGE 4 ---
+3
+(Pobre – Regular – Buena – Muy Buena – Excelente) 
+CARACTERÍSTICAS OPERATIVAS
+1000 Vac
+Tensiones 
+máximas
+de servicio
+Regular
+Resistencia
+a la llama
+10 D
+Radio de 
+Tendido 
+mínimo 
+Buena
+Flexibilidad
+Excelente
+Resistencia a 
+la intemperie
+-5 a 90 °C
+Rango de 
+temperatura de 
+trabajo
+(1) Corriente máxima para cables expuestos al sol, con temperatura ambiente de 40ºC, 
+90ºC en el conductor, sin viento.
+(2) La carga de rotura es orientativa, ante la imposibilidad de calcularla con el 
+conductor conformado con distintos materiales.
+Sección
+Nominal
+Formación
+mm2
+Nº×Ømm
+Cuerda
+A
+mm
+Espesor de 
+aislación 
+promedio
+Resistencia 
+eléctrica a 
+20ºC en c.c
+Máxima 
+Corriente 
+Admisible (1)
+1x4 +4
+1x6 +6
+1x10 +10
+1x16 +16
+1 x 7x 0.85
+1 x 7x 1.05
+1 x 7x 1.35
+1 x 7x 1.70
+4.61
+3.08
+1.83
+1.15
+42
+54
+71
+96
+1.0
+1.0
+1.0
+1.0
+Ohm/km
+mm
+Diámetro 
+exterior 
+aprox.
+9
+10
+11
+13
+mm
+Espesor 
+de vaina 
+promedio
+1.2
+1.2
+1.2
+1.2
+daN
+Carga 
+de rotura 
+aprox. (2)
+80
+120
+200
+320
+kg/km
+Peso 
+aprox.
+115
+159
+241
+385

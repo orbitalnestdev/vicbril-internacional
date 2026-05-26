@@ -1,0 +1,959 @@
+diff --git a/services/data.ts b/services/data.ts
+index d90ac56..bbb798b 100644
+--- a/services/data.ts
++++ b/services/data.ts
+@@ -14,6 +14,55 @@ export const categories: Category[] = [
+     slug: 'instalacion-aerea',
+     image: '/images/PRODUCTOS/2-LINEAS AEREAS/PORTADA.jpeg',
+     banner: '/images/PRODUCTOS/2-LINEAS AEREAS/PORTADA.jpeg'
++  },
++  {
++    id: 'potencia',
++    name: 'Cables de Potencia',
++    slug: 'cables-de-potencia',
++    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/PORTADA.jpeg',
++    banner: '/images/ProductosNuevos/3-CABLES DE POTENCIA/PORTADA.jpeg'
++  },
++  {
++    id: 'media-tension',
++    name: 'Cables de Media Tensi├│n',
++    slug: 'cables-media-tension',
++    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/PORTADA.jpeg',
++    banner: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/PORTADA.jpeg'
++  },
++  {
++    id: 'industriales',
++    name: 'Cables Industriales',
++    slug: 'cables-industriales',
++    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/portada.jpeg',
++    banner: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/portada.jpeg'
++  },
++  {
++    id: 'alta-temperatura',
++    name: 'Cables Alta Temperatura',
++    slug: 'cables-alta-temperatura',
++    image: '/images/vicbril-hero-1.jpg',
++    banner: '/images/vicbril-hero-1.jpg'
++  },
++  {
++    id: 'armados',
++    name: 'Cables Armados',
++    slug: 'cables-armados',
++    image: '/images/vicbril-hero-1.jpg',
++    banner: '/images/vicbril-hero-1.jpg'
++  },
++  {
++    id: 'especiales',
++    name: 'Cables Especiales',
++    slug: 'cables-especiales',
++    image: '/images/vicbril-hero-1.jpg',
++    banner: '/images/vicbril-hero-1.jpg'
++  },
++  {
++    id: 'materiales',
++    name: 'Materiales El├®ctricos',
++    slug: 'materiales-electricos',
++    image: '/images/vicbril-hero-1.jpg',
++    banner: '/images/vicbril-hero-1.jpg'
+   }
+ ];
+ 
+@@ -21,8 +70,7 @@ export const products: Product[] = [
+   {
+     id: 'unipolar-pvc',
+     name: 'Cable Unipolar PVC',
+-    category: 'Cables para Instalaci├│n Civil',
+-    subCategory: '1-CABLE UNIPOLAR',
++    categoryPath: ['Cables para Instalaci├│n Civil', 'Unipolar'],
+     description: 'Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.',
+     detailedDescription: `DESCRIPCI├ôN
+ Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.
+@@ -36,22 +84,20 @@ Permite cableado en tableros, ca├▒er├¡as embutidas y ca├▒er├¡as a la vista recom
+     technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/marcas disponibles unipolar pvc.jpg',
+     pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR PVC/FICHA TECNICA UNIPOLAR PVC/FICHA TECNICA UNIP PVC (REEMPLAZAR FOTO DE ABAJO).pdf',
+     specs: ['450/750 V', '70┬░', 'PVC'],
+-    technicalIntro: `CARACTER├ìSTICAS
+-Temperatura m├íxima: 70┬░ C de servicio
+-Tensi├│n normal: 450/750 Volt.
+-Norma constructiva: IEC 60227-3 - IRAM NM 247-3
+-Norma de fuego: IEC 60332-3-23 / IRAM NM IEC 60332-3-23 - No propagaci├│n de incendio.
+-Norma de conductores: IEC 60228 / IRAM NM 280
+-
+-INSTALACI├ôN
+-Montaje: Radio m├¡nimo de curvatura igual a 7 x di├ímetro exterior del cable
+-Tracci├│n m├íxima: 5daN/mm┬▓ aplicados sobre los conductores
++    installation: `Montaje: Radio m├¡nimo de curvatura igual a 7 x di├ímetro exterior del cable
++Tracci├│n m├íxima: 5daN/mm┬▓┬▓┬▓ aplicados sobre los conductores
+ Temperatura de montaje: igual o mayor a 5┬░C`,
+-    characteristics: [],
++    characteristics: [
++      'Temperatura m├íxima: 70┬░ C de servicio',
++      'Tensi├│n normal: 450/750 Volt.',
++      'Norma constructiva: IEC 60227-3 - IRAM NM 247-3',
++      'Norma de fuego: IEC 60332-3-23 / IRAM NM IEC 60332-3-23 - No propagaci├│n de incendio.',
++      'Norma de conductores: IEC 60228 / IRAM NM 280'
++    ],
+     specsTables: [
+       {
+         title: "Tabla de Datos T├®cnicos",
+-        headers: ["Secci├│n nominal (mm┬▓)", "Espesor aislaci├│n (mm)", "Di├ímetro exterior (mm)", "Peso (kg/km)", "Resistencia el├®ctrica (Ohm/km)", "Intensidad admisible Amper (*)"],
++        headers: ["Secci├│n nominal (mm┬▓┬▓┬▓)", "Espesor aislaci├│n (mm┬▓┬▓)", "Di├ímetro exterior (mm┬▓┬▓)", "Peso (kg/km)", "Resistencia el├®ctrica (Ohm/km)", "Intensidad admisible Amper (*)"],
+         rows: [
+           ["0,5", "0,60", "2,1", "8,2", "39", "4,8"],
+           ["0,75", "0,60", "2,3", "10,8", "26", "7,2"],
+@@ -82,8 +128,7 @@ Temperatura de montaje: igual o mayor a 5┬░C`,
+   {
+     id: 'unipolar-lsoh',
+     name: 'Cable Unipolar LSOH',
+-    category: 'Cables para Instalaci├│n Civil',
+-    subCategory: '1-CABLE UNIPOLAR',
++    categoryPath: ['Cables para Instalaci├│n Civil', 'Unipolar'],
+     description: 'Conductores a instalar en lugares cerrados con alto tr├ínsito de personas donde la evacuaci├│n por incendio resulta dif├¡cil de resolver.',
+     detailedDescription: `DESCRIPCI├ôN
+ Conductores a instalar en lugares cerrados con alto tr├ínsito de personas, por ejemplo cines, sanatorios, teatros, estaciones de trenes subterr├íneos, universidades, centros comerciales, escuelas, t├║neles de minas, etc; es decir todo lugar d├│nde la evacuaci├│n por incendio resulta dif├¡cil de resolver.
+@@ -97,29 +142,26 @@ Permite cableado en tableros, ca├▒er├¡as embutidas y ca├▒er├¡as a la vista recom
+     technicalTable: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/MARCAS DISPONIBLES UNIPOLAR LSOH.jpg',
+     pdf: '/images/PRODUCTOS/1-CABLE UNIPOLAR/UNIPOLAR LSOH/FICHA TECNICA UNIPOLAR LSOH/FICHA TECNICA UNIP. LSOH (REEMPLAZAR FOTO).pdf',
+     specs: ['450/750 Volt', '70┬░ C', 'IRAM 62267'],
+-    technicalIntro: `CARACTER├ìSTICAS
+-Temperatura m├íxima: 70┬░ C de servicio
+-Tensi├│n normal: 450/750 Volt.
+-Norma constructiva: IRAM 62267
+-Norma de fuego: IEC 60332-3-24 / IRAM NM IEC 60332-3-24 - No propagaci├│n de incendio.
+-Norma de hal├│genos: IEC 60754 - 1/2 - Ausencia de hal├│genos.
+-Norma de humos: IEC 61034 - Transparencia de humos.
+-Norma de toxicidad: NES 713 / CEI 20-37 - Ausencia de t├│xicos.
+-Norma de conductores: IEC 60228 / IRAM NM 280.
+-
+-CONSTRUCCI├ôN
++    technicalIntro: `CONSTRUCCI├ôN
+ Conductor: Metal cobre electrol├¡tico recocido en formaci├│n clase 5.
+-Flexibilidad: Clase 5; seg├║n IRAM NM-280 e IEC 60228.
+-
+-INSTALACI├ôN
+-Montaje: Radio m├¡nimo de curvatura a 7 x di├ímetro exterior del cable.
+-Tracci├│n m├íxima: 5daN/mm┬▓ aplicados sobre los conductores de cobre.
++Flexibilidad: Clase 5; seg├║n IRAM NM-280 e IEC 60228.`,
++    installation: `Montaje: Radio m├¡nimo de curvatura a 7 x di├ímetro exterior del cable.
++Tracci├│n m├íxima: 5daN/mm┬▓┬▓┬▓ aplicados sobre los conductores de cobre.
+ Temperatura de montaje: igual o mayor a 5┬░C.`,
+-    characteristics: [],
++    characteristics: [
++      'Temperatura m├íxima: 70┬░ C de servicio',
++      'Tensi├│n normal: 450/750 Volt.',
++      'Norma constructiva: IRAM 62267',
++      'Norma de fuego: IEC 60332-3-24 / IRAM NM IEC 60332-3-24 - No propagaci├│n de incendio.',
++      'Norma de hal├│genos: IEC 60754 - 1/2 - Ausencia de hal├│genos.',
++      'Norma de humos: IEC 61034 - Transparencia de humos.',
++      'Norma de toxicidad: NES 713 / CEI 20-37 - Ausencia de t├│xicos.',
++      'Norma de conductores: IEC 60228 / IRAM NM 280.'
++    ],
+     specsTables: [
+       {
+         title: "Tabla de Datos T├®cnicos",
+-        headers: ["Secci├│n nominal (mm┬▓)", "Espesor aislaci├│n (mm)", "Di├ímetro exterior (mm)", "Peso (kg/km)", "Resistencia el├®ctrica (Ohm/km)", "Intensidad admisible (A)"],
++        headers: ["Secci├│n nominal (mm┬▓┬▓┬▓)", "Espesor aislaci├│n (mm┬▓┬▓)", "Di├ímetro exterior (mm┬▓┬▓)", "Peso (kg/km)", "Resistencia el├®ctrica (Ohm/km)", "Intensidad admisible (A)"],
+         rows: [
+           ["0,5", "0,60", "2,1", "8,2", "39", "4,8"],
+           ["0,75", "0,60", "2,3", "10,8", "26", "7,2"],
+@@ -143,18 +185,14 @@ Temperatura de montaje: igual o mayor a 5┬░C.`,
+         ]
+       }
+     ],
+-    certifications: ['iram', 'seguridad', 'bajos-humos', 'libre-halogenos', 'marcacion-secuencial', 'espacios-publicos', 'instalacion-domiciliaria']
++    certifications: ['iram', 'seguridad', 'bajos-humos', 'libre-halogenos', 'marcacion-secuencial', 'espacios-publicos', 'instalacion-domiciliaria', 'cuerdas-flexibles', 'no-propagacion', 'temperatura-servicio']
+   },
+   {
+     id: 'bipolar-vaina-chata',
+     name: 'Cable Envainado Chato (Bajo Plomo)',
+-    category: 'Cables para Instalaci├│n Civil',
+-    subCategory: '2-CABLE BIPOLAR',
++    categoryPath: ['Cables para Instalaci├│n Civil', 'Bipolar'],
+     description: 'Cables flexibles dise├▒ados para uso en instalaciones m├│viles industriales y dom├®sticas.',
+-    detailedDescription: `TIPO BAJO PLOMO
+-MULTIPOLAR - PVC/PVC - 300/500 VOLT - 70┬░C
+-
+-DESCRIPCI├ôN
++    detailedDescription: `DESCRIPCI├ôN
+ Cables flexibles dise├▒ados para uso en instalaciones m├│viles industriales y dom├®sticas y aparatos port├ítiles en general, excluyendo los aparatos de calefacci├│n.
+ 
+ APLICACIONES
+@@ -166,17 +204,17 @@ Interconexi├│n de m├íquinas empleadas para procesos fabriles, incluyendo m├íquin
+     technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/MARCAS DISPONIBLES VAINA CHATA.jpg',
+     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE ENVAINADO CHATO/FICHA TECNICA VAINA CHATA/FICHA TECNICA VAINA CHATA.pdf',
+     specs: ['300/500 V', '70┬░', 'PVC/PVC'],
+-    technicalIntro: `CARACTER├ìSTICAS
+-Temperatura m├íxima: 70┬░C de servicio, 160┬░C de cortocircuito.
+-Tensi├│n nominal: 300/500 Volt.
+-Norma constructiva: IEC 60227-7.
+-Norma de fuego: IRAM NM 60332-1.
+-Norma de conductores: IEC 60228 / IRAM NM 280.
+-Conductor: Cobre electrol├¡tico recocido en formaci├│n clase 5.
+-Aislaci├│n: PVC.
+-Identificaci├│n: Color negro con identificaci├│n alfanumerica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo en el total de conductores indicados.
+-Cubierta: PVC negro, no propagante del incendio.`,
+-    characteristics: [],
++    characteristics: [
++      'Temperatura m├íxima: 70┬░C de servicio, 160┬░C de cortocircuito.',
++      'Tensi├│n nominal: 300/500 Volt.',
++      'Norma constructiva: IEC 60227-7.',
++      'Norma de fuego: IRAM NM 60332-1.',
++      'Norma de conductores: IEC 60228 / IRAM NM 280.',
++      'Conductor: Cobre electrol├¡tico recocido en formaci├│n clase 5.',
++      'Aislaci├│n: PVC.',
++      'Identificaci├│n: Color negro con identificaci├│n alfanumerica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo en el total de conductores indicados.',
++      'Cubierta: PVC negro, no propagante del incendio.'
++    ],
+     colors: [
+       { 
+         label: 'Bipolar', 
+@@ -192,7 +230,7 @@ Cubierta: PVC negro, no propagante del incendio.`,
+     specsTables: [
+       {
+         title: "Tabla de Datos T├®cnicos",
+-        headers: ["Formaci├│n N┬░ x mm┬▓", "Di├ímetro m├íx. alambres mm", "Espesor aislaci├│n nominal mm", "Espesor envoltura nominal mm", "Dimensiones exteriores aprox. mm", "Masa aprox. kg/km", "Intensidad admisible (A)", "Resistencia el├®ctrica m├íx a 20┬░C (Ohm/km)"],
++        headers: ["Formaci├│n N┬░ x mm┬▓┬▓┬▓", "Di├ímetro m├íx. alambres mm┬▓┬▓", "Espesor aislaci├│n nominal mm┬▓┬▓", "Espesor envoltura nominal mm┬▓┬▓", "Dimensiones exteriores aprox. mm┬▓┬▓", "Masa aprox. kg/km", "Intensidad admisible (A)", "Resistencia el├®ctrica m├íx a 20┬░C (Ohm/km)"],
+         rows: [
+           ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7", "19,5"],
+           ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10", "13,3"],
+@@ -209,12 +247,9 @@ Cubierta: PVC negro, no propagante del incendio.`,
+   {
+     id: 'bipolar-paralelo',
+     name: 'Cable Paralelo (Bipolar)',
+-    category: 'Cables para Instalaci├│n Civil',
+-    subCategory: '2-CABLE BIPOLAR',
++    categoryPath: ['Cables para Instalaci├│n Civil', 'Bipolar'],
+     description: 'Cordones paralelos de cobre para alimentaci├│n de artefactos livianos y prolongaciones.',
+-    detailedDescription: `CABLE PARALELO (BIPOLAR) - 300/300V
+-
+-DESCRIPCI├ôN
++    detailedDescription: `DESCRIPCI├ôN
+ Cordones paralelos de cobre para alimentaci├│n de artefactos livianos y prolongaciones. Ideales para conexiones de veladores, radios y electrodom├®sticos de baja potencia.
+ 
+ APLICACIONES
+@@ -226,15 +261,22 @@ Instalaciones m├│viles y aparatos port├ítiles en general. Apto para uso dom├®sti
+     technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/MARCAS DISPONIBLES PARALELO.jpg',
+     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/FICHA TECNICA PARALELO.pdf',
+     specs: ['300V', 'Flexible', 'PVC Blanco/Negro'],
+-    technicalIntro: `CARACTER├ìSTICAS
+-Tensi├│n nominal: 300/300V
+-Conductor: Cobre flexible en formaci├│n clase 5.
+-Aislaci├│n: PVC.`,
+-    characteristics: [],
++    characteristics: [
++      'Tensi├│n nominal: 300/300V',
++      'Conductor: Cobre flexible en formaci├│n clase 5.',
++      'Aislaci├│n: PVC.'
++    ],
++        colors: [
++      {
++        label: 'Colores Disponibles',
++        values: ['Blanco', 'Negro'],
++        codes: ['#ffffff', '#000000']
++      }
++    ],
+     specsTables: [
+       {
+         title: "Tabla de Datos T├®cnicos",
+-        headers: ["Formaci├│n (mm┬▓)", "Di├ím. m├íx. alambres (mm)", "Espesor Aisl. (mm)", "Dimensiones Ext. (mm)", "Masa (kg/km)", "Resistencia (Ohm/km)", "Intensidad (A)"],
++        headers: ["Formaci├│n (mm┬▓┬▓┬▓)", "Di├ím. m├íx. alambres (mm┬▓┬▓)", "Espesor Aisl. (mm┬▓┬▓)", "Dimensiones Ext. (mm┬▓┬▓)", "Masa (kg/km)", "Resistencia (Ohm/km)", "Intensidad (A)"],
+         rows: [
+           ["2x0,50", "0,21", "0,6", "2,4 x 4,8", "24", "39", "3"],
+           ["2x0,75", "0,21", "0,6", "2,6 x 5,2", "28", "26", "6"],
+@@ -251,12 +293,9 @@ Aislaci├│n: PVC.`,
+   {
+     id: 'bipolar-paralelo-parlante',
+     name: 'Cable Paralelo Parlante',
+-    category: 'Cables para Instalaci├│n Civil',
+-    subCategory: '2-CABLE BIPOLAR',
++    categoryPath: ['Cables para Instalaci├│n Civil', 'Bipolar'],
+     description: 'Cables espec├¡ficos para audio y parlantes con identificaci├│n de polaridad.',
+-    detailedDescription: `CABLE PARALELO PARLANTE
+-
+-DESCRIPCI├ôN
++    detailedDescription: `DESCRIPCI├ôN
+ Cordones de cobre flexible con aislaci├│n de PVC cristal o bicolor. Dise├▒ados para la interconexi├│n de sistemas de audio, garantizando fidelidad en la se├▒al.
+ 
+ APLICACIONES
+@@ -268,11 +307,11 @@ Interconexi├│n de equipos de audio y aparatos port├ítiles. Dise├▒ado para flexib
+     technicalTable: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/MARCAS DISPONIBLES PARALELO PARLANTE.jpg',
+     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE.pdf',
+     specs: ['Audio', 'Extra flexible', 'Bicolor/Cristal'],
+-    technicalIntro: `CARACTER├ìSTICAS
+-Tensi├│n nominal 300/500V.
+-Conductor: Cobre flexible formaci├│n clase 5.
+-Aislaci├│n: PVC cristal o bicolor.`,
+-    characteristics: [],
++    characteristics: [
++      'Tensi├│n nominal 300/500V.',
++      'Conductor: Cobre flexible formaci├│n clase 5.',
++      'Aislaci├│n: PVC cristal o bicolor.'
++    ],
+     colors: [
+       { 
+         label: 'Bipolar', 
+@@ -283,10 +322,11 @@ Aislaci├│n: PVC cristal o bicolor.`,
+     specsTables: [
+       {
+         title: "Tabla de Datos T├®cnicos",
+-        headers: ["Formaci├│n (mm┬▓)", "Di├ím. m├íx. alambres (mm)", "Espesor Aisl. (mm)", "Espesor Env. (mm)", "Dimensiones Ext. (mm)", "Masa (kg/km)", "Intensidad (A)"],
++        headers: ["Formaci├│n (mm┬▓┬▓┬▓)", "Di├ím. m├íx. alambres (mm┬▓┬▓)", "Espesor Aisl. (mm┬▓┬▓)", "Espesor Env. (mm┬▓┬▓)", "Dimensiones Ext. (mm┬▓┬▓)", "Masa (kg/km)", "Intensidad (A)", "Resistencia (Ohm/km)"],
+         rows: [
+-          ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7"],
+-          ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10"]
++          ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7", "19,5"],
++          ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10", "13,3"],
++          ["2x2,5", "0,26", "0,8", "0,6", "5,1 x 8,8", "85", "16", "7,98"]
+         ]
+       }
+     ],
+@@ -296,13 +336,9 @@ Aislaci├│n: PVC cristal o bicolor.`,
+   {
+     id: 'civil-03',
+     name: 'Cable Tipo Taller (TT)',
+-    category: 'Cables para Instalaci├│n Civil',
+-    subCategory: '3-CABLE TIPO TALLER',
++    categoryPath: ['Cables para Instalaci├│n Civil', 'Tipo Taller'],
+     description: 'Conductores dise├▒ados para instalaciones m├│viles familiares, comerciales e industriales.',
+-    detailedDescription: `BAJA TENSI├ôN 300/500 VOLT
+-MULTIPOLAR - PVC/PVC - 70┬░ C - IRAM 247-5
+-
+-DESCRIPCI├ôN
++    detailedDescription: `DESCRIPCI├ôN
+ Conductores dise├▒ados para instalaciones m├│viles familiares, comerciales e industriales, m├íquinas manipuladas manualmente y dispositivos port├ítiles en general.
+ 
+ APLICACIONES
+@@ -314,22 +350,20 @@ Instalaciones m├│viles industriales y dom├®sticas, maquinaria de mano y aparatos
+     technicalTable: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/MARCAS DISPONIBLES TIPO TALLER.jpg',
+     pdf: '/images/PRODUCTOS/3-CABLE TIPO TALLER/FICHA TECNICA TIPO TALLER/FICHA TECNICA TIPO TALLER (REEMPLAZAR FOTO).pdf',
+     specs: ['300/500 V', '70┬░', 'IRAM 247-5'],
+-    technicalIntro: `CARACTER├ìSTICAS
+-Temperatura m├íxima: 70┬░ C de servicio, 160┬░ C de cortocircuito
+-Tensi├│n nominal: 300/ 500 Volt.
+-Norma constructiva: IRAM NM-247-5
+-Norma de fuego: IRAM NM IEC 60332-1
+-Norma de conductores: IEC 60228 / IRAM NM 280
+-Conductor: Metal cobre electrol├¡tico recocido en formaci├│n clase 5.
+-Flexibilidad: Clase 5; seg├║n IRAM NM-280 e IEC 60228
+-Cubierta externa: PVC Negro, no propagante de incendio
+-Aislacion: PVC
+-
+-INSTALACI├ôN
+-Montaje: Radio m├¡nimo de curvatura a 7 x di├ímetro exterior del cable
+-Tracci├│n m├íxima: 5daN/mm┬▓ aplicados sobre los conductores de cobre.
++    installation: `Montaje: Radio m├¡nimo de curvatura a 7 x di├ímetro exterior del cable
++Tracci├│n m├íxima: 5daN/mm┬▓┬▓┬▓ aplicados sobre los conductores de cobre.
+ Temperatura de montaje: igual o mayor a 5┬░C.`,
+-    characteristics: [],
++    characteristics: [
++      'Temperatura m├íxima: 70┬░ C de servicio, 160┬░ C de cortocircuito',
++      'Tensi├│n nominal: 300/ 500 Volt.',
++      'Norma constructiva: IRAM NM-247-5',
++      'Norma de fuego: IRAM NM IEC 60332-1',
++      'Norma de conductores: IEC 60228 / IRAM NM 280',
++      'Conductor: Metal cobre electrol├¡tico recocido en formaci├│n clase 5.',
++      'Flexibilidad: Clase 5; seg├║n IRAM NM-280 e IEC 60228',
++      'Cubierta externa: PVC Negro, no propagante de incendio',
++      'Aislacion: PVC'
++    ],
+     colors: [
+       { label: 'Bipolar', values: ['Celeste', 'Marr├│n'], codes: ['#00AEEF', '#8B4513'] },
+       { label: 'Tripolar', values: ['Verde-Amarillo', 'Celeste', 'Marr├│n'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#00AEEF', '#8B4513'] },
+@@ -339,7 +373,7 @@ Temperatura de montaje: igual o mayor a 5┬░C.`,
+     specsTables: [
+       {
+         title: "Bipolar",
+-        headers: ["Secci├│n nominal mm┬▓", "Espesor nominal mm", "Espesor cubierta mm", "Di├ímetro exterior mm", "Peso Kg/km", "Resistencia el├®ctrica a 20┬░C en C.C Ohm/km"],
++        headers: ["Secci├│n nominal mm┬▓┬▓┬▓", "Espesor nominal mm┬▓┬▓", "Espesor cubierta mm┬▓┬▓", "Di├ímetro exterior mm┬▓┬▓", "Peso Kg/km", "Resistencia el├®ctrica a 20┬░C en C.C Ohm/km"],
+         rows: [
+           ["0,5", "0,6", "0,8", "5,7", "43", "39"],
+           ["0,75", "0,6", "0,8", "6,2", "52", "26"],
+@@ -353,7 +387,7 @@ Temperatura de montaje: igual o mayor a 5┬░C.`,
+       },
+       {
+         title: "Tripolar",
+-        headers: ["Secci├│n nominal mm┬▓", "Espesor nominal mm", "Espesor cubierta mm", "Di├ímetro exterior mm", "Peso Kg/km", "Resistencia el├®ctrica a 20┬░C en C.C Ohm/km"],
++        headers: ["Secci├│n nominal mm┬▓┬▓┬▓", "Espesor nominal mm┬▓┬▓", "Espesor cubierta mm┬▓┬▓", "Di├ímetro exterior mm┬▓┬▓", "Peso Kg/km", "Resistencia el├®ctrica a 20┬░C en C.C Ohm/km"],
+         rows: [
+           ["0,5", "0,6", "0,8", "6", "50", "39"],
+           ["0,75", "0,6", "0,8", "6,6", "62", "26"],
+@@ -367,7 +401,7 @@ Temperatura de montaje: igual o mayor a 5┬░C.`,
+       },
+       {
+         title: "Tetrapolar",
+-        headers: ["Secci├│n nominal mm┬▓", "Espesor nominal mm", "Espesor cubierta mm", "Di├ímetro exterior mm", "Peso Kg/km", "Resistencia el├®ctrica a 20┬░C en C.C Ohm/km"],
++        headers: ["Secci├│n nominal mm┬▓┬▓┬▓", "Espesor nominal mm┬▓┬▓", "Espesor cubierta mm┬▓┬▓", "Di├ímetro exterior mm┬▓┬▓", "Peso Kg/km", "Resistencia el├®ctrica a 20┬░C en C.C Ohm/km"],
+         rows: [
+           ["0,5", "0,6", "0,8", "6,6", "60", "39"],
+           ["0,75", "0,6", "0,9", "7,2", "75", "26"],
+@@ -381,7 +415,7 @@ Temperatura de montaje: igual o mayor a 5┬░C.`,
+       },
+       {
+         title: "Pentapolar",
+-        headers: ["Secci├│n nominal mm┬▓", "Espesor nominal mm", "Espesor cubierta mm", "Di├ímetro exterior mm", "Peso Kg/km", "Resistencia el├®ctrica a 20┬░C en C.C Ohm/km"],
++        headers: ["Secci├│n nominal mm┬▓┬▓┬▓", "Espesor nominal mm┬▓┬▓", "Espesor cubierta mm┬▓┬▓", "Di├ímetro exterior mm┬▓┬▓", "Peso Kg/km", "Resistencia el├®ctrica a 20┬░C en C.C Ohm/km"],
+         rows: [
+           ["0,5", "0,6", "0,8", "7,2", "72", "39"],
+           ["0,75", "0,6", "0,9", "8", "94", "26"],
+@@ -401,8 +435,7 @@ Temperatura de montaje: igual o mayor a 5┬░C.`,
+   {
+     id: 'aerea-preensamblado-aluminio',
+     name: 'Preensamblado de Aluminio (cePRET)',
+-    category: 'Cables Instalaci├│n A├®rea',
+-    subCategory: '1-ENVAINADOS',
++    categoryPath: ['Cables Instalaci├│n A├®rea', 'Envainados'],
+     description: 'Conductores de aluminio para redes de distribuci├│n a├®rea de baja tensi├│n de hasta 1 kV.',
+     detailedDescription: `DESCRIPCI├ôN
+ Cable preensamblado para l├¡neas a├®reas de distribuci├│n de energ├¡a el├®ctrica en baja tensi├│n, constituido por tres fases aisladas cableadas a espiral visible con un neutro portante (mensajero), aislado o desnudo; para tensiones nominales de servicio de hasta 1 kV entre fases. El conjunto b├ísico descripto puede suministrarse con una o dos fases adicionales para alumbrado p├║blico.
+@@ -434,10 +467,9 @@ Intensidad de cortocircuito admisible: Se verifica con la siguiente expresi├│n:
+ I = (k ┬À S) / ÔêÜt
+ I: intensidad de corriente de cortocircuito admisible, en A
+ k: 92 (para cables aislados con XLPE)
+-S: secci├│n del conductor, en mm2
++S: secci├│n del conductor, en mm┬▓┬▓2
+ t: duraci├│n del cortocircuito, en segundos.`,
+     characteristics: [
+-      'CONSTRUCCI├ôN',
+       'Fases: aluminio puro 1350 (AAC), clase 2, compactadas (a pedido se pueden fabricar sin compactar).',
+       'Neutro portante: aleaci├│n de aluminio (AAAC), aluminio con alma de acero (ACSR) o aluminio puro 1350 H-19 (AAC).',
+       'Alumbrado: aluminio puro 1350 (AAC), clase 2, compactadas (a pedido se pueden fabricar sin compactar).',
+@@ -449,9 +481,9 @@ t: duraci├│n del cortocircuito, en segundos.`,
+     specsTables: [
+       {
+         title: "Conductores de fase aislados con XLPE",
+-        headers: ["Secci├│n (mm┬▓/AWG)", "N┬║ hilos", "Espesor aisl. (mm)", "Di├ímetro ext. (mm)", "Peso (kg/km)", "Intens. adm. (A)", "Resist. 90┬░C (╬®/km)", "React. 50Hz (╬®/km)"],
++        headers: ["Secci├│n (mm┬▓┬▓┬▓/AWG)", "N┬║ hilos", "Espesor aisl. (mm┬▓┬▓)", "Di├ímetro ext. (mm┬▓┬▓)", "Peso (kg/km)", "Intens. adm. (A)", "Resist. 90┬░C (╬®/km)", "React. 50Hz (╬®/km)"],
+         rows: [
+-          { isSubtitle: true, content: "Secciones en mm┬▓" },
++          { isSubtitle: true, content: "Secciones en mm┬▓┬▓┬▓" },
+           ["10", "7", "1,2", "6,0", "45", "55", "3,949", "0,105"],
+           ["16", "7", "1,2", "7,2", "63", "65", "2,449", "0,098"],
+           ["25", "7", "1,2", "9,0", "98", "75", "1,539", "0,097"],
+@@ -473,9 +505,9 @@ t: duraci├│n del cortocircuito, en segundos.`,
+       },
+       {
+         title: "Conductor neutro portante aislado con XLPE",
+-        headers: ["Secci├│n", "Formaci├│n (N┬║ x mm)", "Di├ím. Desnudo (mm)", "Di├ím. Aislado (mm)", "Peso (kg/km)", "Resist. 90┬░C (╬®/km)", "Tracci├│n (daN)"],
++        headers: ["Secci├│n", "Formaci├│n (N┬║ x mm┬▓┬▓)", "Di├ím. Desnudo (mm┬▓┬▓)", "Di├ím. Aislado (mm┬▓┬▓)", "Peso (kg/km)", "Resist. 90┬░C (╬®/km)", "Tracci├│n (daN)"],
+         rows: [
+-          { isSubtitle: true, content: "Secciones en mm┬▓" },
++          { isSubtitle: true, content: "Secciones en mm┬▓┬▓┬▓" },
+           ["16 - AAAC", "7 x 1,70", "5,1", "7,5", "70", "2,598", "444"],
+           ["25 - AAAC", "7 x 2,15", "6,5", "9,3", "109", "1,628", "710"],
+           ["35 - AAAC", "7 x 2,52", "7,6", "10,8", "149", "1,183", "976"],
+@@ -522,8 +554,7 @@ t: duraci├│n del cortocircuito, en segundos.`,
+   {
+     id: 'aerea-acometida-cobre',
+     name: 'Acometidas de Cobre (CENTRALFLEX VC-30)',
+-    category: 'Cables Instalaci├│n A├®rea',
+-    subCategory: '1-ENVAINADOS',
++    categoryPath: ['Cables Instalaci├│n A├®rea', 'Envainados'],
+     description: 'Cables preensamblados de cobre para conexiones domiciliarias y baja tensi├│n.',
+     detailedDescription: `DESCRIPCI├ôN
+ Especialmente adecuado para acometidas desde l├¡neas a├®reas de baja tensi├│n, monof├ísicas o trif├ísicas, hasta 0,6 / 1,1 kV.
+@@ -555,7 +586,7 @@ PAR├üMETROS T├ëCNICOS
+ ÔÇó Temp. M├íx. de Servicio: 130 ┬░C
+ ÔÇó Cortocircuito: 250 ┬░C
+ ÔÇó Tensi├│n de servicio (Uo/U): 0.6 / 1 kV
+-ÔÇó Rango de fabricaci├│n: 4 a 16 mm┬▓`,
++ÔÇó Rango de fabricaci├│n: 4 a 16 mm┬▓┬▓┬▓`,
+     characteristics: [
+       'CONSTRUCCI├ôN',
+       'Conductores: Cuerda r├¡gida de cobre electrol├¡tico recocido (Norma IRAM NM 280, clase 2).',
+@@ -567,7 +598,7 @@ PAR├üMETROS T├ëCNICOS
+     specsTables: [
+       {
+         title: "Tabla de Especificaciones",
+-        headers: ["Secci├│n nominal (mm┬▓)", "Cant. Alambres", "Clase conductor", "Di├ímetro del Haz (mm┬▓)", "Corriente Admisible (A)", "Temple del Cu", "Peso Aproximado (Kg/Km)"],
++        headers: ["Secci├│n nominal (mm┬▓┬▓┬▓)", "Cant. Alambres", "Clase conductor", "Di├ímetro del Haz (mm┬▓┬▓┬▓)", "Corriente Admisible (A)", "Temple del Cu", "Peso Aproximado (Kg/Km)"],
+         rows: [
+           ["2x4", "7", "2", "10", "45", "Rec.", "100"],
+           ["2x6", "7", "2", "11", "55", "Rec.", "143"],
+@@ -586,8 +617,7 @@ PAR├üMETROS T├ëCNICOS
+   {
+     id: 'aerea-concentrico-antihurto',
+     name: 'Conc├®ntricos Anti-hurto (ceCONEX)',
+-    category: 'Cables Instalaci├│n A├®rea',
+-    subCategory: '1-ENVAINADOS',
++    categoryPath: ['Cables Instalaci├│n A├®rea', 'Envainados'],
+     description: 'Cables de seguridad dise├▒ados para prevenir conexiones clandestinas y asegurar la medici├│n.',
+     detailedDescription: `DESCRIPCI├ôN
+ Cables con conductor central de fase (Aluminio o Cobre) y conductor neutro formado por una corona de alambres que rodea la aislaci├│n central. Esta configuraci├│n impide el pelado del cable para hurtar energ├¡a sin afectar el neutro, provocando un cortocircuito que protege la red.
+@@ -615,7 +645,7 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mec├ínic
+     specsTables: [
+       {
+         title: "Aluminio Monof├ísico (1xAl + Al)",
+-        headers: ["Secci├│n Nominal (mm┬▓)", "Formaci├│n (Cuerda N┬░ x ├ÿmm)", "Corriente M├íx (A)", "Resistencia 20┬░C (╬®/km)", "Di├ímetro ext. (mm)", "Peso (kg/km)"],
++        headers: ["Secci├│n Nominal (mm┬▓┬▓┬▓)", "Formaci├│n (Cuerda N┬░ x ├ÿmm┬▓┬▓)", "Corriente M├íx (A)", "Resistencia 20┬░C (╬®/km)", "Di├ímetro ext. (mm┬▓┬▓)", "Peso (kg/km)"],
+         rows: [
+           ["1x6 + 6", "1 x 7x1.05", "40", "4.61", "10", "81"],
+           ["1x10 + 10", "1 x 7x1.35", "50", "3.08", "11", "120"],
+@@ -624,7 +654,7 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mec├ínic
+       },
+       {
+         title: "Aluminio Trif├ísico (3xAl + Al)",
+-        headers: ["Secci├│n AWG / mm┬▓", "Aislaci├│n (mm)", "Di├ímetro ext. (mm)", "Peso (kg/km)", "Corriente 40┬░C (A)", "Resistencia 20┬░C (╬®/km)"],
++        headers: ["Secci├│n AWG / mm┬▓┬▓┬▓", "Aislaci├│n (mm┬▓┬▓)", "Di├ímetro ext. (mm┬▓┬▓)", "Peso (kg/km)", "Corriente 40┬░C (A)", "Resistencia 20┬░C (╬®/km)"],
+         rows: [
+           ["3x6 + 6", "1.14", "21", "432", "52", "2.214"],
+           ["3x4 + 4", "1.14", "25", "622", "73", "1.390"],
+@@ -633,7 +663,7 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mec├ínic
+       },
+       {
+         title: "Cobre Monof├ísico (1xCu + Cu)",
+-        headers: ["Secci├│n Nominal (mm┬▓)", "Formaci├│n (N┬░ x ├ÿmm)", "Corriente M├íx (A)", "Resistencia 20┬░C (╬®/km)", "Di├ímetro ext. (mm)", "Peso (kg/km)"],
++        headers: ["Secci├│n Nominal (mm┬▓┬▓┬▓)", "Formaci├│n (N┬░ x ├ÿmm┬▓┬▓)", "Corriente M├íx (A)", "Resistencia 20┬░C (╬®/km)", "Di├ímetro ext. (mm┬▓┬▓)", "Peso (kg/km)"],
+         rows: [
+           ["1x4 + 4", "7 x 0.85", "45", "4.61", "9.0", "110"],
+           ["1x6 + 6", "7 x 1.05", "55", "3.08", "10.0", "160"],
+@@ -646,8 +676,7 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mec├ínic
+   {
+     id: 'aerea-desnudo-aluminio',
+     name: 'Cables Desnudos de Aleaci├│n de Aluminio',
+-    category: 'Cables Instalaci├│n A├®rea',
+-    subCategory: '2-DESNUDOS',
++    categoryPath: ['Cables Instalaci├│n A├®rea', 'Desnudos'],
+     description: 'Conductores de aleaci├│n de aluminio para l├¡neas a├®reas de transporte y distribuci├│n.',
+     detailedDescription: `DESCRIPCI├ôN
+ Conductor de cuerda desnuda r├¡gida de aleaci├│n de aluminio tratada t├®rmicamente (6101 / 6201-T81). Ofrecen una excelente relaci├│n conductividad-peso y alta resistencia mec├ínica.
+@@ -672,7 +701,7 @@ Acabado: Desnudo, sin aislaci├│n.`,
+     specsTables: [
+       {
+         title: "Tabla de Datos T├®cnicos",
+-        headers: ["Secci├│n (mm┬▓)", "Formaci├│n (N┬░ x ├ÿmm)", "Di├ímetro (mm)", "Peso (kg/km)", "Carga Rotura (kN)", "Resistencia 20┬░C (╬®/km)"],
++        headers: ["Secci├│n (mm┬▓┬▓┬▓)", "Formaci├│n (N┬░ x ├ÿmm┬▓┬▓)", "Di├ímetro (mm┬▓┬▓)", "Peso (kg/km)", "Carga Rotura (kN)", "Resistencia 20┬░C (╬®/km)"],
+         rows: [
+           ["25", "7 x 2.15", "6.45", "71", "7.31", "1.341"],
+           ["50", "7 x 3.00", "9.00", "138", "14.22", "0.690"],
+@@ -685,8 +714,7 @@ Acabado: Desnudo, sin aislaci├│n.`,
+   {
+     id: 'aerea-desnudo-cobre',
+     name: 'Cables Desnudos de Cobre Duro',
+-    category: 'Cables Instalaci├│n A├®rea',
+-    subCategory: '2-DESNUDOS',
++    categoryPath: ['Cables Instalaci├│n A├®rea', 'Desnudos'],
+     description: 'Conductores de cobre electrol├¡tico de alta pureza para redes a├®reas y puestas a tierra.',
+     detailedDescription: `DESCRIPCI├ôN
+ Cables de cobre duro desnudos, fabricados con cobre electrol├¡tico de alta pureza. Ofrecen la m├íxima conductividad el├®ctrica y excelente resistencia a la corrosi├│n.
+@@ -711,7 +739,7 @@ Acabado: Desnudo, sin aislaci├│n.`,
+     specsTables: [
+       {
+         title: "Tabla de Datos T├®cnicos",
+-        headers: ["Secci├│n (mm┬▓)", "Formaci├│n (N┬░ x mm)", "Di├ímetro (mm)", "Resistencia CC (╬®/km)", "Peso (kg/km)", "Corriente (A)"],
++        headers: ["Secci├│n (mm┬▓┬▓┬▓)", "Formaci├│n (N┬░ x mm┬▓┬▓)", "Di├ímetro (mm┬▓┬▓)", "Resistencia CC (╬®/km)", "Peso (kg/km)", "Corriente (A)"],
+         rows: [
+           ["16", "7 x 1.70", "5.1", "1.14", "143", "115"],
+           ["35", "7 x 2.52", "7.56", "0.518", "314", "180"],
+@@ -725,8 +753,7 @@ Acabado: Desnudo, sin aislaci├│n.`,
+   {
+     id: 'aerea-aluminio-acero',
+     name: 'Aluminio con Alma de Acero (ACSR)',
+-    category: 'Cables Instalaci├│n A├®rea',
+-    subCategory: '2-DESNUDOS',
++    categoryPath: ['Cables Instalaci├│n A├®rea', 'Desnudos'],
+     description: 'Conductores reforzados con alma de acero para grandes vanos y alta resistencia mec├ínica.',
+     detailedDescription: `DESCRIPCI├ôN
+ Conductores formados por alambres de aluminio grado 1350-H19 cableados alrededor de un n├║cleo central de acero galvanizado (ACSR). Combina la alta conductividad del aluminio con la excelente resistencia mec├ínica del acero.
+@@ -752,7 +779,7 @@ Formaci├│n: Cableado conc├®ntrico.`,
+     specsTables: [
+       {
+         title: "Tabla de Datos T├®cnicos",
+-        headers: ["Designaci├│n", "Secci├│n Total (mm┬▓)", "Formaci├│n Al/Ac", "Di├ímetro (mm)", "Carga Rotura (kg)", "Resistencia (╬®/km)"],
++        headers: ["Designaci├│n", "Secci├│n Total (mm┬▓┬▓┬▓)", "Formaci├│n Al/Ac", "Di├ímetro (mm┬▓┬▓)", "Carga Rotura (kg)", "Resistencia (╬®/km)"],
+         rows: [
+           ["Raven", "33.72", "6/1 x 2.67", "8.01", "1279", "0.852"],
+           ["Petrel", "54.06", "6/1 x 3.39", "10.17", "1968", "0.531"],
+@@ -762,6 +789,385 @@ Formaci├│n: Cableado conc├®ntrico.`,
+     ],
+     certifications: ['iram', 'seguridad']
+   }
++,
++  {
++    id: 'subterraneo-lsoh-aluminio',
++    name: 'SUBTERRANEO LSOH',
++    categoryPath: ['Cables de Potencia','Subterr├íneos','Subterr├íneo Aluminio','Subterr├íneo LSOH'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO ALUMINIO/SUBTERRANEO LSOH/PORTADA.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO ALUMINIO/SUBTERRANEO LSOH/FICHA TECNICA/ficha tecnica subte aluminio lsoh.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: 'subterraneo-pvc-aluminio',
++    name: 'SUBTERRANEO PVC',
++    categoryPath: ['Cables de Potencia','Subterr├íneos','Subterr├íneo Aluminio','Subterr├íneo PVC'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO ALUMINIO/SUBTERRANEO PVC/PORTADA.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO ALUMINIO/SUBTERRANEO PVC/FICHA TECNICA/ficha tecnica subte aluminio pvc.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: 'subterraneo-xlpe-aluminio',
++    name: 'SUBTERRANEO XLPE',
++    categoryPath: ['Cables de Potencia','Subterr├íneos','Subterr├íneo Aluminio','Subterr├íneo XLPE'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO ALUMINIO/SUBTERRANEO XLPE/PORTADA.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO ALUMINIO/SUBTERRANEO XLPE/FICHA TECNICA/ficha tecnica subte aluminio xlpe.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: 'subterraneo-lsoh-cobre',
++    name: 'SUBTERRANEO LSOH',
++    categoryPath: ['Cables de Potencia','Subterr├íneos','Subterr├íneo Cobre','Subterr├íneo LSOH'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO LSOH/PORTADA.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO LSOH/FICHA TECNICA/ficha tecnica subte cobre lsoh.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: 'subterraneo-pvc-cobre',
++    name: 'SUBTERRANEO PVC',
++    categoryPath: ['Cables de Potencia','Subterr├íneos','Subterr├íneo Cobre','Subterr├íneo PVC'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO PVC/PORTADA.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO PVC/FICHA TECNICA/ficha tecnica subte cobre pvc.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: 'subterraneo-xlpe-cobre',
++    name: 'SUBTERRANEO XLPE',
++    categoryPath: ['Cables de Potencia','Subterr├íneos','Subterr├íneo Cobre','Subterr├íneo XLPE'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO XLPE/PORTADA.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO XLPE/FICHA TECNICA/ficha tecnica subte cobre xlpe.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '2-para-bomba-sumergible',
++    name: '2-PARA BOMBA SUMERGIBLE',
++    categoryPath: ['Cables de Potencia','Bomba Sumergible'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/2-PARA BOMBA SUMERGIBLE/foto ficha tecnica(1).jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/2-PARA BOMBA SUMERGIBLE/FICHA TECNICA BOMBA SUMERGIBLE.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '3-para-variador-de-frecuencia',
++    name: '3-PARA VARIADOR DE FRECUENCIA',
++    categoryPath: ['Cables de Potencia','Variador de Frecuencia'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/3-PARA VARIADOR DE FRECUENCIA/foto ficha tecnica(1).jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/3-PARA VARIADOR DE FRECUENCIA/FICHA TECNICA VDF.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: \'13-2-kv-aluminio\',
++    name: '13,2 KV',
++    categoryPath: ['Cables de Media Tensi├│n','Aluminio','13.2 kV'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/13,2 KV/portada.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/13,2 KV/FICHA TECNICA MT 13.2KV ALUMINIO.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: \'33-kv-aluminio\',
++    name: '33 KV',
++    categoryPath: ['Cables de Media Tensi├│n','Aluminio','33 kV'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/33 KV/portada.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/33 KV/FICHA TECNICA MT 33KV ALUMINIO.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: \'otras-potencias-aluminio\',
++    name: 'OTRAS POTENCIAS',
++    categoryPath: ['Cables de Media Tensi├│n','Aluminio','Otras Potencias'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/OTRAS POTENCIAS/portada.jpeg',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: \'13-2-kv-cobre\',
++    name: '13,2 KV',
++    categoryPath: ['Cables de Media Tensi├│n','Cobre','13.2 kV'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/13,2 KV/portada.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/13,2 KV/FICHA TECNICA MT 13.2KV COBRE.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: \'33-kv-cobre\',
++    name: '33 KV',
++    categoryPath: ['Cables de Media Tensi├│n','Cobre','33 kV'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/33 KV/portada.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/33 KV/FICHA TECNICA MT 33KV COBRE.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: \'otras-potencias-cobre\',
++    name: 'OTRAS POTENCIAS',
++    categoryPath: ['Cables de Media Tensi├│n','Cobre','Otras Potencias'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/OTRAS POTENCIAS/PORTADA.jpeg',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '1-instrumentaci-n-electronica',
++    name: '1- INSTRUMENTACI├ôN ELECTRONICA',
++    categoryPath: ['Cables Industriales','Instrumentaci├│n Electr├│nica'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/1- INSTRUMENTACI├ôN ELECTRONICA/portada.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/1- INSTRUMENTACI├ôN ELECTRONICA/FICHA TECNICA/FICHA TECNICA INSTRUMENTAR.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '2-automatizaci-n',
++    name: '2-AUTOMATIZACI├ôN',
++    categoryPath: ['Cables Industriales','Automatizaci├│n'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/2-AUTOMATIZACI├ôN/PORTADA.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/2-AUTOMATIZACI├ôN/FICHA TECNICA/FICHA TECNICA AUTOMATIZAR.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '3-cable-comando',
++    name: '3-CABLE COMANDO',
++    categoryPath: ['Cables Industriales','Comando y Se├▒alizaci├│n'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/3-CABLE COMANDO/PORTADA.jpeg',
++    gallery: [],
++    pdf: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/3-CABLE COMANDO/FICHA TECNICA/FICHA TECNICA COMANDO.pdf',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '1-solares',
++    name: '1-SOLARES',
++    categoryPath: ['Cables Alta Temperatura','Solares'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '2-siliconados',
++    name: '2-SILICONADOS',
++    categoryPath: ['Cables Alta Temperatura','Siliconados'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '3-fibra-de-vidrio-y-o-aislaci-n-de-mica',
++    name: '3-FIBRA DE VIDRIO Y-O AISLACI├ôN DE MICA',
++    categoryPath: ['Cables Alta Temperatura','Fibra de Vidrio y/o Mica'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '1-para-protecci-n-mecanica',
++    name: '1-PARA PROTECCI├ôN MECANICA',
++    categoryPath: ['Cables Armados','Para Protecci├│n Mec├ínica'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '2-para-evitar-interferencias-interlock',
++    name: '2-PARA EVITAR INTERFERENCIAS (INTERLOCK)',
++    categoryPath: ['Cables Armados','Interlock (Antirrobo/Interferencias)'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '1-desarrollos-a-medida',
++    name: '1-DESARROLLOS A MEDIDA',
++    categoryPath: ['Cables Especiales','Desarrollos a Medida'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '2-ascensor',
++    name: '2-ASCENSOR',
++    categoryPath: ['Cables Especiales','Ascensor'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '3-puente-grua',
++    name: '3-PUENTE GRUA',
++    categoryPath: ['Cables Especiales','Puente Gr├║a'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '4-utp-ftp-coaxiales-fibra-optica',
++    name: '4-UTP-FTP-COAXIALES-FIBRA OPTICA',
++    categoryPath: ['Cables Especiales','UTP/FTP/Coaxiales/Fibra ├ôptica'],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  },
++  {
++    id: '9-resto-de-materiales-electricos',
++    name: '9-RESTO DE MATERIALES ELECTRICOS',
++    categoryPath: ["9-RESTO DE MATERIALES ELECTRICOS"],
++    description: 'Descripci├│n no disponible.',
++    detailedDescription: 'Detalles a completar.',
++    image: '',
++    gallery: [],
++    pdf: '',
++    specs: [],
++    characteristics: [],
++    specsTables: [],
++    certifications: []
++  }
+ ];
+ 
+ export const brands = [
+@@ -770,4 +1176,5 @@ export const brands = [
+   { name: 'Logo 3', logo: '/images/logos/Logos_-3.png' },
+   { name: 'Logo 4', logo: '/images/logos/Logos_-4.png' },
+   { name: 'Logo 5', logo: '/images/logos/Logos_-5.png' }
+-];
+\ No newline at end of file
++
++];

@@ -1,0 +1,122 @@
+
+================ ID: aerea-desnudo-aluminio ================ 
+{
+    id: 'aerea-desnudo-aluminio',
+    name: 'Cables Desnudos de Aleación de Aluminio',
+    categoryPath: ['Cables Instalación Aérea', 'Desnudos'],
+    description: 'Conductores de aleación de aluminio para líneas aéreas de transporte y distribución.',
+    detailedDescription: `DESCRIPCIÓN
+Conductor de cuerda desnuda rígida de aleación de aluminio tratada térmicamente (6101 / 6201-T81). Ofrecen una excelente relación conductividad-peso y alta resistencia mecánica.
+
+USO
+Transmisión aérea de energía en media y baja tensión (hasta 33 kV).
+
+NORMAS
+IRAM 2212, ASTM B-399.`,
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/PORTADA.jpeg',
+    specs: ['Aleación 6101/6201', 'Temple Duro', 'IRAM 2212'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor: Cuerda concéntrica de alambres de aleación de aluminio 6201-T81.
+Acabado: Desnudo, sin aislación.`,
+    characteristics: [
+      'CONSTRUCCIÓN',
+      'Material: Aleación de aluminio 6101 / 6201-T81.',
+      'Alta resistencia mecánica y bajo peso.',
+      'Excelente resistencia a la corrosión ambiental.',
+      'Ideal para vanos de media y larga distancia.'
+    ],
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Sección (mm²)", "Formación (N° x Ømm)", "Diámetro (mm)", "Peso (kg/km)", "Carga Rotura (kN)", "Resistencia 20°C (Ω/km)"],
+        rows: [
+          ["25", "7 x 2.15", "6.45", "71", "7.31", "1.341"],
+          ["50", "7 x 3.00", "9.00", "138", "14.22", "0.690"],
+          ["95", "7 x 4.15", "12.45", "264", "27.20", "0.360"]
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad']
+  }
+
+================ ID: aerea-desnudo-cobre ================ 
+{
+    id: 'aerea-desnudo-cobre',
+    name: 'Cables Desnudos de Cobre Duro',
+    categoryPath: ['Cables Instalación Aérea', 'Desnudos'],
+    description: 'Conductores de cobre electrolítico de alta pureza para redes aéreas y puestas a tierra.',
+    detailedDescription: `DESCRIPCIÓN
+Cables de cobre duro desnudos, fabricados con cobre electrolítico de alta pureza. Ofrecen la máxima conductividad eléctrica y excelente resistencia a la corrosión.
+
+USO
+Redes aéreas de distribución de energía, líneas de transmisión y sistemas de protección contra descargas atmosféricas (puestas a tierra).
+
+NORMAS
+IRAM 2004.`,
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/PORTADA.jpeg',
+    specs: ['Cobre Electrolítico', 'Temple Duro', 'IRAM 2004'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor: Cuerda concéntrica de alambres de cobre electrolítico recocido o duro.
+Acabado: Desnudo, sin aislación.`,
+    characteristics: [
+      'CONSTRUCCIÓN',
+      'Material: Cobre electrolítico de alta pureza (99.9%).',
+      'Temple: Duro (para líneas aéreas) o Recocido (para puestas a tierra).',
+      'Alta conductividad eléctrica y térmica.',
+      'Gran resistencia a la tracción y fatiga.'
+    ],
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Sección (mm²)", "Formación (N° x mm)", "Diámetro (mm)", "Resistencia CC (Ω/km)", "Peso (kg/km)", "Corriente (A)"],
+        rows: [
+          ["16", "7 x 1.70", "5.1", "1.14", "143", "115"],
+          ["35", "7 x 2.52", "7.56", "0.518", "314", "180"],
+          ["70", "19 x 2.15", "10.75", "0.264", "621", "280"],
+          ["120", "19 x 2.85", "14.25", "0.151", "1090", "400"]
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad']
+  }
+
+================ ID: aerea-aluminio-acero ================ 
+{
+    id: 'aerea-aluminio-acero',
+    name: 'Aluminio con Alma de Acero (ACSR)',
+    categoryPath: ['Cables Instalación Aérea', 'Desnudos'],
+    description: 'Conductores reforzados con alma de acero para grandes vanos y alta resistencia mecánica.',
+    detailedDescription: `DESCRIPCIÓN
+Conductores formados por alambres de aluminio grado 1350-H19 cableados alrededor de un núcleo central de acero galvanizado (ACSR). Combina la alta conductividad del aluminio con la excelente resistencia mecánica del acero.
+
+USO
+Líneas aéreas de transmisión y distribución de energía eléctrica, especialmente donde se requieren grandes vanos (distancia entre postes).
+
+NORMAS
+IRAM 2187, ASTM B-232.`,
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/PORTADA.jpeg',
+    specs: ['ACSR', 'Reforzado', 'IRAM 2187'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor: Alambres de aluminio 1350-H19.
+Núcleo: Alambres de acero galvanizado (clase A).
+Formación: Cableado concéntrico.`,
+    characteristics: [
+      'CONSTRUCCIÓN',
+      'Material: Aluminio 1350 y Acero Galvanizado.',
+      'Alta resistencia a la rotura por tracción.',
+      'Permite mayores distancias entre estructuras portantes.',
+      'Excelente desempeño en condiciones climáticas adversas.'
+    ],
+    specsTables: [
+      {
+        title: "Tabla de Datos Técnicos",
+        headers: ["Designación", "Sección Total (mm²)", "Formación Al/Ac", "Diámetro (mm)", "Carga Rotura (kg)", "Resistencia (Ω/km)"],
+        rows: [
+          ["Raven", "33.72", "6/1 x 2.67", "8.01", "1279", "0.852"],
+          ["Petrel", "54.06", "6/1 x 3.39", "10.17", "1968", "0.531"],
+          ["Hawk", "280.8", "26/7 x 3.44", "21.78", "8840", "0.119"]
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad']
+  }

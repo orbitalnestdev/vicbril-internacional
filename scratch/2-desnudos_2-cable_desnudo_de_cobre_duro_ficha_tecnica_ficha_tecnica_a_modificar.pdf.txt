@@ -1,0 +1,186 @@
+
+--- PAGE 1 ---
+60
+1 Cables expuestos al sol con viento transversal de 0.6m/s. 
+Temperatura ambiente de 40°C, sobreelevación 
+de temperatura de 40°C.
+Normas: IRAM 2004.
+Rango de fabricación: 10 a 300 mm2.
+Usos: Distribución de energía eléctrica en baja y media 
+tensión en zonas urbanas, suburbanas, rurales y redes de 
+conexionado a tierra.
+Cables de cobre duro desnudos.
+CCDD
+Sección
+Formación
+N° x mm
+Diámetro
+Resistencia
+Peso del 
+Resistencia a
+Corriente1
+nominal
+exterior
+a 20°, en CC
+cable
+la tracción
+admisible
+mm2
+mm
+kg/km
+calculada daN
+A
+10
+7
+x
+1,35
+4,05
+1,81
+90
+389
+82
+16
+7
+x
+1,70
+5,1
+1,14
+143
+614
+115
+25
+7 
+x
+2,15
+6,45
+0,712
+225
+975
+143
+35
+7 
+x
+2,52
+7,56
+0,518
+314
+1326
+180
+50 (7 hilos)
+7
+x
+3,02
+9,06
+0,361
+450
+1869
+215
+50 (19 hilos)
+19
+x
+1,85
+9,25
+0,356
+462
+1967
+215
+70
+19
+x
+2,15
+10,75
+0,264
+621
+2645
+280
+95
+19
+x
+2,52
+12,6
+0,192
+854
+3600
+345
+120
+19
+x
+2,85
+14,25
+1,150
+1090
+4549
+400
+150 (19 hilos)
+19
+x
+3,20
+16
+0,119
+1377
+5667
+465
+150 (37 hilos)
+37
+x
+2,25
+15,75
+0,124
+1326
+5628
+465
+185
+37
+x
+2,52
+17,64
+0,0988
+1665
+8010
+530
+240
+37
+x
+2,85
+19,95
+0,0772
+2129
+8858
+635
+300
+37
+x
+3,20
+22,4
+0,0612
+2682
+11040
+730
+185
+37
+x
+2,52
+17,64
+0,0988
+1665
+8010
+530
+240
+37
+x
+2,85
+19,95
+0,0772
+2129
+8858
+635
+300
+37
+x
+3,20
+22,4
+0,0612
+2682
+11040
+730
+10D

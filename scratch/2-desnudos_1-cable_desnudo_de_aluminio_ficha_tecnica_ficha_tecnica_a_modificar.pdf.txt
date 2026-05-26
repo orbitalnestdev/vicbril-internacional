@@ -1,0 +1,171 @@
+
+--- PAGE 1 ---
+Cable Desnudo de
+Aleación de Aluminio
+
+--- PAGE 2 ---
+1
+CABLE CERTIFICADO
+NORMA IRAM 2212
+REF: NORMAS IRAM 2177, 2128.
+CONFORMIDAD
+DEL PRODUCTO
+DC-E-C29-008.1
+RES. N° 237/24
+IRAM 2212 
+Conductor de cuerda desnuda rígida construido con alambres de aleación de aluminio 
+6101 con magnesio y silicio y tratados térmicamente.
+También puede ser construido con alambres de aleación de aluminio 6201-T81.
+CONSTRUCCIÓN:
+Hilos azul y rojo identificatorios de CEDAM.
+IDENTIFICACIÓN:
+Transmisión aérea de energía eléctrica en media y baja tensión.
+Tensiones hasta 33 kV.
+En zonas urbanas, suburbanas y rurales.
+UTILIZACIÓN:
+SUMINISTROS
+Bobina de madera
+Servicio de corte a medida
+1
+
+--- PAGE 3 ---
+2
+Sección
+nominal
+Formación
+mm2
+Nro x mm
+A
+kg/km
+Diámetro
+exterior
+máximo
+Máxima
+Corriente
+Admisible (1)
+Peso
+aprox.
+16
+25
+35
+50
+50
+70
+95
+120
+120
+150
+185
+240
+300
+400
+7 x 1.70
+7 x 2.15
+7 x 2.52
+7 x 3.02
+19 x 1.85
+19 x 2.15
+19 x 2.52
+19 x 2.85
+37 x 2.15
+37 x 2.25
+37 x 2.52
+37 x 2.85
+61 x 2.52
+61 x 2.85
+100
+125
+160
+195
+195
+235
+300
+340
+340
+395
+455
+545
+615
+725
+5.1
+6.5
+7.6
+9.1
+9.3
+10.8
+12.6
+14.3
+15.1
+15.8
+17.6
+20
+22.7
+25.7
+mm
+Ohm/km
+Resistencia
+óhmica
+máxima (2)
+2.07
+1.30
+0.944
+0.657
+0.648
+0.480
+0.349
+0.273
+0.247
+0.226
+0.180
+0.141
+0.109
+0.0855
+daN
+Carga a la
+rotura mínima
+445
+712
+978
+1405
+1431
+1933
+2656
+3397
+3765
+4123
+5172
+6615
+8526
+10906
+43.5
+69.6
+95.6
+137.5
+140.5
+189.8
+260.7
+333.5
+370.4
+405.6
+508.8
+650.8
+840.6
+1075.1
+(Pobre – Regular – Buena – Muy Buena – Excelente) 
+10 D
+Excelente
+Regular
+CARACTERÍSTICAS OPERATIVAS
+Radio de tendido mínimo
+Resistencia a la Intemperie
+Flexibilidad
+(1) A temperatura ambiente de 40 °C, no expuesto al sol, con viento 0.6 m/seg, 
+temperatura en el conductor 80 °C y factor de carga 100 %.
+(2) Resistencia óhmica a 20 °C, en corriente continua.
+Aclaración: estos valores son una referencia aproximada y están sujetos a cambios sin 
+previo aviso. 
+2
+7 alambres
+19 alambres
+37 alambres
+CABLE ILUSTRADO:
