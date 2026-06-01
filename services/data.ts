@@ -3432,22 +3432,268 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
 ],
     certifications: []
   },
-    {
-    id: '1-instrumentaci-n-electronica',
-    name: 'INSTRUMENTACIÓN ELECTRÓNICA',
-    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica'],
-    description: 'Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA).',
-    detailedDescription: `DESCRIPCIÓN
-Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca. Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de señales de alarma.
+      {
+    id: 'industrial-instrumentacion-electronica-libre-halogenos-lsoh',
+    name: 'LSOH',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', 'Libre de Halógenos'],
+    description: 'Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.',
+    detailedDescription: `300 Volt Cu 22 a 12 AWG LSZH 90°C / LSZH UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso en ambientes cerrados con alta concentración de personas (Aeropuertos, hospitales, trenes,
+cines, centros comerciales, túneles) y en salas de control con equipamiento electrónico sensible ante la exposición de`,
 
-APLICACIONES
-Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o en ductos.`,
-    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/portada.jpeg',
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/1-LSOH/PORTADA.jpeg',
     gallery: [],
-    pdf: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/FICHA TECNICA/FICHA TECNICA INSTRUMENTAR.pdf',
-    specs: ['300 Volt', 'Cu 22 a 12 AWG', 'PVC 105°C / PVC'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/1-LSOH/FICHA TECNICA - USAR FOTO DE PORTADA.pdf',
+    specs: ['90°C', '300 Volt', '22 a 12 AWG'],
     characteristics: [
-      'Temperatura máxima: 105°C de servicio',
+      'Temperatura máxima: 90°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del',
+      'incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: UL 1685 – IEC 60332-3-24',
+      'Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2',
+      'Norma de transparencia de humos: IEC 61034-1/2',
+      'Norma de toxicidad: NES 713 – CEI 20.37',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Comportamiento frente al agua: Apto AD7 (Inmersión ocasional en agua)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-libre-halogenos-lsoh-armado',
+    name: 'LSOH Armado',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', 'Libre de Halógenos'],
+    description: '300 Volt Cu 22 a 12 AWG LSZH 90°C / LSZH UL 13 PLTC',
+    detailedDescription: `Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+300 Volt Cu 22 a 12 AWG LSZH 90°C / LSZH UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso en ambientes cerrados con alta concentración de personas (Aeropuertos, hospitales, trenes,`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/2-LSOH ARMADO/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/2-LSOH ARMADO/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
+    specs: ['90°C', '300 Volt', '22 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 90°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta interna: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)',
+      'Armadura: Corona helicoidal de alambres de acero cincado (galvanizado)',
+      'Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del',
+      'incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: UL 1685 – IEC 60332-3-24',
+      'Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2',
+      'Norma de transparencia de humos: IEC 61034-1/2',
+      'Norma de toxicidad: NES 713 – CEI 20.37',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Comportamiento frente al agua: Apto AD7 (Inmersión ocasional en agua)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-libre-halogenos-lsoh-corrugado-interlock',
+    name: 'LSOH Corrugado (interlock)',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', 'Libre de Halógenos'],
+    description: '300 Volt Cu 22 a 12 AWG LSZH 90°C / LSZH UL 13 PLTC',
+    detailedDescription: `Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+300 Volt Cu 22 a 12 AWG LSZH 90°C / LSZH UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso en ambientes cerrados con alta concentración de personas (Aeropuertos, hospitales, trenes,`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/3-LSOH CORRUGADO (INTERLOCK)/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/3-LSOH CORRUGADO (INTERLOCK)/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
+    specs: ['90°C', '300 Volt', '22 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 90°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta interna: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)',
+      'Armadura: Fleje de aluminio, tipo interlock',
+      'Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del',
+      'incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: UL 1685 – IEC 60332-3-24',
+      'Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2',
+      'Norma de transparencia de humos: IEC 61034-1/2',
+      'Norma de toxicidad: NES 713 – CEI 20.37',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Comportamiento frente al agua: Apto AD7 (Inmersión ocasional en agua)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-resistente-incendios-resistente-incendios',
+    name: 'Resistente Incendios',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', 'Resistente a Incendios'],
+    description: 'Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.',
+    detailedDescription: `300 Volt Cu 20 a 12 AWG Doble aislación (MICA+LSZH) UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso adecuado para mantener la integridad eléctrica en presencia de fuego directo en servicios
+críticos en destilerías, petroquímicas, astilleros, etc. Instalados en conduits, bandeja, escalera, al aire libre directo o`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/2-RESISTENTE INCENDIOS/1-RESISTENTE INCENDIOS/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/2-RESISTENTE INCENDIOS/1-RESISTENTE INCENDIOS/FICHA TECNICA - USAR FOTO DE PORTADA.pdf',
+    specs: ['300 Volt', '20 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 90°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC\xa0 - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: Encintado de MICA + LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame\xa0 Retardant)',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame\xa0Retardant), no propagante del',
+      'incendio, resistente a la luz solar y los aceites',
+      'Norma\xa0de fuego: UL 1685 – IEC 60332-3-24',
+      'Norma de resistencia al fuego: IEC 60331-23 / IEC 60331-1/2 PH120',
+      'Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2',
+      'Norma de transparencia de humos: IEC 61034-1/2',
+      'Norma de toxicidad: NES 713 – CEI 20.37',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Comportamiento frente al agua: Apto AD7 (Inmersión ocasional en agua)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-resistente-incendios-resistente-incendios-armado',
+    name: 'Resistente Incendios Armado',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', 'Resistente a Incendios'],
+    description: '300 Volt Cu 20 a 12 AWG Doble aislación (MICA+LSZH) UL 13 PLTC',
+    detailedDescription: `Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+300 Volt Cu 20 a 12 AWG Doble aislación (MICA+LSZH) UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso adecuado para mantener la integridad eléctrica en presencia de fuego directo en servicios`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/2-RESISTENTE INCENDIOS/2-RESISTENTE INCENDIOS ARMADO/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/2-RESISTENTE INCENDIOS/2-RESISTENTE INCENDIOS ARMADO/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
+    specs: ['300 Volt', '20 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 90°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC\xa0 - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: Encintado de MICA + LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame\xa0 Retardant)',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta interna: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame\xa0Retardant)',
+      'Armadura: Corona helicoidal de alambres de acero cincado (galvanizado)',
+      'Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame\xa0Retardant), no propagante del',
+      'incendio, resistente a la luz solar y los aceites',
+      'Norma\xa0de fuego: UL 1685 – IEC 60332-3-24',
+      'Norma de resistencia al fuego: IEC 60331-23 / IEC 60331-1/2 PH120',
+      'Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2',
+      'Norma de transparencia de humos: IEC 61034-1/2',
+      'Norma de toxicidad: NES 713 – CEI 20.37',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Comportamiento frente al agua: Apto AD7 (Inmersión ocasional en agua)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-resistente-incendios-resistente-incendios-corrugado-interlock',
+    name: 'Resistente Incendios Corrugado (interlock)',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', 'Resistente a Incendios'],
+    description: '300 Volt Cu 20 a 12 AWG Doble aislación (MICA+LSZH) UL 13 PLTC',
+    detailedDescription: `Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+300 Volt Cu 20 a 12 AWG Doble aislación (MICA+LSZH) UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso adecuado para mantener la integridad eléctrica en presencia de fuego directo en servicios`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/2-RESISTENTE INCENDIOS/3-RESISTENTE INCENDIOS CORRUGADO (INTERLOCK)/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/2-RESISTENTE INCENDIOS/3-RESISTENTE INCENDIOS CORRUGADO (INTERLOCK)/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
+    specs: ['300 Volt', '20 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 90°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC\xa0 - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: Encintado de MICA + LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame\xa0 Retardant)',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta interna: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame\xa0Retardant)',
+      'Armadura: Fleje de aluminio, tipo interlock',
+      'Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame\xa0Retardant), no propagante del',
+      'incendio, resistente a la luz solar y los aceites',
+      'Norma\xa0de fuego: UL 1685 – IEC 60332-3-24',
+      'Norma de resistencia al fuego: IEC 60331-23 / IEC 60331-1/2 PH120',
+      'Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2',
+      'Norma de transparencia de humos: IEC 61034-1/2',
+      'Norma de toxicidad: NES 713 – CEI 20.37',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Comportamiento frente al agua: Apto AD7 (Inmersión ocasional en agua)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-300-volts-300-volts',
+    name: '300 Volts',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '300 Volts'],
+    description: 'Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.',
+    detailedDescription: `300 Volt Cu 22 a 12 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o
+en ductos.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/1-300 VOLTS/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/1-300 VOLTS/FICHA TECNICA - USAR FOTO DE PORTADA.pdf',
+    specs: ['300 Volt', '105°C', '22 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 105°C',
       'Tensión nominal: 300 Volt',
       'Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC',
       'Norma de conductores: ASTM B8 Clase B',
@@ -3460,1849 +3706,1071 @@ Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, e
       'Norma hidrocarburos: NFC 32-200 - ASTM D 1239',
       'Norma aceites: ICEA S 73-532',
       'Norma de intemperismo: UL 2556 (rayos UV)',
-      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2'
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
     ],
-    specsTables: [
-      {
-            "title": "Características Eléctricas",
-            "headers": [
-                  "Calibre (AWG)",
-                  "Estructura del cable",
-                  "Tipo de blindaje",
-                  "Resistencia eléctrica CC a 20°C (Ohm/km)",
-                  "Capacidad mutua (pF/m)",
-                  "Impedancia característica (Ohm)",
-                  "Inductancia mutua (µH/km)"
-            ],
-            "rows": [
-                  [
-                        "20",
-                        "Par / Terna / Cuadrete",
-                        "Sin blindar",
-                        "35,78",
-                        "98",
-                        "76",
-                        "588"
-                  ],
-                  [
-                        "20",
-                        "Par / Terna / Cuadrete",
-                        "Blindado",
-                        "35,78",
-                        "180",
-                        "41",
-                        "--"
-                  ],
-                  [
-                        "20",
-                        "Multipar / Multiterna",
-                        "Blindaje general",
-                        "35,78",
-                        "111",
-                        "67",
-                        "--"
-                  ],
-                  [
-                        "20",
-                        "Multipar / Multiterna",
-                        "Blindaje individual y general",
-                        "35,78",
-                        "180",
-                        "41",
-                        "--"
-                  ],
-                  [
-                        "18",
-                        "Par / Terna / Cuadrete",
-                        "Sin blindar",
-                        "22,78",
-                        "85",
-                        "88",
-                        "641"
-                  ],
-                  [
-                        "18",
-                        "Par / Terna / Cuadrete",
-                        "Blindado",
-                        "22,78",
-                        "165",
-                        "50",
-                        "--"
-                  ],
-                  [
-                        "18",
-                        "Multipar / Multiterna",
-                        "Blindaje general",
-                        "22,78",
-                        "98",
-                        "76",
-                        "--"
-                  ],
-                  [
-                        "18",
-                        "Multipar / Multiterna",
-                        "Blindaje individual y general",
-                        "22,78",
-                        "165",
-                        "50",
-                        "--"
-                  ],
-                  [
-                        "16",
-                        "Par / Terna / Cuadrete",
-                        "Sin blindar",
-                        "14,25",
-                        "112",
-                        "66",
-                        "544"
-                  ],
-                  [
-                        "16",
-                        "Par / Terna / Cuadrete",
-                        "Blindado",
-                        "14,25",
-                        "210",
-                        "35",
-                        "--"
-                  ],
-                  [
-                        "16",
-                        "Multipar / Multiterna",
-                        "Blindaje general",
-                        "14,25",
-                        "122",
-                        "61",
-                        "--"
-                  ],
-                  [
-                        "16",
-                        "Multipar / Multiterna",
-                        "Blindaje individual y general",
-                        "14,25",
-                        "210",
-                        "35",
-                        "--"
-                  ],
-                  [
-                        "14",
-                        "Par / Terna / Cuadrete",
-                        "Sin blindar",
-                        "8,94",
-                        "103",
-                        "68",
-                        "553"
-                  ],
-                  [
-                        "14",
-                        "Par / Terna / Cuadrete",
-                        "Blindado",
-                        "8,94",
-                        "203",
-                        "37",
-                        "--"
-                  ],
-                  [
-                        "14",
-                        "Multipar / Multiterna",
-                        "Blindaje general",
-                        "8,94",
-                        "133",
-                        "56",
-                        "--"
-                  ],
-                  [
-                        "14",
-                        "Multipar / Multiterna",
-                        "Blindaje individual y general",
-                        "8,94",
-                        "203",
-                        "37",
-                        "--"
-                  ],
-                  [
-                        "12",
-                        "Par / Terna / Cuadrete",
-                        "Sin blindar",
-                        "5,63",
-                        "121",
-                        "62",
-                        "522"
-                  ],
-                  [
-                        "12",
-                        "Par / Terna / Cuadrete",
-                        "Blindado",
-                        "5,63",
-                        "228",
-                        "33",
-                        "--"
-                  ]
-            ]
-      },
-      {
-            "title": "Dimensiones y Pesos - Par",
-            "headers": [
-                  "Calibre (AWG)",
-                  "Blindado",
-                  "Drenaje (AWG)",
-                  "Diámetro exterior (mm)",
-                  "Peso (kg/km)",
-                  "Código"
-            ],
-            "rows": [
-                  [
-                        "20",
-                        "No",
-                        "--",
-                        "4.9",
-                        "30",
-                        "AR 1P20"
-                  ],
-                  [
-                        "20",
-                        "Sí",
-                        "22",
-                        "5.0",
-                        "33",
-                        "AR-O 1P20"
-                  ],
-                  [
-                        "18",
-                        "No",
-                        "--",
-                        "5.6",
-                        "40",
-                        "AR 1P18"
-                  ],
-                  [
-                        "18",
-                        "Sí",
-                        "20",
-                        "5.7",
-                        "45",
-                        "AR-O 1P18"
-                  ],
-                  [
-                        "16",
-                        "No",
-                        "--",
-                        "6.2",
-                        "53",
-                        "AR 1P16"
-                  ],
-                  [
-                        "16",
-                        "Sí",
-                        "18",
-                        "6.3",
-                        "61",
-                        "AR-O 1P16"
-                  ],
-                  [
-                        "14",
-                        "No",
-                        "--",
-                        "7.7",
-                        "82",
-                        "AR 1P14"
-                  ],
-                  [
-                        "14",
-                        "Sí",
-                        "18",
-                        "7.8",
-                        "89",
-                        "AR-O 1P14"
-                  ],
-                  [
-                        "12",
-                        "No",
-                        "--",
-                        "8.7",
-                        "111",
-                        "AR 1P12"
-                  ],
-                  [
-                        "12",
-                        "Sí",
-                        "18",
-                        "8.8",
-                        "119",
-                        "AR-O 1P12"
-                  ]
-            ]
-      },
-      {
-            "title": "Dimensiones y Pesos - Terna / Cuadrete",
-            "headers": [
-                  "Estructura",
-                  "Calibre (AWG)",
-                  "Drenaje (AWG)",
-                  "Diámetro exterior (mm)",
-                  "Peso (kg/km)",
-                  "Código"
-            ],
-            "rows": [
-                  [
-                        "Terna (Blindado)",
-                        "20",
-                        "22",
-                        "5.3",
-                        "41",
-                        "AR-O 1T20"
-                  ],
-                  [
-                        "Terna (Blindado)",
-                        "18",
-                        "20",
-                        "6.0",
-                        "57",
-                        "AR-O 1T18"
-                  ],
-                  [
-                        "Terna (Blindado)",
-                        "16",
-                        "18",
-                        "6.7",
-                        "78",
-                        "AR-O 1T16"
-                  ],
-                  [
-                        "Terna (Blindado)",
-                        "14",
-                        "18",
-                        "8.3",
-                        "116",
-                        "AR-O 1T14"
-                  ],
-                  [
-                        "Terna (Blindado)",
-                        "12",
-                        "18",
-                        "9.3",
-                        "159",
-                        "AR-O 1T12"
-                  ],
-                  [
-                        "Cuadrete (Blindado)",
-                        "20",
-                        "22",
-                        "5.7",
-                        "50",
-                        "AR-O 1Q20"
-                  ],
-                  [
-                        "Cuadrete (Blindado)",
-                        "18",
-                        "20",
-                        "6.5",
-                        "70",
-                        "AR-O 1Q18"
-                  ],
-                  [
-                        "Cuadrete (Blindado)",
-                        "16",
-                        "18",
-                        "7.5",
-                        "101",
-                        "AR-O 1Q16"
-                  ],
-                  [
-                        "Cuadrete (Blindado)",
-                        "14",
-                        "18",
-                        "9.0",
-                        "146",
-                        "AR-O 1Q14"
-                  ],
-                  [
-                        "Cuadrete (Blindado)",
-                        "12",
-                        "18",
-                        "10.7",
-                        "214",
-                        "AR-O 1Q12"
-                  ]
-            ]
-      },
-      {
-            "title": "Dimensiones y Pesos - Multipares (Blindaje General)",
-            "headers": [
-                  "Nro. Pares",
-                  "Calibre (AWG)",
-                  "Diámetro exterior (mm)",
-                  "Peso (kg/km)",
-                  "Código",
-                  "Mat Number"
-            ],
-            "rows": [
-                  [
-                        "2",
-                        "20",
-                        "7.4",
-                        "65",
-                        "AR-O 2P20",
-                        "810000360"
-                  ],
-                  [
-                        "3",
-                        "20",
-                        "7.8",
-                        "79",
-                        "AR-O 3P20",
-                        "810000370"
-                  ],
-                  [
-                        "4",
-                        "20",
-                        "8.5",
-                        "100",
-                        "AR-O 4P20",
-                        "810000380"
-                  ],
-                  [
-                        "6",
-                        "20",
-                        "10.6",
-                        "147",
-                        "AR-O 6P20",
-                        "810000390"
-                  ],
-                  [
-                        "8",
-                        "20",
-                        "11.4",
-                        "178",
-                        "AR-O 8P20",
-                        "810000400"
-                  ],
-                  [
-                        "12",
-                        "20",
-                        "13.6",
-                        "245",
-                        "AR-O 12P20",
-                        "810000410"
-                  ],
-                  [
-                        "16",
-                        "20",
-                        "15.1",
-                        "307",
-                        "AR-O 16P20",
-                        "810000420"
-                  ],
-                  [
-                        "20",
-                        "20",
-                        "17.2",
-                        "390",
-                        "AR-O 20P20",
-                        "810000430"
-                  ],
-                  [
-                        "24",
-                        "20",
-                        "19",
-                        "456",
-                        "AR-O 24P20",
-                        "810000440"
-                  ],
-                  [
-                        "36",
-                        "20",
-                        "21.7",
-                        "634",
-                        "AR-O 36P20",
-                        "810000460"
-                  ],
-                  [
-                        "2",
-                        "18",
-                        "8.3",
-                        "87",
-                        "AR-O 2P18",
-                        "810000470"
-                  ],
-                  [
-                        "3",
-                        "18",
-                        "9.1",
-                        "111",
-                        "AR-O 3P18",
-                        "810000480"
-                  ],
-                  [
-                        "4",
-                        "18",
-                        "10.5",
-                        "152",
-                        "AR-O 4P18",
-                        "810000490"
-                  ],
-                  [
-                        "6",
-                        "18",
-                        "12.4",
-                        "205",
-                        "AR-O 6P18",
-                        "810000500"
-                  ],
-                  [
-                        "8",
-                        "18",
-                        "13.4",
-                        "252",
-                        "AR-O 8P18",
-                        "810000510"
-                  ],
-                  [
-                        "12",
-                        "18",
-                        "16.7",
-                        "370",
-                        "AR-O 12P18",
-                        "810000520"
-                  ],
-                  [
-                        "16",
-                        "18",
-                        "18.4",
-                        "465",
-                        "AR-O 16P18",
-                        "810000530"
-                  ],
-                  [
-                        "20",
-                        "18",
-                        "20.4",
-                        "562",
-                        "AR-O 20P18",
-                        "810000540"
-                  ],
-                  [
-                        "24",
-                        "18",
-                        "23.3",
-                        "688",
-                        "AR-O 24P18",
-                        "810000550"
-                  ],
-                  [
-                        "36",
-                        "18",
-                        "26.5",
-                        "961",
-                        "AR-O 36P18",
-                        "810000570"
-                  ],
-                  [
-                        "2",
-                        "16",
-                        "9",
-                        "111",
-                        "AR-O 2P16",
-                        "810000580"
-                  ],
-                  [
-                        "3",
-                        "16",
-                        "10.8",
-                        "159",
-                        "AR-O 3P16",
-                        "810000590"
-                  ],
-                  [
-                        "4",
-                        "16",
-                        "11.7",
-                        "200",
-                        "AR-O 4P16",
-                        "810000600"
-                  ],
-                  [
-                        "6",
-                        "16",
-                        "13.9",
-                        "275",
-                        "AR-O 6P16",
-                        "810000610"
-                  ],
-                  [
-                        "8",
-                        "16",
-                        "15.1",
-                        "344",
-                        "AR-O 8P16",
-                        "810000620"
-                  ],
-                  [
-                        "12",
-                        "16",
-                        "18.8",
-                        "508",
-                        "AR-O 12P16",
-                        "810000630"
-                  ],
-                  [
-                        "16",
-                        "16",
-                        "20.9",
-                        "646",
-                        "AR-O 16P16",
-                        "810000640"
-                  ],
-                  [
-                        "20",
-                        "16",
-                        "23.7",
-                        "813",
-                        "AR-O 20P16",
-                        "810000650"
-                  ],
-                  [
-                        "24",
-                        "16",
-                        "26.4",
-                        "959",
-                        "AR-O 24P16",
-                        "810000660"
-                  ],
-                  [
-                        "36",
-                        "16",
-                        "30.2",
-                        "1359",
-                        "AR-O 36P16",
-                        "810000680"
-                  ],
-                  [
-                        "2",
-                        "14",
-                        "11.1",
-                        "170",
-                        "AR-O 2P14",
-                        "810000690"
-                  ],
-                  [
-                        "3",
-                        "14",
-                        "13.1",
-                        "230",
-                        "AR-O 3P14",
-                        "810000700"
-                  ],
-                  [
-                        "4",
-                        "14",
-                        "14.3",
-                        "292",
-                        "AR-O 4P14",
-                        "810000710"
-                  ],
-                  [
-                        "6",
-                        "14",
-                        "17.7",
-                        "429",
-                        "AR-O 6P14",
-                        "810000720"
-                  ],
-                  [
-                        "8",
-                        "14",
-                        "19.2",
-                        "539",
-                        "AR-O 8P14",
-                        "810000730"
-                  ],
-                  [
-                        "12",
-                        "14",
-                        "24",
-                        "796",
-                        "AR-O 12P14",
-                        "810000740"
-                  ],
-                  [
-                        "16",
-                        "14",
-                        "26.6",
-                        "1016",
-                        "AR-O 16P14",
-                        "810000750"
-                  ],
-                  [
-                        "20",
-                        "14",
-                        "29.5",
-                        "1239",
-                        "AR-O 20P14",
-                        "810000760"
-                  ],
-                  [
-                        "24",
-                        "14",
-                        "33.4",
-                        "1503",
-                        "AR-O 24P14",
-                        "810000770"
-                  ],
-                  [
-                        "36",
-                        "14",
-                        "38.3",
-                        "2144",
-                        "AR-O 36P14",
-                        "810000790"
-                  ]
-            ]
-      },
-      {
-            "title": "Dimensiones y Pesos - Multipares (Blindaje Individual y General)",
-            "headers": [
-                  "Nro. Pares",
-                  "Calibre (AWG)",
-                  "Diámetro exterior (mm)",
-                  "Peso (kg/km)",
-                  "Código",
-                  "Mat Number"
-            ],
-            "rows": [
-                  [
-                        "2",
-                        "20",
-                        "7.4",
-                        "72",
-                        "AR-IO 2P20",
-                        "810000910"
-                  ],
-                  [
-                        "3",
-                        "20",
-                        "8.3",
-                        "94",
-                        "AR-IO 3P20",
-                        "810000920"
-                  ],
-                  [
-                        "4",
-                        "20",
-                        "9.1",
-                        "120",
-                        "AR-IO 4P20",
-                        "810000930"
-                  ],
-                  [
-                        "6",
-                        "20",
-                        "11.3",
-                        "176",
-                        "AR-IO 6P20",
-                        "810000940"
-                  ],
-                  [
-                        "8",
-                        "20",
-                        "12.1",
-                        "215",
-                        "AR-IO 8P20",
-                        "810000950"
-                  ],
-                  [
-                        "12",
-                        "20",
-                        "14.6",
-                        "300",
-                        "AR-IO 12P20",
-                        "810000960"
-                  ],
-                  [
-                        "16",
-                        "20",
-                        "16.7",
-                        "397",
-                        "AR-IO 16P20",
-                        "810000970"
-                  ],
-                  [
-                        "20",
-                        "20",
-                        "18.4",
-                        "479",
-                        "AR-IO 20P20",
-                        "810000980"
-                  ],
-                  [
-                        "24",
-                        "20",
-                        "20.4",
-                        "562",
-                        "AR-IO 24P20",
-                        "810000990"
-                  ],
-                  [
-                        "36",
-                        "20",
-                        "23.9",
-                        "818",
-                        "AR-IO 36P20",
-                        "810001010"
-                  ],
-                  [
-                        "2",
-                        "18",
-                        "8.3",
-                        "98",
-                        "AR-IO 2P18",
-                        "810001020"
-                  ],
-                  [
-                        "3",
-                        "18",
-                        "10.3",
-                        "143",
-                        "AR-IO 3P18",
-                        "810001030"
-                  ],
-                  [
-                        "4",
-                        "18",
-                        "11.2",
-                        "180",
-                        "AR-IO 4P18",
-                        "810001040"
-                  ],
-                  [
-                        "6",
-                        "18",
-                        "13.2",
-                        "245",
-                        "AR-IO 6P18",
-                        "810001050"
-                  ],
-                  [
-                        "8",
-                        "18",
-                        "14.3",
-                        "305",
-                        "AR-IO 8P18",
-                        "810001060"
-                  ],
-                  [
-                        "12",
-                        "18",
-                        "17.9",
-                        "451",
-                        "AR-IO 12P18",
-                        "810001070"
-                  ],
-                  [
-                        "16",
-                        "18",
-                        "19.8",
-                        "570",
-                        "AR-IO 16P18",
-                        "810001080"
-                  ],
-                  [
-                        "20",
-                        "18",
-                        "21.9",
-                        "691",
-                        "AR-IO 20P18",
-                        "810001090"
-                  ],
-                  [
-                        "24",
-                        "18",
-                        "25",
-                        "845",
-                        "AR-IO 24P18",
-                        "810001100"
-                  ],
-                  [
-                        "36",
-                        "18",
-                        "28.5",
-                        "1192",
-                        "AR-IO 36P18",
-                        "810001120"
-                  ],
-                  [
-                        "2",
-                        "16",
-                        "9",
-                        "128",
-                        "AR-IO 2P16",
-                        "810001130"
-                  ],
-                  [
-                        "3",
-                        "16",
-                        "11.5",
-                        "190",
-                        "AR-IO 3P16",
-                        "810001140"
-                  ],
-                  [
-                        "4",
-                        "16",
-                        "12.5",
-                        "241",
-                        "AR-IO 4P16",
-                        "810001150"
-                  ],
-                  [
-                        "6",
-                        "16",
-                        "14.9",
-                        "335",
-                        "AR-IO 6P16",
-                        "810001160"
-                  ],
-                  [
-                        "8",
-                        "16",
-                        "16.7",
-                        "441",
-                        "AR-IO 8P16",
-                        "810001170"
-                  ],
-                  [
-                        "12",
-                        "16",
-                        "20.2",
-                        "626",
-                        "AR-IO 12P16",
-                        "810001180"
-                  ],
-                  [
-                        "16",
-                        "16",
-                        "23",
-                        "827",
-                        "AR-IO 16P16",
-                        "810001190"
-                  ],
-                  [
-                        "20",
-                        "16",
-                        "25.5",
-                        "1006",
-                        "AR-IO 20P16",
-                        "810001200"
-                  ],
-                  [
-                        "24",
-                        "16",
-                        "28.4",
-                        "1190",
-                        "AR-IO 24P16",
-                        "810001210"
-                  ],
-                  [
-                        "36",
-                        "16",
-                        "33",
-                        "1737",
-                        "AR-IO 36P16",
-                        "810001230"
-                  ],
-                  [
-                        "2",
-                        "14",
-                        "11.1",
-                        "187",
-                        "AR-IO 2P14",
-                        "810001240"
-                  ],
-                  [
-                        "3",
-                        "14",
-                        "14",
-                        "264",
-                        "AR-IO 3P14",
-                        "810001250"
-                  ],
-                  [
-                        "4",
-                        "14",
-                        "15.9",
-                        "354",
-                        "AR-IO 4P14",
-                        "810001260"
-                  ],
-                  [
-                        "6",
-                        "14",
-                        "19",
-                        "495",
-                        "AR-IO 6P14",
-                        "810001270"
-                  ],
-                  [
-                        "8",
-                        "14",
-                        "20.6",
-                        "624",
-                        "AR-IO 8P14",
-                        "810001280"
-                  ],
-                  [
-                        "12",
-                        "14",
-                        "25.7",
-                        "923",
-                        "AR-IO 12P14",
-                        "810001290"
-                  ],
-                  [
-                        "16",
-                        "14",
-                        "28.6",
-                        "1183",
-                        "AR-IO 16P14",
-                        "810001300"
-                  ],
-                  [
-                        "20",
-                        "14",
-                        "32.3",
-                        "1482",
-                        "AR-IO 20P14",
-                        "810001310"
-                  ],
-                  [
-                        "24",
-                        "14",
-                        "36",
-                        "1754",
-                        "AR-IO 24P14",
-                        "810001320"
-                  ],
-                  [
-                        "36",
-                        "14",
-                        "41.8",
-                        "2559",
-                        "AR-IO 36P14",
-                        "810001340"
-                  ]
-            ]
-      },
-      {
-            "title": "Dimensiones y Pesos - Multiternas (Blindaje General)",
-            "headers": [
-                  "Nro. Ternas",
-                  "Calibre (AWG)",
-                  "Diámetro exterior (mm)",
-                  "Peso (kg/km)",
-                  "Código",
-                  "Mat Number"
-            ],
-            "rows": [
-                  [
-                        "2",
-                        "20",
-                        "8.9",
-                        "85",
-                        "AR-O 2T20",
-                        "810001460"
-                  ],
-                  [
-                        "3",
-                        "20",
-                        "9.4",
-                        "107",
-                        "AR-O 3T20",
-                        "810001470"
-                  ],
-                  [
-                        "4",
-                        "20",
-                        "10.8",
-                        "148",
-                        "AR-O 4T20",
-                        "810001480"
-                  ],
-                  [
-                        "6",
-                        "20",
-                        "12.8",
-                        "201",
-                        "AR-O 6T20",
-                        "810001490"
-                  ],
-                  [
-                        "8",
-                        "20",
-                        "13.8",
-                        "246",
-                        "AR-O 8T20",
-                        "810001500"
-                  ],
-                  [
-                        "12",
-                        "20",
-                        "17.2",
-                        "363",
-                        "AR-O 12T20",
-                        "810001510"
-                  ],
-                  [
-                        "16",
-                        "20",
-                        "19.1",
-                        "456",
-                        "AR-O 16T20",
-                        "810001520"
-                  ],
-                  [
-                        "20",
-                        "20",
-                        "21.1",
-                        "550",
-                        "AR-O 20T20",
-                        "810001530"
-                  ],
-                  [
-                        "24",
-                        "20",
-                        "24.1",
-                        "676",
-                        "AR-O 24T20",
-                        "810001540"
-                  ],
-                  [
-                        "36",
-                        "20",
-                        "27.5",
-                        "942",
-                        "AR-O 36T20",
-                        "810001560"
-                  ],
-                  [
-                        "2",
-                        "18",
-                        "10.8",
-                        "129",
-                        "AR-O 2T18",
-                        "810001570"
-                  ],
-                  [
-                        "3",
-                        "18",
-                        "11.5",
-                        "164",
-                        "AR-O 3T18",
-                        "810001580"
-                  ],
-                  [
-                        "4",
-                        "18",
-                        "12.5",
-                        "205",
-                        "AR-O 4T18",
-                        "810001590"
-                  ],
-                  [
-                        "6",
-                        "18",
-                        "14.9",
-                        "282",
-                        "AR-O 6T18",
-                        "810001600"
-                  ],
-                  [
-                        "8",
-                        "18",
-                        "16.6",
-                        "370",
-                        "AR-O 8T18",
-                        "810001610"
-                  ],
-                  [
-                        "12",
-                        "18",
-                        "20.2",
-                        "519",
-                        "AR-O 12T18",
-                        "810001620"
-                  ],
-                  [
-                        "16",
-                        "18",
-                        "23.0",
-                        "685",
-                        "AR-O 16T18",
-                        "810001630"
-                  ],
-                  [
-                        "20",
-                        "18",
-                        "25.4",
-                        "829",
-                        "AR-O 20T18",
-                        "810001640"
-                  ],
-                  [
-                        "24",
-                        "18",
-                        "28.3",
-                        "976",
-                        "AR-O 24T18",
-                        "810001650"
-                  ],
-                  [
-                        "36",
-                        "18",
-                        "32.9",
-                        "1417",
-                        "AR-O 36T18",
-                        "810001670"
-                  ],
-                  [
-                        "2",
-                        "16",
-                        "12.2",
-                        "168",
-                        "AR-O 2T16",
-                        "810001680"
-                  ],
-                  [
-                        "3",
-                        "16",
-                        "13.0",
-                        "219",
-                        "AR-O 3T16",
-                        "810001690"
-                  ],
-                  [
-                        "4",
-                        "16",
-                        "14.2",
-                        "273",
-                        "AR-O 4T16",
-                        "810001700"
-                  ],
-                  [
-                        "6",
-                        "16",
-                        "17.5",
-                        "402",
-                        "AR-O 6T16",
-                        "810001710"
-                  ],
-                  [
-                        "8",
-                        "16",
-                        "18.9",
-                        "504",
-                        "AR-O 8T16",
-                        "810001720"
-                  ],
-                  [
-                        "12",
-                        "16",
-                        "23.7",
-                        "747",
-                        "AR-O 12T16",
-                        "810001730"
-                  ],
-                  [
-                        "16",
-                        "16",
-                        "26.3",
-                        "953",
-                        "AR-O 16T16",
-                        "810001740"
-                  ],
-                  [
-                        "20",
-                        "16",
-                        "29.1",
-                        "1161",
-                        "AR-O 20T16",
-                        "810001750"
-                  ],
-                  [
-                        "24",
-                        "16",
-                        "33.0",
-                        "1412",
-                        "AR-O 24T16",
-                        "810001760"
-                  ],
-                  [
-                        "36",
-                        "16",
-                        "37.8",
-                        "2009",
-                        "AR-O 36T16",
-                        "810001780"
-                  ],
-                  [
-                        "2",
-                        "14",
-                        "15.0",
-                        "242",
-                        "AR-O 2T14",
-                        "810001790"
-                  ],
-                  [
-                        "3",
-                        "14",
-                        "16.5",
-                        "341",
-                        "AR-O 3T14",
-                        "810001800"
-                  ],
-                  [
-                        "4",
-                        "14",
-                        "18.0",
-                        "431",
-                        "AR-O 4T14",
-                        "810001810"
-                  ],
-                  [
-                        "6",
-                        "14",
-                        "21.7",
-                        "607",
-                        "AR-O 6T14",
-                        "810001820"
-                  ],
-                  [
-                        "8",
-                        "14",
-                        "24.2",
-                        "798",
-                        "AR-O 8T14",
-                        "810001830"
-                  ],
-                  [
-                        "12",
-                        "14",
-                        "29.5",
-                        "1140",
-                        "AR-O 12T14",
-                        "810001840"
-                  ],
-                  [
-                        "16",
-                        "14",
-                        "33.3",
-                        "1502",
-                        "AR-O 16T14",
-                        "810001850"
-                  ],
-                  [
-                        "20",
-                        "14",
-                        "37.1",
-                        "1836",
-                        "AR-O 20T14",
-                        "810001860"
-                  ],
-                  [
-                        "24",
-                        "14",
-                        "41.9",
-                        "2223",
-                        "AR-O 24T14",
-                        "810001870"
-                  ],
-                  [
-                        "36",
-                        "14",
-                        "48.1",
-                        "3180",
-                        "AR-O 36T14",
-                        "810001890"
-                  ]
-            ]
-      },
-      {
-            "title": "Dimensiones y Pesos - Multiternas (Blindaje Individual y General)",
-            "headers": [
-                  "Nro. Ternas",
-                  "Calibre (AWG)",
-                  "Diámetro exterior (mm)",
-                  "Peso (kg/km)",
-                  "Código",
-                  "Mat Number"
-            ],
-            "rows": [
-                  [
-                        "2",
-                        "20",
-                        "9.1",
-                        "94",
-                        "AR-IO 2T20",
-                        "810002010"
-                  ],
-                  [
-                        "3",
-                        "20",
-                        "10.2",
-                        "133",
-                        "AR-IO 3T20",
-                        "810002020"
-                  ],
-                  [
-                        "4",
-                        "20",
-                        "11.0",
-                        "166",
-                        "AR-IO 4T20",
-                        "810002030"
-                  ],
-                  [
-                        "6",
-                        "20",
-                        "13.1",
-                        "227",
-                        "AR-IO 6T20",
-                        "810002040"
-                  ],
-                  [
-                        "8",
-                        "20",
-                        "14.2",
-                        "282",
-                        "AR-IO 8T20",
-                        "810002050"
-                  ],
-                  [
-                        "12",
-                        "20",
-                        "17.7",
-                        "416",
-                        "AR-IO 12T20",
-                        "810002060"
-                  ],
-                  [
-                        "16",
-                        "20",
-                        "19.6",
-                        "526",
-                        "AR-IO 16T20",
-                        "810002070"
-                  ],
-                  [
-                        "20",
-                        "20",
-                        "21.7",
-                        "637",
-                        "AR-IO 20T20",
-                        "810002080"
-                  ],
-                  [
-                        "24",
-                        "20",
-                        "24.7",
-                        "779",
-                        "AR-IO 24T20",
-                        "810002090"
-                  ],
-                  [
-                        "36",
-                        "20",
-                        "28.2",
-                        "1096",
-                        "AR-IO 36T20",
-                        "810002110"
-                  ],
-                  [
-                        "2",
-                        "18",
-                        "11.0",
-                        "142",
-                        "AR-IO 2T18",
-                        "810002120"
-                  ],
-                  [
-                        "3",
-                        "18",
-                        "11.7",
-                        "184",
-                        "AR-IO 3T18",
-                        "810002130"
-                  ],
-                  [
-                        "4",
-                        "18",
-                        "12.7",
-                        "231",
-                        "AR-IO 4T18",
-                        "810002140"
-                  ],
-                  [
-                        "6",
-                        "18",
-                        "15.2",
-                        "321",
-                        "AR-IO 6T18",
-                        "810002150"
-                  ],
-                  [
-                        "8",
-                        "18",
-                        "17.0",
-                        "421",
-                        "AR-IO 8T18",
-                        "810002160"
-                  ],
-                  [
-                        "12",
-                        "18",
-                        "20.6",
-                        "596",
-                        "AR-IO 12T18",
-                        "810002170"
-                  ],
-                  [
-                        "16",
-                        "18",
-                        "23.4",
-                        "786",
-                        "AR-IO 16T18",
-                        "810002180"
-                  ],
-                  [
-                        "20",
-                        "18",
-                        "26.0",
-                        "956",
-                        "AR-IO 20T18",
-                        "810002190"
-                  ],
-                  [
-                        "24",
-                        "18",
-                        "28.9",
-                        "1128",
-                        "AR-IO 24T18",
-                        "810002200"
-                  ],
-                  [
-                        "36",
-                        "18",
-                        "33.6",
-                        "1644",
-                        "AR-IO 36T18",
-                        "810002220"
-                  ],
-                  [
-                        "2",
-                        "16",
-                        "12.4",
-                        "188",
-                        "AR-IO 2T16",
-                        "810002230"
-                  ],
-                  [
-                        "3",
-                        "16",
-                        "13.2",
-                        "248",
-                        "AR-IO 3T16",
-                        "810002240"
-                  ],
-                  [
-                        "4",
-                        "16",
-                        "14.4",
-                        "315",
-                        "AR-IO 4T16",
-                        "810002250"
-                  ],
-                  [
-                        "6",
-                        "16",
-                        "17.8",
-                        "463",
-                        "AR-IO 6T16",
-                        "810002260"
-                  ],
-                  [
-                        "8",
-                        "16",
-                        "19.3",
-                        "585",
-                        "AR-IO 8T16",
-                        "810002270"
-                  ],
-                  [
-                        "12",
-                        "16",
-                        "24.1",
-                        "864",
-                        "AR-IO 12T16",
-                        "810002280"
-                  ],
-                  [
-                        "16",
-                        "16",
-                        "26.7",
-                        "1107",
-                        "AR-IO 16T16",
-                        "810002290"
-                  ],
-                  [
-                        "20",
-                        "16",
-                        "29.7",
-                        "1353",
-                        "AR-IO 20T16",
-                        "810002300"
-                  ],
-                  [
-                        "24",
-                        "16",
-                        "33.6",
-                        "1640",
-                        "AR-IO 24T16",
-                        "810002310"
-                  ],
-                  [
-                        "36",
-                        "16",
-                        "38.5",
-                        "2348",
-                        "AR-IO 36T16",
-                        "810002330"
-                  ],
-                  [
-                        "2",
-                        "14",
-                        "15.2",
-                        "263",
-                        "AR-IO 2T14",
-                        "810002340"
-                  ],
-                  [
-                        "3",
-                        "14",
-                        "16.7",
-                        "372",
-                        "AR-IO 3T14",
-                        "810002350"
-                  ],
-                  [
-                        "4",
-                        "14",
-                        "18.3",
-                        "472",
-                        "AR-IO 4T14",
-                        "810002360"
-                  ],
-                  [
-                        "6",
-                        "14",
-                        "22.0",
-                        "667",
-                        "AR-IO 6T14",
-                        "810002370"
-                  ],
-                  [
-                        "8",
-                        "14",
-                        "24.5",
-                        "877",
-                        "AR-IO 8T14",
-                        "810002380"
-                  ],
-                  [
-                        "12",
-                        "14",
-                        "29.9",
-                        "1258",
-                        "AR-IO 12T14",
-                        "810002390"
-                  ],
-                  [
-                        "16",
-                        "14",
-                        "33.8",
-                        "1660",
-                        "AR-IO 16T14",
-                        "810002400"
-                  ],
-                  [
-                        "20",
-                        "14",
-                        "37.6",
-                        "2032",
-                        "AR-IO 20T14",
-                        "810002410"
-                  ],
-                  [
-                        "24",
-                        "14",
-                        "42.5",
-                        "2459",
-                        "AR-IO 24T14",
-                        "810002420"
-                  ],
-                  [
-                        "36",
-                        "14",
-                        "48.8",
-                        "3532",
-                        "AR-IO 36T14",
-                        "810002440"
-                  ]
-            ]
-      }
-],
-    certifications: ['no-propagacion', 'resistente-uv', 'temperatura-servicio'],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
-    {
-    id: '2-automatizaci-n',
-    name: 'AUTOMATIZACIÓN',
+  {
+    id: 'industrial-instrumentacion-electronica-300-volts-300-volts-armado',
+    name: '300 Volts Armado',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '300 Volts'],
+    description: '300 Volt Cu 22 a 12 AWG PVC 105°C / PVC UL 13 PLTC',
+    detailedDescription: `Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+300 Volt Cu 22 a 12 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en bandeja, escalera, al aire libre directo o bajo techo, directamente enterrados o`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/2-300 VOLTS ARMADO/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/2-300 VOLTS ARMADO/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
+    specs: ['300 Volt', '105°C', '22 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 105°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: PVC',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta interna: PVC',
+      'Armadura: Corona helicoidal de alambres de acero cincado (galvanizado)',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma hidrocarburos: NFC 32-200 - ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-300-volts-300-volts-corrugado-interlock',
+    name: '300 Volts Corrugado (interlock)',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '300 Volts'],
+    description: '300 Volt Cu 22 a 12 AWG PVC 105°C / PVC UL 13 PLTC',
+    detailedDescription: `Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+300 Volt Cu 22 a 12 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en bandeja, escalera, al aire libre directo o bajo techo, directamente enterrados o`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/3-300 VOLTS CORRUGADO (INTERLOCK)/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/3-300 VOLTS CORRUGADO (INTERLOCK)/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
+    specs: ['300 Volt', '105°C', '22 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 105°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: PVC',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta interna: PVC',
+      'Armadura: Armadura de interlock de aluminio',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma hidrocarburos: NFC 32-200 - ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-300-volts-300-volts-alarma-incendio',
+    name: '300 Volts Alarma Incendio',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '300 Volts'],
+    description: 'Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Especialmente diseñados para',
+    detailedDescription: `300 Volt Cu 20 a 12 AWG PVC 105°C / PVC UL 1424 FPL
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Especialmente diseñados para
+alarmas de aviso de detección de incendio. Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo,
+enterrado en trinchera o en ductos.
+No propagación de`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/4-300 VOLTS ALARMA INCENDIO/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/4-300 VOLTS ALARMA INCENDIO/FICHA TECNICA - USAR FOTO DE PORTADA.pdf',
+    specs: ['300 Volt', '105°C', '20 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 105°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 1424 tipo FPL',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: PVC',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Par sin blindar: Encintado de poliéster',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta: PVC, no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma de hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 760 FPL'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-300-volts-300-volts-blindado',
+    name: '300 Volts Blindado',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '300 Volts'],
+    description: 'Circuitos de instrumentación electrónica. Circuitos de seguridad intrínseca. Detección de pérdidas de gas y/o fluidos.',
+    detailedDescription: `300 Volt Cu 20 a 14 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica. Circuitos de seguridad intrínseca. Detección de pérdidas de gas y/o fluidos.
+Medición y monitoreo de presión, temperatura, volumen. Monitoreo de señales de alarma. Instalados en conduits,
+bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o en ductos.
+No propagación de`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/5-300 VOLTS BLINDADO/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/5-300 VOLTS BLINDADO/FICHA TECNICA.pdf',
+    specs: ['300 Volt', '105°C', '20 a 14 AWG'],
+    characteristics: [
+      'Temperatura máxima: 105°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: PVC',
+      'Ensamblado: Reunido de conductores formando coronas + encintado de poliéster',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma de hidrocarburos: NFC 32-200 - ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC– Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-300-volts-300-volts-blindado-armado',
+    name: '300 Volts Blindado Armado',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '300 Volts'],
+    description: '300 Volt Cu 20 a 14 AWG PVC 105°C / PVC UL 13 PLTC',
+    detailedDescription: `Multipolares Blindados (SWA)
+300 Volt Cu 20 a 14 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica. Circuitos de seguridad intrínseca. Detección de pérdidas de gas y/o fluidos.
+Medición y monitoreo de presión, temperatura, volumen. Monitoreo de señales de alarma. Instalados en bandeja,
+escalera, al aire libre directo o bajo techo, directamente enterrados o enterrado en trinchera o en ductos.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/6-300 VOLTS BLINDADO ARMADO/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/6-300 VOLTS BLINDADO ARMADO/FICHA TECNICA.pdf',
+    specs: ['300 Volt', '105°C', '20 a 14 AWG'],
+    characteristics: [
+      'Temperatura máxima: 105°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: PVC',
+      'Ensamblado: Reunido de conductores formando coronas + encintado de poliéster',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta interna: PVC',
+      'Armadura: Corona helicoidal de alambres de acero cincado (galvanizado)',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma de hidrocarburos: NFC 32-200 - ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC– Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-300-volts-300-volts-blindado-interlock',
+    name: '300 Volts Blindado Interlock',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '300 Volts'],
+    description: '300 Volt Cu 20 a 14 AWG PVC 105°C / PVC UL 13 PLTC',
+    detailedDescription: `Multipolares Blindados (Interlock)
+300 Volt Cu 20 a 14 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica. Circuitos de seguridad intrínseca. Detección de pérdidas de gas y/o fluidos.
+Medición y monitoreo de presión, temperatura, volumen. Monitoreo de señales de alarma. Instalados en bandeja,
+escalera, al aire libre directo o bajo techo, directamente enterrados o enterrado en trinchera o en ductos.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/7-300 VOLTS BLINDADO INTERLOCK/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/7-300 VOLTS BLINDADO INTERLOCK/FICHA TECNICA.pdf',
+    specs: ['300 Volt', '105°C', '20 a 14 AWG'],
+    characteristics: [
+      'Temperatura máxima: 105°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: PVC',
+      'Ensamblado: Reunido de conductores formando coronas + encintado de poliéster',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta interna: PVC',
+      'Armadura: Fleje de aluminio, tipo interlock',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma de hidrocarburos: NFC 32-200 - ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC– Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-300-volts-300-volts-trabajos-pesados',
+    name: '300 Volts Trabajos Pesados',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '300 Volts'],
+    description: 'Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Uso en trabajo pesado (Heavy Duty)',
+    detailedDescription: `300 Volt Cu 22 a 12 AWG XLPE 90°C / PUR UL 13
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Uso en trabajo pesado (Heavy Duty)
+para Señales y comunicaciones en equipos de perforación, Pulling y Workover. Su material de cubierta le confiere
+robustez para condiciones ambientales agresivas (Cambios bruscos de temperatura, sol, lluvia y viento) como
+resistencia aumentada a su manipulación diaria (torceduras, impactos, abrasión).`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/8-300 VOLTS TRABAJOS PESADOS/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/8-300 VOLTS TRABAJOS PESADOS/FICHA TECNICA.pdf',
+    specs: ['90°C', '300 Volt', '22 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 105°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: XLPE (Polietileno reticulado)',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta: Poliuretano, no propagante de la llama, resistente a la luz solar, hidrocarburos y aceites',
+      'Norma\xa0de fuego: FT1 – IEC 60332-1',
+      'Norma de hidrocarburos: UIC 895 OR',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-600-volts-600-volts',
+    name: '600 Volts',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '600 Volts'],
+    description: 'Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.',
+    detailedDescription: `600 Volt Cu 20 a 12 AWG PVC-Nylon 90°C / PVC ICEA S 73-532
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o
+en ductos.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/4-600 VOLTS/1-600 VOLTS/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/4-600 VOLTS/1-600 VOLTS/FICHA TECNICA.pdf',
+    specs: ['90°C', '600 Volt', '20 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 90°C',
+      'Tensión nominal: 600 Volt',
+      'Norma constructiva: ICEA S 73-532',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: PVC-Nylon',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta: PVC, no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: ICEA T 30-520',
+      'Norma de hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 336 TC –Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-600-volts-600-volts-armado',
+    name: '600 Volts Armado',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '600 Volts'],
+    description: '600 Volt Cu 20 a 12 AWG PVC-Nylon 90°C / PVC ICEA S 73-532',
+    detailedDescription: `Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+600 Volt Cu 20 a 12 AWG PVC-Nylon 90°C / PVC ICEA S 73-532
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en bandeja, escalera, al aire libre directo o bajo techo, directamente enterrados o`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/4-600 VOLTS/2-600 VOLTS ARMADO/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/4-600 VOLTS/2-600 VOLTS ARMADO/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
+    specs: ['90°C', '600 Volt', '20 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 90°C',
+      'Tensión nominal: 600 Volt',
+      'Norma constructiva: ICEA S 73-532',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: PVC-Nylon',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta interna: PVC',
+      'Armadura: Corona helicoidal de alambres de acero cincado (galvanizado)',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: ICEA T 30-520',
+      'Norma de hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 336 TC –Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-instrumentacion-electronica-600-volts-600-volts-corrugado-interlock',
+    name: '600 Volts Corrugado (interlock)',
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', '600 Volts'],
+    description: '600 Volt Cu 20 a 12 AWG PVC-Nylon 90°C / PVC ICEA S 73-532',
+    detailedDescription: `Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+600 Volt Cu 20 a 12 AWG PVC-Nylon 90°C / PVC ICEA S 73-532
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en bandeja, escalera, al aire libre directo o bajo techo, directamente enterrados o`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/4-600 VOLTS/3 -600 VOLTS CORRUGADO (INTERLOCK)/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/4-600 VOLTS/3 -600 VOLTS CORRUGADO (INTERLOCK)/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
+    specs: ['90°C', '600 Volt', '20 a 12 AWG'],
+    characteristics: [
+      'Temperatura máxima: 90°C',
+      'Tensión nominal: 600 Volt',
+      'Norma constructiva: ICEA S 73-532',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido en formación de 7 hilos',
+      'Aislación: PVC-Nylon',
+      'Paso del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado',
+      'Cubierta interna: PVC',
+      'Armadura: Fleje de aluminio, tipo interlock',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: ICEA T 30-520',
+      'Norma de hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 336 TC –Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-automatizacion-sistemas-rs-485-24-awg',
+    name: 'RS 485 24 AWG',
+    categoryPath: ['Cables Industriales', 'Automatización', 'Sistemas'],
+    description: 'Aplicaciones en circuitos de distribución de buses de campo para sistemas informáticos RS 485. Este sistema permite',
+    detailedDescription: `300 Volt Cu 24 AWG UL 13 Sistema RS 485
+Aplicaciones en circuitos de distribución de buses de campo para sistemas informáticos RS 485. Este sistema permite
+una red de nodos múltiples comunicada con un cable a pares que ofrece: comunicación bidireccional, gran longitud
+del cable de interconexión y alta velocidad de transmisión de datos. Instalados en conduits, bandeja, escalera, al aire
+libre directo o bajo techo, enterrado en trinchera o en ductos.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/1-RS 485 24 AWG/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/1-RS 485 24 AWG/FICHA TECNICA RS 485 24 AWG.pdf',
+    specs: ['300 Volt'],
+    characteristics: [
+      'Temperatura máxima: 75°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL13',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos',
+      'Aislación: Compuesto termoplástico',
+      'Paso de trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma de aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2',
+      'Conexión: La máxima longitud del RS 485 es de 1200 metros sin el uso de amplificadores, para distancias',
+      'mayores se debe utilizar equipamiento para regenerar y amplificar la señal. El RS 485 es un bus serie, por',
+      'lo tanto, no permite la'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-automatizacion-sistemas-rs-485-22-awg',
+    name: 'RS 485 22 AWG',
+    categoryPath: ['Cables Industriales', 'Automatización', 'Sistemas'],
+    description: 'Aplicaciones en circuitos de distribución de buses de campo para sistemas informáticos RS 485. Este sistema permite',
+    detailedDescription: `300 Volt Cu 22 AWG UL 13 Sistema RS 485
+Aplicaciones en circuitos de distribución de buses de campo para sistemas informáticos RS 485. Este sistema permite
+una red de nodos múltiples comunicada con un cable a pares que ofrece: comunicación bidireccional, gran longitud
+del cable de interconexión y alta velocidad de transmisión de datos. Instalados en conduits, bandeja, escalera, al aire
+libre directo o bajo techo, enterrado en trinchera o en ductos.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/2-RS 485 22 AWG/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/2-RS 485 22 AWG/FICHA TECNICA RS 485 22 AWG.pdf',
+    specs: ['300 Volt'],
+    characteristics: [
+      'Temperatura máxima: 75°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos',
+      'Aislación: Compuesto termoplástico',
+      'Paso de trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma de aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2',
+      'Conexión: La máxima longitud del RS 485 es de 1200 metros sin el uso de amplificadores, para distancias',
+      'mayores se debe utilizar equipamiento para regenerar y amplificar la señal. El RS 485 es un bus serie, por',
+      'lo tanto, no permite la'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-automatizacion-sistemas-rs-485-armado-24-awg',
+    name: 'RS 485 Armado 24 AWG',
+    categoryPath: ['Cables Industriales', 'Automatización', 'Sistemas'],
+    description: '300 Volt Cu 24 AWG UL 13 Sistema RS 485',
+    detailedDescription: `Par y Multipares Blindados
+300 Volt Cu 24 AWG UL 13 Sistema RS 485
+Aplicaciones en circuitos de distribución de buses de campo para sistemas informáticos RS 485. Este sistema permite
+una red de nodos múltiples comunicada con un cable a pares que ofrece: comunicación bidireccional, gran longitud
+del cable de interconexión y alta velocidad de transmisión de datos. Instalados en conduits, bandeja, escalera, al aire`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/3- RS 485 ARMADO 24 AWG/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/3- RS 485 ARMADO 24 AWG/FICHA TECNICA RS 485 24 AWG ARMADO.pdf',
+    specs: ['300 Volt'],
+    characteristics: [
+      'Temperatura máxima: 75°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL13',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos',
+      'Aislación: Compuesto termoplástico',
+      'Paso de trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura',
+      'Armadura: Corona helicoidal de alambres de acero cincado (Galvanizado)',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma de aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2',
+      'Conexión: La máxima longitud del RS 485 es de 1200 metros sin el uso de amplificadores, para distancias',
+      'mayores se debe utilizar equipamiento para regenerar y amplificar la señal. El RS 485 es un bus serie, por',
+      'lo tanto, no permite la'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-automatizacion-sistemas-rs-485-armado-22-awg',
+    name: 'RS 485 Armado 22 AWG',
+    categoryPath: ['Cables Industriales', 'Automatización', 'Sistemas'],
+    description: '300 Volt Cu 22 AWG UL 13 Sistema RS 485',
+    detailedDescription: `Par y Multipares Blindados
+300 Volt Cu 22 AWG UL 13 Sistema RS 485
+Aplicaciones en circuitos de distribución de buses de campo para sistemas informáticos RS 485. Este sistema permite
+una red de nodos múltiples comunicada con un cable a pares que ofrece: comunicación bidireccional, gran longitud
+del cable de interconexión y alta velocidad de transmisión de datos. Instalados en conduits, bandeja, escalera, al aire`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/4-RS 485 ARMADO 22 AWG/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/4-RS 485 ARMADO 22 AWG/FICHA TECNICA RS 485 22 AWG ARMADO.pdf',
+    specs: ['300 Volt'],
+    characteristics: [
+      'Temperatura máxima: 75°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos',
+      'Aislación: Compuesto termoplástico',
+      'Paso de trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura',
+      'Armadura: Corona helicoidal de alambres de acero cincado (Galvanizado)',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma de aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2',
+      'Conexión: La máxima longitud del RS 485 es de 1200 metros sin el uso de amplificadores, para distancias',
+      'mayores se debe utilizar equipamiento para regenerar y amplificar la señal. El RS 485 es un bus serie, por',
+      'lo tanto, no permite la'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-automatizacion-datos-profibus',
+    name: 'Profibus',
+    categoryPath: ['Cables Industriales', 'Automatización', 'Datos'],
+    description: 'Par balanceado para bus de datos sistema Profibus. Instalados en conduits, bandeja, escalera, al aire libre directo o',
+    detailedDescription: `300 Volt Cu 22 a 18 AWG UL 13 PLTC PROFIBUS
+Par balanceado para bus de datos sistema Profibus. Instalados en conduits, bandeja, escalera, al aire libre directo o
+bajo techo, enterrado en trinchera o en ductos.
+Protección
+interferencias`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/1-PROFIBUS/PORTADA.jpeg',
+    gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/1-PROFIBUS/VARIANTE ARMADO.jpeg', '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/1-PROFIBUS/VARIANTE LSOH.jpg'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/1-PROFIBUS/FICHA TECNICA PROFIBUS (PONER TAMBIEN FOTO ARMADO Y LSOH).pdf',
+    specs: ['300 Volt', '22 a 18 AWG'],
+    characteristics: [
+      'Temperatura máxima: 75°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC',
+      'Norma de conductores: ASTM B8',
+      'Conductor: Alambre único de cobre electrolítico recocido',
+      'Aislación: Compuesto termoplástico espumado',
+      'Pazo del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-automatizacion-datos-fieldbus',
+    name: 'Fieldbus',
+    categoryPath: ['Cables Industriales', 'Automatización', 'Datos'],
+    description: 'Par balanceado para bus de datos sistema Fieldbus. Instalados en conduits, bandeja, escalera, al aire libre directo o',
+    detailedDescription: `300 Volt Cu 18 a 16 AWG UL 13 PLTC FIELDBUS
+Par balanceado para bus de datos sistema Fieldbus. Instalados en conduits, bandeja, escalera, al aire libre directo o
+bajo techo, enterrado en trinchera o en ductos.
+Protección
+interferencias`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/2-FIELDBUS/PORTADA.jpeg',
+    gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/2-FIELDBUS/VARIANTE ARMADO.jpg', '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/2-FIELDBUS/VARIANTE LSOH.jpeg'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/2-FIELDBUS/FICHA TECNICA FIELDBUS (PONER TAMBIEN FOTO ARMADO Y LSOH).pdf',
+    specs: ['18 a 16 AWG', '300 Volt'],
+    characteristics: [
+      'Temperatura máxima: 105°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico estañado en formación de 7 hilos',
+      'Aislación: XLPE (Polietileno reticulado)',
+      'Pazo del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más drenaje de cobre estañado',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-automatizacion-datos-fieldbus-2079',
+    name: 'Fieldbus 2079',
+    categoryPath: ['Cables Industriales', 'Automatización', 'Datos'],
+    description: 'Par balanceado para bus de datos sistema Fieldbus. Instalados en conduits, bandeja, escalera, al aire libre directo o',
+    detailedDescription: `300 Volt Cu 22 AWG UL 13 PLTC FIELDBUS
+Par balanceado para bus de datos sistema Fieldbus. Instalados en conduits, bandeja, escalera, al aire libre directo o
+bajo techo, enterrado en trinchera o en ductos.
+Protección
+interferencias`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/3-FIELDBUS 2079/PORTADA.jpeg',
+    gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/3-FIELDBUS 2079/VARIANTE ARMADO.jpg'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/3-FIELDBUS 2079/FICHA TECNICA FIELDBUS 2079 (PONER TAMBIEN VARIANTE ARMADO).pdf',
+    specs: ['300 Volt'],
+    characteristics: [
+      'Temperatura máxima: 75°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 13 tipo PLTC',
+      'Norma de conductores: ASTM B8 Clase B',
+      'Conductor: Cobre electrolítico estañado en formación de 7 hilos',
+      'Aislación: Compuesto termoplástico espumado',
+      'Pazo del trenzado: 50mm (20 torsiones por metro)',
+      'Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más drenaje de cobre estañado',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma hidrocarburos: NFC 32-200 – ASTM D 1239',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2',
+      'y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-automatizacion-ficha-tecnica',
+    name: 'Ficha Tecnica',
     categoryPath: ['Cables Industriales', 'Automatización'],
     description: 'Transmisión de datos, señales digitales con protección aumentada contra perturbaciones electromagnéticas.',
-    detailedDescription: `DESCRIPCIÓN
+    detailedDescription: `500 Volt Cu 0.35 a 1.5 mm² Doble blindaje VDE812
 Transmisión de datos, señales digitales con protección aumentada contra perturbaciones electromagnéticas.
+Instalados en conduits, bandeja, escalera, enterrado en trinchera o en ductos.
+Protección
+interferencias`,
 
-APLICACIONES
-Instalados en conduits, bandeja, escalera, enterrado en trinchera o en ductos. Apto para sistemas informáticos.`,
-    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/PORTADA.jpeg',
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/portada.jpeg',
     gallery: [],
-    pdf: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/FICHA TECNICA/FICHA TECNICA AUTOMATIZAR.pdf',
-    specs: ['500 Volt', 'Cu 0.35 a 1.5 mm²', 'VDE 0812'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/FICHA TECNICA/FICHA TECNICA AUTOMATIZAR.pdf',
+    specs: ['500 Volt'],
     characteristics: [
-      'Temperatura máxima: 80°C de servicio',
+      'Temperatura máxima: 80°C',
       'Tensión nominal: 500 Volt',
       'Norma constructiva: VDE0812',
       'Norma de conductores: IEC 60228 / IRAM NM 280',
       'Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos',
       'Aislación: PVC',
-      'Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura 80%)',
+      'Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura',
       'Cubierta: PVC no propagante del incendio',
       'Norma de fuego: IEC 60332-1 / IRAM NM IEC 60332-1'
     ],
-    specsTables: [
-      {
-        title: "Características Eléctricas",
-        headers: ["Sección (mm²)", "Resistencia CC a 20°C (Ohm/km)", "Velocidad de propagación (%)", "Capacidad mutua (pF/m)", "Capacidad mutua (pF/ft)"],
-        rows: [
-          ["0.35", "59.9", "45", "97", "30"],
-          ["0.50", "40.1", "45", "102", "31.5"],
-          ["0.75", "24.8", "45", "110", "34"],
-          ["1.00", "18.2", "45", "117", "36"],
-          ["1.50", "12.2", "45", "116", "36"]
-        ]
-      },
-      {
-        title: "Dimensiones y Pesos",
-        headers: ["Conductores", "Sección (mm²)", "Diámetro exterior (mm)", "Peso (kg/km)", "Código"],
-        rows: [
-          ["2", "0.35", "5.1", "36", "EC 2x0.35"],
-          ["2", "0.50", "5.6", "44", "EC 2x0.5"],
-          ["2", "0.75", "6.2", "55", "EC 2x0.75"],
-          ["2", "1.00", "6.6", "63", "EC 2x1"],
-          ["2", "1.50", "7.8", "88", "EC 2x1.5"],
-          ["3", "0.35", "5.3", "42", "EC 3x0.35"],
-          ["3", "0.50", "5.9", "53", "EC 3x0.5"],
-          ["3", "0.75", "6.5", "67", "EC 3x0.75"],
-          ["3", "1.00", "6.9", "78", "EC 3x1"],
-          ["3", "1.50", "8.2", "110", "EC 3x1.5"],
-          ["4", "0.35", "5.7", "50", "EC 4x0.35"],
-          ["4", "0.50", "6.3", "63", "EC 4x0.5"],
-          ["4", "0.75", "7.0", "80", "EC 4x0.75"],
-          ["4", "1.00", "7.6", "98", "EC 4x1"],
-          ["4", "1.50", "8.8", "134", "EC 4x1.5"],
-          ["5", "0.35", "6.3", "61", "EC 5x0.35"],
-          ["5", "0.50", "7.0", "76", "EC 5x0.5"],
-          ["5", "0.75", "7.8", "98", "EC 5x0.75"],
-          ["5", "1.00", "8.2", "115", "EC 5x1"],
-          ["5", "1.50", "9.6", "159", "EC 5x1.5"],
-          ["7", "0.35", "6.8", "74", "EC 7x0.35"],
-          ["7", "0.50", "7.7", "97", "EC 7x0.5"],
-          ["7", "0.75", "8.5", "125", "EC 7x0.75"],
-          ["7", "1.00", "9.1", "149", "EC 7x1"],
-          ["7", "1.50", "10.6", "208", "EC 7x1.5"],
-          ["12", "0.35", "8.8", "119", "EC 12x0.35"],
-          ["12", "0.50", "9.9", "152", "EC 12x0.5"],
-          ["12", "0.75", "10.7", "192", "EC 12x0.75"],
-          ["12", "1.00", "11.7", "237", "EC 12x1"],
-          ["12", "1.50", "14.0", "349", "EC 12x1.5"],
-          ["19", "0.35", "10.1", "164", "EC 19x0.35"],
-          ["19", "0.50", "11.3", "212", "EC 19x0.5"],
-          ["19", "0.75", "12.8", "292", "EC 19x0.75"],
-          ["19", "1.00", "13.7", "354", "EC 19x1"],
-          ["19", "1.50", "16.6", "518", "EC 19x1.5"],
-          ["24", "0.35", "11.5", "200", "EC 24x0.35"],
-          ["24", "0.50", "13.4", "280", "EC 24x0.5"],
-          ["24", "0.75", "14.9", "367", "EC 24x0.75"],
-          ["24", "1.00", "16.1", "451", "EC 24x1"],
-          ["24", "1.50", "19.3", "661", "EC 24x1.5"]
-        ]
-      }
-    ],
-    certifications: ['no-propagacion', 'temperatura-servicio', 'interferencias'],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
-    {
-    id: '3-cable-comando',
-    name: 'CABLE COMANDO',
+  {
+    id: 'industrial-cable-comando-multipolar-multipolar-mm2-pvc-hasta-48-conductores',
+    name: 'PVC - Hasta 48 Conductores',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Multipolar', 'Multipolar mm²'],
+    description: 'Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.',
+    detailedDescription: `0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores PVC 70°C / PVC
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones aéreas en bandeja, canaletas o conductos, enterrados en ductos o directamente enterrados.
+No propagación de
+incendio`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/1-PVC - HASTA 48 CONDUCTORES/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/1-PVC - HASTA 48 CONDUCTORES/FICHA TECNICA.pdf',
+    specs: ['70°C', '1 a 4mm²', '1kV'],
+    characteristics: [
+      'Temperaturas: 70°C máxima de servicio – 160°C de cortocircuito',
+      'Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC',
+      'Norma constructiva: IRAM 2178-1 – IEC 60502-1',
+      'Norma de conductores: IRAM NM 280 – IEC 60228',
+      'Conductor: Cobre electrolítico recocido en formación flexible clase 5',
+      'Aislación: PVC',
+      'Cubierta: PVC no propagante del incendio',
+      'Norma de fuego: IEC 60332-3-24'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-multipolar-multipolar-mm2-xlpe-hasta-48-conductores',
+    name: 'XLPE - Hasta 48 Conductores',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Multipolar', 'Multipolar mm²'],
+    description: 'Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.',
+    detailedDescription: `0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores XLPE 90°C / PVC
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o
+directamente enterrados.
+No propagación de`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/2-XLPE - HASTA 48 CONDUCTORES/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/2-XLPE - HASTA 48 CONDUCTORES/FICHA TECNICA.pdf',
+    specs: ['90°C', '1 a 4mm²', '1kV'],
+    characteristics: [
+      'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
+      'Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC',
+      'Norma constructiva: IRAM 2178-1 – IEC 60502-1',
+      'Norma de conductores: IRAM NM 280 – IEC 60228',
+      'Conductor: Cobre electrolítico recocido en formación flexible clase 5',
+      'Aislación: XLPE (Polietileno reticulado)',
+      'Cubierta: PVC, no propagante del incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: IEC 60332-1',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-multipolar-multipolar-mm2-corrugado-proteccion-interferencias',
+    name: 'Corrugado - Proteccion Interferencias',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Multipolar', 'Multipolar mm²'],
+    description: '0.6/1kV Cu flexible 1 a 4mm² XLPE 90°C / LSZH Protección electromagnética',
+    detailedDescription: `Multipolar
+0.6/1kV Cu flexible 1 a 4mm² XLPE 90°C / LSZH Protección electromagnética
+Equipos de control, señalización, medición, protección y comandos eléctricos en subestaciones de alta tensión
+(SSEE), su blindaje permite el adecuado filtrado de interferencias electromagnéticas a frecuencias hasta 1 MHz. Uso
+en ambientes cerrados y en salas de control con equipamiento electrónico sensible ante la exposición de gases`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/3-CORRUGADO - PROTECCION INTERFERENCIAS/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/3-CORRUGADO - PROTECCION INTERFERENCIAS/FICHA TECNICA.pdf',
+    specs: ['90°C', '1 a 4mm²', '1kV'],
+    characteristics: [
+      'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
+      'Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC',
+      'Norma constructiva: IRAM 2178-1 – IEC 60502-1',
+      'Norma de conductores: IRAM NM 280 – IEC 60228',
+      'Conductor: Cobre electrolítico recocido en formación flexible clase 5',
+      'Aislación: XLPE (Polietileno reticulado)',
+      'Asiento de blindaje: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant) No',
+      'propagante del incendio',
+      'Blindaje: Cinta longitudinal corrugada de cobre recocido con solape adecuado y una sección mínima de',
+      '10mm² (Re < 2 ohm/km)',
+      'Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant) no propagante del',
+      'incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: IEC 60332-3-24',
+      'Norma de EMC: IRAM 63020 – HN 33-S-34, impedancia de transferencia (Zt) menor a 2 ohm/km hasta',
+      'frecuencias de 1MHz.',
+      'Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2',
+      'Norma de transparencia de humos: IEC 61034-1/2',
+      'Norma de toxicidad: NES 713 – CEI 20.37',
+      'Norma de aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Comportanmiento frente al agua: Apto AD7 (Inmersión ocasional en agua)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-multipolar-multipolar-mm2-resistente-a-hidrocarburos',
+    name: 'Resistente a Hidrocarburos',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Multipolar', 'Multipolar mm²'],
+    description: 'Cables para aplicaciones industriales.',
+    detailedDescription: `Descripción detallada no disponible.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/4-RESISTENTE A HIDROCARBUROS/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/4-RESISTENTE A HIDROCARBUROS/FICHA TECNICA (AGREGAR VARIANTES_ MULTIPOLAR_ARMADO_FLEJE_FLEJE COBRE).pdf',
+    specs: ['Industrial', '300 V / 600 V'],
+    characteristics: [],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-multipolar-multipolar-mm2-epr',
+    name: 'EPR',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Multipolar', 'Multipolar mm²'],
+    description: 'Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales. Cables',
+    detailedDescription: `0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores EPR 90°C / PUR
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales. Cables
+requeridos para uso industrial pesado (Heavy Duty). Los materiales utilizados en su fabricación combinan una elevada
+resistencia y flexibilidad y le proporcionan una protección adecuada ante productos químicos, entorno hostil,
+desgarros e impactos.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/5-EPR/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/5-EPR/FICHA TECNICA.pdf',
+    specs: ['90°C', '1 a 4mm²', '1kV'],
+    characteristics: [
+      'Temperatura máxima de operación: 90°C en'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-multipolar-multipolar-awg-600-volts-14-10-awg',
+    name: '600 Volts - 14-10 AWG',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Multipolar', 'Multipolar AWG'],
+    description: 'Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.',
+    detailedDescription: `600 Volt Cu 14 a 10 AWG XHHW-2 UL 1277
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o
+directamente enterrados. Cables elaborados para cumplir los requerimientos del código eléctrico Nacional ANSI/NFPA
+70 de EEUU y el código eléctrico nacional NOM-001 SEDE de México.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/1-600 VOLTS - 14-10 AWG/PORTADA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/1-600 VOLTS - 14-10 AWG/FICHA TECNICA (AGREGAR EN VARIANTES_ DOBLE AISLACION).pdf',
+    specs: ['600 Volt', '14 a 10 AWG'],
+    characteristics: [
+      'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
+      'Tensión nominal: 600 Volt C.A.',
+      'Norma constructiva: UL 1277',
+      'Norma de conductores: ASTM B8',
+      'Conductor: Cobre electrolítico recocido en formación clase B',
+      'Aislación: XLPE (polietileno reticulado) tipo XHHW-2',
+      'Cubierta: PVC, no propagante del incendio',
+      'Norma de fuego: UL 1685',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Código NEC (NFPA 70):: Art. 336 TC –Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-multipolar-multipolar-awg-600-volts-16-10-awg-pvc',
+    name: '600 Volts 16 - 10 AWG PVC',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Multipolar', 'Multipolar AWG'],
+    description: 'Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.',
+    detailedDescription: `600 Volt Cu 16 a 10 AWG PVC 75°C ICEA S 73-532
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o
+directamente enterrados.
+No propagación de`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/2-600 Volts 16 - 10 AWG PVC/PORTADA.jpeg',
+    gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/2-600 Volts 16 - 10 AWG PVC/FOTO DENTRO FICHA TECNICA.jpeg'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/2-600 Volts 16 - 10 AWG PVC/FICHA TECNICA (AGREGAR EN VARIANTES_ ARMADO_FLEJE_FLEJE COBRE).pdf',
+    specs: ['75°C', '600 Volt', '16 a 10 AWG'],
+    characteristics: [
+      'Temperatura máxima: 75ºC de servicio, 160ºC de cortocircuito',
+      'Tensión nominal: 600 Volt CA',
+      'Norma constructiva: ICEA S 73-532',
+      'Norma de conductores: Serie ASTM B174',
+      'Conductor: Cobre electrolítico recocido en formación flexible',
+      'Aislación: PVC',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar y aceite mineral',
+      'Norma de fuego: ICEA T 30-520',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-multipolar-multipolar-awg-600-volts-16-10-awg-xlpe',
+    name: '600 Volts 16 - 10 AWG XLPE',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Multipolar', 'Multipolar AWG'],
+    description: 'Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.',
+    detailedDescription: `600 Volt Cu 16 a 10 AWG XLPE 90°C ICEA S 73-532
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones en canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o directamente enterrados.
+No propagación de
+llama`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/3-600 Volts 16 - 10 AWG XLPE/PORTADA.jpeg',
+    gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/3-600 Volts 16 - 10 AWG XLPE/WhatsApp Image 2026-05-29 at 15.38.41.jpeg'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/3-600 Volts 16 - 10 AWG XLPE/FICHA TECNICA (AGREGAR VARIANTES DE LA FOTO ANEXADA).pdf',
+    specs: ['90°C', '600 Volt', '16 a 10 AWG'],
+    characteristics: [
+      'Temperaturas: 90ºC de servicio, 130ºC de sobrecarga, 250ºC de cortocircuito',
+      'Tensión nominal: 600 Volt CA',
+      'Norma constructiva: ICEA S 73-532',
+      'Norma de conductores: ASTM B 174',
+      'Conductor: Cobre electrolítico recocido en formación flexible',
+      'Aislación: XLPE (Polietileno reticulado)',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar y aceite mineral',
+      'Norma de fuego: FT1 (UL 1581)',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-comando-blindado-mm2-xlpe-hasta-48-conductores-1-a-4-mm2-blindado-fleje-cobre',
+    name: 'XLPE - Hasta 48 Conductores - 1 a 4 MM² - Blindado Fleje Cobre',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Comando Blindado', 'mm²'],
+    description: '0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores XLPE 90°C / PVC',
+    detailedDescription: `Multipolar Blindado (Fleje Cobre)
+0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores XLPE 90°C / PVC
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o
+directamente enterrados. Cuenta con protección electromagnética adicional.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/1-XLPE - HASTA 48 CONDUCTORES - 1 A 4 MM2 - BLINDADO FLEJE COBRE/PORTADA Y FOTO FICHA TECNICA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/1-XLPE - HASTA 48 CONDUCTORES - 1 A 4 MM2 - BLINDADO FLEJE COBRE/FICHA TECNICA.pdf',
+    specs: ['90°C', '1 a 4mm²', '1kV'],
+    characteristics: [
+      'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
+      'Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC',
+      'Norma constructiva: IRAM 2178-1 – IEC 60502-1',
+      'Norma de conductores: IRAM NM 280 – IEC 60228',
+      'Conductor: Cobre electrolítico recocido en formación flexible clase 5',
+      'Aislación: XLPE (Polietileno reticulado)',
+      'Blindaje: Fleje helicoidal de cobre recocido, con cobertura del 100% y solape adecuado',
+      'Cubierta: PVC, no propagante del incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: IEC 60332-1',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-comando-blindado-mm2-xlpe-1-a-4mm2-corrugado-cobre',
+    name: 'XLPE - 1 a 4mm² - Corrugado Cobre',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Comando Blindado', 'mm²'],
+    description: 'Equipos de control, señalización, medición, protección y comandos eléctricos en subestaciones de alta tensión',
+    detailedDescription: `0.6/1kV Cu flexible 1 a 4mm² XLPE 90°C / PVC Protección electromagnética
+Equipos de control, señalización, medición, protección y comandos eléctricos en subestaciones de alta tensión
+(SSEE), su blindaje permite el adecuado filtrado de interferencias electromagnéticas a frecuencias hasta 1 MHz.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o
+directamente enterrados.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/3-XLPE - 1 A 4MM2 - CORRUGADO COBRE/PORTADA Y FICHA TECNICA.jpeg',
+    gallery: [],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/3-XLPE - 1 A 4MM2 - CORRUGADO COBRE/FICHA TECNICA.pdf',
+    specs: ['90°C', '1 a 4mm²', '1kV'],
+    characteristics: [
+      'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
+      'Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC',
+      'Norma constructiva: IRAM 2178-1 – IEC 60502-1',
+      'Norma de conductores: IRAM NM 280 – IEC 60228',
+      'Conductor: Cobre electrolítico recocido en formación flexible clase 5',
+      'Aislación: XLPE (Polietileno reticulado)',
+      'Asiento de blindaje: PVC',
+      'Blindaje: Cinta longitudinal corrugada de cobre recocido con solape adecuado',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: IEC 60332-1',
+      'Norma de EMC: IRAM 63020 – HN 33-S-34, impedancia de transferencia (Zt) menor a 2 ohm/km hasta',
+      'frecuencias de 1MHz.',
+      'Norma de aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-libre-de-halogenos-awg',
+    name: 'AWG',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Libre de Halógenos'],
+    description: 'Equipos de control, señalización, medicion, protección y comandos eléctricos de instalaciones domiciliarias. Uso en',
+    detailedDescription: `600 Volt Cu 16 a 10 AWG XLPE 90°C / LSZH ICEA S 73-532
+Equipos de control, señalización, medicion, protección y comandos eléctricos de instalaciones domiciliarias. Uso en
+ambientes cerrados con alta concentración de personas (Aeropuertos, hospitales, trenes, cines, centros comerciales,
+túneles) y en salas de control con equipamiento electrónico sensible ante la exposición de gases corrosivos. Instalados
+en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o en ductos.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/1-AWG/PORTADA.jpeg',
+    gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/1-AWG/FOTO FICHA TECNICA.jpeg'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/1-AWG/FICHA TECNICA(AGREGAR VARIANTES_ XLPE_ARMADO_FLEJE_FLEJE COBRE).pdf',
+    specs: ['90°C', '600 Volt', '16 a 10 AWG'],
+    characteristics: [
+      'Temperatura máxima: 90°C máxima de servicio – 130°C de Sobrecarga – 250°C de Cortocircuito',
+      'Tensión nominal: 600 Volt CA',
+      'Norma constructiva: ICEA S 73-532',
+      'Norma de conductores: ASTM B174',
+      'Conductor: Cobre electrolítico recocido en formación flexible',
+      'Aislación: XLPE (Polietileno reticulado)',
+      'Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del',
+      'incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: ICEA T 30-520',
+      'Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2',
+      'Norma de transparencia de humos: IEC 61034-1/2',
+      'Norma de toxicidad: NES 713 – CEI 20.37',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Comportamiento frente al agua: Apto AD7 (Inmersión ocasional en agua)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-libre-de-halogenos-mm2',
+    name: 'MM²',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Libre de Halógenos'],
+    description: 'Equipos de control, señalización, medicion, protección y comandos eléctricos de instalaciones domiciliarias. Uso en',
+    detailedDescription: `0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores XLPE 90°C / LSZH
+Equipos de control, señalización, medicion, protección y comandos eléctricos de instalaciones domiciliarias. Uso en
+ambientes cerrados con alta concentración de personas (Aeropuertos, hospitales, trenes, cines, centros comerciales,
+túneles) y en salas de control con equipamiento electrónico sensible ante la exposición de gases corrosivos. Instalados
+en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o en ductos.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/2-MM2/PORTADA.jpeg',
+    gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/2-MM2/FOTO FICHA TECNICA.jpeg'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/2-MM2/FICHA TECNICA(AGREGAR VARIANTES_ XLPE_ARMADO_FLEJE_FLEJE COBRE).pdf',
+    specs: ['90°C', '1 a 4mm²', '1kV'],
+    characteristics: [
+      'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
+      'Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC',
+      'Norma constructiva: IRAM 62266 – IEC 60502-1',
+      'Norma de conductores: IRAM NM 280 – IEC 60228',
+      'Conductor: Cobre electrolítico recocido en formación flexible clase 5',
+      'Aislación: XLPE (Polietileno reticulado)',
+      'Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del',
+      'incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: IEC 60332-3-24',
+      'Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2',
+      'Norma de transparencia de humos: IEC 61034-1/2',
+      'Norma de toxicidad: NES 713 – CEI 20.37',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Comportamiento frente al agua: Apto AD7 (Inmersión ocasional en agua)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-resistente-a-incendio',
+    name: 'Resistente a Incendio',
     categoryPath: ['Cables Industriales', 'Cable Comando'],
-    description: 'Cables de potencia para comando y señalización de instalaciones fijas.',
+    description: 'Equipos de control, señalización, medicion, protección y comandos eléctricos de instalaciones domiciliarias. Uso',
+    detailedDescription: `0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores Doble aislación (MICA+XLPE)
+Equipos de control, señalización, medicion, protección y comandos eléctricos de instalaciones domiciliarias. Uso
+adecuado para mantener la integridad eléctrica en presencia de fuego directo en servicios críticos en destilerías,
+petroquímicas, astilleros, etc. Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en
+trinchera o en ductos.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/4-RESISTENTE A INCENDIO/PORTADA.jpeg',
+    gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/4-RESISTENTE A INCENDIO/FOTO FICHA TECNICA.jpeg'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/4-RESISTENTE A INCENDIO/FICHA TECNICA(AGREGAR VARIANTE_CINTA DE MICA_ARMADO CON FLEJE).pdf',
+    specs: ['1 a 4mm²', '1kV'],
+    characteristics: [
+      'Temperaturas: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
+      'Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC',
+      'Norma constructiva: IRAM 62266 – IEC 60502-1',
+      'Norma de conductores: IRAM NM 280 – IEC 60228',
+      'Conductor: Cobre electrolítico recocido en formación flexible clase 5',
+      'Aislación: Encintado de Mica + XLPE (Polietileno reticulado)',
+      'Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del',
+      'incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: IEC 60332-3-24',
+      'Norma de resistencia al fuego: IEC 60331-21 (70000 BTU-750°C aplicados durante 90 minutos)',
+      'Norma de ausencia de halógenos y gases corrosivos:: IEC 60754-1/2',
+      'Norma de transparencia de humos: IEC 61034-1/2',
+      'Norma de toxicidad: NES 713 – CEI 20.37',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Comportamiento frente al agua: Apto AD7 (Inmersión ocasional en agua)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-ficha-tecnica',
+    name: 'Ficha Tecnica',
+    categoryPath: ['Cables Industriales', 'Cable Comando'],
+    description: '',
     detailedDescription: `DESCRIPCIÓN
-Cables de potencia diseñados para comando y señalización, medición, control y protecciones eléctricas a distancia.
+
 
 APLICACIONES
-Apto para uso en bandejas portacables, conduits, entubados, al aire libre o enterrados bajo tierra en instalaciones industriales.`,
-    image: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/3-CABLE COMANDO/PORTADA.jpeg',
+Instalación fija en ductos, bandejas portacables o al aire libre según especificaciones técnicas.`,
+
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/portada.jpeg',
     gallery: [],
-    pdf: '/images/ProductosNuevos/5-CABLES INDUSTRIALES/3-CABLE COMANDO/FICHA TECNICA/FICHA TECNICA COMANDO.pdf',
-    specs: ['0.6/1 kV', 'CU/PVC', 'IRAM 2178-1'],
+    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/FICHA TECNICA/FICHA TECNICA COMANDO.pdf',
+    specs: ['Industrial', '300 V / 600 V'],
     characteristics: [
-      'Temperatura máxima: 70 °C en uso continuo / 160 °C en cortocircuito',
-      'Tensión nominal: 0.6/1 kV',
-      'Norma constructiva: IRAM 2178-1 / REF: IEC 60502-1',
-      'Conductor: Cobre electrolítico recocido flexible clase 4 o extraflexible clase 5 (IRAM-NM 280:2002)',
-      'Aislación: PVC ecológico antillama, resistente a la propagación de incendios',
-      'Identificación: Conductores blancos numerados + 1 conductor de tierra (verde/amarillo)',
-      'Relleno interno: PVC blando no higroscópico de fácil extracción',
-      'Vaina exterior: PVC ecológico tipo ST2 color violeta resistente a la propagación de incendios (IRAM NM IEC 60332-3)',
-      'Marcaje: Impresión Inkjet secuencial metro a metro',
-      'Resistencia: Radiación solar, golpes, abrasión y agua'
+      'Temperatura máxima de servicio según norma constructiva.',
+      'Excelente resistencia a la propagación del incendio.',
+      'Cubierta externa de alta durabilidad y protección física.'
     ],
-    specsTables: [
-      {
-        title: "Especificaciones Técnicas - Sección 1,50 mm²",
-        headers: ["Cantidad de conductores", "Diámetro máx. alambres (mm)", "Espesor aislación (mm)", "Espesor vaina (mm)", "Diámetro exterior (mm)", "Peso aprox. (kg/km)", "Corriente Aire (A)", "Corriente Enterrado (A)"],
-        rows: [
-          ["5 (4+T)", "0.41", "0.8", "1.8", "11.4", "210", "11", "15"],
-          ["7 (6+T)", "0.41", "0.8", "1.8", "12.6", "265", "10", "13"],
-          ["10 (9+T)", "0.41", "0.8", "1.8", "15.3", "365", "9", "11"],
-          ["12 (11+T)", "0.41", "0.8", "1.8", "15.7", "425", "9", "10"],
-          ["19 (18+T)", "0.41", "0.8", "1.8", "19.0", "585", "8", "8"],
-          ["24 (23+T)", "0.41", "0.8", "1.8", "21.3", "750", "7", "8"]
-        ],
-        note: "Diámetro de cuerda 1,5 mm – Resistencia eléctrica máx a 20°C: 13.3 ohm/km - Resistencia eléctrica máx a 70°C: 15.9 ohm/km"
-      },
-      {
-        title: "Especificaciones Técnicas - Sección 2,50 mm²",
-        headers: ["Cantidad de conductores", "Diámetro máx. alambres (mm)", "Espesor aislación (mm)", "Espesor vaina (mm)", "Diámetro exterior (mm)", "Peso aprox. (kg/km)", "Corriente Aire (A)", "Corriente Enterrado (A)"],
-        rows: [
-          ["5 (4+T)", "0.41", "0.8", "1.8", "13.0", "305", "15", "20"],
-          ["7 (6+T)", "0.41", "0.8", "1.8", "14.3", "360", "13", "17"],
-          ["10 (9+T)", "0.41", "0.8", "1.8", "17.1", "505", "12", "15"],
-          ["12 (11+T)", "0.41", "0.8", "1.8", "18.9", "568", "12", "14"],
-          ["19 (18+T)", "0.41", "0.8", "1.8", "22.0", "830", "10", "11"],
-          ["24 (23+T)", "0.41", "0.8", "1.8", "25.9", "960", "10", "10"]
-        ],
-        note: "Diámetro de cuerda 2.0 mm – Resistencia eléctrica máx a 20°C: 7.98 ohm/km - Resistencia eléctrica máx a 70°C: 9.55 ohm/km"
-      }
-    ],
-    certifications: ['iram', 'seguridad', 'no-propagacion', 'resistente-uv', 'conductor-tierra'],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   }
 ];
