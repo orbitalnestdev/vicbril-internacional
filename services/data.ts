@@ -3432,7 +3432,7 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
 ],
     certifications: []
   },
-      {
+        {
     id: 'industrial-instrumentacion-electronica-libre-halogenos-lsoh',
     name: 'LSOH',
     categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', 'Libre de Halógenos'],
@@ -3446,7 +3446,7 @@ cines, centros comerciales, túneles) y en salas de control con equipamiento ele
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/1-LSOH/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/1-LSOH/FICHA TECNICA - USAR FOTO DE PORTADA.pdf',
-    specs: ['90°C', '300 Volt', '22 a 12 AWG'],
+    specs: ['22 a 12 AWG', '90°C', '300 Volt'],
     characteristics: [
       'Temperatura máxima: 90°C',
       'Tensión nominal: 300 Volt',
@@ -3485,7 +3485,7 @@ señales de alarma. Uso en ambientes cerrados con alta concentración de persona
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/2-LSOH ARMADO/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/2-LSOH ARMADO/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
-    specs: ['90°C', '300 Volt', '22 a 12 AWG'],
+    specs: ['22 a 12 AWG', '90°C', '300 Volt'],
     characteristics: [
       'Temperatura máxima: 90°C',
       'Tensión nominal: 300 Volt',
@@ -3526,7 +3526,7 @@ señales de alarma. Uso en ambientes cerrados con alta concentración de persona
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/3-LSOH CORRUGADO (INTERLOCK)/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/3-LSOH CORRUGADO (INTERLOCK)/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
-    specs: ['90°C', '300 Volt', '22 a 12 AWG'],
+    specs: ['22 a 12 AWG', '90°C', '300 Volt'],
     characteristics: [
       'Temperatura máxima: 90°C',
       'Tensión nominal: 300 Volt',
@@ -3691,7 +3691,7 @@ en ductos.`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/1-300 VOLTS/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/1-300 VOLTS/FICHA TECNICA - USAR FOTO DE PORTADA.pdf',
-    specs: ['300 Volt', '105°C', '22 a 12 AWG'],
+    specs: ['22 a 12 AWG', '300 Volt', '105°C'],
     characteristics: [
       'Temperatura máxima: 105°C',
       'Tensión nominal: 300 Volt',
@@ -3726,7 +3726,7 @@ señales de alarma. Instalados en bandeja, escalera, al aire libre directo o baj
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/2-300 VOLTS ARMADO/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/2-300 VOLTS ARMADO/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
-    specs: ['300 Volt', '105°C', '22 a 12 AWG'],
+    specs: ['22 a 12 AWG', '300 Volt', '105°C'],
     characteristics: [
       'Temperatura máxima: 105°C',
       'Tensión nominal: 300 Volt',
@@ -3763,7 +3763,7 @@ señales de alarma. Instalados en bandeja, escalera, al aire libre directo o baj
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/3-300 VOLTS CORRUGADO (INTERLOCK)/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/3-300 VOLTS CORRUGADO (INTERLOCK)/FICHA TECNICA - REPETIR FOTO PORTADA.pdf',
-    specs: ['300 Volt', '105°C', '22 a 12 AWG'],
+    specs: ['22 a 12 AWG', '300 Volt', '105°C'],
     characteristics: [
       'Temperatura máxima: 105°C',
       'Tensión nominal: 300 Volt',
@@ -3800,7 +3800,7 @@ No propagación de`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/4-300 VOLTS ALARMA INCENDIO/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/4-300 VOLTS ALARMA INCENDIO/FICHA TECNICA - USAR FOTO DE PORTADA.pdf',
-    specs: ['300 Volt', '105°C', '20 a 12 AWG'],
+    specs: ['105°C', '300 Volt', '20 a 12 AWG'],
     characteristics: [
       'Temperatura máxima: 105°C',
       'Tensión nominal: 300 Volt',
@@ -3835,7 +3835,7 @@ No propagación de`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/5-300 VOLTS BLINDADO/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/5-300 VOLTS BLINDADO/FICHA TECNICA.pdf',
-    specs: ['300 Volt', '105°C', '20 a 14 AWG'],
+    specs: ['105°C', '300 Volt', '20 a 14 AWG'],
     characteristics: [
       'Temperatura máxima: 105°C',
       'Tensión nominal: 300 Volt',
@@ -3869,7 +3869,7 @@ escalera, al aire libre directo o bajo techo, directamente enterrados o enterrad
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/6-300 VOLTS BLINDADO ARMADO/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/6-300 VOLTS BLINDADO ARMADO/FICHA TECNICA.pdf',
-    specs: ['300 Volt', '105°C', '20 a 14 AWG'],
+    specs: ['105°C', '300 Volt', '20 a 14 AWG'],
     characteristics: [
       'Temperatura máxima: 105°C',
       'Tensión nominal: 300 Volt',
@@ -3905,7 +3905,7 @@ escalera, al aire libre directo o bajo techo, directamente enterrados o enterrad
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/7-300 VOLTS BLINDADO INTERLOCK/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/7-300 VOLTS BLINDADO INTERLOCK/FICHA TECNICA.pdf',
-    specs: ['300 Volt', '105°C', '20 a 14 AWG'],
+    specs: ['105°C', '300 Volt', '20 a 14 AWG'],
     characteristics: [
       'Temperatura máxima: 105°C',
       'Tensión nominal: 300 Volt',
@@ -3941,7 +3941,7 @@ resistencia aumentada a su manipulación diaria (torceduras, impactos, abrasión
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/8-300 VOLTS TRABAJOS PESADOS/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/8-300 VOLTS TRABAJOS PESADOS/FICHA TECNICA.pdf',
-    specs: ['90°C', '300 Volt', '22 a 12 AWG'],
+    specs: ['22 a 12 AWG', '90°C', '300 Volt'],
     characteristics: [
       'Temperatura máxima: 105°C',
       'Tensión nominal: 300 Volt',
@@ -4099,7 +4099,9 @@ libre directo o bajo techo, enterrado en trinchera o en ductos.`,
       'y Cl2 Div.2',
       'Conexión: La máxima longitud del RS 485 es de 1200 metros sin el uso de amplificadores, para distancias',
       'mayores se debe utilizar equipamiento para regenerar y amplificar la señal. El RS 485 es un bus serie, por',
-      'lo tanto, no permite la'
+      'lo tanto, no permite la instalación de los equipos en estrella o anillo. Se recomienda evitar el paso de',
+      'estos cables cerca de cables y equipos de potencia, estos producen inducciones electromagnéticas que',
+      'pueden provocar el mal funcionamiento del sistema.'
     ],
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
@@ -4137,7 +4139,9 @@ libre directo o bajo techo, enterrado en trinchera o en ductos.`,
       'y Cl2 Div.2',
       'Conexión: La máxima longitud del RS 485 es de 1200 metros sin el uso de amplificadores, para distancias',
       'mayores se debe utilizar equipamiento para regenerar y amplificar la señal. El RS 485 es un bus serie, por',
-      'lo tanto, no permite la'
+      'lo tanto, no permite la instalación de los equipos en estrella o anillo. Se recomienda evitar el paso de',
+      'estos cables cerca de cables y equipos de potencia, estos producen inducciones electromagnéticas que',
+      'pueden provocar el mal funcionamiento del sistema.'
     ],
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
@@ -4176,7 +4180,9 @@ del cable de interconexión y alta velocidad de transmisión de datos. Instalado
       'y Cl2 Div.2',
       'Conexión: La máxima longitud del RS 485 es de 1200 metros sin el uso de amplificadores, para distancias',
       'mayores se debe utilizar equipamiento para regenerar y amplificar la señal. El RS 485 es un bus serie, por',
-      'lo tanto, no permite la'
+      'lo tanto, no permite la instalación de los equipos en estrella o anillo. Se recomienda evitar el paso de',
+      'estos cables cerca de cables y equipos de potencia, estos producen inducciones electromagnéticas que',
+      'pueden provocar el mal funcionamiento del sistema.'
     ],
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
@@ -4215,7 +4221,9 @@ del cable de interconexión y alta velocidad de transmisión de datos. Instalado
       'y Cl2 Div.2',
       'Conexión: La máxima longitud del RS 485 es de 1200 metros sin el uso de amplificadores, para distancias',
       'mayores se debe utilizar equipamiento para regenerar y amplificar la señal. El RS 485 es un bus serie, por',
-      'lo tanto, no permite la'
+      'lo tanto, no permite la instalación de los equipos en estrella o anillo. Se recomienda evitar el paso de',
+      'estos cables cerca de cables y equipos de potencia, estos producen inducciones electromagnéticas que',
+      'pueden provocar el mal funcionamiento del sistema.'
     ],
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
@@ -4326,35 +4334,6 @@ interferencias`,
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
   {
-    id: 'industrial-automatizacion-ficha-tecnica',
-    name: 'Ficha Tecnica',
-    categoryPath: ['Cables Industriales', 'Automatización'],
-    description: 'Transmisión de datos, señales digitales con protección aumentada contra perturbaciones electromagnéticas.',
-    detailedDescription: `500 Volt Cu 0.35 a 1.5 mm² Doble blindaje VDE812
-Transmisión de datos, señales digitales con protección aumentada contra perturbaciones electromagnéticas.
-Instalados en conduits, bandeja, escalera, enterrado en trinchera o en ductos.
-Protección
-interferencias`,
-
-    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/portada.jpeg',
-    gallery: [],
-    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/FICHA TECNICA/FICHA TECNICA AUTOMATIZAR.pdf',
-    specs: ['500 Volt'],
-    characteristics: [
-      'Temperatura máxima: 80°C',
-      'Tensión nominal: 500 Volt',
-      'Norma constructiva: VDE0812',
-      'Norma de conductores: IEC 60228 / IRAM NM 280',
-      'Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos',
-      'Aislación: PVC',
-      'Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura',
-      'Cubierta: PVC no propagante del incendio',
-      'Norma de fuego: IEC 60332-1 / IRAM NM IEC 60332-1'
-    ],
-    certifications: ['iram', 'seguridad', 'no-propagacion'],
-    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
-  },
-  {
     id: 'industrial-cable-comando-multipolar-multipolar-mm2-pvc-hasta-48-conductores',
     name: 'PVC - Hasta 48 Conductores',
     categoryPath: ['Cables Industriales', 'Cable Comando', 'Multipolar', 'Multipolar mm²'],
@@ -4368,7 +4347,7 @@ incendio`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/1-PVC - HASTA 48 CONDUCTORES/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/1-PVC - HASTA 48 CONDUCTORES/FICHA TECNICA.pdf',
-    specs: ['70°C', '1 a 4mm²', '1kV'],
+    specs: ['1kV', '70°C', '1 a 4mm²'],
     characteristics: [
       'Temperaturas: 70°C máxima de servicio – 160°C de cortocircuito',
       'Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC',
@@ -4396,7 +4375,7 @@ No propagación de`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/2-XLPE - HASTA 48 CONDUCTORES/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/2-XLPE - HASTA 48 CONDUCTORES/FICHA TECNICA.pdf',
-    specs: ['90°C', '1 a 4mm²', '1kV'],
+    specs: ['1kV', '90°C', '1 a 4mm²'],
     characteristics: [
       'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
       'Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC',
@@ -4426,7 +4405,7 @@ en ambientes cerrados y en salas de control con equipamiento electrónico sensib
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/3-CORRUGADO - PROTECCION INTERFERENCIAS/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/3-CORRUGADO - PROTECCION INTERFERENCIAS/FICHA TECNICA.pdf',
-    specs: ['90°C', '1 a 4mm²', '1kV'],
+    specs: ['1kV', '90°C', '1 a 4mm²'],
     characteristics: [
       'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
       'Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC',
@@ -4457,14 +4436,32 @@ en ambientes cerrados y en salas de control con equipamiento electrónico sensib
     id: 'industrial-cable-comando-multipolar-multipolar-mm2-resistente-a-hidrocarburos',
     name: 'Resistente a Hidrocarburos',
     categoryPath: ['Cables Industriales', 'Cable Comando', 'Multipolar', 'Multipolar mm²'],
-    description: 'Cables para aplicaciones industriales.',
-    detailedDescription: `Descripción detallada no disponible.`,
+    description: 'Equipos de control, señalización, protección y comandos eléctricos en la industria Petrolera (Midstream y',
+    detailedDescription: `0.6/1kV Cu flexible 1 a 4mm² XLPE 90°C PVC Resistente HC y UV
+Equipos de control, señalización, protección y comandos eléctricos en la industria Petrolera (Midstream y
+Downstream). Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en
+ductos o directamente enterrados.
+No propagación de`,
 
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/4-RESISTENTE A HIDROCARBUROS/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/4-RESISTENTE A HIDROCARBUROS/FICHA TECNICA (AGREGAR VARIANTES_ MULTIPOLAR_ARMADO_FLEJE_FLEJE COBRE).pdf',
-    specs: ['Industrial', '300 V / 600 V'],
-    characteristics: [],
+    specs: ['1kV', '90°C', '1 a 4mm²'],
+    characteristics: [
+      'Temperaturas: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
+      'Temperatura mínima: Apto para su funcionamiento en instalaciones a -30°C',
+      'Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC',
+      'Norma constructiva: IEC 60502-1 – IRAM 2178-1',
+      'Norma de conductores: IRAM NM 280 – IEC 60228',
+      'Conductor: Cobre electrolítico recocido en formación flexible clase 5',
+      'Aislación: XLPE (Polietileno reticulado)',
+      'Cubierta: PVC no propagante del incendio, resistente aumentada a hidrocarburos, rayos ultravioletas y',
+      'bajas temperaturas, con baja emisión de ácido clorhídrico (HCl)',
+      'Norma de fuego: IEC 60332-3-24',
+      'Norma de resistencia a hidrocarburos: UIC 895 OR (Aceite y Gas Oil)',
+      'Norma de intemperismo: UL 2556 (Resistencia a rayos UV)',
+      'Norma de emisión de Halógenos: IEC 60754-1 (Emisión de HCl < 15%)'
+    ],
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
@@ -4482,9 +4479,22 @@ desgarros e impactos.`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/5-EPR/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/5-EPR/FICHA TECNICA.pdf',
-    specs: ['90°C', '1 a 4mm²', '1kV'],
+    specs: ['1kV', '90°C', '1 a 4mm²'],
     characteristics: [
-      'Temperatura máxima de operación: 90°C en'
+      'Temperatura máxima de operación: 90°C en instalación fija / 60°C para uso móvil y flexiones ocasionales',
+      'Temperatura mínima ambiente: -40°C en instalación fija / -25°C para flexiones ocasionales',
+      'Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC',
+      'Norma constructiva: IRAM 2178-1 – IEC 60502-1',
+      'Norma de conductores: IRAM NM 280 – IEC 60228',
+      'Conductor: Cobre electrolítico recocido en formación flexible clase 5',
+      'Aislación: EPR',
+      'Cubierta: Poliuretano, resistente a la luz solar y los aceites',
+      'Ensayo de flexión: NM 247-2 aumentado a 150000 ciclos dobles de flexión',
+      'Norma\xa0de fuego: IEC 60332-1',
+      'Norma aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)',
+      'Norma de resistencia a hidrocarburos: UIC 895 OR (aceite, gas oil y fuel oil) / UL 13 (aceite) / UL 83 (Fuel C:',
+      'tolueno e isoctano)'
     ],
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
@@ -4533,7 +4543,7 @@ No propagación de`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/2-600 Volts 16 - 10 AWG PVC/PORTADA.jpeg',
     gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/2-600 Volts 16 - 10 AWG PVC/FOTO DENTRO FICHA TECNICA.jpeg'],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/2-600 Volts 16 - 10 AWG PVC/FICHA TECNICA (AGREGAR EN VARIANTES_ ARMADO_FLEJE_FLEJE COBRE).pdf',
-    specs: ['75°C', '600 Volt', '16 a 10 AWG'],
+    specs: ['16 a 10 AWG', '600 Volt', '75°C'],
     characteristics: [
       'Temperatura máxima: 75ºC de servicio, 160ºC de cortocircuito',
       'Tensión nominal: 600 Volt CA',
@@ -4563,7 +4573,7 @@ llama`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/3-600 Volts 16 - 10 AWG XLPE/PORTADA.jpeg',
     gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/3-600 Volts 16 - 10 AWG XLPE/WhatsApp Image 2026-05-29 at 15.38.41.jpeg'],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/3-600 Volts 16 - 10 AWG XLPE/FICHA TECNICA (AGREGAR VARIANTES DE LA FOTO ANEXADA).pdf',
-    specs: ['90°C', '600 Volt', '16 a 10 AWG'],
+    specs: ['90°C', '16 a 10 AWG', '600 Volt'],
     characteristics: [
       'Temperaturas: 90ºC de servicio, 130ºC de sobrecarga, 250ºC de cortocircuito',
       'Tensión nominal: 600 Volt CA',
@@ -4593,7 +4603,7 @@ directamente enterrados. Cuenta con protección electromagnética adicional.`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/1-XLPE - HASTA 48 CONDUCTORES - 1 A 4 MM2 - BLINDADO FLEJE COBRE/PORTADA Y FOTO FICHA TECNICA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/1-XLPE - HASTA 48 CONDUCTORES - 1 A 4 MM2 - BLINDADO FLEJE COBRE/FICHA TECNICA.pdf',
-    specs: ['90°C', '1 a 4mm²', '1kV'],
+    specs: ['1kV', '90°C', '1 a 4mm²'],
     characteristics: [
       'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
       'Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC',
@@ -4624,7 +4634,7 @@ directamente enterrados.`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/3-XLPE - 1 A 4MM2 - CORRUGADO COBRE/PORTADA Y FICHA TECNICA.jpeg',
     gallery: [],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/3-XLPE - 1 A 4MM2 - CORRUGADO COBRE/FICHA TECNICA.pdf',
-    specs: ['90°C', '1 a 4mm²', '1kV'],
+    specs: ['1kV', '90°C', '1 a 4mm²'],
     characteristics: [
       'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
       'Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC',
@@ -4658,7 +4668,7 @@ en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/1-AWG/PORTADA.jpeg',
     gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/1-AWG/FOTO FICHA TECNICA.jpeg'],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/1-AWG/FICHA TECNICA(AGREGAR VARIANTES_ XLPE_ARMADO_FLEJE_FLEJE COBRE).pdf',
-    specs: ['90°C', '600 Volt', '16 a 10 AWG'],
+    specs: ['90°C', '16 a 10 AWG', '600 Volt'],
     characteristics: [
       'Temperatura máxima: 90°C máxima de servicio – 130°C de Sobrecarga – 250°C de Cortocircuito',
       'Tensión nominal: 600 Volt CA',
@@ -4693,7 +4703,7 @@ en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/2-MM2/PORTADA.jpeg',
     gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/2-MM2/FOTO FICHA TECNICA.jpeg'],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/2-MM2/FICHA TECNICA(AGREGAR VARIANTES_ XLPE_ARMADO_FLEJE_FLEJE COBRE).pdf',
-    specs: ['90°C', '1 a 4mm²', '1kV'],
+    specs: ['1kV', '90°C', '1 a 4mm²'],
     characteristics: [
       'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
       'Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC',
@@ -4728,7 +4738,7 @@ trinchera o en ductos.`,
     image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/4-RESISTENTE A INCENDIO/PORTADA.jpeg',
     gallery: ['/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/4-RESISTENTE A INCENDIO/FOTO FICHA TECNICA.jpeg'],
     pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/4-RESISTENTE A INCENDIO/FICHA TECNICA(AGREGAR VARIANTE_CINTA DE MICA_ARMADO CON FLEJE).pdf',
-    specs: ['1 a 4mm²', '1kV'],
+    specs: ['1kV', '1 a 4mm²'],
     characteristics: [
       'Temperaturas: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
       'Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC',
