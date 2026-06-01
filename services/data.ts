@@ -622,27 +622,26 @@ PARÁMETROS TÉCNICOS
       }
     ],
     certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'resistente-uv']
-  },
-  {
-    id: 'aerea-concentrico-antihurto',
-    name: 'Concéntricos Anti-hurto (ceCONEX)',
-    categoryPath: ['Cables Instalación Aérea', 'Envainados'],
-    description: 'Cables de seguridad diseñados para prevenir conexiones clandestinas y asegurar la medición.',
+  },  {
+    id: 'aerea-concentrico-aluminio',
+    name: 'Concéntricos de Aluminio',
+    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto (ceCONEX)'],
+    description: 'Cables de seguridad con conductor de aluminio diseñados para prevenir conexiones clandestinas y asegurar la medición.',
     detailedDescription: `DESCRIPCIÓN
-Cables con conductor central de fase (Aluminio o Cobre) y conductor neutro formado por una corona de alambres que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía sin afectar el neutro, provocando un cortocircuito que protege la red.
+Cables con conductor central de fase (Aluminio) y conductor neutro formado por una corona de alambres que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía sin afectar el neutro, provocando un cortocircuito que protege la red.
 
 USO
 Acometidas desde líneas aéreas preensambladas y transformadores hacia medidores. Especialmente diseñado para imposibilitar conexiones clandestinas (antihurto).
 
 NORMAS
 IRAM 63001, IRAM-NM 280, ICEA S-95-658, IEC 60502-1.`,
-    image: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/PORTADA.jpeg',
-    pdf: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/FICHA TECNICA/ficha tecnica a modificar.pdf',
-    specs: ['0,6 / 1,1 kV', 'Antihurto', 'XLPE'],
+    image: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    pdf: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/1-CONCENTRICO ALUMINIO MONOFASICO/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    specs: ['0,6 / 1,1 kV', 'Antihurto', 'Aluminio'],
     technicalIntro: `CONSTRUCCIÓN
-Conductor Central (Fase): Cuerda de aluminio puro o cobre recocido (Clase 2).
+Conductor Central (Fase): Cuerda de aluminio puro (Clase 2).
 Aislación: Polietileno reticulado (XLPE) resistente a la intemperie.
-Conductor Periférico (Neutro): Corona de alambres de aleación de aluminio o cobre dispuesto helicoidalmente.
+Conductor Periférico (Neutro): Corona de alambres de aleación de aluminio dispuesto helicoidalmente.
 Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mecánica y UV.`,
     characteristics: [
       'CONSTRUCCIÓN',
@@ -681,7 +680,40 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mecánic
           ["3x4 + 4", "1,14", "2,03", "25", "622", "1,390", "0,095", "73"],
           ["3x2 + 2", "1,14", "2,03", "28", "871", "0,872", "0,091", "90"]
         ]
-      },
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'resistente-uv', 'antihurto']
+  },
+  {
+    id: 'aerea-concentrico-cobre',
+    name: 'Concéntricos de Cobre',
+    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto (ceCONEX)'],
+    description: 'Cables de seguridad con conductor de cobre diseñados para prevenir conexiones clandestinas y asegurar la medición.',
+    detailedDescription: `DESCRIPCIÓN
+Cables con conductor central de fase (Cobre) y conductor neutro formado por una corona de alambres que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía sin afectar el neutro, provocando un cortocircuito que protege la red.
+
+USO
+Acometidas desde líneas aéreas preensambladas y transformadores hacia medidores. Especialmente diseñado para imposibilitar conexiones clandestinas (antihurto).
+
+NORMAS
+IRAM 63001, IRAM-NM 280, ICEA S-95-658, IEC 60502-1.`,
+    image: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    pdf: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    specs: ['0,6 / 1,1 kV', 'Antihurto', 'Cobre'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductor Central (Fase): Cuerda de cobre recocido (Clase 2).
+Aislación: Polietileno reticulado (XLPE) resistente a la intemperie.
+Conductor Periférico (Neutro): Corona de alambres de cobre dispuesto helicoidalmente.
+Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mecánica y UV.`,
+    characteristics: [
+      'CONSTRUCCIÓN',
+      'Configuración concéntrica que impide el fraude eléctrico.',
+      'Conductor de fase central protegido por el neutro periférico.',
+      'Aislación y vaina en XLPE de alta resistencia térmica (90°C).',
+      'Excelente resistencia a la intemperie y radiación UV.',
+      'Marcación secuencial metro a metro para control de stock.'
+    ],
+    specsTables: [
       {
         title: "Cobre Monofásico (1xCu + Cu)",
         headers: ["Sección Nominal (mm²)", "Formación (N° x Ømm)", "Espesor de aislación promedio (mm)", "Diámetro exterior aprox. (mm)", "Espesor de vaina promedio (mm)", "Resistencia eléctrica a 20°C (Ohm/km)", "Carga de rotura aprox. (daN)", "Peso aproximado (kg/km)", "Corriente admisible máxima (A)"],
@@ -3403,7 +3435,7 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     {
     id: '1-instrumentaci-n-electronica',
     name: 'INSTRUMENTACIÓN ELECTRÓNICA',
-    categoryPath: ['Cables Industriales'],
+    categoryPath: ['Cables Industriales', 'Instrumentación Electrónica'],
     description: 'Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA).',
     detailedDescription: `DESCRIPCIÓN
 Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca. Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de señales de alarma.
@@ -5132,7 +5164,7 @@ Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, e
     {
     id: '2-automatizaci-n',
     name: 'AUTOMATIZACIÓN',
-    categoryPath: ['Cables Industriales'],
+    categoryPath: ['Cables Industriales', 'Automatización'],
     description: 'Transmisión de datos, señales digitales con protección aumentada contra perturbaciones electromagnéticas.',
     detailedDescription: `DESCRIPCIÓN
 Transmisión de datos, señales digitales con protección aumentada contra perturbaciones electromagnéticas.
@@ -5219,7 +5251,7 @@ Instalados en conduits, bandeja, escalera, enterrado en trinchera o en ductos. A
     {
     id: '3-cable-comando',
     name: 'CABLE COMANDO',
-    categoryPath: ['Cables Industriales'],
+    categoryPath: ['Cables Industriales', 'Cable Comando'],
     description: 'Cables de potencia para comando y señalización de instalaciones fijas.',
     detailedDescription: `DESCRIPCIÓN
 Cables de potencia diseñados para comando y señalización, medición, control y protecciones eléctricas a distancia.

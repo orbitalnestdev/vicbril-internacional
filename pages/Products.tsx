@@ -265,27 +265,61 @@ const Products: React.FC = () => {
                   const productsInThisFolder = filteredProducts.filter(p => p.categoryPath[currentDepth] === sub);
                   const firstProductWithImage = productsInThisFolder.find(p => p.image && !p.image.includes('vicbril-hero-1.jpg'));
                   
-                  // Dynamically resolve the subcategory's own cover image (PORTADA.jpeg/png) from its parent path
+                  // Dynamically resolve the subcategory's own cover image (PORTADA.jpeg/png) from its matching folder path segment
                   let parentCoverImage = null;
                   const referenceImage = firstProductWithImage?.image || productsInThisFolder[0]?.image;
                   if (referenceImage) {
                     const parts = referenceImage.split('/');
                     if (parts.length >= 3) {
-                      const parentParts = parts.slice(0, -2);
-                      const parentPath = parentParts.join('/');
+                      const clean = (s: string) => {
+                        return s
+                          .toLowerCase()
+                          .normalize("NFD")
+                          .replace(/[\u0300-\u036f]/g, "")
+                          .replace(/^\d+[-_]/, "")
+                          .replace(/[^a-z0-9]/g, "");
+                      };
+
+                      const cleanSub = clean(sub);
+                      let matchIndex = -1;
                       
-                      if (referenceImage.includes('1-CABLE UNIPOLAR')) {
-                        parentCoverImage = `${parentPath}/PORTADA.png`;
-                      } else if (referenceImage.includes('2-CABLE BIPOLAR')) {
-                        parentCoverImage = `${parentPath}/portada.jpeg`;
-                      } else if (referenceImage.includes('3-CABLE TIPO TALLER')) {
-                        parentCoverImage = `${parentPath}/PORTADA.jpeg`;
-                      } else if (referenceImage.includes('1-ENVAINADOS')) {
-                        parentCoverImage = `${parentPath}/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg`;
-                      } else if (referenceImage.includes('2-DESNUDOS')) {
-                        parentCoverImage = `${parentPath}/PORTADA (ELIMINAR LOGO GEMINI).jpeg`;
-                      } else {
-                        parentCoverImage = `${parentPath}/PORTADA.jpeg`;
+                      // Search from the last folder segment backwards (avoiding the filename at parts.length - 1)
+                      for (let idx = parts.length - 2; idx >= 0; idx--) {
+                        const part = parts[idx];
+                        if (!part) continue;
+                        const cleanPart = clean(part);
+                        if (!cleanPart) continue;
+
+                        if (cleanSub.includes(cleanPart) || cleanPart.includes(cleanSub)) {
+                          matchIndex = idx;
+                          break;
+                        }
+                      }
+
+                      if (matchIndex !== -1) {
+                        const parentPath = parts.slice(0, matchIndex + 1).join('/');
+                        
+                        if (parentPath.endsWith('3-CONCENTRICOS (ANTIHURTO)')) {
+                          parentCoverImage = `${parentPath}/PORTADA.jpeg`;
+                        } else if (referenceImage.includes('1-CABLE UNIPOLAR')) {
+                          parentCoverImage = `${parentPath}/PORTADA.png`;
+                        } else if (referenceImage.includes('2-CABLE BIPOLAR')) {
+                          parentCoverImage = `${parentPath}/portada.jpeg`;
+                        } else if (referenceImage.includes('3-CABLE TIPO TALLER')) {
+                          parentCoverImage = `${parentPath}/PORTADA.jpeg`;
+                        } else if (referenceImage.includes('1-ENVAINADOS')) {
+                          parentCoverImage = `${parentPath}/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg`;
+                        } else if (referenceImage.includes('2-DESNUDOS')) {
+                          parentCoverImage = `${parentPath}/PORTADA (ELIMINAR LOGO GEMINI).jpeg`;
+                        } else {
+                          // Check casing based on reference image filename
+                          const lastPart = parts[parts.length - 1] || '';
+                          if (lastPart.startsWith('portada')) {
+                            parentCoverImage = `${parentPath}/portada.jpeg`;
+                          } else {
+                            parentCoverImage = `${parentPath}/PORTADA.jpeg`;
+                          }
+                        }
                       }
                     }
                   }
