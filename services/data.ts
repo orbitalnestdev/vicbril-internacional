@@ -330,10 +330,11 @@ Interconexión de equipos de audio y aparatos portátiles. Diseñado para flexib
     specsTables: [
       {
         title: "Tabla de Datos Técnicos",
-        headers: ["Formación (mm²)", "Diám. máx. alambres (mm)", "Espesor Aisl. (mm)", "Espesor Env. (mm)", "Dimensiones Ext. (mm)", "Masa (kg/km)", "Intensidad (A)"],
+        headers: ["Formación (mm²)", "Diám. máx. alambres (mm)", "Espesor Aisl. (mm)", "Espesor Env. (mm)", "Dimensiones Ext. (mm)", "Masa aprox. (kg/km)", "Intensidad admisible (A)", "Resistencia eléctrica máx a 20°C (Ohm/km)"],
         rows: [
-          ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7"],
-          ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10"]
+          ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7", "19,5"],
+          ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10", "13,3"],
+          ["2x2,5", "0,26", "0,8", "0,6", "5,1 x 8,8", "85", "16", "7,98"]
         ]
       }
     ],
