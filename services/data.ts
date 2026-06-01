@@ -59,7 +59,7 @@ export const categories: Category[] = [
   },
   {
     id: 'resto-materiales',
-    name: '9-RESTO DE MATERIALES ELECTRICOS',
+    name: 'Resto de Materiales Eléctricos',
     slug: 'resto-materiales-electricos',
     image: '/images/vicbril-hero-1.jpg',
     banner: '/images/vicbril-hero-1.jpg'
@@ -3401,7 +3401,7 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
   },
     {
     id: '1-instrumentaci-n-electronica',
-    name: '1- INSTRUMENTACIÓN ELECTRÓNICA',
+    name: 'INSTRUMENTACIÓN ELECTRÓNICA',
     categoryPath: ['Cables Industriales'],
     description: 'Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA).',
     detailedDescription: `DESCRIPCIÓN
@@ -5130,7 +5130,7 @@ Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, e
   },
     {
     id: '2-automatizaci-n',
-    name: '2-AUTOMATIZACIÓN',
+    name: 'AUTOMATIZACIÓN',
     categoryPath: ['Cables Industriales'],
     description: 'Transmisión de datos, señales digitales con protección aumentada contra perturbaciones electromagnéticas.',
     detailedDescription: `DESCRIPCIÓN
@@ -5217,7 +5217,7 @@ Instalados en conduits, bandeja, escalera, enterrado en trinchera o en ductos. A
   },
     {
     id: '3-cable-comando',
-    name: '3-CABLE COMANDO',
+    name: 'CABLE COMANDO',
     categoryPath: ['Cables Industriales'],
     description: 'Cables de potencia para comando y señalización de instalaciones fijas.',
     detailedDescription: `DESCRIPCIÓN

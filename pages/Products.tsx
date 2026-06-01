@@ -45,13 +45,26 @@ const Products: React.FC = () => {
       });
 
   const currentDepth = activePath.length;
-  const nextLevelFolders = Array.from(new Set(
+  const rawNextLevelFolders = Array.from(new Set(
     filteredProducts
       .filter(p => p.categoryPath.length > currentDepth)
       .map(p => p.categoryPath[currentDepth])
   ));
   
-  const visibleProducts = filteredProducts;
+  // Only keep folders (subcategories) that contain more than 1 product.
+  // If a folder contains only 1 product, we bypass the folder and show the product card directly.
+  const nextLevelFolders = rawNextLevelFolders.filter(folderName => {
+    const productsInFolder = filteredProducts.filter(p => p.categoryPath[currentDepth] === folderName);
+    return productsInFolder.length > 1;
+  });
+  
+  const visibleProducts = filteredProducts.filter(p => {
+    if (p.categoryPath.length > currentDepth) {
+      const nextSegment = p.categoryPath[currentDepth];
+      return !nextLevelFolders.includes(nextSegment);
+    }
+    return true;
+  });
 
   const handleQuoteClick = (prodName: string) => {
     const phoneNumber = "5491131240403";
@@ -71,7 +84,7 @@ const Products: React.FC = () => {
 
   const formatCategoryName = (name: string) => {
     if (!name) return '';
-    return name.replace(/^\d+[-_ ]*/, '');
+    return name.replace(/^\d+[-_]/, '');
   };
 
   const pageTitle = currentCategoryInfo ? formatCategoryName(currentCategoryInfo.name).toUpperCase() : 'CONDUCTORES ELÉCTRICOS';
@@ -147,7 +160,13 @@ const Products: React.FC = () => {
                     return (
                       <div key={cat.id}>
                         <button
-                          onClick={() => handlePathChange([cat.name])}
+                          onClick={() => {
+                            if (activePath.length > 0 && activePath[0] === cat.name) {
+                              handlePathChange([]);
+                            } else {
+                              handlePathChange([cat.name]);
+                            }
+                          }}
                           className={`w-full text-left px-4 py-3 text-sm flex justify-between items-center transition-colors border-l-2 ${isExpanded ? 'bg-slate-50 border-orange-600 text-slate-900 font-bold' : 'border-transparent text-slate-500 hover:text-slate-900'}`}
                         >
                           {formatCategoryName(cat.name)}
@@ -162,7 +181,13 @@ const Products: React.FC = () => {
                               return (
                                 <button
                                   key={j}
-                                  onClick={() => handlePathChange([cat.name, sub])}
+                                  onClick={() => {
+                                    if (isActiveSub) {
+                                      handlePathChange([cat.name]);
+                                    } else {
+                                      handlePathChange([cat.name, sub]);
+                                    }
+                                  }}
                                   className={`w-full text-left pl-8 pr-4 py-2 text-[11px] font-bold uppercase tracking-widest transition-colors flex items-center ${isActiveSub ? 'text-orange-600' : 'text-slate-400 hover:text-slate-700'}`}
                                 >
                                   <div className={`w-1.5 h-1.5 rounded-full mr-2 ${isActiveSub ? 'bg-orange-600' : 'bg-slate-300'}`}></div>
@@ -234,17 +259,34 @@ const Products: React.FC = () => {
             {nextLevelFolders.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                 {nextLevelFolders.map((sub, i) => {
-                  const subCategoryImages: Record<string, string> = {
-                    '1-CABLE UNIPOLAR': '/images/PRODUCTOS/1-CABLE UNIPOLAR/PORTADA.png',
-                    '2-CABLE BIPOLAR': '/images/PRODUCTOS/2-CABLE BIPOLAR/portada.jpeg',
-                    '3-CABLE TIPO TALLER': '/images/PRODUCTOS/3-CABLE TIPO TALLER/PORTADA.jpeg',
-                    '3-CONCENTRICOS (ANTIHURTO)': '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/PORTADA.jpeg',
-                    '1-CONCENTRICOS ALUMINIO': '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
-                    '2-CONCENTRICOS COBRE': '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg'
-                  };
+                  const catInfo = categories.find(c => c.name === sub);
+                  const categoryImage = catInfo?.image && !catInfo.image.includes('vicbril-hero-1.jpg') ? catInfo.image : null;
 
                   const productsInThisFolder = filteredProducts.filter(p => p.categoryPath[currentDepth] === sub);
-                  const folderImage = subCategoryImages[sub] || productsInThisFolder[0]?.image || '/images/vicbril-hero-1.jpg';
+                  const firstProductWithImage = productsInThisFolder.find(p => p.image && !p.image.includes('vicbril-hero-1.jpg'));
+                  
+                  // Dynamically resolve the subcategory's own cover image (PORTADA.jpeg/png) from its parent path
+                  let parentCoverImage = null;
+                  const referenceImage = firstProductWithImage?.image || productsInThisFolder[0]?.image;
+                  if (referenceImage) {
+                    const parts = referenceImage.split('/');
+                    if (parts.length >= 3) {
+                      const parentParts = parts.slice(0, -2);
+                      const parentPath = parentParts.join('/');
+                      
+                      if (referenceImage.includes('1-CABLE UNIPOLAR')) {
+                        parentCoverImage = `${parentPath}/PORTADA.png`;
+                      } else if (referenceImage.includes('2-CABLE BIPOLAR')) {
+                        parentCoverImage = `${parentPath}/portada.jpeg`;
+                      } else if (referenceImage.includes('3-CABLE TIPO TALLER')) {
+                        parentCoverImage = `${parentPath}/PORTADA.jpeg`;
+                      } else {
+                        parentCoverImage = `${parentPath}/PORTADA.jpeg`;
+                      }
+                    }
+                  }
+
+                  const folderImage = categoryImage || parentCoverImage || firstProductWithImage?.image || productsInThisFolder[0]?.image || '/images/vicbril-hero-1.jpg';
 
                   return (
                     <div
@@ -267,7 +309,7 @@ const Products: React.FC = () => {
                         <div className="p-6 text-center">
                           <h3 className="font-oswald font-bold text-lg text-slate-900 uppercase tracking-tight mb-2 group-hover:text-orange-600 transition-colors">{formatCategoryName(sub)}</h3>
                           <p className="text-[10px] text-slate-400 font-bold uppercase tracking-[0.2em] flex items-center justify-center">
-                            {productsInThisFolder.length} Elementos
+                            {productsInThisFolder.length} {productsInThisFolder.length === 1 ? 'Producto' : 'Productos'}
                             <ChevronRight size={12} className="ml-1 group-hover:translate-x-1 transition-transform" />
                           </p>
                         </div>
@@ -280,11 +322,11 @@ const Products: React.FC = () => {
 
             {/* Products */}
             {visibleProducts.length > 0 && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {visibleProducts.map(product => (
                   <div key={product.id} className="bg-white border border-gray-200 hover:border-orange-300 transition-colors duration-300 group flex flex-col h-full overflow-hidden">
                     <div
-                      className="w-full h-64 relative overflow-hidden bg-gray-100 cursor-pointer"
+                      className="w-full aspect-[4/3] relative overflow-hidden bg-gray-100 cursor-pointer"
                       onClick={() => handleProductClick(product)}
                     >
                       <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
