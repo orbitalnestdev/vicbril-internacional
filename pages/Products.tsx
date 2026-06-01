@@ -280,6 +280,10 @@ const Products: React.FC = () => {
                         parentCoverImage = `${parentPath}/portada.jpeg`;
                       } else if (referenceImage.includes('3-CABLE TIPO TALLER')) {
                         parentCoverImage = `${parentPath}/PORTADA.jpeg`;
+                      } else if (referenceImage.includes('1-ENVAINADOS')) {
+                        parentCoverImage = `${parentPath}/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg`;
+                      } else if (referenceImage.includes('2-DESNUDOS')) {
+                        parentCoverImage = `${parentPath}/PORTADA (ELIMINAR LOGO GEMINI).jpeg`;
                       } else {
                         parentCoverImage = `${parentPath}/PORTADA.jpeg`;
                       }
