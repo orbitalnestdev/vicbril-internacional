@@ -192,7 +192,7 @@ const ProductDetail: React.FC = () => {
 
         {/* Tab Navigation */}
         <div className="md:sticky md:top-28 z-40 bg-slate-50 border-y border-slate-200 mb-12 shadow-sm overflow-x-auto no-scrollbar">
-          <div className="flex flex-col md:flex-row justify-center container mx-auto px-0 md:px-6 min-w-max md:min-w-0">
+          <div className="flex flex-row justify-start md:justify-center container mx-auto px-0 md:px-6 min-w-max md:min-w-0">
             {[
               { id: 'DESCRIPCIÓN', label: 'DESCRIPCIÓN', target: 'descripcion', hasContent: !!product.detailedDescription },
               { id: 'APLICACIONES', label: 'APLICACIONES', target: 'usos', hasContent: !!product.applications },
@@ -214,7 +214,7 @@ const ProductDetail: React.FC = () => {
                     });
                   }
                 }}
-                className={`px-8 py-4 md:py-5 text-[12px] font-bold uppercase tracking-[0.2em] transition-all border-b md:border-b-0 md:border-r border-slate-200 last:border-b-0 md:last:border-r-0 whitespace-nowrap text-left md:text-center ${
+                className={`px-6 py-4 md:px-8 md:py-5 text-[12px] font-bold uppercase tracking-[0.2em] transition-all border-r border-slate-200 last:border-r-0 whitespace-nowrap text-center ${
                   activeTab === tab.id 
                     ? 'bg-white text-orange-600' 
                     : 'text-slate-400 hover:text-orange-600 hover:bg-white'
@@ -335,7 +335,7 @@ const ProductDetail: React.FC = () => {
 
               {product.technicalIntro && (
                 <div className="mb-10">
-                  <FormattedText text={product.technicalIntro} ignoredHeaders={['CONSTRUCCIÓN']} />
+                  <FormattedText text={product.technicalIntro} ignoredHeaders={['CONSTRUCCIÓN', 'ELECCIÓN DE LOS CABLES']} />
                 </div>
               )}
               
