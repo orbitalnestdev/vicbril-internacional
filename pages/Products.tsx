@@ -283,8 +283,8 @@ const Products: React.FC = () => {
                       const cleanSub = clean(sub);
                       let matchIndex = -1;
                       
-                      // Search from the last folder segment backwards (avoiding the filename at parts.length - 1)
-                      for (let idx = parts.length - 2; idx >= 0; idx--) {
+                      // Search from the first folder segment forwards (avoiding the filename at parts.length - 1)
+                      for (let idx = 0; idx < parts.length - 1; idx++) {
                         const part = parts[idx];
                         if (!part) continue;
                         const cleanPart = clean(part);

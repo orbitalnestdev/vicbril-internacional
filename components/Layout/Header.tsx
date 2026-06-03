@@ -22,6 +22,7 @@ const Header: React.FC = () => {
   const isHome = location.pathname === '/';
 
   return (
+    <>
     <header className={`fixed w-full z-50 transition-all duration-500 border-b animate-slide-down ${isScrolled || !isHome ? 'bg-white/95 backdrop-blur-sm border-gray-200 shadow-sm py-2' : 'bg-transparent border-transparent py-4'}`}>
 
       {/* Top Bar - Premium Industrial Look */}
@@ -104,10 +105,11 @@ const Header: React.FC = () => {
           </button>
         </div>
       </div>
+    </header>
 
       {/* Mobile Menu Overlay */}
       <div className={`fixed inset-0 bg-white z-40 transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
-        <div className="flex flex-col h-full justify-center px-8 space-y-8">
+        <div className="flex flex-col h-full justify-center px-8 space-y-8 pt-20">
           <Link to="/" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">INICIO</Link>
           <Link to="/nosotros" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">NOSOTROS</Link>
           <Link to="/productos" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">CATÁLOGO</Link>
@@ -127,7 +129,7 @@ const Header: React.FC = () => {
           </div>
         </div>
       </div>
-    </header>
+    </>
   );
 };
 

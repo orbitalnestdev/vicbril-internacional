@@ -71,7 +71,7 @@ export const products: Product[] = [
     id: 'unipolar-pvc',
     name: 'Cable Unipolar PVC',
     categoryPath: ['Cables para Instalación Civil', 'Unipolar'],
-    description: 'Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Apto para instalaciones fijas en interiores de inmuebles civiles, comerciales e industriales.
 
@@ -129,7 +129,7 @@ Temperatura de montaje: igual o mayor a 5°C`,
     id: 'unipolar-lsoh',
     name: 'Cable Unipolar LSOH',
     categoryPath: ['Cables para Instalación Civil', 'Unipolar'],
-    description: 'Conductores a instalar en lugares cerrados con alto tránsito de personas donde la evacuación por incendio resulta difícil de resolver.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Conductores a instalar en lugares cerrados con alto tránsito de personas, por ejemplo cines, sanatorios, teatros, estaciones de trenes subterráneos, universidades, centros comerciales, escuelas, túneles de minas, etc; es decir todo lugar dónde la evacuación por incendio resulta difícil de resolver.
 
@@ -191,7 +191,7 @@ Temperatura de montaje: igual o mayor a 5°C.`,
     id: 'bipolar-vaina-chata',
     name: 'Cable Envainado Chato',
     categoryPath: ['Cables para Instalación Civil', 'Bipolar'],
-    description: 'Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general, excluyendo los aparatos de calefacción.
 
@@ -248,7 +248,7 @@ Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquin
     id: 'bipolar-paralelo',
     name: 'Cable Paralelo',
     categoryPath: ['Cables para Instalación Civil', 'Bipolar'],
-    description: 'Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general, excluyendo los aparatos de calefacción.
 
@@ -300,7 +300,7 @@ Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquin
     id: 'bipolar-paralelo-parlante',
     name: 'Cable Paralelo Parlante',
     categoryPath: ['Cables para Instalación Civil', 'Bipolar'],
-    description: 'Cables específicos para audio y parlantes con identificación de polaridad.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cordones de cobre flexible con aislación de PVC cristal o bicolor. Diseñados para la interconexión de sistemas de audio, garantizando fidelidad en la señal.`,
     applications: `Interconexión de equipos de audio y aparatos portátiles. Diseñado para flexibilidad en instalaciones móviles.`,
@@ -341,7 +341,7 @@ Cordones de cobre flexible con aislación de PVC cristal o bicolor. Diseñados p
     id: 'civil-03',
     name: 'Cable Tipo Taller',
     categoryPath: ['Cables para Instalación Civil', 'Tipo Taller'],
-    description: 'Conductores diseñados para instalaciones móviles familiares, comerciales e industriales.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Conductores diseñados para instalaciones móviles familiares, comerciales e industriales, máquinas manipuladas manualmente y dispositivos portátiles en general.
 
@@ -440,7 +440,7 @@ Temperatura de montaje: igual o mayor a 5°C.`,
     id: 'aerea-preensamblado-aluminio',
     name: 'Preensamblado de Aluminio',
     categoryPath: ['Cables Instalación Aérea', 'Envainados'],
-    description: 'Conductores de aluminio para redes de distribución aérea de baja tensión de hasta 1 kV.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cable preensamblado para líneas aéreas de distribución de energía eléctrica en baja tensión, constituido por tres fases aisladas cableadas a espiral visible con un neutro portante (mensajero), aislado o desnudo; para tensiones nominales de servicio de hasta 1 kV entre fases. El conjunto básico descripto puede suministrarse con una o dos fases adicionales para alumbrado público.
 
@@ -560,7 +560,7 @@ t: duración del cortocircuito, en segundos.`,
     id: 'aerea-acometida-cobre',
     name: 'Acometidas de Cobre',
     categoryPath: ['Cables Instalación Aérea', 'Envainados'],
-    description: 'Cables preensamblados de cobre para conexiones domiciliarias y baja tensión.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Especialmente adecuado para acometidas desde líneas aéreas de baja tensión, monofásicas o trifásicas, hasta 0,6 / 1,1 kV.
 Fabricados con cobre electrolítico de alta conductividad semirrígido clase 2, los mismos están aislados y reunidos en espiral visible con relación de cableado de 14 a 16 veces el diámetro del conjunto o 60 veces el diámetro de una fase.
@@ -622,7 +622,7 @@ PARÁMETROS TÉCNICOS
     id: 'aerea-concentrico-aluminio',
     name: 'Concéntricos de Aluminio',
     categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto (ceCONEX)'],
-    description: 'Cables de seguridad con conductor de aluminio diseñados para prevenir conexiones clandestinas y asegurar la medición.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cables con conductor central de fase (Aluminio) y conductor neutro formado por una corona de alambres que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía sin afectar el neutro, provocando un cortocircuito que protege la red.
 
@@ -684,7 +684,7 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mecánic
     id: 'aerea-concentrico-cobre',
     name: 'Concéntricos de Cobre',
     categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto (ceCONEX)'],
-    description: 'Cables de seguridad con conductor de cobre diseñados para prevenir conexiones clandestinas y asegurar la medición.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cables con conductor central de fase (Cobre) y conductor neutro formado por una corona de alambres que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía sin afectar el neutro, provocando un cortocircuito que protege la red.
 
@@ -728,7 +728,7 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mecánic
     id: 'aerea-desnudo-aluminio',
     name: 'Cables Desnudos de Aleación de Aluminio',
     categoryPath: ['Cables Instalación Aérea', 'Desnudos'],
-    description: 'Conductores de aleación de aluminio para líneas aéreas de transporte y distribución.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Conductor de cuerda desnuda rígida de aleación de aluminio tratada térmicamente (6101 / 6201-T81). Ofrecen una excelente relación conductividad-peso y alta resistencia mecánica.
 
@@ -782,7 +782,7 @@ Acabado: Desnudo, sin aislación.`,
     id: 'aerea-desnudo-cobre',
     name: 'Cables Desnudos de Cobre Duro',
     categoryPath: ['Cables Instalación Aérea', 'Desnudos'],
-    description: 'Conductores de cobre electrolítico de alta pureza para redes aéreas y puestas a tierra.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cables de cobre duro desnudos, fabricados con cobre electrolítico de alta pureza. Ofrecen la máxima conductividad eléctrica y excelente resistencia a la corrosión.
 
@@ -836,7 +836,7 @@ Acabado: Desnudo, sin aislación.`,
     id: 'aerea-aluminio-acero',
     name: 'Aluminio con Alma de Acero',
     categoryPath: ['Cables Instalación Aérea', 'Desnudos'],
-    description: 'Conductores reforzados con alma de acero para grandes vanos y alta resistencia mecánica.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Conductores formados por alambres de aluminio grado 1350-H19 cableados alrededor de un núcleo central de acero galvanizado (ACSR). Combina la alta conductividad del aluminio con la excelente resistencia mecánica del acero.
 
@@ -889,7 +889,7 @@ Formación: Cableado concéntrico.`,
     id: 'subterraneo-lsoh-aluminio',
     name: 'Cable de Potencia Aluminio LSOH/LSOH',
     categoryPath: ['Cables de Potencia','Subterráneos','Subterráneo Aluminio'],
-    description: 'Cable de potencia con conductor de aluminio y aislación LSOH, libre de halógenos, para instalaciones fijas en sistemas de distribución de 1 kV.',
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cable de Potencia. Norma: IRAM 62266. Tensión: 1 kV.
 
@@ -1022,19 +1022,30 @@ Cables de potencia y cables de control y comando, con aislación y envolturas ex
     certifications: ['iram', 'no-propagacion', 'libre-halogenos', 'baja-emision-humos']
   },
   {
-    id: 'subterraneo-pvc-aluminio',
-    name: 'SUBTERRANEO PVC',
+        id: 'subterraneo-pvc-aluminio',
+    name: 'Cable de Potencia Aluminio PVC/PVC',
     categoryPath: ['Cables de Potencia','Subterráneos','Subterráneo Aluminio'],
-    description: 'Descripción no disponible.',
-    detailedDescription: 'Detalles a completar.',
+    description: 'Cable de potencia con conductor de aluminio y aislación de PVC, para instalaciones fijas en sistemas de distribución de 1 kV.',
+    detailedDescription: `DESCRIPCIÓN
+Cable de Potencia. Norma: IRAM 2178-1. Tensión: 1 kV.
+
+APLICACIONES
+Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um de 0,6/1(1,2) kV, para instalaciones fijas, con o sin protecciones contra perturbaciones electromagnéticas. Apto para tendidos directamente enterrados, en canaletas, bandejas o ductos.`,
     image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO ALUMINIO/SUBTERRANEO PVC/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO ALUMINIO/SUBTERRANEO PVC/FICHA TECNICA/ficha tecnica subte aluminio pvc.pdf',
-    specs: ['1 kV', 'IRAM 2178-1'],
+    specs: ['1 kV', '70°C', 'IRAM 2178-1'],
     characteristics: [
-      'Material aislante: PVC',
-      'No propaga la llama',
-      'Apto para instalaciones subterráneas'
+      'CONDUCTOR',
+      'Material: Aluminio.',
+      'Norma: IRAM NM 280. Conductores Clase 2.',
+      'Temperatura máxima en carga permanente: 70°C.',
+      'Temperatura máxima en cortocircuito: 160°C (S ≤ 300 mm²) / 140°C (S > 300 mm²).',
+      'Duración de cortocircuito: 5 s.',
+      'AISLANTE',
+      'Material: PVC.',
+      'Colores — Unipolar: Marrón. Dos conductores: Marrón y Celeste. Tres conductores: Marrón, Negro y Rojo. Cuatro conductores: Marrón, Negro, Rojo y Celeste.',
+      'Ensayos de fuego: No propagación de la llama (IRAM NM IEC 60332-1) / No propagación del incendio (IRAM NM IEC 60332-3-24).'
     ],
     specsTables: [
   {
@@ -1344,7 +1355,7 @@ Cables de potencia y cables de control y comando, con aislación y envolturas ex
     id: 'subterraneo-xlpe-aluminio',
     name: 'SUBTERRANEO XLPE',
     categoryPath: ['Cables de Potencia', 'Subterráneos', 'Subterráneo Aluminio'],
-    description: 'Cables subterráneos de potencia de aluminio, aislación XLPE y vaina de PVC.',
+    description: 'Cables de potencia y cables de  control y comando, con aislación  y envolturas extruidas, de baja',
     detailedDescription: `DESCRIPCIÓN
 Cables subterráneos de potencia, de aluminio, con aislación XLPE y vaina de PVC violeta. Aptos para sistemas fijos de potencia y distribución de energía.
 
@@ -1453,20 +1464,30 @@ Instalación a la intemperie, sobre bandejas portacables, en ductos eléctricos 
 ]
   },
   {
-    id: 'subterraneo-lsoh-cobre',
-    name: 'SUBTERRANEO LSOH',
+        id: 'subterraneo-lsoh-cobre',
+    name: 'Cable de Potencia Cobre LSOH/LSOH',
     categoryPath: ['Cables de Potencia','Subterráneos','Subterráneo Cobre'],
-    description: 'Descripción no disponible.',
-    detailedDescription: 'Detalles a completar.',
+    description: 'Cable de potencia con conductor de cobre y aislación LSOH, libre de halógenos, para instalaciones fijas en sistemas de distribución de 1 kV.',
+    detailedDescription: `DESCRIPCIÓN
+Cable de Potencia. Norma: IRAM 62266. Tensión: 1 kV.
+
+APLICACIONES
+Cables de potencia y cables de control y comando, con aislación y envolturas extruidas, de baja emisión de humos, toxicidad y libres de halógeno, para una tensión de 1 kV, para instalaciones fijas, tales como sistemas (redes) de distribución o instalaciones industriales. Especialmente diseñados para ser utilizados en inmuebles de alta densidad de ocupación y/o con condiciones de evacuación difíciles.`,
     image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO LSOH/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO LSOH/FICHA TECNICA/ficha tecnica subte cobre lsoh.pdf',
-    specs: ['1 kV', 'IRAM 62266'],
+    specs: ['1 kV', '70°C / 90°C', 'IRAM 62266'],
     characteristics: [
-      'Material aislante: LSOH',
-      'No propaga el incendio (IRAM 2289)',
-      'Baja emisión de humos tóxicos',
-      'Libre de halógenos'
+      'CONDUCTOR',
+      'Material: Cobre recocido.',
+      'Norma: IRAM NM 280. Conductores Clase 4 / Clase 5.',
+      'Temperatura máxima en carga permanente: 70°C / 90°C.',
+      'Temperatura máxima en cortocircuito: 160°C (S ≤ 300 mm²) / 140°C (S > 300 mm²).',
+      'Duración de cortocircuito: 5 s.',
+      'AISLANTE',
+      'Material: LSOH.',
+      'Colores — Unipolar: Marrón. Dos conductores: Marrón y Celeste. Tres conductores: Marrón, Negro y Rojo. Cuatro conductores: Marrón, Negro, Rojo y Celeste.',
+      'No propaga el incendio: IRAM 2289 - Cat. C.'
     ],
     specsTables: [
   {
@@ -2066,19 +2087,30 @@ Instalación a la intemperie, sobre bandejas portacables, en ductos eléctricos 
     certifications: []
   },
   {
-    id: 'subterraneo-pvc-cobre',
-    name: 'SUBTERRANEO PVC',
+        id: 'subterraneo-pvc-cobre',
+    name: 'Cable de Potencia Cobre PVC/PVC',
     categoryPath: ['Cables de Potencia','Subterráneos','Subterráneo Cobre'],
-    description: 'Descripción no disponible.',
-    detailedDescription: 'Detalles a completar.',
+    description: 'Cable de potencia con conductor de cobre y aislación de PVC, para instalaciones fijas en sistemas de distribución de 1 kV.',
+    detailedDescription: `DESCRIPCIÓN
+Cable de Potencia. Norma: IRAM 2178-1. Tensión: 1 kV.
+
+APLICACIONES
+Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um de 0,6/1(1,2) kV, para instalaciones fijas, con o sin protecciones contra perturbaciones electromagnéticas. Apto para tendidos directamente enterrados, en canaletas, bandejas o ductos.`,
     image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO PVC/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO PVC/FICHA TECNICA/ficha tecnica subte cobre pvc.pdf',
-    specs: ['1 kV', 'IRAM 2178-1'],
+    specs: ['1 kV', '70°C', 'IRAM 2178-1'],
     characteristics: [
-      'Material aislante: PVC',
-      'No propaga la llama',
-      'Apto para instalaciones subterráneas'
+      'CONDUCTOR',
+      'Material: Cobre recocido.',
+      'Norma: IRAM NM 280. Conductores Clase 4 o Clase 2.',
+      'Temperatura máxima en carga permanente: 70°C.',
+      'Temperatura máxima en cortocircuito: 160°C (S ≤ 300 mm²) / 140°C (S > 300 mm²).',
+      'Duración de cortocircuito: 5 s.',
+      'AISLANTE',
+      'Material: PVC.',
+      'Colores — Unipolar: Marrón. Dos conductores: Marrón y Celeste. Tres conductores: Marrón, Negro y Rojo. Cuatro conductores: Marrón, Negro, Rojo y Celeste.',
+      'Ensayos de fuego: No propagación de la llama (IRAM NM IEC 60332-1) / No propagación del incendio (IRAM NM IEC 60332-3-24).'
     ],
     specsTables: [
   {
@@ -2500,7 +2532,7 @@ Instalación a la intemperie, sobre bandejas portacables, en ductos eléctricos 
     id: 'subterraneo-xlpe-cobre',
     name: 'SUBTERRANEO XLPE',
     categoryPath: ['Cables de Potencia', 'Subterráneos', 'Subterráneo Cobre'],
-    description: 'Cables subterráneos de potencia de cobre, aislación XLPE y vaina de PVC.',
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
 Cables subterráneos de potencia, de cobre recocido, con aislación XLPE y vaina de PVC violeta. Aptos para sistemas fijos de potencia y distribución de energía.
 
@@ -2622,7 +2654,7 @@ Instalación a la intemperie, sobre bandejas portacables, en ductos eléctricos 
     id: '2-para-bomba-sumergible',
     name: '2-PARA BOMBA SUMERGIBLE',
     categoryPath: ['Cables de Potencia'],
-    description: 'Cables flexibles con vaina plana celeste para el conexionado de todo tipo de bombas sumergibles.',
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
 Cables planos (vaina chata) diseñados especialmente para la alimentación de bombas sumergibles. Poseen excelente flexibilidad y resistencia a la inmersión en agua y agentes químicos comunes.
 
@@ -2674,7 +2706,7 @@ Conexionado y alimentación eléctrica de bombas sumergibles instaladas en pozos
     id: '3-para-variador-de-frecuencia',
     name: '3-PARA VARIADOR DE FRECUENCIA',
     categoryPath: ['Cables de Potencia'],
-    description: 'Alimentación de motores con variadores de frecuencia. (VDF) - XLPE/PVC - 0,6/1kV - 90ºC.',
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
 Cables tripolares blindados diseñados especialmente para la alimentación de motores comandados por variadores de frecuencia (VDF/VFD). Ofrecen una excelente inmunidad a las interferencias electromagnéticas (EMI) gracias a su doble blindaje concéntrico.
 
@@ -2752,7 +2784,7 @@ Conexión de potencia entre convertidores de frecuencia y motores eléctricos en
     id: '13-2-kv-aluminio',
     name: '13,2 KV',
     categoryPath: ['Cables de Media Tensión', 'Aluminio', '13.2 kV'],
-    description: 'Cables subterráneos de potencia de aluminio para 13.2 kV, aislación de XLPE y vaina de PVC.',
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
 Cables unipolares subterráneos de potencia, de aluminio compactado, aislación de XLPE y envoltura de PVC. Diseñados para sistemas de media tensión.
 
@@ -2799,7 +2831,7 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     id: '33-kv-aluminio',
     name: '33 KV',
     categoryPath: ['Cables de Media Tensión', 'Aluminio', '33 kV'],
-    description: 'Cables subterráneos de potencia de aluminio para 33 kV, aislación de XLPE y vaina de PVC.',
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
 Cables unipolares subterráneos de potencia, de aluminio compactado, aislación de XLPE y envoltura de PVC. Diseñados para sistemas de distribución de 33 kV.
 
@@ -2847,8 +2879,8 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     id: 'otras-potencias-aluminio',
     name: 'OTRAS POTENCIAS',
     categoryPath: ['Cables de Media Tensión','Aluminio','Otras Potencias'],
-    description: 'Descripción no disponible.',
-    detailedDescription: 'Detalles a completar.',
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
+    detailedDescription: 'Cables de energía y potencia para múltiples aplicaciones.',
     image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/OTRAS POTENCIAS/portada.jpeg',
     gallery: [],
     pdf: '',
@@ -3306,7 +3338,7 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     id: '13-2-kv-cobre',
     name: '13,2 KV',
     categoryPath: ['Cables de Media Tensión', 'Cobre', '13.2 kV'],
-    description: 'Cables subterráneos de potencia de cobre para 13.2 kV, aislación de XLPE y vaina de PVC.',
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
 Cables unipolares subterráneos de potencia, de cobre electrolítico compactado, aislación de XLPE y envoltura de PVC. Diseñados para sistemas de media tensión.
 
@@ -3354,7 +3386,7 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     id: '33-kv-cobre',
     name: '33 KV',
     categoryPath: ['Cables de Media Tensión', 'Cobre', '33 kV'],
-    description: 'Cables subterráneos de potencia de cobre para 33 kV, aislación de XLPE y vaina de PVC.',
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
 Cables unipolares subterráneos de potencia, de cobre electrolítico compactado, aislación de XLPE y envoltura de PVC. Diseñados para sistemas de distribución de 33 kV.
 
@@ -3400,8 +3432,8 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     id: 'otras-potencias-cobre',
     name: 'OTRAS POTENCIAS',
     categoryPath: ['Cables de Media Tensión','Cobre','Otras Potencias'],
-    description: 'Descripción no disponible.',
-    detailedDescription: 'Detalles a completar.',
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
+    detailedDescription: 'Cables de energía y potencia para múltiples aplicaciones. Normas: constructiva:UL 13 tipo PLTC - UL 2250 tipo ITC',
     image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/OTRAS POTENCIAS/PORTADA.jpeg',
     gallery: [],
     pdf: '',
@@ -3432,7 +3464,7 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     id: 'industrial-instrumentacion-electronica-libre-halogenos-lsoh',
     name: 'LSOH',
     categoryPath: ['Cables Industriales', 'Instrumentación Electrónica', 'Libre de Halógenos'],
-    description: 'Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.',
+    description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `300 Volt Cu 22 a 12 AWG LSZH 90°C / LSZH UL 13 PLTC
 Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
 Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
