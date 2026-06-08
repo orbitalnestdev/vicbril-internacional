@@ -11,6 +11,7 @@ const Products: React.FC = () => {
   const [activePath, setActivePath] = useState<string[]>([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<string>('');
+  const [imageErrors, setImageErrors] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     const pathParam = searchParams.get('path');
@@ -277,14 +278,15 @@ const Products: React.FC = () => {
                           .normalize("NFD")
                           .replace(/[\u0300-\u036f]/g, "")
                           .replace(/^\d+[-_]/, "")
+                          .replace(/\b(?:de|a)\b/g, "")
                           .replace(/[^a-z0-9]/g, "");
                       };
 
                       const cleanSub = clean(sub);
                       let matchIndex = -1;
                       
-                      // Search from the first folder segment forwards (avoiding the filename at parts.length - 1)
-                      for (let idx = 0; idx < parts.length - 1; idx++) {
+                      // Search from the highest level folder segment forward (avoiding the filename at parts.length - 1)
+                      for (let idx = 0; idx <= parts.length - 2; idx++) {
                         const part = parts[idx];
                         if (!part) continue;
                         const cleanPart = clean(part);
@@ -324,7 +326,20 @@ const Products: React.FC = () => {
                     }
                   }
 
-                  const folderImage = categoryImage || parentCoverImage || firstProductWithImage?.image || productsInThisFolder[0]?.image || '/images/vicbril-hero-1.jpg';
+                  let folderImage = categoryImage || parentCoverImage || firstProductWithImage?.image || productsInThisFolder[0]?.image || '/images/vicbril-hero-1.jpg';
+
+                  // Apply dynamic casing fallback if the image previously failed to load
+                  if (imageErrors[sub]) {
+                    if (folderImage.endsWith('/PORTADA.jpeg')) {
+                      folderImage = folderImage.replace(/\/PORTADA\.jpeg$/, '/portada.jpeg');
+                    } else if (folderImage.endsWith('/portada.jpeg')) {
+                      folderImage = folderImage.replace(/\/portada\.jpeg$/, '/PORTADA.jpeg');
+                    } else if (folderImage.endsWith('/PORTADA.png')) {
+                      folderImage = folderImage.replace(/\/PORTADA\.png$/, '/portada.png');
+                    } else if (folderImage.endsWith('/portada.png')) {
+                      folderImage = folderImage.replace(/\/portada\.png$/, '/PORTADA.png');
+                    }
+                  }
 
                   return (
                     <div
@@ -338,6 +353,11 @@ const Products: React.FC = () => {
                             src={folderImage}
                             alt={sub}
                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            onError={() => {
+                              if (!imageErrors[sub]) {
+                                setImageErrors(prev => ({ ...prev, [sub]: true }));
+                              }
+                            }}
                           />
                           <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors"></div>
                           <div className="absolute top-4 right-4 w-10 h-10 bg-white/90 backdrop-blur rounded-full flex items-center justify-center text-slate-900 shadow-lg">

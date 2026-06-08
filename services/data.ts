@@ -449,11 +449,11 @@ Estos cables se utilizan en líneas aéreas de distribución en baja tensión, i
 
 NORMAS
 La construcción y ensayo de los cables contemplados en el presente folleto responden a las normas IRAM 2263, NBR 8182, ICEA S-76-474 y NFC 33209.`,
-    image: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
     gallery: [
-      '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/FICHA TECNICA/foto dentro de ficha tecnica.jpeg'
+      '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/FICHA TECNICA/foto dentro de ficha tecnica.jpeg'
     ],
-    pdf: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/FICHA TECNICA/ficha tecnica a modificar.pdf',
     specs: ['0,6 / 1 kV', '90° C', 'IRAM 2263'],
     technicalIntro: `ELECCIÓN DE LOS CABLES
 La sección de los cables se determina en función de la corriente a transmitir, caída de tensión e intensidad de cortocircuito admisible.
@@ -572,11 +572,11 @@ Sistemas de distribución de energía en baja tensión. Acometidas monofásicas 
 
 NORMAS
 IRAM 2164 - IRAM NM 280 (Clase 2).`,
-    image: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
     gallery: [
-      '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
+      '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
     ],
-    pdf: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/FICHA TECNICA/ficha tecnica a modificar.pdf',
     specs: ['0,6 / 1,1 kV', 'Cobre Clase 2', 'IRAM 2164'],
     technicalIntro: `CONSTRUCCIÓN
 Conductores: Cuerda rígida de cobre electrolítico recocido (Norma IRAM NM 280, clase 2).
@@ -619,9 +619,9 @@ PARÁMETROS TÉCNICOS
     ],
     certifications: ['iram', 'seguridad', 'marcacion-secuencial', 'resistente-uv']
   },  {
-    id: 'aerea-concentrico-aluminio',
-    name: 'Concéntricos de Aluminio',
-    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto (ceCONEX)'],
+    id: 'aerea-concentrico-aluminio-monofasico',
+    name: 'Concéntrico de Aluminio Monofásico',
+    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto (ceCONEX)', 'Concéntricos de Aluminio'],
     description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cables con conductor central de fase (Aluminio) y conductor neutro formado por una corona de alambres que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía sin afectar el neutro, provocando un cortocircuito que protege la red.
@@ -631,8 +631,11 @@ Acometidas desde líneas aéreas preensambladas y transformadores hacia medidore
 
 NORMAS
 IRAM 63001, IRAM-NM 280, ICEA S-95-658, IEC 60502-1.`,
-    image: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
-    pdf: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/1-CONCENTRICO ALUMINIO MONOFASICO/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/1-CONCENTRICO ALUMINIO MONOFASICO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    gallery: [
+      '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/1-CONCENTRICO ALUMINIO MONOFASICO/FICHA TECNICA/foto dentro de ficha tecnica.jpeg'
+    ],
+    pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/1-CONCENTRICO ALUMINIO MONOFASICO/FICHA TECNICA/ficha tecnica a modificar.pdf',
     specs: ['0,6 / 1,1 kV', 'Antihurto', 'Aluminio'],
     technicalIntro: `CONSTRUCCIÓN
 Conductor Central (Fase): Cuerda de aluminio puro (Clase 2).
@@ -657,7 +660,43 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mecánic
           ["1x16 + 16", "1 x 7 x 1,70", "0,7", "12", "1,24", "1,91", "150", "72"],
           ["1x25 + 25", "1 x 7 x 2,15", "0,9", "14", "1,24", "1,2", "225", "94"]
         ]
-      },
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'resistente-uv', 'antihurto']
+  },
+  {
+    id: 'aerea-concentrico-aluminio-trifasico',
+    name: 'Concéntrico de Aluminio Trifásico',
+    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto (ceCONEX)', 'Concéntricos de Aluminio'],
+    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
+    detailedDescription: `DESCRIPCIÓN
+Cables con tres conductores centrales de fase (Aluminio) y conductor neutro formado por una corona de alambres que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía sin afectar el neutro, provocando un cortocircuito que protege la red.
+
+USO
+Acometidas trifásicas desde líneas aéreas preensambladas y transformadores hacia medidores. Especialmente diseñado para imposibilitar conexiones clandestinas (antihurto).
+
+NORMAS
+IRAM 63001, IRAM-NM 280, ICEA S-95-658, IEC 60502-1.`,
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/2-CONCENTRICO ALUMINIO TRIFASICO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    gallery: [
+      '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/2-CONCENTRICO ALUMINIO TRIFASICO/FICHA TECNICA/foto dentro de ficha tecnica.jpeg'
+    ],
+    pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/2-CONCENTRICO ALUMINIO TRIFASICO/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    specs: ['0,6 / 1,1 kV', 'Antihurto', 'Aluminio'],
+    technicalIntro: `CONSTRUCCIÓN
+Conductores Centrales (Fases): Tres cuerdas de aluminio puro (Clase 2).
+Aislación: Polietileno reticulado (XLPE) resistente a la intemperie.
+Conductor Periférico (Neutro): Corona de alambres de aleación de aluminio dispuesto helicoidalmente.
+Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mecánica y UV.`,
+    characteristics: [
+      'CONSTRUCCIÓN',
+      'Configuración concéntrica que impide el fraude eléctrico.',
+      'Conductor de fase central protegido por el neutro periférico.',
+      'Aislación y vaina en XLPE de alta resistencia térmica (90°C).',
+      'Excelente resistencia a la intemperie y radiación UV.',
+      'Marcación secuencial metro a metro para control de stock.'
+    ],
+    specsTables: [
       {
         title: "Aluminio Trifásico (3xAl + Al) - Norma IEC 60502-1 (Métrico)",
         headers: ["Sección Nominal (mm²)", "Espesor de aislación nominal (mm)", "Espesor de la cubierta mínimo (mm)", "Diámetro exterior aprox. (mm)", "Peso aproximado (kg/km)", "Resistencia eléctrica en CC a 20°C (Ohm/km)", "Reactancia inductiva a 50 Hz (Ohm/km)", "Corriente admisible a 40°C (A)"],
@@ -693,8 +732,8 @@ Acometidas desde líneas aéreas preensambladas y transformadores hacia medidore
 
 NORMAS
 IRAM 63001, IRAM-NM 280, ICEA S-95-658, IEC 60502-1.`,
-    image: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
-    pdf: '/images/ProductosNuevos/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/FICHA TECNICA/ficha tecnica a modificar.pdf',
     specs: ['0,6 / 1,1 kV', 'Antihurto', 'Cobre'],
     technicalIntro: `CONSTRUCCIÓN
 Conductor Central (Fase): Cuerda de cobre recocido (Clase 2).
@@ -737,11 +776,11 @@ Transmisión aérea de energía en media y baja tensión (hasta 33 kV).
 
 NORMAS
 IRAM 2212, ASTM B-399.`,
-    image: '/images/ProductosNuevos/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/PORTADA(ELIMINAR LOGO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/PORTADA(ELIMINAR LOGO GEMINI).jpeg',
     gallery: [
-      '/images/ProductosNuevos/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
+      '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
     ],
-    pdf: '/images/ProductosNuevos/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/FICHA TECNICA/ficha tecnica a modificar.pdf',
     specs: ['Aleación 6101/6201', 'Temple Duro', 'IRAM 2212'],
     technicalIntro: `CONSTRUCCIÓN
 Conductor: Cuerda concéntrica de alambres de aleación de aluminio 6201-T81.
@@ -791,11 +830,11 @@ Redes aéreas de distribución de energía, líneas de transmisión y sistemas d
 
 NORMAS
 IRAM 2004.`,
-    image: '/images/ProductosNuevos/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/PORTADA(ELIMINAR LOGO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/PORTADA(ELIMINAR LOGO GEMINI).jpeg',
     gallery: [
-      '/images/ProductosNuevos/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
+      '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
     ],
-    pdf: '/images/ProductosNuevos/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/FICHA TECNICA/ficha tecnica a modificar.pdf',
     specs: ['Cobre Electrolítico', 'Temple Duro', 'IRAM 2004'],
     technicalIntro: `CONSTRUCCIÓN
 Conductor: Cuerda concéntrica de alambres de cobre electrolítico recocido o duro.
@@ -845,11 +884,11 @@ Líneas aéreas de transmisión y distribución de energía eléctrica, especial
 
 NORMAS
 IRAM 2187, ASTM B-232.`,
-    image: '/images/ProductosNuevos/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/portada (eliminar logo de gemini).png',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/portada (eliminar logo de gemini).png',
     gallery: [
-      '/images/ProductosNuevos/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
+      '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
     ],
-    pdf: '/images/ProductosNuevos/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/FICHA TECNICA/ficha tecnica a modificar.pdf',
+    pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/FICHA TECNICA/ficha tecnica a modificar.pdf',
     specs: ['ACSR', 'Reforzado', 'IRAM 2187'],
     technicalIntro: `CONSTRUCCIÓN
 Conductor: Alambres de aluminio 1350-H19.
@@ -2660,7 +2699,7 @@ Cables planos (vaina chata) diseñados especialmente para la alimentación de bo
 
 APLICACIONES
 Conexionado y alimentación eléctrica de bombas sumergibles instaladas en pozos de agua, cisternas y aplicaciones industriales similares.`,
-    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/2-PARA BOMBA SUMERGIBLE/foto ficha tecnica(1).jpeg',
+    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/2-PARA BOMBA SUMERGIBLE/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/2-PARA BOMBA SUMERGIBLE/FICHA TECNICA BOMBA SUMERGIBLE.pdf',
     specs: ['IRAM 63007', 'Cu Clase 4', 'Vaina Celeste'],
@@ -2712,7 +2751,7 @@ Cables tripolares blindados diseñados especialmente para la alimentación de mo
 
 APLICACIONES
 Conexión de potencia entre convertidores de frecuencia y motores eléctricos en aplicaciones industriales y de automatización.`,
-    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/3-PARA VARIADOR DE FRECUENCIA/foto ficha tecnica(1).jpeg',
+    image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/3-PARA VARIADOR DE FRECUENCIA/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/3-PARA VARIADOR DE FRECUENCIA/FICHA TECNICA VDF.pdf',
     specs: ['0.6/1 kV', 'Doble Blindaje', 'XLPE/PVC'],
@@ -38054,6 +38093,83 @@ Instalación fija en ductos, bandejas portacables o al aire libre según especif
             ]
       }
 ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-comando-blindado-mm2-pvc-hasta-48-conductores-1-a-4-mm-corrugado-cobre',
+    name: 'PVC - Hasta 48 Conductores - 1 a 4mm² - Corrugado Cobre',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Comando Blindado', 'mm²'],
+    description: 'Equipos de control, señalización, medición, protección y comandos eléctricos en subestaciones de alta tensión.',
+    detailedDescription: `0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores PVC 70°C / PVC Protección electromagnética
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales o subestaciones de alta tensión (SSEE), su blindaje permite el adecuado filtrado de interferencias electromagnéticas a frecuencias hasta 1 MHz.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o directamente enterrados.`,
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/2-PVC - HASTA 48 CONDUCTORES - 1 A 4MM2 - CORRUGADO COBRE/PORTADA.jpeg',
+    gallery: [],
+    specs: ['1kV', '70°C', '1 a 4mm²'],
+    characteristics: [
+      'Temperatura máxima: 70°C máxima de servicio – 160°C de cortocircuito',
+      'Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC',
+      'Norma constructiva: IRAM 2178-1 – IEC 60502-1',
+      'Norma de conductores: IRAM NM 280 – IEC 60228',
+      'Conductor: Cobre electrolítico recocido en formación flexible clase 5',
+      'Aislación: PVC',
+      'Asiento de blindaje: PVC',
+      'Blindaje: Cinta longitudinal corrugada de cobre recocido con solape adecuado',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar y los aceites',
+      'Norma de fuego: IEC 60332-1',
+      'Norma de EMC: IRAM 63020 – HN 33-S-34, impedancia de transferencia (Zt) menor a 2 ohm/km hasta frecuencias de 1MHz.',
+      'Norma de aceites: ICEA S 73-532',
+      'Norma de intemperismo: UL 2556 (rayos UV)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-comando-blindado-awg-14-a-10-awg-600-volts-doble-aislacion',
+    name: '14 a 10 AWG - 600 Volts - Doble Aislación',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Comando Blindado', 'AWG'],
+    description: 'Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales con doble aislación y protección electromagnética.',
+    detailedDescription: `600 Volt Cu 14 a 10 AWG Doble Aislación.
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales. Cuenta con doble aislación y blindaje electromagnético adicional para evitar interferencias.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o directamente enterrados.`,
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/1-AWG/1-14 A 10 AWG - 600 VOLTS - DOBLE AISLACION/PORTADA.jpeg',
+    gallery: [],
+    specs: ['600 Volt', '14 a 10 AWG', 'Doble Aislación'],
+    characteristics: [
+      'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
+      'Tensión nominal: 600 Volt CA',
+      'Conductor: Cobre electrolítico recocido en formación clase B',
+      'Aislación: XLPE con doble aislación',
+      'Blindaje: Cinta de aluminio-poliéster (Cobertura 100%) más trenza de cobre o fleje helicoidal',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma de intemperismo: UL 2556 (rayos UV)'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  },
+  {
+    id: 'industrial-cable-comando-comando-blindado-awg-16-a-10-awg-600-volts-doble-aislacion',
+    name: '16 a 10 AWG - 600 Volts - Doble Aislación',
+    categoryPath: ['Cables Industriales', 'Cable Comando', 'Comando Blindado', 'AWG'],
+    description: 'Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales con doble aislación y protección electromagnética.',
+    detailedDescription: `600 Volt Cu 16 a 10 AWG Doble Aislación.
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales. Cuenta con doble aislación y blindaje electromagnético adicional para evitar interferencias.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o directamente enterrados.`,
+    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/1-AWG/2-16 A 10 AWG - 600 VOLTS - DOBLE AISLACION/PORTADA.jpeg',
+    gallery: [],
+    specs: ['600 Volt', '16 a 10 AWG', 'Doble Aislación'],
+    characteristics: [
+      'Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito',
+      'Tensión nominal: 600 Volt CA',
+      'Conductor: Cobre electrolítico recocido en formación clase B',
+      'Aislación: XLPE con doble aislación',
+      'Blindaje: Cinta de aluminio-poliéster (Cobertura 100%) más trenza de cobre o fleje helicoidal',
+      'Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos',
+      'Norma de fuego: UL 1685',
+      'Norma de intemperismo: UL 2556 (rayos UV)'
+    ],
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   }
