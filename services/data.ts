@@ -40,29 +40,29 @@ export const categories: Category[] = [
     id: 'alta-temperatura',
     name: 'Cables Alta Temperatura',
     slug: 'cables-alta-temperatura',
-    image: '/images/vicbril-hero-1.jpg',
-    banner: '/images/vicbril-hero-1.jpg'
+    image: '/images/home_productos/Cables-alta-temperatura.jpg',
+    banner: '/images/home_productos/Cables-alta-temperatura.jpg'
   },
   {
     id: 'armados',
     name: 'Cables Armados',
     slug: 'cables-armados',
-    image: '/images/vicbril-hero-1.jpg',
-    banner: '/images/vicbril-hero-1.jpg'
+    image: '/images/home_productos/Cables-armados.jpg',
+    banner: '/images/home_productos/Cables-armados.jpg'
   },
   {
     id: 'especiales',
     name: 'Cables Especiales',
     slug: 'cables-especiales',
-    image: '/images/vicbril-hero-1.jpg',
-    banner: '/images/vicbril-hero-1.jpg'
+    image: '/images/ProductosNuevos/8-CABLES ESPECIALES/PORTADA.jpeg',
+    banner: '/images/ProductosNuevos/8-CABLES ESPECIALES/PORTADA.jpeg'
   },
   {
     id: 'resto-materiales',
     name: 'Resto de Materiales Eléctricos',
     slug: 'resto-materiales-electricos',
-    image: '/images/vicbril-hero-1.jpg',
-    banner: '/images/vicbril-hero-1.jpg'
+    image: '/images/home_productos/Materiales electricos.jpg',
+    banner: '/images/home_productos/Materiales electricos.jpg'
   }
 ];
 
@@ -38172,6 +38172,625 @@ Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intem
     ],
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
+  }
+,
+  {
+    id: 'alta-temp-solares',
+    name: 'PAYTON® SOLTIX',
+    categoryPath: ['Cables Alta Temperatura', 'Solares'],
+    description: 'Cables flexibles con conductor de cobre multifilar, aislados para tensiones nominales de 1,5 kVCC, apto para sistemas fotovoltaicos. Resistente al intemperismo y rayos UV.',
+    detailedDescription: `DESCRIPCIÓN
+Los Payton® Soltix se utilizan en la interconexión de paneles fotovoltaicos, son adecuados para instalaciones fijas, tanto interior como exterior. NO APTO para aplicaciones de enterramiento directo. Recomendado para instalaciones donde el fuego, la emisión de humos y los vapores tóxicos representan un riesgo.
+
+APLICACIONES
+Sistemas solares fotovoltaicos terrestres, sobre cubiertas, plantas de generación y parques solares.`,
+    image: '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/1-SOLARES/PORTADA.jpeg',
+    pdf: '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/1-SOLARES/FICHA TECNICA.pdf',
+    specs: ['1.5 kVCC', 'Fotovoltaicos', 'Resistente UV'],
+    characteristics: [
+      'Norma de construcción y ensayo: IEC 62930',
+      'Conductor: según IEC 60228 Clase 5. (Opcional Cobre estañado)',
+      'Aislación: Polímero reticulado libre de halógenos resistente al fuego',
+      'Cubierta: Polímero reticulado libre de halógenos resistente al fuego',
+      'Colores de aislación / envoltura: Natural / Negro o Rojo',
+      'Rango de fabricación: de 2,5 a 16 mm²'
+    ],
+    specsTables: [
+      {
+        title: 'Dimensiones y peso',
+        headers: ['Sección nominal (mm²)', 'Diámetro nominal (mm)', 'Peso nominal (kg/km)', 'Resist. Desnudo (Ohm/km)', 'Resist. Estañado (Ohm/km)', '1 cable en aire (A)', '1 cable sobre superf. (A)', '2 cables tocándose (A)'],
+        rows: [
+          ['2.5', '5.43', '44.33', '7.98', '8.21', '42', '40', '33'],
+          ['4', '5.97', '60.49', '4.95', '5.09', '57', '54', '45'],
+          ['6', '6.73', '83.15', '3.30', '3.39', '72', '69', '58'],
+          ['10', '7.84', '126.86', '1.91', '1.95', '98', '96', '80'],
+          ['16', '8.89', '184.36', '1.21', '1.24', '132', '130', '107']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'libre-halogenos', 'resistente-uv']
+  },
+  {
+    id: 'alta-temp-siliconados',
+    name: 'Unipolar Siliconado',
+    categoryPath: ['Cables Alta Temperatura', 'Siliconados'],
+    description: 'Cables flexibles con aislamiento de silicona de alto rendimiento para temperaturas de trabajo extremas.',
+    detailedDescription: `DESCRIPCIÓN
+Conductor formado a partir del reunido de alambres de cobre recocido según normas IRAM NM 280 en Clase 4 y 5. Aislación conformada por caucho de silicona de alto rendimiento ante bajas y altas temperaturas de trabajo.
+
+APLICACIONES
+Apto para artefactos electrodomésticos e industriales y de iluminación de altas o bajas temperaturas. Altamente flexible. Dependiendo de las características eléctricas será diferenciado en tensiones de trabajo.`,
+    image: '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/2-SILICONADOS/PORTADA Y FOTO FICHA TECNICA.jpeg',
+    pdf: '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/2-SILICONADOS/FICHA TECNICA.pdf',
+    specs: ['-60°C a +180°C', 'Silicona', 'IRAM NM 274'],
+    characteristics: [
+      'Tensión Nominal de Trabajo: Sil 01 (300/500V) - Sil 02 (450/750V).',
+      'Temperatura Máxima de Trabajo: -60°C a +180°C.',
+      'Conductor: Alambres de cobre recocido según normas IRAM NM 280 en Clase 4 y 5.',
+      'Aislación: Caucho de silicona de alto rendimiento.',
+      'Norma constructiva: IRAM NM 274.'
+    ],
+    specsTables: [
+      {
+        title: 'Requisitos Generales IRAM NM 274: 2002',
+        headers: ['Sección Nominal (mm²)', 'Resist. máxima a 20°C (Ohm/km)', 'Espesor Aisl. SIL 01 (mm)', 'Espesor Aisl. SIL 02 (mm)', 'Diámetro Ext. SIL 01 (mm)', 'Diámetro Ext. SIL 02 (mm)'],
+        rows: [
+          ['0.5', '36', '0.6', '0.8', '2.1 - 2.6', '2.4 - 3.1'],
+          ['0.75', '26', '0.6', '0.8', '2.2 - 2.8', '2.6 - 3.2'],
+          ['1', '19.5', '0.6', '0.8', '2.4 - 2.9', '2.7 - 3.4'],
+          ['1.5', '13.3', '0.7', '0.8', '2.8 - 3.5', '3.0 - 3.6'],
+          ['2.5', '7.98', '-', '0.8', '-', '3.4 - 4.3'],
+          ['4', '4.95', '-', '0.8', '-', '3.9 - 4.9'],
+          ['6', '3.3', '-', '0.8', '-', '4.4 - 5.5'],
+          ['10', '1.91', '-', '1.0', '-', '5.7 - 7.1']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'temperatura-servicio']
+  },
+  {
+    id: 'alta-temp-fibra-mica',
+    name: 'Fibra de Vidrio y/o Mica',
+    categoryPath: ['Cables Alta Temperatura', 'Fibra de Vidrio y/o Mica'],
+    description: 'Cables de extrema resistencia térmica protegidos con trenzas de fibra de vidrio y/o cintas de mica.',
+    detailedDescription: `DESCRIPCIÓN
+Conductores para temperaturas extremas (hasta 400°C), construidos con conductor de níquel o cobre niquelado, aislados con cintas de mica y protegidos con trenzas de fibra de vidrio impregnadas.
+
+APLICACIONES
+Resistencias eléctricas industriales, hornos de fundición, extrusoras de plástico, fundiciones y aplicaciones de seguridad contra incendios donde se requiere soporte a choques térmicos elevados.`,
+    image: '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/3-FIBRA DE VIDRIO Y-O AISLACIÓN DE MICA/PORTADA.jpeg',
+    gallery: [
+      '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/3-FIBRA DE VIDRIO Y-O AISLACIÓN DE MICA/INFO FICHA TECNICA 1.jpeg',
+      '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/3-FIBRA DE VIDRIO Y-O AISLACIÓN DE MICA/INFO FICHA TECNICA 2.jpeg',
+      '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/3-FIBRA DE VIDRIO Y-O AISLACIÓN DE MICA/INFO FECHA TECNICA 3.jpeg',
+      '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/3-FIBRA DE VIDRIO Y-O AISLACIÓN DE MICA/INFO FICHA TECNICA 4.jpeg'
+    ],
+    specs: ['400°C', 'Mica / Fibra de Vidrio', 'Extrema Temperatura'],
+    characteristics: [
+      'Resistencia extrema a altas temperaturas continuas (hasta 400°C).',
+      'Aislación mineral de mica de alta resistencia dieléctrica.',
+      'Trenza de fibra de vidrio impregnada para protección mecánica y térmica.',
+      'Conductor de níquel o cobre niquelado flexible.'
+    ],
+    certifications: ['iram', 'seguridad', 'temperatura-servicio']
+  },
+  {
+    id: 'alta-temp-pirometria',
+    name: 'Cables para Pirometría (Serie MP-MT)',
+    categoryPath: ['Cables Alta Temperatura', 'Pirometría'],
+    description: 'Circuitos de extensión de termocuplas para medición y registro de temperaturas.',
+    detailedDescription: `DESCRIPCIÓN
+Circuitos de extensión de termocuplas para medición y registro de temperaturas. Los cables están diseñados con las aleaciones correspondientes para garantizar lecturas de sensores precisas.
+
+APLICACIONES
+Conexión de termocuplas y sensores de temperatura en hornos, calderas, refinerías y plantas petroquímicas. Instalados en conduits, bandejas, escaleras, al aire libre directo o bajo techo.`,
+    image: '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/4-PIROMETRIA/PORTADA.jpeg',
+    pdf: '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/4-PIROMETRIA/FICHA TECNICA(AGREGAR VARIANTES_ PIROMETRIA, ARMADO, CORRUGADO).pdf',
+    gallery: [
+      '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/4-PIROMETRIA/IMAGEN DENTRO DE FICHA.jpeg'
+    ],
+    specs: ['300 V', 'Extensión Termocuplas', 'UL 13 PLTC'],
+    characteristics: [
+      'Temperatura máxima de servicio: 105ºC',
+      'Tensión nominal: 300 Volt CA',
+      'Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC',
+      'Norma de conductores termopares: ASTM E 230-98 (Códigos MP) / IEC 60584-3 (Códigos MT)',
+      'Termocupla tipo EX: (+) Chromel / (-) Constantan',
+      'Termocupla tipo JX: (+) Hierro / (-) Constantan',
+      'Termocupla tipo KX: (+) Chromel / (-) Alumel',
+      'Termocupla tipo TX: (+) Cobre E / (-) Constantan',
+      'Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado (cobertura 100%)',
+      'Vaina: PVC no propagante del incendio, resistente a rayos UV e hidrocarburos'
+    ],
+    specsTables: [
+      {
+        title: 'Dimensiones y Pesos (Estándar)',
+        headers: ['Tipo', 'Sección (mm²)', 'AWG', 'Formación del conductor', 'Diámetro exterior (mm)', 'Peso (kg/km)'],
+        rows: [
+          ['Par rígido', '0.5', '20', '1x0.80', '5.0', '30'],
+          ['Par rígido', '1.31', '16', '1x1.29', '6.2', '51'],
+          ['Par flexible', '0.5', '20', '16x0.20', '5.3', '32'],
+          ['Par flexible', '0.81', '18', '26x0.20', '6.0', '42'],
+          ['Par flexible', '1.31', '16', '42x0.20', '6.7', '55']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion']
+  },
+  {
+    id: 'alta-temp-seguridad-incendio',
+    name: 'Seguridad e Incendio (Serie SWZ)',
+    categoryPath: ['Cables Alta Temperatura', 'Seguridad e Incendio'],
+    description: 'Cables libres de halógenos para sistemas de detección de fuego y notificación de alarma.',
+    detailedDescription: `DESCRIPCIÓN
+Cables diseñados para mantener la integridad del servicio eléctrico en condiciones de incendio. Compuesto de LSZH-HFFR (bajo humo, cero halógenos).
+
+APLICACIONES
+Sistemas de detección del fuego y notificación de alarma (visual y sonora), flujo y control de los sistemas de rociadores automáticos de agua. Control de las funciones de seguridad del edificio, ascensores, montacargas, megáfonos y ventiladores.`,
+    image: '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/5-SEGURIDAD E INCENDIO/PORTADA.jpeg',
+    pdf: '/images/ProductosNuevos/6-CABLES ALTA TEMPERATURA/5-SEGURIDAD E INCENDIO/FICHA TECNICA (REPETIR IMAGEN FICHA).pdf',
+    specs: ['300 V', 'LSZH 90°C', 'UL 1424 FPLR'],
+    characteristics: [
+      'Temperatura máxima: 90°C',
+      'Tensión nominal: 300 Volt',
+      'Norma constructiva: UL 1424 tipo FPLR',
+      'Conductor: Alambre único de cobre electrolítico recocido',
+      'Aislación y Vaina: LSZH-HFFR, no propagante del incendio, resistente a rayos UV y aceites',
+      'Norma de humos: IEC 61034-1/2',
+      'Norma de ausencia de halógenos: IEC 60754-1/2',
+      'Comportamiento frente al agua: Apto AD7 (Inmersión ocasional)'
+    ],
+    specsTables: [
+      {
+        title: 'Características Eléctricas y Dimensionales',
+        headers: ['Código', 'AWG', 'Estructura', 'Resistencia (Ohm/km)', 'Capacidad (pF/m)', 'Diámetro (mm)', 'Peso (kg/km)'],
+        rows: [
+          ['SWZ 1p 20', '20', 'Par simple', '37.86', '144', '2.9', '14.6'],
+          ['SWZ-O 1p 20', '20', 'Par blindado', '37.86', '279', '3.0', '17.3'],
+          ['SWZ 1p 18', '18', 'Par simple', '22.26', '131', '3.7', '22.6'],
+          ['SWZ-O 1p 18', '18', 'Par blindado', '22.26', '251', '3.8', '25.2'],
+          ['SWZ 1p 16', '16', 'Par simple', '14.04', '147', '4.2', '32.8'],
+          ['SWZ-O 1p 16', '16', 'Par blindado', '14.04', '285', '4.3', '35.6']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'libre-halogenos', 'bajos-humos']
+  }
+,
+  {
+    id: 'armados-flejes-acero',
+    name: 'Flejes de Acero',
+    categoryPath: ['Cables Armados', 'Para Protección Mecánica', 'Flejes de Acero'],
+    description: 'Cables de potencia y control con armadura de flejes de acero galvanizado para una excelente protección mecánica contra aplastamientos e impactos.',
+    detailedDescription: `DESCRIPCIÓN
+Cables multipolares armados con doble fleje de acero galvanizado (o de aluminio para unipolares) aplicados helicoidalmente para máxima protección mecánica en instalaciones subterráneas directas.
+
+APLICACIONES
+Redes de distribución de energía en industrias, plantas de proceso, refinerías, minería y tendidos subterráneos propensos a agresiones mecánicas o presencia de roedores.`,
+    image: '/images/ProductosNuevos/7-CABLES ARMADOS/1-PARA PROTECCIÓN MECANICA/1-FLEJES DE ACERO/PORTADA Y FICHA TECNICA.jpeg',
+    gallery: [
+      '/images/ProductosNuevos/7-CABLES ARMADOS/1-PARA PROTECCIÓN MECANICA/1-FLEJES DE ACERO/FICHA TECNICA.jpeg'
+    ],
+    specs: ['Baja Tensión', 'Fleje de Acero', 'Protección Mecánica'],
+    characteristics: [
+      'Conductor: Cobre o Aluminio semirrígido Clase 2 o flexible Clase 5',
+      'Aislación: XLPE o PVC con colores normalizados',
+      'Armadura: Doble fleje de acero galvanizado (multipolares) o de aluminio (unipolares) aplicados helicoidalmente',
+      'Vaina exterior: PVC resistente a la propagación del incendio (IRAM NM IEC 60332-3)',
+      'Temperatura de servicio: 90°C (XLPE) / 70°C (PVC)'
+    ],
+    specsTables: [
+      {
+        title: 'Características dimensionales de referencia',
+        headers: ['Formación', 'Espesor Aislación (mm)', 'Diámetro Ext. (mm)', 'Peso Aprox. (Kg/Km)'],
+        rows: [
+          ['4 x 2.5', '0.8', '15.5', '480'],
+          ['4 x 4', '0.8', '16.8', '590'],
+          ['4 x 6', '0.8', '18.0', '720'],
+          ['4 x 10', '1.0', '20.8', '1050'],
+          ['4 x 16', '1.0', '23.2', '1420']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion']
+  },
+  {
+    id: 'armados-doble-fleje',
+    name: 'Doble Fleje',
+    categoryPath: ['Cables Armados', 'Para Protección Mecánica', 'Doble Fleje'],
+    description: 'Cables protegidos con doble fleje helicoidal de acero para resistir esfuerzos de compresión radial severos.',
+    detailedDescription: `DESCRIPCIÓN
+Conductores provistos de armadura por doble cinta (fleje) de acero galvanizado solapado, diseñados para soportar agresiones mecánicas en todas las direcciones y evitar la penetración de roedores.
+
+APLICACIONES
+Instalaciones fijas de potencia, comandos y señales en plantas industriales, instalaciones petroquímicas, subterráneos y túneles.`,
+    image: '/images/ProductosNuevos/7-CABLES ARMADOS/1-PARA PROTECCIÓN MECANICA/2-DOBLE FLEJE/PORTADA Y FICHA TECNICA.jpeg',
+    gallery: [
+      '/images/ProductosNuevos/7-CABLES ARMADOS/1-PARA PROTECCIÓN MECANICA/2-DOBLE FLEJE/FICHA TECNICA .jpg'
+    ],
+    specs: ['Doble Fleje', 'Protección Superior', 'Subterráneo'],
+    characteristics: [
+      'Armadura metálica: Doble cinta de acero galvanizado solapado',
+      'Protección contra roedores y aplastamiento: Cobertura física excepcional',
+      'Instalación: Apto para enterramiento directo o en bandejas industriales'
+    ],
+    specsTables: [
+      {
+        title: 'Dimensiones de referencia',
+        headers: ['Formación', 'Espesor envoltura (mm)', 'Diámetro exterior aprox. (mm)', 'Masa aprox. (Kg/Km)'],
+        rows: [
+          ['2 x 1.5', '1.2', '13.5', '320'],
+          ['3 x 2.5', '1.2', '15.0', '410'],
+          ['4 x 4', '1.3', '17.2', '560']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion']
+  },
+  {
+    id: 'armados-hilos-acero',
+    name: 'Hilos de Acero',
+    categoryPath: ['Cables Armados', 'Para Protección Mecánica', 'Hilos de Acero'],
+    description: 'Cables de energía y control armados con hilos redondos de acero galvanizado (SWA), diseñados para resistir tracciones longitudinales severas.',
+    detailedDescription: `DESCRIPCIÓN
+Capa protectora helicoidal constituida por hilos redondos de acero galvanizado (SWA). Su función principal es otorgar una resistencia superior a impactos mecánicos, penetración y esfuerzos de tracción lateral o longitudinal durante la instalación y vida útil del cable, además de actuar como pantalla de protección a tierra.
+
+APLICACIONES
+Especialmente diseñado para instalaciones verticales (pozos mineros, torres) o tramos con pendientes pronunciadas, y tendidos subterráneos con riesgos mecánicos elevados. Permite soportar el tendido vertical sin fatiga de los conductores.`,
+    image: '/images/ProductosNuevos/7-CABLES ARMADOS/1-PARA PROTECCIÓN MECANICA/3-HILOS DE ACERO/PORTADA Y FICHA TECNICA.jpeg',
+    pdf: '/images/ProductosNuevos/7-CABLES ARMADOS/1-PARA PROTECCIÓN MECANICA/3-HILOS DE ACERO/FICHA TECNICA HILOS DE ACERO.docx',
+    specs: ['SWA (Steel Wire Armour)', 'Alta Tracción', 'IEC 60502-1'],
+    characteristics: [
+      'Material Base: Acero al carbono de bajo residuo, estirado en frío.',
+      'Protección contra Corrosión: Galvanizado por inmersión en caliente (recubrimiento de zinc continuo).',
+      'Carga mínima de rotura por tracción: 340 a 540 N/mm² (según diámetro del hilo).',
+      'Alargamiento mínimo a la rotura: 10% en longitud de probeta de 250 mm.',
+      'Efecto Magnético (Regla de diseño): Para sistemas de CA, la armadura de hilos de acero (SWA) solo se permite en cables multipolares.'
+    ],
+    specsTables: [
+      {
+        title: 'Diámetros Nominales del Hilo (IEC 60502-1)',
+        headers: ['Diámetro bajo armadura (mm)', 'Diámetro nominal del hilo (mm)'],
+        rows: [
+          ['Hasta 10 mm', '0,80 mm'],
+          ['De 10 a 15 mm', '1,25 mm'],
+          ['De 15 a 25 mm', '1,60 mm'],
+          ['De 25 a 35 mm', '2,00 mm'],
+          ['De 35 a 60 mm', '2,50 mm'],
+          ['Mayor a 60 mm', '3,15 mm']
+        ]
+      },
+      {
+        title: 'Propiedades del Acero Galvanizado',
+        headers: ['Propiedad', 'Valor / Especificación'],
+        rows: [
+          ['Material Base', 'Acero al carbono de bajo residuo, estirado en frío.'],
+          ['Protección contra Corrosión', 'Galvanizado por inmersión en caliente.'],
+          ['Carga mínima de rotura', '340 a 540 N/mm²'],
+          ['Alargamiento mínimo', '10% en probeta de 250 mm']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion']
+  },
+  {
+    id: 'armados-trenza-acero',
+    name: 'Trenza de Acero',
+    categoryPath: ['Cables Armados', 'Para Protección Mecánica', 'Trenza de Acero'],
+    description: 'Protección mecánica de alta flexibilidad constituida por una malla tejida de hilos de acero galvanizado o inoxidable.',
+    detailedDescription: `DESCRIPCIÓN
+Cables con armadura tejida (trenza) de hilos de acero, ideal para aplicaciones que requieren un equilibrio perfecto entre protección mecánica (impactos/aplastamiento) y una alta flexibilidad dinámica. Funciona como una malla o tejido metálico flexible.
+
+APLICACIONES
+Conexionado de motores, bombas y tableros en industrias, grúas portacables, instalaciones marinas y off-shore (plataformas petroleras) con espacios reducidos donde se exijan flexiones continuas.`,
+    image: '/images/ProductosNuevos/7-CABLES ARMADOS/1-PARA PROTECCIÓN MECANICA/4-TRENZA DE ACERO/PORTADA Y FICHA TECNICA.jpeg',
+    pdf: '/images/ProductosNuevos/7-CABLES ARMADOS/1-PARA PROTECCIÓN MECANICA/4-TRENZA DE ACERO/FICHA TECNICA TRENZA DE ACERO.docx',
+    specs: ['Malla Tejida', 'Flexibilidad Dinámica', 'Uso Marino/Móvil'],
+    characteristics: [
+      'Alta flexibilidad y radio de curvatura dinámico: permite flexiones continuas sin fatiga metálica.',
+      'Protección contra roedores y abrasión: actúa como una barrera física muy eficaz.',
+      'Función de pantalla: si se conecta a tierra, actúa como pantalla electromagnética (EMI) y disipador de corrientes de falla.',
+      'Resistencia a la tracción: protege los conductores de cobre internos durante la instalación.'
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion']
+  },
+  {
+    id: 'armados-interlock-cobre',
+    name: 'Interlock Cobre',
+    categoryPath: ['Cables Armados', 'Interlock (Antirrobo/Interferencias)', 'Interlock Cobre'],
+    description: 'Cables con blindaje continuo de cinta de cobre corrugado para entornos con altísima interferencia electromagnética.',
+    detailedDescription: `DESCRIPCIÓN
+Cable diseñado para la distribución de energía o señales de control en entornos con alta presencia de ruido electromagnético. Su pantalla de cobre corrugado actúa como una jaula de Faraday, bloqueando las interferencias y garantizando la integridad de los datos o de la tensión.
+
+APLICACIONES
+Conexión de variadores de frecuencia (VFD) hacia motores, y cableado de instrumentación y control en subestaciones eléctricas (SSEE) o plantas industriales.`,
+    image: '/images/ProductosNuevos/7-CABLES ARMADOS/2-PARA EVITAR INTERFERENCIAS (INTERLOCK)/1-INTERLOCK COBRE/PORTADA Y FICHA TECNICA.jpeg',
+    pdf: '/images/ProductosNuevos/7-CABLES ARMADOS/2-PARA EVITAR INTERFERENCIAS (INTERLOCK)/1-INTERLOCK COBRE/Ficha Técnica.docx',
+    specs: ['Blindaje Corrugado', 'Cobre', 'Jaula de Faraday'],
+    characteristics: [
+      'Blindaje: Cinta de cobre corrugada transversalmente con solape mínimo del 15% al 25% (cobertura 100%).',
+      'Excelente flexibilidad: el corrugado transversal evita que la cinta se corte o se arrugue al doblar el cable.',
+      'Resistencia química y humedad: actúa como barrera física y estanca de estanqueidad contra agentes externos.',
+      'Tensión Nominal: Desde 600/1000 V (Baja Tensión) hasta 15 kV / 35 kV (Media Tensión).'
+    ],
+    specsTables: [
+      {
+        title: 'Estructura y Construcción',
+        headers: ['Capa', 'Componente', 'Descripción Técnica'],
+        rows: [
+          ['1', 'Conductor', 'Cobre electrolítico recocido, flexible Clase 5 o cableado Clase B.'],
+          ['2', 'Aislamiento', 'XLPE (90°C) o PVC (70°C).'],
+          ['3', 'Asiento / Lecho', 'Capa extruida de PVC o compuesto libre de halógenos.'],
+          ['4', 'Blindaje', 'Cinta de cobre corrugada longitudinalmente con solape de 15-25%.'],
+          ['5', 'Cubierta Exterior', 'PVC o LSZH, resistente a rayos UV y agentes químicos.']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion']
+  },
+  {
+    id: 'armados-trenzado-cobre',
+    name: 'Trenzado de Cobre',
+    categoryPath: ['Cables Armados', 'Interlock (Antirrobo/Interferencias)', 'Trenzado de Cobre'],
+    description: 'Cables de datos y señales de alta performance con doble blindaje (aluminio individual + malla global de cobre estañado).',
+    detailedDescription: `DESCRIPCIÓN
+Cable de datos y señal de alta performance, compuesto por pares de cobre trenzados entre sí para cancelar la diafonía (crosstalk). Incorpora un sistema de doble blindaje que asegura inmunidad total contra EMI y RFI.
+
+APLICACIONES
+Conexión de sistemas de control industrial (PLCs, sensores, actuadores) y redes de datos en plantas con alta presencia de motores eléctricos y transformadores.`,
+    image: '/images/ProductosNuevos/7-CABLES ARMADOS/2-PARA EVITAR INTERFERENCIAS (INTERLOCK)/2-TRENZADO DE COBRE/PORTADA Y FICHA TECNICA.jpeg',
+    pdf: '/images/ProductosNuevos/7-CABLES ARMADOS/2-PARA EVITAR INTERFERENCIAS (INTERLOCK)/2-TRENZADO DE COBRE/Ficha Técnica.docx',
+    specs: ['Par Trenzado', 'Doble Blindaje', 'Cobre Estañado'],
+    characteristics: [
+      'Impedancia característica: 100 ± 15 Ohm (frecuencias de 1 a 250 MHz).',
+      'Blindaje individual: Cinta de Aluminio/Poliéster sobre cada par (cobertura 100%).',
+      'Blindaje global: Malla de hilos de cobre estañado (cobertura >= 65%) contra EMI de baja frecuencia.',
+      'Resistencia del conductor (máx.): 9.38 Ohm / 100m a 20°C.'
+    ],
+    specsTables: [
+      {
+        title: 'Componentes Técnicos',
+        headers: ['Componente', 'Características'],
+        rows: [
+          ['Conductor', 'Cobre rojo electrolítico recocido, pureza > 99.9%.'],
+          ['Aislamiento', 'Polietileno de alta densidad (HDPE) con colores normalizados.'],
+          ['Trenzados', 'Pares trenzados con paso corto y diferenciado.'],
+          ['Blindaje Individual', 'Cinta de Aluminio/Poliéster sobre cada par (cobertura 100%).'],
+          ['Blindaje Global', 'Malla de hilos de cobre estañado (cobertura >= 65%).'],
+          ['Hilo de Drenaje', 'Cobre estañado en contacto continuo con el blindaje.'],
+          ['Cubierta', 'Compuesto de PVC ignífugo o LSZH, color gris/azul industrial.']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion']
+  },
+  {
+    id: 'armados-cinta-hilos-cobre',
+    name: 'Cinta-Hilos de Cobre',
+    categoryPath: ['Cables Armados', 'Interlock (Antirrobo/Interferencias)', 'Cinta-Hilos de Cobre'],
+    description: 'Cables de media tensión con blindaje electrostático mediante cintas helicoidales o corona de hilos de cobre.',
+    detailedDescription: `DESCRIPCIÓN
+Cables provistos de pantalla metálica electrostática aplicada helicoidalmente sobre el aislamiento semiconductor. Disponible en configuración de cinta de cobre o hilos de cobre con contraespira.
+
+APLICACIONES
+Sistemas de distribución de energía en media tensión, subestaciones eléctricas y acometidas industriales donde se exigen secciones robustas de retorno a tierra.`,
+    image: '/images/ProductosNuevos/7-CABLES ARMADOS/2-PARA EVITAR INTERFERENCIAS (INTERLOCK)/3- CINTA-HILOS DE COBRE/PORTADA Y FICHA TECNICA.jpeg',
+    pdf: '/images/ProductosNuevos/7-CABLES ARMADOS/2-PARA EVITAR INTERFERENCIAS (INTERLOCK)/3- CINTA-HILOS DE COBRE/Ficha Técnica.docx',
+    specs: ['Media Tensión', 'Wire Shield', 'Tape Shield'],
+    characteristics: [
+      'Pantalla de Cinta (Full Tape): Excelente confinamiento del campo electrostático, sección típica 5 a 10 mm².',
+      'Pantalla de Hilos (Wire Shield): Diseñada para soportar elevadas corrientes de cortocircuito monofásicas, secciones típicas de 16, 25 o 50 mm².',
+      'Conductividad: Superior al 100% IACS a 20°C.',
+      'Protección Longitudinal (Opcional): Cinta hinchable (swelling tape) semiconductora que bloquea el paso del agua.'
+    ],
+    specsTables: [
+      {
+        title: 'Configuraciones de Pantalla de Cobre',
+        headers: ['Parámetro', 'Configuración: Cinta de Cobre', 'Configuración: Hilos + Contraespira'],
+        rows: [
+          ['Tipo de Material', 'Cobre electrolítico suave / recocido', 'Cobre electrolítico suave, desnudo o estañado'],
+          ['Normas', 'IEC 60502-2, ICEA S-93-639', 'IEC 60502-2, UNE 21-161'],
+          ['Disposición Física', 'Aplicada en forma helicoidal sobre semiconductora', 'Alambres colocados helicoidalmente con contraespira'],
+          ['Espesor / Diámetro', 'Espesor estándar: 0.127 mm', 'Diámetro típico: 0.6 mm a 0.8 mm'],
+          ['Traslape / Cobertura', 'Traslape mínimo del 25%', 'Cobertura abierta pero calculada para sección equivalente']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion']
+  },
+  {
+    id: 'armados-cinta-aluminio',
+    name: 'Cinta Aluminio',
+    categoryPath: ['Cables Armados', 'Interlock (Antirrobo/Interferencias)', 'Cinta Aluminio'],
+    description: 'Laminado blindante de alta ingeniería para protección electroestática y electromagnética en cables de instrumentación.',
+    detailedDescription: `DESCRIPCIÓN
+Cinta de Aluminio-Poliéster (Al-Mylar) constituida por laminado de aluminio recocido y film de poliéster. Ofrece cobertura del 100% contra interferencias externas y diafonía en cables multipares.
+
+APLICACIONES
+Cables de instrumentación, control y transmisión de datos de alta velocidad en refinerías, industrias de proceso y cercanía a motores.`,
+    image: '/images/ProductosNuevos/7-CABLES ARMADOS/2-PARA EVITAR INTERFERENCIAS (INTERLOCK)/4-CINTA ALUMINIO/PORTADA Y FICHA TECNICA.jpeg',
+    pdf: '/images/ProductosNuevos/7-CABLES ARMADOS/2-PARA EVITAR INTERFERENCIAS (INTERLOCK)/4-CINTA ALUMINIO/Ficha Técnica.docx',
+    specs: ['Al-Mylar (Aluminio-Poliéster)', 'Crosstalk Cero', 'Señal/Instrumentación'],
+    characteristics: [
+      'Blindaje EMI/RFI: Barrera física que refleja y absorbe interferencias en señales críticas (4-20 mA, PLC).',
+      'Eliminación de Diafonía: Usado como blindaje individual en cada par para evitar interferencia cruzada.',
+      'Hilo de drenaje: En contacto longitudinal directo con la cara de aluminio para descarga segura.',
+      'Estabilidad térmica: Soporta las temperaturas de extrusión de PVC, XLPE o LSZH sin delaminarse.'
+    ],
+    specsTables: [
+      {
+        title: 'Propiedades Técnicas del Laminado',
+        headers: ['Propiedad', 'Unidad', 'Valor Típico'],
+        rows: [
+          ['Estructura Estándar', '—', 'Aluminio (Al) + Adhesivo + Poliéster (PET)'],
+          ['Espesor del Aluminio', 'μm (Micrones)', '7 a 9'],
+          ['Espesor del Poliéster', 'μm (Micrones)', '12 a 15'],
+          ['Espesor Total', 'μm (Micrones)', '23 a 27'],
+          ['Fuerza de Tensión', 'N/mm²', '>= 60'],
+          ['Elongación a la Ruptura', '%', '>= 35%'],
+          ['Fuerza de Despegue', 'N/cm', '>= 6.3']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion']
+  },
+  {
+    id: 'especiales-mineria',
+    name: 'Cables Mineros (Serie SHD-GC MT)',
+    categoryPath: ['Cables Especiales', 'Minería'],
+    description: 'Cables de energía flexibles blindados extrapesados (Extra-Heavy Duty) de 5 a 25 kV, diseñados para alimentación de equipos móviles pesados en minería y petróleo.',
+    detailedDescription: `DESCRIPCIÓN
+Son cables de energía en media tensión, reforzados y portátiles, para utilizar en desarrollos mineros para equipo móvil pesado como cables de arrastre, palas, taladros y alimentadores de energía. En campos petroleros se utiliza para alimentación de equipo móvil de perforación y en general para instalaciones móviles con desplazamientos horizontales o verticales a la intemperie.
+Aptos para soportar en parada o en movimiento todos los esfuerzos de tracción, torsión y flexión generados por el funcionamiento normal de un enrollador de cables.
+Cuenta con materiales plásticos que proporcionan una protección adecuada ante productos químicos, entorno hostil, desgarros e impactos. Adicionalmente, estos materiales no liberan gases halógenos ante la eventualidad de producirse un incendio. Apto para aplicaciones donde se necesiten conductores de protección (G) y un conductor de verificación de tierra (GC). El cable cuenta con blindaje individual sobre cada conductor de fase.`,
+    image: '/images/ProductosNuevos/8-CABLES ESPECIALES/1-MINERIA/PORTADA Y FICHA TECNICA.jpeg',
+    gallery: [
+      '/images/ProductosNuevos/8-CABLES ESPECIALES/1-MINERIA/PORTADA Y FICHA TECNICA.jpeg'
+    ],
+    pdf: '/images/ProductosNuevos/8-CABLES ESPECIALES/1-MINERIA/FICHA TECNICA.pdf',
+    specs: ['5 a 25 kV', 'EPR/TPU', 'Uso Minero Extrapesado'],
+    characteristics: [
+      'Temperatura máxima de operación: 90°C en instalación fija / 60°C para uso móvil.',
+      'Temperatura mínima ambiente: -40°C en instalación fija / -25°C para flexiones.',
+      'Tensión nominal: 5, 8, 15 y 25 kV CA.',
+      'Norma constructiva: ICEA S 75-381.',
+      'Norma de conductores: ASTM B 33/172/174.',
+      'Conductor: Cobre electrolítico recocido estañado en formación flexible.',
+      'Aislación: EPR con capas semiconductoras helicoidales interna y externa.',
+      'Blindaje: Trenzado de alambres de cobre estañado e hilos textiles (cobertura >= 60%) sobre cada fase.',
+      'Formación: 3F (Fases) + 2G (Ground) + 1GC (Ground Check).',
+      'Cubierta: Doble protección de Poliuretano (TPU) resistente a UV, desgarros, impactos e hidrocarburos (UL 2556 / UIC 895 OR).'
+    ],
+    specsTables: [
+      {
+        title: 'Especificaciones de Referencia (Serie SHD-GC 5kV)',
+        headers: ['Formación', 'Resistencia CC a 20°C (Ohm/km)', 'Intensidad Admisible (A)', 'Diámetro Ext. (mm)', 'Peso Aprox. (kg/km)', 'Radio Curvatura (mm)', 'Tracción (daN)'],
+        rows: [
+          ['3x6 + 2G10 + GC8', '1.50', '79', '39.6', '1753', '237.6', '294'],
+          ['3x4 + 2G8 + GC8', '0.94', '104', '42.7', '2180', '256.2', '442'],
+          ['3x2 + 2G6 + GC8', '0.59', '138', '47.5', '2852', '285.0', '679'],
+          ['3x1/0 + 2G4 + GC8', '0.376', '186', '52.8', '3895', '317.0', '1055'],
+          ['3x2/0 + 2G3 + GC8', '0.299', '215', '55.9', '4582', '335.0', '1320'],
+          ['3x4/0 + 2G1 + GC8', '0.188', '287', '63.5', '6396', '381.0', '2071']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'libre-halogenos', 'resistente-uv']
+  },
+  {
+    id: 'especiales-ascensor',
+    name: 'Cables para Ascensor (EMYSFLEX LIFT)',
+    categoryPath: ['Cables Especiales', 'Ascensor'],
+    description: 'Conductores colgantes extra flexibles diseñados con núcleo de soporte para comando de cabinas en ascensores y montacargas.',
+    detailedDescription: `DESCRIPCIÓN
+Este cable está especialmente diseñado para ser utilizado en instalaciones de comando de ascensores y montacargas.
+Aislación conformada por compuesto especial extraflexible de PVC de color negro con numeración correlativa en tinta blanca y envoltura final de compuesto especial a base de polímeros termoplásticos y caucho con excelentes propiedades mecánicas y gran flexibilidad.
+Posee muy buenas propiedades físicas (resistencia a la fatiga, abrasión, etc.) y químicas (resistente a aceites, grasas y derivados de hidrocarburos), muy superiores a la del PVC, aún en condiciones ambientales de bajas temperaturas.`,
+    image: '/images/ProductosNuevos/8-CABLES ESPECIALES/2-ASCENSOR/PORTADA Y FICHA TECNICA.jpeg',
+    gallery: [
+      '/images/ProductosNuevos/8-CABLES ESPECIALES/2-ASCENSOR/PORTADA Y FICHA TECNICA.jpeg'
+    ],
+    pdf: '/images/ProductosNuevos/8-CABLES ESPECIALES/2-ASCENSOR/FICHA TECNICA.pdf',
+    specs: ['300/500 V', 'Extra Flexible', 'Con Elemento Portante'],
+    characteristics: [
+      'Tensión máxima de servicio (Uo/U): 300/500 V.',
+      'Tensión de ensayo: 2500 V C.A. durante 5 minutos.',
+      'Temperatura máxima de servicio en el conductor: 70°C.',
+      'Conductor: Cuerda flexible de alambres de cobre electrolítico recocido (Clase 5 IRAM NM 280).',
+      'Núcleo de soporte: Cuerda de yute (NT) o de acero (NA) revestido en compuesto de PVC especial.',
+      'Aislación: Compuesto especial extraflexible de color negro (con numeración blanca correlativa) y verde-amarillo.',
+      'Envoltura: Compuesto a base de polímeros termoplásticos y caucho negro, resistente a fatiga, abrasión, aceites e hidrocarburos. No propagante de llama, apto intemperie.',
+      'Marcación: Secuencial de metros, fecha y orden de fabricación.'
+    ],
+    specsTables: [
+      {
+        title: 'Características Técnicas y Dimensionales (EMYSFLEX LIFT)',
+        headers: ['Conductores x Sección (mm²)', 'Diámetro Ext. Aprox. (mm)', 'Radio Mín. Curvatura (mm)', 'Peso Aprox. (kg/km)', 'Tipo Soporte', 'Long. Máx. Autosoportada (m)'],
+        rows: [
+          ['6 x 0.75', '10.40', '208', '117', 'Textil', '50'],
+          ['12 x 0.75', '15.60', '310', '265', 'Textil', '55'],
+          ['24 x 0.75', '19.90', '397', '430', 'Acero', '80'],
+          ['6 x 1', '11.00', '220', '145', 'Textil', '50'],
+          ['12 x 1', '15.60', '312', '340', 'Textil', '60'],
+          ['20 x 1', '18.50', '370', '425', 'Acero', '80'],
+          ['6 x 1.5', '12.20', '244', '190', 'Textil', '80'],
+          ['12 x 1.5', '18.30', '365', '400', 'Textil', '60'],
+          ['24 x 1.5', '24.50', '490', '750', 'Acero', '90']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'no-propagacion']
+  },
+  {
+    id: 'especiales-fibra-optica',
+    name: 'Cables de Fibra Óptica ADSS (CIMET OPTEL®)',
+    categoryPath: ['Cables Especiales', 'Fibra Óptica'],
+    description: 'Cables de fibra óptica dieléctricos autoportantes (ADSS) de doble cubierta con estructura PKP, ideales para tendidos aéreos con vanos de hasta 300 metros.',
+    detailedDescription: `DESCRIPCIÓN
+Cable óptico dieléctrico de doble cubierta autoportante (ADSS) con estructura PKP, para aplicaciones en instalaciones de líneas aéreas en vanos de hasta 300 metros para líneas interurbanas.
+Constituidos por fibras ópticas alojadas en tubos holgados de PBT rellenos con gel tixotrópico para el bloqueo de humedad, reunidos en SZ alrededor de un miembro central dieléctrico. Incorpora elementos hinchables secos para el bloqueo de agua, protegidos por dos cubiertas de polietileno de media densidad separadas por una doble corona de aramida dispuesta de forma contra helicoidal.`,
+    image: '/images/ProductosNuevos/8-CABLES ESPECIALES/3-FIBRA OPTICA/PORTADA.jpeg',
+    gallery: [
+      '/images/ProductosNuevos/8-CABLES ESPECIALES/3-FIBRA OPTICA/PORTADA.jpeg'
+    ],
+    pdf: '/images/ProductosNuevos/8-CABLES ESPECIALES/3-FIBRA OPTICA/FICHA TECNICA.pdf',
+    specs: ['ADSS PKP', 'Doble Cubierta', 'Vanos hasta 300m'],
+    characteristics: [
+      'Normas de fabricación y ensayos: ITU-T G.652, IEEE 1222.',
+      'Constitución: Tubos holgados de PBT rellenos con gel tixotrópico, miembro central dieléctrico.',
+      'Protección: Doble corona de aramida contra helicoidal y doble cubierta de polietileno (Estructura PKP).',
+      'Cubierta interna y externa: Polietileno de media densidad negro con protección UV (ASTM D1248).',
+      'Rango de temperatura de operación: -40°C a +70°C.',
+      'Identificación: Código de colores de fibras y tubos según EIA-TIA 598.'
+    ],
+    specsTables: [
+      {
+        title: 'Datos Dimensionales y de Tracción (CIMET OPTEL®)',
+        headers: ['Nº Fibras', 'Diámetro Nominal (mm)', 'Espesor Cubierta (mm)', 'Peso de Cable (kg/km)', 'Modelo Vano', 'Carga Máx. Tracción (N)'],
+        rows: [
+          ['6 a 36', '13.1', '1.5', '132', 'V200 (hasta 200m)', '5000'],
+          ['48 a 72', '14.3', '1.5', '160', 'V200 (hasta 200m)', '5500'],
+          ['96', '16.6', '1.5', '210', 'V200 (hasta 200m)', '7000'],
+          ['6 a 36', '14.5', '1.5', '155', 'V300 (hasta 300m)', '10500'],
+          ['48 a 72', '15.8', '1.5', '185', 'V300 (hasta 300m)', '12000']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'resistente-uv']
+  },
+  {
+    id: 'especiales-utp',
+    name: 'Cables de Datos (UTP/FTP/Coaxiales)',
+    categoryPath: ['Cables Especiales', 'UTP'],
+    description: 'Conductores para redes de datos y comunicación industrial: pares trenzados blindados (FTP) y sin blindar (UTP), y coaxiales.',
+    detailedDescription: `DESCRIPCIÓN
+Gama de conductores de cobre de alta pureza diseñados para redes de datos y telecomunicaciones, ofreciendo una excelente performance en anchos de banda elevados y mínima atenuación. Aislados y envainados con termoplásticos resistentes a la llama (CM/LSZH).
+Apto para infraestructuras de redes estructuradas, videovigilancia (CCTV) y enlaces de señales analógicas o digitales.`,
+    image: '/images/ProductosNuevos/8-CABLES ESPECIALES/4-UTP/PORTADA.jpeg',
+    gallery: [
+      '/images/ProductosNuevos/8-CABLES ESPECIALES/4-UTP/PORTADA.jpeg'
+    ],
+    specs: ['Cat 5e / 6 / 6A', 'RG6 / RG59', 'Crosstalk Reducido'],
+    characteristics: [
+      'Conductores de cobre de alta pureza para una transmisión de señal óptima.',
+      'Aislamientos y cubiertas termoplásticas retardantes de llama.',
+      'Opciones con blindaje general en cinta de aluminio-poliéster (FTP) o malla trenzada de cobre (Coaxial).',
+      'Desempeño superior en anchos de banda para Gigabit y 10-Gigabit Ethernet.',
+      'Ideal para cableado estructurado horizontal y troncales secundarias.'
+    ],
+    specsTables: [
+      {
+        title: 'Variedad de Cables de Datos',
+        headers: ['Tipo de Cable', 'Categoría / Norma', 'Blindaje', 'Diámetro Ext. (mm)', 'Aplicación Principal'],
+        rows: [
+          ['UTP Cat 6', 'ANSI/TIA-568', 'Ninguno (U/UTP)', '6.0', 'Redes Gigabit Ethernet'],
+          ['FTP Cat 6A', 'ANSI/TIA-568', 'Foil de Aluminio (F/UTP)', '7.2', 'Redes 10-Gigabit'],
+          ['Coaxial RG6', 'MIL-C-17', 'Malla Trenzada de Cobre', '6.9', 'Distribución de TV / CCTV'],
+          ['Coaxial RG59', 'MIL-C-17', 'Malla de Cobre + Alimentación', '6.1', 'Sistemas de CCTV Analógico']
+        ]
+      }
+    ],
+    certifications: ['iram', 'seguridad', 'no-propagacion']
   }
 ];
 
