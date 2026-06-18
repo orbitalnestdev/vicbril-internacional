@@ -1,2 +1,6 @@
 [phases.install]
 cmds = ["npm install"]
+
+[variables]
+NIXPACKS_NODE_VERSION = "22"
+NIXPACKS_NO_CACHE = "1"
