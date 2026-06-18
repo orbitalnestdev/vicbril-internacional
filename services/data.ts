@@ -38900,7 +38900,7 @@ Ofrecemos soluciones integrales y flexibles donde otros ven limitaciones, respal
   {
     id: 'resto-termicas',
     name: 'Térmicas y Disyuntores',
-    categoryPath: ['Resto de Materiales Eléctricos', 'Térmicas y Disyuntores'],
+    categoryPath: ['Resto de Materiales Eléctricos'],
     description: 'Equipos de maniobra y protección para tableros eléctricos residenciales, comerciales e industriales, asegurando una desconexión rápida ante sobrecargas y cortocircuitos.',
     detailedDescription: `DESCRIPCIÓN
 Los interruptores termomagnéticos y disyuntores diferenciales son elementos indispensables para garantizar la protección de las instalaciones eléctricas y de las personas.
@@ -38922,7 +38922,7 @@ Diseñados para un montaje rápido sobre riel DIN estándar, estos equipos ofrec
   {
     id: 'resto-jabalinas',
     name: 'Puesta a Tierra, Conectores y Soldadura',
-    categoryPath: ['Resto de Materiales Eléctricos', 'Jabalinas y Puesta a Tierra'],
+    categoryPath: ['Resto de Materiales Eléctricos'],
     description: 'Línea de productos para la construcción de sistemas de puesta a tierra, protección eléctrica y equipotencialización.',
     detailedDescription: `DESCRIPCIÓN
 Línea de productos destinada a la construcción de sistemas de puesta a tierra, protección eléctrica y equipotencialización en instalaciones industriales, comerciales, energéticas y de infraestructura. Incluye jabalinas, conductores cobre-acero, conectores de compresión, planchuelas de cobre y sistemas de soldadura cuproaluminotérmica, diseñados para garantizar una baja resistencia de puesta a tierra y una elevada confiabilidad eléctrica.
@@ -39069,7 +39069,7 @@ Productos fabricados bajo estrictos controles de calidad y conforme a normas IRA
   {
     id: 'resto-herrajes',
     name: 'Herrajes y Morsetería para Redes Aéreas',
-    categoryPath: ['Resto de Materiales Eléctricos', 'Herrajes y Morsetería'],
+    categoryPath: ['Resto de Materiales Eléctricos'],
     description: 'Accesorios destinados a la conexión, empalme, retención, suspensión y protección de conductores eléctricos en redes de baja y media tensión.',
     detailedDescription: `DESCRIPCIÓN
 Línea de productos destinada a la conexión, empalme, terminación, retención, suspensión y protección de conductores eléctricos en redes aéreas y subterráneas de baja y media tensión. Incluye accesorios para cables preensamblados, sistemas de distribución eléctrica, instalaciones industriales y proyectos de infraestructura energética. Los productos están diseñados para maximizar la confiabilidad eléctrica, la seguridad operativa y la vida útil de las instalaciones.
@@ -39166,7 +39166,7 @@ Los productos son ensayados bajo normas y estándares internacionales reconocido
   {
     id: 'resto-iluminacion',
     name: 'Iluminación LED y Control',
-    categoryPath: ['Resto de Materiales Eléctricos', 'Iluminación'],
+    categoryPath: ['Resto de Materiales Eléctricos'],
     description: 'Línea de productos para iluminación residencial, comercial, industrial y pública, basada en tecnología LED de alta eficiencia y bajo consumo.',
     detailedDescription: `DESCRIPCIÓN
 Línea integral de productos para iluminación residencial, comercial, industrial y urbana. Comprende lámparas LED, luminarias interiores y exteriores, reflectores, paneles LED, sistemas inteligentes de iluminación, sensores, interruptores, tomacorrientes y accesorios eléctricos, desarrollados para maximizar la eficiencia energética, la vida útil y la calidad lumínica de las instalaciones.
@@ -39340,7 +39340,7 @@ Soluciones integrales de iluminación LED y material eléctrico diseñadas para 
   {
     id: 'resto-canos',
     name: 'Sistemas de Canalización, Caños y Cajas',
-    categoryPath: ['Resto de Materiales Eléctricos', 'Caños y Cajas'],
+    categoryPath: ['Resto de Materiales Eléctricos'],
     description: 'Sistemas de caños rígidos, corrugados, cablecanales y cajas diseñados para la conducción y protección segura del cableado eléctrico.',
     detailedDescription: `DESCRIPCIÓN
 Línea integral de productos para canalización, distribución y protección de instalaciones eléctricas residenciales, comerciales e industriales. Comprende tuberías rígidas y corrugadas, cajas de embutir y estancas, cablecanales, gabinetes modulares, sistemas de medición y accesorios de montaje, desarrollados para garantizar instalaciones seguras, ordenadas y de larga vida útil.
@@ -39470,7 +39470,7 @@ Productos desarrollados bajo estrictos controles de calidad y fabricados para cu
   {
     id: 'resto-bandejas',
     name: 'Bandejas Portacables y Accesorios',
-    categoryPath: ['Resto de Materiales Eléctricos', 'Bandejas Portacables'],
+    categoryPath: ['Resto de Materiales Eléctricos'],
     description: 'Sistemas modulares de bandejas portacables de chapa perforada, tipo escalera y rejilla para tendidos de potencia y control en industrias.',
     detailedDescription: `DESCRIPCIÓN
 Sistema de canalización eléctrica diseñado para la conducción, soporte y organización de cables de potencia, comando, control, instrumentación y telecomunicaciones en instalaciones industriales, comerciales, de infraestructura y centros de datos. Fabricado bajo estrictos estándares de calidad y con soluciones modulares que facilitan el montaje y mantenimiento.
@@ -39543,7 +39543,7 @@ Fabricados bajo un sistema de gestión de calidad certificado, con foco en la in
   {
     id: 'resto-teclas',
     name: 'Teclas y Bastidores (Mecanismos Eléctricos)',
-    categoryPath: ['Resto de Materiales Eléctricos', 'Teclas y Bastidores'],
+    categoryPath: ['Resto de Materiales Eléctricos'],
     description: 'Línea de teclas, bastidores, interruptores y tomacorrientes modulares para instalaciones residenciales y comerciales.',
     detailedDescription: `DESCRIPCIÓN
 Línea de productos eléctricos destinada a instalaciones residenciales, comerciales e industriales livianas. Comprende mecanismos de comando, tomacorrientes, módulos de comunicación, fichas eléctricas, tapas, bastidores y accesorios de montaje, desarrollados para brindar seguridad, funcionalidad y estética en todo tipo de instalaciones eléctricas.
@@ -39649,7 +39649,7 @@ Productos fabricados bajo estrictos controles de calidad y conforme a los requis
   {
     id: 'resto-transformadores',
     name: 'Transformadores de Distribución',
-    categoryPath: ['Resto de Materiales Eléctricos', 'Transformadores'],
+    categoryPath: ['Resto de Materiales Eléctricos'],
     description: 'Transformadores de potencia y distribución para redes de energía eléctrica civil, comercial y plantas de media tensión.',
     detailedDescription: `DESCRIPCIÓN
 Transformadores de distribución eléctrica diseñados para ajustar los niveles de tensión en subestaciones transformadoras urbanas, rurales e industriales.
@@ -39671,7 +39671,7 @@ Disponibles en baño de aceite mineral o secos encapsulados en resina epoxi de a
   {
     id: 'resto-terminales',
     name: 'Terminales, Uniones y Morsetería',
-    categoryPath: ['Resto de Materiales Eléctricos', 'Terminales'],
+    categoryPath: ['Resto de Materiales Eléctricos'],
     description: 'Línea completa de terminales, uniones de compresión y morsetería para terminación de conductores eléctricos de cobre y aluminio.',
     detailedDescription: `DESCRIPCIÓN
 Línea completa de productos para conexión, empalme, derivación, puesta a tierra y terminación de conductores eléctricos de cobre y aluminio en sistemas de baja, media y alta tensión. Incluye terminales, uniones, conectores, morsetería, accesorios para líneas aéreas y herramientas de compresión, diseñados para aplicaciones industriales, energéticas, de distribución eléctrica y obras de infraestructura.
@@ -39767,7 +39767,7 @@ CALIDAD Y CERTIFICACIONES
   {
     id: 'resto-empalmes',
     name: 'Empalmes y Terminales Termocontraíbles',
-    categoryPath: ['Resto de Materiales Eléctricos', 'Empalmes y Accesorios Subterráneos'],
+    categoryPath: ['Resto de Materiales Eléctricos'],
     description: 'Accesorios termocontraíbles y contraíbles en frío para la terminación, empalme y protección estanca de cables en redes aéreas y subterráneas.',
     detailedDescription: `DESCRIPCIÓN
 Línea de productos destinada a la conexión, empalme, terminación, retención, suspensión y protección de conductores eléctricos en redes aéreas y subterráneas de baja y media tensión. Incluye accesorios para cables preensamblados, sistemas de distribución eléctrica, instalaciones industriales y proyectos de infraestructura energética. Los productos están diseñados para maximizar la confiabilidad eléctrica, la seguridad operativa y la vida útil de las instalaciones.
