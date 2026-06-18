@@ -68,8 +68,23 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
-</head>
+    <script>
+      window.process = {
+        env: {
+          NODE_ENV: 'production'
+        },
+        version: 'v18.0.0',
+        versions: {
+          node: '18.0.0'
+        },
+        platform: 'browser',
+        arch: 'javascript'
+      };
+      window.globalThis = window.globalThis || window;
+      window.globalThis.process = window.process;
+    </script>
+    <link rel="stylesheet" href="/index.css">
+  </head>
   <body class="bg-gray-50 text-slate-800 antialiased selection:bg-orange-100 selection:text-orange-900">
     <div id="root"></div>
   <script type="module" src="/index.tsx"></script>

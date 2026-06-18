@@ -15,14 +15,27 @@ const ScrollToTop: React.FC = () => {
   return null;
 };
 
-// Lazy load pages for code-splitting and performance optimization
-const Home = React.lazy(() => import('./pages/Home'));
-const About = React.lazy(() => import('./pages/About'));
-const Products = React.lazy(() => import('./pages/Products'));
-const ProductDetail = React.lazy(() => import('./pages/ProductDetail'));
-const Contact = React.lazy(() => import('./pages/Contact'));
-const FAQ = React.lazy(() => import('./pages/FAQ'));
-const Markets = React.lazy(() => import('./pages/Markets'));
+// Helper to handle lazy loading chunk errors (e.g. after deployments where old hashes are removed)
+const lazyWithRetry = (componentImport: () => Promise<{ default: React.ComponentType<any> }>) => {
+  return React.lazy(async () => {
+    try {
+      return await componentImport();
+    } catch (error) {
+      console.error("Error al cargar la sección de la página. Recargando...", error);
+      window.location.reload();
+      // Return a promise that doesn't resolve to hold the loader state until the page reloads
+      return new Promise<{ default: React.ComponentType<any> }>(() => {});
+    }
+  });
+};
+
+const Home = lazyWithRetry(() => import('./pages/Home'));
+const About = lazyWithRetry(() => import('./pages/About'));
+const Products = lazyWithRetry(() => import('./pages/Products'));
+const ProductDetail = lazyWithRetry(() => import('./pages/ProductDetail'));
+const Contact = lazyWithRetry(() => import('./pages/Contact'));
+const FAQ = lazyWithRetry(() => import('./pages/FAQ'));
+const Markets = lazyWithRetry(() => import('./pages/Markets'));
 
 const ScrollProgress: React.FC = () => {
   const [progress, setProgress] = React.useState(0);
