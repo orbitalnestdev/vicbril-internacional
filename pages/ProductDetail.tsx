@@ -175,7 +175,7 @@ const ProductDetail: React.FC = () => {
                 Consultar por WhatsApp
               </button>
               
-              {product.pdf && (
+              {/* {product.pdf && (
                 <a
                   href={product.pdf}
                   target="_blank"
@@ -185,7 +185,7 @@ const ProductDetail: React.FC = () => {
                   <Download size={18} className="group-hover:-translate-y-1 transition-transform" />
                   Descargar PDF
                 </a>
-              )}
+              )} */}
             </div>
           </div>
         </div>
