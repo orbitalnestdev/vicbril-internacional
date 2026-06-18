@@ -2691,7 +2691,7 @@ Instalación a la intemperie, sobre bandejas portacables, en ductos eléctricos 
   },
     {
     id: '2-para-bomba-sumergible',
-    name: '2-PARA BOMBA SUMERGIBLE',
+    name: 'PARA BOMBA SUMERGIBLE',
     categoryPath: ['Cables de Potencia'],
     description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
@@ -2743,7 +2743,7 @@ Conexionado y alimentación eléctrica de bombas sumergibles instaladas en pozos
   },
     {
     id: '3-para-variador-de-frecuencia',
-    name: '3-PARA VARIADOR DE FRECUENCIA',
+    name: 'PARA VARIADOR DE FRECUENCIA',
     categoryPath: ['Cables de Potencia'],
     description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
