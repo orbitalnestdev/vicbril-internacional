@@ -38917,8 +38917,7 @@ Diseñados para un montaje rápido sobre riel DIN estándar, estos equipos ofrec
       'Indicadores visuales de estado de los contactos y mecanismo de disparo libre.',
       'Conformidad con normas nacionales e internacionales de seguridad y fabricación.'
     ],
-    certifications: ['iram', 'seguridad']
-  },
+    certifications: ['iram', 'seguridad'],},
   {
     id: 'resto-jabalinas',
     name: 'Puesta a Tierra, Conectores y Soldadura',
@@ -39064,8 +39063,7 @@ Productos fabricados bajo estrictos controles de calidad y conforme a normas IRA
         ]
       }
     ],
-    certifications: ['iram', 'seguridad']
-  },
+    certifications: ['iram', 'seguridad', 'conductor-tierra'],},
   {
     id: 'resto-herrajes',
     name: 'Herrajes y Morsetería para Redes Aéreas',
@@ -39161,8 +39159,7 @@ Los productos son ensayados bajo normas y estándares internacionales reconocido
       'Soluciones para Líneas Aéreas',
       'Incluyen morsas de suspensión, morsas de retención, acometidas domiciliarias, ménsulas, piezas intermedias, protectores terminales y sistemas de fijación para redes preensambladas de baja tensión. Diseñados para soportar esfuerzos mecánicos, vibraciones y condiciones climáticas severas, garantizando la continuidad del servicio eléctrico.'
     ],
-    certifications: ['iram', 'seguridad', 'resistente-uv']
-  },
+    certifications: ['iram'],},
   {
     id: 'resto-iluminacion',
     name: 'Iluminación LED y Control',
@@ -39335,8 +39332,7 @@ Soluciones integrales de iluminación LED y material eléctrico diseñadas para 
       'Soluciones para uso interior y exterior.',
       '• Opciones inteligentes para automatización y control.'
     ],
-    certifications: ['iram', 'seguridad']
-  },
+    certifications: ['iram', 'seguridad'],},
   {
     id: 'resto-canos',
     name: 'Sistemas de Canalización, Caños y Cajas',
@@ -39465,8 +39461,7 @@ Productos desarrollados bajo estrictos controles de calidad y fabricados para cu
       'Amplia variedad de configuraciones y dimensiones.',
       'Productos aptos para aplicaciones residenciales, comerciales e industriales.'
     ],
-    certifications: ['iram', 'seguridad']
-  },
+    certifications: ['iram', 'seguridad', 'no-propagacion'],},
   {
     id: 'resto-bandejas',
     name: 'Bandejas Portacables y Accesorios',
@@ -39538,8 +39533,7 @@ Fabricados bajo un sistema de gestión de calidad certificado, con foco en la in
       'Adaptabilidad a distintos tipos de montaje.',
       'Amplia variedad de accesorios para derivaciones y cambios de dirección.'
     ],
-    certifications: ['iram', 'seguridad']
-  },
+    certifications: ['iram', 'instalacion-industrial'],},
   {
     id: 'resto-teclas',
     name: 'Teclas y Bastidores (Mecanismos Eléctricos)',
@@ -39644,8 +39638,7 @@ Productos fabricados bajo estrictos controles de calidad y conforme a los requis
       'Aptos para instalaciones embutidas y de superficie.',
       'Soluciones para energía, datos y telecomunicaciones.'
     ],
-    certifications: ['iram', 'seguridad']
-  },
+    certifications: ['iram', 'seguridad', 'instalacion-domiciliaria'],},
   {
     id: 'resto-transformadores',
     name: 'Transformadores de Distribución',
@@ -39666,8 +39659,7 @@ Disponibles en baño de aceite mineral o secos encapsulados en resina epoxi de a
       'Bajos niveles de pérdidas en vacío y en carga, maximizando la eficiencia energética.',
       'Cumplimiento de normas nacionales e internacionales aplicables.'
     ],
-    certifications: ['iram', 'seguridad']
-  },
+    certifications: ['iram'],},
   {
     id: 'resto-terminales',
     name: 'Terminales, Uniones y Morsetería',
@@ -39762,8 +39754,7 @@ CALIDAD Y CERTIFICACIONES
       'Disponibilidad para conductores de cobre y aluminio en una amplia gama de secciones.',
       'Soluciones específicas para distribución de energía, puesta a tierra y líneas aéreas.'
     ],
-    certifications: ['iram', 'seguridad']
-  },
+    certifications: ['iram', 'instalacion-industrial'],},
   {
     id: 'resto-empalmes',
     name: 'Empalmes y Terminales Termocontraíbles',
@@ -39859,8 +39850,7 @@ Los productos son ensayados bajo normas y estándares internacionales reconocido
       'Soluciones para Líneas Aéreas',
       'Incluyen morsas de suspensión, morsas de retención, acometidas domiciliarias, ménsulas, piezas intermedias, protectores terminales y sistemas de fijación para redes preensambladas de baja tensión. Diseñados para soportar esfuerzos mecánicos, vibraciones y condiciones climáticas severas, garantizando la continuidad del servicio eléctrico.'
     ],
-    certifications: ['iram', 'seguridad']
-  }
+    certifications: [],}
 ];
 export const brands = [
   { name: 'Logo 1', logo: '/images/logos/Logos_-1.png' },
