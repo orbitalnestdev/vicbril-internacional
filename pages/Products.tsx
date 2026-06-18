@@ -52,12 +52,8 @@ const Products: React.FC = () => {
       .map(p => p.categoryPath[currentDepth])
   ));
   
-  // Only keep folders (subcategories) that contain more than 1 product.
-  // If a folder contains only 1 product, we bypass the folder and show the product card directly.
-  const nextLevelFolders = rawNextLevelFolders.filter(folderName => {
-    const productsInFolder = filteredProducts.filter(p => p.categoryPath[currentDepth] === folderName);
-    return productsInFolder.length > 1;
-  });
+  // Keep all folders (subcategories)
+  const nextLevelFolders = rawNextLevelFolders;
   
   const visibleProducts = filteredProducts.filter(p => {
     if (p.categoryPath.length > currentDepth) {

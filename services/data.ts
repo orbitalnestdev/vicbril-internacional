@@ -38925,9 +38925,118 @@ Diseñados para un montaje rápido sobre riel DIN estándar, estos equipos ofrec
     categoryPath: ['Resto de Materiales Eléctricos', 'Jabalinas y Puesta a Tierra'],
     description: 'Línea de productos para la construcción de sistemas de puesta a tierra, protección eléctrica y equipotencialización.',
     detailedDescription: `DESCRIPCIÓN
-Línea de productos destinada a la construcción de sistemas de puesta a tierra, protección eléctrica y equipotencialización en instalaciones industriales, comerciales, energéticas y de infraestructura.
-Incluye jabalinas con recubrimiento de cobre por electrólisis de 254 micrones de espesor adherido al alma de acero SAE 1010/1020, conductores desnudos cobre-acero, conectores de compresión tipo 'C' y 'G', planchuelas de cobre electrolítico y sistemas de soldadura cuproaluminotérmica.
-Diseñados bajo estrictas normas de fabricación para garantizar una muy baja resistencia de puesta a tierra y una larga vida útil operativa en ambientes enterrados.`,
+Línea de productos destinada a la construcción de sistemas de puesta a tierra, protección eléctrica y equipotencialización en instalaciones industriales, comerciales, energéticas y de infraestructura. Incluye jabalinas, conductores cobre-acero, conectores de compresión, planchuelas de cobre y sistemas de soldadura cuproaluminotérmica, diseñados para garantizar una baja resistencia de puesta a tierra y una elevada confiabilidad eléctrica.
+
+LÍNEAS DE PRODUCTOS
+- Jabalinas de puesta a tierra lisas.
+- Jabalinas de puesta a tierra acoplables.
+- Tomacables para conexión jabalina-conductor.
+- Uniones de acople.
+- Sufrideras para hincado.
+- Cajas de inspección.
+- Cables de acero cobre para puesta a tierra.
+- Conductores desnudos cobre-acero.
+- Conectores de compresión tipo "C".
+- Conectores de compresión tipo "G".
+- Planchuelas de cobre electrolítico.
+- Soldaduras cuproaluminotérmicas.
+- Cargas, moldes y accesorios para soldadura exotérmica.
+
+MATERIALES
+- Acero SAE 1010 / 1020 de alta resistencia mecánica.
+- Revestimiento de cobre electrolítico por electrólisis.
+- Cobre electrolítico ETP (Electrolytic Tough Pitch) 99,9%.
+- Latón de alta resistencia para accesorios de conexión.
+- Aleaciones especiales para soldadura cuproaluminotérmica.
+- Hierro fundido para cajas de inspección.
+
+JABALINAS DE PUESTA A TIERRA
+Jabalinas fabricadas con alma de acero SAE 1010/1020 revestida mediante electrólisis con cobre electrolítico de 254 micrones de espesor. El cobre queda adherido metalúrgicamente al núcleo de acero, proporcionando una combinación óptima entre resistencia mecánica y conductividad eléctrica.
+Disponibles en versiones:
+- Jabalinas lisas.
+- Jabalinas acoplables con rosca laminada.
+Diámetros nominales:
+- 3/8" (9 mm).
+- 1/2" (12,6 mm).
+- 5/8" (14,6 mm).
+- • 3/4" (16,2 mm).
+Largos estándar:
+- 1000 mm.
+- 1500 mm.
+- 2000 mm.
+- 2500 mm.
+- • 3000 mm.
+Fabricadas bajo Norma IRAM 2309.
+
+ACCESORIOS PARA JABALINAS
+- Tomacables de latón para conexión conductor-jabalina.
+- Uniones de acople para extensión de profundidad.
+- Sufrideras para protección de roscas durante el hincado.
+- Cajas de inspección para acceso y mantenimiento del sistema de puesta a tierra.
+
+CABLE DE ACERO COBRE PARA PUESTA A TIERRA
+Conductores desnudos formados por alma de acero revestida en cobre mediante electrólisis.
+Características:
+- Alta resistencia mecánica.
+- Excelente comportamiento frente a la corrosión.
+- Menor costo respecto a conductores de cobre macizo.
+- Aptos para mallas de puesta a tierra y sistemas de protección contra descargas atmosféricas.
+Fabricados bajo Norma IRAM 2467.
+
+CONECTORES DE COMPRESIÓN TIPO "C" Y "G"
+Conectores fabricados en cobre electrolítico 99,9% de pureza para realizar derivaciones y conexiones permanentes en sistemas de puesta a tierra.
+Características:
+- Alta conductividad eléctrica.
+- Excelente resistencia mecánica.
+- Aplicación mediante compresión en frío.
+- Conexiones seguras y duraderas.
+- Aptos para unión de conductores y conexión a jabalinas.
+
+SOLDADURA CUPROALUMINOTÉRMICA
+Sistema de unión molecular permanente para conductores de puesta a tierra.
+Aplicaciones:
+- Cable a cable.
+- Cable a jabalina.
+- Cable a planchuela.
+- Cable a estructura metálica.
+- Cable a terminal.
+
+VENTAJAS:
+- Resistencia eléctrica mínima.
+- Excelente comportamiento frente a corrientes de falla.
+- No afloja ni se degrada con el tiempo.
+- Resistencia mecánica superior a la del conductor.
+
+PLANCHUELAS DE COBRE ELECTROLÍTICO
+Fabricadas en cobre ETP 99,9% de pureza.
+Características:
+- Conductividad mínima del 97% IACS.
+- Aptas para barras equipotenciales y distribución de tierra.
+- Excelente capacidad de conformado.
+- Posibilidad de plegado a 90° sin fisuras.
+- Disponibles en múltiples anchos y espesores.
+
+VENTAJAS
+- Solución integral para puesta a tierra.
+- Elevada confiabilidad eléctrica.
+- Máxima resistencia a la corrosión.
+- Larga vida útil en ambientes agresivos.
+- Cumplimiento de normas IRAM.
+- Fácil instalación y mantenimiento.
+- Excelente relación costo-beneficio.
+
+CALIDAD Y NORMATIVAS
+Productos fabricados bajo estrictos controles de calidad y conforme a normas IRAM aplicables a sistemas de puesta a tierra, conductores cobre-acero, jabalinas y accesorios de conexión.`,
+    applications: `APLICACIONES
+- Sistemas de puesta a tierra industrial.
+- Subestaciones transformadoras.
+- Centros de datos.
+- Plantas fabriles.
+- Redes de distribución eléctrica.
+- Instalaciones comerciales.
+- Sistemas de protección contra descargas atmosféricas.
+- Obras de infraestructura energética.
+- Energías renovables.`,
     image: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/2-JABALINAS/PORTADA.jpeg',
     gallery: [
       '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/2-JABALINAS/PORTADA.jpeg'
@@ -38935,12 +39044,13 @@ Diseñados bajo estrictas normas de fabricación para garantizar una muy baja re
     pdf: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/2-JABALINAS/FICHA TECNICA.pdf',
     specs: ['SAE 1010/1020', 'IRAM 2309', 'Cobre 254μm'],
     characteristics: [
-      'Alma de acero SAE 1010/1020 de alta resistencia revestida con cobre de 254 micrones.',
-      'Jabalinas disponibles en versiones lisas y acoplables con rosca laminada.',
-      'Conductores desnudos cobre-acero de alta resistencia mecánica (Norma IRAM 2467).',
-      'Conectores de compresión en cobre ETP 99.9% de pureza para uniones permanentes.',
-      'Soldadura cuproaluminotérmica que realiza una unión molecular permanente y de mínima resistencia eléctrica.',
-      'Planchuelas de cobre electrolítico con conductividad del 97% IACS para barras equipotenciales.'
+      'Elevada conductividad eléctrica.',
+      'Excelente resistencia mecánica y a la corrosión.',
+      'Larga vida útil en instalaciones enterradas.',
+      'Compatibilidad con sistemas de puesta a tierra industrial y energética.',
+      'Conexiones permanentes y de baja resistencia eléctrica.',
+      'Fabricación bajo normas IRAM aplicables.',
+      'Soluciones aptas para instalaciones nuevas y ampliaciones.'
     ],
     specsTables: [
       {
@@ -38962,9 +39072,78 @@ Diseñados bajo estrictas normas de fabricación para garantizar una muy baja re
     categoryPath: ['Resto de Materiales Eléctricos', 'Herrajes y Morsetería'],
     description: 'Accesorios destinados a la conexión, empalme, retención, suspensión y protección de conductores eléctricos en redes de baja y media tensión.',
     detailedDescription: `DESCRIPCIÓN
-Línea completa de accesorios para redes eléctricas aéreas y subterráneas, diseñada para maximizar la confiabilidad eléctrica, la seguridad operativa y la vida útil de las instalaciones.
-Incluye morsas de suspensión y retención para conductores preensamblados de aluminio, acometidas domiciliarias, ménsulas de fijación, manguitos de empalme preaislados y desnudos, protectores terminales y flejes de acero inoxidable.
-Los productos están fabricados en materiales de alta resistencia (aleaciones de aluminio, acero galvanizado en caliente y poliamidas con protección UV) para soportar esfuerzos mecánicos y climas severos.`,
+Línea de productos destinada a la conexión, empalme, terminación, retención, suspensión y protección de conductores eléctricos en redes aéreas y subterráneas de baja y media tensión. Incluye accesorios para cables preensamblados, sistemas de distribución eléctrica, instalaciones industriales y proyectos de infraestructura energética. Los productos están diseñados para maximizar la confiabilidad eléctrica, la seguridad operativa y la vida útil de las instalaciones.
+
+LÍNEAS DE PRODUCTOS
+- Morsas de suspensión y retención.
+- Morsas de acometida domiciliaria.
+- Ménsulas y accesorios de fijación.
+- Manguitos de empalme preaislados y desnudos.
+- Terminales preaislados de conexión.
+- Protectores terminales.
+- Flejes, hebillas y sistemas de fijación.
+- Accesorios para líneas preensambladas.
+- Empalmes para baja y media tensión.
+- Terminales termocontraíbles hasta 36 kV.
+- Terminales contraíbles en frío hasta 36 kV.
+- Conectores enchufables apantallados.
+- Uniones y terminales a tornillo fusible.
+- Tubos termocontraíbles.
+- Resinas y geles dieléctricos.
+- Herramientas para preparación e instalación de cables.
+
+MATERIALES
+- Aleaciones de aluminio de alta resistencia.
+- Acero galvanizado y cincado.
+- Acero inoxidable AISI 304.
+- Latón estañado.
+- Poliamidas con protección UV.
+- Elastómeros termoplásticos para intemperie.
+- Siliconas y materiales dieléctricos de última generación.
+- Resinas poliuretánicas y geles aislantes.
+
+SOLUCIONES PARA LÍNEAS SUBTERRÁNEAS
+- Empalmes rectos para baja y media tensión.
+- Terminales termocontraíbles y contraíbles en frío.
+- Conectores enchufables apantallados.
+- Uniones y terminales a tornillo fusible.
+- Resinas y geles para encapsulado.
+- Accesorios para reparación y protección de cables.
+- • Sistemas para cables hasta 36 kV.
+
+EMPALMES Y TERMINALES
+Los sistemas de empalme y terminación permiten restablecer la continuidad eléctrica y mecánica de los conductores, garantizando estanqueidad, aislamiento y protección contra la corrosión. Disponibles en tecnologías termocontraíbles, contraíbles en frío, elastoméricas y con resinas dieléctricas.
+
+CONECTORES Y ACCESORIOS ESPECIALES
+- Conectores enchufables para celdas y equipos de media tensión.
+- Descargadores de sobretensión.
+- Conectores preaislados.
+- Accesorios para líneas protegidas.
+- Cintas especiales para aislamiento eléctrico.
+- Materiales semiconductivos y accesorios para fabricación de cables.
+
+VENTAJAS
+- Máxima seguridad operativa.
+- Reducción de fallas por humedad y contaminación.
+- Alta resistencia mecánica y eléctrica.
+- Larga vida útil en servicio.
+- Compatibilidad con estándares internacionales.
+- Asesoramiento técnico especializado y soporte de instalación.
+- 
+- Soluciones integrales para redes eléctricas modernas.
+
+CALIDAD Y NORMATIVAS
+Los productos son ensayados bajo normas y estándares internacionales reconocidos para aplicaciones de baja y media tensión, garantizando desempeño, confiabilidad y seguridad en servicio. La oferta tecnológica incorpora soluciones homologadas bajo normas IEC, IEEE y CENELEC según la aplicación correspondiente.`,
+    applications: `APLICACIONES
+- Distribución eléctrica urbana y rural.
+- Redes aéreas preensambladas.
+- Redes subterráneas de baja y media tensión.
+- Subestaciones transformadoras.
+- Industria pesada.
+- Minería.
+- Petróleo y gas.
+- Energías renovables.
+- Infraestructura eléctrica pública y privada.`,
     image: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/3-HERRAJES Y MORSETERIA/PORTADA.jpeg',
     gallery: [
       '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/3-HERRAJES Y MORSETERIA/PORTADA.jpeg'
@@ -38972,11 +39151,15 @@ Los productos están fabricados en materiales de alta resistencia (aleaciones de
     pdf: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/3-HERRAJES Y MORSETERIA/FICHA TECNICA.pdf',
     specs: ['Líneas Aéreas', 'Aluminio y Acero', 'Baja/Media Tensión'],
     characteristics: [
-      'Morsas de retención y suspensión de alta resistencia mecánica.',
-      'Materiales: Aleaciones de aluminio, acero galvanizado por inmersión, acero inoxidable AISI 304 y poliamidas UV.',
-      'Sistemas de empalme con manguitos preaislados y terminales de conexión.',
-      'Excelente resistencia a la corrosión galvánica y envejecimiento a la intemperie.',
-      'Productos ensayados y homologados bajo normas internacionales IEC, IEEE y CENELEC.'
+      'Elevada confiabilidad eléctrica y mecánica.',
+      'Excelente resistencia a la corrosión y a la intemperie.',
+      'Aptos para instalaciones aéreas y subterráneas.',
+      'Compatibilidad con conductores de cobre y aluminio.',
+      'Fácil instalación y mantenimiento.',
+      'Soluciones para distribución, industria, minería, petróleo y gas.',
+      'Productos ensayados bajo estándares internacionales reconocidos.',
+      'Soluciones para Líneas Aéreas',
+      'Incluyen morsas de suspensión, morsas de retención, acometidas domiciliarias, ménsulas, piezas intermedias, protectores terminales y sistemas de fijación para redes preensambladas de baja tensión. Diseñados para soportar esfuerzos mecánicos, vibraciones y condiciones climáticas severas, garantizando la continuidad del servicio eléctrico.'
     ],
     certifications: ['iram', 'seguridad', 'resistente-uv']
   },
@@ -38986,9 +39169,156 @@ Los productos están fabricados en materiales de alta resistencia (aleaciones de
     categoryPath: ['Resto de Materiales Eléctricos', 'Iluminación'],
     description: 'Línea de productos para iluminación residencial, comercial, industrial y pública, basada en tecnología LED de alta eficiencia y bajo consumo.',
     detailedDescription: `DESCRIPCIÓN
-Línea integral orientada al ahorro energético y al confort visual en todo tipo de edificaciones y espacios públicos.
-Comprende lámparas y tubos LED, luminarias interiores de diseño modular, paneles LED de aplicar o embutir, proyectores y reflectores para exterior (IP65/IP66), campanas de alta potencia para instalaciones industriales, luminarias solares autónomas y sistemas inteligentes de control y sensores de movimiento.
-Diseñados con materiales disipadores de calor que garantizan una larga vida útil operativa y una baja emisión térmica.`,
+Línea integral de productos para iluminación residencial, comercial, industrial y urbana. Comprende lámparas LED, luminarias interiores y exteriores, reflectores, paneles LED, sistemas inteligentes de iluminación, sensores, interruptores, tomacorrientes y accesorios eléctricos, desarrollados para maximizar la eficiencia energética, la vida útil y la calidad lumínica de las instalaciones.
+
+ILUMINACIÓN LED Y CONTROL
+
+
+LÍNEAS DE PRODUCTOS
+- Lámparas LED.
+- Tubos LED.
+- Luminarias para interior.
+- Luminarias para exterior.
+- Luminarias industriales.
+- Luminarias para alumbrado público.
+- Reflectores LED.
+- Paneles LED.
+- Sistemas de rieles y luminarias decorativas.
+- Tiras LED y accesorios.
+- Sensores y fotocélulas.
+- Sistemas de iluminación inteligente.
+- Interruptores y tomacorrientes.
+- Fuentes de alimentación y controladores.
+
+MATERIALES
+- Aluminio de alta disipación térmica.
+- Policarbonato de elevada resistencia al impacto.
+- Acero para aplicaciones estructurales.
+- Difusores ópticos de alta transmisión lumínica.
+- Componentes electrónicos de bajo consumo.
+- Materiales resistentes a la radiación UV y la intemperie.
+
+LÁMPARAS LED
+Soluciones para reemplazo de tecnologías tradicionales en aplicaciones residenciales, comerciales e institucionales.
+Incluyen:
+- Lámparas tipo bulbo.
+- Lámparas decorativas de filamento.
+- Dicroicas LED.
+- Bipin LED.
+- AR111.
+- PAR LED.
+- Tubos LED.
+- Versiones inteligentes con conectividad.
+
+LUMINARIAS PARA INTERIOR
+Diseñadas para iluminación general, decorativa y arquitectónica.
+Aplicaciones:
+- Viviendas.
+- Oficinas.
+- Comercios.
+- Hoteles.
+- Instituciones.
+Incluyen:
+- Luminarias de pie.
+- Luminarias de mesa.
+- Sistemas de emergencia.
+- Listones LED.
+- Sistemas de rieles magnéticos y accesorios.
+- Luminarias decorativas y arquitectónicas.
+
+LUMINARIAS PARA EXTERIOR
+Equipos desarrollados para ambientes expuestos a condiciones climáticas adversas.
+Características:
+- Protección contra humedad y polvo.
+- Alta resistencia mecánica.
+- Tecnología LED de larga duración.
+Aplicaciones:
+- Jardines.
+- Parques.
+- Espacios públicos.
+- Fachadas.
+- Caminos peatonales.
+Incluyen luminarias solares, estacas decorativas, luminarias lineales y equipos para iluminación exterior.
+
+REFLECTORES LED
+Soluciones para iluminación de grandes superficies y aplicaciones de seguridad.
+Características:
+- Alto rendimiento lumínico.
+- Excelente uniformidad de iluminación.
+- Opciones para aplicaciones residenciales, comerciales e industriales.
+- Versiones estándar, profesionales e inteligentes.
+- Alternativas alimentadas por energía solar.
+
+LUMINARIAS INDUSTRIALES Y DE PROYECTO
+Equipos destinados a instalaciones de alta exigencia.
+Incluyen:
+- Campanas industriales LED.
+- Luminarias para galpones.
+- Reflectores de alta potencia.
+- Luminarias para espacios deportivos.
+- Alumbrado público LED.
+- Sistemas solares autónomos.
+Diseñados para maximizar la eficiencia energética y reducir costos de mantenimiento.
+
+PANELES LED
+Soluciones para iluminación uniforme en oficinas, comercios y edificios institucionales.
+Características:
+- Bajo nivel de deslumbramiento.
+- Excelente distribución lumínica.
+- Versiones embutidas y de aplicar.
+- Formatos cuadrados y rectangulares.
+- Opciones de gran formato para espacios amplios.
+
+TIRAS LED Y SISTEMAS DECORATIVOS
+Productos orientados a iluminación ambiental, decorativa y arquitectónica.
+Incluyen:
+- Tiras LED flexibles.
+- Tiras COB de alta uniformidad.
+- Sistemas tipo neón LED.
+- Perfilería de aluminio.
+- Controladores y accesorios.
+- Fuentes de alimentación específicas.
+
+AUTOMATIZACIÓN Y CONTROL
+Soluciones para optimizar el consumo energético y mejorar la experiencia de uso.
+Incluyen:
+- Sensores de movimiento.
+- Sensores inteligentes.
+- Fotocélulas.
+- Sistemas Smart para control remoto.
+- Controladores RGB y automatización lumínica.
+
+INTERRUPTORES Y TOMAS
+Línea de mecanismos eléctricos para instalaciones residenciales y comerciales.
+Características:
+- Diseño modular.
+- Diversidad de terminaciones.
+- Compatibilidad con sistemas de automatización.
+- Soluciones para energía y conectividad.
+
+VENTAJAS
+- Reducción del consumo energético.
+- Menor costo de mantenimiento.
+- Amplia variedad de soluciones de iluminación.
+- Tecnología LED de alta eficiencia.
+- Integración con sistemas inteligentes.
+- Larga vida útil de los equipos.
+- Adaptabilidad a proyectos residenciales, comerciales e industriales.
+
+CALIDAD
+Productos desarrollados para aplicaciones de iluminación profesional y residencial, fabricados bajo estándares de calidad que priorizan eficiencia energética, confiabilidad operativa y desempeño lumínico en todo tipo de instalaciones.
+Soluciones integrales de iluminación LED y material eléctrico diseñadas para brindar eficiencia, ahorro energético, confort visual y larga vida útil en aplicaciones residenciales, comerciales, industriales y urbanas`,
+    applications: `APLICACIONES
+- Viviendas.
+- Edificios corporativos.
+- Centros comerciales.
+- Hoteles.
+- Hospitales.
+- Industrias.
+- Depósitos y centros logísticos.
+- Alumbrado público.
+- Espacios deportivos.
+- Infraestructura urbana.`,
     image: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/4-ILUMINACIÓN/PORTADA.jpeg',
     gallery: [
       '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/4-ILUMINACIÓN/PORTADA.jpeg'
@@ -38996,11 +39326,14 @@ Diseñados con materiales disipadores de calor que garantizan una larga vida út
     pdf: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/4-ILUMINACIÓN/FICHA TECNICA.pdf',
     specs: ['Tecnología LED', 'Ahorro Energético', 'IP65/IP66'],
     characteristics: [
-      'Alta eficiencia lumínica con muy bajo consumo de potencia eléctrica.',
-      'Carcasas en aluminio de alta disipación térmica y difusores ópticos de policarbonato con protección UV.',
-      'Luminarias industriales y reflectores LED aptos para entornos exteriores y deportivos de alta exigencia.',
-      'Sistemas de automatización y control: sensores de movimiento, fotocélulas e iluminación inteligente (Smart).',
-      'Gran variedad de formatos modulares, temperaturas de color (cálido, neutro, frío) y encendido instantáneo.'
+      'Tecnología LED de alta eficiencia energética.',
+      'Bajo consumo eléctrico.',
+      'Larga vida útil operativa.',
+      'Encendido instantáneo.',
+      'Baja emisión térmica.',
+      'Amplia variedad de temperaturas de color.',
+      'Soluciones para uso interior y exterior.',
+      '• Opciones inteligentes para automatización y control.'
     ],
     certifications: ['iram', 'seguridad']
   },
@@ -39010,9 +39343,112 @@ Diseñados con materiales disipadores de calor que garantizan una larga vida út
     categoryPath: ['Resto de Materiales Eléctricos', 'Caños y Cajas'],
     description: 'Sistemas de caños rígidos, corrugados, cablecanales y cajas diseñados para la conducción y protección segura del cableado eléctrico.',
     detailedDescription: `DESCRIPCIÓN
-Sistemas integrales para canalización, conducción y protección mecánica de conductores eléctricos en obras civiles, comerciales y residenciales.
-Comprende caños rígidos de diferentes espesores, tubos corrugados de tipo liviano, semipesado y pesado, cablecanales de pared y piso para una prolija distribución de cableado, cajas de embutir y estancas para empalmes y paso de cables, y gabinetes modulares DIN para armado de tableros eléctricos.
-Fabricados en compuestos termoplásticos autoextinguibles de alta resistencia al impacto y libres de halógenos.`,
+Línea integral de productos para canalización, distribución y protección de instalaciones eléctricas residenciales, comerciales e industriales. Comprende tuberías rígidas y corrugadas, cajas de embutir y estancas, cablecanales, gabinetes modulares, sistemas de medición y accesorios de montaje, desarrollados para garantizar instalaciones seguras, ordenadas y de larga vida útil.
+
+LÍNEAS DE PRODUCTOS
+- Tubos rígidos para instalaciones eléctricas.
+- Tubos corrugados livianos, semipesados y pesados.
+- Accesorios para canalización.
+- Cajas de embutir.
+- Cajas estancas.
+- Gabinetes modulares para tableros eléctricos.
+- Cablecanales para distribución de cableado.
+- Sistemas para medición eléctrica.
+- Accesorios de fijación y montaje.
+- Herramientas para instalación eléctrica.
+
+MATERIALES
+- Termoplásticos de ingeniería de alta resistencia.
+- Materiales libres de halógenos.
+- Compuestos autoextinguibles.
+- Materiales resistentes a impactos y deformaciones.
+- Componentes aptos para uso interior y exterior según aplicación.
+
+SISTEMAS DE CANALIZACIÓN
+Soluciones destinadas a la protección y conducción de cables eléctricos.
+Incluyen:
+- Tubos rígidos de diferentes resistencias mecánicas.
+- Tubos corrugados para instalaciones embutidas.
+- Sistemas para canalización en paredes, pisos y techos.
+- • Accesorios para unión, derivación y fijación.
+Características:
+- Elevada resistencia al impacto.
+- Excelente capacidad de protección mecánica.
+- Facilidad de tendido y mantenimiento de conductores.
+- Compatibilidad con reglamentaciones de instalaciones eléctricas.
+
+CAJAS PARA INSTALACIONES ELÉCTRICAS
+Diseñadas para alojamiento y protección de conexiones eléctricas.
+Disponibles para:
+- Instalaciones embutidas.
+- Instalaciones de superficie.
+- Aplicaciones estancas.
+- Montaje de mecanismos y accesorios.
+Características:
+- Amplia variedad de formatos y dimensiones.
+- Excelente resistencia mecánica.
+- Fácil acceso para mantenimiento e inspección.
+- Protección frente a agentes externos según modelo.
+
+GABINETES Y TABLEROS
+Soluciones destinadas al montaje y protección de dispositivos eléctricos.
+Características:
+- Preparados para equipamiento modular DIN.
+- Diferentes capacidades y configuraciones.
+- Versiones para interior y exterior.
+- Opciones con distintos grados de protección.
+- Diseño funcional para organización del cableado.
+
+CABLECANALES Y ORGANIZACIÓN DE CABLEADO
+Sistemas diseñados para distribuir y proteger conductores eléctricos y de comunicaciones.
+Ventajas:
+- Instalaciones prolijas y ordenadas.
+- Fácil ampliación y mantenimiento.
+- Separación de circuitos cuando la aplicación lo requiere.
+- Opciones para pared, zócalo y piso.
+- Diversas dimensiones para adaptarse a cada proyecto.
+Sistemas para Medición Eléctrica
+Productos destinados al montaje y protección de equipos de medición y acometidas eléctricas.
+Aplicaciones:
+- Instalaciones residenciales.
+- Edificios multifamiliares.
+- Comercios.
+- Industrias.
+- Obras de infraestructura eléctrica.
+Incluyen gabinetes, cajas y accesorios para diferentes configuraciones de suministro.
+
+ACCESORIOS COMPLEMENTARIOS
+- Uniones.
+- Conectores.
+- Curvas.
+- Adaptadores.
+- Grampas de fijación.
+- Tapas.
+- Elementos de sellado.
+- Accesorios para montaje y terminación.
+Diseñados para lograr una integración completa de todos los componentes del sistema.
+
+VENTAJAS
+- Sistema integral de productos compatibles entre sí.
+- Mayor seguridad en la instalación.
+- Resistencia mecánica superior.
+- Materiales libres de halógenos.
+- Reducción de tiempos de montaje.
+- Excelente durabilidad en servicio.
+- Amplia disponibilidad de accesorios y complementos.
+- Soluciones para instalaciones de baja tensión de todo tipo.
+Calidad
+Productos desarrollados bajo estrictos controles de calidad y fabricados para cumplir con las exigencias de instalaciones eléctricas modernas. Las líneas de canalización incluyen soluciones con certificaciones y cumplimiento de normas aplicables para seguridad eléctrica y resistencia mecánica`,
+    applications: `APLICACIONES
+- Viviendas.
+- Edificios comerciales.
+- Oficinas.
+- Hospitales.
+- Instituciones educativas.
+- Centros logísticos.
+- Plantas industriales.
+- Infraestructura pública.
+- Obras eléctricas de distribución y servicios.`,
     image: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/5-CAÑOS Y CAJAS/PORTADA.jpeg',
     gallery: [
       '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/5-CAÑOS Y CAJAS/PORTADA.jpeg'
@@ -39020,11 +39456,14 @@ Fabricados en compuestos termoplásticos autoextinguibles de alta resistencia al
     pdf: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/5-CAÑOS Y CAJAS/FICHA TECNICA.pdf',
     specs: ['Canalización', 'Autoextinguible', 'DIN / Embutir'],
     characteristics: [
-      'Tubos rígidos y corrugados autoextinguibles, de excelente flexibilidad y resistencia mecánica al aplastamiento.',
-      'Cajas de embutir y cajas estancas compatibles para armado de mecanismos e inspección.',
-      'Gabinetes modulares preparados para equipamiento DIN con puertas transparentes u opacas.',
-      'Materiales de alta durabilidad libres de halógenos que no liberan gases tóxicos.',
-      'Cumplimiento con reglamentos vigentes de seguridad para instalaciones eléctricas residenciales e industriales.'
+      'Sistema integral de canalización eléctrica.',
+      'Alta resistencia mecánica.',
+      'Excelente comportamiento frente a la corrosión.',
+      'Soluciones para instalaciones embutidas y de superficie.',
+      'Compatibilidad entre tubos, cajas y accesorios.',
+      'Fácil instalación y mantenimiento.',
+      'Amplia variedad de configuraciones y dimensiones.',
+      'Productos aptos para aplicaciones residenciales, comerciales e industriales.'
     ],
     certifications: ['iram', 'seguridad']
   },
@@ -39034,9 +39473,57 @@ Fabricados en compuestos termoplásticos autoextinguibles de alta resistencia al
     categoryPath: ['Resto de Materiales Eléctricos', 'Bandejas Portacables'],
     description: 'Sistemas modulares de bandejas portacables de chapa perforada, tipo escalera y rejilla para tendidos de potencia y control en industrias.',
     detailedDescription: `DESCRIPCIÓN
-Sistema modular de canalización eléctrica diseñado para la conducción, soporte y organización de cables en industrias, plantas de proceso, centros de datos y grandes obras de infraestructura.
-Incluye tramos rectos de bandejas perforadas, bandejas tipo escalera (estándar y ultra pesada) y bandejas de alambre (rejilla), junto con una completa gama de accesorios de acople, curvas planas y verticales, uniones Tee, Cruz, soportes tipo ménsula y varillas de fijación.
-Fabricadas en acero de alta resistencia con terminación galvanizada de origen o por inmersión en caliente para máxima protección contra la corrosión.`,
+Sistema de canalización eléctrica diseñado para la conducción, soporte y organización de cables de potencia, comando, control, instrumentación y telecomunicaciones en instalaciones industriales, comerciales, de infraestructura y centros de datos. Fabricado bajo estrictos estándares de calidad y con soluciones modulares que facilitan el montaje y mantenimiento.
+
+LÍNEAS DE PRODUCTOS
+- Bandejas portacables perforadas.
+- Bandejas portacables tipo escalera.
+- Bandejas portacables de alambre.
+- Sistema de canalización bajo piso.
+- Línea tipo escalera ultra pesada para aplicaciones de alta exigencia mecánica.
+
+MATERIALES Y TERMINACIONES
+- Acero de alta resistencia mecánica.
+- Galvanizado de origen.
+- Galvanizado por inmersión en caliente.
+- Opciones en acero inoxidable para aplicaciones especiales.
+- Protección anticorrosiva apta para ambientes industriales y exteriores.
+
+ACCESORIOS DISPONIBLES
+- Curvas planas.
+- Curvas verticales ascendentes y descendentes.
+- Curvas articuladas.
+- Uniones Tee.
+- Uniones Cruz.
+- Reducciones.
+- Cuplas de unión.
+- Eslabones universales.
+- Tapas para tramos y accesorios.
+- Bandas divisorias.
+- Perfiles tipo C.
+- Soportes ménsula, trapecio, universales y reforzados.
+- Grampas de suspensión y fijación.
+- Varillas roscadas, tuercas y bulonería de montaje.
+
+VENTAJAS
+- Optimización del tendido de cables.
+- Mayor seguridad y orden en las instalaciones.
+- Facilidad para ampliaciones futuras.
+- Reducción de tiempos de montaje.
+- Elevada durabilidad y resistencia a la corrosión.
+- Compatibilidad entre bandejas, soportes y accesorios del sistema.
+
+CALIDAD
+Fabricados bajo un sistema de gestión de calidad certificado, con foco en la innovación, la seguridad y el desempeño de las instalaciones eléctricas industriales.`,
+    applications: `APLICACIONES
+- Plantas industriales.
+- Centros logísticos.
+- Edificios corporativos.
+- Hospitales.
+- Centros de procesamiento de datos.
+- Infraestructura energética.
+- Obras de petróleo, gas y minería.
+- Instalaciones comerciales y de servicios.`,
     image: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/6-BANDEJAS/PORTADA.jpeg',
     gallery: [
       '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/6-BANDEJAS/PORTADA.jpeg'
@@ -39044,11 +39531,12 @@ Fabricadas en acero de alta resistencia con terminación galvanizada de origen o
     pdf: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/6-BANDEJAS/FICHA TECNICA.pdf',
     specs: ['Galvanizado en Caliente', 'Perforada / Escalera / Rejilla', 'Soporte Modulares'],
     characteristics: [
-      'Sistema modular de rápida instalación con uniones integradas.',
-      'Alta capacidad de carga y resistencia estructural ante la flexión.',
-      'Diseño perforado y tipo escalera que asegura ventilación continua y disipación de temperatura de los cables.',
-      'Materiales: Acero de alta resistencia galvanizado de origen, por inmersión en caliente (HDG) o acero inoxidable.',
-      'Completo catálogo de accesorios para realizar desvíos de nivel, derivaciones e inspecciones.'
+      'Sistema modular de rápida instalación.',
+      'Alta capacidad de carga y resistencia estructural.',
+      'Excelente ventilación para disipación térmica de conductores.',
+      'Facilidad de inspección y mantenimiento.',
+      'Adaptabilidad a distintos tipos de montaje.',
+      'Amplia variedad de accesorios para derivaciones y cambios de dirección.'
     ],
     certifications: ['iram', 'seguridad']
   },
@@ -39058,9 +39546,89 @@ Fabricadas en acero de alta resistencia con terminación galvanizada de origen o
     categoryPath: ['Resto de Materiales Eléctricos', 'Teclas y Bastidores'],
     description: 'Línea de teclas, bastidores, interruptores y tomacorrientes modulares para instalaciones residenciales y comerciales.',
     detailedDescription: `DESCRIPCIÓN
-Línea modular de mecanismos de comando y tomacorrientes eléctricos residenciales y comerciales.
-Combina una excelente estética visual y funcionalidad modular, permitiendo configurar bastidores con teclas de encendido, pulsadores, tomacorrientes de distintas corrientes, variadores electrónicos de luz y ventilación, conectores telefónicos y puertos USB de carga.
-Fabricadas con compuestos termoplásticos de ingeniería autoextinguibles y contactos de cobre/latón de alta conductividad para mayor durabilidad y seguridad.`,
+Línea de productos eléctricos destinada a instalaciones residenciales, comerciales e industriales livianas. Comprende mecanismos de comando, tomacorrientes, módulos de comunicación, fichas eléctricas, tapas, bastidores y accesorios de montaje, desarrollados para brindar seguridad, funcionalidad y estética en todo tipo de instalaciones eléctricas.
+
+LÍNEAS DE PRODUCTOS
+- Interruptores de comando.
+- Pulsadores.
+- Tomacorrientes.
+- Módulos de datos y telecomunicaciones.
+- Variadores electrónicos.
+- Indicadores luminosos.
+- Fichas y tomas móviles.
+- Bastidores.
+- Tapas de terminación.
+- Accesorios para montaje e instalación.
+- Protecciones eléctricas modulares.
+
+MATERIALES
+- Termoplásticos de ingeniería de alta resistencia.
+- Policarbonato de elevada durabilidad.
+- Componentes metálicos de alta conductividad eléctrica.
+- Materiales autoextinguibles.
+- Elementos resistentes al envejecimiento y al uso intensivo.
+
+INTERRUPTORES Y PULSADORES
+Dispositivos destinados al comando y control de circuitos eléctricos de iluminación y servicios.
+Características:
+- Funcionamiento confiable y silencioso.
+- Elevada vida útil mecánica.
+- Diseño modular intercambiable.
+- Aptos para instalaciones residenciales y comerciales.
+Tomacorrientes
+Diseñados para la alimentación segura de equipos eléctricos y electrónicos.
+Características:
+- Versiones con y sin puesta a tierra.
+- Diferentes capacidades de corriente.
+- Contactos de elevada conductividad.
+- Máxima seguridad de conexión.
+- Compatibilidad con instalaciones normalizadas.
+
+MÓDULOS ESPECIALES
+- Tomas para televisión.
+- Tomas telefónicas.
+- Tomas de datos.
+- Conectores de red.
+- Indicadores luminosos.
+- Variadores de iluminación.
+- Reguladores para ventilación.
+- Puertos de alimentación USB.
+
+TAPAS Y BASTIDORES
+Elementos destinados al montaje y terminación estética de los mecanismos eléctricos.
+Características:
+- Diversos formatos y dimensiones.
+- Amplia variedad de colores y terminaciones.
+- Fácil instalación y reemplazo.
+- Excelente resistencia al uso cotidiano.
+
+FICHAS Y TOMAS MÓVILES
+- Fichas bipolares.
+- Fichas con puesta a tierra.
+- Tomas móviles para prolongaciones.
+- Versiones para distintas capacidades de corriente.
+- Diseñadas para uso residencial, comercial e industrial liviano.
+
+CALIDAD
+Productos fabricados bajo estrictos controles de calidad y conforme a los requisitos de las normas eléctricas aplicables para instalaciones de baja tensión, garantizando seguridad, confiabilidad y durabilidad en servicio.`,
+    applications: `APLICACIONES
+- Viviendas.
+- Oficinas.
+- Comercios.
+- Instituciones educativas.
+- Hospitales.
+- Hoteles.
+- Edificios corporativos.
+- Instalaciones industriales livianas.
+- Obras de infraestructura edilicia.
+- Ventajas
+- Sistema modular flexible.
+- Amplia compatibilidad de componentes.
+- Diseño moderno y funcional.
+- Fácil mantenimiento y ampliación.
+- Excelente relación entre calidad y prestaciones.
+- Soluciones integrales para energía y comunicaciones.
+- Adaptabilidad a distintos requerimientos de instalación.`,
     image: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/7-TECLAS Y BASTIDORES/PORTADA.jpeg',
     gallery: [
       '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/7-TECLAS Y BASTIDORES/PORTADA.jpeg'
@@ -39068,11 +39636,13 @@ Fabricadas con compuestos termoplásticos de ingeniería autoextinguibles y cont
     pdf: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/7-TECLAS Y BASTIDORES/FICHA TECNICA.pdf',
     specs: ['Diseño Modular', 'Policarbonato Autoextinguible', 'Conectividad USB/Datos'],
     characteristics: [
-      'Interruptores y pulsadores de accionamiento silencioso y alta vida útil.',
-      'Tomacorrientes normalizados con contactos de alta presión y excelente conductividad.',
-      'Tomas especiales: variadores de luz, reguladores, tomas de TV, puertos USB integrados.',
-      'Bastidores de fácil sujeción y tapas estéticas con gran variedad de colores.',
-      'Materiales: Policarbonato resistente a la fatiga, abrasión y decoloración por rayos UV.'
+      'Diseño modular adaptable a múltiples configuraciones.',
+      'Instalación simple y rápida.',
+      'Compatibilidad entre módulos y accesorios.',
+      'Excelente resistencia mecánica.',
+      'Amplia variedad de terminaciones y formatos.',
+      'Aptos para instalaciones embutidas y de superficie.',
+      'Soluciones para energía, datos y telecomunicaciones.'
     ],
     certifications: ['iram', 'seguridad']
   },
@@ -39104,9 +39674,79 @@ Disponibles en baño de aceite mineral o secos encapsulados en resina epoxi de a
     categoryPath: ['Resto de Materiales Eléctricos', 'Terminales'],
     description: 'Línea completa de terminales, uniones de compresión y morsetería para terminación de conductores eléctricos de cobre y aluminio.',
     detailedDescription: `DESCRIPCIÓN
-Terminales y uniones de compresión diseñados para realizar conexiones eléctricas seguras, confiables y de baja resistencia de contacto en instalaciones de baja, media y alta tensión.
-Comprende terminales de cobre estañado de un orificio, uniones de compresión, terminales de aluminio y terminales bimetálicos cobre-aluminio soldados por fricción para evitar la corrosión galvánica entre materiales disímiles.
-La línea incorpora terminales preaislados y punteras tubulares para armado de tableros eléctricos.`,
+Línea completa de productos para conexión, empalme, derivación, puesta a tierra y terminación de conductores eléctricos de cobre y aluminio en sistemas de baja, media y alta tensión. Incluye terminales, uniones, conectores, morsetería, accesorios para líneas aéreas y herramientas de compresión, diseñados para aplicaciones industriales, energéticas, de distribución eléctrica y obras de infraestructura.
+
+LÍNEAS DE PRODUCTOS
+- Terminales y uniones de cobre.
+- Terminales y uniones de aluminio.
+- Terminales bimetálicos.
+- Terminales preaislados.
+- Punteras tubulares.
+- Terminales de latón.
+- Conectores para derivación y puesta a tierra.
+- Morsetería para redes eléctricas.
+- Accesorios para líneas aéreas.
+- Herramientas manuales e hidráulicas para compresión, corte y pelado de conductores.
+
+MATERIALES
+- Cobre electrolítico de alta conductividad.
+- Aluminio de alta pureza.
+- Combinaciones aluminio-cobre soldadas por fricción para conexiones bimetálicas.
+- • Recubrimiento de estaño por electrodeposición para protección anticorrosiva.
+- Aislaciones en PVC y materiales termoplásticos de uso eléctrico.
+
+TERMINALES Y UNIONES DE COBRE
+- Terminales de uno y dos orificios.
+- Tubo estándar y tubo largo.
+- Uniones de compresión.
+- Modelos con ventana de inspección.
+- Versiones para conductores métricos y AWG.
+- Cobre electrolítico estañado para máxima conductividad y durabilidad.
+Terminales de Aluminio y Bimetálicos
+- Terminales para conductores de aluminio.
+- Uniones para conductores de aluminio.
+- Terminales bimetálicos aluminio-cobre.
+- Soluciones para evitar corrosión galvánica entre metales diferentes.
+- Aplicables mediante compresión hexagonal o identación profunda.
+
+MORSETERÍA Y CONECTORES
+- Conectores para derivación.
+- Conectores para puesta a tierra.
+- Morsetos para redes aéreas.
+- Grampas y accesorios para distribución eléctrica.
+- Soluciones para conexión y derivación de conductores en servicio.
+
+HERRAMIENTAS
+- Herramientas manuales para identación y compresión.
+- Herramientas hidráulicas monocomando.
+- Herramientas hidráulicas de comando remoto.
+- Cortacables.
+- Pelacables.
+- Sacabocados hidráulicos.
+- Matrices intercambiables para distintas aplicaciones.
+
+VENTAJAS
+- Amplio rango de productos para conductores de cobre y aluminio.
+- Compatibilidad con herramientas de compresión profesionales.
+- Alta confiabilidad eléctrica y mecánica.
+- Protección contra corrosión y envejecimiento.
+- Facilidad y rapidez de instalación.
+- Soluciones certificadas para aplicaciones críticas del sector eléctrico.
+
+CALIDAD Y CERTIFICACIONES
+- Sistema de gestión de calidad certificado ISO 9001.
+- Productos certificados bajo normas IEC aplicables a terminales, uniones y conectores de compresión.
+- Certificaciones IRAM para distintas líneas de productos.
+- Cumplimiento de los requisitos regulatorios vigentes para comercialización y uso en Argentina.`,
+    applications: `APLICACIONES
+- Redes de distribución eléctrica.
+- Líneas aéreas de media tensión.
+- Subestaciones transformadoras.
+- Instalaciones industriales.
+- Sistemas de puesta a tierra.
+- Infraestructura energética.
+- Obras de transmisión y distribución eléctrica.
+- • Instalaciones comerciales y de servicios.`,
     image: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/9-TERMINALES/PORTADA.jpeg',
     gallery: [
       '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/9-TERMINALES/PORTADA.jpeg'
@@ -39114,11 +39754,13 @@ La línea incorpora terminales preaislados y punteras tubulares para armado de t
     pdf: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/9-TERMINALES/FICHA TECNICA.pdf',
     specs: ['Cobre estañado', 'Bimetálicos', 'Compresión Hexagonal'],
     characteristics: [
-      'Terminales y uniones de cobre estañado por electrodeposición para máxima conductividad y anticorrosión.',
-      'Terminales bimetálicos aluminio-cobre unidos por fricción para transiciones de metales disímiles sin corrosión galvánica.',
-      'Terminales preaislados y punteras tubulares en PVC/termoplásticos para tableros de control.',
-      'Instalación simple mediante herramientas de compresión hexagonal o identación profunda.',
-      'Secciones de marcación claras en los terminales de fácil lectura.'
+      'Elevada conductividad eléctrica.',
+      'Excelente resistencia mecánica.',
+      'Protección contra la corrosión.',
+      'Instalación mediante compresión hexagonal o identación según el producto.',
+      'Marcación de secciones y matrices de aplicación.',
+      'Disponibilidad para conductores de cobre y aluminio en una amplia gama de secciones.',
+      'Soluciones específicas para distribución de energía, puesta a tierra y líneas aéreas.'
     ],
     certifications: ['iram', 'seguridad']
   },
@@ -39128,9 +39770,78 @@ La línea incorpora terminales preaislados y punteras tubulares para armado de t
     categoryPath: ['Resto de Materiales Eléctricos', 'Empalmes y Accesorios Subterráneos'],
     description: 'Accesorios termocontraíbles y contraíbles en frío para la terminación, empalme y protección estanca de cables en redes aéreas y subterráneas.',
     detailedDescription: `DESCRIPCIÓN
-Sistemas de empalmes y terminaciones diseñados para restablecer la continuidad aislante, eléctrica y mecánica de conductores eléctricos en redes de distribución.
-Comprende empalmes rectos termocontraíbles o con resinas de encapsulado, y terminales termocontraíbles o contraíbles en frío para cables de media tensión de hasta 36 kV.
-También se incorporan conectores enchufables apantallados para celdas de media tensión y descargadores de sobretensión, garantizando una total estanqueidad e inmunidad ante la penetración de humedad.`,
+Línea de productos destinada a la conexión, empalme, terminación, retención, suspensión y protección de conductores eléctricos en redes aéreas y subterráneas de baja y media tensión. Incluye accesorios para cables preensamblados, sistemas de distribución eléctrica, instalaciones industriales y proyectos de infraestructura energética. Los productos están diseñados para maximizar la confiabilidad eléctrica, la seguridad operativa y la vida útil de las instalaciones.
+
+LÍNEAS DE PRODUCTOS
+- Morsas de suspensión y retención.
+- Morsas de acometida domiciliaria.
+- Ménsulas y accesorios de fijación.
+- Manguitos de empalme preaislados y desnudos.
+- Terminales preaislados de conexión.
+- Protectores terminales.
+- Flejes, hebillas y sistemas de fijación.
+- Accesorios para líneas preensambladas.
+- Empalmes para baja y media tensión.
+- Terminales termocontraíbles hasta 36 kV.
+- Terminales contraíbles en frío hasta 36 kV.
+- Conectores enchufables apantallados.
+- Uniones y terminales a tornillo fusible.
+- Tubos termocontraíbles.
+- Resinas y geles dieléctricos.
+- Herramientas para preparación e instalación de cables.
+
+MATERIALES
+- Aleaciones de aluminio de alta resistencia.
+- Acero galvanizado y cincado.
+- Acero inoxidable AISI 304.
+- Latón estañado.
+- Poliamidas con protección UV.
+- Elastómeros termoplásticos para intemperie.
+- Siliconas y materiales dieléctricos de última generación.
+- Resinas poliuretánicas y geles aislantes.
+
+SOLUCIONES PARA LÍNEAS SUBTERRÁNEAS
+- Empalmes rectos para baja y media tensión.
+- Terminales termocontraíbles y contraíbles en frío.
+- Conectores enchufables apantallados.
+- Uniones y terminales a tornillo fusible.
+- Resinas y geles para encapsulado.
+- Accesorios para reparación y protección de cables.
+- • Sistemas para cables hasta 36 kV.
+
+EMPALMES Y TERMINALES
+Los sistemas de empalme y terminación permiten restablecer la continuidad eléctrica y mecánica de los conductores, garantizando estanqueidad, aislamiento y protección contra la corrosión. Disponibles en tecnologías termocontraíbles, contraíbles en frío, elastoméricas y con resinas dieléctricas.
+
+CONECTORES Y ACCESORIOS ESPECIALES
+- Conectores enchufables para celdas y equipos de media tensión.
+- Descargadores de sobretensión.
+- Conectores preaislados.
+- Accesorios para líneas protegidas.
+- Cintas especiales para aislamiento eléctrico.
+- Materiales semiconductivos y accesorios para fabricación de cables.
+
+VENTAJAS
+- Máxima seguridad operativa.
+- Reducción de fallas por humedad y contaminación.
+- Alta resistencia mecánica y eléctrica.
+- Larga vida útil en servicio.
+- Compatibilidad con estándares internacionales.
+- Asesoramiento técnico especializado y soporte de instalación.
+- 
+- Soluciones integrales para redes eléctricas modernas.
+
+CALIDAD Y NORMATIVAS
+Los productos son ensayados bajo normas y estándares internacionales reconocidos para aplicaciones de baja y media tensión, garantizando desempeño, confiabilidad y seguridad en servicio. La oferta tecnológica incorpora soluciones homologadas bajo normas IEC, IEEE y CENELEC según la aplicación correspondiente.`,
+    applications: `APLICACIONES
+- Distribución eléctrica urbana y rural.
+- Redes aéreas preensambladas.
+- Redes subterráneas de baja y media tensión.
+- Subestaciones transformadoras.
+- Industria pesada.
+- Minería.
+- Petróleo y gas.
+- Energías renovables.
+- Infraestructura eléctrica pública y privada.`,
     image: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/10-EMPALMES/PORTADA.jpeg',
     gallery: [
       '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/10-EMPALMES/PORTADA.jpeg'
@@ -39138,11 +39849,15 @@ También se incorporan conectores enchufables apantallados para celdas de media 
     pdf: '/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/10-EMPALMES/FICHA TECNICA (PARTE EMPALMES).pdf',
     specs: ['Termocontraíbles / Contraíbles en Frío', 'Baja y Media Tensión', 'Estanqueidad IP'],
     characteristics: [
-      'Empalmes rectos termocontraíbles y de resina dieléctrica para cables subterráneos de baja y media tensión.',
-      'Terminales termocontraíbles y contraíbles en frío para media tensión hasta 36 kV.',
-      'Conectores enchufables apantallados de codo y rectos para celdas transformadoras.',
-      'Uniones y terminales con tornillos fusibles para facilidad de instalación mecánica.',
-      'Tubos termocontraíbles con adhesivo interno y geles aislantes que aseguran total hermeticidad frente al agua.'
+      'Elevada confiabilidad eléctrica y mecánica.',
+      'Excelente resistencia a la corrosión y a la intemperie.',
+      'Aptos para instalaciones aéreas y subterráneas.',
+      'Compatibilidad con conductores de cobre y aluminio.',
+      'Fácil instalación y mantenimiento.',
+      'Soluciones para distribución, industria, minería, petróleo y gas.',
+      'Productos ensayados bajo estándares internacionales reconocidos.',
+      'Soluciones para Líneas Aéreas',
+      'Incluyen morsas de suspensión, morsas de retención, acometidas domiciliarias, ménsulas, piezas intermedias, protectores terminales y sistemas de fijación para redes preensambladas de baja tensión. Diseñados para soportar esfuerzos mecánicos, vibraciones y condiciones climáticas severas, garantizando la continuidad del servicio eléctrico.'
     ],
     certifications: ['iram', 'seguridad']
   }
