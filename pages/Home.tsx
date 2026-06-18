@@ -27,7 +27,7 @@ const CategoryCard: React.FC<{ cat: any; idx: number }> = ({ cat, idx }) => {
       className={`group relative h-80 overflow-hidden bg-slate-900 block transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
       style={{ transitionDelay: `${idx * 100}ms` }}
     >
-      <img src={mainImage} alt={cat.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70 group-hover:opacity-50" />
+      <img src={mainImage} alt={cat.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70 group-hover:opacity-50" loading="lazy" />
       <div className="absolute inset-0 flex flex-col justify-end p-8">
         <div className="border-l-4 border-orange-600 pl-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
           <h3 className="text-3xl md:text-4xl font-oswald font-bold text-white mb-1 uppercase tracking-tight">{cat.name}</h3>
@@ -78,6 +78,7 @@ const Home: React.FC = () => {
               src="/images/banner-principal.png"
               alt="Vicbril Banner"
               className="w-full h-full object-contain object-right animate-scale-in"
+              fetchPriority="high"
             />
             {/* Soft white gradient overlays to prevent text collision on mobile */}
             <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent md:hidden z-10 pointer-events-none" />
@@ -185,7 +186,7 @@ const Home: React.FC = () => {
       {/* Corporate CTA & Contact Form */}
       <section className="py-28 bg-slate-900 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="/images/vicbril-warehouse-cta.jpg" alt="Centro Logístico Vicbril" className="w-full h-full object-cover opacity-20" />
+          <img src="/images/vicbril-warehouse-cta.jpg" alt="Centro Logístico Vicbril" className="w-full h-full object-cover opacity-20" loading="lazy" />
           <div className="absolute inset-0 bg-slate-900/80"></div>
         </div>
         <div className="absolute top-0 right-0 w-1/2 h-full bg-orange-600/10 skew-x-12 transform translate-x-20 z-0"></div>

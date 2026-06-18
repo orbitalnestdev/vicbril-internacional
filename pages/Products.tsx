@@ -353,6 +353,7 @@ const Products: React.FC = () => {
                             src={folderImage}
                             alt={sub}
                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            loading="lazy"
                             onError={() => {
                               if (!imageErrors[sub]) {
                                 setImageErrors(prev => ({ ...prev, [sub]: true }));
@@ -387,7 +388,7 @@ const Products: React.FC = () => {
                       className="w-full aspect-[4/3] relative overflow-hidden bg-gray-100 cursor-pointer"
                       onClick={() => handleProductClick(product)}
                     >
-                      <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                      <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
                       <div className="absolute top-4 left-4">
                         <span className="text-[10px] font-bold text-slate-900 bg-white/90 backdrop-blur uppercase tracking-widest px-3 py-1 shadow-sm">{formatCategoryName(product.categoryPath && product.categoryPath[0])}</span>
                       </div>

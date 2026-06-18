@@ -28,6 +28,7 @@ const About: React.FC = () => {
                         src="/images/home-nosotros/20260116_174205.jpg"
                         alt="Ingenieros en planta industrial"
                         className="shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 w-full h-auto object-cover"
+                        loading="lazy"
                      />
                      <div className="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-orange-600 -mb-4 -mr-4"></div>
                   </div>

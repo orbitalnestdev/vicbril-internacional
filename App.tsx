@@ -2,14 +2,16 @@ import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Products from './pages/Products';
-import ProductDetail from './pages/ProductDetail';
-import Contact from './pages/Contact';
-import FAQ from './pages/FAQ';
-import Markets from './pages/Markets';
-import { FloatingWhatsApp, TechnicalAssistant } from './components/UI/FloatingButtons';
+import { FloatingWhatsApp } from './components/UI/FloatingButtons';
+
+// Lazy load pages for code-splitting and performance optimization
+const Home = React.lazy(() => import('./pages/Home'));
+const About = React.lazy(() => import('./pages/About'));
+const Products = React.lazy(() => import('./pages/Products'));
+const ProductDetail = React.lazy(() => import('./pages/ProductDetail'));
+const Contact = React.lazy(() => import('./pages/Contact'));
+const FAQ = React.lazy(() => import('./pages/FAQ'));
+const Markets = React.lazy(() => import('./pages/Markets'));
 
 const ScrollProgress: React.FC = () => {
   const [progress, setProgress] = React.useState(0);
@@ -41,15 +43,22 @@ function App() {
         <ScrollProgress />
         <Header />
         <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/nosotros" element={<About />} />
-            <Route path="/productos" element={<Products />} />
-            <Route path="/productos/:id" element={<ProductDetail />} />
-            <Route path="/contacto" element={<Contact />} />
-            <Route path="/faq" element={<FAQ />} />
-            <Route path="/mercados" element={<Markets />} />
-          </Routes>
+          <React.Suspense fallback={
+            <div className="min-h-[60vh] flex flex-col items-center justify-center bg-gray-50">
+              <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-orange-600"></div>
+              <p className="mt-4 text-gray-500 font-medium animate-pulse">Cargando...</p>
+            </div>
+          }>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/nosotros" element={<About />} />
+              <Route path="/productos" element={<Products />} />
+              <Route path="/productos/:id" element={<ProductDetail />} />
+              <Route path="/contacto" element={<Contact />} />
+              <Route path="/faq" element={<FAQ />} />
+              <Route path="/mercados" element={<Markets />} />
+            </Routes>
+          </React.Suspense>
         </main>
         <Footer />
         <FloatingWhatsApp />
