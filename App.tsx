@@ -1,8 +1,19 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import { FloatingWhatsApp } from './components/UI/FloatingButtons';
+
+// Component to scroll window to top on route change
+const ScrollToTop: React.FC = () => {
+  const { pathname, search } = useLocation();
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname, search]);
+
+  return null;
+};
 
 // Lazy load pages for code-splitting and performance optimization
 const Home = React.lazy(() => import('./pages/Home'));
@@ -39,6 +50,7 @@ const ScrollProgress: React.FC = () => {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen flex flex-col font-sans text-slate-800">
         <ScrollProgress />
         <Header />
