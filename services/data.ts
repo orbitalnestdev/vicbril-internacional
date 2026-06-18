@@ -38638,16 +38638,14 @@ Cables de instrumentación, control y transmisión de datos de alta velocidad en
   {
     id: 'especiales-mineria',
     name: 'Cables Mineros (Serie SHD-GC MT)',
-    categoryPath: ['Cables Especiales', 'Minería'],
+    categoryPath: ['Cables Especiales'],
     description: 'Cables de energía flexibles blindados extrapesados (Extra-Heavy Duty) de 5 a 25 kV, diseñados para alimentación de equipos móviles pesados en minería y petróleo.',
     detailedDescription: `DESCRIPCIÓN
 Son cables de energía en media tensión, reforzados y portátiles, para utilizar en desarrollos mineros para equipo móvil pesado como cables de arrastre, palas, taladros y alimentadores de energía. En campos petroleros se utiliza para alimentación de equipo móvil de perforación y en general para instalaciones móviles con desplazamientos horizontales o verticales a la intemperie.
 Aptos para soportar en parada o en movimiento todos los esfuerzos de tracción, torsión y flexión generados por el funcionamiento normal de un enrollador de cables.
 Cuenta con materiales plásticos que proporcionan una protección adecuada ante productos químicos, entorno hostil, desgarros e impactos. Adicionalmente, estos materiales no liberan gases halógenos ante la eventualidad de producirse un incendio. Apto para aplicaciones donde se necesiten conductores de protección (G) y un conductor de verificación de tierra (GC). El cable cuenta con blindaje individual sobre cada conductor de fase.`,
-    image: '/images/ProductosNuevos/8-CABLES ESPECIALES/1-MINERIA/PORTADA.jpeg',
-    gallery: [
-      '/images/ProductosNuevos/8-CABLES ESPECIALES/1-MINERIA/PORTADA.jpeg'
-    ],
+    image: '/images/ProductosNuevos/8-CABLES ESPECIALES/1-MINERIA/PORTADA Y FICHA TECNICA.jpeg',
+    gallery: ['/images/ProductosNuevos/8-CABLES ESPECIALES/1-MINERIA/PORTADA Y FICHA TECNICA.jpeg'],
     pdf: '/images/ProductosNuevos/8-CABLES ESPECIALES/1-MINERIA/FICHA TECNICA.pdf',
     specs: ['5 a 25 kV', 'EPR/TPU', 'Uso Minero Extrapesado'],
     characteristics: [
@@ -38713,21 +38711,19 @@ Cuenta con materiales plásticos que proporcionan una protección adecuada ante 
         ]
       }
     ],
-    certifications: ['iram', 'seguridad', 'libre-halogenos', 'resistente-uv']
+    certifications: ['iram', 'resistencia-abrasion', 'resistencia-grasas', 'instalacion-industrial']
   },
   {
     id: 'especiales-ascensor',
     name: 'Cables para Ascensor (EMYSFLEX LIFT)',
-    categoryPath: ['Cables Especiales', 'Ascensor'],
+    categoryPath: ['Cables Especiales'],
     description: 'Conductores colgantes extra flexibles diseñados con núcleo de soporte para comando de cabinas en ascensores y montacargas.',
     detailedDescription: `DESCRIPCIÓN
 Este cable está especialmente diseñado para ser utilizado en instalaciones de comando de ascensores y montacargas.
 Aislación conformada por compuesto especial extraflexible de PVC con numeración correlativa en tinta blanca indeleble y envoltura final de compuesto especial a base de polímeros termoplásticos y caucho con excelentes propiedades mecánicas y gran flexibilidad (resistencia a fatiga, abrasión, aceites y grasas).
 Apto para uso intemperie y bajas temperaturas. No está diseñado para soportar esfuerzos de torsión.`,
-    image: '/images/ProductosNuevos/8-CABLES ESPECIALES/2-ASCENSOR/PORTADA.jpeg',
-    gallery: [
-      '/images/ProductosNuevos/8-CABLES ESPECIALES/2-ASCENSOR/PORTADA.jpeg'
-    ],
+    image: '/images/ProductosNuevos/8-CABLES ESPECIALES/2-ASCENSOR/PORTADA Y FICHA TECNICA.jpeg',
+    gallery: ['/images/ProductosNuevos/8-CABLES ESPECIALES/2-ASCENSOR/PORTADA Y FICHA TECNICA.jpeg'],
     pdf: '/images/ProductosNuevos/8-CABLES ESPECIALES/2-ASCENSOR/FICHA TECNICA.pdf',
     specs: ['300/500 V', 'Extra Flexible', 'Con Elemento Portante'],
     characteristics: [
@@ -38766,20 +38762,18 @@ Apto para uso intemperie y bajas temperaturas. No está diseñado para soportar 
         ]
       }
     ],
-    certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'no-propagacion']
+    certifications: ['iram', 'seguridad', 'cuerdas-flexibles', 'no-propagacion', 'resistencia-abrasion', 'resistencia-grasas']
   },
   {
     id: 'especiales-fibra-optica',
     name: 'Cables de Fibra Óptica ADSS (CIMET OPTEL®)',
-    categoryPath: ['Cables Especiales', 'Fibra Óptica'],
+    categoryPath: ['Cables Especiales'],
     description: 'Cables de fibra óptica dieléctricos autoportantes (ADSS) de doble cubierta con estructura PKP, ideales para tendidos aéreos con vanos de hasta 300 metros.',
     detailedDescription: `DESCRIPCIÓN
 Cable óptico dieléctrico de doble cubierta autoportante (ADSS) con estructura PKP, para aplicaciones en instalaciones de líneas aéreas en vanos de hasta 300 metros para líneas interurbanas.
 Constituidos por fibras ópticas alojadas en tubos holgados de PBT rellenos con gel tixotrópico para el bloqueo de humedad, reunidos en SZ alrededor de un miembro central dieléctrico. El conjunto contiene elementos hinchables secos para bloqueo de ingreso de agua, protegidos por dos cubiertas de polietileno de media densidad separadas por una doble corona de aramida dispuesta de forma contra helicoidal.`,
     image: '/images/ProductosNuevos/8-CABLES ESPECIALES/3-FIBRA OPTICA/PORTADA.jpeg',
-    gallery: [
-      '/images/ProductosNuevos/8-CABLES ESPECIALES/3-FIBRA OPTICA/PORTADA.jpeg'
-    ],
+    gallery: ['/images/ProductosNuevos/8-CABLES ESPECIALES/3-FIBRA OPTICA/PORTADA.jpeg'],
     pdf: '/images/ProductosNuevos/8-CABLES ESPECIALES/3-FIBRA OPTICA/FICHA TECNICA.pdf',
     specs: ['ADSS PKP', 'Doble Cubierta', 'Vanos hasta 300m'],
     characteristics: [
@@ -38805,21 +38799,19 @@ Constituidos por fibras ópticas alojadas en tubos holgados de PBT rellenos con 
         ]
       }
     ],
-    certifications: ['iram', 'seguridad', 'resistente-uv']
+    certifications: ['iram']
   },
   {
     id: 'especiales-utp',
     name: 'Cable UTP de Cobre CAT 6 (Corning)',
-    categoryPath: ['Cables Especiales', 'UTP'],
+    categoryPath: ['Cables Especiales'],
     description: 'Cables de cobre UTP de 4 pares y alto rendimiento para redes estructuradas Gigabit y transmisiones de señal de voz, datos y video.',
     detailedDescription: `DESCRIPCIÓN
 Los cables de cobre Corning de 4 pares son de alto rendimiento, conforme con la IEC 61156-5:2013 y EN 50288-10-1:2012.
 El cable CAT 6 UTP es fabricado con 4 pares siguiendo el código de colores, conductores de cobre sólido de calibre 24 AWG, agrupados por una cubierta externa retardante al fuego. Cumple y excede las normas de la industria para redes de bajo voltaje y transmisión de señales.
 Las aplicaciones incluyen estándar IEEE 802.3 para redes de 10 Mb hasta 1 Gb. Es también aplicable para POE (IEEE 802.3af), POE+ (IEEE 802.3at) y sistemas ATM LAN 1.2 Gb.`,
     image: '/images/ProductosNuevos/8-CABLES ESPECIALES/4-UTP/PORTADA.jpeg',
-    gallery: [
-      '/images/ProductosNuevos/8-CABLES ESPECIALES/4-UTP/PORTADA.jpeg'
-    ],
+    gallery: ['/images/ProductosNuevos/8-CABLES ESPECIALES/4-UTP/PORTADA.jpeg'],
     pdf: '/images/ProductosNuevos/8-CABLES ESPECIALES/4-UTP/FICHA TECNICA.pdf',
     specs: ['Cat 6 U/UTP', 'LSZH / PVC', 'Bajo Voltaje'],
     characteristics: [
@@ -38849,20 +38841,19 @@ Las aplicaciones incluyen estándar IEEE 802.3 para redes de 10 Mb hasta 1 Gb. E
         ]
       }
     ],
-    certifications: ['iram', 'seguridad', 'no-propagacion']
+    certifications: ['iram', 'no-propagacion', 'libre-halogenos', 'bajos-humos']
   },
   {
     id: 'especiales-coaxiales',
     name: 'Cables Coaxiales (RG6 / RG59)',
-    categoryPath: ['Cables Especiales', 'Cables Coaxiales'],
+    categoryPath: ['Cables Especiales'],
     description: 'Cables coaxiales de 75 ohms para videovigilancia (CCTV) y distribución de señales de televisión analógica y digital.',
     detailedDescription: `DESCRIPCIÓN
 Cables coaxiales de alta calidad con impedancia nominal de 75 ohms, especialmente diseñados para la transmisión y distribución de señales de alta frecuencia.
 Cuentan con un conductor central de cobre sólido o acero cobreado, dieléctrico de polietileno espumado y un excelente blindaje mediante cintas de aluminio y mallas trenzadas de cobre o aluminio, asegurando una mínima atenuación y una óptima inmunidad frente al ruido electromagnético externo.`,
     image: '/images/ProductosNuevos/8-CABLES ESPECIALES/5-CABLES COAXIALES/PORTADA.jpeg',
-    gallery: [
-      '/images/ProductosNuevos/8-CABLES ESPECIALES/5-CABLES COAXIALES/PORTADA.jpeg'
-    ],
+    gallery: ['/images/ProductosNuevos/8-CABLES ESPECIALES/5-CABLES COAXIALES/PORTADA.jpeg'],
+    pdf: '/images/ProductosNuevos/8-CABLES ESPECIALES/5-CABLES COAXIALES/FICHA TECNICA.png',
     specs: ['RG6 / RG59', '75 Ohms', 'Distribución de Señal'],
     characteristics: [
       'Conductor central de alta conductividad (cobre macizo o acero cobreado).',
@@ -38871,21 +38862,19 @@ Cuentan con un conductor central de cobre sólido o acero cobreado, dieléctrico
       'Cubiertas de PVC flexibles y resistentes a la intemperie (rayos UV) para exterior.',
       'Aptos para sistemas de videovigilancia analógica y digital de alta definición (CCTV HD), CATV y TV satelital.'
     ],
-    certifications: ['iram', 'seguridad', 'no-propagacion']
+    certifications: ['iram', 'no-propagacion']
   },
   {
     id: 'especiales-desarrollos',
     name: 'Desarrollos Especiales a Medida',
-    categoryPath: ['Cables Especiales', 'Desarrollos Especiales'],
+    categoryPath: ['Cables Especiales'],
     description: 'Diseño, desarrollo y provisión de conductores eléctricos especiales y a pedido, adaptados a los requerimientos técnicos y operativos de cada proyecto.',
     detailedDescription: `DESCRIPCIÓN
 En Vicbril Internacional S.A. sabemos que los proyectos de ingeniería de vanguardia y las industrias de alta exigencia requieren soluciones que van más allá de los productos estándar del mercado.
 Por eso, nos especializamos en el diseño, desarrollo y provisión de conductores eléctricos especiales y a pedido, adaptados rigurosamente a los requerimientos técnicos y operativos de cada cliente.
 Ofrecemos soluciones integrales y flexibles donde otros ven limitaciones, respaldando cada desarrollo con ensayos de laboratorio que aseguran el comportamiento óptimo del cable en su entorno real de trabajo.`,
     image: '/images/ProductosNuevos/8-CABLES ESPECIALES/6-DESARROLLOS ESPECIALES/PORTADA.jpeg',
-    gallery: [
-      '/images/ProductosNuevos/8-CABLES ESPECIALES/6-DESARROLLOS ESPECIALES/PORTADA.jpeg'
-    ],
+    gallery: ['/images/ProductosNuevos/8-CABLES ESPECIALES/6-DESARROLLOS ESPECIALES/PORTADA.jpeg'],
     pdf: '/images/ProductosNuevos/8-CABLES ESPECIALES/6-DESARROLLOS ESPECIALES/FICHA TECNICA.pdf',
     specs: ['A Medida', 'Estándar de Calidad', 'Diseño Personalizado'],
     characteristics: [
@@ -38895,7 +38884,7 @@ Ofrecemos soluciones integrales y flexibles donde otros ven limitaciones, respal
       'Soluciones Multi-industria: Diseños aptos para el sector petrolero, minero, de energías renovables, infraestructura pesada y automatización industrial.',
       'Garantía de Confiabilidad: En estricto cumplimiento de las normas internacionales vigentes (como IEC, ASTM, ICEA, entre otras).'
     ],
-    certifications: ['iram', 'seguridad', 'no-propagacion', 'resistente-uv']
+    certifications: ['iram', 'no-propagacion', 'instalacion-industrial']
   },
   {
     id: 'resto-termicas',
@@ -38917,7 +38906,8 @@ Diseñados para un montaje rápido sobre riel DIN estándar, estos equipos ofrec
       'Indicadores visuales de estado de los contactos y mecanismo de disparo libre.',
       'Conformidad con normas nacionales e internacionales de seguridad y fabricación.'
     ],
-    certifications: ['iram', 'seguridad'],},
+    certifications: ['iram', 'seguridad']
+  },
   {
     id: 'resto-jabalinas',
     name: 'Puesta a Tierra, Conectores y Soldadura',
@@ -39063,7 +39053,8 @@ Productos fabricados bajo estrictos controles de calidad y conforme a normas IRA
         ]
       }
     ],
-    certifications: ['iram', 'seguridad', 'conductor-tierra'],},
+    certifications: ['iram', 'seguridad', 'conductor-tierra']
+  },
   {
     id: 'resto-herrajes',
     name: 'Herrajes y Morsetería para Redes Aéreas',
@@ -39159,7 +39150,8 @@ Los productos son ensayados bajo normas y estándares internacionales reconocido
       'Soluciones para Líneas Aéreas',
       'Incluyen morsas de suspensión, morsas de retención, acometidas domiciliarias, ménsulas, piezas intermedias, protectores terminales y sistemas de fijación para redes preensambladas de baja tensión. Diseñados para soportar esfuerzos mecánicos, vibraciones y condiciones climáticas severas, garantizando la continuidad del servicio eléctrico.'
     ],
-    certifications: ['iram'],},
+    certifications: ['iram']
+  },
   {
     id: 'resto-iluminacion',
     name: 'Iluminación LED y Control',
@@ -39332,7 +39324,8 @@ Soluciones integrales de iluminación LED y material eléctrico diseñadas para 
       'Soluciones para uso interior y exterior.',
       '• Opciones inteligentes para automatización y control.'
     ],
-    certifications: ['iram', 'seguridad'],},
+    certifications: ['iram', 'seguridad']
+  },
   {
     id: 'resto-canos',
     name: 'Sistemas de Canalización, Caños y Cajas',
@@ -39461,7 +39454,8 @@ Productos desarrollados bajo estrictos controles de calidad y fabricados para cu
       'Amplia variedad de configuraciones y dimensiones.',
       'Productos aptos para aplicaciones residenciales, comerciales e industriales.'
     ],
-    certifications: ['iram', 'seguridad', 'no-propagacion'],},
+    certifications: ['iram', 'seguridad', 'no-propagacion']
+  },
   {
     id: 'resto-bandejas',
     name: 'Bandejas Portacables y Accesorios',
@@ -39533,7 +39527,8 @@ Fabricados bajo un sistema de gestión de calidad certificado, con foco en la in
       'Adaptabilidad a distintos tipos de montaje.',
       'Amplia variedad de accesorios para derivaciones y cambios de dirección.'
     ],
-    certifications: ['iram', 'instalacion-industrial'],},
+    certifications: ['iram', 'instalacion-industrial']
+  },
   {
     id: 'resto-teclas',
     name: 'Teclas y Bastidores (Mecanismos Eléctricos)',
@@ -39638,7 +39633,8 @@ Productos fabricados bajo estrictos controles de calidad y conforme a los requis
       'Aptos para instalaciones embutidas y de superficie.',
       'Soluciones para energía, datos y telecomunicaciones.'
     ],
-    certifications: ['iram', 'seguridad', 'instalacion-domiciliaria'],},
+    certifications: ['iram', 'seguridad', 'instalacion-domiciliaria']
+  },
   {
     id: 'resto-transformadores',
     name: 'Transformadores de Distribución',
@@ -39659,7 +39655,8 @@ Disponibles en baño de aceite mineral o secos encapsulados en resina epoxi de a
       'Bajos niveles de pérdidas en vacío y en carga, maximizando la eficiencia energética.',
       'Cumplimiento de normas nacionales e internacionales aplicables.'
     ],
-    certifications: ['iram'],},
+    certifications: ['iram']
+  },
   {
     id: 'resto-terminales',
     name: 'Terminales, Uniones y Morsetería',
@@ -39754,7 +39751,8 @@ CALIDAD Y CERTIFICACIONES
       'Disponibilidad para conductores de cobre y aluminio en una amplia gama de secciones.',
       'Soluciones específicas para distribución de energía, puesta a tierra y líneas aéreas.'
     ],
-    certifications: ['iram', 'instalacion-industrial'],},
+    certifications: ['iram', 'instalacion-industrial']
+  },
   {
     id: 'resto-empalmes',
     name: 'Empalmes y Terminales Termocontraíbles',
