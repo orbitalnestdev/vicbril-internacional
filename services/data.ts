@@ -449,7 +449,7 @@ Estos cables se utilizan en líneas aéreas de distribución en baja tensión, i
 
 NORMAS
 La construcción y ensayo de los cables contemplados en el presente folleto responden a las normas IRAM 2263, NBR 8182, ICEA S-76-474 y NFC 33209.`,
-    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/1-PREENSAMBLADOS DE ALUMINIO/FICHA TECNICA/foto dentro de ficha tecnica.jpeg'
     ],
@@ -572,7 +572,7 @@ Sistemas de distribución de energía en baja tensión. Acometidas monofásicas 
 
 NORMAS
 IRAM 2164 - IRAM NM 280 (Clase 2).`,
-    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/2-ACOMETIDAS DE COBRE/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
     ],
@@ -631,7 +631,7 @@ Acometidas desde líneas aéreas preensambladas y transformadores hacia medidore
 
 NORMAS
 IRAM 63001, IRAM-NM 280, ICEA S-95-658, IEC 60502-1.`,
-    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/1-CONCENTRICO ALUMINIO MONOFASICO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/1-CONCENTRICO ALUMINIO MONOFASICO/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/1-CONCENTRICO ALUMINIO MONOFASICO/FICHA TECNICA/foto dentro de ficha tecnica.jpeg'
     ],
@@ -677,7 +677,7 @@ Acometidas trifásicas desde líneas aéreas preensambladas y transformadores ha
 
 NORMAS
 IRAM 63001, IRAM-NM 280, ICEA S-95-658, IEC 60502-1.`,
-    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/2-CONCENTRICO ALUMINIO TRIFASICO/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/2-CONCENTRICO ALUMINIO TRIFASICO/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/1-CONCENTRICOS ALUMINIO/2-CONCENTRICO ALUMINIO TRIFASICO/FICHA TECNICA/foto dentro de ficha tecnica.jpeg'
     ],
@@ -732,7 +732,7 @@ Acometidas desde líneas aéreas preensambladas y transformadores hacia medidore
 
 NORMAS
 IRAM 63001, IRAM-NM 280, ICEA S-95-658, IEC 60502-1.`,
-    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/PORTADA (ELIMINAR SIMBOLO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/PORTADA.jpeg',
     pdf: '/images/PRODUCTOS/2-LINEAS AEREAS/1-ENVAINADOS/3-CONCENTRICOS (ANTIHURTO)/2-CONCENTRICOS COBRE/FICHA TECNICA/ficha tecnica a modificar.pdf',
     specs: ['0,6 / 1,1 kV', 'Antihurto', 'Cobre'],
     technicalIntro: `CONSTRUCCIÓN
@@ -776,7 +776,7 @@ Transmisión aérea de energía en media y baja tensión (hasta 33 kV).
 
 NORMAS
 IRAM 2212, ASTM B-399.`,
-    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/PORTADA(ELIMINAR LOGO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/1-CABLE DESNUDO DE ALUMINIO/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
     ],
@@ -830,7 +830,7 @@ Redes aéreas de distribución de energía, líneas de transmisión y sistemas d
 
 NORMAS
 IRAM 2004.`,
-    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/PORTADA(ELIMINAR LOGO GEMINI).jpeg',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/2-CABLE DESNUDO DE COBRE DURO/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
     ],
@@ -884,7 +884,7 @@ Líneas aéreas de transmisión y distribución de energía eléctrica, especial
 
 NORMAS
 IRAM 2187, ASTM B-232.`,
-    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/portada (eliminar logo de gemini).png',
+    image: '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/PORTADA.jpeg',
     gallery: [
       '/images/PRODUCTOS/2-LINEAS AEREAS/2-DESNUDOS/3-CABLE ALUMINIO-ACERO/FICHA TECNICA/foto producto dentro de ficha tecnica.jpeg'
     ],
