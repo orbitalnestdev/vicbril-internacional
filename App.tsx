@@ -8,6 +8,7 @@ import Products from './pages/Products';
 import ProductDetail from './pages/ProductDetail';
 import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
+import Markets from './pages/Markets';
 import { FloatingWhatsApp, TechnicalAssistant } from './components/UI/FloatingButtons';
 
 const ScrollProgress: React.FC = () => {
@@ -47,6 +48,7 @@ function App() {
             <Route path="/productos/:id" element={<ProductDetail />} />
             <Route path="/contacto" element={<Contact />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/mercados" element={<Markets />} />
           </Routes>
         </main>
         <Footer />

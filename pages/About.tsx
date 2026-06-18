@@ -8,9 +8,11 @@ const About: React.FC = () => {
          <div className="bg-slate-900 py-24 relative overflow-hidden">
             <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
             <div className="container mx-auto px-6 relative z-10 text-center">
-               <span className="text-orange-500 text-xl font-bold tracking-[0.4em] uppercase mb-4 block">Nuestra Esencia</span>
-               <h1 className="text-6xl md:text-8xl font-oswald font-bold text-white mb-6">MÁS QUE DISTRIBUIDORES,<br />SOCIOS ESTRATÉGICOS</h1>
-               <p className="text-slate-300 max-w-2xl mx-auto text-2xl font-light leading-relaxed">
+               <span className="text-orange-500 text-sm sm:text-base md:text-lg lg:text-xl font-bold tracking-[0.4em] uppercase mb-4 block animate-fade-in-up">Nuestra Esencia</span>
+               <h1 className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-oswald font-bold text-white mb-6 uppercase tracking-tight leading-none">
+                  MÁS QUE DISTRIBUIDORES,<br className="hidden sm:inline" />SOCIOS ESTRATÉGICOS
+               </h1>
+               <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg md:text-xl lg:text-2xl font-light leading-relaxed">
                   Desde 1998, construyendo la red de energía más confiable para la industria argentina.
                </p>
             </div>
@@ -31,8 +33,8 @@ const About: React.FC = () => {
                   </div>
 
                   <div className="w-full md:w-1/2">
-                     <h2 className="text-5xl font-oswald font-bold text-slate-900 mb-8">TRAYECTORIA Y COMPROMISO</h2>
-                     <div className="space-y-6 text-slate-600 leading-loose text-lg">
+                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-oswald font-bold text-slate-900 mb-8">TRAYECTORIA Y COMPROMISO</h2>
+                     <div className="space-y-6 text-slate-600 leading-loose text-base sm:text-lg">
                         <p>
                            <strong className="text-slate-900">Vicbril Internacional S.A.</strong> nace con una visión clara: profesionalizar el abasto de material eléctrico en un mercado que demandaba mayor rigor técnico y logístico.
                         </p>
@@ -68,18 +70,18 @@ const About: React.FC = () => {
          <section className="py-20 bg-slate-900 text-white border-b-8 border-orange-600">
             <div className="container mx-auto px-6 text-center">
                <h3 className="text-xl font-bold tracking-[0.3em] uppercase mb-12 text-slate-500">Sectores Estratégicos</h3>
-               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 opacity-50">
-                  <div className="border border-slate-700 p-6 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all cursor-default">
-                     <span className="font-oswald text-3xl font-bold">MINERÍA</span>
+               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 opacity-50">
+                  <div className="border border-slate-700 p-4 sm:p-6 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all cursor-default">
+                     <span className="font-oswald text-lg xs:text-xl sm:text-2xl md:text-3xl font-bold">MINERÍA</span>
                   </div>
-                  <div className="border border-slate-700 p-6 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all cursor-default">
-                     <span className="font-oswald text-3xl font-bold">ENERGÍA</span>
+                  <div className="border border-slate-700 p-4 sm:p-6 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all cursor-default">
+                     <span className="font-oswald text-lg xs:text-xl sm:text-2xl md:text-3xl font-bold">ENERGÍA</span>
                   </div>
-                  <div className="border border-slate-700 p-6 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all cursor-default">
-                     <span className="font-oswald text-3xl font-bold">AUTOMOTRIZ</span>
+                  <div className="border border-slate-700 p-4 sm:p-6 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all cursor-default">
+                     <span className="font-oswald text-lg xs:text-xl sm:text-2xl md:text-3xl font-bold">AUTOMOTRIZ</span>
                   </div>
-                  <div className="border border-slate-700 p-6 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all cursor-default">
-                     <span className="font-oswald text-3xl font-bold">CONSTRUCCIÓN</span>
+                  <div className="border border-slate-700 p-4 sm:p-6 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all cursor-default">
+                     <span className="font-oswald text-lg xs:text-xl sm:text-2xl md:text-3xl font-bold">CONSTRUCCIÓN</span>
                   </div>
                </div>
             </div>

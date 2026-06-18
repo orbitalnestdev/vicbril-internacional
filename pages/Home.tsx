@@ -45,7 +45,6 @@ const Home: React.FC = () => {
   const ctaFormReveal = useScrollReveal(0.1);
   const productSectionReveal = useScrollReveal(0.1);
   const [scrollY, setScrollY] = React.useState(0);
-
   React.useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -68,38 +67,43 @@ const Home: React.FC = () => {
     <div className="flex flex-col w-full overflow-hidden">
 
       {/* Hero Section - Industrial Impact */}
-      <section className="relative min-h-screen flex flex-col bg-white overflow-hidden">
+      <section className="relative min-h-[500px] xs:min-h-[540px] sm:min-h-[580px] lg:min-h-screen flex flex-col bg-white overflow-hidden">
         {/* Background Layer with Parallax */}
         <div 
           className="absolute inset-x-0 bottom-0 top-[120px] z-0 bg-white flex items-center justify-end parallax-bg"
           style={{ transform: `translateY(${scrollY * 0.2}px)` }}
         >
-          <img
-            src="/images/banner-principal.png"
-            alt="Vicbril Banner"
-            className="w-full h-full object-contain object-right animate-scale-in"
-          />
+          <div className="relative w-full h-full flex items-center justify-end">
+            <img
+              src="/images/banner-principal.png"
+              alt="Vicbril Banner"
+              className="w-full h-full object-contain object-right animate-scale-in"
+            />
+            {/* Soft white gradient overlays to prevent text collision on mobile */}
+            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent md:hidden z-10 pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-white via-white/30 to-transparent md:hidden z-10 pointer-events-none" />
+          </div>
         </div>
 
         {/* Content Area */}
-        <div className="flex-grow flex items-center relative z-10 pt-44">
+        <div className="flex-grow flex items-center relative z-10 pt-24 sm:pt-32 md:pt-40 lg:pt-44 pb-12 sm:pb-0">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl">
-              <span className="text-orange-600 text-6xl font-bold uppercase mb-6 block animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
+              <span className="text-orange-600 text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-bold uppercase mb-3 sm:mb-6 block animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
                 somos vicbril
               </span>
 
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-oswald text-slate-900 leading-[0.9] mb-10 tracking-tight animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
-                <span className="text-orange-600">CABLES</span> DE BAJA, MEDIA <br />
-                Y ALTA TENSIÓN PARA <br />
+              <h1 className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold font-oswald text-slate-900 leading-[0.9] mb-6 sm:mb-10 tracking-tight animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
+                <span className="text-orange-600">CABLES</span> DE BAJA, MEDIA <br className="hidden sm:inline" />
+                Y ALTA TENSIÓN PARA <br className="hidden sm:inline" />
                 ENTREGA INMEDIATA
               </h1>
 
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: '0.6s', opacity: 0 }}>
-                <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center shadow-xl shadow-orange-600/20 glass-shine">
+                <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-[0.2em] px-8 py-4 sm:px-12 sm:py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center shadow-xl shadow-orange-600/20 glass-shine">
                   Cotizar Proyecto
                 </Link>
-                <Link to="/productos" className="group bg-white/80 backdrop-blur-sm border border-slate-200 text-slate-900 text-sm font-bold uppercase tracking-[0.2em] px-12 py-6 hover:bg-white transition-all duration-300 flex items-center justify-center">
+                <Link to="/productos" className="group bg-white/80 backdrop-blur-sm border border-slate-200 text-slate-900 text-sm font-bold uppercase tracking-[0.2em] px-8 py-4 sm:px-12 sm:py-6 hover:bg-white transition-all duration-300 flex items-center justify-center">
                   Ver Catálogo <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
                 </Link>
               </div>
@@ -109,7 +113,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Value Proposition - Technical Grid */}
-      <section className="py-24 bg-white">
+      <section className="py-12 sm:py-16 md:py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 border-b border-gray-100 pb-8">
             <div className="max-w-3xl">
@@ -159,8 +163,8 @@ const Home: React.FC = () => {
 
 
       <AboutSection />
-      {/* Product Lines - Visual Cards */}
-      <section className="py-24 bg-slate-50">
+      {/* Product Lines - Visual Cards */}
+      <section className="py-12 sm:py-16 md:py-24 bg-slate-50">
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center mb-12">
             <h2 className="text-3xl font-oswald font-bold text-slate-900">LÍNEAS DE PRODUCTO</h2>

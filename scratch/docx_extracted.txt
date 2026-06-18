@@ -1,0 +1,245 @@
+=== FILE: public/images/ProductosNuevos/7-CABLES ARMADOS\1-PARA PROTECCIÓN MECANICA\3-HILOS DE ACERO\FICHA TECNICA HILOS DE ACERO.docx ===
+Bloque Técnico: Armadura de Hilos de Acero Redondos (SWA)
+1. Descripción y Función
+Capa protectora helicoidal constituida por hilos redondos de acero galvanizado. Su función principal es otorgar una resistencia superior a impactos mecánicos, penetración y esfuerzos de tracción lateral o longitudinal durante la instalación y vida útil del cable, además de actuar como pantalla de protección a tierra.
+2. Normas de Fabricación y Referencia
+IEC 60502-1 / IEC 60502-2: Cables de energía con aislamiento extruido y sus accesorios para tensiones nominales desde 1 kV hasta 30 kV.
+BS 5467 / BS 6724: Estándares británicos para cables armados (baja emisión de humos y cubiertas termoplásticas).
+UNE 21123: Cables de energía armados para instalaciones fijas.
+ASTM A411: Especificación estándar para hilos de acero recubiertos de zinc (galvanizados) para el armado de cables.
+3. Propiedades del Material (Acero Galvanizado)
+TABLE: [['Propiedad', 'Valor / Especificación'], ['Material Base', 'Acero al carbono de bajo residuo, estirado en frío.'], ['Protección contra Corrosión', 'Galvanizado por inmersión en caliente (recubrimiento de zinc continuo).'], ['Carga mínima de rotura por tracción', '340 a 540 N/mm² (según diámetro del hilo).'], ['Alargamiento mínimo a la rotura', '10% en longitud de probeta de 250 mm.'], ['Adherencia del zinc', 'No debe descascararse ni agrietarse al enrollarse sobre un mandril de 4 veces el diámetro del hilo.']]
+Propiedad
+Valor / Especificación
+Material Base
+Acero al carbono de bajo residuo, estirado en frío.
+Protección contra Corrosión
+Galvanizado por inmersión en caliente (recubrimiento de zinc continuo).
+Carga mínima de rotura por tracción
+340 a 540 N/mm² (según diámetro del hilo).
+Alargamiento mínimo a la rotura
+10% en longitud de probeta de 250 mm.
+Adherencia del zinc
+No debe descascararse ni agrietarse al enrollarse sobre un mandril de 4 veces el diámetro del hilo.
+4. Diámetros Nominales del Hilo (Según IEC 60502-1)
+El diámetro nominal de los hilos de la armadura varía en función del diámetro teórico que tenga el cable justo debajo de ella (diámetro del asiento o bedding):
+Para diámetros bajo armadura de hasta 10 mm $ $ 0,80 mm
+De 10 mm hasta 15 mm $ 1,25 mm
+De 15 mm hasta 25 mm $ $ 1,60 mm
+De 25 mm hasta 35 mm $ $ 2,00 mm
+De 35 mm hasta 60 mm $ $ 2,50 mm
+Para diámetros mayores a 60 mm $ $ 3,15 mm
+5. Requisitos de Cobertura y Aplicación
+Sentido de cableado: Helical, generalmente con paso a la izquierda.
+Factor de Cobertura Visual: Mínimo 90%. Los hilos deben aplicarse de manera continua, minimizando los espacios intersticiales (gaps) entre hilos contiguos para evitar que la cubierta exterior penetre o que se pierda protección mecánica.
+Espesor equivalente: El cálculo de resistencia mecánica asume una corona metálica uniforme.
+⚠️ Nota de Aplicación Crítica (Efecto Magnético)
+Los hilos de acero estándar son ferromagnéticos. Cuando se utilizan en cables monofásicos (unipolares) de corriente alterna, el campo magnético variable induce corrientes parásitas y corrientes de bucle en el acero, provocando un calentamiento excesivo por histéresis y pérdidas de energía severas.
+Regla de diseño: Para sistemas de Corriente Alterna (CA), la armadura de hilos de acero (SWA) solo se permite en cables multipolares (donde la suma vectorial de los campos magnéticos de las fases es igual a cero). Si el cable es unipolar, se debe sustituir obligatoriamente por hilos de Aluminio (AWA) o materiales no magnéticos.
+6. Ventajas Clave para Especificación en Proyectos
+Resistencia a la tracción: Permite soportar el tendido vertical en pozos mineros, torres o tramos con pendientes pronunciadas.
+Protección contra roedores y herramientas: La dureza del hilo redondo dificulta el daño por mordeduras de roedores o impactos accidentales con palas durante excavaciones.
+Excelente Camino de Retorno a Tierra: En caso de cortocircuito por perforación externa, la sección geométrica de la armadura drena la corriente de falla de manera segura hacia las protecciones.
+
+================================================================================
+
+=== FILE: public/images/ProductosNuevos/7-CABLES ARMADOS\1-PARA PROTECCIÓN MECANICA\4-TRENZA DE ACERO\FICHA TECNICA TRENZA DE ACERO.docx ===
+La armadura de trenza de hilos de acero (comúnmente de acero galvanizado o inoxidable) es un tipo de protección mecánica que se aplica sobre los cables eléctricos cuando se necesita un equilibrio perfecto entre resistencia y flexibilidad.
+A diferencia de las armaduras de fleje (cintas) o de alambres longitudinales, la trenza funciona como una "malla" o "tejido" metálico.
+Aquí tenés los datos técnicos clave, estructurados para que los puedas sumar directo a tu ficha técnica:
+1. Funciones Principales (Para qué se usa)
+Protección contra impactos y aplastamiento: Absorbe esfuerzos mecánicos externos pesados, evitando que golpes, caídas de objetos o presiones por estiba dañen el aislamiento interno del cable y causen un cortocircuito.
+Alta flexibilidad y radio de curvatura dinámico: Al ser un tejido entrelazado, permite que el cable se doble con mucha más facilidad que las armaduras rígidas de fleje de acero. Esto es crítico en cables que van a estar en constante movimiento (aplicaciones dinámicas).
+Resistencia a la tracción: Ayuda a soportar los esfuerzos de tiro durante la instalación en ductos o bandejas, protegiendo los conductores de cobre internos para que no se estiren ni se corten.
+Protección contra roedores y abrasión: Actúa como una barrera física muy eficaz frente al ataque de roedores y al roce constante contra superficies ásperas o cortantes.
+2. Aplicaciones Típicas (Dónde se exige)
+Instalaciones Industriales y Petroquímicas: En zonas de procesos donde los cables están expuestos a riesgos mecánicos pero requieren flexibilidad para el conexionado de motores, bombas o tableros.
+Uso Marino y Off-Shore: Muy común en barcos y plataformas petroleras, donde el espacio es reducido (se necesitan radios de curvatura cerrados) y las condiciones ambientales son extremas.
+Maquinaria Móvil y Grúas: En equipos industriales que se desplazan y exigen un cable con armadura dinámica que soporte flexiones continuas.
+3. Ventaja Técnica Adicional (Pantalla Electromagnética)
+Aunque su función primaria es la protección mecánica, la trenza de acero —si se conecta correctamente a tierra— también actúa como pantalla protectora frente a interferencias electromagnéticas (EMI) y ayuda a disipar corrientes de falla.
+Nota para el diseño del cable: La trenza suele cubrirse con una cubierta exterior de PVC, PUR o LSZH (baja emisión de humos) para proteger el acero de la humedad y la corrosión, asegurando la vida útil del armado.
+
+================================================================================
+
+=== FILE: public/images/ProductosNuevos/7-CABLES ARMADOS\2-PARA EVITAR INTERFERENCIAS (INTERLOCK)\1-INTERLOCK COBRE\Ficha Técnica.docx ===
+Ficha Técnica: Cable de Cobre con Blindaje Corrugado Antinterferencia
+1. Descripción del Producto
+Cable unipolar o multipolar diseñado para la distribución de energía o señales de control en entornos con alta presencia de ruido electromagnético (como subestaciones eléctricas, plantas industriales o cercanías a motores de gran potencia). Su pantalla de cobre corrugado actúa como una jaula de Faraday, bloqueando las interferencias y garantizando la integridad de los datos o de la tensión. 
+2. Construcción y Materiales
+TABLE: [['Capa', 'Componente', 'Descripción Técnica'], ['1', 'Conductor', 'Cobre electrolítico recocido, formación flexible (Clase 5) o cableado concentrado (Clase B).'], ['2', 'Aislamiento', 'Polietileno reticulado (XLPE) para 90°C o PVC de alta calidad para 70°C.'], ['3', 'Asiento / Lecho', 'Capa extruida de material plástico (PVC o libre de halógenos) que protege las venas internas.'], ['4', 'Blindaje (Pantalla)', 'Cinta de cobre aplicada longitudinalmente y corrugada de forma transversal, con solape mínimo del 15% al 25%. Cobertura del 100%.'], ['5', 'Cubierta Exterior', 'PVC o LSZH (Baja emisión de humos, libre de halógenos), resistente a rayos UV y agentes químicos.']]
+Capa
+Componente
+Descripción Técnica
+1
+Conductor
+Cobre electrolítico recocido, formación flexible (Clase 5) o cableado concentrado (Clase B).
+2
+Aislamiento
+Polietileno reticulado (XLPE) para 90°C o PVC de alta calidad para 70°C.
+3
+Asiento / Lecho
+Capa extruida de material plástico (PVC o libre de halógenos) que protege las venas internas.
+4
+Blindaje (Pantalla)
+Cinta de cobre aplicada longitudinalmente y corrugada de forma transversal, con solape mínimo del 15% al 25%. Cobertura del 100%.
+5
+Cubierta Exterior
+PVC o LSZH (Baja emisión de humos, libre de halógenos), resistente a rayos UV y agentes químicos.
+3. Propiedades Eléctricas
+Tensión Nominal ($U_0 / U$): Desde 600 / 1000 V (Baja Tensión) hasta 15 kV / 35 kV (Media Tensión).
+Eficacia del Blindaje: Atenuación de interferencias de frecuencias de hasta 1 MHz (óptimo para ruidos industriales). 
+Resistividad del Cobre (a 20°C): $0.017241 \ \Omega \cdot \text{mm}^2/\text{m}$ (según norma UNE-EN 60228). 
+Resistencia de Acoplamiento: Muy baja a altas frecuencias, lo que asegura que las corrientes inducidas por la interferencia se desvíen eficientemente a tierra.
+4. Propiedades Mecánicas y Térmicas
+Temperatura Máxima de Servicio: 90°C (si es aislación XLPE) o 70°C (si es PVC).
+Temperatura de Cortocircuito: 250°C (XLPE) / 160°C (PVC) por un máximo de 5 segundos.
+Radio de Curvatura Mínimo:
+Durante la instalación (Tendido): $10 \times D$ (diez veces el diámetro exterior del cable).
+Posición fija (Instalado): $6 \times D$. 
+Ventaja del Corrugado: A diferencia de la cinta de cobre lisa, el corrugado transversal permite que el cable mantenga una excelente flexibilidad a pesar de tener un blindaje metálico continuo, evitando que la cinta se corte o se arrugue al doblarlo.
+5. Normas de Fabricación y Ensayos
+Diseño y Construcción: IEC 60502-1 / IRAM 2178-1 / UL 1277 (según mercado).
+Ensayos del Conductor: IEC 60228 / IRAM NM 280. 
+No propagación del fuego: IEC 60332-3 o IEEE 1202.
+6. Aplicaciones Típicas
+Conexión de variadores de frecuencia (VFD) hacia motores.
+Cableado de instrumentación y control en subestaciones de alta y media tensión.
+Instalaciones subterráneas (en ductos o enterrado directo) donde se requiera protección contra roedores y humedad extrema, ya que la cinta corrugada también actúa como barrera física. 
+
+================================================================================
+
+=== FILE: public/images/ProductosNuevos/7-CABLES ARMADOS\2-PARA EVITAR INTERFERENCIAS (INTERLOCK)\2-TRENZADO DE COBRE\Ficha Técnica.docx ===
+FICHA TÉCNICA: Cable de Cobre de Par Trenzado Blindado (Anti-Interferencia)
+1. Descripción General
+Cable de datos y señal de alta performance, compuesto por pares de cobre electrolítico purificado, trenzados entre sí para cancelar la diafonía (crosstalk). Incorpora un sistema de doble blindaje (cinta de aluminio individual por par + malla de cobre estañado global) que asegura una inmunidad total contra interferencias electromagnéticas externas (EMI) y de radiofrecuencia (RFI), ideal para entornos industriales, tendidos junto a cables de potencia o automatización.
+2. Construcción y Estructura
+TABLE: [['Componente', 'Características Técnicas'], ['Conductor', 'Cobre rojo electrolítico recocido, multifilar o sólido (según aplicación). Pureza superior al 99.9%.'], ['Aislamiento', 'Polietileno de alta densidad (HDPE) con código de colores estándar.'], ['Trenzados', 'Pares trenzados con paso corto y diferenciado entre pares para optimizar el rechazo al ruido.'], ['Blindaje Individual', 'Cinta de Aluminio/Poliéster sobre cada par (cobertura 100%) -> Elimina el crosstalk entre pares.'], ['Blindaje Global', 'Malla de hilos de cobre estañado (cobertura mayor o igual al 65%) -> Protección contra EMI externa de baja frecuencia.'], ['Hilo de Drenaje', 'Cobre estañado en contacto continuo con el blindaje para una correcta descarga a tierra.'], ['Cubierta Exterior', 'Compuesto de PVC ignífugo o LSZH (Bajo humo, cero halógenos), color Gris/Azul industrial.']]
+Componente
+Características Técnicas
+Conductor
+Cobre rojo electrolítico recocido, multifilar o sólido (según aplicación). Pureza superior al 99.9%.
+Aislamiento
+Polietileno de alta densidad (HDPE) con código de colores estándar.
+Trenzados
+Pares trenzados con paso corto y diferenciado entre pares para optimizar el rechazo al ruido.
+Blindaje Individual
+Cinta de Aluminio/Poliéster sobre cada par (cobertura 100%) -> Elimina el crosstalk entre pares.
+Blindaje Global
+Malla de hilos de cobre estañado (cobertura mayor o igual al 65%) -> Protección contra EMI externa de baja frecuencia.
+Hilo de Drenaje
+Cobre estañado en contacto continuo con el blindaje para una correcta descarga a tierra.
+Cubierta Exterior
+Compuesto de PVC ignífugo o LSZH (Bajo humo, cero halógenos), color Gris/Azul industrial.
+3. Características Eléctricas y Mecánicas
+Propiedades Eléctricas
+Resistencia del conductor (máx.): 9.38 $\Omega$ / 100m a 20°C
+Impedancia característica: 100 $\pm$ 15 $\Omega$ (en frecuencias de 1 a 250 MHz)
+Capacidad mutua: 56 pF/m máx.
+Tensión de operación: 300 V
+Eficacia del blindaje: > 40 dB (efectivo contra ruidos generados por motores, variadores de frecuencia y contactores).
+Propiedades Mecánicas y Ambientales
+Radio de curvatura mínimo: 8 x Diámetro Exterior (instalación) / 4 x Diámetro Exterior (fijo)
+Rango de temperatura de operación: -20°C hasta +75°C
+Resistencia a la llama: No propagador de la llama según norma IEC 60332-1.
+4. Aplicaciones Típicas
+Conexión de sistemas de control industrial (PLCs, sensores, actuadores).
+Redes de datos de alta velocidad en plantas industriales con presencia de motores eléctricos y transformadores.
+Sistemas de instrumentación y transmisión de señales críticas donde la pérdida de paquetes o el ruido eléctrico altere las lecturas.
+Nota de Instalación Crítica: Para que el blindaje contra interferencias sea 100% efectivo, el cable debe conectarse utilizando conectores metálicos (blindados) y el hilo de drenaje debe estar correctamente vinculado a la descarga a tierra del sistema en, al menos, uno de sus extremos.
+
+================================================================================
+
+=== FILE: public/images/ProductosNuevos/7-CABLES ARMADOS\2-PARA EVITAR INTERFERENCIAS (INTERLOCK)\3- CINTA-HILOS DE COBRE\Ficha Técnica.docx ===
+Ficha Técnica Estandarizada: Pantalla Electrostática para Cables de MT
+1. Especificaciones de Materiales y Construcción
+TABLE: [['Parámetro', 'Configuración: Cinta de Cobre', 'Configuración: Hilos (Alambres) + Contraespira'], ['Tipo de Material', 'Cobre electrolítico suave / recocido (Plain annealed copper)', 'Cobre electrolítico suave, desnudo o estañado'], ['Normas de Aplicación', 'IEC 60502-2, ICEA S-93-639, NMX-J-142', 'IEC 60502-2, UNE 21-161, ICEA S-97-682'], ['Disposición Física', 'Aplicada en forma helicoidal directamente sobre la capa semiconductora del aislamiento.', 'Alambres colocados helicoidalmente de forma homogénea con una cinta aglutinadora/ecualizadora en contrahélice.'], ['Espesor / Diámetro Nominal', 'Espesor estándar: 0.127 mm (5 mils).', 'Diámetro típico de hilos: 0.6 mm a 0.8 mm (según la sección total requerida).'], ['Traslape / Cobertura', 'Traslape mínimo del 25% (Overlap) para garantizar continuidad total ante flexiones.', 'Cobertura geométrica abierta, pero calculada por cantidad de hilos para sumar la sección equivalente.']]
+Parámetro
+Configuración: Cinta de Cobre
+Configuración: Hilos (Alambres) + Contraespira
+Tipo de Material
+Cobre electrolítico suave / recocido (Plain annealed copper)
+Cobre electrolítico suave, desnudo o estañado
+Normas de Aplicación
+IEC 60502-2, ICEA S-93-639, NMX-J-142
+IEC 60502-2, UNE 21-161, ICEA S-97-682
+Disposición Física
+Aplicada en forma helicoidal directamente sobre la capa semiconductora del aislamiento.
+Alambres colocados helicoidalmente de forma homogénea con una cinta aglutinadora/ecualizadora en contrahélice.
+Espesor / Diámetro Nominal
+Espesor estándar: 0.127 mm (5 mils).
+Diámetro típico de hilos: 0.6 mm a 0.8 mm (según la sección total requerida).
+Traslape / Cobertura
+Traslape mínimo del 25% (Overlap) para garantizar continuidad total ante flexiones.
+Cobertura geométrica abierta, pero calculada por cantidad de hilos para sumar la sección equivalente.
+2. Propiedades Eléctricas y Térmicas
+Conductividad Eléctrica: Superior al 100% IACS (International Annealed Copper Standard) a 20°C. 
+Temperatura Máxima Admisible (en Servicio Continuo): Vinculada al aislamiento principal (XLPE o EPR), típicamente 90°C (u opcionales de 105°C en compuestos especiales).
+Temperatura Máxima en Régimen de Cortocircuito: El cobre de la pantalla está diseñado para soportar picos transitorios de hasta 350°C sin degradarse ni dañar las capas semiconductoras adyacentes. 
+3. Criterio de Selección y Capacidad de Cortocircuito
+La sección transversal equivalente de la pantalla (medida en $mm^2$) es la variable más crítica en ingeniería y depende directamente del nivel de falla a tierra del sistema:
+Pantalla de Cinta (Full Tape): Es excelente para el confinamiento del campo electrostático y protección contra interferencias (IEM). Sin embargo, debido a su bajo espesor mecanizado, su sección geométrica total suele oscilar entre los 5 $mm^2$ y 10 $mm^2$. No se recomienda si el sistema exige disipar corrientes de cortocircuito monofásicas muy elevadas.
+Pantalla de Hilos (Wire Shield): Diseñada específicamente cuando se requiere una sección de retorno a tierra robusta. Se especifican comúnmente en secciones estandarizadas de 16 $mm^2$, 25 $mm^2$ o 50 $mm^2$ (por ejemplo, formadas por 30 o 50 alambres finos). La cinta de cobre superior en contrahélice actúa como ecualizadora manteniendo todos los hilos al mismo potencial. 
+4. Ensayos de Calidad y Recepción (Normativa IEC / ICEA)
+Ensayo de Continuidad Eléctrica: Resistencia eléctrica máxima óhmica medida a 20°C ($\Omega/km$).
+Ensayo de Adherencia: Verificación de que la cinta o los hilos no dañen ni se incrusten de forma permanente en la pantalla semiconductora extruida (debe permitir un pelado limpio o easy-stripping durante el empalme). 
+Protección Longitudinal contra Humedad (Opcional): En tendidos subterráneos, se suele incorporar debajo o sobre los hilos/cinta una cinta semiconductora hinchable (swelling tape). En presencia de agua, esta se expande bloqueando el avance del fluido a lo largo del cable.
+
+================================================================================
+
+=== FILE: public/images/ProductosNuevos/7-CABLES ARMADOS\2-PARA EVITAR INTERFERENCIAS (INTERLOCK)\4-CINTA ALUMINIO\Ficha Técnica.docx ===
+Ficha Técnica: Cinta de Aluminio-Poliéster (Al-Mylar) para Cables de Instrumentación
+Descripción del Producto
+La Cinta de Aluminio-Poliéster es un laminado blindante de alta ingeniería diseñado específicamente para la protección electroestática y electromagnética en cables de instrumentación, señal y transmisión de datos. Combina la excelente conductividad eléctrica de la hoja de aluminio recocido con la alta resistencia mecánica y aislamiento del film de poliéster (PET), asegurando una cobertura del 100% contra interferencias externas. 
+1. Funciones Principales en Cables de Instrumentación
+Blindaje Electromagnético (EMI/RFI): Actúa como una barrera física que refleja y absorbe las interferencias de radiofrecuencia y electromagnéticas, garantizando la integridad de señales analógicas o digitales críticas (de 4 a 20 mA, sistemas PLC, etc.).
+Aislamiento entre Pares (Cross-talk): En construcciones multipares, se utiliza como blindaje individual para evitar la diafonía (interferencia de señal entre un par y otro dentro del mismo cable).
+Contacto Eficiente con el Hilo de Drenaje: La cara de aluminio se coloca en contacto directo y longitudinal con un hilo de drenaje de cobre estañado, facilitando una descarga a tierra rápida y segura. 
+Barrera contra Humedad y Agentes Químicos: El film de poliéster aporta una capa estanca que protege los conductores internos de la penetración de vapores, aceites y degradación ambiental.
+2. Características y Propiedades Técnicas
+Nota para la Web: Los valores indicados a continuación representan los estándares más utilizados en la industria (estructuras típicas de 25 a 30 micrones). Pueden ajustarse según las especificaciones de tu catálogo.
+TABLE: [['Propiedad', 'Unidad', 'Especificación / Valor Típico'], ['Estructura Estándar', '—', 'Aluminio (Al) + Adhesivo de Laminación + Poliéster (PET)'], ['Espesor del Aluminio', 'μm\xa0(Micrones)', '7 a 9 (Típico para flexibilidad óptima)'], ['Espesor del Poliéster (PET)', 'μm\xa0(Micrones)', '12 a 15 (Aislamiento eléctrico de grado superior)'], ['Espesor Total de la Cinta', 'μm\xa0(Micrones)', '23 a 27'], ['Fuerza de Tensión', 'N/mm2', '≥60'], ['Elongación a la Ruptura', '%', '≥35%'], ['Resistencia Eléctrica (Lado Al)', 'Ω⋅μm', '≤2500'], ['Fuerza de Despegue (Peel Strength)', 'N/cm', '≥6.3'], ['Opciones de Presentación', '—', 'Bobinas (Pad / Spool) cortadas a medida (ancho mínimo 5 mm)'], ['Colores Disponibles', '—', 'Plata (Natural) o Azul']]
+Propiedad
+Unidad
+Especificación / Valor Típico
+Estructura Estándar
+—
+Aluminio (Al) + Adhesivo de Laminación + Poliéster (PET)
+Espesor del Aluminio
+μm (Micrones)
+7 a 9 (Típico para flexibilidad óptima)
+Espesor del Poliéster (PET)
+μm (Micrones)
+12 a 15 (Aislamiento eléctrico de grado superior)
+Espesor Total de la Cinta
+μm (Micrones)
+23 a 27
+Fuerza de Tensión
+N/mm2
+≥60
+Elongación a la Ruptura
+%
+≥35%
+Resistencia Eléctrica (Lado Al)
+Ω⋅μm
+≤2500
+Fuerza de Despegue (Peel Strength)
+N/cm
+≥6.3
+Opciones de Presentación
+—
+Bobinas (Pad / Spool) cortadas a medida (ancho mínimo 5 mm)
+Colores Disponibles
+—
+Plata (Natural) o Azul
+3. Ventajas Competitivas de Nuestro Producto
+Excelente Maleabilidad y Flexibilidad: Su diseño "dead soft" permite que la cinta se adapte perfectamente a geometrías curvilíneas o torsiones continuas durante el proceso de cableado y extrusión, evitando pliegues o roturas.
+Solapamiento Seguro: Permite un traslape helicoidal o longitudinal uniforme (habitualmente del 25%) sin perder continuidad galvánica ni dejar espacios expuestos a interferencias.
+Estabilidad Térmica: Soporta perfectamente las altas temperaturas generadas en la línea de extrusión durante la aplicación de la vaina exterior (PVC, XLPE o LSZH) sin delaminarse.
+Aplicaciones Recomendadas
+Cables de instrumentación industrial (Sistemas de control de procesos, refinerías, plantas de energía).
+Cables para transmisión de datos de alta velocidad y redes de comunicación.
+Cables de señales en entornos con alto ruido eléctrico o proximidad a motores y transformadores.
+
+================================================================================
+

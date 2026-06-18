@@ -140,7 +140,7 @@ const ProductDetail: React.FC = () => {
             <span className="text-[11px] font-bold text-orange-600 uppercase tracking-[0.4em] mb-2 block">
               {product.categoryPath && product.categoryPath.slice(-1)[0]}
             </span>
-            <h1 className="text-5xl md:text-7xl font-oswald font-bold text-slate-900 uppercase tracking-tight">
+            <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-oswald font-bold text-slate-900 uppercase tracking-tight">
               {product.name}
             </h1>
           </div>

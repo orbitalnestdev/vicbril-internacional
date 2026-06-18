@@ -1,0 +1,3664 @@
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/1-LSOH/FICHA TECNICA - USAR FOTO DE PORTADA.pdf
+=========================================
+Total Pages: 8
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie AE
+Par, terna, cuadrete, multipar, multiterna
+300 Volt Cu 22 a 12 AWG LSZH 90°C / LSZH UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso en ambientes cerrados con alta concentración de personas (Aeropuertos, hospitales, trenes,
+cines, centros comerciales, túneles) y en salas de control con equipamiento electrónico sensible ante la exposición de
+gases corrosivos. Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o
+en ductos. 
+No propagación de
+incendio
+Libre de halógenos
+Bajos humos
+Resistente al aceite
+mineral
+Resistente luz solar
+Inmersión en agua
+CARACTERÍSTICAS
+Temperatura máxima: 90°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del
+incendio, resistente a la 
+--- PAGE 2 ---
+serie AE
+Par, terna, cuadrete, multipar, multiterna
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar Seguridad Intrínseca
+Cubierta Conductores Cubierta Conductores
+Par
+Terna
+Cuadrete
+Multipar
+ +N
+ +N
+ 
+Multiterna
+ +N
+ +N
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+Se pueden fabricar cables de instrumentación bajo otras normas, tales como: NBR 10300, EN 50288-7 o ICEA S
+73-532, cumpliendo otros parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35,78
+98 76
+588
+Blindado 180 41
+Multipar / multiterna
+Blindaje general 111 67
+Blindaje individual y
+general 180 41
+18
+Par /terna / cuadrete
+Sin blindar
+22,78
+85 88
+641
+Blindado 165 50
+Multipar / multiterna
+Blindaje general 98 76
+Blindaje individual y
+general 165 50
+16
+Par /terna / cuadrete
+Sin blindar
+14,25
+112 66
+544
+Blindado 210 35
+Multipar / multiterna
+Blindaje general 122 61
+Blindaje individual y
+general 210 35
+14
+Par /terna / cuadrete
+Sin blindar
+8,94
+103 68
+55
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/2-LSOH ARMADO/FICHA TECNICA - REPETIR FOTO PORTADA.pdf
+=========================================
+Total Pages: 8
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie AE-H
+Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+300 Volt Cu 22 a 12 AWG LSZH 90°C / LSZH UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso en ambientes cerrados con alta concentración de personas (Aeropuertos, hospitales, trenes,
+cines, centros comerciales, túneles) y en salas de control con equipamiento electrónico sensible ante la exposición de
+gases corrosivos. Instalados en bandeja, escalera, al aire libre directo o bajo techo, directamente enterrados o
+enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Libre de halógenos
+Bajos humos
+Resistente al aceite
+mineral
+Resistente luz solar
+Inmersión en agua
+CARACTERÍSTICAS
+Temperatura máxima: 90°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta interna: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)
+A
+--- PAGE 2 ---
+CLAD serie AE-H
+Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar Seguridad Intrínseca
+Cubierta Conductores Cubierta Conductores
+Par
+Terna
+Cuadrete
+Multipar
+ +N
+ +N
+ 
+Multiterna
+ +N
+ +N
+INSTALACIÓN
+Temperatura
+montaje
+Sobre la
+armadura
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+Se pueden fabricar cables de instrumentación bajo otras normas, tales como: NBR 10300, EN 50288-7 o ICEA S
+73-532, cumpliendo otros parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35,78
+98 76
+588
+Blindado 180 41
+Multipar / multiterna
+Blindaje general 111 67
+Blindaje individual y
+general 180 41
+18
+Par /terna / cuadrete
+Sin blindar
+22,78
+85 88
+641
+Blindado 165 50
+Multipar / multiterna
+Blindaje general 98 76
+Blindaje individual y
+general 165 50
+16
+Par /terna / cuadrete
+Sin blindar
+14,25
+112 66
+544
+Blindado 210 35
+Multipar / multiterna
+Blindaje general 122 61
+Blindaje individual y
+general 210 35
+14
+Par /terna / cuadrete
+Sin blind
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/1-LIBRE HALOGENOS/3-LSOH CORRUGADO (INTERLOCK)/FICHA TECNICA - REPETIR FOTO PORTADA.pdf
+=========================================
+Total Pages: 8
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie AE-TK
+Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+300 Volt Cu 22 a 12 AWG LSZH 90°C / LSZH UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso en ambientes cerrados con alta concentración de personas (Aeropuertos, hospitales, trenes,
+cines, centros comerciales, túneles) y en salas de control con equipamiento electrónico sensible ante la exposición de
+gases corrosivos. Instalados en bandeja, escalera, al aire libre directo o bajo techo, directamente enterrados o
+enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Libre de halógenos
+Bajos humos
+Resistente al aceite
+mineral
+Resistente luz solar
+Inmersión en agua
+CARACTERÍSTICAS
+Temperatura máxima: 90°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta interna: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retar
+--- PAGE 2 ---
+CLAD serie AE-TK
+Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar Seguridad Intrínseca
+Cubierta Conductores Cubierta Conductores
+Par
+Terna
+Cuadrete
+Multipar
+ +N
+ +N
+ 
+Multiterna
+ +N
+ +N
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+Se pueden fabricar cables de instrumentación bajo otras normas, tales como: NBR 10300, EN 50288-7 o ICEA S
+73-532, cumpliendo otros parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35.78
+98 76
+588
+Blindado 180 41
+Multipar / multiterna
+Blindaje general 111 67
+Blindaje individual y
+general 180 41
+18
+Par /terna / cuadrete
+Sin blindar
+22.78
+85 88
+641
+Blindado 165 50
+Multipar / multiterna
+Blindaje general 98 76
+Blindaje individual y
+general 165 50
+16
+Par /terna / cuadrete
+Sin blindar
+14.25
+112 66
+544
+Blindado 210 35
+Multipar / multiterna
+Blindaje general 122 61
+Blindaje individual y
+general 210 35
+14
+Par /terna / cuadret
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/2-RESISTENTE INCENDIOS/1-RESISTENTE INCENDIOS/FICHA TECNICA - USAR FOTO DE PORTADA.pdf
+=========================================
+Total Pages: 8
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie AF
+Par, terna, cuadrete, multipar, multiterna
+300 Volt Cu 20 a 12 AWG Doble aislación (MICA+LSZH) UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso adecuado para mantener la integridad eléctrica en presencia de fuego directo en servicios
+críticos en destilerías, petroquímicas, astilleros, etc. Instalados en conduits, bandeja, escalera, al aire libre directo o
+bajo techo, enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Resistente al fuego
+Libre de halógenos
+Bajos humos
+Resistente al aceite
+mineral
+Resistente luz solar
+CARACTERÍSTICAS
+Temperatura máxima: 90°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC  - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: Encintado de MICA + LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame  Retardant)
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del
+incendio, resistente a la luz solar y los aceites
+Norma de fuego: UL 168
+--- PAGE 2 ---
+serie AF
+Par, terna, cuadrete, multipar, multiterna
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar Seguridad Intrínseca
+Cubierta Conductores Cubierta Conductores
+Par
+Terna
+Cuadrete
+Multipar
+ +N
+ +N
+ 
+Multiterna
+ +N
+ +N
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+Se pueden fabricar cables de instrumentación bajo otras normas, tales como: NBR 10300, EN 50288-7 o ICEA S
+73-532, cumpliendo otros parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35.78
+74 102
+703
+Blindado 131 57
+Multipar / multiterna
+Blindaje general 87 86
+Blindaje individual y
+general 131 57
+18
+Par /terna / cuadrete
+Sin blindar
+22.78
+66 114
+755
+Blindado 117 64
+Multipar / multiterna
+Blindaje general 79 95
+Blindaje individual y
+general 117 64
+16
+Par /terna / cuadrete
+Sin blindar
+14.25
+88 85
+628
+Blindado 160 47
+Multipar / multiterna
+Blindaje general 101 74
+Blindaje individual y
+general 160 47
+14
+Par /terna / cuadrete
+Sin blindar
+8.94
+90 83
+620
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/2-RESISTENTE INCENDIOS/2-RESISTENTE INCENDIOS ARMADO/FICHA TECNICA - REPETIR FOTO PORTADA.pdf
+=========================================
+Total Pages: 8
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie AF-H
+Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+300 Volt Cu 20 a 12 AWG Doble aislación (MICA+LSZH) UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso adecuado para mantener la integridad eléctrica en presencia de fuego directo en servicios
+críticos en destilerías, petroquímicas, astilleros, etc. Instalados en bandeja, escalera, al aire libre directo o bajo techo,
+directamente enterrados o enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Resistente al fuego
+Libre de halógenos
+Bajos humos
+Resistente al aceite
+mineral
+Resistente luz solar
+CARACTERÍSTICAS
+Temperatura máxima: 90°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC  - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: Encintado de MICA + LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame  Retardant)
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta interna: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)
+Armadura: Corona helicoidal de alambres de acer
+--- PAGE 2 ---
+CLAD serie AF-H
+Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar Seguridad Intrínseca
+Cubierta Conductores Cubierta Conductores
+Par
+Terna
+Cuadrete
+Multipar
+ +N
+ +N
+ 
+Multiterna
+ +N
+ +N
+INSTALACIÓN
+Temperatura
+montaje
+Sobre la
+armadura
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+Se pueden fabricar cables de instrumentación bajo otras normas, tales como: NBR 10300, EN 50288-7 o ICEA S
+73-532, cumpliendo otros parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35.78
+74 102
+703
+Blindado 131 57
+Multipar / multiterna
+Blindaje general 87 86
+Blindaje individual y
+general 131 57
+18
+Par /terna / cuadrete
+Sin blindar
+22.78
+66 114
+755
+Blindado 117 64
+Multipar / multiterna
+Blindaje general 79 95
+Blindaje individual y
+general 117 64
+16
+Par /terna / cuadrete
+Sin blindar
+14.25
+88 85
+628
+Blindado 160 47
+Multipar / multiterna
+Blindaje general 101 74
+Blindaje individual y
+general 160 47
+14
+Par /terna / cuadrete
+Sin blind
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/2-RESISTENTE INCENDIOS/3-RESISTENTE INCENDIOS CORRUGADO (INTERLOCK)/FICHA TECNICA - REPETIR FOTO PORTADA.pdf
+=========================================
+Total Pages: 8
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie AF-TK
+Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+300 Volt Cu 20 a 12 AWG Doble aislación (MICA+LSZH) UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Uso adecuado para mantener la integridad eléctrica en presencia de fuego directo en servicios
+críticos en destilerías, petroquímicas, astilleros, etc. Instalados en bandeja, escalera, al aire libre directo o bajo techo,
+directamente enterrados o enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Resistente al fuego
+Libre de halógenos
+Bajos humos
+Resistente al aceite
+mineral
+Resistente luz solar
+CARACTERÍSTICAS
+Temperatura máxima: 90°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC  - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: Encintado de MICA + LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame  Retardant)
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta interna: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant)
+Armadura: Fleje de aluminio, tipo interl
+--- PAGE 2 ---
+CLAD serie AF-TK
+Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar Seguridad Intrínseca
+Cubierta Conductores Cubierta Conductores
+Par
+Terna
+Cuadrete
+Multipar
+ +N
+ +N
+ 
+Multiterna
+ +N
+ +N
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+Se pueden fabricar cables de instrumentación bajo otras normas, tales como: NBR 10300, EN 50288-7 o ICEA S
+73-532, cumpliendo otros parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35.78
+74 102
+703
+Blindado 131 57
+Multipar / multiterna
+Blindaje general 87 86
+Blindaje individual y
+general 131 57
+18
+Par /terna / cuadrete
+Sin blindar
+22.78
+66 114
+755
+Blindado 117 64
+Multipar / multiterna
+Blindaje general 79 95
+Blindaje individual y
+general 117 64
+16
+Par /terna / cuadrete
+Sin blindar
+14.25
+88 85
+628
+Blindado 160 47
+Multipar / multiterna
+Blindaje general 101 74
+Blindaje individual y
+general 160 47
+14
+Par /terna / cuadret
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/1-300 VOLTS/FICHA TECNICA - USAR FOTO DE PORTADA.pdf
+=========================================
+Total Pages: 7
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie AR
+Par, terna, cuadrete, multipar, multiterna
+300 Volt Cu 22 a 12 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o
+en ductos. 
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Uso refinerías
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 105°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: PVC
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma hidrocarburos: NFC 32-200 - ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2
+y Cl2 Div.2
+IDENTIFICACIÓN
+Estandar Seguridad Intrínseca
+Cubierta Conducto
+--- PAGE 2 ---
+serie AR
+Par, terna, cuadrete, multipar, multiterna
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+Se pueden fabricar cables de instrumentación bajo otras normas, tales como: NBR 10300, EN 50288-7 o ICEA S
+73-532, cumpliendo otros parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35,78
+98 76
+588
+Blindado 180 41
+Multipar / multiterna
+Blindaje general 111 67
+Blindaje individual y general 180 41
+18
+Par /terna / cuadrete
+Sin blindar
+22,78
+85 88
+641
+Blindado 165 50
+Multipar / multiterna
+Blindaje general 98 76
+Blindaje individual y general 165 50
+16
+Par /terna / cuadrete
+Sin blindar
+14,25
+112 66
+544
+Blindado 210 35
+Multipar / multiterna
+Blindaje general 122 61
+Blindaje individual y general 210 35
+14
+Par /terna / cuadrete
+Sin blindar
+8,94
+103 68
+553
+Blindado 203 37
+Multipar / multiterna
+Blindaje general 133 56
+Blindaje individual y general 203 37
+12 Par /terna / cuadrete
+Sin blindar
+5,63
+121 62
+522
+Blindado 228 33
+pF/m = Capacidad mutua entre conductores en picoFar
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/2-300 VOLTS ARMADO/FICHA TECNICA - REPETIR FOTO PORTADA.pdf
+=========================================
+Total Pages: 7
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie AR-H
+Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+300 Volt Cu 22 a 12 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en bandeja, escalera, al aire libre directo o bajo techo, directamente enterrados o
+enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Uso refinerías
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 105°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: PVC
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta interna: PVC
+Armadura: Corona helicoidal de alambres de acero cincado (galvanizado)
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma hidrocarburos: NFC 32-200 - ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC
+--- PAGE 2 ---
+CLAD serie AR-H
+Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar Seguridad Intrínseca
+Cubierta Conductores Cubierta Conductores
+Par
+Terna
+Cuadrete
+Multipar
+ +N
+ +N
+Multiterna
+ +N
+ +N
+INSTALACIÓN
+Temperatura
+montaje
+Sobre la
+armadura
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta, es posible variar el tipo de armadura.
+Se pueden fabricar cables de instrumentación bajo otras normas, tales como: NBR 10300, EN 50288-7 o ICEA S
+73-532, cumpliendo otros parámetros eléctricos y dimensionales
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35,78
+98 76
+588
+Blindado 180 41
+Multipar / multiterna
+Blindaje general 111 67
+Blindaje individual y general 180 41
+18
+Par /terna / cuadrete
+Sin blindar
+22,78
+85 88
+641
+Blindado 165 50
+Multipar / multiterna
+Blindaje general 98 76
+Blindaje individual y general 165 50
+16
+Par /terna / cuadrete
+Sin blindar
+14,25
+112 66
+544
+Blindado 210 35
+Multipar / multiterna
+Blindaje general 122 61
+Blindaje individual y general 210 3
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/3-300 VOLTS CORRUGADO (INTERLOCK)/FICHA TECNICA - REPETIR FOTO PORTADA.pdf
+=========================================
+Total Pages: 7
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie MC
+Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+300 Volt Cu 22 a 12 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en bandeja, escalera, al aire libre directo o bajo techo, directamente enterrados o
+enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Uso refinerías
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 105°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: PVC
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta interna: PVC
+Armadura: Armadura de interlock de aluminio
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma hidrocarburos: NFC 32-200 - ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 5
+--- PAGE 2 ---
+CLAD serie MC
+Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar Seguridad Intrínseca
+Cubierta Conductores Cubierta Conductores
+Par
+Terna
+Cuadrete
+Multipar
+ +N
+ +N
+Multiterna
+ +N
+ +N
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta, es posible suministrar estos cables con armadura de interlock de
+acero. Se pueden fabricar cables de instrumentación bajo otras normas, tales como: CSA 22.2 N°239 o ICEA S
+73-532, cumpliendo otros parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35,78
+98 76
+588
+Blindado 180 41
+Multipar / multiterna
+Blindaje general 111 67
+Blindaje individual y general 180 41
+18
+Par /terna / cuadrete
+Sin blindar
+22,78
+85 88
+641
+Blindado 165 50
+Multipar / multiterna
+Blindaje general 98 76
+Blindaje individual y general 165 50
+16
+Par /terna / cuadrete
+Sin blindar
+14,25
+112 66
+544
+Blindado 210 35
+Multipar / multiterna
+Blindaje general 122 61
+
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/4-300 VOLTS ALARMA INCENDIO/FICHA TECNICA - USAR FOTO DE PORTADA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie AI
+Par, terna, cuadrete
+300 Volt Cu 20 a 12 AWG PVC 105°C / PVC UL 1424 FPL
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Especialmente diseñados para
+alarmas de aviso de detección de incendio. Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo,
+enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Marcación especial
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 105°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 1424 tipo FPL
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: PVC
+Paso del trenzado: 50mm (20 torsiones por metro)
+Par sin blindar: Encintado de poliéster
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta: PVC, no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma de hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 760 FPL
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Par
+Terna
+Cuadrete
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar,
+--- PAGE 2 ---
+serie AI
+Par, terna, cuadrete
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20 Par /terna / cuadrete
+Sin blindar
+35.78
+98 76
+588
+Blindado 180 41
+18 Par /terna / cuadrete
+Sin blindar
+22.78
+85 88
+641
+Blindado 165 50
+16 Par /terna / cuadrete
+Sin blindar
+14.25
+112 66
+544
+Blindado 210 35
+14 Par /terna / cuadrete
+Sin blindar
+8.94
+109 68
+553
+Blindado 203 37
+12 Par /terna / cuadrete
+Sin blindar
+5.63
+121 62
+522
+Blindado 228 33
+pF/m = Capacidad mutua entre conductores en picoFaradio por metro / uH/km = Inductancia mutua entre conductores en microHenry por kilómetro.
+DIMENSIONES Y PESOS
+Par
+AWG Blindaje Drenaje Diámetro exterior mm Peso kg/km Código Mat Number
+20
+-- -- 4.9 30 AI 1P20 810010030
+Si 22 5.0 34 AI-O 1P20 810010040
+18
+-- -- 5.6 40 AI 1P18 810010050
+Si 20 5.7 46 AI-O 1P18 810010060
+16
+-- -- 6.2 53 AI 1P16 810010070
+Si 18 6.3 62 AI-O 1P16 810010080
+14
+-- -- 7.7 82 AI 1P14 810010090
+Si 18 7.8 91 AI-O 1P14 810010100
+12
+-- -- 8.7 112 AI 1P12 810010110
+Si 18 8.8 121 AI-O 1P12 810010120
+
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/5-300 VOLTS BLINDADO/FICHA TECNICA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie UM A
+Multipolares Blindados
+300 Volt Cu 20 a 14 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica. Circuitos de seguridad intrínseca. Detección de pérdidas de gas y/o fluidos.
+Medición y monitoreo de presión, temperatura, volumen. Monitoreo de señales de alarma. Instalados en conduits,
+bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Uso refinerías
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 105°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: PVC
+Ensamblado: Reunido de conductores formando coronas + encintado de poliéster
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma de hidrocarburos: NFC 32-200 - ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC– Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2
+IDENTIFICACIÓN
+Estandar
+Conductores
+Multipolares
+  numerados
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+co
+--- PAGE 2 ---
+serie UM A
+Multipolares Blindados
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Descripción Unidad 20AWG 18AWG 16AWG 14AWG
+Resistencia eléctrica a 20°C en C.C Ohm/km 34.99 22.3 13.97 8.76
+Capacidad mutua entre conductores pF/m 120 110 130 140
+Inductancia mutua entre conductores uH/Km 588 641 544 553
+pF/m = Capacidad mutua entre conductores en picoFaradio por metro / uH/km = Inductancia mutua entre conductores en microHenry por kilómetro.
+DIMENSIONES Y PESOS
+Nro. Conductores AWG Diámetro exterior mm Peso kg/km Código Mat Number
+2
+20
+5.1 37 UM-A 2x20 810032050
+3 5.4 45 UM-A 3X20 810032060
+4 5.8 53 UM-A 4X20 810032070
+5 6.2 62 UM-A 5x20 810032080
+6 6.7 71 UM-A 6X20 810032090
+7 6.7 77 UM-A 7X20 810032100
+9 8.0 100 UM-A 9X20 810032110
+12 8.8 124 UM-A 12X20 810032120
+15 9.6 148 UM-A 15X20 810032130
+18 10.6 182 UM-A 18X20 810032140
+21 11.1 206 UM-A 21X20 810032150
+24 12.2 233 UM-A 24X20 810032160
+27 12.4 254 UM-A 27X20 810032170
+30 12.8 277 UM-A 30X20 810032180
+32 13.2 293 UM-A 32X20 810032190
+36 13.7 322 UM-A 36X20 810032200
+2
+18
+5.9 50 UM-A 2x18 810032210
+3 6.2 62 UM-A 3X18 810032220
+4 6.7 74 UM-A 4X18 810032230
+5 7.5 91 UM-A 5x18 810032240
+6 8.1 105 UM-A 6X18 810032250
+7 8.1 115 UM-A 7X18 810032260
+9 9.3 143 UM-A 9X18 810032270
+12 10.8 190 UM-A 12X18 810032280
+15 11.8 228 UM-A 15X18 810032290
+18 12.4 262 UM-A 18X18 810032300
+21 12.9 298 UM-A 21X18 810032310
+24 14.3 337 UM-A 24
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/6-300 VOLTS BLINDADO ARMADO/FICHA TECNICA.pdf
+=========================================
+Total Pages: 4
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie UM A-H
+Multipolares Blindados (SWA)
+300 Volt Cu 20 a 14 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica. Circuitos de seguridad intrínseca. Detección de pérdidas de gas y/o fluidos.
+Medición y monitoreo de presión, temperatura, volumen. Monitoreo de señales de alarma. Instalados en bandeja,
+escalera, al aire libre directo o bajo techo, directamente enterrados o enterrado en trinchera o en ductos.
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Uso refinerías
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 105°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: PVC
+Ensamblado: Reunido de conductores formando coronas + encintado de poliéster
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta interna: PVC
+Armadura: Corona helicoidal de alambres de acero cincado (galvanizado)
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma de hidrocarburos: NFC 32-200 - ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC– Art. 501 áreas clasificadas CL1 Div
+--- PAGE 2 ---
+CLAD serie UM A-H
+Multipolares Blindados (SWA)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+Se pueden fabricar cables de instrumentación bajo otra norma, tal como la ICEA S 73-532, cumpliendo otros
+parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Descripción Unidad 20AWG 18AWG 16AWG 14AWG
+Resistencia eléctrica a 20°C en C.C Ohm/km 34.99 22.3 13.97 8.76
+Capacidad mutua entre conductores pF/m 120 110 130 140
+Inductancia mutua entre conductores uH/Km 588 641 544 553
+pF/m = Capacidad mutua entre conductores en picoFaradio por metro / uH/km = Inductancia mutua entre conductores en microHenry por kilómetro.
+DIMENSIONES Y PESOS
+Nro. Conductores AWG Diámetro bajo
+armadura mm
+Diámetro exterior
+mm Peso kg/km Código
+2
+20
+5.1 8.8 163 UM-A-H 2x20
+3 5.4 9.0 176 UM-A-H 3X20
+4 5.8 9.4 190 UM-A-H 4X20
+5 6.2 10.4 220 UM-A-H 5x20
+6 6.7 10.8 239 UM-A-H 6X20
+7 6.7 10.8 246 UM-A-H 7X20
+9 8.0 12.2 296 UM-A-H 9X20
+12 8.8 12.9 336 UM-A-H 12X20
+15 9.6 13.8 377 UM-A-H 15X20
+18 10.6 14.7 432 UM-A-H 18X20
+21 11.1 15.2 466 UM-A-H 21X20
+24 12.2 16.8 534 UM-A-H 24X20
+27 12.4 17.0 561 UM-A-H 27X20
+30 12.8 17.4 594 UM-A-H 30X20
+32 13.2 17.9 621 UM-A-H 32X20
+36 13.7 18.4 658 UM-A-H 36X20
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/7-300 VOLTS BLINDADO INTERLOCK/FICHA TECNICA.pdf
+=========================================
+Total Pages: 4
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie UM A-TK
+Multipolares Blindados (Interlock)
+300 Volt Cu 20 a 14 AWG PVC 105°C / PVC UL 13 PLTC
+Circuitos de instrumentación electrónica. Circuitos de seguridad intrínseca. Detección de pérdidas de gas y/o fluidos.
+Medición y monitoreo de presión, temperatura, volumen. Monitoreo de señales de alarma. Instalados en bandeja,
+escalera, al aire libre directo o bajo techo, directamente enterrados o enterrado en trinchera o en ductos.
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Resistente al impacto
+Aplastamiento
+CARACTERÍSTICAS
+Temperatura máxima: 105°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC - UL 2250 tipo ITC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: PVC
+Ensamblado: Reunido de conductores formando coronas + encintado de poliéster
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta interna: PVC
+Armadura: Fleje de aluminio, tipo interlock
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma de hidrocarburos: NFC 32-200 - ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC– Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2
+ID
+--- PAGE 2 ---
+CLAD serie UM A-TK
+Multipolares Blindados (Interlock)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta. Es posible suministrar estos cables con armadura de interlock de
+acero.
+Se pueden fabricar cables de instrumentación bajo otra norma, tal como la ICEA S 73-532, cumpliendo otros
+parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Descripción Unidad 20AWG 18AWG 16AWG 14AWG
+Resistencia eléctrica a 20°C en C.C Ohm/km 34.99 22.3 13.97 8.76
+Capacidad mutua entre conductores pF/m 120 110 130 140
+Inductancia mutua entre conductores uH/Km 588 641 544 553
+pF/m = Capacidad mutua entre conductores en picoFaradio por metro / uH/km = Inductancia mutua entre conductores en microHenry por kilómetro.
+DIMENSIONES Y PESOS
+Nro. Conductores AWG Diámetro bajo
+armadura mm
+Diámetro exterior
+mm Peso kg/km Código
+2
+20
+7.1 16.9 277 UM-A-TK 2x20
+3 7.1 16.9 282 UM-A-TK 3X20
+4 7.1 16.9 285 UM-A-TK 4X20
+5 7.1 16.9 288 UM-A-TK 5x20
+6 7.1 16.9 290 UM-A-TK 6X20
+7 7.1 16.9 297 UM-A-TK 7X20
+9 8.3 18.2 340 UM-A-TK 9X20
+12 9.0 18.8 372 UM-A-TK 12X20
+15 9.6 20.1 427 UM-A-TK 15X20
+18 10.8 20.7 462 UM-A-TK 18X20
+21 11.5 21.3 502 UM-A-TK 21X20
+24 12.8 22.6 556 UM-A-TK 24X20
+27 12.8 22.6 570 UM-A-TK 27X20
+30 12.8 22.6 606 UM-A-TK 30X20
+32 13.3 
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/3-300 VOLTS/8-300 VOLTS TRABAJOS PESADOS/FICHA TECNICA.pdf
+=========================================
+Total Pages: 7
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie MIN
+Par, terna, cuadrete, multipar, multiterna
+300 Volt Cu 22 a 12 AWG XLPE 90°C / PUR UL 13
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Uso en trabajo pesado (Heavy Duty)
+para Señales y comunicaciones en equipos de perforación, Pulling y Workover. Su material de cubierta le confiere
+robustez para condiciones ambientales agresivas (Cambios bruscos de temperatura, sol, lluvia y viento) como
+resistencia aumentada a su manipulación diaria (torceduras, impactos, abrasión). 
+No propagación de
+llama
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Apto bajas
+temperaturas
+Entorno hostil
+CARACTERÍSTICAS
+Temperatura máxima: 105°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: XLPE (Polietileno reticulado)
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta: Poliuretano, no propagante de la llama, resistente a la luz solar, hidrocarburos y aceites
+Norma de fuego: FT1 – IEC 60332-1
+Norma de hidrocarburos: UIC 895 OR
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+IDENTIFICACIÓN
+Estandar Seguridad Intríseca
+Cubierta Conductores Cubierta Conductores
+Par
+Terna
+Cuadrete
+Mult
+--- PAGE 2 ---
+serie MIN
+Par, terna, cuadrete, multipar, multiterna
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+Se pueden fabricar cables de instrumentación bajo otras normas, tales como: NBR 10300, EN 50288-7 o ICEA S
+73-532, cumpliendo otros parámetros eléctricos y dimensionales.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35.78
+45 112
+588
+Blindado 83 61
+Multipar / multiterna
+Blindaje general 52 99
+Blindaje individual y general 83 61
+18
+Par /terna / cuadrete
+Sin blindar
+22.78
+46 110
+580
+Blindado 85 59
+Multipar / multiterna
+Blindaje general 52 97
+Blindaje individual y general 85 59
+16
+Par /terna / cuadrete
+Sin blindar
+14.25
+39 131
+643
+Blindado 70 72
+Multipar / multiterna
+Blindaje general 45 113
+Blindaje individual y general 70 72
+14
+Par /terna / cuadrete
+Sin blindar
+8.94
+50 101
+553
+Blindado 93 54
+Multipar / multiterna
+Blindaje general 56 90
+Blindaje individual y general 93 54
+12 Par /terna / cuadrete
+Sin blindar
+5.63
+56 91
+522
+Blindado 105 48
+pF/m = Capacidad mutua entre conductores en picoFaradio por
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/4-600 VOLTS/1-600 VOLTS/FICHA TECNICA.pdf
+=========================================
+Total Pages: 7
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie AY
+Par, terna, cuadrete, multipar, multiterna
+600 Volt Cu 20 a 12 AWG PVC-Nylon 90°C / PVC ICEA S 73-532
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o
+en ductos. 
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Mercado internacional
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 90°C
+Tensión nominal: 600 Volt
+Norma constructiva: ICEA S 73-532
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: PVC-Nylon
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta: PVC, no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: ICEA T 30-520
+Norma de hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 336 TC –Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2
+IDENTIFICACIÓN
+Estandar Seguridad Intrínseca
+Cubierta Conductores Cubierta Conductore
+--- PAGE 2 ---
+serie AY
+Par, terna, cuadrete, multipar, multiterna
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35.78
+86 86
+636
+Blindado 160 50
+Multipar / multiterna
+Blindaje general 100 75
+Blindaje individual y general 160 50
+18
+Par /terna / cuadrete
+Sin blindar
+22.78
+80 100
+689
+Blindado 136 55
+Multipar / multiterna
+Blindaje general 89 84
+Blindaje individual y general 136 55
+16
+Par /terna / cuadrete
+Sin blindar
+14.25
+101 75
+578
+Blindado 186 40
+Multipar / multiterna
+Blindaje general 144 66
+Blindaje individual y general 186 40
+14
+Par /terna / cuadrete
+Sin blindar
+8.94
+112 67
+544
+Blindado 210 36
+Multipar / multiterna
+Blindaje general 125 60
+Blindaje individual y general 210 36
+12 Par /terna / cuadrete
+Sin blindar
+5.63
+125 60
+515
+Blindado 235 32
+pF/m = Capacidad mutua entre conductores en picoFaradio por metro / uH/km = Inductancia mutua entre conductores en microHenry por kilómetro.
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/4-600 VOLTS/2-600 VOLTS ARMADO/FICHA TECNICA - REPETIR FOTO PORTADA.pdf
+=========================================
+Total Pages: 7
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie AY-H
+Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+600 Volt Cu 20 a 12 AWG PVC-Nylon 90°C / PVC ICEA S 73-532
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en bandeja, escalera, al aire libre directo o bajo techo, directamente enterrados o
+enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Apto uso bandejas
+Directamente
+enterrado
+CARACTERÍSTICAS
+Temperatura máxima: 90°C
+Tensión nominal: 600 Volt
+Norma constructiva: ICEA S 73-532
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: PVC-Nylon
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta interna: PVC
+Armadura: Corona helicoidal de alambres de acero cincado (galvanizado)
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: ICEA T 30-520
+Norma de hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 336 TC –Art. 5
+--- PAGE 2 ---
+CLAD serie AY-H
+Par, terna, cuadrete, multipar, multiterna Armados (SWA)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35.78
+86 86
+636
+Blindado 160 50
+Multipar / multiterna
+Blindaje general 100 75
+Blindaje individual y general 160 50
+18
+Par /terna / cuadrete
+Sin blindar
+22.78
+80 100
+689
+Blindado 136 55
+Multipar / multiterna
+Blindaje general 89 84
+Blindaje individual y general 136 55
+16
+Par /terna / cuadrete
+Sin blindar
+14.25
+101 75
+578
+Blindado 186 40
+Multipar / multiterna
+Blindaje general 144 66
+Blindaje individual y general 186 40
+14
+Par /terna / cuadrete
+Sin blindar
+8.94
+112 67
+544
+Blindado 210 36
+Multipar / multiterna
+Blindaje general 125 60
+Blindaje individual y general 210 36
+12 Par /terna / cuadrete
+Sin blindar
+5.63
+125 60
+515
+Blindado 235 32
+pF/m = Capacidad mutua entre conductores en picoFaradio por metro / uH/km = Inductancia mutua entre conductores en microHenry por kilómetro.
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/1- INSTRUMENTACIÓN ELECTRONICA/4-600 VOLTS/3 -600 VOLTS CORRUGADO (INTERLOCK)/FICHA TECNICA - REPETIR FOTO PORTADA.pdf
+=========================================
+Total Pages: 7
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie AY-TK
+Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+600 Volt Cu 20 a 12 AWG PVC-Nylon 90°C / PVC ICEA S 73-532
+Circuitos de instrumentación electrónica, señales digitales y analógicas (4-20mA). Circuitos de seguridad intrínseca.
+Detección de pérdidas de gas y/o fluidos. Medición y monitoreo de presión, temperatura, volumen. Monitoreo de
+señales de alarma. Instalados en bandeja, escalera, al aire libre directo o bajo techo, directamente enterrados o
+enterrado en trinchera o en ductos. 
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Aplastamiento
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 90°C
+Tensión nominal: 600 Volt
+Norma constructiva: ICEA S 73-532
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido en formación de 7 hilos
+Aislación: PVC-Nylon
+Paso del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster más conductor de drenaje de cobre estañado
+Cubierta interna: PVC
+Armadura: Fleje de aluminio, tipo interlock
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: ICEA T 30-520
+Norma de hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 336 TC –Art. 501 áreas clasificadas CL1 Div
+--- PAGE 2 ---
+CLAD serie AY-TK
+Par, terna, cuadrete, multipar, multiterna Armados (Interlock)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de aislación y/o cubierta.
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre de los
+conductores Estructura del cable Tipo de blindaje
+Resistencia eléctrica
+en C.C. a 20°C
+Capacidad
+mutua entre
+conductores
+Impedancia
+característica
+Inductancia
+mutua
+AWG ohm/km pf/m ohm microH/km
+20
+Par /terna / cuadrete
+Sin blindar
+35.78
+86 86
+636
+Blindado 160 50
+Multipar / multiterna
+Blindaje general 100 75
+Blindaje individual y general 160 50
+18
+Par /terna / cuadrete
+Sin blindar
+22.78
+80 100
+689
+Blindado 136 55
+Multipar / multiterna
+Blindaje general 89 84
+Blindaje individual y general 136 55
+16
+Par /terna / cuadrete
+Sin blindar
+14.25
+101 75
+578
+Blindado 186 40
+Multipar / multiterna
+Blindaje general 144 66
+Blindaje individual y general 186 40
+14
+Par /terna / cuadrete
+Sin blindar
+8.94
+112 67
+544
+Blindado 210 36
+Multipar / multiterna
+Blindaje general 125 60
+Blindaje individual y general 210 36
+12 Par /terna / cuadrete
+Sin blindar
+5.63
+125 60
+515
+Blindado 235 32
+pF/m = Capacidad mutua entre conductores en picoFaradio por metro / uH/km = Inductancia mutua entre conductores en microHenry por kilómetro.
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/1-RS 485 24 AWG/FICHA TECNICA RS 485 24 AWG.pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie SB-RS 485
+Par y Multipares Blindados
+300 Volt Cu 24 AWG UL 13 Sistema RS 485
+Aplicaciones en circuitos de distribución de buses de campo para sistemas informáticos RS 485. Este sistema permite
+una red de nodos múltiples comunicada con un cable a pares que ofrece: comunicación bidireccional, gran longitud
+del cable de interconexión y alta velocidad de transmisión de datos. Instalados en conduits, bandeja, escalera, al aire
+libre directo o bajo techo, enterrado en trinchera o en ductos. 
+Protección
+interferencias
+electromagnéticas
+Doble blindaje
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+CARACTERÍSTICAS
+Temperatura máxima: 75°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL13
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos
+Aislación: Compuesto termoplástico
+Paso de trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura
+90%)
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma de aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasifica
+--- PAGE 2 ---
+serie SB-RS 485
+Par y Multipares Blindados
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+1 Par
+2 Pares
+3 Pares
+4 Pares
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de cubierta.
+CARACTERÍSTICAS ELÉCTRICAS, DIMENSIONALES Y PESOS
+Número
+de
+pares
+Calibre
+Resistencia
+eléctrica a
+20°C en
+C.C.
+Velocidad
+de
+propagación
+Impedancia
+característica
+Capacidad
+mutua
+Diámetro
+exterior Peso
+Código Mat
+Number
+AWG ohm/km VP
+(%) Ohm pF/m pF/ft mm kg/km
+1
+24 92.7 66 120 44 13.4
+6.6 63 SB 97 1P24 841000170
+2 8.7 92 SB 97 2P24 841000180
+3 9.4 107 SB 97 3P24 841000190
+4 10.7 135 SB 97 4P24 841000200
+pF/m: Capacidad mutua entre conductores del mismo par expresado en picofaradios por metro.
+pF/ft: Capacidad mutua entre conductores del mismo par expresado en picofaradios por pie.
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/2-RS 485 22 AWG/FICHA TECNICA RS 485 22 AWG.pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie SB-RS 485
+Par y Multipares Blindados
+300 Volt Cu 22 AWG UL 13 Sistema RS 485
+Aplicaciones en circuitos de distribución de buses de campo para sistemas informáticos RS 485. Este sistema permite
+una red de nodos múltiples comunicada con un cable a pares que ofrece: comunicación bidireccional, gran longitud
+del cable de interconexión y alta velocidad de transmisión de datos. Instalados en conduits, bandeja, escalera, al aire
+libre directo o bajo techo, enterrado en trinchera o en ductos. 
+Protección
+interferencias
+electromagnéticas
+Doble blindaje
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+CARACTERÍSTICAS
+Temperatura máxima: 75°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos
+Aislación: Compuesto termoplástico
+Paso de trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura
+90%)
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma de aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 área
+--- PAGE 2 ---
+serie SB-RS 485
+Par y Multipares Blindados
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+1 Par
+2 Pares
+3 Pares
+4 Pares
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de cubierta.
+CARACTERÍSTICAS ELÉCTRICAS, DIMENSIONALES Y PESOS
+Número
+de
+pares
+Calibre
+Resistencia
+eléctrica a
+20°C en
+C.C.
+Velocidad
+de
+propagación
+Impedancia
+característica
+Capacidad
+mutua
+Diámetro
+exterior Peso
+Código Mat
+Number
+AWG ohm/km VP
+(%) Ohm pF/m pF/ft mm kg/km
+1
+22 58.6 66 120 48 14.6
+8.6 87 SB 98 1P22 841000340
+2 8.4 87 SB 98 2P22 841000350
+3 9.1 103 SB 98 3P22 841000360
+4 10.3 131 SB 98 4P22 841000370
+pF/m: Capacidad mutua entre conductores del mismo par expresado en picofaradios por metro.
+pF/ft: Capacidad mutua entre conductores del mismo par expresado en picofaradios por pie.
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/3- RS 485 ARMADO 24 AWG/FICHA TECNICA RS 485 24 AWG ARMADO.pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie SB-RS 485
+Par y Multipares Blindados
+300 Volt Cu 24 AWG UL 13 Sistema RS 485
+Aplicaciones en circuitos de distribución de buses de campo para sistemas informáticos RS 485. Este sistema permite
+una red de nodos múltiples comunicada con un cable a pares que ofrece: comunicación bidireccional, gran longitud
+del cable de interconexión y alta velocidad de transmisión de datos. Instalados en conduits, bandeja, escalera, al aire
+libre directo o bajo techo, enterrado en trinchera o en ductos. Cuenta con protección mecánica adicional.
+Protección
+interferencias
+electromagnéticas
+Doble blindaje
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+CARACTERÍSTICAS
+Temperatura máxima: 75°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL13
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos
+Aislación: Compuesto termoplástico
+Paso de trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura
+90%)
+Armadura: Corona helicoidal de alambres de acero cincado (Galvanizado)
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma de aceites: ICEA S 73-532
+Norma de intemper
+--- PAGE 2 ---
+CLAD serie SB-RS 485
+Par y Multipares Blindados
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+1 Par
+2 Pares
+3 Pares
+4 Pares
+INSTALACIÓN
+Temperatura
+montaje
+Sobre la
+armadura
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de cubierta.
+CARACTERÍSTICAS ELÉCTRICAS, DIMENSIONALES Y PESOS
+Número
+de
+pares
+Calibre
+Resistencia
+eléctrica a
+20°C en
+C.C.
+Velocidad
+de
+propagación
+Impedancia
+característica
+Capacidad
+mutua
+Diámetro
+bajo
+armadura
+Diámetro
+exterior Peso
+Código Mat
+Number
+AWG ohm/km VP
+(%) Ohm pF/m pF/ft mm mm kg/km
+1
+24 92.7 66 120 44 13.4
+6.6 10.7 231 SB-H 97 1P24 841000270
+2 8.7 12.9 304 SB-H 97 2P24 841000280
+3 9.4 13.5 335 SB-H 97 3P24 841000290
+4 10.7 14.8 389 SB-H 97 4P24 841000300
+pF/m: Capacidad mutua entre conductores del mismo par expresado en picofaradios por metro.
+pF/ft: Capacidad mutua entre conductores del mismo par expresado en picofaradios por pie.
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/1-SISTEMAS/4-RS 485 ARMADO 22 AWG/FICHA TECNICA RS 485 22 AWG ARMADO.pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+CLAD
+serie SB-RS 485
+Par y Multipares Blindados
+300 Volt Cu 22 AWG UL 13 Sistema RS 485
+Aplicaciones en circuitos de distribución de buses de campo para sistemas informáticos RS 485. Este sistema permite
+una red de nodos múltiples comunicada con un cable a pares que ofrece: comunicación bidireccional, gran longitud
+del cable de interconexión y alta velocidad de transmisión de datos. Instalados en conduits, bandeja, escalera, al aire
+libre directo o bajo techo, enterrado en trinchera o en ductos. Cuenta con protección mecánica adicional.
+Protección
+interferencias
+electromagnéticas
+Doble blindaje
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+CARACTERÍSTICAS
+Temperatura máxima: 75°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos
+Aislación: Compuesto termoplástico
+Paso de trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura
+90%)
+Armadura: Corona helicoidal de alambres de acero cincado (Galvanizado)
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma de aceites: ICEA S 73-532
+Norma 
+--- PAGE 2 ---
+CLAD serie SB-RS 485
+Par y Multipares Blindados
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+1 Par
+2 Pares
+3 Pares
+4 Pares
+INSTALACIÓN
+Temperatura
+montaje
+Sobre la
+armadura
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido diferentes
+alternativas de materiales de cubierta.
+CARACTERÍSTICAS ELÉCTRICAS, DIMENSIONALES Y PESOS
+Número
+de
+pares
+Calibre
+Resistencia
+eléctrica a
+20°C en
+C.C.
+Velocidad
+de
+propagación
+Impedancia
+característica
+Capacidad
+mutua
+Diámetro
+bajo
+armadura
+Diámetro
+exterior Peso
+Código Mat
+Number
+AWG ohm/km VP
+(%) Ohm pF/m pF/ft mm mm kg/km
+1
+22 58.6 66 120 48 14.6
+8.6 12.7 293 SB-H 98 1P22 841000410
+2 8.4 12.6 293 SB-H 98 2P22 841000420
+3 9.1 13.2 321 SB-H 98 3P22 841000430
+4 10.3 14.4 376 SB-H 98 4P22 841000440
+pF/m: Capacidad mutua entre conductores del mismo par expresado en picofaradios por metro.
+pF/ft: Capacidad mutua entre conductores del mismo par expresado en picofaradios por pie.
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/1-PROFIBUS/FICHA TECNICA PROFIBUS (PONER TAMBIEN FOTO ARMADO Y LSOH).pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie PROFIBUS
+Par blindado
+300 Volt Cu 22 a 18 AWG UL 13 PLTC PROFIBUS
+Par balanceado para bus de datos sistema Profibus. Instalados en conduits, bandeja, escalera, al aire libre directo o
+bajo techo, enterrado en trinchera o en ductos. 
+Protección
+interferencias
+electromagnéticas
+Doble blindaje
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+CARACTERÍSTICAS
+Temperatura máxima: 75°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC
+Norma de conductores: ASTM B8
+Conductor: Alambre único de cobre electrolítico recocido
+Aislación: Compuesto termoplástico espumado
+Pazo del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura
+85%)
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2
+y Cl2 Div.2
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Par 22AWG
+Par 18AWG
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo 
+--- PAGE 2 ---
+serie PROFIBUS
+Par blindado
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS, DIMENSIONALES Y PESOS
+Calibre
+Diámetro
+del
+conductor
+Resistencia
+eléctrica a
+20°C en
+C.C.
+Velocidad
+de
+propagación
+Impedancia
+característica
+Capacidad
+mutua
+Inductancia
+mutua
+Diámetro
+exterior Peso
+Código Mat
+Number
+AWG mm ohm/km VP
+(%) Ohm pF/m pF/ft microH/km mm kg/km
+22 0.65 55 78 150 33 11 900 8 70 DP 1P22 841000240
+18 1.02 22 78 100 50 15.5 715 8,5 87 PA 1P18 841000480
+pF/m: Capacidad mutua entre conductores del mismo par expresado en picofaradios por metro.
+pF/ft: Capacidad mutua entre conductores del mismo par expresado en picofaradios por pie.
+
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/2-FIELDBUS/FICHA TECNICA FIELDBUS (PONER TAMBIEN FOTO ARMADO Y LSOH).pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie FIELDBUS
+Par y Multipares Blindados
+300 Volt Cu 18 a 16 AWG UL 13 PLTC FIELDBUS
+Par balanceado para bus de datos sistema Fieldbus. Instalados en conduits, bandeja, escalera, al aire libre directo o
+bajo techo, enterrado en trinchera o en ductos. 
+Protección
+interferencias
+electromagnéticas
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Bus de campo
+CARACTERÍSTICAS
+Temperatura máxima: 105°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico estañado en formación de 7 hilos
+Aislación: XLPE (Polietileno reticulado)
+Pazo del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más drenaje de cobre estañado
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2
+y Cl2 Div.2
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Par
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas baj
+--- PAGE 2 ---
+serie FIELDBUS
+Par y Multipares Blindados
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS, DIMENSIONALES Y PESOS
+Número
+de
+pares
+Calibre
+Resistencia
+eléctrica a
+20°C en
+C.C.
+Velocidad
+de
+propagación
+Impedancia
+característica
+Capacidad
+mutua
+Inductancia
+mutua
+Diámetro
+exterior Peso
+Código Mat
+Number
+AWG ohm/km VP
+(%) Ohm pF/m pF/ft microH/km mm kg/km
+1
+18 23.6 66 100 78 24 590
+6,6 53 FB 1P18 841000560
+2 9,4 137 FB 2P18 841000590
+4 13,1 305 FB 4P18 841000600
+8 17,5 573 FB 8P18 841000610
+1
+16 14.87 66 100 72 22 640
+7,8 74 FB 1P16 841000540
+2 10,7 196 FB 2P16 841000550
+4 16,7 312 FB 4P16 841000570
+8 21,6 540 FB 8P16 841000580
+pF/m: Capacidad mutua entre conductores del mismo par expresado en picofaradios por metro.
+pF/ft: Capacidad mutua entre conductores del mismo par expresado en picofaradios por pie.
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/2-DATOS/3-FIELDBUS 2079/FICHA TECNICA FIELDBUS 2079 (PONER TAMBIEN VARIANTE ARMADO).pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie FIELDBUS 2079
+Par blindado
+300 Volt Cu 22 AWG UL 13 PLTC FIELDBUS
+Par balanceado para bus de datos sistema Fieldbus. Instalados en conduits, bandeja, escalera, al aire libre directo o
+bajo techo, enterrado en trinchera o en ductos. 
+Protección
+interferencias
+electromagnéticas
+No propagación de
+incendio
+Resistente a
+hidrocarburos
+Resistente al aceite
+mineral
+Resistente luz solar
+Bus de campo
+CARACTERÍSTICAS
+Temperatura máxima: 75°C
+Tensión nominal: 300 Volt
+Norma constructiva: UL 13 tipo PLTC
+Norma de conductores: ASTM B8 Clase B
+Conductor: Cobre electrolítico estañado en formación de 7 hilos
+Aislación: Compuesto termoplástico espumado
+Pazo del trenzado: 50mm (20 torsiones por metro)
+Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más drenaje de cobre estañado
+Cubierta: PVC no propagante del incendio, resistente a la luz solar e hidrocarburos
+Norma de fuego: UL 1685
+Norma hidrocarburos: NFC 32-200 – ASTM D 1239
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70): Art. 725 PLTC – Art. 727 ITC – Art. 800 CM – Art. 501 áreas clasificadas CL1 Div.2
+y Cl2 Div.2
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Par
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido
+dif
+--- PAGE 2 ---
+serie FIELDBUS 2079
+Par blindado
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS, DIMENSIONALES Y PESOS
+Número
+de
+pares
+Calibre
+Resistencia
+eléctrica a
+20°C en
+C.C.
+Velocidad
+de
+propagación
+Impedancia
+característica
+Capacidad
+mutua
+Inductancia
+mutua
+Diámetro
+exterior Peso
+Código Mat
+Number
+AWG ohm/km VP
+(%) Ohm pF/m pF/ft microH/km mm kg/km
+1 22 59.7 78 150 33 11 900 8,5 66 FB 1P22 841000620
+pF/m: Capacidad mutua entre conductores del mismo par expresado en picofaradios por metro.
+pF/ft: Capacidad mutua entre conductores del mismo par expresado en picofaradios por pie.
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/2-AUTOMATIZACIÓN/FICHA TECNICA/FICHA TECNICA AUTOMATIZAR.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie EC
+Multipolares Blindados
+500 Volt Cu 0.35 a 1.5 mm² Doble blindaje VDE812
+Transmisión de datos, señales digitales con protección aumentada contra perturbaciones electromagnéticas.
+Instalados en conduits, bandeja, escalera, enterrado en trinchera o en ductos. 
+Protección
+interferencias
+electromagnéticas
+Doble blindaje
+No propagación de
+llama
+Sistemas informáticos
+CARACTERÍSTICAS
+Temperatura máxima: 80°C
+Tensión nominal: 500 Volt
+Norma constructiva: VDE0812
+Norma de conductores: IEC 60228 / IRAM NM 280
+Conductor: Cobre electrolítico recocido estañado en formación de 7 hilos
+Aislación: PVC
+Blindaje: Cinta aluminio-poliéster (Cobertura 100%) más trenza de alambres de cobre estañado (Cobertura
+80%)
+Cubierta: PVC no propagante del incendio
+Norma de fuego: IEC 60332-1 / IRAM NM IEC 60332-1
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+2 Conductores
+3 Conductores
+4 Conductores
+5 Conductores
+6 Conductores o mas
+  numerado
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido
+diferentes alternativas de materiales de cubierta.
+--- PAGE 2 ---
+serie EC
+Multipolares Blindados
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Sección de los
+conductores
+Resistencia eléctrica a 20°C
+en C.C.
+Velocidad de
+propagación Capacidad mutua
+mm² ohm/km VP (%) pF/m pF/ft
+0.35 59.9
+45
+97 30
+0.50 40.1 102 31.5
+0.75 24.8 110 34
+1.00 18.2 117 36
+1.50 12.2 116 36
+pF/m: Capacidad mutua entre conductores del mismo par expresado en picofaradios por metro.
+pF/ft: Capacidad mutua entre conductores del mismo par expresado en picofaradios por pie.
+DIMENSIONES Y PESOS
+Cantidad de
+conductores
+0,35 mm² 0,50 mm²
+Diámetro
+mm
+Peso
+kg/km Código Mat Number Diámetro mm Peso
+kg/km Código Mat Number
+2 5,1 36 EC 2x0.35 841000910 5,6 44 EC 2x0.5 841000920
+3 5,3 42 EC 3x0.35 841000960 5,9 53 EC 3x0.5 841000970
+4 5,7 50 EC 4x0.35 841001010 6,3 63 EC 4x0.5 841001020
+5 6,3 61 EC 5x0.35 841001060 7,0 76 EC 5x0.5 841001070
+7 6,8 74 EC 7x0.35 841001110 7,7 97 EC 7x0.5 841001120
+12 8,8 119 EC 12x0.35 841001160 9,9 152 EC 12x0.5 841001170
+19 10,1 164 EC 19x0.35 841001210 11,3 212 EC 19x0.5 841001220
+24 11,5 200 EC 24x0.35 841001260 13,4 280 EC 24x0.5 841001270
+Cantidad de
+conductores
+0,75 mm² 1,00 mm²
+Diámetro
+mm
+Peso
+kg/km Código Mat Number Diámetro mm Peso
+kg/km Código Mat Number
+2 6,2 55 EC 2x0.75 841000930 6,6 63 EC 2x1 841000940
+3 6,5 67 EC 3x0.75 841000980 6,9 78 EC 3x1 841000990
+4 7,0 80 EC 4x0.75 841001030 7,6 98 EC 4x1 841001040
+5 7,8 98 EC 5x0.75 84100108
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/1-PVC - HASTA 48 CONDUCTORES/FICHA TECNICA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie OF
+Multipolar
+0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores PVC 70°C / PVC
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones aéreas en bandeja, canaletas o conductos, enterrados en ductos o directamente enterrados.
+No propagación de
+incendio
+Cuerdas flexibles
+Marcación secuencial 
+Instalacion industrial
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperaturas: 70°C máxima de servicio – 160°C de cortocircuito
+Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC
+Norma constructiva: IRAM 2178-1 – IEC 60502-1
+Norma de conductores: IRAM NM 280 – IEC 60228
+Conductor: Cobre electrolítico recocido en formación flexible clase 5
+Aislación: PVC
+Cubierta: PVC no propagante del incendio
+Norma de fuego: IEC 60332-3-24
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Multipolar
+  con identificación alfanumérica
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido
+diferentes alternativas de materiales de aislación y/o cubierta.
+--- PAGE 2 ---
+serie OF
+Multipolar
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Resistencias e intensidad de corrientes admisibles
+Sección nominal
+(mm²)
+Resistencia eléctrica a
+20°C en C.C. (Ohm/km)
+Resistencia eléctrica a
+70°C en C.A. (Ohm/km)
+Intensidad admisible cables en aire. A 40°C según IEC 364-5-523.
+Formaciones en bandejas perforadas o tipo escalera. (Amper)
+2x 4x 7x 10x 19x 30x 48x
+1 19.5 23.3 -- -- -- -- -- -- --
+1.5 13.3 15.9 18.1 15.3 12.7 9.1 9.1 8.1 6.3
+2.5 7.98 9.55 25 21 17.5 12.5 12.5 11.3 8.8
+4 4.95 5.92 33 29 23.1 16.5 16.5 14.9 --
+A partir de 7 conductores se aplica adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable N°
+Cond. x sección (mm²) Diámetro exterior mm Peso kg/km Código Mat Number
+2x1 8.6 95 OF 2x1 820005010
+3x1 9.1 110 OF 3x1 820005020
+4x1 9.8 130 OF 4x1 820005030
+5x1 10.6 154 OF 5x1 820005040
+7x1 11.4 188 OF 7x1 820005050
+10x1 14.4 254 OF 10x1 820005060
+12x1 14.8 287 OF 12x1 820005070
+14x1 15.5 323 OF 14x1 820005080
+19x1 17.2 411 OF 19x1 820005090
+24x1 20.0 507 OF 24x1 820005100
+30x1 21.2 608 OF 30x1 820005110
+37x1 22.8 727 OF 37x1 820005120
+48x1 26.0 918 OF 48x1 820005130
+2x1.5 9.1 112 OF 2x1.5 820005140
+3x1.5 9.6 131 OF 3x1.5 820005150
+4x1.5 10.4 156 OF 4x1.5 820005160
+5x1.5 11.3 185 OF 5x1.5 820005170
+7x1.5 12.2 229 OF 7x1.5 820005180
+10x1.5 15.4 309 OF 10
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/2-XLPE - HASTA 48 CONDUCTORES/FICHA TECNICA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie FX
+Multipolar
+0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores XLPE 90°C / PVC
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o
+directamente enterrados. 
+No propagación de
+llama
+Resistente al aceite
+mineral
+Resistente luz solar
+Instalacion industrial
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito
+Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC
+Norma constructiva: IRAM 2178-1 – IEC 60502-1
+Norma de conductores: IRAM NM 280 – IEC 60228
+Conductor: Cobre electrolítico recocido en formación flexible clase 5
+Aislación: XLPE (Polietileno reticulado)
+Cubierta: PVC, no propagante del incendio, resistente a la luz solar y los aceites
+Norma de fuego: IEC 60332-1
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Multipolar
+  con identificación alfanumérica
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser utilizadas bajo pedido
+diferentes alternativas de materiales de aislación y/o cubierta.
+--- PAGE 2 ---
+serie FX
+Multipolar
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Resistencias e intensidad de corrientes admisibles
+Sección nominal
+(mm²)
+Resistencia eléctrica a
+20°C en C.C.
+(Ohm/km)
+Resistencia eléctrica a
+90°C en C.A.
+(Ohm/km)
+Intensidad admisible cables en aire. A 40°C según IEC 364-5-523.
+Formaciones en bandejas perforadas o tipo escalera. (Amper)
+2x 4x 7x 10x 19x 30x 48x
+1 19.5 24.86 -- -- -- -- -- -- --
+1.5 13.3 16.96 23 20 16.1 11.5 11.5 10.4 8.1
+2.5 7.98 10.18 31 28 21.7 15.5 15.5 14.0 10.9
+4 4.95 6.31 43 36 30.1 21.5 21.5 19.4 --
+A partir de 7 conductores se aplica adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable N°
+Cond. x sección (mm²)
+Diámetro exterior
+mm Peso kg/km Código Mat Number
+2x1 8.2 83 FX 2x1 820000010
+3x1 8.6 94 FX 3x1 820000020
+4x1 9.3 110 FX 4x1 820000030
+5x1 10.0 130 FX 5x1 820000040
+7x1 10.8 156 FX 7x1 820000050
+10x1 13.6 211 FX 10x1 820000060
+12x1 14.0 237 FX 12x1 820000070
+14x1 14.7 265 FX 14x1 820000080
+19x1 16.2 334 FX 19x1 820000090
+24x1 18.8 410 FX 24x1 820000100
+30x1 19.9 487 FX 30x1 820000110
+37x1 21.4 579 FX 37x1 820000120
+48x1 24.4 728 FX 48x1 820000130
+2x1.5 8.7 98 FX 2x1.5 820000140
+3x1.5 9.2 114 FX 3x1.5 820000150
+4x1.5 9.9 134 FX 4x1.5 820000160
+5x1.5 10.7 159 FX 5x1.5 820000170
+7x1.5 11.6 194 FX 7x1.5 820000180
+10x1.5 14.6 262 FX 10
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/3-CORRUGADO - PROTECCION INTERFERENCIAS/FICHA TECNICA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+LSZH
+serie GX-C
+Multipolar
+0.6/1kV Cu flexible 1 a 4mm² XLPE 90°C / LSZH Protección electromagnética
+Equipos de control, señalización, medición, protección y comandos eléctricos en subestaciones de alta tensión
+(SSEE), su blindaje permite el adecuado filtrado de interferencias electromagnéticas a frecuencias hasta 1 MHz. Uso
+en ambientes cerrados y en salas de control con equipamiento electrónico sensible ante la exposición de gases
+corrosivos. 
+Blindaje de cobre
+corrugado
+No propagación de
+incendio
+Libre de halógenos
+Bajos humos
+Resistente al aceite
+mineral
+Resistente luz solar
+CARACTERÍSTICAS
+Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito
+Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC
+Norma constructiva: IRAM 2178-1 – IEC 60502-1
+Norma de conductores: IRAM NM 280 – IEC 60228
+Conductor: Cobre electrolítico recocido en formación flexible clase 5
+Aislación: XLPE (Polietileno reticulado)
+Asiento de blindaje: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant) No
+propagante del incendio
+Blindaje: Cinta longitudinal corrugada de cobre recocido con solape adecuado y una sección mínima de
+10mm² (Re < 2 ohm/km)
+Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant) no propagante del
+incendio, resistente a la luz solar y los aceites
+Norma de fuego: IEC 60332
+--- PAGE 2 ---
+LSZH serie GX-C
+Multipolar
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Multipolar
+  con identificación alfanumérica
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar bajo pedido. Se puede aditivar la cubierta con un
+masterbach antiroedor. En estos casos los códigos de producto quedan con la siguiente estructura: GX ####
+BW10(AR)Ne. Bajo pedido también se pueden ofrecer los conductores aislados en color negro con identificación
+alfanumérica.
+CARACTERÍSTICAS ELÉCTRICAS
+Resistencias e intensidad de corrientes admisibles
+Sección nominal
+(mm²)
+Resistencia eléctrica a
+20°C en C.C. (Ohm/km)
+Resistencia eléctrica a
+90°C en C.A. (Ohm/km)
+Intensidad admisible cables en aire. A 40°C según IEC 364-5-523.
+Formaciones en bandejas perforadas o tipo escalera. (Amper)
+2x 4x 7x 10x 19x 30x 48x
+1 19.5 24.86 -- -- -- -- -- -- --
+1.5 13.3 16.96 23 20 16.1 11.5 11.5 10.4 8.1
+2.5 7.98 10.18 31 28 21.7 15.5 15.5 14.0 10.9
+4 4.95 6.31 43 36 30.1 21.5 21.5 19.4 --
+A partir de 7 conductores se aplica adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable
+N° Cond. x sección
+(mm²)
+Diámetro bajo
+blindaje mm
+Diámetro exterior
+mm Peso kg/km Código Mat Number
+3 x 1 8,7 14,6 323 GX 2
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/4-RESISTENTE A HIDROCARBUROS/FICHA TECNICA (AGREGAR VARIANTES_ MULTIPOLAR_ARMADO_FLEJE_FLEJE COBRE).pdf
+=========================================
+ERROR: [Errno 2] No such file or directory: 'public/images/PRODUCTOS/5-CABLES INDUSTRIALES\\3-CABLE COMANDO\\1-MULTIPOLAR\\1-MULTIPOLAR MM2\\4-RESISTENTE A HIDROCARBUROS\\FICHA TECNICA (AGREGAR VARIANTES_ MULTIPOLAR_ARMADO_FLEJE_FLEJE COBRE).pdf'
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/1-MULTIPOLAR MM2/5-EPR/FICHA TECNICA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie MIC
+Multipolar
+0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores EPR 90°C / PUR
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales. Cables
+requeridos para uso industrial pesado (Heavy Duty). Los materiales utilizados en su fabricación combinan una elevada
+resistencia y flexibilidad y le proporcionan una protección adecuada ante productos químicos, entorno hostil,
+desgarros e impactos. 
+No propagación de
+llama
+Alta flexibilidad
+Resistente al aceite
+mineral
+Resistente luz solar
+Instalacion industrial
+Entorno hostil
+CARACTERÍSTICAS
+Temperatura máxima de operación: 90°C en instalación fija / 60°C para uso móvil y flexiones ocasionales
+Temperatura mínima ambiente: -40°C en instalación fija / -25°C para flexiones ocasionales
+Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC
+Norma constructiva: IRAM 2178-1 – IEC 60502-1
+Norma de conductores: IRAM NM 280 – IEC 60228
+Conductor: Cobre electrolítico recocido en formación flexible clase 5
+Aislación: EPR
+Cubierta: Poliuretano, resistente a la luz solar y los aceites
+Ensayo de flexión: NM 247-2 aumentado a 150000 ciclos dobles de flexión
+Norma de fuego: IEC 60332-1
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Norma de resistencia a hidrocarburos: UIC 895 OR (aceite, gas oil y fuel oil) / UL 13 (aceite) / UL 
+--- PAGE 2 ---
+serie MIC
+Multipolar
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Sección nominal
+(mm²)
+Resistencia eléctrica a
+20°C en C.C.
+(Ohm/km)
+Resistencia eléctrica a
+90°C en C.A.
+(Ohm/km)
+Intensidad admisible cables en aire. A 40°C según IEC 364-5-523.
+Formaciones en bandejas perforadas o tipo escalera. (Amper)
+2x 4x 7x 10x 19x 30x 48x
+1 19.5 24.86 -- -- -- -- -- -- --
+1.5 13.3 16.96 23 20 16.1 11.5 11.5 10.4 8.1
+2.5 7.98 10.18 31 28 21.7 15.5 15.5 14.0 10.9
+4 4.95 6.31 43 36 30.1 21.5 21.5 19.4 --
+A partir de 7 conductores se aplica adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable N°
+Cond. x sección (mm²) Diámetro exterior mm Peso kg/km Código Mat Number
+2x1 9.4 88 MIC 2x1 820016010
+3x1 9.9 102 MIC 3x1 820016020
+4x1 10.8 120 MIC 4x1 820016030
+5x1 11.7 143 MIC 5x1 820016040
+7x1 12.6 174 MIC 7x1 820016050
+10x1 16.0 235 MIC 10x1 820016060
+12x1 16.5 267 MIC 12x1 820016070
+14x1 17.3 300 MIC 14x1 820016080
+19x1 19.2 382 MIC 19x1 820016090
+24x1 22.4 472 MIC 24x1 820016100
+30x1 23.7 566 MIC 30x1 820016110
+37x1 25.6 677 MIC 37x1 820016120
+48x1 29.5 867 MIC 48x1 820016130
+2x1.5 9.9 103 MIC 2x1.5 820016140
+3x1.5 10.5 120 MIC 3x1.5 820016150
+4x1.5 11.4 144 MIC 4x1.5 820016160
+5x1.5 12.4 173 MIC 5x1.5 820016170
+7x1.5 13.4 212 MIC 7x1.5 820016180
+10x1.5 17.0 285 MIC 10x1.5 820016190
+12x1.5 17.6
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/1-600 VOLTS - 14-10 AWG/FICHA TECNICA (AGREGAR EN VARIANTES_ DOBLE AISLACION).pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie CX
+Multipolar
+600 Volt Cu 14 a 10 AWG XHHW-2 UL 1277
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o
+directamente enterrados. Cables elaborados para cumplir los requerimientos del código eléctrico Nacional ANSI/NFPA
+70 de EEUU y el código eléctrico nacional NOM-001 SEDE de México. 
+No propagación de
+incendio
+Resistente al aceite
+mineral
+Resistente luz solar
+Instalacion industrial
+Código NEC
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito
+Tensión nominal: 600 Volt C.A.
+Norma constructiva: UL 1277
+Norma de conductores: ASTM B8
+Conductor: Cobre electrolítico recocido en formación clase B
+Aislación: XLPE (polietileno reticulado) tipo XHHW-2
+Cubierta: PVC, no propagante del incendio
+Norma de fuego: UL 1685
+Norma de intemperismo: UL 2556 (rayos UV)
+Código NEC (NFPA 70):: Art. 336 TC –Art. 501 áreas clasificadas CL1 Div.2 y Cl2 Div.2
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Multipolar
+  con identificación alfanumérica 
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo bajo pedido suminis
+--- PAGE 2 ---
+serie CX
+Multipolar
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Calibre AWG Resistencia eléctrica a
+20°C en C.C. (Ohm/km)
+Resistencia eléctrica a
+90°C en C.A. a 60Hz
+(Ohm/km)
+Intensidad admisible (1)
+2x 4x 7x 10x 19x 30x 48x
+14 8.79 11.21 25 20 17.5 12.5 12.5 11.3 8.8
+12 5.54 7.06 30 24 21 15 15 13.5 10.5
+10 3.48 4.44 40 32 28 20 20 18 14
+(1) Intensidad admisible en cables con hasta tres conductores instalados en conductos o directamente enterrados, a una temperatura ambiente de 30°C de acuerdo a
+tabla 310.15 (B)(16) del NFPA 70. A partir de 4 conductores se aplicó adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del
+NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable N° Cond. x
+Calibre AWG Diámetro exterior mm Peso kg/km Código Mat Number
+2x14 9,0 116 CX 2X14 820060600
+3x14 9,5 139 CX 3X14 820060610
+4x14 10,4 168 CX 4X14 820060620
+5x14 11,4 199 CX 5X14 820060630
+7x14 12,4 256 CX 7X14 820060640
+10x14 16,3 357 CX 10X14 820060650
+12x14 16,8 411 CX 12X14 820060660
+14x14 18,0 470 CX 14X14 820060670
+16x14 19,0 527 CX 16X14 820060680
+19x14 20,0 613 CX 19X14 820060690
+21x14 22,1 721 CX 21X14 820060700
+24x14 24,1 815 CX 24X14 820060710
+27x14 24,6 896 CX 27X14 820060720
+30x14 25,8 984 CX 30X14 820060730
+32x14 26,7 1045 CX 32X14 820060740
+37x14 27,8 1186 CX 37X14 820060750
+48x14 31,3 1500 CX 48X14 820060760
+2x12 10,0 154 CX 2X12 82006077
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/2-600 Volts 16 - 10 AWG PVC/FICHA TECNICA (AGREGAR EN VARIANTES_ ARMADO_FLEJE_FLEJE COBRE).pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie MM
+Multipolar
+600 Volt Cu 16 a 10 AWG PVC 75°C ICEA S 73-532
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o
+directamente enterrados. 
+No propagación de
+incendio
+Resistente al aceite
+mineral
+Resistente luz solar
+Instalacion industrial
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 75ºC de servicio, 160ºC de cortocircuito
+Tensión nominal: 600 Volt CA
+Norma constructiva: ICEA S 73-532
+Norma de conductores: Serie ASTM B174
+Conductor: Cobre electrolítico recocido en formación flexible
+Aislación: PVC
+Cubierta: PVC no propagante del incendio, resistente a la luz solar y aceite mineral
+Norma de fuego: ICEA T 30-520
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Multipolar
+ Método 3 tabla E-2 
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+--- PAGE 2 ---
+serie MM
+Multipolar
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Resistencias e intensidad de corrientes admisibles
+Calibre AWG Resistencia eléctrica a
+20°C en C.C. (Ohm/km)
+Resistencia eléctrica a
+75°C en C.A. a 60Hz
+(Ohm/km)
+Intensidad admisible (1)
+2x 4x 7x 10x 19x 30x
+16 13.99 17.01 14.4 11.5 10 7.2 7.2 6.5
+14 8.77 10.66 20 16 14 10 10 9
+12 5.52 6.72 25 20 17.5 12.5 12.5 11.3
+10 3.48 4.23 35 28 24.5 17.5 17.5 15.8
+(1) Intensidad admisible en cables con hasta tres conductores instalados en conductos o directamente enterrados, a una temperatura ambiente de 30°C de acuerdo a
+tabla 310.15 (B)(16) del NFPA 70. A partir de 4 conductores se aplicó adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del
+NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable
+N° Cond. x Calibre
+AWG
+Diámetro exterior mm Peso kg/km Código Mat Number
+2x16 8.2 92 MM 2x16 820036120
+3x16 8.7 109 MM 3x16 820036130
+4x16 9.4 131 MM 4x16 820036140
+5x16 10.3 157 MM 5x16 820036150
+7x16 11.2 196 MM 7x16 820036160
+10x16 15.0 290 MM 10x16 820036170
+12x16 15.5 330 MM 12x16 820036180
+14x16 16.3 373 MM 14x16 820036190
+19x16 18.0 477 MM 19x16 820036200
+24x16 22.0 639 MM 24x16 820036210
+30x16 23.2 761 MM 30x16 820036220
+2x14 10.5 151 MM 2x14 820036230
+3x14 11.2 179 MM 3x14 820036240
+4x14 12.2 216 MM 4x14 820036250
+5x14 14.2 285 MM 5x14 820036260
+7x14 15.4 354 MM 7x14 820036270
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/1-MULTIPOLAR/2-MULTIPOLAR AWG/3-600 Volts 16 - 10 AWG XLPE/FICHA TECNICA (AGREGAR VARIANTES DE LA FOTO ANEXADA).pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie MX
+Multipolar
+600 Volt Cu 16 a 10 AWG XLPE 90°C ICEA S 73-532
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones en canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o directamente enterrados.
+No propagación de
+llama
+Resistente al aceite
+mineral
+Resistente luz solar
+Instalacion industrial
+CARACTERÍSTICAS
+Temperaturas: 90ºC de servicio, 130ºC de sobrecarga, 250ºC de cortocircuito
+Tensión nominal: 600 Volt CA
+Norma constructiva: ICEA S 73-532
+Norma de conductores: ASTM B 174
+Conductor: Cobre electrolítico recocido en formación flexible
+Aislación: XLPE (Polietileno reticulado)
+Cubierta: PVC no propagante del incendio, resistente a la luz solar y aceite mineral
+Norma de fuego: FT1 (UL 1581)
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Multipolar
+ Método 3 tabla E-2 
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curvatura
+mínimo
+--- PAGE 2 ---
+serie MX
+Multipolar
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Resistencias e intensidad de corrientes admisibles
+Calibre AWG Resistencia eléctrica a
+20°C en C.C. (Ohm/km)
+Resistencia eléctrica a
+90°C en C.A. a 60Hz
+(Ohm/km)
+Intensidad admisible (1)
+2x 4x 7x 10x 19x 30x
+16 13.99 17.84 18 14.4 12.6 9 9 8.1
+14 8.77 11.18 25 20 17.5 12.5 12.5 11.3
+12 5.52 7.04 30 24 21 15 15 13.5
+10 3.48 4.44 40 32 28 20 20 18
+(1) Intensidad admisible en cables con hasta tres conductores instalados en conductos o directamente enterrados, a una temperatura ambiente de 30°C de acuerdo a
+tabla 310.15 (B)(16) del NFPA 70. A partir de 4 conductores se aplicó adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del
+NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable N°
+Cond. x Calibre AWG Diámetro exterior mm Peso kg/km Código Mat Number
+2x16 7.7 80 MX 2x16 820030140
+3x16 8.1 93 MX 3x16 820030150
+4x16 8.8 112 MX 4x16 820030160
+5x16 9.6 133 MX 5x16 820030170
+7x16 10.4 166 MX 7x16 820030180
+10x16 14.0 249 MX 10x16 820030190
+12x16 14.4 282 MX 12x16 820030200
+14x16 15.1 317 MX 14x16 820030210
+19x16 16.7 403 MX 19x16 820030220
+24x16 19.4 498 MX 24x16 820030230
+30x16 20.6 596 MX 30x16 820030240
+2x14 9.0 113 MX 2x14 820030270
+3x14 9.5 134 MX 3x14 820030280
+4x14 10.4 162 MX 4x14 820030290
+5x14 11.3 195 MX 5x14 820030300
+7x14 12.3 245 MX 7x14 820030310
+10x14 16.6 3
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/1-XLPE - HASTA 48 CONDUCTORES - 1 A 4 MM2 - BLINDADO FLEJE COBRE/FICHA TECNICA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+BLOCK
+serie FX-W
+Multipolar Blindado (Fleje Cobre)
+0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores XLPE 90°C / PVC
+Equipos de control, señalización, medición, protección y comandos eléctricos de instalaciones industriales.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o
+directamente enterrados. Cuenta con protección electromagnética adicional. 
+Protección
+interferencias
+electromagnéticas
+No propagación de
+llama
+Resistente al aceite
+mineral
+Resistente luz solar
+Instalacion industrial
+Apto uso bandejas
+CARACTERÍSTICAS
+Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito
+Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC
+Norma constructiva: IRAM 2178-1 – IEC 60502-1
+Norma de conductores: IRAM NM 280 – IEC 60228
+Conductor: Cobre electrolítico recocido en formación flexible clase 5
+Aislación: XLPE (Polietileno reticulado)
+Blindaje: Fleje helicoidal de cobre recocido, con cobertura del 100% y solape adecuado
+Cubierta: PVC, no propagante del incendio, resistente a la luz solar y los aceites
+Norma de fuego: IEC 60332-1
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+IDENTIFICACIÓN
+Estandar
+Cubierta Conductores
+Multipolar
+  con identificación alfanumérica
+INSTALACIÓN
+Temperatura
+montaje
+Sobre los
+conductores
+Radio
+curva
+--- PAGE 2 ---
+BLOCK serie FX-W
+Multipolar Blindado (Fleje Cobre)
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Resistencias e intensidad de corrientes admisibles
+Sección nominal
+(mm²)
+Resistencia eléctrica a
+20°C en C.C.
+(Ohm/km)
+Resistencia eléctrica a
+90°C en C.A.
+(Ohm/km)
+Intensidad admisible cables en aire. A 40°C según IEC 364-5-523.
+Formaciones en bandejas perforadas o tipo escalera. (Amper)
+2x 4x 7x 10x 19x 30x 48x
+1 19.5 24.86 -- -- -- -- -- -- --
+1.5 13.3 16.96 23 20 16.1 11.5 11.5 10.4 8.1
+2.5 7.98 10.18 31 28 21.7 15.5 15.5 14.0 10.9
+4 4.95 6.31 43 36 30.1 21.5 21.5 19.4 --
+A partir de 7 conductores se aplica adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del NFPA70
+DIMENSIONES Y PESOS
+Formación del cable N°
+Cond. x sección (mm²)
+Diámetro bajo
+blindaje mm
+Diámetro exterior
+mm Peso kg/km Código Mat Number
+5x1 9.0 12.4 217 FX-W 5x1 820003040
+7x1 9.8 13.1 243 FX-W 7x1 820003050
+10x1 11.6 14.9 304 FX-W 10x1 820003060
+12x1 12.5 15.8 341 FX-W 12x1 820003070
+14x1 13.4 16.7 376 FX-W 14x1 820003080
+19x1 15.2 18.5 461 FX-W 19x1 820003090
+24x1 16.8 20.1 543 FX-W 24x1 820003100
+30x1 18.6 21.9 638 FX-W 30x1 820003110
+37x1 20.4 23.8 761 FX-W 37x1 820003120
+48x1 22.9 26.3 928 FX-W 48x1 820003130
+3x1.5 9.0 12.4 220 FX-W 3X1 820003020
+4x1.5 9.0 12.4 223 FX-W 4x1.5 820003160
+5x1.5 9.7 13.1 245 FX-W 5x1.5 820003170
+7x1.5 10.6 13.9 287 FX-W 7x1.5
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/2-COMANDO BLINDADO/2-MM2/3-XLPE - 1 A 4MM2 - CORRUGADO COBRE/FICHA TECNICA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie GX
+Multipolar
+0.6/1kV Cu flexible 1 a 4mm² XLPE 90°C / PVC Protección electromagnética
+Equipos de control, señalización, medición, protección y comandos eléctricos en subestaciones de alta tensión
+(SSEE), su blindaje permite el adecuado filtrado de interferencias electromagnéticas a frecuencias hasta 1 MHz.
+Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intemperie, enterrados en ductos o
+directamente enterrados. 
+Blindaje de cobre
+corrugado
+No propagación de
+llama
+Cuerdas flexibles
+Resistente al aceite
+mineral
+Resistente luz solar
+Instalacion industrial
+CARACTERÍSTICAS
+Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito
+Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC
+Norma constructiva: IRAM 2178-1 – IEC 60502-1
+Norma de conductores: IRAM NM 280 – IEC 60228
+Conductor: Cobre electrolítico recocido en formación flexible clase 5
+Aislación: XLPE (Polietileno reticulado)
+Asiento de blindaje: PVC
+Blindaje: Cinta longitudinal corrugada de cobre recocido con solape adecuado
+Cubierta: PVC no propagante del incendio, resistente a la luz solar y los aceites
+Norma de fuego: IEC 60332-1
+Norma de EMC: IRAM 63020 – HN 33-S-34, impedancia de transferencia (Zt) menor a 2 ohm/km hasta
+frecuencias de 1MHz.
+Norma de aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos 
+--- PAGE 2 ---
+serie GX
+Multipolar
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Resistencias e intensidad de corrientes admisibles
+Sección nominal
+(mm²)
+Resistencia eléctrica a
+20°C en C.C. (Ohm/km)
+Resistencia eléctrica a
+90°C en C.A. (Ohm/km)
+Intensidad admisible cables en aire. A 40°C según IEC 364-5-523.
+Formaciones en bandejas perforadas o tipo escalera. (Amper)
+2x 4x 7x 10x 19x 30x 48x
+1 19.5 24.86 -- -- -- -- -- -- --
+1.5 13.3 16.96 23 20 16.1 11.5 11.5 10.4 8.1
+2.5 7.98 10.18 31 28 21.7 15.5 15.5 14.0 10.9
+4 4.95 6.31 43 36 30.1 21.5 21.5 19.4 --
+A partir de 7 conductores se aplica adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable N°
+Cond. x sección (mm²) Diámetro bajo blindaje mm Diámetro exterior mm Peso kg/km Código Mat Number
+2x1 8.7 14.6 314 GX 2x1 820013010
+3x1 8.7 14.6 317 GX 3x1 820013020
+4x1 8.7 14.6 318 GX 4x1 820013030
+5x1 8.7 14.6 321 GX 5x1 820013040
+7x1 9.7 15.6 361 GX 7x1 820013050
+10x1 11.7 17.6 431 GX 10x1 820013060
+12x1 12.2 18.1 452 GX 12x1 820013070
+14x1 13.2 19.1 495 GX 14x1 820013080
+19x1 15.2 21.1 590 GX 19x1 820013090
+24x1 16.7 22.6 667 GX 24x1 820013100
+30x1 18.7 24.6 777 GX 30x1 820013110
+37x1 20.7 26.6 898 GX 37x1 820013120
+48x1 23.2 29.1 1072 GX 48x1 820013130
+2x1.5 8.7 14.6 319 GX 2x1.5 820013140
+3x1.5 8.7 14.6 324 GX 3x1.5 820013150
+4x1.5 8.7 14.6 328 
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/1-AWG/FICHA TECNICA(AGREGAR VARIANTES_ XLPE_ARMADO_FLEJE_FLEJE COBRE).pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie ME
+Multipolar 
+600 Volt Cu 16 a 10 AWG XLPE 90°C / LSZH ICEA S 73-532
+Equipos de control, señalización, medicion, protección y comandos eléctricos de instalaciones domiciliarias. Uso en
+ambientes cerrados con alta concentración de personas (Aeropuertos, hospitales, trenes, cines, centros comerciales,
+túneles) y en salas de control con equipamiento electrónico sensible ante la exposición de gases corrosivos. Instalados
+en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o en ductos.
+No propagación de
+incendio
+Libre de halógenos
+Bajos humos
+Resistente al aceite
+mineral
+Resistente luz solar
+Inmersión en agua
+CARACTERÍSTICAS
+Temperatura máxima: 90°C máxima de servicio – 130°C de Sobrecarga – 250°C de Cortocircuito
+Tensión nominal: 600 Volt CA
+Norma constructiva: ICEA S 73-532
+Norma de conductores: ASTM B174
+Conductor: Cobre electrolítico recocido en formación flexible
+Aislación: XLPE (Polietileno reticulado)
+Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del
+incendio, resistente a la luz solar y los aceites
+Norma de fuego: ICEA T 30-520
+Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2
+Norma de transparencia de humos: IEC 61034-1/2
+Norma de toxicidad: NES 713 – CEI 20.37
+Norma aceites: ICEA S 73-532
+Norma de intemperismo: UL 2556 (rayos UV)
+Comportamient
+--- PAGE 2 ---
+serie ME
+Multipolar 
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Resistencias e intensidad de corrientes admisibles
+Calibre AWG Resistencia eléctrica a
+20°C en C.C. (Ohm/km)
+Resistencia eléctrica a
+90°C en C.A. a 60Hz
+(Ohm/km)
+Intensidad admisible (1)
+2x 4x 7x 10x 19x 30x
+16 13.99 17.84 18 14.4 12.6 9 9 8.1
+14 8.77 11.18 25 20 17.5 12.5 12.5 11.3
+12 5.52 7.04 30 24 21 15 15 13.5
+10 3.48 4.44 40 32 28 20 20 18
+(1) Intensidad admisible en cables con hasta tres conductores instalados en conductos o directamente enterrados, a una temperatura ambiente de 30°C de acuerdo a
+tabla 310.15 (B)(16) del NFPA 70. A partir de 4 conductores se aplicó adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del
+NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable
+N° Cond. x Calibre
+AWG
+Diámetro exterior mm Peso kg/km Código Mat Number
+2x16 7.7 82 ME 2x16 820042120
+3x16 8.1 96 ME 3x16 820042130
+4x16 8.8 115 ME 4x16 820042140
+5x16 9.6 136 ME 5x16 820042150
+7x16 10.4 169 ME 7x16 820042160
+10x16 14.0 254 ME 10x16 820042170
+12x16 14.4 287 ME 12x16 820042180
+14x16 15.1 322 ME 14x16 820042190
+19x16 16.7 409 ME 19x16 820042200
+24x16 19.4 505 ME 24x16 820042210
+30x16 20.6 603 ME 30x16 820042220
+2x14 9.0 116 ME 2x14 820042230
+3x14 9.5 138 ME 3x14 820042240
+4x14 10.4 166 ME 4x14 820042250
+5x14 11.3 199 ME 5x14 820042260
+7x14 12.3 250 ME 7x14 820042270
+10x14 16.6 
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/3- LIBRE DE HALOGENOS/2-MM2/FICHA TECNICA(AGREGAR VARIANTES_ XLPE_ARMADO_FLEJE_FLEJE COBRE).pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie FM
+Multipolar
+0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores XLPE 90°C / LSZH
+Equipos de control, señalización, medicion, protección y comandos eléctricos de instalaciones domiciliarias. Uso en
+ambientes cerrados con alta concentración de personas (Aeropuertos, hospitales, trenes, cines, centros comerciales,
+túneles) y en salas de control con equipamiento electrónico sensible ante la exposición de gases corrosivos. Instalados
+en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en trinchera o en ductos.
+No propagación de
+incendio
+Libre de halógenos
+Bajos humos
+Resistente al aceite
+mineral
+Resistente luz solar
+Inmersión en agua
+CARACTERÍSTICAS
+Temperatura máxima: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito
+Tensión nominal: 600/1000 Volt CA, 1200 Volt CA (Máximo) / 1500 Volt CC
+Norma constructiva: IRAM 62266 – IEC 60502-1
+Norma de conductores: IRAM NM 280 – IEC 60228
+Conductor: Cobre electrolítico recocido en formación flexible clase 5
+Aislación: XLPE (Polietileno reticulado)
+Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del
+incendio, resistente a la luz solar y los aceites
+Norma de fuego: IEC 60332-3-24
+Norma de ausencia de halógenos y gases corrosivos: IEC 60754-1/2
+Norma de transparencia de humos: IEC 61034-1/2
+Norma de toxicidad: NES 713 – CEI 20
+--- PAGE 2 ---
+serie FM
+Multipolar
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+CARACTERÍSTICAS ELÉCTRICAS
+Resistencias e intensidad de corrientes admisibles
+Sección nominal
+(mm²)
+Resistencia eléctrica a
+20°C en C.C. (Ohm/km)
+Resistencia eléctrica a
+90°C en C.A. (Ohm/km)
+Intensidad admisible cables en aire. A 40°C según IEC 364-5-523.
+Formaciones en bandejas perforadas o tipo escalera. (Amper)
+2x 4x 7x 10x 19x 30x 48x
+1 19.5 24.86 -- -- -- -- -- -- --
+1.5 13.3 16.96 23 20 16.1 11.5 11.5 10.4 8.1
+2.5 7.98 10.18 31 28 21.7 15.5 15.5 14.0 10.9
+4 4.95 6.31 43 36 30.1 21.5 21.5 19.4 --
+A partir de 7 conductores se aplica adicionalmente los factores de corrección para mas de 3 conductores de la tabla 310.15 (B)(3)(a) del NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable
+N° Cond. x sección
+(mm²)
+Diámetro exterior mm Peso kg/km Código Mat Number
+2x1 8.2 86 FM 2x1 820021010
+3x1 8.6 98 FM 3x1 820021020
+4x1 9.3 114 FM 4x1 820021030
+5x1 10.0 133 FM 5x1 820021040
+7x1 10.8 160 FM 7x1 820021050
+10x1 14.2 235 FM 10x1 820021060
+12x1 14.6 262 FM 12x1 820021070
+14x1 15.3 291 FM 14x1 820021080
+19x1 16.8 362 FM 19x1 820021090
+24x1 19.4 444 FM 24x1 820021100
+30x1 20.5 523 FM 30x1 820021110
+37x1 22.0 617 FM 37x1 820021120
+48x1 25.0 772 FM 48x1 820021130
+2x1.5 8.7 102 FM 2x1.5 820021140
+3x1.5 9.2 117 FM 3x1.5 820021150
+4x1.5 9.9 138 FM 4x1.5 820021160
+5x1.5 10.7 163 FM 5x1.5 820021170
+7x1.5 11.6 199 FM 7x1.5 820021180
+10x1.5 15.2 288 FM 1
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/4-RESISTENTE A INCENDIO/FICHA TECNICA(AGREGAR VARIANTE_CINTA DE MICA_ARMADO CON FLEJE).pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie RM
+Multipolar
+0.6/1kV Cu flexible 1 a 4mm² Hasta 48 conductores Doble aislación (MICA+XLPE)
+Equipos de control, señalización, medicion, protección y comandos eléctricos de instalaciones domiciliarias. Uso
+adecuado para mantener la integridad eléctrica en presencia de fuego directo en servicios críticos en destilerías,
+petroquímicas, astilleros, etc. Instalados en conduits, bandeja, escalera, al aire libre directo o bajo techo, enterrado en
+trinchera o en ductos. 
+No propagación de
+incendio
+Resistente al fuego
+Libre de halógenos
+Bajos humos
+Resistente al aceite
+mineral
+Resistente luz solar
+CARACTERÍSTICAS
+Temperaturas: 90°C máxima de servicio – 130°C de sobrecarga – 250°C de cortocircuito
+Tensión nominal: 600/1000 Volt CA – 1200 Volt CA (Máximo) – 1500 Volt CC
+Norma constructiva: IRAM 62266 – IEC 60502-1
+Norma de conductores: IRAM NM 280 – IEC 60228
+Conductor: Cobre electrolítico recocido en formación flexible clase 5
+Aislación: Encintado de Mica + XLPE (Polietileno reticulado)
+Cubierta: LSZH-HFFR (Low Smoke Zero Halogen - Halogen Free Flame Retardant), no propagante del
+incendio, resistente a la luz solar y los aceites
+Norma de fuego: IEC 60332-3-24
+Norma de resistencia al fuego: IEC 60331-21 (70000 BTU-750°C aplicados durante 90 minutos)
+Norma de ausencia de halógenos y gases corrosivos:: IEC 60754-1/2
+Norma de transparencia de humos: IEC 61034-
+--- PAGE 2 ---
+serie RM
+Multipolar
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, pudiendo ser fabricado un diseño especial para
+cumplir requerimientos de integridad de circuito aumentada, cumpliendo otras normas como IEC 60331-1/2, EN 50200
+o BS 6387.
+CARACTERÍSTICAS ELÉCTRICAS
+Resistencias, Reactancias e intensidad de corrientes admisibles
+Sección nominal
+(mm²)
+Resistencia eléctrica a 20°C
+en C.C. (Ohm/km)
+Resistencia eléctrica a 90°C
+en C.A. (Ohm/km)
+Intensidad admisible cables en aire. A 40°C según IEC 364-5-523.
+Formaciones en bandejas perforadas o tipo escalera. (Amper)
+2x 4x 7x 10x 19x 30x 48x
+1 19.5 24.86 -- -- -- -- -- -- --
+1.5 13.3 16.96 23 20 16.1 11.5 11.5 10.4 8.1
+2.5 7.98 10.18 31 28 21.7 15.5 15.5 14.0 10.9
+4 4.95 6.31 43 36 30.1 21.5 21.5 19.4 --
+A partir de 7 conductores se aplica adicionalmente los factores de corrección para mas de 4 conductores de la tabla 310.15 (B)(3)(a) del NFPA70.
+DIMENSIONES Y PESOS
+Formación del cable
+N° Cond. x sección
+(mm²)
+Diámetro exterior mm Peso kg/km Código Mat Number
+2 x 1 9.4 110 RM 2x1 820018010
+3 x 1 9.9 123 RM 3x1 820018020
+4 x 1 10.8 146 RM 4x1 820018030
+5 x 1 11.7 173 RM 5x1 820018040
+7 x 1 12.8 188 RM 7x1 820018050
+10 x 1 15.7 255 RM 10x1 820018060
+12 x 1 16.1 286 RM 12x1 820018070
+14 x 1 17.3 327 RM 14x1 820018080
+19 x 1 19.2 418 RM 19x1 820018090
+24 x 1 22.1 516 RM 24x1
+
+=========================================
+PDF PATH: public/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/FICHA TECNICA/FICHA TECNICA COMANDO.pdf
+=========================================
+Total Pages: 5
+
+--- PAGE 1 ---
+Cable de Potencia BT 
+Comando y señalización 
+CU/PVC
+
+--- PAGE 2 ---
+1
+Cable conductor de cuerda de cobre electrolítico recocido flexible clase 4 o 
+extraflexible clase 5 (NORMAS IRAM-NM 280:2002), aislación de PVC ecológico 
+antillama, relleno interno extruido no higroscópico. Vaina de PVC (PVC ecológico tipo 
+ST2) resistente a la propagación de incendios.
+CONSTRUCCIÓN:
+Numerados + 1 conductor PE (T) Todos blancos + 1 verde/amarillo
+IDENTIFICACIÓN: COLOR:
+En instalaciones fijas para señalización, medición, control, protección y comandos 
+eléctricos a distancia. Uso en bandejas o bajo tierra.
+UTILIZACIÓN:
+Conductor interior aislado en PVC ecológico antillama, resistente a la propagación 
+de incendios.
+NORMA IRAM NM-IEC 60332-3.
+AISLACIÓN:
+CARACTERÍSTICAS
+Flexible NO propagador
+de la llama
+NO propagador
+del incendio
+Tensión 
+nominal: 
+0.6/1 kV
+Marcaje:
+cada 1 metro
+RESISTENCIA:
+Radiación
+solar frecuente
+Golpes Abrasión Resistencia
+al agua

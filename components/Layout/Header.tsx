@@ -23,7 +23,11 @@ const Header: React.FC = () => {
 
   return (
     <>
-    <header className={`fixed w-full z-50 transition-all duration-500 border-b animate-slide-down ${isScrolled || !isHome ? 'bg-white/95 backdrop-blur-sm border-gray-200 shadow-sm py-2' : 'bg-transparent border-transparent py-4'}`}>
+    <header className={`fixed w-full z-50 transition-all duration-500 border-b animate-slide-down ${
+      isScrolled || !isHome 
+        ? 'bg-white/95 backdrop-blur-sm border-gray-200 shadow-sm py-2' 
+        : 'bg-white md:bg-transparent border-gray-200 md:border-transparent py-2 md:py-4'
+    }`}>
 
       {/* Top Bar - Premium Industrial Look */}
       <div className={`hidden md:block absolute top-0 right-0 left-0 bg-slate-950 text-slate-400 text-[10px] tracking-widest uppercase transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-10 opacity-100'}`}>
@@ -52,7 +56,7 @@ const Header: React.FC = () => {
             <img 
               src="/images/logo-header.png" 
               alt="Vicbril Internacional" 
-              className="h-16 md:h-24 w-auto object-contain transition-all duration-500 hover:scale-110 active:scale-95 animate-float" 
+              className="h-14 xs:h-16 sm:h-20 md:h-22 lg:h-24 w-auto object-contain transition-all duration-500 hover:scale-110 active:scale-95 animate-float" 
             />
           </Link>
 
@@ -61,6 +65,7 @@ const Header: React.FC = () => {
             {[
               { path: '/', label: 'Inicio' },
               { path: '/nosotros', label: 'Nosotros' },
+              { path: '/mercados', label: 'Mercados' },
               { path: '/productos', label: 'Catálogo' },
               { label: 'Ayuda', isStatic: true },
             ].map((link) => (
@@ -108,10 +113,17 @@ const Header: React.FC = () => {
     </header>
 
       {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-white z-40 transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
-        <div className="flex flex-col h-full justify-center px-8 space-y-8 pt-20">
+      <div className={`fixed inset-0 bg-white z-40 transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden overflow-y-auto`}>
+        <div className="flex flex-col min-h-full justify-center px-8 space-y-6 pt-24 pb-8">
           <Link to="/" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">INICIO</Link>
           <Link to="/nosotros" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">NOSOTROS</Link>
+          <Link 
+            to="/mercados" 
+            onClick={() => setIsOpen(false)}
+            className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4"
+          >
+            MERCADOS
+          </Link>
           <Link to="/productos" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">CATÁLOGO</Link>
           <span className="text-3xl font-oswald font-bold text-slate-300 border-b border-gray-100 pb-4">AYUDA</span>
           <a 
