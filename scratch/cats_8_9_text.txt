@@ -1,0 +1,2285 @@
+
+==================================================
+BASE DIRECTORY: public/images/ProductosNuevos/8-CABLES ESPECIALES
+==================================================
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/8-CABLES ESPECIALES/1-MINERIA/FICHA TECNICA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 1
+ serie SHD-GC MT
+flexibles blindados para enrollamiento en uso minero. Conductores Estañados
+EPR/TPU Extra-Heavy Duty 5 a 25 kV Cu 6AWG a 300MCM
+Este tipo de cables son requeridos para uso industrial extrapesado (Extra-Heavy Duty). Son cables de energía en
+media tensión, reforzado portátil, para utilizar en desarrollos mineros para equipo móvil pesado como cables de
+arrastre, palas, taladros y alimentadores de energía. En campos petroleros se utiliza para alimentación de equipo móvil
+de perforación y en general para instalaciones móviles con desplazamientos horizontales o verticales a la intemperie,
+aptos para soportar en parada o en movimiento todos los esfuerzos de tracción, torsión y flexión generados por el
+funcionamiento normal de un enrollador de cables. Cuenta con materiales plásticos que proporcionan una protección
+adecuada ante productos químicos, entorno hostil, desgarros e impactos. Adicionalmente estos materiales no liberan
+gases halógenos ante la eventualidad de producirse un incendio. Apto para aplicaciones donde se necesiten
+conductores de protección (G) y un conductor de verificación de tierra (GC). El cable cuenta con blindaje individual
+sobre cada conductor de fase. 
+No propagación de
+llama
+Desgarros e impactos
+Libre de halógenos
+Cuerdas flexibles
+Entorno hostil
+CARACTERÍSTICAS
+Temperatura máxima de operación: 90°C en instalación fija / 60°C para uso móvil y flexiones ocasionales
+Temperatura mínima ambiente: -40°C en instalación fija / -25°C para flexiones ocasionales
+Tensión nominal: 5, 8, 15 y 25 kV CA
+Norma constructiva: ICEA S 75-381
+Norma de conductores: ASTM B 33/172/174
+Conductor: Cobre electrolítico recocido estañado en formación flexible.
+Capa semiconductora interna: Cinta helicoidal semiconductora entre conductor y aislación
+Aislación: EPR
+Capa semiconductora externa: Cinta helicoidal semiconductora sobre la aislación
+Blindaje: Cada conductor de fase tendrán una cinta sobre la aislación, luego se dispone un trenzado de
+alambres de cobre estañado e hilos textiles. Cobertura mínima del 60%
+Formación del cable: 3F (Fases) + 2G (Ground) + 1GC (Ground Check) sobre el reunido de conductores se
+aplican cintas especiales para lograr una estabilidad central adicional
+Cubierta: Doble protección de Poliuretano resistente a rayos UV, hidrocarburos y químicos en general con
+refuerzo interno de trenza textil para lograr una mayor integridad mecánica
+Norma de fuego: UL 2556 (FT1)
+Norma de intemperismo: UL 2556 (rayos UV)
+Norma de resistencia a hidrocarburos: UIC 895 OR (aceite, gas oil y fuel oil) / UL 13 (aceite) / UL 83 (Fuel C:
+tolueno e isoctano)
+--- PAGE 2 ---
+serie SHD-GC MT
+flexibles blindados para enrollamiento en uso minero. Conductores Estañados
+www.marlew.com.ar Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso2
+IDENTIFICACIÓN
+Flexibles blindados
+Cubierta
+Conductores
+Conductores de tierra SIN AISLAR
+Conductor de chequeo de tierra
+VARIANTES CONSTRUCTIVAS
+La información suministrada corresponde a la versión estándar, bajo pedido estos cables pueden ser suministrados
+con conductores de cobre sin estañar o con otro color de cubierta.
+CARACTERÍSTICAS ELÉCTRICAS, DIMENSIONALES Y PESOS
+Tensión
+nominal de
+servicio
+Calibre
+conductores
+de fase
+(AWG/MCM)
+Calibre
+conductores de
+protección
+(AWG)
+Calibre
+conductor de
+chequeo
+(AWG)
+Resistencia
+eléctrica en
+C.C. a 20°C
+(*)
+Intensidad
+admisible
+en aire (**)
+Diámetro
+exterior
+Peso
+aprox.
+Radio de
+curvatura
+Esfuerzo
+de
+tracción Código Marlew
+kV 3x 2x 1x ohm/km Amper mm kg/km mm daN
+5
+6 10 8 1.50 79 39.6 1753 237.6 294 SHD-GC-5kV 3x6+2G10+GC8
+4 8 8 0.94 104 42.7 2180 256.2 442 SHD-GC-5kV 3x4+2G8+GC8
+3 7 8 0.75 120 45.2 2514 271.2 547 SHD-GC-5kV 3x3+2G7+GC8
+2 6 8 0.59 138 47.5 2852 285 679 SHD-GC-5kV 3x2+2G6+GC8
+1 5 8 0.472 161 49.5 3283 297 846 SHD-GC-5kV 3x1+2G5+GC8
+1/0 4 8 0.376 186 52.8 3895 317 1055 SHD-GC-5kV 3x1/0+2G4+GC8
+2/0 3 8 0.299 215 55.9 4582 335 1320 SHD-GC-5kV 3x2/0+2G3+GC8
+3/0 2 8 0.237 249 59.9 5357 359 1653 SHD-GC-5kV 3x3/0+2G2+GC8
+4/0 1 8 0.188 287 63.5 6396 381 2071 SHD-GC-5kV 3x4/0+2G1+GC8
+250 1/0 8 0.161 320 68.3 7569 410 2482 SHD-GC-5kV 3x250+2G1/0+GC8
+300 1/0 8 0.134 357 71.4 8079 428 2996 SHD-GC-5kV 3x300+2G1/0+GC8
+350 2/0 8 0.115 394 74.9 9450 449 3547 SHD-GC-5kV 3x350+2G2/0+GC8
+500 4/0 8 0.080 487 84.1 12911 505 4907 SHD-GC-5kV 3x500+2G4/0+GC8
+8
+4 8 8 0.944 122 49.3 2669 394 442 SHD-GC-8kV 3x4+2G8+GC8
+3 7 8 0.748 140 51.3 2982 410 547 SHD-GC-8kV 3x3+2G7+GC8
+2 6 8 0.593 159 53.8 3364 430 679 SHD-GC-8kV 3x2+2G6+GC8
+1 5 8 0.472 184 56.1 3846 449 846 SHD-GC-8kV 3x1+2G5+GC8
+1/0 4 8 0.376 211 58.9 4435 471 1055 SHD-GC-8kV 3x1/0+2G4+GC8
+2/0 3 8 0.299 243 62.5 5199 500 1320 SHD-GC-8kV 3x2/0+2G3+GC8
+3/0 2 8 0.237 279 66.5 6019 532 1653 SHD-GC-8kV 3x3/0+2G2+GC8
+4/0 1 8 0.188 321 69.9 7066 559 2071 SHD-GC-8kV 3x4/0+2G1+GC8
+250 1/0 8 0.161 355 73.4 7887 587 2482 SHD-GC-8kV 3x250+2G1/0+GC8
+300 1/0 8 0.134 398 77.2 8756 618 2857 SHD-GC-8kV 3x300+2G1/0+GC8
+--- PAGE 3 ---
+SHD-GC MTserie
+flexibles blindados para enrollamiento en uso minero. Conductores Estañados
+Estas especificaciones son suministradas a título ilustrativo, pudiendo ser modificadas sin previo aviso www.marlew.com.ar 3
+Tensión
+nominal de
+servicio
+Calibre
+conductores
+de fase
+(AWG/MCM)
+Calibre
+conductores de
+protección
+(AWG)
+Calibre
+conductor de
+chequeo
+(AWG)
+Resistencia
+eléctrica en
+C.C. a 20°C
+(*)
+Intensidad
+admisible
+en aire (**)
+Diámetro
+exterior
+Peso
+aprox.
+Radio de
+curvatura
+Esfuerzo
+de
+tracción Código Marlew
+kV 3x 2x 1x ohm/km Amper mm kg/km mm daN
+15
+2 6 8 0.593 164 53.8 3331 430 679 SHD-GC-15kV 3x2+2G6+GC8
+1 5 8 0.472 187 64 4587 512 846 SHD-GC-15kV 3x1+2G5+GC8
+1/0 4 8 0.376 215 58.9 4302 471 1055 SHD-GC-15kV 3x1/0+2G4+GC8
+2/0 3 8 0.299 246 62.5 5085 500 1320 SHD-GC-15kV 3x2/0+2G3+GC8
+3/0 2 8 0.237 283 66.5 5890 532 1653 SHD-GC-15kV 3x3/0+2G2+GC8
+4/0 1 8 0.188 325 77.5 7916 620 2071 SHD-GC-15kV 3x4/0+2G1+GC8
+250 1/0 8 0.161 359 81.3 8803 650 2482 SHD-GC-15kV 3x250+2G1/0+GC8
+25
+1 5 8 0.472 191 74.9 5488 599 846 SHD-GC-25kV 3x1+2G5+GC8
+1/0 4 8 0.376 218 77.5 6091 620 1055 SHD-GC-25kV 3x1/0+2G4+GC8
+2/0 3 8 0.299 249 81.3 6942 650 1320 SHD-GC-25kV 3x2/0+2G3+GC8
+3/0 2 8 0.237 286 84.6 7765 677 1653 SHD-GC-25kV 3x3/0+2G2+GC8
+(*) La resistencia eléctrica informada corresponde solamente a los conductores de fase.
+(**)Tabla H-1 de norma ICEA S 75-381, temperatura máxima de servicio a 90ºC y temperatura ambiente de 40ºC
+
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/8-CABLES ESPECIALES/2-ASCENSOR/FICHA TECNICA.pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Características constructivas: Conductores constituidos por una cuerda flexible de alambres de cobre 
+electrolítico recocido, de sección circular uniforme. (Clase 5 IRAM NM 280) 
+ 
+Sección nominal y número de conductores aislados: Contempla secciones de 0,75 - 1 y 1,5 mm², de 4 a 
+24 conductores. Consultar por otras secciones y cantidad de conductores.  
+ 
+Núcleo de soporte del cable: Se utiliza una cuerda de yute (NT) o de acero (NA) revestido en compuesto de 
+P.V.C. especial.  
+ 
+Aislación: Compuesto especial extraflexible de color negro y verde-amarillo.  
+ 
+Identificación de los conductores aislados:  
+Sobre el conductor aislado de color negro, se realiza una numeración correlativa en tinta de color blanco 
+indeleble. Los números están subrayados para evitar confusiones. La numeración sobre los conductores se 
+encuentra separada por solo 25mm, garantizando una rápida identificación, incluso eliminando solo una 
+pequeña porción de la vaina, y el conductor de protección amarillo/verde. El conductor de protección esta 
+incluido en el número total de los conductores. 
+ 
+Cinta textil: Sobre cada capa se coloca en forma helicoidal superpuesta 20%, una cinta textil.  
+ 
+Envoltura: Consiste en un compuesto especial a base de polímeros termoplásticos y caucho, con aditivos que 
+le confieren excelentes propiedades mecánicas y una gran flexibilidad. Dicha vaina posee muy buenas 
+propiedades mecánicas y físicas (resistencia a la fatiga, abrasión, etc.), químicas (resistente a aceites, grasas y 
+derivados de los hidrocarburos) muy superiores a la del PVC, aún en condiciones ambientales de bajas 
+temperaturas. De color negro. No propagante de la llama, apto intemperie.  
+ 
+Cableado: Sobre el núcleo de soporte se cablean los conductores aislados, en una o dos capas, con
+ una óptima 
+relación de cableado.  
+ 
+Marcación sobre la envoltura: Además de lo prescripto en la normas, sobre identificación del cable que se 
+aplica sobre la envoltura final, los cables EMYSFLEX LIFT NT y EMYSFLEX LIFT NA poseen una marcación 
+secuencial de metros, fecha de fabricación y número de orden de fabricación. La suma de todos estos factores 
+más la reconocida calidad de PETTOROSSI, le confieren a este cable una confiable prestación en el uso. 
+ 
+ 
+ 
+• Tensión máxima de servicio: 
+... Uo / U 300 / 500 V. 
+ 
+• Tensión de ensayo: 
+... 2500 V   C.A. durante 5 min. 
+ 
+• Temperatura máxima de servicio 
+... en el conductor: 
+...  70º C.
+ 
+ 
+• Campos de aplicación: 
+Este cable está especialmente diseñado para ser 
+utilizado en instalaciones de comando de 
+ascensores y montacargas. Debe observarse la 
+longitud máxima a utilizar en cada caso ya que la 
+misma depende del núcleo de soporte. Este cable 
+no está diseñado para soportar esfuerzos de 
+torsión. En el caso que el mismo existiera 
+solicitamos comunicarse con nuestro 
+departamento de asistencia técnica, el cual le 
+brindará la solución mas adecuada.
+ 
+     
+30/12/2010
+--- PAGE 2 ---
+ 
+ 
+N° de conductores y 
+sección nominal 
+Diámetro 
+exterior 
+aproximado 
+Radio mínimo de 
+curvatura 
+Peso 
+aproximado 
+Tipo 
+de soporte 
+Longitud máxima 
+auto soportada 
+mm² mm mm kg/km  metros
+6x0,75 10.40 208 117 Textil 50 
+8x0,75 12.00 240 154 Textil 80 
+10x0,75 13.50 270 185 Textil 80 
+12x0,75 15.60 310 265 Textil 55 
+20x0,75 16.30 330 340 Acero 90 
+24x0,75 19.90 397 430 Acero 80 
+4x1  9  180  105  Textil 55 
+6x1  11  220  145  Textil 50 
+8x1  12.8  256  185  Textil 80 
+10x1  14.3  286  225  Textil 80 
+12x1  15.6  312  340  Textil 60 
+20x1  18.5  370  425  Acero 80 
+14x1  21.3  426  510  Textil 60 
+6x1.5  12.2  244  190  Textil 80 
+8x1.5  14.3  286  250  Textil 60 
+10x1.5  16  320  320  Textil 60 
+12x1.5  18.3  365  400  Textil 60 
+20x1.5  23  460  650  Acero 90 
+24x1.5  24.5  490  750  Acero 90 
+  
+Guía de utilización de los cables EMYSFLEX LIFT NT-NA para comando ascensor: 
+z 1º Es muy importante respetar los radios mínimos de curvatura.  
+z 2º Es necesario desenrollar el cable de la bobina y colgarlo en vertical de forma que no se produzcan bucles o 
+retorcimientos.  
+z 3º Es aconsejable colocar el cable en el pozo del ascensor suspendido de un extremo solamente, por unos pocos días 
+antes de completar las instalación.  
+z 4º Respetar las longitudes máximas autosoportadas que figuran en la tabla.  
+z 5º Es aconsejable disponer de un sistema de anclaje en los dos extremos del cable, que la permita girar para 
+contrarrestar las torsiones acumuladas.  
+z 6º Es preciso tener cuidado que en el pozo del ascensor no existan perfiles o travesaños cuyos cantos dañen los 
+cables durante el servicio.  
+Nota: Por razones de fabricación, la leyenda impresa sobre los cables tiene un sentido helicoidal moderado, alrededor del 
+cable, por lo que no puede utilizarse como guía para enrollar los cables sin retorcerlos. 
+30/12/2010
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/8-CABLES ESPECIALES/3-FIBRA OPTICA/FICHA TECNICA.pdf
+=========================================
+Total Pages: 4
+
+--- PAGE 1 ---
+ 
+ 
+ 
+A2212 
+ 
+CABLES ADSS PKP VANOS LARGOS CIMET OPTEL® 
+FIBRA ÓPTICA 
+ 
+ 
+DESCRIPCIÓN 
+Cable óptico dieléctrico doble cubierta 
+ 
+APLICACIÓN  
+Aplicación en instalaciones en líneas aéreas en vanos de hasta 300 metros para instalaciones 
+de líneas interurbanas 
+ 
+NORMAS DE FABRICACIÓN Y ENSAYOS 
+ITU-T G.652 "Standard for non-dispersion shifted single-mode fiber" 
+ 
+IEEE 1222 "Performance and Testing Standard for All-Dielectric,  Self-Supporting (ADSS) 
+Optical Fiber Cable" 
+ 
+CONSTITUCIÓN 
+Constituidos por fibras ópticas alojadas en tubos holgados de PBT rellenos con gel tixotrópico para el bloqueo de humedad. 
+Los mismos reunidos en SZ alrededor de un miembro central dieléctrico. El conjunto contiene elementos hinchables secos 
+para bloqueo de ingreso de agua. Todo el núcleo anteriormente conformado estará protegido por dos cubiertas separadas 
+por una doble corona de aramida distribuida en forma contra helicoidal construyendo la estructura PKP. Ambas cubiertas 
+tendrán su cordón de apertura. 
+ 
+CARACTERÍSTICAS DE LA CUBIERTA INTERNA 
+Aplicada sobre el núcleo del cable de polietileno de media densidad de color negro, uniforme y 
+resistente a la luz solar (protección UV), conforme a los requerimientos de la Norma ASTM D1248, tipo II, Clase C, Categoría 
+4, Grado J4. 
+ 
+CARACTERÍSTICAS DE LA CUBIERTA EXTERNA 
+El cable es recubierto en su modelo estándar por una chaqueta externa de polietileno de media densidad de color negro, 
+uniforme y resistente a la luz solar (protección UV), conforme a los requerimientos de la Norma ASTM D1248, tipo II, Clase 
+C, Categoría 4, Grado J4. Opcional cubierta de materiales HFFR y/o resistentes a la erosión por efecto tracking. 
+--- PAGE 2 ---
+ 
+ 
+ 
+A2212 
+ 
+01. DATOS DIMENSIONALES 
+ 
+NÚMERO 
+DE 
+FIBRAS 
+DIÁMETRO NOMINAL ESPESOR NOMINAL DE 
+CUBIERTA PESO DE CABLE FIBRA POR TUBO 
+mm mm kg/km N° 
+MODELO V200 (VANOS DE HASTA 200 METROS) 
+6 A 36 13,1 1,5 132 6 
+48 A 72 14,3 1,5 160 12 
+96 16,6 1,5 210 12 
+MODELO V300 (VANOS DE HASTA 300 METROS) 
+6 A 36 14,5 1,5 155 6 
+48 A 72 15,8 1,5 185 12 
+ 
+02. CARACTERÍSTICAS MECÁNICAS Y AMBIENTALES 
+ 
+NÚMERO 
+DE 
+FIBRAS 
+RADIO MÍNIMO DE 
+CURVATURA – 
+DURANTE LA 
+INSTALACIÓN 
+RADIO MÍNIMO 
+DE CURVATURA 
+– INSTALADO 
+CARGA DE 
+COMPRESIÓN   
+RESISTENCIA DE 
+IMPACTO   
+RANGO DE 
+TEMPERATURA 
+DE OPERACIÓN 
+CARGA MÁXIMA 
+DE TRACCIÓN 
+(MCRL) 
+(2) 
+mm mm N/cm Joule °C N 
+MODELO V200 (VANOS DE HASTA 200 METROS) 
+6 A 36 20xD (1) 10xD (1) 220 3 -40/70 5.000 
+48 A 72 20xD (1) 10xD (1) 220 6 -40/70 5.500 
+96 20xD (1) 10xD (1) 220 9 -40/70 7.000 
+MODELO V300 (VANOS DE HASTA 300 METROS) 
+6 A 36 20xD (1) 10xD (1) 220 6 -40/70 10.500 
+48 A 72 20xD (1) 10xD (1) 220 9 -40/70 12.000 
+ 
+(1) Diámetro del cable 
+(2) MCRL Carga máxima que va a soportar el cable operando con el vano máximo, flechas mínimas y condiciones climáticas 
+adversas. 
+Ensayos mecánicos y ambientales acorde IEEE1222 
+ 
+Los vanos están calculados para condiciones climáticas Nesc Light (vientos de hasta 95 km/h sin hielo) y flecha mínima 
+de instalación inicial del 1 %. Consultar por otras condiciones. 
+ 
+ 
+ 
+03. IDENTIFICACIÓN DE LAS FIBRAS 
+ 
+El código de colores de las fibras y tubos responde al estándar EIA-TIA 598, según se detalla en el siguiente cuadro: 
+ 
+FIBRA / TUBO    
+NÚMERO COLOR FIBRA / TUBO  
+NÚMERO COLOR 
+1 AZUL 7 ROJO 
+2 NARANJA 8 NEGRO 
+3 VERDE 9 AMARILLO 
+4 MARRÓN 10 VIOLETA 
+5 GRIS 11 ROSA 
+6 BLANCO 12 TURQUESA 
+ 
+   
+--- PAGE 3 ---
+ 
+ 
+ 
+A2212 
+  
+04. CARACTERÍSTICAS ÓPTICAS 
+FIBRA ÓPTICA NORMA 
+MONOMODO ESTÁNDAR G 652D 
+MONOMODO NZDS G655 
+ 
+ 
+CARACTERÍSTICAS DE FIBRA ÓPTICA MONOMODO ESTÁNDAR 
+DESCRIPCIÓN VALORES SEGÚN NORMA INTERNACIONAL ITU-T G.652.D 
+DIÁMETRO DEL CAMPO MODAL (1310 nm) 9,2 ± 0,4 μm 
+DIÁMETRO DEL CAMPO MODAL (1550 nm) 10,4 ± 0,5 μm 
+DIÁMETRO DEL RECUBRIMIENTO (CLADDING) 125,0 ± 0,7 μm 
+CONCENTRICIDAD NÚCLEO-RECUBRIMIENTO ≤ 0,5 μm 
+NO –CIRCULARIDAD DEL RECUBRIMIENTO ≤ 0,7% 
+PROOF TEST (ORIGEN) ≥ 100 kpsi (0,7 Gpa) 
+ATENUACIÓN MÁX. A 1310 nm (EN CABLE) ≤ 0,35 dB/km 
+ATENUACIÓN A 1310 nm (VALOR TÍPICO EN CABLE) ≤ 0,33 dB/km 
+ATENUACIÓN A 1383 nm (VALOR TÍPICO EN CABLE) ≤ 0,33 dB/km 
+ATENUACIÓN MÁX. A 1550 nm (EN CABLE) ≤ 0,23 dB/km 
+ATENUACIÓN A 1550 nm (VALOR TÍPICO EN CABLE) ≤ 0,19 dB/km 
+ATENUACIÓN MÁXIMA INDUCIDA. POR DOBLADO (FIBRA 
+DESNUDA) ≤ 0,03 dB A 1550 nm (100 VUELTAS SOBRE MANDRIL DE DIÁMETRO = 50mm) 
+DISPERSIÓN CROMÁTICA ≤ 18 ps/nm km 
+(1550 nm) 
+PMD (EN CABLE) ≤ 0,11 ps/ √km 
+ 
+Nota: Los valores especificados son referenciales. Sujetos a revisión de diseño sin previa documentación de catálogo. 
+ 
+ 
+CARACTERÍSTICAS DE FIBRA ÓPTICA MONOMODO NZDS 
+DESCRIPCIÓN VALORES SEGÚN NORMA INTERNACIONAL ITU-T G.655 (A, B, C, D) 
+DIÁMETRO DEL CAMPO MODAL (1550 nm) 9,6 ± 0,4 μm 
+DIÁMETRO DEL RECUBRIMIENTO (CLADDING) 125,0 ± 0,7 μm 
+CONCENTRICIDAD NÚCLEO-RECUBRIMIENTO ≤ 0,5 μm 
+NO –CIRCULARIDAD DEL RECUBRIMIENTO ≤ 0,7% 
+PROOF TEST (ORÍGEN) ≥ 100 kpsi (0,7 Gpa) 
+ATENUACIÓN MÁXIMA A 1550nm (VALOR MÁXIMO EN CABLE) ≤ 0,23 dB/km 
+ATENUACIÓN MÁXIMA A 1625 nm (VALOR MÁXIMO EN CABLE) ≤ 0,25 dB/km 
+ATENUACIÓN A 1550 nm (VALOR TÍPICO EN CABLE) ≤ 0,21 dB/km 
+ATENUACIÓN A 1625 nm (VALOR TÍPICO EN CABLE) ≤ 0,22 dB/km 
+ATENUACIÓN MÁXIMA POR DOBLADO (FIBRA DESNUDA) ≤ 0,05 dB a 1550 nm (100 vueltas sobre mandril de Diámetro = 60mm) 
+DISPERSIÓN CROMÁTICA 
+a 1530 m 2,0-5,5 ps/nm*km 
+a 1565 m 4,5-6,0 ps/nm*km 
+                                                      a 1625 m 5,8-11 ps/nm*km 
+PMD (EN CABLE) ≤ 0,11 ps/ √km 
+ 
+Nota: Los valores especificados son referenciales. Sujetos a revisión de diseño sin previa documentación de catálogo. 
+ 
+ 
+ 
+--- PAGE 4 ---
+ 
+ 
+ 
+A2212 
+ 
+05. EMBALAJE Y MARCACIÓN DEL CABLE 
+-    Suministro en carretes de madera y cierre con duelas, no retornables.  
+-    Longitud estándar 4000 m +/-5% 
+-    Marcación secuencial métrica, identificación del fabricante y código del cable. 
+  
+06. SECCIÓN GENERAL 
+        
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+CERTIFICACIONES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“La información volcada en la presente ficha técnica es meramente referencial y está sujeta a modificaciones y/o 
+actualizaciones sin previo aviso. Asimismo, no constituye declaración de idoneidad de nuestros productos para alguna 
+aplicación específica; por tal motivo recomendamos contactarse con un profesional con adecuada incumbencia, para la 
+correcta ingeniería de detalle y dimensionamiento de su proyecto u obra.” 
+   
+
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/8-CABLES ESPECIALES/4-UTP/FICHA TECNICA.pdf
+=========================================
+Total Pages: 4
+
+--- PAGE 1 ---
+ Corning Optical Communications Ficha técnica cable UTP CAT 6 | VOL6UX4305 | OUT-015-ESS | Page 1 
+ 
+ 
+ 
+Cable de cobre UTP CAT 6 - Ficha Técnica 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Los cables de cobre Corning de 4 pares son de alto rendimiento, conforme con la IEC 61156-5:2013 (ed. 2.1) y EN 50288-10-1: 
+2012. El cable CAT 6A UTP es fabricado con 4 pares siguiendo el código de colores, conductores de cobre sólido, agrupados por 
+una cubierta externa retardante al fuego. El cable cumple y excede las normas de la industria para redes de bajo voltaje para 
+transmisión de señales de voz, datos, y video. Las aplicaciones incluyen estándar IEEE 802.3 para redes de 10 Mb hasta 1 Gb. 
+Es también aplicable para POE IEEE 802.3af y POE+ 802.3at y sistemas ATM LAN 1.2 Gb. 
+ 
+ 
+Características Beneficios 
+Excelente desempeño eléctrico. Probado hasta 350 MHz Amplio margen sobre los parámetros de la categoría 6 
+Marcación de la longitud en metros sobre la cubierta Fácil identificación del cable. Se pueden distinguir las 
+características del cable a la vista 
+Versiones disponibles LSOH y PVC Soluciones para todos los niveles de protección contra 
+fuego 
+ 
+  
+
+--- PAGE 2 ---
+  Corning Optical Communications Ficha técnica cable UTP CAT 6 | VOL6UX4305 | OUT-015-ESS | Page 2 
+ 
+ 
+Especificaciones del cable 
+Aplicación IEEE 802.3: 1000BASE-T; 100BASE-TX; 10BASE-T 
+IEEE 802.3af – PoE; IEEE 802.3at – PoE+ 
+ATM LAN 1.2 Gbit/s 
+Propiedades típicas  
+Diámetro del conductor 
+Cubierta aislante del conductor 
+Separador 
+Montaje del cable 
+Material de la cubierta 
+Peso 
+AWG 24 (0,51 mm)  
+Min: Pe 0,95 mm  
+Separador transversal no-metálico 
+1x4 pares  
+LSZH™  
+Max: 32,41 kg/km 
+Características mecánicas  
+Diámetro externo del cable Max: 5,4 mm 
+Radio de curvatura  
+Dinámico (instalación) 
+Estático (instalado) 
+8x diametro externo 
+4x diámetro externo 
+Rango de temperatura  
+En servicio 
+Instalación/Transporte/Almacenamiento 
+Tensión máxima de tracción 
+-20°C a + 60°C 
+0°C a + 50°C 
+100N 
+Características eléctricas (@  20°C ± 5°C)  
+Resistencia del bucle (Max): 
+Desbalanceo resistivo (Max): 
+Resistencia de aislamiento (500V): 
+Retardo sesgado: 
+Voltaje nominal (Max): 
+Retardo de propagación 
+NVP (nominal): 
+Impedancia característica 
+190 Ω/Km @ 20°C   
+2% @ 20°C   
+5000 MΩ.km @ 20°C   
+<40 ns/100m 
+< 75 V CC y < 50V CA 
+52 ns/m 
+67% 
+100 ± 15 Ω (1 to 100 MHz) 
+Directriz/Estándares  
+Cable 
+Norma del sistema de cableado 
+IEC 61156-5/EN 50288-6-1 
+ISO 11801 /EN 50173-1/TIA 568 
+Directriz 
+  RoHS 
+  LVD 
+ 
+2011/65/EU (RoHS2) 
+LVD 2006/95/EC 
+LSZH 
+  Humo 
+  Gas/Toxicidad 
+LSZH o PVC 
+  Resistencia a la propagación del fuego 
+ 
+EN/IEC 61034-2 
+IEC 60754-2/IEC 60754-1 
+ 
+CPR Eca EN50575, CPR Dca EN50575 
+--- PAGE 3 ---
+ Corning Optical Communications Ficha técnica cable UTP CAT 6 | VOL6UX4305 | OUT-015-ESS | Page 3 
+ 
+ 
+Desempeño del cable 
+Frecuencia MHz  1 4 10 16 20 31,25 62,5 100 200 250 300 
+Atenuación max. 
+(dB/100m) 
+Valor Típico: 
+Cat 6 (max): 
+1,9 
+2,1 
+3,6 
+3,8 
+5,7 
+6,0 
+7,3 
+7,6 
+8,3 
+8,5 
+10,3 
+10,8 
+14,8 
+15,5 
+19,0 
+19,9 
+27,3 
+29,2 
+31,0 
+33,0 
+34,0 
+- 
+NEXT min (dB) Valor Típico: 
+Cat 6 (min): 
+77,0 
+75,0 
+68,0 
+66,0 
+62,0 
+60,0 
+59,0 
+57,0 
+57,0 
+56,0 
+55,0 
+53,0 
+50,0 
+48,0 
+47,0 
+45,0 
+42,0 
+41,0 
+41,0 
+39,0 
+40,0 
+- 
+ACR min (dB) Valor Típico: 
+Cat 6 (min): 
+75,1 
+72,9 
+64,4 
+62,2 
+56,3 
+54,0 
+51,7 
+49,4 
+48,7 
+47,5 
+44,7 
+42,2 
+35,2 
+32,5 
+28,0 
+25,1 
+14,7 
+11,8 
+10,0 
+6,0 
+6,0 
+- 
+PS NEXT (dB) Valor Típico: 
+Cat 6 (min): 
+74,0 
+72,3 
+65,0 
+63,3 
+59,0 
+57,3 
+56,0 
+54,3 
+54,0 
+52,8 
+52,0 
+49,9 
+47,0 
+45,4 
+44,0 
+42,3 
+39,0 
+37,8 
+38,0 
+36,3 
+37,0 
+- 
+ELFEXT (dB) Valor Típico: 
+Cat 6 (min): 
+80,0 
+68,0 
+73,0 
+56,0 
+65,0 
+48,0 
+61,0 
+44,0 
+59,0 
+42,0 
+55,0 
+38,0 
+49,0 
+32,0 
+45,0 
+28,0 
+39,0 
+22,0 
+37,0 
+20,0 
+35,0 
+- 
+PS ELFEXT (dB) Valor Típico: 
+Cat 6 (min): 
+77,0 
+65,0 
+70,0 
+53,0 
+62,0 
+45,0 
+58,0 
+41,0 
+56,0 
+39,0 
+52,0 
+35,0 
+46,0 
+29,0 
+42,0 
+25,0 
+36,0 
+19,0 
+34,0 
+17,0 
+32,0 
+- 
+Perdida por retorno 
+(dB) 
+Valor Típico: 
+Cat 6 (min): 
+25,0 
+20,0 
+25,0 
+23,0 
+25,0 
+25,0 
+25,0 
+25,0 
+25,0 
+25,0 
+25,0 
+23,6 
+23,8 
+21,5 
+23,0 
+20,1 
+21,0 
+18,0 
+20,0 
+17,3 
+20,0 
+- 
+ 
+ 
+Informaciones para pedidos 
+Número de parte Descripción Código de 
+producto 
+MCXVEE-DD047-V001-
+X1 
+Cable CAT 6 U/UTP, 100Ω, LSZH, Azul, CPR Dca-s2, d2,a1, 4 pares, 24 AWG, 
+305 m 
+VOL6UL4305BL 
+DE010024342 Cable CAT 6 U/UTP, 100Ω, LSZH, Verde, CPR Dca-s2, d2,a1, 4 pares, 24 AWG, 
+305 m 
+VOL6UP4305GR 
+UU008177758 Cable CAT 6 U/UTP, 100Ω, PVC, Azul, CPR Eca, 4 pares, 24 AWG, 305 m VOL6UP4305BL 
+DE010024334 Cable CAT 6 U/UTP, 100Ω, PVC, Verde, CPR Eca, 4 pares, 24 AWG, 305 m VOL6UP4305GR 
+ 
+ 
+Corning Optical Communications LLC • 4200 Corning Place • Charlotte, NC 28216 EEUU 
+800-743-2675 • FAX: 828-325-5060 • International: +1-828-901-5000 • www.corning.com/opcomm 
+Corning Optical Communications se reserva el derecho de mejorar, optimizar y modificar las características y especificaciones de los 
+productos Corning Optical Communications sin notificación previa. Una lista completa de las marcas registradas de Corning Optical 
+Communications se encuentra disponible en www.corning.com/opcomm/trademarks. Todas las otras marcas comerciales son 
+propiedad de sus respectivos dueños. Corning Optical Communications posee la certificación ISO 9001. © 2020 Corning Optical 
+Communications. Todos los derechos reservados. 
+OUT-015-ESS / November 2020 
+ 
+--- PAGE 4 ---
+  Corning Optical Communications Ficha técnica cable UTP CAT 6 | VOL6UX4305 | OUT-015-ESS | Page 4 
+ 
+ 
+ 
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/8-CABLES ESPECIALES/6-DESARROLLOS ESPECIALES/FICHA TECNICA.pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+Aquí  tienes  una  propuesta  de  texto  estructurada  y  profesional  para  la  sección  de  Desarrollos  
+Especiales
+ 
+de
+ 
+tu
+ 
+sitio
+ 
+web,
+ 
+adaptando
+ 
+correctamente
+ 
+el
+ 
+nombre
+ 
+de
+ 
+la
+ 
+empresa
+ 
+de
+ 
+acuerdo
+ 
+con
+ 
+tus
+ 
+indicaciones
+ 
+(
+Vicbril
+ 
+Internacional
+ 
+S.A.
+).
+ Está  diseñada  para  ser  clara,  atractiva  para  potenciales  clientes  corporativos  y  optimizada  para  
+la
+ 
+lectura
+ 
+en
+ 
+entornos
+ 
+digitales.
+ 
+Ficha  Técnica  y  Contenido  Web:  Desarrollos  
+Especiales
+ 
+Vicbril  Internacional  S.A.  –  Conductores  Eléctricos  a  Medida  
+En  Vicbril  Internacional  S.A. ,  sabemos  que  los  proyectos  de  ingeniería  de  vanguardia  y  las  
+industrias
+ 
+de
+ 
+alta
+ 
+exigencia
+ 
+requieren
+ 
+soluciones
+ 
+que
+ 
+van
+ 
+más
+ 
+allá
+ 
+de
+ 
+los
+ 
+productos
+ 
+estándar
+ 
+del
+ 
+mercado.
+ 
+Por
+ 
+eso,
+ 
+nos
+ 
+especializamos
+ 
+en
+ 
+el
+ 
+diseño,
+ 
+desarrollo
+ 
+y
+ 
+provisión
+ 
+de
+ 
+conductores
+ 
+eléctricos
+ 
+especiales
+ 
+y
+ 
+a
+ 
+pedido
+,
+ 
+adaptados
+ 
+rigurosamente
+ 
+a
+ 
+los
+ 
+requerimientos
+ 
+técnicos
+ 
+y
+ 
+operativos
+ 
+de
+ 
+cada
+ 
+cliente.
+ 
+Calidad  Certificada  y  Normativas  Internacionales  
+El  compromiso  con  la  excelencia  es  el  pilar  de  nuestra  operación.  Cada  uno  de  nuestros  
+desarrollos
+ 
+especiales
+ 
+se
+ 
+fabrica
+ 
+bajo
+ 
+los
+ 
+mejores
+ 
+estándares
+ 
+de
+ 
+calidad
+ 
+y
+ 
+en
+ 
+estricto
+ 
+cumplimiento
+ 
+de
+ 
+las
+ 
+normas
+ 
+internacionales
+ 
+vigentes
+ 
+(como
+ 
+IEC,
+ 
+ASTM,
+ 
+ICEA,
+ 
+entre
+ 
+otras),
+ 
+garantizando
+ 
+la
+ 
+máxima
+ 
+seguridad,
+ 
+eficiencia
+ 
+y
+ 
+durabilidad
+ 
+en
+ 
+las
+ 
+condiciones
+ 
+más
+ 
+críticas
+ 
+de
+ 
+servicio.
+ 
+Nuestras  Capacidades  en  Desarrollos  Especiales  
+●  Diseño  Personalizado:  Desarrollamos  conductores  específicos  según  las  necesidades  
+de
+ 
+transmisión
+ 
+de
+ 
+potencia,
+ 
+control,
+ 
+señalización
+ 
+o
+ 
+datos
+ 
+que
+ 
+su
+ 
+obra
+ 
+requiera.
+ ●  Materiales  de  Alta  Performance:  Selección  optimizada  de  compuestos  aislantes  y  
+cubiertas
+ 
+(XLPE,
+ 
+PVC,
+ 
+LSZH,
+ 
+pur,
+ 
+compuestos
+ 
+resistentes
+ 
+a
+ 
+hidrocarburos
+ 
+y
+ 
+altas
+ 
+temperaturas).
+ ●  Protecciones  a  Medida:  Configuraciones  especiales  de  pantallas  electromagnéticas  y  
+armaduras
+ 
+mecánicas
+ 
+(como
+ 
+doble
+ 
+fleje
+ 
+de
+ 
+acero
+ 
+o
+ 
+corona
+ 
+de
+ 
+hilos)
+ 
+para
+ 
+entornos
+ 
+hostiles
+ 
+o
+ 
+de
+ 
+alta
+ 
+tracción.
+ ●  Soluciones  Multi-industria:  Diseños  aptos  para  el  sector  petrolero,  minero,  de  energías  
+renovables,
+ 
+infraestructura
+ 
+pesada
+ 
+y
+ 
+automatización
+ 
+industrial.
+ 
+¿Por  qué  elegir  a  Vicbril  Internacional  S.A.?  
+●  Flexibilidad  y  Adaptabilidad:  Nos  adaptamos  a  las  especificaciones  exactas  de  su  
+pliego
+ 
+técnico,
+ 
+ofreciendo
+ 
+soluciones
+ 
+donde
+ 
+otros
+ 
+ven
+ 
+limitaciones.
+ ●  Asesoramiento  Especializado:  Nuestro  equipo  lo  acompaña  desde  la  fase  de  ingeniería  
+conceptual
+ 
+hasta
+ 
+la
+ 
+entrega
+ 
+final
+ 
+del
+ 
+conductor.
+ ●  Garantía  de  Confiabilidad:  Respaldamos  cada  desarrollo  con  ensayos  de  laboratorio  
+que
+ 
+aseguran
+ 
+el
+ 
+comportamiento
+ 
+óptimo
+ 
+del
+ 
+cable
+ 
+en
+ 
+su
+ 
+entorno
+ 
+real
+ 
+de
+ 
+trabajo.
+ 
+--- PAGE 2 ---
+¿Tiene  un  requerimiento  fuera  de  catálogo?  En  Vicbril  Internacional  S.A.  transformamos  
+sus
+ 
+necesidades
+ 
+técnicas
+ 
+en
+ 
+conductores
+ 
+eléctricos
+ 
+de
+ 
+alta
+ 
+fidelidad.
+ 
+Contáctenos
+ 
+para
+ 
+coordinar
+ 
+una
+ 
+reunión
+ 
+con
+ 
+nuestro
+ 
+equipo
+ 
+de
+ 
+desarrollo.
+ 
+
+==================================================
+BASE DIRECTORY: public/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS
+==================================================
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/10-EMPALMES/FICHA TECNICA (PARTE EMPALMES).pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+ACCESORIOS PARA REDES ELÉCTRICAS AÉREAS Y SUBTERRÁNEAS 
+Descripción 
+Línea de productos destinada a la conexión, empalme, terminación, retención, suspensión 
+y protección de conductores eléctricos en redes aéreas y subterráneas de baja y media 
+tensión. Incluye accesorios para cables preensamblados, sistemas de distribución 
+eléctrica, instalaciones industriales y proyectos de infraestructura energética. Los 
+productos están diseñados para maximizar la confiabilidad eléctrica, la seguridad 
+operativa y la vida útil de las instalaciones.  
+Líneas de Productos 
+• Morsas de suspensión y retención.  
+• Morsas de acometida domiciliaria.  
+• Ménsulas y accesorios de fijación.  
+• Manguitos de empalme preaislados y desnudos.  
+• Terminales preaislados de conexión.  
+• Protectores terminales.  
+• Flejes, hebillas y sistemas de fijación.  
+• Accesorios para líneas preensambladas.  
+• Empalmes para baja y media tensión.  
+• Terminales termocontraíbles hasta 36 kV.  
+• Terminales contraíbles en frío hasta 36 kV.  
+• Conectores enchufables apantallados.  
+• Uniones y terminales a tornillo fusible.  
+• Tubos termocontraíbles.  
+• Resinas y geles dieléctricos.  
+• Herramientas para preparación e instalación de cables.  
+Materiales 
+• Aleaciones de aluminio de alta resistencia.  
+• Acero galvanizado y cincado.  
+• Acero inoxidable AISI 304.  
+• Latón estañado.  
+• Poliamidas con protección UV.  
+• Elastómeros termoplásticos para intemperie.  
+• Siliconas y materiales dieléctricos de última generación.  
+• Resinas poliuretánicas y geles aislantes.  
+Características Generales 
+• Elevada confiabilidad eléctrica y mecánica.  
+• Excelente resistencia a la corrosión y a la intemperie.  
+• Aptos para instalaciones aéreas y subterráneas.  
+• Compatibilidad con conductores de cobre y aluminio.  
+• Fácil instalación y mantenimiento.  
+• Soluciones para distribución, industria, minería, petróleo y gas.  
+• Productos ensayados bajo estándares internacionales reconocidos.  
+--- PAGE 2 ---
+Soluciones para Líneas Aéreas 
+Incluyen morsas de suspensión, morsas de retención, acometidas domiciliarias, ménsulas, 
+piezas intermedias, protectores terminales y sistemas de fijación para redes 
+preensambladas de baja tensión. Diseñados para soportar esfuerzos mecánicos, 
+vibraciones y condiciones climáticas severas, garantizando la continuidad del servicio 
+eléctrico.  
+Soluciones para Líneas Subterráneas 
+• Empalmes rectos para baja y media tensión.  
+• Terminales termocontraíbles y contraíbles en frío.  
+• Conectores enchufables apantallados.  
+• Uniones y terminales a tornillo fusible.  
+• Resinas y geles para encapsulado.  
+• Accesorios para reparación y protección de cables.  
+• Sistemas para cables hasta 36 kV.  
+Empalmes y Terminales 
+Los sistemas de empalme y terminación permiten restablecer la continuidad eléctrica y 
+mecánica de los conductores, garantizando estanqueidad, aislamiento y protección contra 
+la corrosión. Disponibles en tecnologías termocontraíbles, contraíbles en frío, 
+elastoméricas y con resinas dieléctricas.  
+Conectores y Accesorios Especiales 
+• Conectores enchufables para celdas y equipos de media tensión.  
+• Descargadores de sobretensión.  
+• Conectores preaislados.  
+• Accesorios para líneas protegidas.  
+• Cintas especiales para aislamiento eléctrico.  
+• Materiales semiconductivos y accesorios para fabricación de cables.  
+Aplicaciones 
+• Distribución eléctrica urbana y rural.  
+• Redes aéreas preensambladas.  
+• Redes subterráneas de baja y media tensión.  
+• Subestaciones transformadoras.  
+• Industria pesada.  
+• Minería.  
+• Petróleo y gas.  
+• Energías renovables.  
+• Infraestructura eléctrica pública y privada.  
+Ventajas 
+• Máxima seguridad operativa.  
+• Reducción de fallas por humedad y contaminación.  
+--- PAGE 3 ---
+• Alta resistencia mecánica y eléctrica.  
+• Larga vida útil en servicio.  
+• Compatibilidad con estándares internacionales.  
+• Asesoramiento técnico especializado y soporte de instalación.  
+• Soluciones integrales para redes eléctricas modernas.  
+Calidad y Normativas 
+Los productos son ensayados bajo normas y estándares internacionales reconocidos para 
+aplicaciones de baja y media tensión, garantizando desempeño, confiabilidad y seguridad 
+en servicio. La oferta tecnológica incorpora soluciones homologadas bajo normas IEC, 
+IEEE y CENELEC según la aplicación correspondiente. 
+ 
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/2-JABALINAS/FICHA TECNICA.pdf
+=========================================
+Total Pages: 4
+
+--- PAGE 1 ---
+PUESTA A TIERRA, CONECTORES Y SOLDADURA CUPROALUMINOTÉRMICA 
+Descripción 
+Línea de productos destinada a la construcción de sistemas de puesta a tierra, protección 
+eléctrica y equipotencialización en instalaciones industriales, comerciales, energéticas y 
+de infraestructura. Incluye jabalinas, conductores cobre-acero, conectores de compresión, 
+planchuelas de cobre y sistemas de soldadura cuproaluminotérmica, diseñados para 
+garantizar una baja resistencia de puesta a tierra y una elevada confiabilidad eléctrica. 
+Líneas de Productos 
+• Jabalinas de puesta a tierra lisas.  
+• Jabalinas de puesta a tierra acoplables.  
+• Tomacables para conexión jabalina-conductor.  
+• Uniones de acople.  
+• Sufrideras para hincado.  
+• Cajas de inspección.  
+• Cables de acero cobre para puesta a tierra.  
+• Conductores desnudos cobre-acero.  
+• Conectores de compresión tipo "C".  
+• Conectores de compresión tipo "G".  
+• Planchuelas de cobre electrolítico.  
+• Soldaduras cuproaluminotérmicas.  
+• Cargas, moldes y accesorios para soldadura exotérmica.  
+Materiales 
+• Acero SAE 1010 / 1020 de alta resistencia mecánica.  
+• Revestimiento de cobre electrolítico por electrólisis.  
+• Cobre electrolítico ETP (Electrolytic Tough Pitch) 99,9%.  
+• Latón de alta resistencia para accesorios de conexión.  
+• Aleaciones especiales para soldadura cuproaluminotérmica.  
+• Hierro fundido para cajas de inspección.  
+Características Generales 
+• Elevada conductividad eléctrica.  
+• Excelente resistencia mecánica y a la corrosión.  
+• Larga vida útil en instalaciones enterradas.  
+• Compatibilidad con sistemas de puesta a tierra industrial y energética.  
+• Conexiones permanentes y de baja resistencia eléctrica.  
+• Fabricación bajo normas IRAM aplicables.  
+• Soluciones aptas para instalaciones nuevas y ampliaciones.  
+Jabalinas de Puesta a Tierra 
+Jabalinas fabricadas con alma de acero SAE 1010/1020 revestida mediante electrólisis 
+con cobre electrolítico de 254 micrones de espesor. El cobre queda adherido 
+metalúrgicamente al núcleo de acero, proporcionando una combinación óptima entre 
+resistencia mecánica y conductividad eléctrica. 
+ 
+--- PAGE 2 ---
+Disponibles en versiones: 
+• Jabalinas lisas.  
+• Jabalinas acoplables con rosca laminada.  
+Diámetros nominales: 
+• 3/8" (9 mm).  
+• 1/2" (12,6 mm).  
+• 5/8" (14,6 mm).  
+• 3/4" (16,2 mm).  
+Largos estándar: 
+• 1000 mm.  
+• 1500 mm.  
+• 2000 mm.  
+• 2500 mm.  
+• 3000 mm.  
+Fabricadas bajo Norma IRAM 2309. 
+Accesorios para Jabalinas 
+• Tomacables de latón para conexión conductor-jabalina.  
+• Uniones de acople para extensión de profundidad.  
+• Sufrideras para protección de roscas durante el hincado.  
+• Cajas de inspección para acceso y mantenimiento del sistema de puesta a tierra.  
+Cable de Acero Cobre para Puesta a Tierra 
+Conductores desnudos formados por alma de acero revestida en cobre mediante 
+electrólisis. 
+Características: 
+• Alta resistencia mecánica.  
+• Excelente comportamiento frente a la corrosión.  
+• Menor costo respecto a conductores de cobre macizo.  
+• Aptos para mallas de puesta a tierra y sistemas de protección contra descargas 
+atmosféricas.  
+Fabricados bajo Norma IRAM 2467. 
+Conectores de Compresión Tipo "C" y "G" 
+Conectores fabricados en cobre electrolítico 99,9% de pureza para realizar derivaciones y 
+conexiones permanentes en sistemas de puesta a tierra. 
+Características: 
+• Alta conductividad eléctrica.  
+• Excelente resistencia mecánica.  
+• Aplicación mediante compresión en frío.  
+--- PAGE 3 ---
+• Conexiones seguras y duraderas.  
+• Aptos para unión de conductores y conexión a jabalinas.  
+Soldadura Cuproaluminotérmica 
+Sistema de unión molecular permanente para conductores de puesta a tierra. 
+Aplicaciones: 
+• Cable a cable.  
+• Cable a jabalina.  
+• Cable a planchuela.  
+• Cable a estructura metálica.  
+• Cable a terminal.  
+Ventajas: 
+• Resistencia eléctrica mínima.  
+• Excelente comportamiento frente a corrientes de falla.  
+• No afloja ni se degrada con el tiempo.  
+• Resistencia mecánica superior a la del conductor.  
+Planchuelas de Cobre Electrolítico 
+Fabricadas en cobre ETP 99,9% de pureza. 
+Características: 
+• Conductividad mínima del 97% IACS.  
+• Aptas para barras equipotenciales y distribución de tierra.  
+• Excelente capacidad de conformado.  
+• Posibilidad de plegado a 90° sin fisuras.  
+• Disponibles en múltiples anchos y espesores.  
+Aplicaciones 
+• Sistemas de puesta a tierra industrial.  
+• Subestaciones transformadoras.  
+• Centros de datos.  
+• Plantas fabriles.  
+• Redes de distribución eléctrica.  
+• Instalaciones comerciales.  
+• Sistemas de protección contra descargas atmosféricas.  
+• Obras de infraestructura energética.  
+• Energías renovables.  
+Ventajas 
+• Solución integral para puesta a tierra.  
+• Elevada confiabilidad eléctrica.  
+• Máxima resistencia a la corrosión.  
+• Larga vida útil en ambientes agresivos.  
+• Cumplimiento de normas IRAM.  
+• Fácil instalación y mantenimiento.  
+--- PAGE 4 ---
+• Excelente relación costo-beneficio.  
+Calidad y Normativas 
+Productos fabricados bajo estrictos controles de calidad y conforme a normas IRAM 
+aplicables a sistemas de puesta a tierra, conductores cobre-acero, jabalinas y accesorios 
+de conexión. 
+  
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/3-HERRAJES Y MORSETERIA/FICHA TECNICA (PARTE MORSETERIA).pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+TERMINALES, UNIONES, MORSETERÍA Y HERRAMIENTAS PARA REDES 
+ELÉCTRICAS 
+Descripción 
+Línea completa de productos para conexión, empalme, derivación, puesta a tierra y 
+terminación de conductores eléctricos de cobre y aluminio en sistemas de baja, media y 
+alta tensión. Incluye terminales, uniones, conectores, morsetería, accesorios para líneas 
+aéreas y herramientas de compresión, diseñados para aplicaciones industriales, 
+energéticas, de distribución eléctrica y obras de infraestructura.  
+Líneas de Productos 
+• Terminales y uniones de cobre.  
+• Terminales y uniones de aluminio.  
+• Terminales bimetálicos.  
+• Terminales preaislados.  
+• Punteras tubulares.  
+• Terminales de latón.  
+• Conectores para derivación y puesta a tierra.  
+• Morsetería para redes eléctricas.  
+• Accesorios para líneas aéreas.  
+• Herramientas manuales e hidráulicas para compresión, corte y pelado de 
+conductores.  
+Materiales 
+• Cobre electrolítico de alta conductividad.  
+• Aluminio de alta pureza.  
+• Combinaciones aluminio-cobre soldadas por fricción para conexiones bimetálicas.  
+• Recubrimiento de estaño por electrodeposición para protección anticorrosiva.  
+• Aislaciones en PVC y materiales termoplásticos de uso eléctrico.  
+Características Generales 
+• Elevada conductividad eléctrica.  
+• Excelente resistencia mecánica.  
+• Protección contra la corrosión.  
+• Instalación mediante compresión hexagonal o identación según el producto.  
+• Marcación de secciones y matrices de aplicación.  
+• Disponibilidad para conductores de cobre y aluminio en una amplia gama de 
+secciones.  
+• Soluciones específicas para distribución de energía, puesta a tierra y líneas aéreas.  
+Terminales y Uniones de Cobre 
+• Terminales de uno y dos orificios.  
+• Tubo estándar y tubo largo.  
+• Uniones de compresión.  
+• Modelos con ventana de inspección.  
+• Versiones para conductores métricos y AWG.  
+• Cobre electrolítico estañado para máxima conductividad y durabilidad.  
+--- PAGE 2 ---
+Terminales de Aluminio y Bimetálicos 
+• Terminales para conductores de aluminio.  
+• Uniones para conductores de aluminio.  
+• Terminales bimetálicos aluminio-cobre.  
+• Soluciones para evitar corrosión galvánica entre metales diferentes.  
+• Aplicables mediante compresión hexagonal o identación profunda.  
+Morsetería y Conectores 
+• Conectores para derivación.  
+• Conectores para puesta a tierra.  
+• Morsetos para redes aéreas.  
+• Grampas y accesorios para distribución eléctrica.  
+• Soluciones para conexión y derivación de conductores en servicio.  
+Herramientas 
+• Herramientas manuales para identación y compresión.  
+• Herramientas hidráulicas monocomando.  
+• Herramientas hidráulicas de comando remoto.  
+• Cortacables.  
+• Pelacables.  
+• Sacabocados hidráulicos.  
+• Matrices intercambiables para distintas aplicaciones.  
+Aplicaciones 
+• Redes de distribución eléctrica.  
+• Líneas aéreas de media tensión.  
+• Subestaciones transformadoras.  
+• Instalaciones industriales.  
+• Sistemas de puesta a tierra.  
+• Infraestructura energética.  
+• Obras de transmisión y distribución eléctrica.  
+• Instalaciones comerciales y de servicios.  
+Ventajas 
+• Amplio rango de productos para conductores de cobre y aluminio.  
+• Compatibilidad con herramientas de compresión profesionales.  
+• Alta confiabilidad eléctrica y mecánica.  
+• Protección contra corrosión y envejecimiento.  
+• Facilidad y rapidez de instalación.  
+• Soluciones certificadas para aplicaciones críticas del sector eléctrico.  
+Calidad y Certificaciones 
+• Sistema de gestión de calidad certificado ISO 9001.  
+• Productos certificados bajo normas IEC aplicables a terminales, uniones y 
+conectores de compresión.  
+• Certificaciones IRAM para distintas líneas de productos.  
+• Cumplimiento de los requisitos regulatorios vigentes para comercialización y uso en 
+Argentina.  
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/3-HERRAJES Y MORSETERIA/FICHA TECNICA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+ACCESORIOS PARA REDES ELÉCTRICAS AÉREAS Y SUBTERRÁNEAS 
+Descripción 
+Línea de productos destinada a la conexión, empalme, terminación, retención, suspensión 
+y protección de conductores eléctricos en redes aéreas y subterráneas de baja y media 
+tensión. Incluye accesorios para cables preensamblados, sistemas de distribución 
+eléctrica, instalaciones industriales y proyectos de infraestructura energética. Los 
+productos están diseñados para maximizar la confiabilidad eléctrica, la seguridad 
+operativa y la vida útil de las instalaciones.  
+Líneas de Productos 
+• Morsas de suspensión y retención.  
+• Morsas de acometida domiciliaria.  
+• Ménsulas y accesorios de fijación.  
+• Manguitos de empalme preaislados y desnudos.  
+• Terminales preaislados de conexión.  
+• Protectores terminales.  
+• Flejes, hebillas y sistemas de fijación.  
+• Accesorios para líneas preensambladas.  
+• Empalmes para baja y media tensión.  
+• Terminales termocontraíbles hasta 36 kV.  
+• Terminales contraíbles en frío hasta 36 kV.  
+• Conectores enchufables apantallados.  
+• Uniones y terminales a tornillo fusible.  
+• Tubos termocontraíbles.  
+• Resinas y geles dieléctricos.  
+• Herramientas para preparación e instalación de cables.  
+Materiales 
+• Aleaciones de aluminio de alta resistencia.  
+• Acero galvanizado y cincado.  
+• Acero inoxidable AISI 304.  
+• Latón estañado.  
+• Poliamidas con protección UV.  
+• Elastómeros termoplásticos para intemperie.  
+• Siliconas y materiales dieléctricos de última generación.  
+• Resinas poliuretánicas y geles aislantes.  
+Características Generales 
+• Elevada confiabilidad eléctrica y mecánica.  
+• Excelente resistencia a la corrosión y a la intemperie.  
+• Aptos para instalaciones aéreas y subterráneas.  
+• Compatibilidad con conductores de cobre y aluminio.  
+• Fácil instalación y mantenimiento.  
+• Soluciones para distribución, industria, minería, petróleo y gas.  
+• Productos ensayados bajo estándares internacionales reconocidos.  
+--- PAGE 2 ---
+Soluciones para Líneas Aéreas 
+Incluyen morsas de suspensión, morsas de retención, acometidas domiciliarias, ménsulas, 
+piezas intermedias, protectores terminales y sistemas de fijación para redes 
+preensambladas de baja tensión. Diseñados para soportar esfuerzos mecánicos, 
+vibraciones y condiciones climáticas severas, garantizando la continuidad del servicio 
+eléctrico.  
+Soluciones para Líneas Subterráneas 
+• Empalmes rectos para baja y media tensión.  
+• Terminales termocontraíbles y contraíbles en frío.  
+• Conectores enchufables apantallados.  
+• Uniones y terminales a tornillo fusible.  
+• Resinas y geles para encapsulado.  
+• Accesorios para reparación y protección de cables.  
+• Sistemas para cables hasta 36 kV.  
+Empalmes y Terminales 
+Los sistemas de empalme y terminación permiten restablecer la continuidad eléctrica y 
+mecánica de los conductores, garantizando estanqueidad, aislamiento y protección contra 
+la corrosión. Disponibles en tecnologías termocontraíbles, contraíbles en frío, 
+elastoméricas y con resinas dieléctricas.  
+Conectores y Accesorios Especiales 
+• Conectores enchufables para celdas y equipos de media tensión.  
+• Descargadores de sobretensión.  
+• Conectores preaislados.  
+• Accesorios para líneas protegidas.  
+• Cintas especiales para aislamiento eléctrico.  
+• Materiales semiconductivos y accesorios para fabricación de cables.  
+Aplicaciones 
+• Distribución eléctrica urbana y rural.  
+• Redes aéreas preensambladas.  
+• Redes subterráneas de baja y media tensión.  
+• Subestaciones transformadoras.  
+• Industria pesada.  
+• Minería.  
+• Petróleo y gas.  
+• Energías renovables.  
+• Infraestructura eléctrica pública y privada.  
+Ventajas 
+• Máxima seguridad operativa.  
+• Reducción de fallas por humedad y contaminación.  
+--- PAGE 3 ---
+• Alta resistencia mecánica y eléctrica.  
+• Larga vida útil en servicio.  
+• Compatibilidad con estándares internacionales.  
+• Asesoramiento técnico especializado y soporte de instalación.  
+• Soluciones integrales para redes eléctricas modernas.  
+Calidad y Normativas 
+Los productos son ensayados bajo normas y estándares internacionales reconocidos para 
+aplicaciones de baja y media tensión, garantizando desempeño, confiabilidad y seguridad 
+en servicio. La oferta tecnológica incorpora soluciones homologadas bajo normas IEC, 
+IEEE y CENELEC según la aplicación correspondiente. 
+ 
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/4-ILUMINACIÓN/FICHA TECNICA.pdf
+=========================================
+Total Pages: 4
+
+--- PAGE 1 ---
+ILUMINACIÓN LED y CONTROL 
+Descripción 
+Línea integral de productos para iluminación residencial, comercial, industrial y urbana. 
+Comprende lámparas LED, luminarias interiores y exteriores, reflectores, paneles LED, 
+sistemas inteligentes de iluminación, sensores, interruptores, tomacorrientes y accesorios 
+eléctricos, desarrollados para maximizar la eficiencia energética, la vida útil y la calidad 
+lumínica de las instalaciones.  
+Líneas de Productos 
+• Lámparas LED.  
+• Tubos LED.  
+• Luminarias para interior.  
+• Luminarias para exterior.  
+• Luminarias industriales.  
+• Luminarias para alumbrado público.  
+• Reflectores LED.  
+• Paneles LED.  
+• Sistemas de rieles y luminarias decorativas.  
+• Tiras LED y accesorios.  
+• Sensores y fotocélulas.  
+• Sistemas de iluminación inteligente.  
+• Interruptores y tomacorrientes.  
+• Fuentes de alimentación y controladores.  
+Materiales 
+• Aluminio de alta disipación térmica.  
+• Policarbonato de elevada resistencia al impacto.  
+• Acero para aplicaciones estructurales.  
+• Difusores ópticos de alta transmisión lumínica.  
+• Componentes electrónicos de bajo consumo.  
+• Materiales resistentes a la radiación UV y la intemperie.  
+Características Generales 
+• Tecnología LED de alta eficiencia energética.  
+• Bajo consumo eléctrico.  
+• Larga vida útil operativa.  
+• Encendido instantáneo.  
+• Baja emisión térmica.  
+• Amplia variedad de temperaturas de color.  
+• Soluciones para uso interior y exterior.  
+• Opciones inteligentes para automatización y control.  
+Lámparas LED 
+Soluciones para reemplazo de tecnologías tradicionales en aplicaciones residenciales, 
+comerciales e institucionales. 
+Incluyen: 
+--- PAGE 2 ---
+• Lámparas tipo bulbo.  
+• Lámparas decorativas de filamento.  
+• Dicroicas LED.  
+• Bipin LED.  
+• AR111.  
+• PAR LED.  
+• Tubos LED.  
+• Versiones inteligentes con conectividad.  
+Luminarias para Interior 
+Diseñadas para iluminación general, decorativa y arquitectónica. 
+Aplicaciones: 
+• Viviendas.  
+• Oficinas.  
+• Comercios.  
+• Hoteles.  
+• Instituciones.  
+Incluyen: 
+• Luminarias de pie.  
+• Luminarias de mesa.  
+• Sistemas de emergencia.  
+• Listones LED.  
+• Sistemas de rieles magnéticos y accesorios.  
+• Luminarias decorativas y arquitectónicas.  
+Luminarias para Exterior 
+Equipos desarrollados para ambientes expuestos a condiciones climáticas adversas. 
+Características: 
+• Protección contra humedad y polvo.  
+• Alta resistencia mecánica.  
+• Tecnología LED de larga duración.  
+Aplicaciones: 
+• Jardines.  
+• Parques.  
+• Espacios públicos.  
+• Fachadas.  
+• Caminos peatonales.  
+Incluyen luminarias solares, estacas decorativas, luminarias lineales y equipos para 
+iluminación exterior.  
+Reflectores LED 
+Soluciones para iluminación de grandes superficies y aplicaciones de seguridad. 
+--- PAGE 3 ---
+Características: 
+• Alto rendimiento lumínico.  
+• Excelente uniformidad de iluminación.  
+• Opciones para aplicaciones residenciales, comerciales e industriales.  
+• Versiones estándar, profesionales e inteligentes.  
+• Alternativas alimentadas por energía solar.  
+Luminarias Industriales y de Proyecto 
+Equipos destinados a instalaciones de alta exigencia. 
+Incluyen: 
+• Campanas industriales LED.  
+• Luminarias para galpones.  
+• Reflectores de alta potencia.  
+• Luminarias para espacios deportivos.  
+• Alumbrado público LED.  
+• Sistemas solares autónomos.  
+Diseñados para maximizar la eficiencia energética y reducir costos de mantenimiento.  
+Paneles LED 
+Soluciones para iluminación uniforme en oficinas, comercios y edificios institucionales. 
+Características: 
+• Bajo nivel de deslumbramiento.  
+• Excelente distribución lumínica.  
+• Versiones embutidas y de aplicar.  
+• Formatos cuadrados y rectangulares.  
+• Opciones de gran formato para espacios amplios.  
+Tiras LED y Sistemas Decorativos 
+Productos orientados a iluminación ambiental, decorativa y arquitectónica. 
+Incluyen: 
+• Tiras LED flexibles.  
+• Tiras COB de alta uniformidad.  
+• Sistemas tipo neón LED.  
+• Perfilería de aluminio.  
+• Controladores y accesorios.  
+• Fuentes de alimentación específicas.  
+Automatización y Control 
+Soluciones para optimizar el consumo energético y mejorar la experiencia de uso. 
+Incluyen: 
+--- PAGE 4 ---
+• Sensores de movimiento.  
+• Sensores inteligentes.  
+• Fotocélulas.  
+• Sistemas Smart para control remoto.  
+• Controladores RGB y automatización lumínica.  
+Interruptores y Tomas 
+Línea de mecanismos eléctricos para instalaciones residenciales y comerciales. 
+Características: 
+• Diseño modular.  
+• Diversidad de terminaciones.  
+• Compatibilidad con sistemas de automatización.  
+• Soluciones para energía y conectividad.  
+Aplicaciones 
+• Viviendas.  
+• Edificios corporativos.  
+• Centros comerciales.  
+• Hoteles.  
+• Hospitales.  
+• Industrias.  
+• Depósitos y centros logísticos.  
+• Alumbrado público.  
+• Espacios deportivos.  
+• Infraestructura urbana.  
+Ventajas 
+• Reducción del consumo energético.  
+• Menor costo de mantenimiento.  
+• Amplia variedad de soluciones de iluminación.  
+• Tecnología LED de alta eficiencia.  
+• Integración con sistemas inteligentes.  
+• Larga vida útil de los equipos.  
+• Adaptabilidad a proyectos residenciales, comerciales e industriales.  
+Calidad 
+Productos desarrollados para aplicaciones de iluminación profesional y residencial, 
+fabricados bajo estándares de calidad que priorizan eficiencia energética, confiabilidad 
+operativa y desempeño lumínico en todo tipo de instalaciones.  
+Soluciones integrales de iluminación LED y material eléctrico diseñadas para 
+brindar eficiencia, ahorro energético, confort visual y larga vida útil en aplicaciones 
+residenciales, comerciales, industriales y urbanas 
+ 
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/5-CAÑOS Y CAJAS/FICHA TECNICA.pdf
+=========================================
+Total Pages: 4
+
+--- PAGE 1 ---
+SISTEMAS DE CANALIZACIÓN ELÉCTRICA, CAJAS Y ACCESORIOS 
+Descripción 
+Línea integral de productos para canalización, distribución y protección de instalaciones 
+eléctricas residenciales, comerciales e industriales. Comprende tuberías rígidas y 
+corrugadas, cajas de embutir y estancas, cablecanales, gabinetes modulares, sistemas de 
+medición y accesorios de montaje, desarrollados para garantizar instalaciones seguras, 
+ordenadas y de larga vida útil.  
+Líneas de Productos 
+• Tubos rígidos para instalaciones eléctricas.  
+• Tubos corrugados livianos, semipesados y pesados.  
+• Accesorios para canalización.  
+• Cajas de embutir.  
+• Cajas estancas.  
+• Gabinetes modulares para tableros eléctricos.  
+• Cablecanales para distribución de cableado.  
+• Sistemas para medición eléctrica.  
+• Accesorios de fijación y montaje.  
+• Herramientas para instalación eléctrica.  
+Materiales 
+• Termoplásticos de ingeniería de alta resistencia.  
+• Materiales libres de halógenos.  
+• Compuestos autoextinguibles.  
+• Materiales resistentes a impactos y deformaciones.  
+• Componentes aptos para uso interior y exterior según aplicación.  
+Características Generales 
+• Sistema integral de canalización eléctrica.  
+• Alta resistencia mecánica.  
+• Excelente comportamiento frente a la corrosión.  
+• Soluciones para instalaciones embutidas y de superficie.  
+• Compatibilidad entre tubos, cajas y accesorios.  
+• Fácil instalación y mantenimiento.  
+• Amplia variedad de configuraciones y dimensiones.  
+• Productos aptos para aplicaciones residenciales, comerciales e industriales.  
+Sistemas de Canalización 
+Soluciones destinadas a la protección y conducción de cables eléctricos. 
+Incluyen: 
+• Tubos rígidos de diferentes resistencias mecánicas.  
+• Tubos corrugados para instalaciones embutidas.  
+• Sistemas para canalización en paredes, pisos y techos.  
+• Accesorios para unión, derivación y fijación.  
+--- PAGE 2 ---
+Características: 
+• Elevada resistencia al impacto.  
+• Excelente capacidad de protección mecánica.  
+• Facilidad de tendido y mantenimiento de conductores.  
+• Compatibilidad con reglamentaciones de instalaciones eléctricas.  
+Cajas para Instalaciones Eléctricas 
+Diseñadas para alojamiento y protección de conexiones eléctricas. 
+Disponibles para: 
+• Instalaciones embutidas.  
+• Instalaciones de superficie.  
+• Aplicaciones estancas.  
+• Montaje de mecanismos y accesorios.  
+Características: 
+• Amplia variedad de formatos y dimensiones.  
+• Excelente resistencia mecánica.  
+• Fácil acceso para mantenimiento e inspección.  
+• Protección frente a agentes externos según modelo.  
+Gabinetes y Tableros 
+Soluciones destinadas al montaje y protección de dispositivos eléctricos. 
+Características: 
+• Preparados para equipamiento modular DIN.  
+• Diferentes capacidades y configuraciones.  
+• Versiones para interior y exterior.  
+• Opciones con distintos grados de protección.  
+• Diseño funcional para organización del cableado.  
+Cablecanales y Organización de Cableado 
+Sistemas diseñados para distribuir y proteger conductores eléctricos y de 
+comunicaciones. 
+Ventajas: 
+• Instalaciones prolijas y ordenadas.  
+• Fácil ampliación y mantenimiento.  
+• Separación de circuitos cuando la aplicación lo requiere.  
+• Opciones para pared, zócalo y piso.  
+• Diversas dimensiones para adaptarse a cada proyecto.  
+--- PAGE 3 ---
+Sistemas para Medición Eléctrica 
+Productos destinados al montaje y protección de equipos de medición y acometidas 
+eléctricas. 
+Aplicaciones: 
+• Instalaciones residenciales.  
+• Edificios multifamiliares.  
+• Comercios.  
+• Industrias.  
+• Obras de infraestructura eléctrica.  
+Incluyen gabinetes, cajas y accesorios para diferentes configuraciones de suministro.  
+Accesorios Complementarios 
+• Uniones.  
+• Conectores.  
+• Curvas.  
+• Adaptadores.  
+• Grampas de fijación.  
+• Tapas.  
+• Elementos de sellado.  
+• Accesorios para montaje y terminación.  
+Diseñados para lograr una integración completa de todos los componentes del sistema.  
+Aplicaciones 
+• Viviendas.  
+• Edificios comerciales.  
+• Oficinas.  
+• Hospitales.  
+• Instituciones educativas.  
+• Centros logísticos.  
+• Plantas industriales.  
+• Infraestructura pública.  
+• Obras eléctricas de distribución y servicios.  
+Ventajas 
+• Sistema integral de productos compatibles entre sí.  
+• Mayor seguridad en la instalación.  
+• Resistencia mecánica superior.  
+• Materiales libres de halógenos.  
+• Reducción de tiempos de montaje.  
+• Excelente durabilidad en servicio.  
+• Amplia disponibilidad de accesorios y complementos.  
+• Soluciones para instalaciones de baja tensión de todo tipo.  
+--- PAGE 4 ---
+Calidad 
+Productos desarrollados bajo estrictos controles de calidad y fabricados para cumplir con 
+las exigencias de instalaciones eléctricas modernas. Las líneas de canalización incluyen 
+soluciones con certificaciones y cumplimiento de normas aplicables para seguridad 
+eléctrica y resistencia mecánica 
+ 
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/6-BANDEJAS/FICHA TECNICA.pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+BANDEJAS PORTACABLES Y ACCESORIOS 
+Descripción 
+Sistema de canalización eléctrica diseñado para la conducción, soporte y organización de 
+cables de potencia, comando, control, instrumentación y telecomunicaciones en 
+instalaciones industriales, comerciales, de infraestructura y centros de datos. Fabricado 
+bajo estrictos estándares de calidad y con soluciones modulares que facilitan el montaje y 
+mantenimiento. 
+Líneas de Productos 
+• Bandejas portacables perforadas. 
+• Bandejas portacables tipo escalera. 
+• Bandejas portacables de alambre. 
+• Sistema de canalización bajo piso. 
+• Línea tipo escalera ultra pesada para aplicaciones de alta exigencia mecánica. 
+Materiales y Terminaciones 
+• Acero de alta resistencia mecánica. 
+• Galvanizado de origen. 
+• Galvanizado por inmersión en caliente. 
+• Opciones en acero inoxidable para aplicaciones especiales. 
+• Protección anticorrosiva apta para ambientes industriales y exteriores. 
+Características Generales 
+• Sistema modular de rápida instalación. 
+• Alta capacidad de carga y resistencia estructural. 
+• Excelente ventilación para disipación térmica de conductores. 
+• Facilidad de inspección y mantenimiento. 
+• Adaptabilidad a distintos tipos de montaje. 
+• Amplia variedad de accesorios para derivaciones y cambios de dirección. 
+Accesorios Disponibles 
+• Curvas planas. 
+• Curvas verticales ascendentes y descendentes. 
+• Curvas articuladas. 
+• Uniones Tee. 
+• Uniones Cruz. 
+• Reducciones. 
+• Cuplas de unión. 
+• Eslabones universales. 
+• Tapas para tramos y accesorios. 
+• Bandas divisorias. 
+• Perfiles tipo C. 
+• Soportes ménsula, trapecio, universales y reforzados. 
+• Grampas de suspensión y fijación. 
+• Varillas roscadas, tuercas y bulonería de montaje. 
+--- PAGE 2 ---
+Aplicaciones 
+• Plantas industriales. 
+• Centros logísticos. 
+• Edificios corporativos. 
+• Hospitales. 
+• Centros de procesamiento de datos. 
+• Infraestructura energética. 
+• Obras de petróleo, gas y minería. 
+• Instalaciones comerciales y de servicios. 
+Ventajas 
+• Optimización del tendido de cables. 
+• Mayor seguridad y orden en las instalaciones. 
+• Facilidad para ampliaciones futuras. 
+• Reducción de tiempos de montaje. 
+• Elevada durabilidad y resistencia a la corrosión. 
+• Compatibilidad entre bandejas, soportes y accesorios del sistema. 
+Calidad 
+Fabricados bajo un sistema de gestión de calidad certificado, con foco en la innovación, la 
+seguridad y el desempeño de las instalaciones eléctricas industriales. 
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/7-TECLAS Y BASTIDORES/FICHA TECNICA.pdf
+=========================================
+Total Pages: 3
+
+--- PAGE 1 ---
+TECLAS Y BASTIDORES 
+Descripción 
+Línea de productos eléctricos destinada a instalaciones residenciales, comerciales e 
+industriales livianas. Comprende mecanismos de comando, tomacorrientes, módulos de 
+comunicación, fichas eléctricas, tapas, bastidores y accesorios de montaje, desarrollados 
+para brindar seguridad, funcionalidad y estética en todo tipo de instalaciones eléctricas. 
+Líneas de Productos 
+• Interruptores de comando.  
+• Pulsadores.  
+• Tomacorrientes.  
+• Módulos de datos y telecomunicaciones.  
+• Variadores electrónicos.  
+• Indicadores luminosos.  
+• Fichas y tomas móviles.  
+• Bastidores.  
+• Tapas de terminación.  
+• Accesorios para montaje e instalación.  
+• Protecciones eléctricas modulares.  
+Materiales 
+• Termoplásticos de ingeniería de alta resistencia.  
+• Policarbonato de elevada durabilidad.  
+• Componentes metálicos de alta conductividad eléctrica.  
+• Materiales autoextinguibles.  
+• Elementos resistentes al envejecimiento y al uso intensivo.  
+Características Generales 
+• Diseño modular adaptable a múltiples configuraciones.  
+• Instalación simple y rápida.  
+• Compatibilidad entre módulos y accesorios.  
+• Excelente resistencia mecánica.  
+• Amplia variedad de terminaciones y formatos.  
+• Aptos para instalaciones embutidas y de superficie.  
+• Soluciones para energía, datos y telecomunicaciones.  
+Interruptores y Pulsadores 
+Dispositivos destinados al comando y control de circuitos eléctricos de iluminación y 
+servicios. 
+Características: 
+• Funcionamiento confiable y silencioso.  
+• Elevada vida útil mecánica.  
+• Diseño modular intercambiable.  
+• Aptos para instalaciones residenciales y comerciales.  
+--- PAGE 2 ---
+Tomacorrientes 
+Diseñados para la alimentación segura de equipos eléctricos y electrónicos. 
+Características: 
+• Versiones con y sin puesta a tierra.  
+• Diferentes capacidades de corriente.  
+• Contactos de elevada conductividad.  
+• Máxima seguridad de conexión.  
+• Compatibilidad con instalaciones normalizadas.  
+Módulos Especiales 
+• Tomas para televisión.  
+• Tomas telefónicas.  
+• Tomas de datos.  
+• Conectores de red.  
+• Indicadores luminosos.  
+• Variadores de iluminación.  
+• Reguladores para ventilación.  
+• Puertos de alimentación USB.  
+Tapas y Bastidores 
+Elementos destinados al montaje y terminación estética de los mecanismos eléctricos. 
+Características: 
+• Diversos formatos y dimensiones.  
+• Amplia variedad de colores y terminaciones.  
+• Fácil instalación y reemplazo.  
+• Excelente resistencia al uso cotidiano.  
+Fichas y Tomas Móviles 
+• Fichas bipolares.  
+• Fichas con puesta a tierra.  
+• Tomas móviles para prolongaciones.  
+• Versiones para distintas capacidades de corriente.  
+• Diseñadas para uso residencial, comercial e industrial liviano.  
+Aplicaciones 
+• Viviendas.  
+• Oficinas.  
+• Comercios.  
+• Instituciones educativas.  
+• Hospitales.  
+• Hoteles.  
+• Edificios corporativos.  
+• Instalaciones industriales livianas.  
+• Obras de infraestructura edilicia.  
+--- PAGE 3 ---
+Ventajas 
+• Sistema modular flexible.  
+• Amplia compatibilidad de componentes.  
+• Diseño moderno y funcional.  
+• Fácil mantenimiento y ampliación.  
+• Excelente relación entre calidad y prestaciones.  
+• Soluciones integrales para energía y comunicaciones.  
+• Adaptabilidad a distintos requerimientos de instalación.  
+Calidad 
+Productos fabricados bajo estrictos controles de calidad y conforme a los requisitos de las 
+normas eléctricas aplicables para instalaciones de baja tensión, garantizando seguridad, 
+confiabilidad y durabilidad en servicio. 
+  
+
+=========================================
+PDF PATH: public/images/ProductosNuevos/9-RESTO DE MATERIALES ELECTRICOS/9-TERMINALES/FICHA TECNICA.pdf
+=========================================
+Total Pages: 2
+
+--- PAGE 1 ---
+TERMINALES, UNIONES, MORSETERÍA Y HERRAMIENTAS PARA REDES 
+ELÉCTRICAS 
+Descripción 
+Línea completa de productos para conexión, empalme, derivación, puesta a tierra y 
+terminación de conductores eléctricos de cobre y aluminio en sistemas de baja, media y 
+alta tensión. Incluye terminales, uniones, conectores, morsetería, accesorios para líneas 
+aéreas y herramientas de compresión, diseñados para aplicaciones industriales, 
+energéticas, de distribución eléctrica y obras de infraestructura.  
+Líneas de Productos 
+• Terminales y uniones de cobre.  
+• Terminales y uniones de aluminio.  
+• Terminales bimetálicos.  
+• Terminales preaislados.  
+• Punteras tubulares.  
+• Terminales de latón.  
+• Conectores para derivación y puesta a tierra.  
+• Morsetería para redes eléctricas.  
+• Accesorios para líneas aéreas.  
+• Herramientas manuales e hidráulicas para compresión, corte y pelado de 
+conductores.  
+Materiales 
+• Cobre electrolítico de alta conductividad.  
+• Aluminio de alta pureza.  
+• Combinaciones aluminio-cobre soldadas por fricción para conexiones bimetálicas.  
+• Recubrimiento de estaño por electrodeposición para protección anticorrosiva.  
+• Aislaciones en PVC y materiales termoplásticos de uso eléctrico.  
+Características Generales 
+• Elevada conductividad eléctrica.  
+• Excelente resistencia mecánica.  
+• Protección contra la corrosión.  
+• Instalación mediante compresión hexagonal o identación según el producto.  
+• Marcación de secciones y matrices de aplicación.  
+• Disponibilidad para conductores de cobre y aluminio en una amplia gama de 
+secciones.  
+• Soluciones específicas para distribución de energía, puesta a tierra y líneas aéreas.  
+Terminales y Uniones de Cobre 
+• Terminales de uno y dos orificios.  
+• Tubo estándar y tubo largo.  
+• Uniones de compresión.  
+• Modelos con ventana de inspección.  
+• Versiones para conductores métricos y AWG.  
+• Cobre electrolítico estañado para máxima conductividad y durabilidad.  
+--- PAGE 2 ---
+Terminales de Aluminio y Bimetálicos 
+• Terminales para conductores de aluminio.  
+• Uniones para conductores de aluminio.  
+• Terminales bimetálicos aluminio-cobre.  
+• Soluciones para evitar corrosión galvánica entre metales diferentes.  
+• Aplicables mediante compresión hexagonal o identación profunda.  
+Morsetería y Conectores 
+• Conectores para derivación.  
+• Conectores para puesta a tierra.  
+• Morsetos para redes aéreas.  
+• Grampas y accesorios para distribución eléctrica.  
+• Soluciones para conexión y derivación de conductores en servicio.  
+Herramientas 
+• Herramientas manuales para identación y compresión.  
+• Herramientas hidráulicas monocomando.  
+• Herramientas hidráulicas de comando remoto.  
+• Cortacables.  
+• Pelacables.  
+• Sacabocados hidráulicos.  
+• Matrices intercambiables para distintas aplicaciones.  
+Aplicaciones 
+• Redes de distribución eléctrica.  
+• Líneas aéreas de media tensión.  
+• Subestaciones transformadoras.  
+• Instalaciones industriales.  
+• Sistemas de puesta a tierra.  
+• Infraestructura energética.  
+• Obras de transmisión y distribución eléctrica.  
+• Instalaciones comerciales y de servicios.  
+Ventajas 
+• Amplio rango de productos para conductores de cobre y aluminio.  
+• Compatibilidad con herramientas de compresión profesionales.  
+• Alta confiabilidad eléctrica y mecánica.  
+• Protección contra corrosión y envejecimiento.  
+• Facilidad y rapidez de instalación.  
+• Soluciones certificadas para aplicaciones críticas del sector eléctrico.  
+Calidad y Certificaciones 
+• Sistema de gestión de calidad certificado ISO 9001.  
+• Productos certificados bajo normas IEC aplicables a terminales, uniones y 
+conectores de compresión.  
+• Certificaciones IRAM para distintas líneas de productos.  
+• Cumplimiento de los requisitos regulatorios vigentes para comercialización y uso en 
+Argentina.  
