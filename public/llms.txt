@@ -1,0 +1,10 @@
+# Vicbril Internacional S.A.
+
+Distribuidor mayorista de conductores eléctricos con más de 25 años de experiencia en la industria.
+
+## Secciones Principales
+- **Inicio** (`/`): Presentación de la empresa, banner principal y accesos rápidos.
+- **Nosotros** (`/nosotros`): Historia, misión, visión y valores.
+- **Catálogo de Productos** (`/productos`): Conductores eléctricos agrupados por categorías (Líneas Aéreas, Potencia, Cables Especiales, Resto de Materiales Eléctricos, etc.).
+- **Mercados** (`/mercados`): Sectores e industrias atendidas (Minería, Energía, Construcción, Petróleo y Gas, Transporte).
+- **Contacto** (`/contacto`): Canales de atención y formulario de consultas.
