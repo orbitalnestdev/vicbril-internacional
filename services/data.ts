@@ -212,8 +212,8 @@ Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquin
       'Norma de conductores: IEC 60228 / IRAM NM 280.',
       'Conductor: Cobre electrolítico recocido en formación clase 5.',
       'Aislación: PVC.',
-      'Identificación: Color negro con identificación alfanumerica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo en el total de conductores indicados.',
-      'Cubierta: PVC negro, no propagante del incendio.'
+      'Identificación: Vaina externa color blanco con conductores internos color marrón y celeste. En tripolares incluye un conductor de tierra verde/amarillo.',
+      'Cubierta: PVC color blanco, no propagante de llama.'
     ],
     colors: [
       { 
@@ -248,12 +248,12 @@ Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquin
     id: 'bipolar-paralelo',
     name: 'Cable Paralelo',
     categoryPath: ['Cables para Instalación Civil', 'Bipolar'],
-    description: 'Cordones paralelos de cobre para alimentación de artefactos livianos y prolongaciones.',
+    description: 'Cables paralelos, para uso en artefactos domésticos',
     detailedDescription: `DESCRIPCIÓN
-Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general, excluyendo los aparatos de calefacción.
+Cables flexibles diseñados para uso en instalaciones móviles y aparatos portátiles domésticos en general, excluyendo los aparatos de calefacción.
 
 APLICACIONES
-Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquinas - herramientas y equipamientos de mano. Los cables están permitidos para su conexión directa a la red eléctrica.`,
+Uso en especial para artefactos de iluminación domésticos.`,
     image: '/images/ProductosNuevos/1-CABLES PARA INSTALACION CIVIL/2-CABLE BIPOLAR/CABLE PARALELO/portada.jpeg',
     gallery: [
       '/images/ProductosNuevos/1-CABLES PARA INSTALACION CIVIL/2-CABLE BIPOLAR/CABLE PARALELO/FICHA TECNICA PARALELO/foto producto dentro de ficha tecnica.jpeg'
@@ -269,8 +269,8 @@ Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquin
       'Norma de conductores: IEC 60228 / IRAM NM 280.',
       'Conductor: Cobre electrolítico recocido en formación clase 5.',
       'Aislación: PVC.',
-      'Identificación: Color negro con identificación alfanumérica en color blanco o amarillo. Siempre incluye un conductor de tierra verde/amarillo en el total de conductores indicados.',
-      'Cubierta: PVC negro, no propagante del incendio.'
+      'Identificación: Conductores aislados en paralelo (colores Blanco, Marrón o Negro).',
+      'Cubierta: Sin envoltura exterior (sin vaina).'
     ],
     colors: [
       {
@@ -37833,267 +37833,7 @@ trinchera o en ductos.`,
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
   },
-  {
-    id: 'industrial-cable-comando-ficha-tecnica',
-    name: 'Ficha Tecnica',
-    categoryPath: ['Cables Industriales', 'Cable Comando'],
-    description: '',
-    detailedDescription: `DESCRIPCIÓN
-
-
-APLICACIONES
-Instalación fija en ductos, bandejas portacables o al aire libre según especificaciones técnicas.`,
-
-    image: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/portada.jpeg',
-    gallery: [],
-    pdf: '/images/PRODUCTOS/5-CABLES INDUSTRIALES/3-CABLE COMANDO/FICHA TECNICA/FICHA TECNICA COMANDO.pdf',
-    specs: ['Industrial', '300 V / 600 V'],
-    characteristics: [
-      'Temperatura máxima de servicio según norma constructiva.',
-      'Excelente resistencia a la propagación del incendio.',
-      'Cubierta externa de alta durabilidad y protección física.'
-    ],
-    specsTables: [
-      {
-            "title": "Especificaciones Técnicas",
-            "headers": [
-                  "CARACTERÍSTICAS OPERATIVAS (Pobre – Regular – Buena – Muy Buena – Excelente)",
-                  "",
-                  "",
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
-            ],
-            "rows": [
-                  [
-                        "Rango de temperatura admisible en el entorno para uso continuo",
-                        "",
-                        "Tensión máxima de servicio",
-                        "Resistencia a la llama",
-                        "Radio de curvatura mínimo",
-                        "Flexibilidad",
-                        "Relación ajuste de vaina extracción",
-                        "Temperatura máxima en el conductor"
-                  ],
-                  [
-                        "-5 a 70 °C",
-                        "1000 Vac entre fases* 600 Vac entre fase y tierra 1200 Vcc contra tierra",
-                        "",
-                        "Muy Buena (IRAM NM IEC 60332-3 Cat. C)",
-                        "Flex. 5 D",
-                        "Excelente",
-                        "Excelente",
-                        "70 °C en uso continuo 160 °C en cortocircuito"
-                  ],
-                  [
-                        "Resistente a golpes medios",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                  ]
-            ]
-      },
-      {
-            "title": "Dimensiones y Pesos",
-            "headers": [
-                  "",
-                  "Máxima corriente admisible",
-                  "",
-                  "Diámetro máximo de alambres (CU - flexibles)",
-                  "Espesor de aislación promedio",
-                  "Espesor de vaina promedio",
-                  "Diámetro exterior S/Armar",
-                  ""
-            ],
-            "rows": [
-                  [
-                        "",
-                        "Al Aire",
-                        "Enterrado",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                  ],
-                  [
-                        "mm2",
-                        "A",
-                        "A",
-                        "mm",
-                        "mm",
-                        "mm",
-                        "mm",
-                        "kg/km"
-                  ],
-                  [
-                        "5 (4+T)",
-                        "11",
-                        "15",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "11.4",
-                        "210"
-                  ],
-                  [
-                        "7 (6+T)",
-                        "10",
-                        "13",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "12.6",
-                        "265"
-                  ],
-                  [
-                        "10 (9+T)",
-                        "9",
-                        "11",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "15.3",
-                        "365"
-                  ],
-                  [
-                        "12 11+T)",
-                        "9",
-                        "10",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "15.7",
-                        "425"
-                  ],
-                  [
-                        "19 (18+T)",
-                        "8",
-                        "8",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "19",
-                        "585"
-                  ],
-                  [
-                        "",
-                        "7",
-                        "8",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "21.3",
-                        ""
-                  ]
-            ]
-      },
-      {
-            "title": "Dimensiones y Pesos",
-            "headers": [
-                  "",
-                  "Máxima corriente admisible",
-                  "",
-                  "Diámetro máximo de alambres (CU - flexibles)",
-                  "Espesor de aislación promedio",
-                  "Espesor de vaina promedio",
-                  "Diámetro exterior S/Armar",
-                  ""
-            ],
-            "rows": [
-                  [
-                        "",
-                        "Al Aire",
-                        "Enterrado",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                  ],
-                  [
-                        "mm2",
-                        "A",
-                        "A",
-                        "mm",
-                        "mm",
-                        "mm",
-                        "mm",
-                        "kg/km"
-                  ],
-                  [
-                        "5 (4+T)",
-                        "15",
-                        "20",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "13",
-                        "305"
-                  ],
-                  [
-                        "7 (6+T)",
-                        "13",
-                        "17",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "14.3",
-                        "360"
-                  ],
-                  [
-                        "10 (9+T)",
-                        "12",
-                        "15",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "17.1",
-                        "505"
-                  ],
-                  [
-                        "12 11+T)",
-                        "12",
-                        "14",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "18.9",
-                        "568"
-                  ],
-                  [
-                        "19 (18+T)",
-                        "10",
-                        "11",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "22",
-                        "830"
-                  ],
-                  [
-                        "",
-                        "10",
-                        "10",
-                        "0.41",
-                        "0.8",
-                        "1.8",
-                        "25.9",
-                        ""
-                  ]
-            ]
-      }
-],
-    certifications: ['iram', 'seguridad', 'no-propagacion'],
-    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH']
-  },
-  {
+    {
     id: 'industrial-cable-comando-comando-blindado-mm2-pvc-hasta-48-conductores-1-a-4-mm-corrugado-cobre',
     name: 'PVC - Hasta 48 Conductores - 1 a 4mm² - Corrugado Cobre',
     categoryPath: ['Cables Industriales', 'Cable Comando', 'Comando Blindado', 'mm²'],
