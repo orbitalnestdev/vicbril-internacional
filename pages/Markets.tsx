@@ -101,12 +101,12 @@ const MarketCard: React.FC<{ market: MarketItem; idx: number }> = ({ market, idx
       <img
         src={market.image}
         alt={market.title}
-        className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70 group-hover:opacity-30"
+        className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-60 group-hover:opacity-90"
         loading="lazy"
       />
       
       {/* Dark Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent opacity-85 group-hover:opacity-95 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent opacity-80 group-hover:opacity-70 transition-opacity duration-300"></div>
 
       {/* Content Container */}
       <div className="absolute inset-0 flex flex-col justify-end p-6 xs:p-8 md:p-10 z-10">
