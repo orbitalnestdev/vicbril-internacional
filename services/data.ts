@@ -248,7 +248,7 @@ Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquin
     id: 'bipolar-paralelo',
     name: 'Cable Paralelo',
     categoryPath: ['Cables para Instalación Civil', 'Bipolar'],
-    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
+    description: 'Cordones paralelos de cobre para alimentación de artefactos livianos y prolongaciones.',
     detailedDescription: `DESCRIPCIÓN
 Cables flexibles diseñados para uso en instalaciones móviles industriales y domésticas y aparatos portátiles en general, excluyendo los aparatos de calefacción.
 
@@ -286,10 +286,7 @@ Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquin
         rows: [
           ["2x1", "0,21", "0,6", "0,6", "4,1 x 6,6", "44", "7", "19,5"],
           ["2x1,5", "0,26", "0,7", "0,6", "4,5 x 7,5", "58", "10", "13,3"],
-          ["2x2,5", "0,26", "0,8", "0,6", "5,1 x 8,8", "85", "16", "7,98"],
-          ["3x1", "0,21", "0,6", "0,6", "4,1 x 9,2", "64", "7", "19,5"],
-          ["3x1,5", "0,26", "0,7", "0,6", "4,5 x 10,6", "86", "10", "13,3"],
-          ["3x2,5", "0,26", "0,8", "0,6", "5,1 x 12,5", "126", "16", "7,98"]
+          ["2x2,5", "0,26", "0,8", "0,6", "5,1 x 8,8", "85", "16", "7,98"]
         ]
       }
     ],
@@ -300,7 +297,7 @@ Interconexión de máquinas empleadas para procesos fabriles, incluyendo máquin
     id: 'bipolar-paralelo-parlante',
     name: 'Cable Paralelo Parlante',
     categoryPath: ['Cables para Instalación Civil', 'Bipolar'],
-    description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
+    description: 'Conductores en paralelo para uso en artefactos o instalaciones de audio',
     detailedDescription: `DESCRIPCIÓN
 Cordones de cobre flexible con aislación de PVC cristal o bicolor. Diseñados para la interconexión de sistemas de audio, garantizando fidelidad en la señal.`,
     applications: `Interconexión de equipos de audio y aparatos portátiles. Diseñado para flexibilidad en instalaciones móviles.`,
