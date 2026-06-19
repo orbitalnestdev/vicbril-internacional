@@ -175,17 +175,17 @@ const ProductDetail: React.FC = () => {
                 Consultar por WhatsApp
               </button>
               
-              {/* {product.pdf && (
+              {product.pdf && (
                 <a
                   href={product.pdf}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-white text-slate-900 border-2 border-slate-900 font-bold py-4 px-8 flex items-center justify-center gap-4 hover:bg-slate-50 transition-all uppercase tracking-[0.2em] text-xs group"
+                  className="w-full bg-white text-slate-900 border-2 border-slate-900 font-bold py-5 px-8 flex items-center justify-center gap-4 hover:bg-slate-50 transition-all uppercase tracking-[0.2em] text-xs group"
                 >
                   <Download size={18} className="group-hover:-translate-y-1 transition-transform" />
                   Descargar PDF
                 </a>
-              )} */}
+              )}
             </div>
           </div>
         </div>
