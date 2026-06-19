@@ -77,6 +77,17 @@ const Products: React.FC = () => {
     navigate(`/productos/${product.id}`);
   };
 
+  const catalogRef = React.useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (activePath.length > 0) {
+      const timer = setTimeout(() => {
+        catalogRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+      return () => clearTimeout(timer);
+    }
+  }, [activePath]);
+
   const rootCategoryName = activePath.length > 0 ? activePath[0] : null;
   const currentCategoryInfo = categories.find(c => c.name === rootCategoryName);
   const bannerImage = currentCategoryInfo
@@ -214,7 +225,7 @@ const Products: React.FC = () => {
           </aside>
 
           {/* Product Grid / Subcategory Folders */}
-          <div className="flex-1">
+          <div ref={catalogRef} className="flex-1">
             {/* Breadcrumbs / Back button */}
             <div className="mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="flex flex-wrap items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
@@ -344,11 +355,11 @@ const Products: React.FC = () => {
                       className="group cursor-pointer"
                     >
                       <div className="bg-white border border-gray-200 overflow-hidden shadow-sm group-hover:border-orange-500 transition-all duration-500">
-                        <div className="aspect-[4/3] overflow-hidden relative">
+                        <div className="aspect-[4/3] overflow-hidden relative bg-slate-50 flex items-center justify-center p-4">
                           <img
                             src={folderImage}
                             alt={sub}
-                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-700"
                             loading="lazy"
                             onError={() => {
                               if (!imageErrors[sub]) {
@@ -356,8 +367,8 @@ const Products: React.FC = () => {
                               }
                             }}
                           />
-                          <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors"></div>
-                          <div className="absolute top-4 right-4 w-10 h-10 bg-white/90 backdrop-blur rounded-full flex items-center justify-center text-slate-900 shadow-lg">
+                          <div className="absolute inset-0 bg-slate-900/5 group-hover:bg-transparent transition-colors pointer-events-none"></div>
+                          <div className="absolute top-4 right-4 w-10 h-10 bg-white/90 backdrop-blur rounded-full flex items-center justify-center text-slate-900 shadow-lg z-10">
                             <Folder size={18} />
                           </div>
                         </div>

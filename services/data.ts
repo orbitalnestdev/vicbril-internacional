@@ -621,7 +621,7 @@ PARÁMETROS TÉCNICOS
   },  {
     id: 'aerea-concentrico-aluminio-monofasico',
     name: 'Concéntrico de Aluminio Monofásico',
-    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto (ceCONEX)', 'Concéntricos de Aluminio'],
+    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto', 'Concéntricos de Aluminio'],
     description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cables con conductor central de fase (Aluminio) y conductor neutro formado por una corona de alambres que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía sin afectar el neutro, provocando un cortocircuito que protege la red.
@@ -667,7 +667,7 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mecánic
   {
     id: 'aerea-concentrico-aluminio-trifasico',
     name: 'Concéntrico de Aluminio Trifásico',
-    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto (ceCONEX)', 'Concéntricos de Aluminio'],
+    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto', 'Concéntricos de Aluminio'],
     description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cables con tres conductores centrales de fase (Aluminio) y conductor neutro formado por una corona de alambres que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía sin afectar el neutro, provocando un cortocircuito que protege la red.
@@ -722,7 +722,7 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mecánic
   {
     id: 'aerea-concentrico-cobre',
     name: 'Concéntricos de Cobre',
-    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto (ceCONEX)'],
+    categoryPath: ['Cables Instalación Aérea', 'Envainados', 'Concéntricos Anti-hurto'],
     description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
 Cables con conductor central de fase (Cobre) y conductor neutro formado por una corona de alambres que rodea la aislación central. Esta configuración impide el pelado del cable para hurtar energía sin afectar el neutro, provocando un cortocircuito que protege la red.
@@ -2691,8 +2691,8 @@ Instalación a la intemperie, sobre bandejas portacables, en ductos eléctricos 
   },
     {
     id: '2-para-bomba-sumergible',
-    name: 'PARA BOMBA SUMERGIBLE',
-    categoryPath: ['Cables de Potencia'],
+    name: 'Cable para Bomba Sumergible',
+    categoryPath: ['Cables de Potencia', 'Bomba Sumergible'],
     description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
 Cables planos (vaina chata) diseñados especialmente para la alimentación de bombas sumergibles. Poseen excelente flexibilidad y resistencia a la inmersión en agua y agentes químicos comunes.
@@ -2720,22 +2720,22 @@ Conexionado y alimentación eléctrica de bombas sumergibles instaladas en pozos
     specsTables: [
       {
         title: "Características Dimensionales",
-        headers: ["Código", "Formación (N° x mm²)", "Espesor aislación (mm)", "Espesor vaina (mm)", "Medidas aprox. (mm)", "Intensidad corriente (A)*", "Peso aprox. (kg/100m)", "Embalaje"],
+        headers: ["Formación (N° x mm²)", "Espesor aislación (mm)", "Espesor vaina (mm)", "Medidas aprox. (mm)", "Intensidad corriente (A)*", "Peso aprox. (kg/100m)"],
         rows: [
-          ["B2150", "2 x 1,50", "1,2", "1,25", "14,20 x 7,10", "20", "16,5", "Corte a medida"],
-          ["B150", "3 x 1,50", "1,2", "1,5", "15,00 x 7,15", "20", "17,7", "Corte a medida"],
-          ["B250", "3 x 2,50", "1,2", "1,4", "16,60 x 7,90", "28", "23,3", "Corte a medida"],
-          ["B4", "3 x 4", "1,2", "1,4", "18,40 x 8,30", "36", "29,5", "Corte a medida"],
-          ["B6", "3 x 6", "1,2", "1,45", "19,80 x 9,00", "46", "36,0", "Corte a medida"],
-          ["B10", "3 x 10", "1,4", "1,55", "24,60 x 10,90", "60", "58,3", "Corte a medida"],
-          ["B16", "3 x 16", "1,4", "1,65", "29,00 x 12,60", "82", "85,0", "Corte a medida"],
-          ["B25", "3 x 25", "1,7", "1,8", "34,50 x 15,70", "105", "130,0", "Corte a medida"],
-          ["B35", "3 x 35", "1,7", "1,9", "38,50 x 17,70", "122", "171,6", "Corte a medida"],
-          ["B50", "3 x 50", "1,9", "2,05", "45,40 x 18,00", "146", "227,0", "Corte a medida"],
-          ["B70", "3 x 70", "1,9", "2,2", "52,20 x 21,00", "170", "227,0", "Corte a medida"],
-          ["B95", "3 x 95", "2,2", "2,4", "60,10 x 24,00", "208", "407,0", "Corte a medida"],
-          ["B4150", "4 x 1,50", "1,2", "1,5", "16,90 x 5,30", "20", "22,0", "Corte a medida"],
-          ["B4250", "4 x 2,50", "1,2", "1,7", "18,70 x 5,80", "28", "28,0", "Corte a medida"]
+          ["2 x 1,50", "1,2", "1,25", "14,20 x 7,10", "20", "16,5"],
+          ["3 x 1,50", "1,2", "1,5", "15,00 x 7,15", "20", "17,7"],
+          ["3 x 2,50", "1,2", "1,4", "16,60 x 7,90", "28", "23,3"],
+          ["3 x 4", "1,2", "1,4", "18,40 x 8,30", "36", "29,5"],
+          ["3 x 6", "1,2", "1,45", "19,80 x 9,00", "46", "36,0"],
+          ["3 x 10", "1,4", "1,55", "24,60 x 10,90", "60", "58,3"],
+          ["3 x 16", "1,4", "1,65", "29,00 x 12,60", "82", "85,0"],
+          ["3 x 25", "1,7", "1,8", "34,50 x 15,70", "105", "130,0"],
+          ["3 x 35", "1,7", "1,9", "38,50 x 17,70", "122", "171,6"],
+          ["3 x 50", "1,9", "2,05", "45,40 x 18,00", "146", "227,0"],
+          ["3 x 70", "1,9", "2,2", "52,20 x 21,00", "170", "227,0"],
+          ["3 x 95", "2,2", "2,4", "60,10 x 24,00", "208", "407,0"],
+          ["4 x 1,50", "1,2", "1,5", "16,90 x 5,30", "20", "22,0"],
+          ["4 x 2,50", "1,2", "1,7", "18,70 x 5,80", "28", "28,0"]
         ],
         note: "(*) Intensidad de corriente admisible válida para temperatura del medio a 20° C."
       }
@@ -2743,8 +2743,8 @@ Conexionado y alimentación eléctrica de bombas sumergibles instaladas en pozos
   },
     {
     id: '3-para-variador-de-frecuencia',
-    name: 'PARA VARIADOR DE FRECUENCIA',
-    categoryPath: ['Cables de Potencia'],
+    name: 'Cable para Variador de Frecuencia',
+    categoryPath: ['Cables de Potencia', 'Variador de Frecuencia'],
     description: 'Cables de energía y potencia para múltiples aplicaciones.',
     detailedDescription: `DESCRIPCIÓN
 Cables tripolares blindados diseñados especialmente para la alimentación de motores comandados por variadores de frecuencia (VDF/VFD). Ofrecen una excelente inmunidad a las interferencias electromagnéticas (EMI) gracias a su doble blindaje concéntrico.
@@ -2796,25 +2796,25 @@ Conexión de potencia entre convertidores de frecuencia y motores eléctricos en
       },
       {
         title: "Dimensiones y Pesos",
-        headers: ["Sección (N° x mm²)", "Código", "Diam. bajo armadura (mm)", "Diámetro exterior (mm)", "Peso (kg/km)"],
+        headers: ["Sección (N° x mm²)", "Diam. bajo armadura (mm)", "Diámetro exterior (mm)", "Peso (kg/km)"],
         rows: [
-          ["3x1", "BX 0310", "7.7", "12.7", "233"],
-          ["3x1,5", "BX 0315", "8.4", "13.4", "259"],
-          ["3x2,5", "BX 0325", "9.3", "14.3", "300"],
-          ["3x4", "BX 0340", "10.3", "15.3", "359"],
-          ["3x6", "BX 0360", "11.7", "16.7", "443"],
-          ["3x10", "BX 3100", "14.0", "19.0", "646"],
-          ["3x16", "BX 3160", "16.0", "21.0", "892"],
-          ["3x25", "BX 3250", "19.5", "24.5", "1230"],
-          ["3x35", "BX 3350", "21.7", "26.7", "1553"],
-          ["3x50", "BX 3500", "25.1", "30.1", "2118"],
-          ["3x70", "BX 3700", "30.3", "35.7", "2997"],
-          ["3x95", "BX 3950", "34.6", "41.3", "3909"],
-          ["3x120", "BX 31200", "38.0", "44.9", "5174"],
-          ["3x150", "BX 31500", "44.1", "51.4", "6085"],
-          ["3x185", "BX 31850", "47.9", "55.4", "7387"],
-          ["3x240", "BX 32400", "55.3", "63.2", "9697"],
-          ["3x300", "BX 33000", "61.7", "70.0", "12009"]
+          ["3x1", "7.7", "12.7", "233"],
+          ["3x1,5", "8.4", "13.4", "259"],
+          ["3x2,5", "9.3", "14.3", "300"],
+          ["3x4", "10.3", "15.3", "359"],
+          ["3x6", "11.7", "16.7", "443"],
+          ["3x10", "14.0", "19.0", "646"],
+          ["3x16", "16.0", "21.0", "892"],
+          ["3x25", "19.5", "24.5", "1230"],
+          ["3x35", "21.7", "26.7", "1553"],
+          ["3x50", "25.1", "30.1", "2118"],
+          ["3x70", "30.3", "35.7", "2997"],
+          ["3x95", "34.6", "41.3", "3909"],
+          ["3x120", "38.0", "44.9", "5174"],
+          ["3x150", "44.1", "51.4", "6085"],
+          ["3x185", "47.9", "55.4", "7387"],
+          ["3x240", "55.3", "63.2", "9697"],
+          ["3x300", "61.7", "70.0", "12009"]
         ]
       }
     ]
