@@ -159,13 +159,6 @@ const ProductDetail: React.FC = () => {
           </div>
 
           <div className="lg:col-span-5 space-y-6">
-            <div className="bg-slate-50 p-8 border-l-4 border-orange-600 shadow-sm">
-              <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] mb-3">Resumen del Producto</h3>
-              <p className="text-slate-700 leading-relaxed text-lg font-medium italic">
-                "{product.description}"
-              </p>
-            </div>
-            
             <div className="flex flex-col gap-4">
               <button
                 onClick={handleQuoteClick}
@@ -175,7 +168,7 @@ const ProductDetail: React.FC = () => {
                 Consultar por WhatsApp
               </button>
               
-              {product.pdf && (
+              {/* product.pdf && (
                 <a
                   href={product.pdf}
                   target="_blank"
@@ -185,7 +178,7 @@ const ProductDetail: React.FC = () => {
                   <Download size={18} className="group-hover:-translate-y-1 transition-transform" />
                   Descargar PDF
                 </a>
-              )}
+              ) */}
             </div>
           </div>
         </div>
