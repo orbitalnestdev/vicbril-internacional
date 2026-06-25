@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import { Plus, Minus, HelpCircle } from 'lucide-react';
+import { useSEO } from '../services/hooks';
 
 const FAQ: React.FC = () => {
+  useSEO(
+    "Preguntas Frecuentes",
+    "Encuentra respuestas a preguntas frecuentes sobre ventas corporativas, envíos a todo el país, certificaciones de calidad IRAM y formas de pago en Vicbril Internacional S.A."
+  );
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const faqs = [

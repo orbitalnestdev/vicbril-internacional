@@ -1,24 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Truck, Zap, ClipboardList, CheckCircle } from 'lucide-react';
-import { categories, products, brands } from '../services/data';
+import { categories, brands } from '../services/data';
 import BrandCarousel from '../components/UI/BrandCarousel';
 import GoogleMap from '../components/UI/GoogleMap';
 import AboutSection from '../components/UI/AboutSection';
 import WhyChooseUs from '../components/UI/WhyChooseUs';
 import ContactForm from '../components/UI/ContactForm';
-import { useScrollReveal } from '../services/hooks';
+import { useScrollReveal, useSEO } from '../services/hooks';
 
 const CategoryCard: React.FC<{ cat: any; idx: number }> = ({ cat, idx }) => {
   const { ref, isVisible } = useScrollReveal(0.1);
   
-  // Find products belonging to this category to get a fallback image
-  const categoryProducts = products.filter(p => p.categoryPath && p.categoryPath[0] === cat.name);
-  const firstProductWithImage = categoryProducts.find(p => p.image && !p.image.includes('vicbril-hero-1.jpg'));
-  
-  const mainImage = cat.image && !cat.image.includes('vicbril-hero-1.jpg')
-    ? cat.image
-    : (firstProductWithImage?.image || categoryProducts[0]?.image || '/images/vicbril-hero-1.jpg');
+  const mainImage = cat.image || '/images/vicbril-hero-1.jpg';
 
   return (
     <Link 
@@ -39,6 +33,11 @@ const CategoryCard: React.FC<{ cat: any; idx: number }> = ({ cat, idx }) => {
 };
 
 const Home: React.FC = () => {
+  useSEO(
+    "Inicio",
+    "Vicbril Internacional S.A. - Distribuidor líder de conductores eléctricos, cables de alta, media y baja tensión con más de 25 años de experiencia en la industria."
+  );
+
   const valuePropReveal = useScrollReveal(0.1);
   const headlineReveal = useScrollReveal(0.1);
   const ctaTextReveal = useScrollReveal(0.1);

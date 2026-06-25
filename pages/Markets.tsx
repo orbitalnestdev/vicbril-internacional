@@ -1,5 +1,5 @@
 import React from 'react';
-import { useScrollReveal } from '../services/hooks';
+import { useScrollReveal, useSEO } from '../services/hooks';
 
 interface MarketItem {
   id: string;
@@ -48,6 +48,11 @@ const markets: MarketItem[] = [
 ];
 
 const Markets: React.FC = () => {
+  useSEO(
+    "Mercados y Sectores",
+    "Suministro de conductores eléctricos de alta calidad para industrias clave: Oil & Gas, Minería, Energía y Renovables, Infraestructura y Transporte, Construcción y más."
+  );
+
   return (
     <div className="pt-20">
       {/* Header Banner */}

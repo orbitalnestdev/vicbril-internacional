@@ -4,8 +4,13 @@ import { categories, products } from '../services/data';
 import { Filter, Download, Search, ChevronRight, Folder, ArrowLeft } from 'lucide-react';
 import QuoteModal from '../components/UI/QuoteModal';
 import { Product } from '../types';
+import { useSEO } from '../services/hooks';
 
 const Products: React.FC = () => {
+  useSEO(
+    "Catálogo de Productos",
+    "Explora nuestro catálogo completo de conductores y cables eléctricos de alta, media y baja tensión. Distribuidor mayorista líder en Argentina."
+  );
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
   const [activePath, setActivePath] = useState<string[]>([]);

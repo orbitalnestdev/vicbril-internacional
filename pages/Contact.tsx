@@ -1,7 +1,12 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Clock, ArrowRight } from 'lucide-react';
+import { useSEO } from '../services/hooks';
 
 const Contact: React.FC = () => {
+   useSEO(
+      "Contacto Corporativo",
+      "Ponte en contacto con Vicbril Internacional S.A. para consultas corporativas, cotizaciones técnicas y pedidos de alto volumen de conductores y cables eléctricos."
+   );
    return (
       <div className="pt-20 min-h-screen flex flex-col">
          <div className="flex-1 flex flex-col lg:flex-row">

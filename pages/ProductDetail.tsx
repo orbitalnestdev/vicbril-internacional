@@ -4,6 +4,7 @@ import { MessageSquare, Info, ArrowLeft, Download, ChevronRight } from 'lucide-r
 import { products, categories } from '../services/data';
 import { Product } from '../types';
 import CertificationIcons from '../components/CertificationIcons';
+import { useSEO } from '../services/hooks';
 
 const FormattedText: React.FC<{ 
   text: string, 
@@ -98,6 +99,11 @@ const ProductDetail: React.FC = () => {
   const navigate = useNavigate();
   const [product, setProduct] = React.useState<Product | null>(null);
   const [activeTab, setActiveTab] = React.useState('');
+
+  useSEO(
+    product ? `${product.name} | Ficha Técnica y Cotización` : "Cargando Producto...",
+    product ? product.description : "Detalle de conductor eléctrico en el catálogo de Vicbril Internacional S.A."
+  );
 
   useEffect(() => {
     const foundProduct = products.find(p => p.id === id);

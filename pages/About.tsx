@@ -1,7 +1,12 @@
 import React from 'react';
 import { Target, Users, Award, Briefcase } from 'lucide-react';
+import { useSEO } from '../services/hooks';
 
 const About: React.FC = () => {
+   useSEO(
+      "Sobre Nosotros",
+      "Conoce la historia, misión y valores de Vicbril Internacional S.A., socios estratégicos en la distribución de conductores y cables eléctricos de alta calidad en Argentina desde 1998."
+   );
    return (
       <div className="pt-20">
          {/* Header */}
