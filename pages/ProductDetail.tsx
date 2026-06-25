@@ -9,12 +9,14 @@ const FormattedText: React.FC<{
   text: string, 
   defaultHeader?: string,
   ignoredHeaders?: string[],
+  excludedHeaders?: string[],
   contentClassName?: string,
   wrapperClassName?: string
 }> = ({ 
   text, 
   defaultHeader,
   ignoredHeaders = [],
+  excludedHeaders = [],
   contentClassName = "text-slate-600 text-sm md:text-base leading-relaxed font-medium",
   wrapperClassName = "bg-slate-50 border-l-4 border-[#004b61] p-8 rounded-sm shadow-sm"
 }) => {
@@ -25,6 +27,7 @@ const FormattedText: React.FC<{
   
   let currentTitle: string | null = defaultHeader || null;
   let currentContent: string[] = [];
+  let excludeCurrentSection = false;
 
   lines.forEach((line, i) => {
     const trimmed = line.trim();
@@ -34,25 +37,28 @@ const FormattedText: React.FC<{
     const isHeader = trimmed === trimmed.toUpperCase() && trimmed.length > 2 && trimmed.length < 50 && !trimmed.endsWith(':') && !trimmed.endsWith('.') && !trimmed.startsWith('•') && !trimmed.startsWith('-');
     
     if (isHeader) {
-      if (ignoredHeaders.includes(trimmed)) {
-        return; // skip this line entirely
-      }
-
-      if (i === 0) {
-        currentTitle = trimmed;
-      } else {
-        if (currentContent.length > 0 || currentTitle) {
+      if (currentContent.length > 0 || currentTitle) {
+        if (!excludeCurrentSection) {
           sections.push({ title: currentTitle, content: currentContent });
         }
+      }
+      currentContent = [];
+      
+      if (excludedHeaders.includes(trimmed)) {
+        excludeCurrentSection = true;
+        currentTitle = null;
+      } else {
+        excludeCurrentSection = false;
         currentTitle = trimmed;
-        currentContent = [];
       }
     } else {
-      currentContent.push(trimmed);
+      if (!excludeCurrentSection) {
+        currentContent.push(trimmed);
+      }
     }
   });
 
-  if (currentContent.length > 0 || currentTitle) {
+  if ((currentContent.length > 0 || currentTitle) && !excludeCurrentSection) {
     sections.push({ title: currentTitle, content: currentContent });
   }
 
@@ -60,7 +66,7 @@ const FormattedText: React.FC<{
     <div className="space-y-24">
       {sections.map((sec, idx) => (
         <div key={idx}>
-          {sec.title && (
+          {sec.title && !ignoredHeaders.includes(sec.title) && (
             <div className="mb-6">
               <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">{sec.title}</h2>
             </div>
@@ -83,17 +89,36 @@ const formatCategoryName = (name: string) => {
   return name.replace(/^\d+[-_ ]*/, '');
 };
 
+const hasBottomDetails = (product: Product) => {
+  return !!product.detailedDescription;
+};
+
 const ProductDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const [product, setProduct] = React.useState<Product | null>(null);
-  const [activeTab, setActiveTab] = React.useState('DESCRIPCIÓN');
+  const [activeTab, setActiveTab] = React.useState('');
 
   useEffect(() => {
     const foundProduct = products.find(p => p.id === id);
     if (foundProduct) {
       setProduct(foundProduct);
       window.scrollTo(0, 0);
+      
+      const availableTabs = [
+        { id: 'DETALLES', hasContent: hasBottomDetails(foundProduct) },
+        { id: 'APLICACIONES', hasContent: !!foundProduct.applications },
+        { id: 'CARACTERÍSTICAS', hasContent: !!foundProduct.characteristics && foundProduct.characteristics.length > 0 },
+        { id: 'INSTALACIÓN', hasContent: !!foundProduct.installation },
+        { id: 'CERTIFICACIONES', hasContent: !!foundProduct.certifications && foundProduct.certifications.length > 0 },
+        { id: 'TABLA', hasContent: (!!foundProduct.specsTable && foundProduct.specsTable.length > 0) || (!!foundProduct.specsTables && foundProduct.specsTables.length > 0) },
+      ].filter(t => t.hasContent);
+      
+      if (availableTabs.length > 0) {
+        setActiveTab(availableTabs[0].id);
+      } else {
+        setActiveTab('');
+      }
     } else {
       navigate('/productos');
     }
@@ -159,6 +184,17 @@ const ProductDetail: React.FC = () => {
           </div>
 
           <div className="lg:col-span-5 space-y-6">
+            {product.description && (
+              <div>
+                <div className="mb-4">
+                  <h2 className="text-xl md:text-2xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">DESCRIPCIÓN</h2>
+                </div>
+                <p className="text-slate-600 leading-relaxed text-base md:text-lg font-medium border-l-2 border-slate-100 pl-6">
+                  {product.description}
+                </p>
+              </div>
+            )}
+
             <div className="flex flex-col gap-4">
               <button
                 onClick={handleQuoteClick}
@@ -187,7 +223,7 @@ const ProductDetail: React.FC = () => {
         <div className="md:sticky md:top-28 z-40 bg-slate-50 border-y border-slate-200 mb-12 shadow-sm overflow-x-auto no-scrollbar">
           <div className="flex flex-row justify-start md:justify-center container mx-auto px-0 md:px-6 min-w-max md:min-w-0">
             {[
-              { id: 'DESCRIPCIÓN', label: 'DESCRIPCIÓN', target: 'descripcion', hasContent: !!product.detailedDescription },
+              { id: 'DETALLES', label: 'DETALLES', target: 'detalles', hasContent: hasBottomDetails(product) },
               { id: 'APLICACIONES', label: 'APLICACIONES', target: 'usos', hasContent: !!product.applications },
               { id: 'CARACTERÍSTICAS', label: 'CARACTERÍSTICAS', target: 'caracteristicas', hasContent: !!product.characteristics && product.characteristics.length > 0 },
               { id: 'INSTALACIÓN', label: 'INSTALACIÓN', target: 'instalacion', hasContent: !!product.installation },
@@ -221,18 +257,20 @@ const ProductDetail: React.FC = () => {
 
         {/* Detailed Content sections */}
         <div className="space-y-24 pb-32 max-w-5xl">
-          {/* Descripción */}
-          <section id="descripcion" className="scroll-mt-40">
-            <div className="mb-6">
-              <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">DESCRIPCIÓN</h2>
-            </div>
-            <FormattedText 
-              text={product.detailedDescription || product.description} 
-              ignoredHeaders={['DESCRIPCIÓN']}
-              contentClassName="text-slate-600 leading-relaxed text-lg md:text-xl font-medium"
-              wrapperClassName="border-l-2 border-slate-100 pl-8"
-            />
-          </section>
+          {/* Detalles */}
+          {hasBottomDetails(product) && (
+            <section id="detalles" className="scroll-mt-40">
+              <div className="mb-6">
+                <h2 className="text-2xl md:text-3xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">DETALLES</h2>
+              </div>
+              <FormattedText 
+                text={product.detailedDescription!} 
+                ignoredHeaders={['DESCRIPCIÓN', 'DETALLES']}
+                contentClassName="text-slate-600 leading-relaxed text-lg md:text-xl font-medium"
+                wrapperClassName="border-l-2 border-slate-100 pl-8"
+              />
+            </section>
+          )}
 
           {/* Aplicaciones */}
           {product.applications && (

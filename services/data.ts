@@ -37913,11 +37913,11 @@ Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intem
 ,
   {
     id: 'alta-temp-solares',
-    name: 'PAYTON® SOLTIX',
+    name: 'Cable Solar PAYTON',
     categoryPath: ['Cables Alta Temperatura', 'Solares'],
     description: 'Cables flexibles con conductor de cobre multifilar, aislados para tensiones nominales de 1,5 kVCC, apto para sistemas fotovoltaicos. Resistente al intemperismo y rayos UV.',
     detailedDescription: `DESCRIPCIÓN
-Los Payton® Soltix se utilizan en la interconexión de paneles fotovoltaicos, son adecuados para instalaciones fijas, tanto interior como exterior. NO APTO para aplicaciones de enterramiento directo. Recomendado para instalaciones donde el fuego, la emisión de humos y los vapores tóxicos representan un riesgo.
+Los cables solares PAYTON se utilizan en la interconexión de paneles fotovoltaicos, son adecuados para instalaciones fijas, tanto interior como exterior. NO APTO para aplicaciones de enterramiento directo. Recomendado para instalaciones donde el fuego, la emisión de humos y los vapores tóxicos representan un riesgo.
 
 APLICACIONES
 Sistemas solares fotovoltaicos terrestres, sobre cubiertas, plantas de generación y parques solares.`,
@@ -38503,7 +38503,7 @@ Apto para uso intemperie y bajas temperaturas. No está diseñado para soportar 
   },
   {
     id: 'especiales-fibra-optica',
-    name: 'Cables de Fibra Óptica ADSS (CIMET OPTEL®)',
+    name: 'Cables de Fibra Óptica ADSS',
     categoryPath: ['Cables Especiales'],
     description: 'Cables de fibra óptica dieléctricos autoportantes (ADSS) de doble cubierta con estructura PKP, ideales para tendidos aéreos con vanos de hasta 300 metros.',
     detailedDescription: `DESCRIPCIÓN
@@ -38525,7 +38525,7 @@ Constituidos por fibras ópticas alojadas en tubos holgados de PBT rellenos con 
     ],
     specsTables: [
       {
-        title: 'Datos Dimensionales y de Tracción (CIMET OPTEL®)',
+        title: 'Datos Dimensionales y de Tracción',
         headers: ['Nº Fibras', 'Diámetro Nominal (mm)', 'Espesor Cubierta (mm)', 'Peso de Cable (kg/km)', 'Modelo Vano', 'Carga Máx. Tracción (N)'],
         rows: [
           ['6 a 36', '13.1', '1.5', '132', 'V200 (Vanos hasta 200m)', '5000'],
@@ -38540,11 +38540,11 @@ Constituidos por fibras ópticas alojadas en tubos holgados de PBT rellenos con 
   },
   {
     id: 'especiales-utp',
-    name: 'Cable UTP de Cobre CAT 6 (Corning)',
+    name: 'Cable UTP de Cobre CAT 6',
     categoryPath: ['Cables Especiales'],
     description: 'Cables de cobre UTP de 4 pares y alto rendimiento para redes estructuradas Gigabit y transmisiones de señal de voz, datos y video.',
     detailedDescription: `DESCRIPCIÓN
-Los cables de cobre Corning de 4 pares son de alto rendimiento, conforme con la IEC 61156-5:2013 y EN 50288-10-1:2012.
+Los cables de cobre UTP de 4 pares son de alto rendimiento, conforme con la IEC 61156-5:2013 y EN 50288-10-1:2012.
 El cable CAT 6 UTP es fabricado con 4 pares siguiendo el código de colores, conductores de cobre sólido de calibre 24 AWG, agrupados por una cubierta externa retardante al fuego. Cumple y excede las normas de la industria para redes de bajo voltaje y transmisión de señales.
 Las aplicaciones incluyen estándar IEEE 802.3 para redes de 10 Mb hasta 1 Gb. Es también aplicable para POE (IEEE 802.3af), POE+ (IEEE 802.3at) y sistemas ATM LAN 1.2 Gb.`,
     image: '/images/ProductosNuevos/8-CABLES ESPECIALES/4-UTP/PORTADA.jpeg',
