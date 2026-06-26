@@ -30,6 +30,7 @@ export interface Product {
   certifications?: string[];
   availableBrands?: string[];
   colors?: ProductColor[];
+  colorsNote?: string;
 }
 
 export interface Category {

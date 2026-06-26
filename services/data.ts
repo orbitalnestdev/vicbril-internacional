@@ -269,14 +269,14 @@ Uso en especial para artefactos de iluminación domésticos.`,
       'Norma de conductores: IEC 60228 / IRAM NM 280.',
       'Conductor: Cobre electrolítico recocido en formación clase 5.',
       'Aislación: PVC.',
-      'Identificación: Conductores aislados en paralelo (colores Blanco, Marrón o Negro).',
-      'Cubierta: Sin envoltura exterior (sin vaina).'
+      'Identificación: Dos Conductores unipolares en paralelo.  Colores negro, blanco o transparente',
+      'Cubierta: PVC no propagante de llama'
     ],
     colors: [
       {
         label: 'Bipolar',
-        values: ['Blanco', 'Marrón', 'Negro'],
-        codes: ['#FFFFFF', '#8B4513', '#1a1a1a']
+        values: ['Blanco', 'Transparente', 'Negro'],
+        codes: ['#FFFFFF', '#F8FAFC', '#1a1a1a']
       }
     ],
     specsTables: [
@@ -309,9 +309,13 @@ Cordones de cobre flexible con aislación de PVC cristal o bicolor. Diseñados p
     pdf: '/images/PRODUCTOS/2-CABLE BIPOLAR/CABLE PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE/FICHA TECNICA PARALELO PARLANTE.pdf',
     specs: ['Audio', 'Extra flexible', 'Bicolor/Cristal'],
     characteristics: [
-      'Tensión nominal 300/500V.',
-      'Conductor: Cobre flexible formación clase 5.',
-      'Aislación: PVC cristal o bicolor.'
+      'Temperatura máxima: 70°C de servicio, 160°C de cortocircuito.',
+      'Tensión nominal: 300/500 Volt.',
+      'Norma constructiva: IEC 60227-7.',
+      'Norma de fuego: IRAM NM 60332-1.',
+      'Norma de conductores: IEC 60228 / IRAM NM 280.',
+      'Conductor: Cobre electrolítico recocido en formación clase 5.',
+      'Aislación: PVC.'
     ],
     colors: [
       { 
@@ -369,8 +373,10 @@ Temperatura de montaje: igual o mayor a 5°C.`,
       { label: 'Bipolar', values: ['Celeste', 'Marrón'], codes: ['#00AEEF', '#8B4513'] },
       { label: 'Tripolar', values: ['Verde-Amarillo', 'Celeste', 'Marrón'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#00AEEF', '#8B4513'] },
       { label: 'Tetrapolar', values: ['Verde-Amarillo', 'Negro', 'Celeste', 'Marrón'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#000000', '#00AEEF', '#8B4513'] },
-      { label: 'Pentapolar', values: ['Verde-Amarillo', 'Negro', 'Celeste', 'Marrón', 'Rojo'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#000000', '#00AEEF', '#8B4513', '#FF0000'] }
+      { label: 'Pentapolar', values: ['Verde-Amarillo', 'Negro', 'Celeste', 'Marrón', 'Rojo'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#000000', '#00AEEF', '#8B4513', '#FF0000'] },
+      { label: 'Multipolar', values: ['Verde-Amarillo', 'Negro', 'Celeste', 'Marrón', 'Rojo', 'Violeta'], codes: ['linear-gradient(135deg, #fbbf24 50%, #16a34a 50%)', '#000000', '#00AEEF', '#8B4513', '#FF0000', '#7C3AED'] }
     ],
+    colorsNote: 'Hasta 43 conductores más.',
     specsTables: [
       {
         title: "Bipolar",
@@ -650,12 +656,11 @@ Vaina Exterior: Polietileno reticulado (XLPE) o PVC de alta resistencia mecánic
     specsTables: [
       {
         title: "Aluminio Monofásico (1xAl + Al) - Norma IEC 60502-1",
-        headers: ["Sección Nominal (mm²)", "Formación (Cuerda N° x Ømm)", "Espesor de aislación nominal (mm)", "Diámetro exterior aprox. (mm)", "Espesor de vaina promedio (mm)", "Resistencia eléctrica a 20°C (Ohm/km)", "Peso aproximado (kg/km)", "Corriente admisible a 40°C (A)"],
+        headers: ["Sección Nominal (mm²)", "Formación (Cuerda N° x ømm)", "Espesor de aislación nominal (mm)", "Diámetro exterior aprox. (mm)", "Espesor de vaina promedio (mm)", "Resistencia eléctrica a 20°C (Ohm/km)", "Peso aproximado (kg/km)", "Corriente admisible (A)"],
         rows: [
-          ["1x6 + 6", "1 x 7 x 1,05", "0,7", "9", "1,24", "4,61", "80", "42"],
-          ["1x10 + 10", "1 x 7 x 1,35", "0,7", "10", "1,24", "3,08", "106", "51"],
-          ["1x16 + 16", "1 x 7 x 1,70", "0,7", "12", "1,24", "1,91", "150", "72"],
-          ["1x25 + 25", "1 x 7 x 2,15", "0,9", "14", "1,24", "1,2", "225", "94"]
+          ["1x6 + 6", "1 x 7 x 1,05", "1,0", "10", "1,2", "4,61", "81", "40"],
+          ["1x10 + 10", "1 x 7 x 1,35", "1,0", "11", "1,2", "3,08", "120", "50"],
+          ["1x16 + 16", "1 x 7 x 1,70", "1,0", "13", "1,2", "1,91", "180", "70"]
         ]
       }
     ],

@@ -336,6 +336,11 @@ const ProductDetail: React.FC = () => {
                     </div>
                   </div>
                 ))}
+                {product.colorsNote && (
+                  <div className="mt-4 pt-4 border-t border-slate-100 text-xs md:text-sm text-slate-500 font-semibold italic">
+                    * {product.colorsNote}
+                  </div>
+                )}
               </div>
             </section>
           )}
