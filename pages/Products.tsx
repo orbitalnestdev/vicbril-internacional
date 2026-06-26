@@ -272,9 +272,10 @@ const Products: React.FC = () => {
               )}
             </div>
 
-            {/* Folders */}
-            {nextLevelFolders.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {/* Folders and Products combined in the same grid */}
+            {(nextLevelFolders.length > 0 || visibleProducts.length > 0) ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12">
+                {/* Folders */}
                 {nextLevelFolders.map((sub, i) => {
                   const catInfo = categories.find(c => c.name === sub);
                   const categoryImage = catInfo?.image && !catInfo.image.includes('vicbril-hero-1.jpg') ? catInfo.image : null;
@@ -357,10 +358,10 @@ const Products: React.FC = () => {
                     <div
                       key={i}
                       onClick={() => handlePathChange([...activePath, sub])}
-                      className="group cursor-pointer"
+                      className="group cursor-pointer animate-in fade-in zoom-in-95 duration-500"
                     >
-                      <div className="bg-white border border-gray-200 overflow-hidden shadow-sm group-hover:border-orange-500 transition-all duration-500">
-                        <div className="aspect-[4/3] overflow-hidden relative bg-slate-50 flex items-center justify-center p-4">
+                      <div className="bg-white border border-gray-200 overflow-hidden shadow-sm group-hover:border-orange-500 transition-all duration-500 h-full flex flex-col justify-between">
+                        <div className="aspect-[4/3] overflow-hidden relative bg-slate-50 flex items-center justify-center p-4 flex-1">
                           <img
                             src={folderImage}
                             alt={sub}
@@ -377,7 +378,7 @@ const Products: React.FC = () => {
                             <Folder size={18} />
                           </div>
                         </div>
-                        <div className="p-6 text-center">
+                        <div className="p-6 text-center bg-white border-t border-gray-100">
                           <h3 className="font-oswald font-bold text-lg text-slate-900 uppercase tracking-tight mb-2 group-hover:text-orange-600 transition-colors">{formatCategoryName(sub)}</h3>
                           <p className="text-[10px] text-slate-400 font-bold uppercase tracking-[0.2em] flex items-center justify-center">
                             {productsInThisFolder.length} {productsInThisFolder.length === 1 ? 'Producto' : 'Productos'}
@@ -388,14 +389,10 @@ const Products: React.FC = () => {
                     </div>
                   );
                 })}
-              </div>
-            ) : null}
 
-            {/* Products */}
-            {visibleProducts.length > 0 && (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {/* Products */}
                 {visibleProducts.map(product => (
-                  <div key={product.id} className="bg-white border border-gray-200 hover:border-orange-300 transition-colors duration-300 group flex flex-col h-full overflow-hidden">
+                  <div key={product.id} className="bg-white border border-gray-200 hover:border-orange-300 transition-colors duration-300 group flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500">
                     <div
                       className="w-full aspect-[4/3] relative overflow-hidden bg-gray-100 cursor-pointer"
                       onClick={() => handleProductClick(product)}
@@ -438,9 +435,7 @@ const Products: React.FC = () => {
                   </div>
                 ))}
               </div>
-            )}
-            
-            {nextLevelFolders.length === 0 && visibleProducts.length === 0 && (
+            ) : (
               <div className="text-center py-20 bg-white border border-gray-200">
                 <Folder size={48} className="mx-auto text-slate-200 mb-4" />
                 <h3 className="text-xl font-oswald font-bold text-slate-900 mb-2">No hay elementos aquí</h3>
