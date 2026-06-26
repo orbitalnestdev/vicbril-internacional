@@ -358,7 +358,7 @@ const Products: React.FC = () => {
                     <div
                       key={i}
                       onClick={() => handlePathChange([...activePath, sub])}
-                      className="group cursor-pointer bg-white shadow-sm hover:shadow-md transition-all duration-300 flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-500 relative"
+                      className="group cursor-pointer bg-white shadow-sm hover:shadow-md transition-all duration-300 flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-500 relative self-start w-full"
                     >
                       {/* Absolute Border Overlay to prevent image overlap */}
                       <div className="absolute inset-0 border border-gray-300 group-hover:border-gray-400 transition-colors duration-300 pointer-events-none z-20"></div>
