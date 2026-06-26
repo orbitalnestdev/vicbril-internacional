@@ -363,7 +363,7 @@ const Products: React.FC = () => {
                       {/* Absolute Border Overlay to prevent image overlap */}
                       <div className="absolute inset-0 border border-gray-300 group-hover:border-gray-400 transition-colors duration-300 pointer-events-none z-20"></div>
 
-                      <div className="w-full aspect-[4/3] overflow-hidden relative bg-gray-50 flex items-center justify-center p-4">
+                      <div className="w-full aspect-[4/3] overflow-hidden relative bg-white flex items-center justify-center p-4">
                         <img
                           src={folderImage}
                           alt={sub}
@@ -375,7 +375,6 @@ const Products: React.FC = () => {
                             }
                           }}
                         />
-                        <div className="absolute inset-0 bg-slate-900/5 group-hover:bg-transparent transition-colors pointer-events-none"></div>
                         <div className="absolute top-4 right-4 w-10 h-10 bg-white/90 backdrop-blur rounded-full flex items-center justify-center text-slate-900 shadow-lg z-10">
                           <Folder size={18} />
                         </div>
