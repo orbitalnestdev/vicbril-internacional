@@ -361,9 +361,9 @@ const Products: React.FC = () => {
                       className="group cursor-pointer bg-white shadow-sm hover:shadow-md transition-all duration-300 flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500 relative"
                     >
                       {/* Absolute Border Overlay to prevent image overlap */}
-                      <div className="absolute inset-0 border border-slate-200 group-hover:border-slate-300 transition-colors duration-300 pointer-events-none z-20"></div>
+                      <div className="absolute inset-0 border border-gray-200 group-hover:border-gray-300 transition-colors duration-300 pointer-events-none z-20"></div>
 
-                      <div className="w-full aspect-[4/3] overflow-hidden relative bg-slate-50 flex items-center justify-center p-4">
+                      <div className="w-full aspect-[4/3] overflow-hidden relative bg-gray-50 flex items-center justify-center p-4">
                         <img
                           src={folderImage}
                           alt={sub}
@@ -380,12 +380,19 @@ const Products: React.FC = () => {
                           <Folder size={18} />
                         </div>
                       </div>
-                      <div className="p-8 text-center bg-white flex-1 flex flex-col justify-center border-t border-slate-100">
-                        <h3 className="font-oswald font-bold text-lg text-slate-900 uppercase tracking-tight mb-2 group-hover:text-orange-600 transition-colors">{formatCategoryName(sub)}</h3>
-                        <p className="text-[10px] text-slate-400 font-bold uppercase tracking-[0.2em] flex items-center justify-center">
-                          {productsInThisFolder.length} {productsInThisFolder.length === 1 ? 'Producto' : 'Productos'}
-                          <ChevronRight size={12} className="ml-1 group-hover:translate-x-1 transition-transform" />
-                        </p>
+                      <div className="p-8 text-center bg-white flex-1 flex flex-col justify-between border-t border-gray-100">
+                        <div className="flex-1 flex flex-col justify-center">
+                          <h3 className="font-oswald font-bold text-lg text-slate-900 uppercase tracking-tight mb-2 group-hover:text-orange-600 transition-colors">{formatCategoryName(sub)}</h3>
+                          <p className="text-[10px] text-gray-400 font-bold uppercase tracking-[0.2em] flex items-center justify-center">
+                            {productsInThisFolder.length} {productsInThisFolder.length === 1 ? 'Producto' : 'Productos'}
+                            <ChevronRight size={12} className="ml-1 group-hover:translate-x-1 transition-transform" />
+                          </p>
+                        </div>
+                        <div className="mt-6">
+                          <button className="w-full bg-gray-100 text-slate-900 text-[10px] font-bold py-4 hover:bg-gray-200 transition uppercase tracking-widest">
+                            Ver Categoría
+                          </button>
+                        </div>
                       </div>
                     </div>
                   );
@@ -398,10 +405,10 @@ const Products: React.FC = () => {
                     className="bg-white shadow-sm hover:shadow-md transition-all duration-300 group flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500 relative"
                   >
                     {/* Absolute Border Overlay to prevent image overlap */}
-                    <div className="absolute inset-0 border border-slate-200 group-hover:border-slate-300 transition-colors duration-300 pointer-events-none z-20"></div>
+                    <div className="absolute inset-0 border border-gray-200 group-hover:border-gray-300 transition-colors duration-300 pointer-events-none z-20"></div>
 
                     <div
-                      className="w-full aspect-[4/3] relative overflow-hidden bg-slate-50 cursor-pointer"
+                      className="w-full aspect-[4/3] relative overflow-hidden bg-gray-50 cursor-pointer"
                       onClick={() => handleProductClick(product)}
                     >
                       <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
@@ -413,22 +420,22 @@ const Products: React.FC = () => {
                       </div>
                     </div>
 
-                    <div className="p-8 flex-1 flex flex-col justify-between border-t border-slate-100">
+                    <div className="p-8 flex-1 flex flex-col justify-between border-t border-gray-100">
                       <div>
                         <h3 className="text-xl font-oswald font-bold text-slate-900 mb-4 leading-tight group-hover:text-orange-600 transition-colors cursor-pointer" onClick={() => handleProductClick(product)}>{product.name}</h3>
-                        <p className="text-slate-500 text-sm mb-6 leading-relaxed">{product.description}</p>
+                        <p className="text-gray-500 text-sm mb-6 leading-relaxed">{product.description}</p>
                       </div>
 
                       <div className="space-y-4">
                         <div className="flex flex-wrap gap-2">
                           {product.specs && product.specs.map((spec, i) => (
-                            <span key={i} className="text-[10px] bg-slate-100 text-slate-600 px-2 py-1 font-medium">{spec}</span>
+                            <span key={i} className="text-[10px] bg-gray-100 text-gray-600 px-2 py-1 font-medium">{spec}</span>
                           ))}
                         </div>
                         <div className="grid grid-cols-2 gap-3">
                           <button
                             onClick={() => handleProductClick(product)}
-                            className="bg-slate-100 text-slate-900 text-[10px] font-bold py-4 hover:bg-slate-200 transition uppercase tracking-widest"
+                            className="bg-gray-100 text-slate-900 text-[10px] font-bold py-4 hover:bg-gray-200 transition uppercase tracking-widest"
                           >
                             Ver Detalles
                           </button>
