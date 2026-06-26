@@ -358,8 +358,11 @@ const Products: React.FC = () => {
                     <div
                       key={i}
                       onClick={() => handlePathChange([...activePath, sub])}
-                      className="group cursor-pointer bg-white border border-slate-200 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-300 flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500"
+                      className="group cursor-pointer bg-white shadow-sm hover:shadow-md transition-all duration-300 flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500 relative"
                     >
+                      {/* Absolute Border Overlay to prevent image overlap */}
+                      <div className="absolute inset-0 border border-slate-200 group-hover:border-slate-300 transition-colors duration-300 pointer-events-none z-20"></div>
+
                       <div className="w-full aspect-[4/3] overflow-hidden relative bg-slate-50 flex items-center justify-center p-4">
                         <img
                           src={folderImage}
@@ -392,8 +395,11 @@ const Products: React.FC = () => {
                 {visibleProducts.map(product => (
                   <div 
                     key={product.id} 
-                    className="bg-white border border-slate-200 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-300 group flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500"
+                    className="bg-white shadow-sm hover:shadow-md transition-all duration-300 group flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500 relative"
                   >
+                    {/* Absolute Border Overlay to prevent image overlap */}
+                    <div className="absolute inset-0 border border-slate-200 group-hover:border-slate-300 transition-colors duration-300 pointer-events-none z-20"></div>
+
                     <div
                       className="w-full aspect-[4/3] relative overflow-hidden bg-slate-50 cursor-pointer"
                       onClick={() => handleProductClick(product)}
