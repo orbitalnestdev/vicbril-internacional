@@ -358,33 +358,31 @@ const Products: React.FC = () => {
                     <div
                       key={i}
                       onClick={() => handlePathChange([...activePath, sub])}
-                      className="group cursor-pointer animate-in fade-in zoom-in-95 duration-500"
+                      className="group cursor-pointer bg-white border border-slate-200 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-300 flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500"
                     >
-                      <div className="bg-white border border-gray-200 overflow-hidden shadow-sm group-hover:border-orange-500 transition-all duration-500 h-full flex flex-col justify-between">
-                        <div className="aspect-[4/3] overflow-hidden relative bg-slate-50 flex items-center justify-center p-4 flex-1">
-                          <img
-                            src={folderImage}
-                            alt={sub}
-                            className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-700"
-                            loading="lazy"
-                            onError={() => {
-                              if (!imageErrors[sub]) {
-                                setImageErrors(prev => ({ ...prev, [sub]: true }));
-                              }
-                            }}
-                          />
-                          <div className="absolute inset-0 bg-slate-900/5 group-hover:bg-transparent transition-colors pointer-events-none"></div>
-                          <div className="absolute top-4 right-4 w-10 h-10 bg-white/90 backdrop-blur rounded-full flex items-center justify-center text-slate-900 shadow-lg z-10">
-                            <Folder size={18} />
-                          </div>
+                      <div className="w-full aspect-[4/3] overflow-hidden relative bg-slate-50 flex items-center justify-center p-4">
+                        <img
+                          src={folderImage}
+                          alt={sub}
+                          className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-700"
+                          loading="lazy"
+                          onError={() => {
+                            if (!imageErrors[sub]) {
+                              setImageErrors(prev => ({ ...prev, [sub]: true }));
+                            }
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-slate-900/5 group-hover:bg-transparent transition-colors pointer-events-none"></div>
+                        <div className="absolute top-4 right-4 w-10 h-10 bg-white/90 backdrop-blur rounded-full flex items-center justify-center text-slate-900 shadow-lg z-10">
+                          <Folder size={18} />
                         </div>
-                        <div className="p-6 text-center bg-white border-t border-gray-100">
-                          <h3 className="font-oswald font-bold text-lg text-slate-900 uppercase tracking-tight mb-2 group-hover:text-orange-600 transition-colors">{formatCategoryName(sub)}</h3>
-                          <p className="text-[10px] text-slate-400 font-bold uppercase tracking-[0.2em] flex items-center justify-center">
-                            {productsInThisFolder.length} {productsInThisFolder.length === 1 ? 'Producto' : 'Productos'}
-                            <ChevronRight size={12} className="ml-1 group-hover:translate-x-1 transition-transform" />
-                          </p>
-                        </div>
+                      </div>
+                      <div className="p-8 text-center bg-white flex-1 flex flex-col justify-center border-t border-slate-100">
+                        <h3 className="font-oswald font-bold text-lg text-slate-900 uppercase tracking-tight mb-2 group-hover:text-orange-600 transition-colors">{formatCategoryName(sub)}</h3>
+                        <p className="text-[10px] text-slate-400 font-bold uppercase tracking-[0.2em] flex items-center justify-center">
+                          {productsInThisFolder.length} {productsInThisFolder.length === 1 ? 'Producto' : 'Productos'}
+                          <ChevronRight size={12} className="ml-1 group-hover:translate-x-1 transition-transform" />
+                        </p>
                       </div>
                     </div>
                   );
@@ -392,9 +390,12 @@ const Products: React.FC = () => {
 
                 {/* Products */}
                 {visibleProducts.map(product => (
-                  <div key={product.id} className="bg-white border border-gray-200 hover:border-orange-300 transition-colors duration-300 group flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500">
+                  <div 
+                    key={product.id} 
+                    className="bg-white border border-slate-200 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-300 group flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500"
+                  >
                     <div
-                      className="w-full aspect-[4/3] relative overflow-hidden bg-gray-100 cursor-pointer"
+                      className="w-full aspect-[4/3] relative overflow-hidden bg-slate-50 cursor-pointer"
                       onClick={() => handleProductClick(product)}
                     >
                       <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
@@ -406,9 +407,11 @@ const Products: React.FC = () => {
                       </div>
                     </div>
 
-                    <div className="p-8 flex-1 flex flex-col">
-                      <h3 className="text-xl font-oswald font-bold text-slate-900 mb-4 leading-tight">{product.name}</h3>
-                      <p className="text-slate-500 text-sm mb-6 leading-relaxed flex-1">{product.description}</p>
+                    <div className="p-8 flex-1 flex flex-col justify-between border-t border-slate-100">
+                      <div>
+                        <h3 className="text-xl font-oswald font-bold text-slate-900 mb-4 leading-tight group-hover:text-orange-600 transition-colors cursor-pointer" onClick={() => handleProductClick(product)}>{product.name}</h3>
+                        <p className="text-slate-500 text-sm mb-6 leading-relaxed">{product.description}</p>
+                      </div>
 
                       <div className="space-y-4">
                         <div className="flex flex-wrap gap-2">
