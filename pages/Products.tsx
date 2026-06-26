@@ -158,8 +158,8 @@ const Products: React.FC = () => {
           {/* Sidebar Filter */}
           <aside className="w-full lg:w-72 flex-shrink-0">
             <div className="sticky top-32">
-              <div className="bg-white border border-gray-200 p-6 shadow-sm">
-                <div className="flex items-center mb-6 pb-4 border-b border-gray-100">
+              <div className="bg-white border border-gray-300 p-6 shadow-sm">
+                <div className="flex items-center mb-6 pb-4 border-b border-gray-200">
                   <Filter size={16} className="mr-2 text-slate-400" />
                   <h3 className="font-oswald font-bold text-slate-900 tracking-wide uppercase text-sm">Filtrar Por</h3>
                 </div>
@@ -361,7 +361,7 @@ const Products: React.FC = () => {
                       className="group cursor-pointer bg-white shadow-sm hover:shadow-md transition-all duration-300 flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500 relative"
                     >
                       {/* Absolute Border Overlay to prevent image overlap */}
-                      <div className="absolute inset-0 border border-gray-200 group-hover:border-gray-300 transition-colors duration-300 pointer-events-none z-20"></div>
+                      <div className="absolute inset-0 border border-gray-300 group-hover:border-gray-400 transition-colors duration-300 pointer-events-none z-20"></div>
 
                       <div className="w-full aspect-[4/3] overflow-hidden relative bg-gray-50 flex items-center justify-center p-4">
                         <img
@@ -380,7 +380,7 @@ const Products: React.FC = () => {
                           <Folder size={18} />
                         </div>
                       </div>
-                      <div className="p-8 text-center bg-white flex-1 flex flex-col justify-between border-t border-gray-100">
+                      <div className="p-8 text-center bg-white flex-1 flex flex-col justify-between border-t border-gray-200">
                         <div className="flex-1 flex flex-col justify-center">
                           <h3 className="font-oswald font-bold text-lg text-slate-900 uppercase tracking-tight mb-2 group-hover:text-orange-600 transition-colors">{formatCategoryName(sub)}</h3>
                           <p className="text-[10px] text-gray-400 font-bold uppercase tracking-[0.2em] flex items-center justify-center">
@@ -405,7 +405,7 @@ const Products: React.FC = () => {
                     className="bg-white shadow-sm hover:shadow-md transition-all duration-300 group flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500 relative"
                   >
                     {/* Absolute Border Overlay to prevent image overlap */}
-                    <div className="absolute inset-0 border border-gray-200 group-hover:border-gray-300 transition-colors duration-300 pointer-events-none z-20"></div>
+                    <div className="absolute inset-0 border border-gray-300 group-hover:border-gray-400 transition-colors duration-300 pointer-events-none z-20"></div>
 
                     <div
                       className="w-full aspect-[4/3] relative overflow-hidden bg-gray-50 cursor-pointer"
@@ -420,7 +420,7 @@ const Products: React.FC = () => {
                       </div>
                     </div>
 
-                    <div className="p-8 flex-1 flex flex-col justify-between border-t border-gray-100">
+                    <div className="p-8 flex-1 flex flex-col justify-between border-t border-gray-200">
                       <div>
                         <h3 className="text-xl font-oswald font-bold text-slate-900 mb-4 leading-tight group-hover:text-orange-600 transition-colors cursor-pointer" onClick={() => handleProductClick(product)}>{product.name}</h3>
                         <p className="text-gray-500 text-sm mb-6 leading-relaxed">{product.description}</p>
@@ -452,7 +452,7 @@ const Products: React.FC = () => {
                 ))}
               </div>
             ) : (
-              <div className="text-center py-20 bg-white border border-gray-200">
+              <div className="text-center py-20 bg-white border border-gray-300">
                 <Folder size={48} className="mx-auto text-slate-200 mb-4" />
                 <h3 className="text-xl font-oswald font-bold text-slate-900 mb-2">No hay elementos aquí</h3>
                 <p className="text-slate-500">Intenta navegar hacia otra categoría.</p>
