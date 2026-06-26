@@ -272,10 +272,9 @@ const Products: React.FC = () => {
               )}
             </div>
 
-            {/* Folders and Products combined in the same grid */}
-            {(nextLevelFolders.length > 0 || visibleProducts.length > 0) ? (
+            {/* Folders Grid */}
+            {nextLevelFolders.length > 0 && (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12">
-                {/* Folders */}
                 {nextLevelFolders.map((sub, i) => {
                   const catInfo = categories.find(c => c.name === sub);
                   const categoryImage = catInfo?.image && !catInfo.image.includes('vicbril-hero-1.jpg') ? catInfo.image : null;
@@ -358,7 +357,7 @@ const Products: React.FC = () => {
                     <div
                       key={i}
                       onClick={() => handlePathChange([...activePath, sub])}
-                      className="group cursor-pointer bg-white shadow-sm hover:shadow-md transition-all duration-300 flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-500 relative self-start w-full"
+                      className="group cursor-pointer bg-white shadow-sm hover:shadow-md transition-all duration-300 flex flex-col h-full overflow-hidden animate-in fade-in zoom-in-95 duration-500 relative w-full"
                     >
                       {/* Absolute Border Overlay to prevent image overlap */}
                       <div className="absolute inset-0 border border-gray-300 group-hover:border-gray-400 transition-colors duration-300 pointer-events-none z-20"></div>
@@ -379,7 +378,7 @@ const Products: React.FC = () => {
                           <Folder size={18} />
                         </div>
                       </div>
-                      <div className="p-8 text-center bg-white border-t border-gray-200">
+                      <div className="p-8 text-center bg-white border-t border-gray-200 flex-1 flex flex-col justify-center">
                         <h3 className="font-oswald font-bold text-lg text-slate-900 uppercase tracking-tight mb-2 group-hover:text-orange-600 transition-colors">{formatCategoryName(sub)}</h3>
                         <p className="text-[10px] text-gray-400 font-bold uppercase tracking-[0.2em] flex items-center justify-center">
                           {productsInThisFolder.length} {productsInThisFolder.length === 1 ? 'Producto' : 'Productos'}
@@ -389,8 +388,12 @@ const Products: React.FC = () => {
                     </div>
                   );
                 })}
+              </div>
+            )}
 
-                {/* Products */}
+            {/* Products Grid */}
+            {visibleProducts.length > 0 && (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12">
                 {visibleProducts.map(product => (
                   <div 
                     key={product.id} 
@@ -443,7 +446,9 @@ const Products: React.FC = () => {
                   </div>
                 ))}
               </div>
-            ) : (
+            )}
+
+            {nextLevelFolders.length === 0 && visibleProducts.length === 0 && (
               <div className="text-center py-20 bg-white border border-gray-300">
                 <Folder size={48} className="mx-auto text-slate-200 mb-4" />
                 <h3 className="text-xl font-oswald font-bold text-slate-900 mb-2">No hay elementos aquí</h3>
