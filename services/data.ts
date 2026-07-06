@@ -928,7 +928,7 @@ Formación: Cableado concéntrico.`,
   },
   {
     id: 'subterraneo-lsoh-aluminio',
-    name: 'Cable de Potencia Aluminio LSOH/LSOH',
+    name: 'SUBTERRANEO LSOH',
     categoryPath: ['Cables de Potencia','Subterráneos','Subterráneo Aluminio'],
     description: 'Cables de energía, aislados con dieléctricos sólidos para una tensión nominal U0/U/Um',
     detailedDescription: `DESCRIPCIÓN
@@ -1062,9 +1062,9 @@ Cables de potencia y cables de control y comando, con aislación y envolturas ex
     ],
     certifications: ['iram', 'no-propagacion', 'libre-halogenos', 'baja-emision-humos']
   },
-  {
-        id: 'subterraneo-pvc-aluminio',
-    name: 'Cable de Potencia Aluminio PVC/PVC',
+    {
+    id: 'subterraneo-pvc-aluminio',
+    name: 'SUBTERRANEO PVC',
     categoryPath: ['Cables de Potencia','Subterráneos','Subterráneo Aluminio'],
     description: 'Cable de potencia con conductor de aluminio y aislación de PVC, para instalaciones fijas en sistemas de distribución de 1 kV.',
     detailedDescription: `DESCRIPCIÓN
@@ -1089,314 +1089,121 @@ Cables de energía, aislados con dieléctricos sólidos para una tensión nomina
       'Ensayos de fuego: No propagación de la llama (IRAM NM IEC 60332-1) / No propagación del incendio (IRAM NM IEC 60332-3-24).'
     ],
     specsTables: [
-  {
-    title: "DIMENSIONES Y PESOS - UNIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
+      {
+        title: "Dimensiones y Pesos - Unipolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["16", "5.2", "1.0", "1.4", "10.2", "131"],
+          ["25", "6.5", "1.2", "1.4", "11.9", "181"],
+          ["35", "7.5", "1.2", "1.4", "12.9", "220"],
+          ["50", "8.6", "1.4", "1.4", "14.4", "281"],
+          ["70", "10.2", "1.4", "1.4", "16.0", "358"],
+          ["95", "12.0", "1.6", "1.5", "18.4", "477"],
+          ["120", "13.5", "1.6", "1.6", "20.1", "576"],
+          ["150", "15.0", "1.8", "1.6", "22.0", "693"],
+          ["185", "16.8", "2.0", "1.7", "24.4", "854"],
+          ["240", "19.2", "2.2", "1.8", "27.4", "1088"],
+          ["300", "21.6", "2.4", "1.9", "30.4", "1336"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Bipolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["16", "5.2", "1.0", "1.8", "19.5", "464"],
+          ["25", "6.5", "1.2", "1.8", "23.1", "653"],
+          ["35", "7.5", "1.2", "1.8", "25.1", "784"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Tripolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["16", "5.2", "1.0", "1.8", "20.7", "529"],
+          ["25", "6.5", "1.2", "1.8", "24.6", "751"],
+          ["35", "7.5", "1.2", "1.8", "26.7", "909"],
+          ["50", "8.6", "1.4", "1.9", "30.3", "1179"],
+          ["70", "10.2", "1.4", "2.0", "34.2", "1535"],
+          ["95", "12.0", "1.6", "2.2", "39.3", "2035"],
+          ["120", "13.5", "1.6", "2.3", "42.7", "2433"],
+          ["150", "15.0", "1.8", "2.5", "47.1", "2963"],
+          ["185", "16.8", "2.0", "2.7", "52.6", "3694"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Tetrapolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["16", "5.2", "1.0", "1.8", "22.5", "631"],
+          ["25/16", "6.5/5.2", "1.2/1.0", "1.8", "25.8", "833"],
+          ["35/16", "7.5/5.2", "1.2/1.0", "1.8", "27.7", "978"],
+          ["50/25", "8.6/6.5", "1.4/1.2", "2.0", "31.7", "1303"],
+          ["70/35", "10.2/7.5", "1.4/1.2", "2.1", "35.7", "1685"],
+          ["95/50", "12.0/8.6", "1.6/1.4", "2.3", "40.9", "2229"],
+          ["120/70", "13.5/10.2", "1.6/1.4", "2.4", "44.8", "2709"],
+          ["150/70", "15.0/10.2", "1.8/1.4", "2.5", "48.5", "3180"]
+        ]
+      },
+      {
+        title: "Cables en Aire - Intensidades admisibles (A) a 40°C amb. — Métodos B2 y C",
+        headers: ["Sección (mm²)", "Mét. B2 — 2 cond.", "Mét. B2 — 3 cond.", "Mét. C — 2 cond.", "Mét. C — 3 cond."],
+        rows: [
+          ["16", "47", "42", "57", "51"],
+          ["25", "62", "54", "72", "64"],
+          ["35", "75", "67", "90", "78"],
+          ["50", "90", "80", "109", "96"],
+          ["70", "114", "101", "139", "122"],
+          ["95", "137", "121", "170", "148"],
+          ["120", "157", "139", "197", "171"],
+          ["150", "175", "153", "227", "197"],
+          ["185", "200", "173", "259", "225"],
+          ["240", "234", "202", "306", "265"],
+          ["300", "268", "231", "353", "305"]
+        ],
+        note: "Mét. B2: Caño embutido en pared / Caño a la vista. Mét. C: Bandeja no perforada o de fondo sólido."
+      },
+      {
+        title: "Cables en Aire - Intensidades admisibles (A) a 40°C amb. — Métodos E, F y G",
+        headers: ["Sección (mm²)", "Mét. E — 2 cond.", "Mét. E — 3 cond.", "Mét. F — 2x1x", "Mét. F — 3x1x trébol", "Mét. F — 3x1x plano", "Mét. G — 3x1x horiz.", "Mét. G — 3x1x vert."],
+        rows: [
+          ["25", "77", "68", "85", "73", "76", "97", "86"],
+          ["35", "97", "84", "106", "91", "95", "121", "108"],
+          ["50", "117", "102", "130", "111", "116", "147", "132"],
+          ["70", "151", "131", "167", "144", "151", "189", "171"],
+          ["95", "183", "159", "204", "177", "184", "231", "210"],
+          ["120", "212", "184", "238", "206", "215", "268", "245"],
+          ["150", "245", "213", "275", "238", "250", "310", "284"],
+          ["185", "280", "244", "316", "274", "287", "354", "327"],
+          ["240", "331", "287", "374", "326", "341", "419", "389"],
+          ["300", "382", "331", "432", "378", "396", "485", "452"]
+        ],
+        note: "Mét. E: Bandeja perforada. Mét. F: Bandeja perforada tipo escalera. Mét. G: Bandeja perforada — cables separados 1 diámetro mínimo."
+      },
+      {
+        title: "Cables Directamente Enterrados - Intensidades admisibles (A) — Método D2 (terreno 25°C, 1 K.m/W)",
+        headers: ["Sección (mm²)", "1 cable unipolar", "2 cables (directo)", "2 cables (en caño)", "3 cables (directo)", "3 cables (en caño)"],
+        rows: [
+          ["16", "84", "86", "70", "73", "58"],
+          ["25", "109", "112", "90", "94", "74"],
+          ["35", "130", "134", "106", "113", "90"],
+          ["50", "153", "161", "127", "135", "105"],
+          ["70", "188", "198", "157", "168", "131"],
+          ["95", "226", "237", "186", "202", "155"],
+          ["120", "258", "272", "212", "231", "176"],
+          ["150", "288", "305", "239", "260", "200"],
+          ["185", "326", "346", "269", "294", "224"],
+          ["240", "380", "403", "311", "341", "258"],
+          ["300", "430", "457", "351", "386", "291"]
+        ]
+      }
     ],
-    rows: [
-      [
-        "131",
-        "10.2",
-        "1.4",
-        "1.0",
-        "5.2",
-        "16"
-      ],
-      [
-        "181",
-        "11.9",
-        "1.4",
-        "1.2",
-        "6.5",
-        "25"
-      ],
-      [
-        "220",
-        "12.9",
-        "1.4",
-        "1.2",
-        "7.5",
-        "35"
-      ],
-      [
-        "281",
-        "14.4",
-        "1.4",
-        "1.4",
-        "8.6",
-        "50"
-      ],
-      [
-        "358",
-        "16.0",
-        "1.4",
-        "1.4",
-        "10.2",
-        "70"
-      ],
-      [
-        "477",
-        "18.4",
-        "1.5",
-        "1.6",
-        "12.0",
-        "95"
-      ],
-      [
-        "576",
-        "20.1",
-        "1.6",
-        "1.6",
-        "13.5",
-        "120"
-      ],
-      [
-        "693",
-        "22.0",
-        "1.6",
-        "1.8",
-        "15.0",
-        "150"
-      ],
-      [
-        "854",
-        "24.4",
-        "1.7",
-        "2.0",
-        "16.8",
-        "185"
-      ],
-      [
-        "1088",
-        "27.4",
-        "1.8",
-        "2.2",
-        "19.2",
-        "240"
-      ],
-      [
-        "1336",
-        "30.4",
-        "1.9",
-        "2.4",
-        "21.6",
-        "300"
-      ]
-    ]
+    certifications: ['iram', 'seguridad', 'no-propagacion']
   },
-  {
-    title: "DIMENSIONES Y PESOS - BIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      [
-        "464",
-        "19.5",
-        "1.8",
-        "1.0",
-        "5.2",
-        "16"
-      ],
-      [
-        "653",
-        "23.1",
-        "1.8",
-        "1.2",
-        "6.5",
-        "25"
-      ],
-      [
-        "784",
-        "25.1",
-        "1.8",
-        "1.2",
-        "7.5",
-        "35"
-      ]
-    ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - TRIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      [
-        "529",
-        "20.7",
-        "1.8",
-        "1.0",
-        "5.2",
-        "16"
-      ],
-      [
-        "751",
-        "24.6",
-        "1.8",
-        "1.2",
-        "6.5",
-        "25"
-      ],
-      [
-        "909",
-        "26.7",
-        "1.8",
-        "1.2",
-        "7.5",
-        "35"
-      ],
-      [
-        "1179",
-        "30.3",
-        "1.9",
-        "1.4",
-        "8.6",
-        "50"
-      ],
-      [
-        "1535",
-        "34.2",
-        "2.0",
-        "1.4",
-        "10.2",
-        "70"
-      ],
-      [
-        "2035",
-        "39.3",
-        "2.2",
-        "1.6",
-        "12.0",
-        "95"
-      ],
-      [
-        "2433",
-        "42.7",
-        "2.3",
-        "1.6",
-        "13.5",
-        "120"
-      ],
-      [
-        "2963",
-        "47.1",
-        "2.5",
-        "1.8",
-        "15.0",
-        "150"
-      ],
-      [
-        "3694",
-        "52.6",
-        "2.7",
-        "2.0",
-        "16.8",
-        "185"
-      ]
-    ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - TETRAPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      [
-        "631",
-        "22.5",
-        "1.8",
-        "1.0",
-        "5.2",
-        "16"
-      ],
-      [
-        "833",
-        "25.8",
-        "1.8",
-        "1.2/1.0",
-        "6.5/5.2",
-        "25/16"
-      ],
-      [
-        "978",
-        "27.7",
-        "1.8",
-        "1.2/1.0",
-        "7.5/5.2",
-        "35/16"
-      ],
-      [
-        "1303",
-        "31.7",
-        "2.0",
-        "1.4/1.2",
-        "8.6/6.5",
-        "50/25"
-      ],
-      [
-        "1685",
-        "35.7",
-        "2.1",
-        "1.4/1.2",
-        "10.2/7.5",
-        "70/35"
-      ],
-      [
-        "2229",
-        "40.9",
-        "2.3",
-        "1.6/1.4",
-        "12.0/8.6",
-        "95/50"
-      ],
-      [
-        "2709",
-        "44.8",
-        "2.4",
-        "1.6/1.4",
-        "13.5/10.2",
-        "120/70"
-      ],
-      [
-        "3180",
-        "48.5",
-        "2.5",
-        "1.8/1.4",
-        "15.0/10.2",
-        "150/70"
-      ]
-    ]
-  }
-],
-    certifications: []
-  },
-    {
+      {
     id: 'subterraneo-xlpe-aluminio',
     name: 'SUBTERRANEO XLPE',
     categoryPath: ['Cables de Potencia', 'Subterráneos', 'Subterráneo Aluminio'],
-    description: 'Cables de potencia y cables de  control y comando, con aislación  y envolturas extruidas, de baja',
+    description: 'Cables de potencia y cables de control y comando, con aislación XLPE y vaina de PVC violeta.',
     detailedDescription: `DESCRIPCIÓN
 Cables subterráneos de potencia, de aluminio, con aislación XLPE y vaina de PVC violeta. Aptos para sistemas fijos de potencia y distribución de energía.
 
@@ -1421,92 +1228,81 @@ Instalación a la intemperie, sobre bandejas portacables, en ductos eléctricos 
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH'],
     specsTables: [
-  {
-    title: "DIMENSIONES Y PESOS - UNIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      ["25", "6.50", "1.20", "1.4", "11.9", "178"],
-      ["35", "7.50", "1.20", "1.4", "12.9", "217"],
-      ["50", "8.60", "1.40", "1.4", "14.4", "277"],
-      ["70", "10.20", "1.40", "1.4", "16.0", "354"],
-      ["95", "12.00", "1.60", "1.5", "18.4", "471"],
-      ["120", "13.50", "1.60", "1.6", "20.1", "570"],
-      ["150", "15.00", "1.80", "1.6", "22.0", "686"],
-      ["185", "16.80", "2.00", "1.7", "24.4", "846"],
-      ["240", "19.20", "2.20", "1.8", "27.4", "1077"]
+      {
+        title: "Dimensiones y Pesos - Unipolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["25", "6.50", "1.20", "1.4", "11.9", "178"],
+          ["35", "7.50", "1.20", "1.4", "12.9", "217"],
+          ["50", "8.60", "1.40", "1.4", "14.4", "277"],
+          ["70", "10.20", "1.40", "1.4", "16.0", "354"],
+          ["95", "12.00", "1.60", "1.5", "18.4", "471"],
+          ["120", "13.50", "1.60", "1.6", "20.1", "570"],
+          ["150", "15.00", "1.80", "1.6", "22.0", "686"],
+          ["185", "16.80", "2.00", "1.7", "24.4", "846"],
+          ["240", "19.20", "2.20", "1.8", "27.4", "1077"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Bipolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["16", "5.20", "1.00", "1.8", "19.5", "458"],
+          ["25", "6.50", "1.20", "1.8", "23.1", "647"],
+          ["35", "7.50", "1.20", "1.8", "25.1", "777"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Tripolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["16", "5.20", "1.00", "1.8", "20.7", "522"],
+          ["25", "6.50", "1.20", "1.8", "24.6", "742"],
+          ["35", "7.50", "1.20", "1.8", "26.7", "900"],
+          ["50", "8.60", "1.40", "1.9", "30.3", "1168"],
+          ["70", "10.20", "1.40", "2.0", "34.2", "1521"],
+          ["95", "12.00", "1.60", "2.2", "39.3", "2018"],
+          ["120", "13.50", "1.60", "2.3", "42.7", "2413"],
+          ["150", "15.00", "1.80", "2.5", "47.1", "2940"],
+          ["185", "16.80", "2.00", "2.7", "52.6", "3666"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Tetrapolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["16", "5.2", "1.0", "1.8", "22.5", "623"],
+          ["25/16", "6.5/5.2", "1.2/1.0", "1.8", "25.8", "824"],
+          ["35/16", "7.5/5.2", "1.2/1.0", "1.8", "27.7", "968"],
+          ["50/25", "8.6/6.5", "1.4/1.2", "2.0", "31.7", "1290"],
+          ["70/35", "10.2/7.5", "1.4/1.2", "2.1", "35.7", "1670"],
+          ["95/50", "12.0/8.6", "1.6/1.4", "2.3", "40.9", "2210"],
+          ["120/70", "13.5/10.2", "1.6/1.4", "2.4", "44.8", "2687"],
+          ["150/70", "15.0/10.2", "1.8/1.4", "2.5", "48.5", "3155"]
+        ]
+      },
+      {
+        title: "Características Eléctricas - Aluminio (Corrientes Admisibles)",
+        headers: ["Sección (mm²)", "Aire Unipolares (A)", "Aire Multipolares (A)", "Tierra Unipolares (A)", "Tierra Multipolares (A)", "Caída Tensión Unip. (V/A.km)", "Caída Tensión Multip. (V/A.km)"],
+        rows: [
+          ["25", "98", "128", "136", "1.26", "2.29", "2.21"],
+          ["35", "123", "153", "163", "157", "1.70", "1.62"],
+          ["50", "149", "180", "194", "191", "1.29", "1.21"],
+          ["70", "192", "221", "239", "247", "0.94", "0.86"],
+          ["95", "234", "265", "286", "302", "0.72", "0.65"],
+          ["120", "273", "302", "326", "352", "0.60", "0.53"],
+          ["150", "315", "338", "366", "408", "0.51", "0.44"],
+          ["185", "361", "384", "415", "469", "0.44", "0.36"],
+          ["240", "428", "448", "484", "556", "0.37", "0.29"],
+          ["300", "494", "507", "547", "644", "0.32", "0.25"]
+        ],
+        note: "Temperatura del terreno 25°C, temperatura ambiente 40°C, temperatura del conductor 90°C. Cos fi = 0.8."
+      }
     ]
   },
   {
-    title: "DIMENSIONES Y PESOS - BIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      ["458", "19.5", "1.8", "1.00", "5.20", "16"],
-      ["647", "23.1", "1.8", "1.20", "6.50", "25"],
-      ["777", "25.1", "1.8", "1.20", "7.50", "35"]
-    ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - TRIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      ["522", "20.7", "1.8", "1.00", "5.20", "16"],
-      ["742", "24.6", "1.8", "1.20", "6.50", "25"],
-      ["900", "26.7", "1.8", "1.20", "7.50", "35"],
-      ["1168", "30.3", "1.9", "1.40", "8.60", "50"],
-      ["1521", "34.2", "2.0", "1.40", "10.20", "70"],
-      ["2018", "39.3", "2.2", "1.60", "12.00", "95"],
-      ["2413", "42.7", "2.3", "1.60", "13.50", "120"],
-      ["2940", "47.1", "2.5", "1.80", "15.00", "150"],
-      ["3666", "52.6", "2.7", "2.00", "16.80", "185"]
-    ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - TETRAPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      ["623", "22.5", "1.8", "1.0", "5.2", "16"],
-      ["824", "25.8", "1.8", "1.2/1.0", "6.5/5.2", "25/16"],
-      ["968", "27.7", "1.8", "1.2/1.0", "7.5/5.2", "35/16"],
-      ["1290", "31.7", "2.0", "1.4/1.2", "8.6/6.5", "50/25"],
-      ["1670", "35.7", "2.1", "1.4/1.2", "10.2/7.5", "70/35"],
-      ["2210", "40.9", "2.3", "1.6/1.4", "12.0/8.6", "95/50"],
-      ["2687", "44.8", "2.4", "1.6/1.4", "13.5/10.2", "120/70"],
-      ["3155", "48.5", "2.5", "1.8/1.4", "15.0/10.2", "150/70"]
-    ]
-  }
-]
-  },
-  {
-        id: 'subterraneo-lsoh-cobre',
-    name: 'Cable de Potencia Cobre LSOH/LSOH',
+    id: 'subterraneo-lsoh-cobre',
+    name: 'SUBTERRANEO LSOH',
     categoryPath: ['Cables de Potencia','Subterráneos','Subterráneo Cobre'],
     description: 'Cable de potencia con conductor de cobre y aislación LSOH, libre de halógenos, para instalaciones fijas en sistemas de distribución de 1 kV.',
     detailedDescription: `DESCRIPCIÓN
@@ -1517,12 +1313,12 @@ Cables de potencia y cables de control y comando, con aislación y envolturas ex
     image: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO LSOH/PORTADA.jpeg',
     gallery: [],
     pdf: '/images/ProductosNuevos/3-CABLES DE POTENCIA/1-SUBTERRANEOS/SUBTERRANEO COBRE/SUBTERRANEO LSOH/FICHA TECNICA/ficha tecnica subte cobre lsoh.pdf',
-    specs: ['1 kV', '70°C / 90°C', 'IRAM 62266'],
+    specs: ['1 kV', '90°C', 'IRAM 62266'],
     characteristics: [
       'CONDUCTOR',
       'Material: Cobre recocido.',
       'Norma: IRAM NM 280. Conductores Clase 4 / Clase 5.',
-      'Temperatura máxima en carga permanente: 70°C / 90°C.',
+      'Temperatura máxima en carga permanente: 90°C.',
       'Temperatura máxima en cortocircuito: 160°C (S ≤ 300 mm²) / 140°C (S > 300 mm²).',
       'Duración de cortocircuito: 5 s.',
       'AISLANTE',
@@ -1531,605 +1327,143 @@ Cables de potencia y cables de control y comando, con aislación y envolturas ex
       'No propaga el incendio: IRAM 2289 - Cat. C.'
     ],
     specsTables: [
-  {
-    title: "Especificaciones",
-    headers: [
-      "Sección nominal",
-      "Diám. del alambre",
-      "Espesor de la aislación",
-      "Espesor nominal vaina",
-      "Diam. exterior del cable 1",
-      "Peso final del cable 1"
+      {
+        title: "Dimensiones y Pesos - Unipolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["25", "6.70", "1.20", "1.4", "12.1", "326"],
+          ["35", "7.60", "1.20", "1.4", "13.0", "413"],
+          ["50", "9.30", "1.40", "1.4", "15.1", "588"],
+          ["70", "10.80", "1.40", "1.4", "16.6", "772"],
+          ["95", "12.62", "1.60", "1.5", "19.0", "989"],
+          ["120", "14.30", "1.60", "1.6", "20.9", "1273"],
+          ["150", "15.85", "1.80", "1.6", "22.9", "1604"],
+          ["185", "18.00", "2.00", "1.7", "25.6", "1930"],
+          ["240", "22.10", "2.20", "1.8", "30.3", "2493"],
+          ["300", "26.10", "2.40", "1.9", "34.9", "3252"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Bipolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["1.5", "1.53", "0.80", "1.8", "11.1", "157"],
+          ["2.5", "1.95", "0.80", "1.8", "11.9", "192"],
+          ["4", "2.43", "1.00", "1.8", "13.7", "261"],
+          ["6", "2.98", "1.00", "1.8", "15.0", "331"],
+          ["10", "4.42", "1.00", "1.8", "17.8", "489"],
+          ["16", "5.40", "1.00", "1.8", "19.9", "654"],
+          ["25", "6.70", "1.20", "1.8", "23.5", "955"],
+          ["35", "7.60", "1.20", "1.8", "25.3", "1165"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Tripolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["1.5", "1.53", "0.80", "1.8", "11.6", "179"],
+          ["2.5", "1.95", "0.80", "1.8", "12.5", "223"],
+          ["4", "2.43", "1.00", "1.8", "14.4", "308"],
+          ["6", "2.98", "1.00", "1.8", "15.8", "400"],
+          ["10", "4.40", "1.00", "1.8", "18.9", "595"],
+          ["16", "5.40", "1.00", "1.8", "21.1", "748"],
+          ["25", "6.70", "1.20", "1.8", "25.0", "1186"],
+          ["35", "7.60", "1.20", "1.8", "27.0", "1486"],
+          ["50", "9.30", "1.40", "2.0", "31.9", "2187"],
+          ["70", "10.80", "1.40", "2.1", "35.6", "2920"],
+          ["95", "12.62", "1.60", "2.3", "40.7", "3908"],
+          ["120", "14.30", "1.60", "2.4", "44.6", "4572"],
+          ["150", "15.85", "1.80", "2.5", "49.1", "5869"],
+          ["185", "18.00", "2.00", "2.7", "55.4", "7386"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Tetrapolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["1.5", "1.53", "0.80", "1.8", "12.4", "210"],
+          ["2.5", "1.95", "0.80", "1.8", "13.4", "266"],
+          ["4", "2.43", "1.00", "1.8", "15.5", "374"],
+          ["6", "2.98", "1.00", "1.8", "17.0", "475"],
+          ["10", "4.42", "1.00", "1.8", "20.5", "729"],
+          ["16", "5.40", "1.00", "1.8", "23.0", "991"],
+          ["25/16", "6.70/5.40", "1.2/1.0", "1.8", "26.3", "1370"],
+          ["35/16", "7.60/5.40", "1.2/1.0", "1.8", "28.0", "1656"],
+          ["50/25", "9.30/6.70", "1.4/1.2", "2.0", "33.2", "2438"],
+          ["70/35", "10.80/7.60", "1.4/1.2", "2.1", "36.9", "3185"],
+          ["95/50", "12.68/9.30", "1.6/1.4", "2.3", "42.6", "4340"],
+          ["120/70", "14.30/10.80", "1.6/1.4", "2.5", "46.8", "5385"],
+          ["150/70", "15.85/10.80", "1.8/1.4", "2.6", "50.6", "6558"]
+        ]
+      },
+      {
+        title: "Cables en Aire - Intensidades admisibles (A) a 40°C amb. — Métodos B2 y C",
+        headers: ["Sección (mm²)", "Mét. B2 — 2 cond.", "Mét. B2 — 3 cond.", "Mét. C — 2 cond.", "Mét. C — 3 cond."],
+        rows: [
+          ["1.5", "14", "13", "17", "15"],
+          ["2.5", "20", "17", "23", "21"],
+          ["4", "26", "23", "31", "28"],
+          ["6", "33", "30", "40", "36"],
+          ["10", "45", "40", "55", "50"],
+          ["16", "60", "54", "74", "66"],
+          ["25", "78", "70", "97", "84"],
+          ["35", "97", "86", "120", "104"],
+          ["50", "116", "103", "146", "125"],
+          ["70", "146", "130", "185", "160"],
+          ["95", "175", "156", "224", "194"],
+          ["120", "202", "179", "260", "225"],
+          ["150", "224", "196", "299", "260"],
+          ["185", "256", "222", "341", "297"],
+          ["240", "299", "258", "401", "351"],
+          ["300", "343", "295", "461", "404"]
+        ],
+        note: "Mét. B2: Caño embutido en pared / Caño a la vista. Mét. C: Bandeja no perforada o de fondo sólido."
+      },
+      {
+        title: "Cables en Aire - Intensidades admisibles (A) a 40°C amb. — Métodos E, F y G",
+        headers: ["Sección (mm²)", "Mét. E — 2 cond.", "Mét. E — 3 cond.", "Mét. F — 2x1x", "Mét. F — 3x1x trébol", "Mét. F — 3x1x plano", "Mét. G — 3x1x horiz.", "Mét. G — 3x1x vert."],
+        rows: [
+          ["25", "104", "88", "114", "96", "99", "127", "113"],
+          ["35", "129", "110", "141", "119", "124", "157", "141"],
+          ["50", "157", "133", "171", "145", "151", "191", "171"],
+          ["70", "202", "171", "218", "188", "196", "244", "221"],
+          ["95", "245", "207", "264", "230", "239", "297", "271"],
+          ["120", "285", "240", "306", "268", "279", "345", "315"],
+          ["150", "330", "278", "353", "310", "324", "397", "365"],
+          ["185", "378", "317", "403", "356", "371", "453", "418"],
+          ["240", "447", "374", "475", "422", "441", "535", "495"],
+          ["300", "516", "432", "547", "488", "511", "617", "573"]
+        ],
+        note: "Mét. E: Bandeja perforada. Mét. F: Bandeja perforada tipo escalera. Mét. G: Bandeja perforada — cables separados 1 diámetro mínimo."
+      },
+      {
+        title: "Cables Directamente Enterrados - Intensidades admisibles (A) — Método D2 (terreno 25°C, 1 K.m/W)",
+        headers: ["Sección (mm²)", "1 cable unipolar", "2 cables (directo)", "2 cables (en caño)", "3 cables (directo)", "3 cables (en caño)"],
+        rows: [
+          ["1.5", "30", "29", "25", "25", "20"],
+          ["2.5", "39", "39", "33", "34", "27"],
+          ["4", "50", "51", "43", "44", "35"],
+          ["6", "63", "65", "53", "55", "44"],
+          ["10", "84", "88", "71", "74", "58"],
+          ["16", "108", "112", "91", "95", "75"],
+          ["25", "140", "144", "117", "123", "96"],
+          ["35", "168", "173", "140", "147", "115"],
+          ["50", "198", "207", "166", "173", "137"],
+          ["70", "243", "254", "205", "211", "169"],
+          ["95", "291", "306", "242", "254", "201"],
+          ["120", "331", "350", "276", "290", "228"],
+          ["150", "372", "393", "312", "325", "258"],
+          ["185", "420", "445", "350", "369", "289"],
+          ["240", "487", "519", "405", "428", "333"],
+          ["300", "552", "587", "457", "484", "377"]
+        ]
+      }
     ],
-    rows: [
-      [
-        "mm2",
-        "mm",
-        "mm",
-        "mm",
-        "mm",
-        "Kg/Km"
-      ],
-      [
-        "1.50",
-        "0.26",
-        "0.80",
-        "1.40",
-        "5.9",
-        "56"
-      ]
-    ]
+    certifications: ['iram', 'no-propagacion', 'libre-halogenos', 'baja-emision-humos']
   },
   {
-    title: "Especificaciones",
-    headers: [
-      "N° de Fases",
-      "Celeste",
-      "Marrón",
-      "Rojo",
-      "Negro",
-      "Verde",
-      "Violeta"
-    ],
-    rows: [
-      [
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "aammaarriilllloo",
-        "-"
-      ],
-      [
-        "1",
-        "-",
-        "•",
-        "-",
-        "-",
-        "-",
-        "-"
-      ],
-      [
-        "2",
-        "•",
-        "•",
-        "-",
-        "-",
-        "-",
-        "-"
-      ],
-      [
-        "3",
-        "-",
-        "•",
-        "•",
-        "•",
-        "-",
-        "-"
-      ],
-      [
-        "4",
-        "•",
-        "•",
-        "•",
-        "•",
-        "-",
-        "-"
-      ],
-      [
-        "5",
-        "•",
-        "•",
-        "•",
-        "•",
-        "-",
-        "-"
-      ],
-      [
-        "Vaina",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "•"
-      ]
-    ]
-  },
-  {
-    title: "Especificaciones",
-    headers: [
-      "Sección nominal",
-      "Diam. conductor",
-      "Espesor de la aislación",
-      "Espesor nominal vaina",
-      "Diam. exterior del cable 1",
-      "",
-      "Peso final del cable (Cu) 1",
-      "Peso final del cable (Al) 1"
-    ],
-    rows: [
-      [
-        "mm2",
-        "mm",
-        "mm",
-        "mm",
-        "mm",
-        "-",
-        "Kg/Km",
-        "Kg/Km"
-      ],
-      [
-        "3x50",
-        "-",
-        "1.0",
-        "2.0",
-        "25",
-        "-",
-        "1794",
-        "933"
-      ],
-      [
-        "3x70 - 1.1 2.1 29",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "2521",
-        "1224"
-      ],
-      [
-        "3x95",
-        "-",
-        "1.1",
-        "2.2",
-        "33",
-        "-",
-        "3261",
-        "1586"
-      ],
-      [
-        "3x120 - 1.2 2.4 35",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "4089",
-        "1908"
-      ],
-      [
-        "3x150",
-        "-",
-        "1.48",
-        "2.5",
-        "42",
-        "-",
-        "5016",
-        "2302"
-      ],
-      [
-        "3x185 - 1.70 2.50 42",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "6143",
-        "2636"
-      ],
-      [
-        "3x240",
-        "-",
-        "1.80",
-        "2.80",
-        "52",
-        "-",
-        "7871",
-        "3327"
-      ],
-      [
-        "3x300",
-        "-",
-        "1.90",
-        "3.00",
-        "56",
-        "-",
-        "9795",
-        "4039"
-      ],
-      [
-        "3x25+16",
-        "-",
-        "1.2/1.0",
-        "1.8",
-        "26",
-        "-",
-        "-",
-        "635"
-      ],
-      [
-        "3x35+16",
-        "-",
-        "1.2/1.0",
-        "1.8",
-        "28",
-        "-",
-        "-",
-        "758"
-      ],
-      [
-        "3x50+25",
-        "-",
-        "1.0/0.9",
-        "1.9",
-        "27",
-        "-",
-        "1900",
-        "843"
-      ],
-      [
-        "3x70+35",
-        "-",
-        "1.1/0.9",
-        "2",
-        "31",
-        "-",
-        "2660",
-        "1102"
-      ],
-      [
-        "3x95+50",
-        "-",
-        "1.1/1.0",
-        "2.2",
-        "35",
-        "-",
-        "3524",
-        "1442"
-      ],
-      [
-        "3x120+70",
-        "-",
-        "1.2/1.1",
-        "2.3",
-        "39",
-        "-",
-        "4545",
-        "1840"
-      ],
-      [
-        "3x150+70",
-        "-",
-        "1.5/1.1",
-        "2.5",
-        "42",
-        "-",
-        "5719",
-        "2443"
-      ],
-      [
-        "3x185+95",
-        "-",
-        "1.7/1.1",
-        "2.7",
-        "46",
-        "-",
-        "7084",
-        "2981"
-      ],
-      [
-        "3x240+120",
-        "-",
-        "1.8/1.2",
-        "2.9",
-        "51",
-        "-",
-        "9092",
-        "3786"
-      ],
-      [
-        "3x300+150",
-        "-",
-        "1.9/1.4",
-        "3.1",
-        "59",
-        "11000",
-        "11000",
-        "4589"
-      ]
-    ]
-  },
-  {
-    title: "Especificaciones",
-    headers: [
-      "Sección nominal",
-      "Corriente Adm, aires unipolares",
-      "Corriente Adm, aire Multipolares",
-      "Corriente Adm, enterrados unipolares",
-      "Corriente Adm, enterrados multipolares",
-      "Caída de tensión unipolares",
-      "Caída de tensión Multipolares"
-    ],
-    rows: [
-      [
-        "mm2",
-        "A",
-        "A",
-        "A",
-        "A",
-        "V/A km",
-        "V/A km"
-      ],
-      [
-        "1.5",
-        "19",
-        "24",
-        "32",
-        "34",
-        "21",
-        "21"
-      ]
-    ]
-  },
-  {
-    title: "Especificaciones",
-    headers: [
-      "Características eléctricas cables de cobre Sección Corriente Adm, Corriente Adm, Corriente Adm, Corriente Adm, Caída de tensión Caída de tensión nominal aires unipolares aire Multipolares enterrados enterrados unipolares Multipolares unipolares multipolares mm2 A A A A V/A km V/A km 35 144 168 189 210 1.09 1.01 50 175 205 231 251 0.84 0.76 70 224 263 280 307 0.63 0.55 95 271 320 327 369 0.49 0.42 120 315 373 379 420 0.42 0.35 150 363 430 424 472 0.37 0.29 185 415 493 473 535 0.32 0.25 240 489 583 555 626 0.28 0.21 300 565 674 624 704 0.27 0.18",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    rows: [
-      [
-        "-",
-        "Sección nominal",
-        "Corriente Adm, aires unipolares",
-        "Corriente Adm, aire Multipolares",
-        "Corriente Adm, enterrados unipolares",
-        "Corriente Adm, enterrados multipolares",
-        "Caída de tensión unipolares",
-        "Caída de tensión Multipolares",
-        "-"
-      ],
-      [
-        "-",
-        "mm2",
-        "A",
-        "A",
-        "A",
-        "A",
-        "V/A km",
-        "V/A km",
-        "-"
-      ],
-      [
-        "-",
-        "35",
-        "144",
-        "168",
-        "189",
-        "210",
-        "1.09",
-        "1.01",
-        "-"
-      ],
-      [
-        "-",
-        "50",
-        "175",
-        "205",
-        "231",
-        "251",
-        "0.84",
-        "0.76",
-        "-"
-      ],
-      [
-        "-",
-        "70",
-        "224",
-        "263",
-        "280",
-        "307",
-        "0.63",
-        "0.55",
-        "-"
-      ],
-      [
-        "-",
-        "95",
-        "271",
-        "320",
-        "327",
-        "369",
-        "0.49",
-        "0.42",
-        "-"
-      ],
-      [
-        "-",
-        "120",
-        "315",
-        "373",
-        "379",
-        "420",
-        "0.42",
-        "0.35",
-        "-"
-      ],
-      [
-        "-",
-        "150",
-        "363",
-        "430",
-        "424",
-        "472",
-        "0.37",
-        "0.29",
-        "-"
-      ],
-      [
-        "-",
-        "185",
-        "415",
-        "493",
-        "473",
-        "535",
-        "0.32",
-        "0.25",
-        "-"
-      ],
-      [
-        "-",
-        "240",
-        "489",
-        "583",
-        "555",
-        "626",
-        "0.28",
-        "0.21",
-        "-"
-      ],
-      [
-        "-",
-        "300",
-        "565",
-        "674",
-        "624",
-        "704",
-        "0.27",
-        "0.18",
-        "-"
-      ]
-    ]
-  },
-  {
-    title: "Especificaciones",
-    headers: [
-      "Sección nominal",
-      "Corriente Adm, aires unipolares",
-      "Corriente Adm, aire Multipolares",
-      "Corriente Adm, enterrados unipolares",
-      "Corriente Adm, enterrados multipolares",
-      "Caída de tensión unipolares",
-      "Caída de tensión Multipolares"
-    ],
-    rows: [
-      [
-        "mm2",
-        "A",
-        "A",
-        "A",
-        "A",
-        "V/A km",
-        "V/A km"
-      ],
-      [
-        "25",
-        "1.26",
-        "98",
-        "128",
-        "136",
-        "2.29",
-        "2.21"
-      ],
-      [
-        "35 157 123 153 163 1.7 1.62",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-"
-      ],
-      [
-        "50",
-        "191",
-        "149",
-        "180",
-        "194",
-        "1.29",
-        "1.21"
-      ],
-      [
-        "70 2474 192 221 239 0.94 0.86",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-"
-      ],
-      [
-        "95",
-        "302",
-        "234",
-        "265",
-        "286",
-        "0.72",
-        "0.65"
-      ],
-      [
-        "120 352 273 302 326 0.6 0.53",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-"
-      ],
-      [
-        "150",
-        "408",
-        "315",
-        "338",
-        "366",
-        "0.51",
-        "0.44"
-      ],
-      [
-        "185",
-        "469",
-        "361",
-        "384",
-        "415",
-        "0.44",
-        "0.36"
-      ],
-      [
-        "240",
-        "556",
-        "428",
-        "448",
-        "484",
-        "0.37",
-        "0.29"
-      ],
-      [
-        "300",
-        "644",
-        "494",
-        "507",
-        "547",
-        "0.32",
-        "0.25"
-      ]
-    ]
-  }
-],
-    certifications: []
-  },
-  {
-        id: 'subterraneo-pvc-cobre',
-    name: 'Cable de Potencia Cobre PVC/PVC',
+    id: 'subterraneo-pvc-cobre',
+    name: 'SUBTERRANEO PVC',
     categoryPath: ['Cables de Potencia','Subterráneos','Subterráneo Cobre'],
     description: 'Cable de potencia con conductor de cobre y aislación de PVC, para instalaciones fijas en sistemas de distribución de 1 kV.',
     detailedDescription: `DESCRIPCIÓN
@@ -2154,422 +1488,145 @@ Cables de energía, aislados con dieléctricos sólidos para una tensión nomina
       'Ensayos de fuego: No propagación de la llama (IRAM NM IEC 60332-1) / No propagación del incendio (IRAM NM IEC 60332-3-24).'
     ],
     specsTables: [
-  {
-    title: "DIMENSIONES Y PESOS - UNIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
+      {
+        title: "Dimensiones y Pesos - Unipolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["4", "2.43", "1.0", "1.4", "7.3", "75"],
+          ["6", "2.98", "1.0", "1.4", "7.9", "93"],
+          ["10", "4.42", "1.0", "1.4", "9.3", "125"],
+          ["16", "5.40", "1.0", "1.4", "10.4", "226"],
+          ["25", "6.70", "1.2", "1.4", "12.1", "328"],
+          ["35", "7.60", "1.2", "1.4", "13.0", "415"],
+          ["50", "9.30", "1.4", "1.4", "15.1", "591"],
+          ["70", "10.80", "1.4", "1.4", "16.6", "775"],
+          ["95", "12.62", "1.6", "1.5", "19.0", "994"],
+          ["120", "14.30", "1.6", "1.6", "20.9", "1278"],
+          ["150", "15.85", "1.8", "1.6", "22.9", "1610"],
+          ["185", "18.00", "2.0", "1.7", "25.6", "1938"],
+          ["240", "22.10", "2.2", "1.8", "30.3", "2504"],
+          ["300", "26.10", "2.4", "1.9", "34.9", "3264"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Bipolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["1.5", "1.53", "0.8", "1.8", "11.1", "160"],
+          ["2.5", "1.95", "0.8", "1.8", "11.9", "194"],
+          ["4", "2.43", "1.0", "1.8", "13.7", "264"],
+          ["6", "2.98", "1.0", "1.8", "15.0", "335"],
+          ["10", "4.42", "1.0", "1.8", "17.8", "493"],
+          ["16", "5.40", "1.0", "1.8", "19.9", "660"],
+          ["25", "6.70", "1.2", "1.8", "23.5", "962"],
+          ["35", "7.60", "1.2", "1.8", "25.3", "1172"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Tripolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["1.5", "1.53", "0.8", "1.8", "11.6", "182"],
+          ["2.5", "1.95", "0.8", "1.8", "12.5", "226"],
+          ["4", "2.43", "1.0", "1.8", "14.4", "312"],
+          ["6", "2.98", "1.0", "1.8", "15.8", "405"],
+          ["10", "4.42", "1.0", "1.8", "18.9", "600"],
+          ["16", "5.40", "1.0", "1.8", "21.1", "755"],
+          ["25", "6.70", "1.2", "1.8", "25.0", "1195"],
+          ["35", "7.60", "1.2", "1.8", "27.0", "1505"],
+          ["50", "9.30", "1.4", "2.0", "31.9", "2199"],
+          ["70", "10.80", "1.4", "2.1", "35.6", "2935"],
+          ["95", "12.62", "1.6", "2.3", "40.7", "3926"],
+          ["120", "14.30", "1.6", "2.4", "44.6", "4593"],
+          ["150", "15.58", "1.8", "2.5", "49.1", "5894"],
+          ["185", "18.00", "2.0", "2.7", "55.4", "7416"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Tetrapolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["1.5", "1.53", "0.8", "1.8", "12.4", "214"],
+          ["2.5", "1.95", "0.8", "1.8", "13.4", "270"],
+          ["4", "2.43", "1.0", "1.8", "15.5", "379"],
+          ["6", "2.98", "1.0", "1.8", "17.0", "480"],
+          ["10", "4.42", "1.0", "1.8", "20.5", "736"],
+          ["16", "5.40", "1.0", "1.8", "23.0", "998"],
+          ["25/16", "6.70/5.40", "1.2/1.0", "1.8", "26.3", "1379"],
+          ["35/16", "7.60/5.40", "1.2/1.0", "1.8", "28.0", "1666"],
+          ["50/25", "9.30/6.70", "1.4/1.2", "2.0", "33.2", "2452"],
+          ["70/35", "10.80/7.60", "1.4/1.2", "2.1", "36.9", "3201"],
+          ["95/50", "12.62/9.30", "1.6/1.4", "2.3", "42.6", "4360"],
+          ["120/70", "14.30/10.80", "1.6/1.4", "2.5", "46.8", "5408"],
+          ["150/70", "15.85/10.80", "1.8/1.4", "2.6", "50.6", "6585"]
+        ]
+      },
+      {
+        title: "Cables en Aire - Intensidades admisibles (A) a 40°C amb. — Métodos B2 y C",
+        headers: ["Sección (mm²)", "Mét. B2 — 2 cond.", "Mét. B2 — 3 cond.", "Mét. C — 2 cond.", "Mét. C — 3 cond."],
+        rows: [
+          ["1.5", "14", "13", "17", "15"],
+          ["2.5", "20", "17", "23", "21"],
+          ["4", "26", "23", "31", "28"],
+          ["6", "33", "30", "40", "36"],
+          ["10", "45", "40", "55", "50"],
+          ["16", "60", "54", "74", "66"],
+          ["25", "78", "70", "97", "84"],
+          ["35", "97", "86", "120", "104"],
+          ["50", "116", "103", "146", "125"],
+          ["70", "146", "130", "185", "160"],
+          ["95", "175", "156", "224", "194"],
+          ["120", "202", "179", "260", "225"],
+          ["150", "224", "196", "299", "260"],
+          ["185", "256", "222", "341", "297"],
+          ["240", "299", "258", "401", "351"],
+          ["300", "343", "295", "461", "404"]
+        ],
+        note: "Mét. B2: Caño embutido en pared / Caño a la vista. Mét. C: Bandeja no perforada o de fondo sólido."
+      },
+      {
+        title: "Cables en Aire - Intensidades admisibles (A) a 40°C amb. — Métodos E, F y G",
+        headers: ["Sección (mm²)", "Mét. E — 2 cond.", "Mét. E — 3 cond.", "Mét. F — 2x1x", "Mét. F — 3x1x trébol", "Mét. F — 3x1x plano", "Mét. G — 3x1x horiz.", "Mét. G — 3x1x vert."],
+        rows: [
+          ["25", "104", "88", "114", "96", "99", "127", "113"],
+          ["35", "129", "110", "141", "119", "124", "157", "141"],
+          ["50", "157", "133", "171", "145", "151", "191", "171"],
+          ["70", "202", "171", "218", "188", "196", "244", "221"],
+          ["95", "245", "207", "264", "230", "239", "297", "271"],
+          ["120", "285", "240", "306", "268", "279", "345", "315"],
+          ["150", "330", "278", "353", "310", "324", "397", "365"],
+          ["185", "378", "317", "403", "356", "371", "453", "418"],
+          ["240", "447", "374", "475", "422", "441", "535", "495"],
+          ["300", "516", "432", "547", "488", "511", "617", "573"]
+        ],
+        note: "Mét. E: Bandeja perforada. Mét. F: Bandeja perforada tipo escalera. Mét. G: Bandeja perforada — cables separados 1 diámetro mínimo."
+      },
+      {
+        title: "Cables Directamente Enterrados - Intensidades admisibles (A) — Método D2 (terreno 25°C, 1 K.m/W)",
+        headers: ["Sección (mm²)", "1 cable unipolar", "2 cables (directo)", "2 cables (en caño)", "3 cables (directo)", "3 cables (en caño)"],
+        rows: [
+          ["1.5", "30", "29", "25", "25", "20"],
+          ["2.5", "39", "39", "33", "34", "27"],
+          ["4", "50", "51", "43", "44", "35"],
+          ["6", "63", "65", "53", "55", "44"],
+          ["10", "84", "88", "71", "74", "58"],
+          ["16", "108", "112", "91", "95", "75"],
+          ["25", "140", "144", "117", "123", "96"],
+          ["35", "168", "173", "140", "147", "115"],
+          ["50", "198", "207", "166", "173", "137"],
+          ["70", "243", "254", "205", "211", "169"],
+          ["95", "291", "306", "242", "254", "201"],
+          ["120", "331", "350", "276", "290", "228"],
+          ["150", "372", "393", "312", "325", "258"],
+          ["185", "420", "445", "350", "369", "289"],
+          ["240", "487", "519", "405", "428", "333"],
+          ["300", "552", "587", "457", "484", "377"]
+        ]
+      }
     ],
-    rows: [
-      [
-        "326",
-        "12.1",
-        "1.4",
-        "1.20",
-        "6.70",
-        "25"
-      ],
-      [
-        "413",
-        "13.0",
-        "1.4",
-        "1.20",
-        "7.60",
-        "35"
-      ],
-      [
-        "588",
-        "15.1",
-        "1.4",
-        "1.40",
-        "9.30",
-        "50"
-      ],
-      [
-        "772",
-        "16.6",
-        "1.4",
-        "1.40",
-        "10.80",
-        "70"
-      ],
-      [
-        "989",
-        "19.0",
-        "1.5",
-        "1.60",
-        "12.62",
-        "95"
-      ],
-      [
-        "1273",
-        "20.9",
-        "1.6",
-        "1.60",
-        "14.30",
-        "120"
-      ],
-      [
-        "1604",
-        "22.9",
-        "1.6",
-        "1.80",
-        "15.85",
-        "150"
-      ],
-      [
-        "1930",
-        "25.6",
-        "1.7",
-        "2.00",
-        "18.00",
-        "185"
-      ],
-      [
-        "2493",
-        "30.3",
-        "1.8",
-        "2.20",
-        "22.10",
-        "240"
-      ],
-      [
-        "3252",
-        "34.9",
-        "1.9",
-        "2.40",
-        "26.10",
-        "300"
-      ]
-    ]
+    certifications: ['iram', 'seguridad', 'no-propagacion']
   },
   {
-    title: "DIMENSIONES Y PESOS - BIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      [
-        "157",
-        "11.1",
-        "1.8",
-        "0.80",
-        "1.53",
-        "1,5"
-      ],
-      [
-        "192",
-        "11.9",
-        "1.8",
-        "0.80",
-        "1.95",
-        "2,5"
-      ],
-      [
-        "261",
-        "13.7",
-        "1.8",
-        "1.00",
-        "2.43",
-        "4"
-      ],
-      [
-        "331",
-        "15.0",
-        "1.8",
-        "1.00",
-        "2.98",
-        "6"
-      ],
-      [
-        "489",
-        "17.8",
-        "1.8",
-        "1.00",
-        "4.42",
-        "10"
-      ],
-      [
-        "654",
-        "19.9",
-        "1.8",
-        "1.00",
-        "5.40",
-        "16"
-      ],
-      [
-        "955",
-        "23.5",
-        "1.8",
-        "1.20",
-        "6.70",
-        "25"
-      ],
-      [
-        "1165",
-        "25.3",
-        "1.8",
-        "1.20",
-        "7.60",
-        "35"
-      ]
-    ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - TRIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      [
-        "179",
-        "11.6",
-        "1.8",
-        "0.80",
-        "1.53",
-        "1.5"
-      ],
-      [
-        "223",
-        "12.5",
-        "1.8",
-        "0.80",
-        "1.95",
-        "2.5"
-      ],
-      [
-        "308",
-        "14.4",
-        "1.8",
-        "1.00",
-        "2.43",
-        "4"
-      ],
-      [
-        "400",
-        "15.8",
-        "1.8",
-        "1.00",
-        "2.98",
-        "6"
-      ],
-      [
-        "595",
-        "18.9",
-        "1.8",
-        "1.00",
-        "4.40",
-        "10"
-      ],
-      [
-        "748",
-        "21.1",
-        "1.8",
-        "1.00",
-        "5.40",
-        "16"
-      ],
-      [
-        "1186",
-        "25.0",
-        "1.8",
-        "1.20",
-        "6.70",
-        "25"
-      ],
-      [
-        "1486",
-        "27.0",
-        "1.8",
-        "1.20",
-        "7.60",
-        "35"
-      ],
-      [
-        "2187",
-        "31.9",
-        "2.0",
-        "1.40",
-        "9.30",
-        "50"
-      ],
-      [
-        "2920",
-        "35.6",
-        "2.1",
-        "1.40",
-        "10.80",
-        "70"
-      ],
-      [
-        "3908",
-        "40.7",
-        "2.3",
-        "1.60",
-        "12.62",
-        "95"
-      ],
-      [
-        "4572",
-        "44.6",
-        "2.4",
-        "1.60",
-        "14.30",
-        "120"
-      ],
-      [
-        "5869",
-        "49.1",
-        "2.5",
-        "1.80",
-        "15.85",
-        "150"
-      ],
-      [
-        "7386",
-        "55.4",
-        "2.7",
-        "2.00",
-        "18.00",
-        "185"
-      ]
-    ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - TETRAPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      [
-        "210",
-        "12.4",
-        "1.8",
-        "0.80",
-        "1.53",
-        "1.5"
-      ],
-      [
-        "266",
-        "13.4",
-        "1.8",
-        "0.80",
-        "1.95",
-        "2.5"
-      ],
-      [
-        "374",
-        "15.5",
-        "1.8",
-        "1.00",
-        "2.43",
-        "4"
-      ],
-      [
-        "475",
-        "17.0",
-        "1.8",
-        "1.00",
-        "2.98",
-        "6"
-      ],
-      [
-        "729",
-        "20.5",
-        "1.8",
-        "1.00",
-        "4.42",
-        "10"
-      ],
-      [
-        "991",
-        "23.0",
-        "1.8",
-        "1.00",
-        "5.40",
-        "16"
-      ],
-      [
-        "1370",
-        "26.3",
-        "1.8",
-        "1.2/1.0",
-        "6.70/5.40",
-        "25/16"
-      ],
-      [
-        "1656",
-        "28.0",
-        "1.8",
-        "1.2/1.0",
-        "7.60/5.40",
-        "35/16"
-      ],
-      [
-        "2438",
-        "33.2",
-        "2.0",
-        "1.4/1.2",
-        "9.30/6.70",
-        "50/25"
-      ],
-      [
-        "3185",
-        "36.9",
-        "2.1",
-        "1.4/1.2",
-        "10.80/7.60",
-        "70/35"
-      ],
-      [
-        "4340",
-        "42.6",
-        "2.3",
-        "1.6/1.4",
-        "12.68/9.30",
-        "95/50"
-      ],
-      [
-        "5385",
-        "46.8",
-        "2.5",
-        "1.6/1.4",
-        "14.30/10.80",
-        "120/70"
-      ],
-      [
-        "6558",
-        "50.6",
-        "2.6",
-        "1.8/1.4",
-        "15.85/10.80",
-        "150/70"
-      ]
-    ]
-  }
-],
-    certifications: []
-  },
-    {
     id: 'subterraneo-xlpe-cobre',
     name: 'SUBTERRANEO XLPE',
     categoryPath: ['Cables de Potencia', 'Subterráneos', 'Subterráneo Cobre'],
@@ -2588,7 +1645,7 @@ Instalación a la intemperie, sobre bandejas portacables, en ductos eléctricos 
       'Tensión nominal: 0.6 / 1.1 kV',
       'Norma constructiva: IRAM 2178-1 / IEC 60502-1',
       'Norma de conductores: IRAM NM 280 / IEC 60228',
-      'Conductor: Cobre recocido flexible clase 4 o 5 (hasta 35 mm²) y semirrígido clase 2 (desde 50 mm²)',
+      'Conductor: Cobre recocido flexible clase 4 o 5 (hasta 35 mm²) and semirrígido clase 2 (desde 50 mm²)',
       'Aislación: XLPE (Polietileno reticulado) con identificación por colores normalizados',
       'Relleno: Revestimiento extruido no higroscópico de XLPE o cinta',
       'Vaina exterior: PVC ecológico tipo ST2 color violeta resistente a la propagación de incendios (IRAM NM IEC 60332-3)',
@@ -2598,100 +1655,101 @@ Instalación a la intemperie, sobre bandejas portacables, en ductos eléctricos 
     certifications: ['iram', 'seguridad', 'no-propagacion'],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH'],
     specsTables: [
-  {
-    title: "DIMENSIONES Y PESOS - UNIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      ["25", "6.70", "1.20", "1.4", "12.1", "326"],
-      ["35", "7.60", "1.20", "1.4", "13.0", "413"],
-      ["50", "9.30", "1.40", "1.4", "15.1", "588"],
-      ["70", "10.80", "1.40", "1.4", "16.6", "772"],
-      ["95", "12.62", "1.60", "1.5", "19.0", "989"],
-      ["120", "14.30", "1.60", "1.6", "20.9", "1273"],
-      ["150", "15.85", "1.80", "1.6", "22.9", "1604"],
-      ["185", "18.00", "2.00", "1.7", "25.6", "1930"],
-      ["240", "22.10", "2.20", "1.8", "30.3", "2493"],
-      ["300", "26.10", "2.40", "1.9", "34.9", "3252"]
+      {
+        title: "Dimensiones y Pesos - Unipolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["25", "6.70", "1.20", "1.4", "12.1", "326"],
+          ["35", "7.60", "1.20", "1.4", "13.0", "413"],
+          ["50", "9.30", "1.40", "1.4", "15.1", "588"],
+          ["70", "10.80", "1.40", "1.4", "16.6", "772"],
+          ["95", "12.62", "1.60", "1.5", "19.0", "989"],
+          ["120", "14.30", "1.60", "1.6", "20.9", "1273"],
+          ["150", "15.85", "1.80", "1.6", "22.9", "1604"],
+          ["185", "18.00", "2.00", "1.7", "25.6", "1930"],
+          ["240", "22.10", "2.20", "1.8", "30.3", "2493"],
+          ["300", "26.10", "2.40", "1.9", "34.9", "3252"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Bipolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["1.5", "1.53", "0.80", "1.8", "11.1", "157"],
+          ["2.5", "1.95", "0.80", "1.8", "11.9", "192"],
+          ["4", "2.43", "1.00", "1.8", "13.7", "261"],
+          ["6", "2.98", "1.00", "1.8", "15.0", "331"],
+          ["10", "4.42", "1.00", "1.8", "17.8", "489"],
+          ["16", "5.40", "1.00", "1.8", "19.9", "654"],
+          ["25", "6.70", "1.20", "1.8", "23.5", "955"],
+          ["35", "7.60", "1.20", "1.8", "25.3", "1165"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Tripolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["1.5", "1.53", "0.80", "1.8", "11.6", "179"],
+          ["2.5", "1.95", "0.80", "1.8", "12.5", "223"],
+          ["4", "2.43", "1.00", "1.8", "14.4", "308"],
+          ["6", "2.98", "1.00", "1.8", "15.8", "400"],
+          ["10", "4.40", "1.00", "1.8", "18.9", "595"],
+          ["16", "5.40", "1.00", "1.8", "21.1", "748"],
+          ["25", "6.70", "1.20", "1.8", "25.0", "1186"],
+          ["35", "7.60", "1.20", "1.8", "27.0", "1486"],
+          ["50", "9.30", "1.40", "2.0", "31.9", "2187"],
+          ["70", "10.80", "1.40", "2.1", "35.6", "2920"],
+          ["95", "12.62", "1.60", "2.3", "40.7", "3908"],
+          ["120", "14.30", "1.60", "2.4", "44.6", "4572"],
+          ["150", "15.85", "1.80", "2.5", "49.1", "5869"],
+          ["185", "18.00", "2.00", "2.7", "55.4", "7386"]
+        ]
+      },
+      {
+        title: "Dimensiones y Pesos - Tetrapolares",
+        headers: ["Sección nominal (mm²)", "Diámetro cond. aprox. (mm)", "Espesor aislación nominal (mm)", "Espesor envoltura nominal (mm)", "Diámetro exterior aprox. (mm)", "Masa aprox. (kg/km)"],
+        rows: [
+          ["1.5", "1.53", "0.80", "1.8", "12.4", "210"],
+          ["2.5", "1.95", "0.80", "1.8", "13.4", "266"],
+          ["4", "2.43", "1.00", "1.8", "15.5", "374"],
+          ["6", "2.98", "1.00", "1.8", "17.0", "475"],
+          ["10", "4.42", "1.00", "1.8", "20.5", "729"],
+          ["16", "5.40", "1.00", "1.8", "23.0", "991"],
+          ["25/16", "6.70/5.40", "1.2/1.0", "1.8", "26.3", "1370"],
+          ["35/16", "7.60/5.40", "1.2/1.0", "1.8", "28.0", "1656"],
+          ["50/25", "9.30/6.70", "1.4/1.2", "2.0", "33.2", "2438"],
+          ["70/35", "10.80/7.60", "1.4/1.2", "2.1", "36.9", "3185"],
+          ["95/50", "12.68/9.30", "1.6/1.4", "2.3", "42.6", "4340"],
+          ["120/70", "14.30/10.80", "1.6/1.4", "2.5", "46.8", "5385"],
+          ["150/70", "15.85/10.80", "1.8/1.4", "2.6", "50.6", "6558"]
+        ]
+      },
+      {
+        title: "Características Eléctricas - Cobre (Corrientes Admisibles)",
+        headers: ["Sección (mm²)", "Aire Unipolares (A)", "Aire Multipolares (A)", "Tierra Unipolares (A)", "Tierra Multipolares (A)", "Caída Tensión Unip. (V/A.km)", "Caída Tensión Multip. (V/A.km)"],
+        rows: [
+          ["1.5", "19", "24", "32", "34", "21", "21"],
+          ["2.5", "26", "33", "42", "46", "13", "13"],
+          ["4", "38", "45", "56", "60", "8.4", "8.3"],
+          ["6", "49", "57", "70", "76", "5.6", "5.6"],
+          ["10", "68", "78", "94", "102", "3.4", "3.3"],
+          ["16", "91", "105", "121", "135", "2.2", "2.1"],
+          ["25", "115", "136", "157", "175", "1.45", "1.37"],
+          ["35", "144", "168", "189", "210", "1.09", "1.01"],
+          ["50", "175", "205", "231", "251", "0.84", "0.76"],
+          ["70", "224", "263", "280", "307", "0.63", "0.55"],
+          ["95", "271", "320", "327", "369", "0.49", "0.42"],
+          ["120", "315", "373", "379", "420", "0.42", "0.35"],
+          ["150", "363", "430", "424", "472", "0.37", "0.29"],
+          ["185", "415", "493", "473", "535", "0.32", "0.25"],
+          ["240", "489", "583", "555", "626", "0.28", "0.21"],
+          ["300", "565", "674", "624", "704", "0.27", "0.18"]
+        ],
+        note: "Temperatura del terreno 25°C, temperatura ambiente 40°C, temperatura del conductor 90°C. Cos fi = 0.8."
+      }
     ]
   },
   {
-    title: "DIMENSIONES Y PESOS - BIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      ["157", "11.1", "1.8", "0.80", "1.53", "1,5"],
-      ["192", "11.9", "1.8", "0.80", "1.95", "2,5"],
-      ["261", "13.7", "1.8", "1.00", "2.43", "4"],
-      ["331", "15.0", "1.8", "1.00", "2.98", "6"],
-      ["489", "17.8", "1.8", "1.00", "4.42", "10"],
-      ["654", "19.9", "1.8", "1.00", "5.40", "16"],
-      ["955", "23.5", "1.8", "1.20", "6.70", "25"],
-      ["1165", "25.3", "1.8", "1.20", "7.60", "35"]
-    ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - TRIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      ["179", "11.6", "1.8", "0.80", "1.53", "1.5"],
-      ["223", "12.5", "1.8", "0.80", "1.95", "2.5"],
-      ["308", "14.4", "1.8", "1.00", "2.43", "4"],
-      ["400", "15.8", "1.8", "1.00", "2.98", "6"],
-      ["595", "18.9", "1.8", "1.00", "4.40", "10"],
-      ["748", "21.1", "1.8", "1.00", "5.40", "16"],
-      ["1186", "25.0", "1.8", "1.20", "6.70", "25"],
-      ["1486", "27.0", "1.8", "1.20", "7.60", "35"],
-      ["2187", "31.9", "2.0", "1.40", "9.30", "50"],
-      ["2920", "35.6", "2.1", "1.40", "10.80", "70"],
-      ["3908", "40.7", "2.3", "1.60", "12.62", "95"],
-      ["4572", "44.6", "2.4", "1.60", "14.30", "120"],
-      ["5869", "49.1", "2.5", "1.80", "15.85", "150"],
-      ["7386", "55.4", "2.7", "2.00", "18.00", "185"]
-    ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - TETRAPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      ["210", "12.4", "1.8", "0.80", "1.53", "1.5"],
-      ["266", "13.4", "1.8", "0.80", "1.95", "2.5"],
-      ["374", "15.5", "1.8", "1.00", "2.43", "4"],
-      ["475", "17.0", "1.8", "1.00", "2.98", "6"],
-      ["729", "20.5", "1.8", "1.00", "4.42", "10"],
-      ["991", "23.0", "1.8", "1.00", "5.40", "16"],
-      ["1370", "26.3", "1.8", "1.2/1.0", "6.7/5.4", "25/16"]
-    ]
-  }
-]
-  },
-    {
     id: '2-para-bomba-sumergible',
     name: 'Cable para Bomba Sumergible',
     categoryPath: ['Cables de Potencia', 'Bomba Sumergible'],
@@ -37918,11 +36976,11 @@ Instalaciones aéreas en bandeja, canaletas o conductos, bajo techo o a la intem
 ,
   {
     id: 'alta-temp-solares',
-    name: 'Cable Solar PAYTON',
+    name: 'Cable Solar',
     categoryPath: ['Cables Alta Temperatura', 'Solares'],
     description: 'Cables flexibles con conductor de cobre multifilar, aislados para tensiones nominales de 1,5 kVCC, apto para sistemas fotovoltaicos. Resistente al intemperismo y rayos UV.',
     detailedDescription: `DESCRIPCIÓN
-Los cables solares PAYTON se utilizan en la interconexión de paneles fotovoltaicos, son adecuados para instalaciones fijas, tanto interior como exterior. NO APTO para aplicaciones de enterramiento directo. Recomendado para instalaciones donde el fuego, la emisión de humos y los vapores tóxicos representan un riesgo.
+Los cables solares se utilizan en la interconexión de paneles fotovoltaicos, son adecuados para instalaciones fijas, tanto interior como exterior. NO APTO para aplicaciones de enterramiento directo. Recomendado para instalaciones donde el fuego, la emisión de humos y los vapores tóxicos representan un riesgo.
 
 APLICACIONES
 Sistemas solares fotovoltaicos terrestres, sobre cubiertas, plantas de generación y parques solares.`,
@@ -38018,7 +37076,7 @@ Resistencias eléctricas industriales, hornos de fundición, extrusoras de plás
   },
   {
     id: 'alta-temp-pirometria',
-    name: 'Cables para Pirometría (Serie MP-MT)',
+    name: 'Cables para Pirometría',
     categoryPath: ['Cables Alta Temperatura', 'Pirometría'],
     description: 'Circuitos de extensión de termocuplas para medición y registro de temperaturas.',
     detailedDescription: `DESCRIPCIÓN
@@ -38061,7 +37119,7 @@ Conexión de termocuplas y sensores de temperatura en hornos, calderas, refiner�
   },
   {
     id: 'alta-temp-seguridad-incendio',
-    name: 'Seguridad e Incendio (Serie SWZ)',
+    name: 'Seguridad e Incendio',
     categoryPath: ['Cables Alta Temperatura', 'Seguridad e Incendio'],
     description: 'Cables libres de halógenos para sistemas de detección de fuego y notificación de alarma.',
     detailedDescription: `DESCRIPCIÓN
@@ -38379,7 +37437,7 @@ Cables de instrumentación, control y transmisión de datos de alta velocidad en
 
   {
     id: 'especiales-mineria',
-    name: 'Cables Mineros (Serie SHD-GC MT)',
+    name: 'Cables Mineros',
     categoryPath: ['Cables Especiales'],
     description: 'Cables de energía flexibles blindados extrapesados (Extra-Heavy Duty) de 5 a 25 kV, diseñados para alimentación de equipos móviles pesados en minería y petróleo.',
     detailedDescription: `DESCRIPCIÓN
@@ -38404,7 +37462,7 @@ Cuenta con materiales plásticos que proporcionan una protección adecuada ante 
     ],
     specsTables: [
       {
-        title: 'Especificaciones de Referencia (Serie SHD-GC 5kV)',
+        title: 'Especificaciones de Referencia (5kV)',
         headers: ['Formación', 'Resistencia CC a 20°C (Ohm/km)', 'Intensidad Admisible (A)', 'Diámetro Ext. (mm)', 'Peso Aprox. (kg/km)', 'Radio Curvatura (mm)', 'Tracción (daN)'],
         rows: [
           ['3x6 + 2G10 + GC8', '1.50', '79', '39.6', '1753', '237.6', '294'],
@@ -38421,7 +37479,7 @@ Cuenta con materiales plásticos que proporcionan una protección adecuada ante 
         ]
       },
       {
-        title: 'Especificaciones de Referencia (Serie SHD-GC 8kV)',
+        title: 'Especificaciones de Referencia (8kV)',
         headers: ['Formación', 'Resistencia CC a 20°C (Ohm/km)', 'Intensidad Admisible (A)', 'Diámetro Ext. (mm)', 'Peso Aprox. (kg/km)', 'Radio Curvatura (mm)', 'Tracción (daN)'],
         rows: [
           ['3x4 + 2G8 + GC8', '0.944', '122', '49.3', '2669', '394.0', '442'],
@@ -38437,7 +37495,7 @@ Cuenta con materiales plásticos que proporcionan una protección adecuada ante 
         ]
       },
       {
-        title: 'Especificaciones de Referencia (Serie SHD-GC 15kV / 25kV)',
+        title: 'Especificaciones de Referencia (15kV / 25kV)',
         headers: ['Formación', 'Tensión (kV)', 'Resistencia CC a 20°C (Ohm/km)', 'Intensidad Admisible (A)', 'Diámetro Ext. (mm)', 'Peso Aprox. (kg/km)', 'Radio Curvatura (mm)', 'Tracción (daN)'],
         rows: [
           ['15kV: 3x2 + 2G6 + GC8', '15', '0.593', '164', '53.8', '3331', '430.0', '679'],

@@ -403,10 +403,10 @@ const Products: React.FC = () => {
                     <div className="absolute inset-0 border border-gray-300 group-hover:border-gray-400 transition-colors duration-300 pointer-events-none z-20"></div>
 
                     <div
-                      className="w-full aspect-[4/3] relative overflow-hidden bg-gray-50 cursor-pointer"
+                      className="w-full aspect-[4/3] relative overflow-hidden bg-white flex items-center justify-center p-4 cursor-pointer"
                       onClick={() => handleProductClick(product)}
                     >
-                      <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+                      <img src={product.image} alt={product.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-700" loading="lazy" />
                       <div className="absolute top-4 left-4">
                         <span className="text-[10px] font-bold text-slate-900 bg-white/90 backdrop-blur uppercase tracking-widest px-3 py-1 shadow-sm">{formatCategoryName(product.categoryPath && product.categoryPath[0])}</span>
                       </div>
