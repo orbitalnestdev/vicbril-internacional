@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-slate-900 mt-4 pt-8 text-center text-[10px] text-slate-600 uppercase tracking-wider">
-          <p>&copy; {new Date().getFullYear()} Vicbril Internacional S.A. | Privacidad | Términos y Condiciones | Creado con ❤ por Ely de Adamas</p>
+          <p>&copy; {new Date().getFullYear()} Vicbril Internacional S.A. | Privacidad | Términos y Condiciones | Creado con ❤ por Adamas</p>
         </div>
       </div>
     </footer>

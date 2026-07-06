@@ -37515,7 +37515,7 @@ Cuenta con materiales plásticos que proporcionan una protección adecuada ante 
   },
   {
     id: 'especiales-ascensor',
-    name: 'Cables para Ascensor (EMYSFLEX LIFT)',
+    name: 'Cables para Ascensor',
     categoryPath: ['Cables Especiales'],
     description: 'Conductores colgantes extra flexibles diseñados con núcleo de soporte para comando de cabinas en ascensores y montacargas.',
     detailedDescription: `DESCRIPCIÓN
@@ -37603,7 +37603,7 @@ Constituidos por fibras ópticas alojadas en tubos holgados de PBT rellenos con 
   },
   {
     id: 'especiales-utp',
-    name: 'Cable UTP de Cobre CAT 6',
+    name: 'CABLE UTP',
     categoryPath: ['Cables Especiales'],
     description: 'Cables de cobre UTP de 4 pares y alto rendimiento para redes estructuradas Gigabit y transmisiones de señal de voz, datos y video.',
     detailedDescription: `DESCRIPCIÓN
@@ -37645,7 +37645,7 @@ Las aplicaciones incluyen estándar IEEE 802.3 para redes de 10 Mb hasta 1 Gb. E
   },
   {
     id: 'especiales-coaxiales',
-    name: 'Cables Coaxiales (RG6 / RG59)',
+    name: 'Cables Coaxiales',
     categoryPath: ['Cables Especiales'],
     description: 'Cables coaxiales de 75 ohms para videovigilancia (CCTV) y distribución de señales de televisión analógica y digital.',
     detailedDescription: `DESCRIPCIÓN

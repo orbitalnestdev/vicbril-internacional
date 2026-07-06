@@ -44,6 +44,13 @@ const markets: MarketItem[] = [
     image: '/images/market-construccion.png',
     description: 'Conductores normalizados para plantas industriales y desarrollos inmobiliarios.',
     detailedText: 'Proveemos conductores para distribución interna de energía en complejos industriales, fábricas y desarrollos edilicios comerciales y residenciales, bajo las normas IRAM e internacionales vigentes.'
+  },
+  {
+    id: 'renovables',
+    title: 'RENOVABLES',
+    image: '/images/mercados/removables.jpeg',
+    description: 'Soluciones para parques solares y centrales eólicas de generación limpia.',
+    detailedText: 'Suministramos conductores eléctricos de alto rendimiento para plantas solares fotovoltaicas y parques eólicos, preparados para soportar condiciones climáticas extremas y exposición UV continua.'
   }
 ];
 
@@ -55,6 +62,31 @@ const Markets: React.FC = () => {
 
   return (
     <div className="pt-20">
+      {/* Inject custom keyframe styles for premium effects */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        @keyframes shine {
+          100% {
+            left: 125%;
+          }
+        }
+        .shine-effect::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -85%;
+          width: 50%;
+          height: 100%;
+          background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 50%, rgba(255,255,255,0) 100%);
+          transform: skewX(-25deg);
+          transition: 0s;
+          pointer-events: none;
+          z-index: 20;
+        }
+        .group:hover .shine-effect::after {
+          animation: shine 0.75s ease-in-out;
+        }
+      `}} />
+
       {/* Header Banner */}
       <div className="bg-slate-900 py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
@@ -72,17 +104,9 @@ const Markets: React.FC = () => {
       {/* Grid Section */}
       <section className="py-24 bg-white overflow-hidden">
         <div className="container mx-auto px-6">
-          {/* 3 Columns Top Row */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
-            {markets.slice(0, 3).map((market, idx) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {markets.map((market, idx) => (
               <MarketCard key={market.id} market={market} idx={idx} />
-            ))}
-          </div>
-
-          {/* 2 Columns Bottom Row */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {markets.slice(3).map((market, idx) => (
-              <MarketCard key={market.id} market={market} idx={idx + 3} />
             ))}
           </div>
         </div>
@@ -97,32 +121,35 @@ const MarketCard: React.FC<{ market: MarketItem; idx: number }> = ({ market, idx
   return (
     <div
       ref={ref}
-      className={`group relative h-96 md:h-[420px] overflow-hidden bg-slate-900 block transition-all duration-1000 ${
+      className={`group relative h-96 md:h-[420px] overflow-hidden bg-slate-950 block transition-all duration-1000 shine-effect cursor-pointer border border-slate-800/80 shadow-lg hover:shadow-2xl ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
       style={{ transitionDelay: `${(idx % 3) * 100}ms` }}
     >
-      {/* Background Image */}
+      {/* Background Image: Brighter initial opacity, zooms smoothly on hover */}
       <img
         src={market.image}
         alt={market.title}
-        className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-60 group-hover:opacity-90"
+        className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80 group-hover:opacity-100"
         loading="lazy"
       />
       
-      {/* Dark Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent opacity-80 group-hover:opacity-70 transition-opacity duration-300"></div>
+      {/* Dark Gradient Overlay: Lighter and fades out on hover to illuminate the photo */}
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/30 to-transparent opacity-65 group-hover:opacity-40 transition-opacity duration-500 z-10"></div>
+
+      {/* Orange border overlay that lights up on hover */}
+      <div className="absolute inset-0 border-[3px] border-transparent group-hover:border-orange-500/90 transition-colors duration-500 z-25 pointer-events-none"></div>
 
       {/* Content Container */}
-      <div className="absolute inset-0 flex flex-col justify-end p-6 xs:p-8 md:p-10 z-10">
-        <div className="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500">
+      <div className="absolute inset-0 flex flex-col justify-end p-6 xs:p-8 md:p-10 z-30">
+        <div className="transform translate-y-6 group-hover:translate-y-0 transition-transform duration-700 ease-out">
           <h3 className="text-2xl xs:text-3xl md:text-4xl font-oswald font-bold text-white mb-3 uppercase tracking-tight leading-tight select-none">
             {market.title}
           </h3>
-          <p className="text-slate-300 text-sm md:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-w-lg">
+          <p className="text-slate-200 text-sm md:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-700 max-w-lg select-none">
             {market.detailedText}
           </p>
-          <div className="w-12 h-1 bg-orange-600 mt-4 transform scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
+          <div className="w-12 h-1 bg-orange-600 mt-4 transform scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700 ease-out"></div>
         </div>
       </div>
     </div>
