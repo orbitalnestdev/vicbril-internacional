@@ -5,6 +5,7 @@ import { categories, brands } from '../services/data';
 import BrandCarousel from '../components/UI/BrandCarousel';
 import GoogleMap from '../components/UI/GoogleMap';
 import AboutSection from '../components/UI/AboutSection';
+import SuministroCarousel from '../components/UI/SuministroCarousel';
 import WhyChooseUs from '../components/UI/WhyChooseUs';
 import ContactForm from '../components/UI/ContactForm';
 import { useScrollReveal, useSEO } from '../services/hooks';
@@ -139,7 +140,13 @@ const Home: React.FC = () => {
               />
             </div>
           </div>
+        </div>
+      </section>
 
+      <SuministroCarousel />
+
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-200 border border-gray-200" ref={valuePropReveal.ref}>
             {[
               { icon: Truck, title: "LOGÍSTICA INTEGRAL", desc: "Coordinación precisa para entregas en obra o almacén." },
@@ -159,8 +166,7 @@ const Home: React.FC = () => {
             ))}
           </div>
         </div>
-      </section >
-
+      </section>
 
       <AboutSection />
       {/* Product Lines - Visual Cards */}

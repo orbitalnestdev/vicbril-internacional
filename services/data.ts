@@ -1975,463 +1975,43 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     ]
   },
   {
-    id: 'otras-potencias-aluminio',
-    name: 'OTRAS POTENCIAS',
-    categoryPath: ['Cables de Media Tensión','Aluminio','Otras Potencias'],
-    description: 'Cables de energía y potencia para múltiples aplicaciones.',
-    detailedDescription: 'Cables de energía y potencia para múltiples aplicaciones.',
+    id: '66-132-kv-aluminio',
+    name: '66 a 132 KV',
+    categoryPath: ['Cables de Media Tensión', 'Aluminio', '66 a 132 kV'],
+    description: 'Cables de Energía de Media y Alta Tensión (66 kV - 132 kV)',
+    detailedDescription: `Nuestra línea de cables de alta tensión está diseñada para garantizar una transmisión de energía eficiente, segura y confiable en infraestructuras críticas. Construidos con materiales de vanguardia y procesos de fabricación certificados, estos cables ofrecen una resistencia superior ante condiciones ambientales exigentes y una vida útil prolongada.
+
+Nuestros cables son fabricados bajo estrictos controles de calidad, cumpliendo con las normas internacionales IEC. Esto asegura un desempeño óptimo bajo condiciones de carga variable y minimiza las pérdidas por efecto Joule, contribuyendo a la eficiencia energética de su red.`,
     image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/OTRAS POTENCIAS/portada.jpeg',
     gallery: [],
     pdf: '',
-    specs: [],
-    characteristics: [],
+    specs: ['66 - 132 kV', 'Aluminio', 'XLPE / PE / LSZH'],
+    characteristics: [
+      'Aislamiento de Polietileno Reticulado (XLPE): Proporciona excelentes propiedades dieléctricas y gran resistencia térmica, permitiendo una operación continua a altas temperaturas sin degradación del material.',
+      'Pantalla Metálica Eficiente: Diseño optimizado con hilos o cintas de cobre para el control del campo eléctrico y la gestión eficaz de corrientes de cortocircuito.',
+      'Cubierta Exterior de Alta Resistencia: Fabricada en polietileno (PE) o compuestos libres de halógenos (LSZH), ofreciendo protección mecánica robusta, resistencia a la abrasión, agentes químicos y humedad.',
+      'Estanqueidad Longitudinal y Radial: Sistemas de barrera contra la humedad (cubiertas de aluminio o compuestos bloqueadores) que evitan la penetración de agua, protegiendo la integridad del aislamiento.'
+    ],
+    applications: `• Redes de Transmisión: Interconexión entre subestaciones eléctricas.
+• Parques Eólicos y Solares: Conexión de parques de generación a la red principal.
+• Infraestructura Industrial: Alimentación de grandes plantas industriales con alta demanda energética.
+• Entorno Urbano: Instalaciones subterráneas en ductos o directamente enterrados, minimizando el impacto visual y mejorando la seguridad.`,
+    certifications: ['iec'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH'],
     specsTables: [
-  {
-    title: "DIMENSIONES Y PESOS - UNIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      [
-        "75",
-        "7.3",
-        "1.4",
-        "1.0",
-        "2.43",
-        "4"
-      ],
-      [
-        "93",
-        "7.9",
-        "1.4",
-        "1.0",
-        "2.98",
-        "6"
-      ],
-      [
-        "125",
-        "9.3",
-        "1.4",
-        "1.0",
-        "4.42",
-        "10"
-      ],
-      [
-        "226",
-        "10.4",
-        "1.4",
-        "1.0",
-        "5.40",
-        "16"
-      ],
-      [
-        "328",
-        "12.1",
-        "1.4",
-        "1.2",
-        "6.70",
-        "25"
-      ],
-      [
-        "415",
-        "13.0",
-        "1.4",
-        "1.2",
-        "7.60",
-        "35"
-      ],
-      [
-        "591",
-        "15.1",
-        "1.4",
-        "1.4",
-        "9.30",
-        "50"
-      ],
-      [
-        "775",
-        "16.6",
-        "1.4",
-        "1.4",
-        "10.80",
-        "70"
-      ],
-      [
-        "994",
-        "19.0",
-        "1.5",
-        "1.6",
-        "12.62",
-        "95"
-      ],
-      [
-        "1278",
-        "20.9",
-        "1.6",
-        "1.6",
-        "14.30",
-        "120"
-      ],
-      [
-        "1610",
-        "22.9",
-        "1.6",
-        "1.8",
-        "15.85",
-        "150"
-      ],
-      [
-        "1938",
-        "25.6",
-        "1.7",
-        "2.0",
-        "18.00",
-        "185"
-      ],
-      [
-        "2504",
-        "30.3",
-        "1.8",
-        "2.2",
-        "22.10",
-        "240"
-      ],
-      [
-        "3264",
-        "34.9",
-        "1.9",
-        "2.4",
-        "26.10",
-        "300"
-      ]
+      {
+        title: "Especificaciones Técnicas Generales",
+        headers: ["Característica", "Detalle"],
+        rows: [
+          ["Tensión Nominal", "66 kV / 132 kV"],
+          ["Material Conductor", "Aluminio (clase 2)"],
+          ["Aislamiento", "XLPE (Polietileno Reticulado)"],
+          ["Pantalla", "Hilos de cobre y cinta de cobre"],
+          ["Cubierta Exterior", "PE o LSZH (según requerimiento)"],
+          ["Normativa", "IEC 60840 / IEC 62067"]
+        ]
+      }
     ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - BIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      [
-        "160",
-        "11.1",
-        "1.8",
-        "0.8",
-        "1.53",
-        "1,5"
-      ],
-      [
-        "194",
-        "11.9",
-        "1.8",
-        "0.8",
-        "1.95",
-        "2,5"
-      ],
-      [
-        "264",
-        "13.7",
-        "1.8",
-        "1.0",
-        "2.43",
-        "4"
-      ],
-      [
-        "335",
-        "15.0",
-        "1.8",
-        "1.0",
-        "2.98",
-        "6"
-      ],
-      [
-        "493",
-        "17.8",
-        "1.8",
-        "1.0",
-        "4.42",
-        "10"
-      ],
-      [
-        "660",
-        "19.9",
-        "1.8",
-        "1.0",
-        "5.40",
-        "16"
-      ],
-      [
-        "962",
-        "23.5",
-        "1.8",
-        "1.2",
-        "6.70",
-        "25"
-      ],
-      [
-        "1172",
-        "25.3",
-        "1.8",
-        "1.2",
-        "7.60",
-        "35"
-      ]
-    ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - TRIPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      [
-        "182",
-        "11.6",
-        "1.8",
-        "0.8",
-        "1.53",
-        "1.5"
-      ],
-      [
-        "226",
-        "12.5",
-        "1.8",
-        "0.8",
-        "1.95",
-        "2.5"
-      ],
-      [
-        "312",
-        "14.4",
-        "1.8",
-        "1.0",
-        "2.43",
-        "4"
-      ],
-      [
-        "405",
-        "15.8",
-        "1.8",
-        "1.0",
-        "2.98",
-        "6"
-      ],
-      [
-        "600",
-        "18.9",
-        "1.8",
-        "1.0",
-        "4.42",
-        "10"
-      ],
-      [
-        "755",
-        "21.1",
-        "1.8",
-        "1.0",
-        "5.40",
-        "16"
-      ],
-      [
-        "1195",
-        "25.0",
-        "1.8",
-        "1.2",
-        "6.70",
-        "25"
-      ],
-      [
-        "1505",
-        "27.0",
-        "1.8",
-        "1.2",
-        "7.60",
-        "35"
-      ],
-      [
-        "2199",
-        "31.9",
-        "2.0",
-        "1.4",
-        "9.30",
-        "50"
-      ],
-      [
-        "2935",
-        "35.6",
-        "2.1",
-        "1.4",
-        "10.80",
-        "70"
-      ],
-      [
-        "3926",
-        "40.7",
-        "2.3",
-        "1.6",
-        "12.62",
-        "95"
-      ],
-      [
-        "4593",
-        "44.6",
-        "2.4",
-        "1.6",
-        "14.30",
-        "120"
-      ],
-      [
-        "5894",
-        "49.1",
-        "2.5",
-        "1.8",
-        "15.58",
-        "150"
-      ],
-      [
-        "7416",
-        "55.4",
-        "2.7",
-        "2.0",
-        "18.00",
-        "185"
-      ]
-    ]
-  },
-  {
-    title: "DIMENSIONES Y PESOS - TETRAPOLARES",
-    headers: [
-      "Sección nominal (mm²)",
-      "Diámetro cond. (mm)",
-      "Espesor aisl. (mm)",
-      "Espesor env. (mm)",
-      "Diámetro ext. (mm)",
-      "Masa (kg/km)"
-    ],
-    rows: [
-      [
-        "214",
-        "12.4",
-        "1.8",
-        "0.8",
-        "1.53",
-        "1.5"
-      ],
-      [
-        "270",
-        "13.4",
-        "1.8",
-        "0.8",
-        "1.95",
-        "2.5"
-      ],
-      [
-        "379",
-        "15.5",
-        "1.8",
-        "1.0",
-        "2.43",
-        "4"
-      ],
-      [
-        "480",
-        "17.0",
-        "1.8",
-        "1.0",
-        "2.98",
-        "6"
-      ],
-      [
-        "736",
-        "20.5",
-        "1.8",
-        "1.0",
-        "4.42",
-        "10"
-      ],
-      [
-        "998",
-        "23.0",
-        "1.8",
-        "1.0",
-        "5.40",
-        "16"
-      ],
-      [
-        "1379",
-        "26.3",
-        "1.8",
-        "1.2/1.0",
-        "6.70/5.40",
-        "25/16"
-      ],
-      [
-        "1666",
-        "28.0",
-        "1.8",
-        "1.2/1.0",
-        "7.60/5.40",
-        "35/16"
-      ],
-      [
-        "2452",
-        "33.2",
-        "2.0",
-        "1.4/1.2",
-        "9.30/6.70",
-        "50/25"
-      ],
-      [
-        "3201",
-        "36.9",
-        "2.1",
-        "1.4/1.2",
-        "10.80/7.60",
-        "70/35"
-      ],
-      [
-        "4360",
-        "42.6",
-        "2.3",
-        "1.6/1.4",
-        "12.62/9.30",
-        "95/50"
-      ],
-      [
-        "5408",
-        "46.8",
-        "2.5",
-        "1.6/1.4",
-        "14.30/10.80",
-        "120/70"
-      ],
-      [
-        "6585",
-        "50.6",
-        "2.6",
-        "1.8/1.4",
-        "15.85/10.80",
-        "150/70"
-      ]
-    ]
-  }
-],
-    certifications: []
   },
     {
     id: '13-2-kv-cobre',
@@ -2528,36 +2108,43 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     ]
   },
   {
-    id: 'otras-potencias-cobre',
-    name: 'OTRAS POTENCIAS',
-    categoryPath: ['Cables de Media Tensión','Cobre','Otras Potencias'],
-    description: 'Cables de energía y potencia para múltiples aplicaciones.',
-    detailedDescription: 'Cables de energía y potencia para múltiples aplicaciones. Normas: constructiva:UL 13 tipo PLTC - UL 2250 tipo ITC',
+    id: '66-132-kv-cobre',
+    name: '66 a 132 KV',
+    categoryPath: ['Cables de Media Tensión', 'Cobre', '66 a 132 kV'],
+    description: 'Cables de Energía de Media y Alta Tensión (66 kV - 132 kV)',
+    detailedDescription: `Nuestra línea de cables de alta tensión está diseñada para garantizar una transmisión de energía eficiente, segura y confiable en infraestructuras críticas. Construidos con materiales de vanguardia y procesos de fabricación certificados, estos cables ofrecen una resistencia superior ante condiciones ambientales exigentes y una vida útil prolongada.
+
+Nuestros cables son fabricados bajo estrictos controles de calidad, cumpliendo con las normas internacionales IEC. Esto asegura un desempeño óptimo bajo condiciones de carga variable y minimiza las pérdidas por efecto Joule, contribuyendo a la eficiencia energética de su red.`,
     image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/OTRAS POTENCIAS/PORTADA.jpeg',
     gallery: [],
     pdf: '',
-    specs: [],
-    characteristics: [],
-    specsTables: [
-  {
-    title: "Especificaciones",
-    headers: [
-      "3 Una sola capa fijada debajo de cielorraso. 0.95 0.81 0.72 0.68 0.66 0.64 0.63 0.62",
-      ""
+    specs: ['66 - 132 kV', 'Cobre', 'XLPE / PE / LSZH'],
+    characteristics: [
+      'Aislamiento de Polietileno Reticulado (XLPE): Proporciona excelentes propiedades dieléctricas y gran resistencia térmica, permitiendo una operación continua a altas temperaturas sin degradación del material.',
+      'Pantalla Metálica Eficiente: Diseño optimizado con hilos o cintas de cobre para el control del campo eléctrico y la gestión eficaz de corrientes de cortocircuito.',
+      'Cubierta Exterior de Alta Resistencia: Fabricada en polietileno (PE) o compuestos libres de halógenos (LSZH), ofreciendo protección mecánica robusta, resistencia a la abrasión, agentes químicos y humedad.',
+      'Estanqueidad Longitudinal y Radial: Sistemas de barrera contra la humedad (cubiertas de aluminio o compuestos bloqueadores) que evitan la penetración de agua, protegiendo la integridad del aislamiento.'
     ],
-    rows: [
-      [
-        "reducción 4 Una sola capa sobre más de n una bandeja perforada 1.00 0.88 0.82 0.77 0.75 0.73 0.73 0.72 0.72 circuitos o horizontal o vertical. multipola 5 Una sola capa sobre bandeja tipo escalera 1.00 0.87 0.82 0.80 0.80 0.79 0.79 0.78 0.78 o engrapada.",
-        "para ueve cables res. Métodos E y F"
-      ],
-      [
-        "5 Una sola capa sobre bandeja tipo escalera 1.00 0.87 0.82 0.80 0.80 0.79 0.79 0.78 o engrapada.",
-        "-"
-      ]
+    applications: `• Redes de Transmisión: Interconexión entre subestaciones eléctricas.
+• Parques Eólicos y Solares: Conexión de parques de generación a la red principal.
+• Infraestructura Industrial: Alimentación de grandes plantas industriales con alta demanda energética.
+• Entorno Urbano: Instalaciones subterráneas en ductos o directamente enterrados, minimizando el impacto visual y mejorando la seguridad.`,
+    certifications: ['iec'],
+    availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH'],
+    specsTables: [
+      {
+        title: "Especificaciones Técnicas Generales",
+        headers: ["Característica", "Detalle"],
+        rows: [
+          ["Tensión Nominal", "66 kV / 132 kV"],
+          ["Material Conductor", "Cobre (clase 2)"],
+          ["Aislamiento", "XLPE (Polietileno Reticulado)"],
+          ["Pantalla", "Hilos de cobre y cinta de cobre"],
+          ["Cubierta Exterior", "PE o LSZH (según requerimiento)"],
+          ["Normativa", "IEC 60840 / IEC 62067"]
+        ]
+      }
     ]
-  }
-],
-    certifications: []
   },
         {
     id: 'industrial-instrumentacion-electronica-libre-halogenos-lsoh',
