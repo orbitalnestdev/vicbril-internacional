@@ -1996,7 +1996,7 @@ Nuestros cables son fabricados bajo estrictos controles de calidad, cumpliendo c
 • Parques Eólicos y Solares: Conexión de parques de generación a la red principal.
 • Infraestructura Industrial: Alimentación de grandes plantas industriales con alta demanda energética.
 • Entorno Urbano: Instalaciones subterráneas en ductos o directamente enterrados, minimizando el impacto visual y mejorando la seguridad.`,
-    certifications: ['iec'],
+    certifications: [],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH'],
     specsTables: [
       {
@@ -2129,7 +2129,7 @@ Nuestros cables son fabricados bajo estrictos controles de calidad, cumpliendo c
 • Parques Eólicos y Solares: Conexión de parques de generación a la red principal.
 • Infraestructura Industrial: Alimentación de grandes plantas industriales con alta demanda energética.
 • Entorno Urbano: Instalaciones subterráneas en ductos o directamente enterrados, minimizando el impacto visual y mejorando la seguridad.`,
-    certifications: ['iec'],
+    certifications: [],
     availableBrands: ['Prysmian', 'IMSA', 'Marlew', 'Upercab', 'Argenplas', 'Marvic', 'Erpla', 'Trefilcon', 'Fonseca', 'MH'],
     specsTables: [
       {
