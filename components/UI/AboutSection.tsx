@@ -79,10 +79,10 @@ const AboutSection: React.FC = () => {
 
                 {/* Right: Text Area */}
                 <div 
-                    className={`lg:w-1/2 bg-slate-900 flex items-center py-8 px-6 sm:px-12 lg:py-12 lg:px-20 lg:h-full transition-all duration-1000 ${textReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}`}
+                    className={`lg:w-1/2 bg-slate-900 flex items-center py-8 px-6 sm:px-12 lg:py-12 lg:px-12 xl:px-16 lg:h-full transition-all duration-1000 ${textReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}`}
                     ref={textReveal.ref}
                 >
-                    <div className="max-w-xl">
+                    <div className="max-w-2xl xl:max-w-3xl">
                         <h2 className="text-white text-3xl lg:text-4xl font-bold font-oswald mb-6 uppercase tracking-tight">
                             Sobre Nosotros
                         </h2>
