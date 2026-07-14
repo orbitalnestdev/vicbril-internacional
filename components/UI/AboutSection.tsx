@@ -27,7 +27,7 @@ const AboutSection: React.FC = () => {
             <div className="flex flex-col lg:flex-row lg:h-[620px]">
                 {/* Left: Image Slider */}
                 <div 
-                    className={`lg:w-1/2 relative h-[250px] sm:h-[320px] lg:h-full overflow-hidden bg-slate-200 transition-all duration-1000 ${imageReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}
+                    className={`lg:w-1/2 relative h-[250px] sm:h-[320px] lg:h-full overflow-hidden bg-slate-900 transition-all duration-1000 ${imageReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}
                     ref={imageReveal.ref}
                 >
                     <div
@@ -35,16 +35,21 @@ const AboutSection: React.FC = () => {
                         style={{ transform: `translateX(-${current * 100}%)` }}
                     >
                         {images.map((img, i) => (
-                            <div key={i} className="w-full h-full flex-shrink-0 relative">
+                            <div key={i} className="w-full h-full flex-shrink-0 relative bg-slate-900">
                                 {!loaded[i] && (
-                                    <div className="absolute inset-0 flex items-center justify-center bg-slate-200 text-slate-400 font-oswald animate-pulse">
+                                    <div className="absolute inset-0 flex items-center justify-center bg-slate-900 text-slate-400 font-oswald animate-pulse">
                                         CARGANDO IMAGEN...
                                     </div>
                                 )}
                                 <img
                                     src={img}
+                                    alt=""
+                                    className={`absolute inset-0 w-full h-full object-cover blur-lg opacity-30 scale-105 transition-opacity duration-500 ${loaded[i] ? 'opacity-30' : 'opacity-0'}`}
+                                />
+                                <img
+                                    src={img}
                                     alt={`Industrial infrastructure ${i + 1}`}
-                                    className={`w-full h-full object-cover transition-opacity duration-500 ${loaded[i] ? 'opacity-100' : 'opacity-0'}`}
+                                    className={`relative z-10 w-full h-full object-contain transition-opacity duration-500 ${loaded[i] ? 'opacity-100' : 'opacity-0'}`}
                                     onLoad={() => setLoaded(prev => ({ ...prev, [i]: true }))}
                                     loading="eager"
                                 />
