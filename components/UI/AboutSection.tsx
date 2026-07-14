@@ -24,10 +24,10 @@ const AboutSection: React.FC = () => {
 
     return (
         <section className="bg-white overflow-hidden">
-            <div className="flex flex-col lg:flex-row min-h-[380px] lg:min-h-[420px]">
+            <div className="flex flex-col lg:flex-row lg:h-[540px]">
                 {/* Left: Image Slider */}
                 <div 
-                    className={`lg:w-1/2 relative h-[250px] sm:h-[320px] lg:h-auto overflow-hidden bg-slate-200 transition-all duration-1000 ${imageReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}
+                    className={`lg:w-1/2 relative h-[250px] sm:h-[320px] lg:h-full overflow-hidden bg-slate-200 transition-all duration-1000 ${imageReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}
                     ref={imageReveal.ref}
                 >
                     <div
@@ -79,7 +79,7 @@ const AboutSection: React.FC = () => {
 
                 {/* Right: Text Area */}
                 <div 
-                    className={`lg:w-1/2 bg-slate-900 flex items-center py-8 px-6 sm:px-12 lg:py-10 lg:px-16 transition-all duration-1000 ${textReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}`}
+                    className={`lg:w-1/2 bg-slate-900 flex items-center py-8 px-6 sm:px-12 lg:py-10 lg:px-16 lg:h-full transition-all duration-1000 ${textReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}`}
                     ref={textReveal.ref}
                 >
                     <div className="max-w-xl">
@@ -87,12 +87,21 @@ const AboutSection: React.FC = () => {
                             Sobre Nosotros
                         </h2>
 
-                        <div className="space-y-4 text-slate-100 text-sm sm:text-base lg:text-lg leading-relaxed font-light">
+                        <div className="space-y-3 text-slate-100 text-sm xl:text-base leading-relaxed font-light">
                             <p>
-                                Vicbril Internacional S.A. es una organización con más de 25 años de trayectoria en el mercado eléctrico nacional, especializándose en la distribución mayorista de conductores de baja, media y alta tensión de hasta 128kV.
+                                Vicbril Internacional S.A. es una organización con más de 25 años de trayectoria en el mercado eléctrico nacional, especializándose en la distribución mayorista de conductores de energía de hasta 128kV.
                             </p>
                             <p>
-                                Con stock permanente y logística propia, garantizamos disponibilidad inmediata y respuesta ágil en todo el país. Ofrecemos asesoramiento técnico especializado para optimizar tiempos, costos y desempeño en cada etapa de su proyecto.
+                                Nuestra actividad se basa en ofrecer disponibilidad inmediata de conductores eléctricos de baja, media y alta tensión, con el portafolio más amplio del mercado en variedades de polímeros conductores y secciones.
+                            </p>
+                            <p>
+                                Contamos con stock permanente para responder de forma ágil a proyectos de distintas escalas, garantizando rapidez en la entrega y consistencia en la calidad.
+                            </p>
+                            <p>
+                                Acompañamos cada operación con asesoramiento técnico especializado, orientado a optimizar tiempos, costos y desempeño, integrándonos a las exigencias de los sectores de energía, infraestructura y OIL &amp; GAS.
+                            </p>
+                            <p>
+                                Así, nos posicionamos como un socio estratégico capaz de abastecer con confiabilidad, rapidez y precisión técnica cada etapa del proyecto.
                             </p>
                         </div>
 
