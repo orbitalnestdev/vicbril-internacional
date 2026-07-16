@@ -4,19 +4,34 @@ import { useScrollReveal } from '../../services/hooks';
 
 const images = [
     {
-        url: "/images/home-nosotros/d-suministro.jpeg",
-        title: "Logística e Infraestructura",
-        desc: "Centro de distribución y almacenamiento preparado para grandes volúmenes."
+        url: "/images/carrousel/carrou/carrousel (1).jpg",
+        title: "Fraccionamiento a Medida",
+        desc: "Equipamiento tecnológico para corte y bobinado de cables según requerimientos de obra."
     },
     {
-        url: "/images/home-nosotros/20260116_174205.jpg",
+        url: "/images/carrousel/carrou/carrousel (2).jpg",
+        title: "Despacho Eficiente y Seguro",
+        desc: "Operativa logística optimizada para la carga y transporte de bobinas de gran porte."
+    },
+    {
+        url: "/images/carrousel/carrou/carrousel (3).jpg",
+        title: "Distribución de Conexión Nacional",
+        desc: "Flota propia equipada para garantizar entregas inmediatas en todo el país."
+    },
+    {
+        url: "/images/carrousel/carrou/carrousel (4).jpg",
+        title: "Infraestructura Logística",
+        desc: "Sistemas de elevación y autoelevadores para una manipulación segura de conductores pesados."
+    },
+    {
+        url: "/images/carrousel/carrou/carrousel (5).jpg",
         title: "Stock Permanente",
-        desc: "Disponibilidad garantizada de cables de baja, media y alta tensión."
+        desc: "Amplio inventario de cables de baja, media y alta tensión de las marcas líderes del mercado."
     },
     {
-        url: "/images/home-nosotros/20260116_174301.jpg",
-        title: "Despacho Eficiente",
-        desc: "Flota propia de alta capacidad lista para entregas en todo el país."
+        url: "/images/carrousel/carrou/carrousel (6).jpg",
+        title: "Centro de Distribución",
+        desc: "Más de 5.000 m² cubiertos en Spegazzini dedicados al almacenamiento y logística integral."
     }
 ];
 
@@ -38,7 +53,7 @@ const SuministroCarousel: React.FC = () => {
             className="py-12 bg-slate-900 overflow-hidden relative"
             ref={reveal.ref}
         >
-            <div className={`container mx-auto px-6 relative h-[350px] sm:h-[450px] md:h-[550px] lg:h-[600px] transition-all duration-1000 ${reveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+            <div className={`container mx-auto px-6 relative h-[450px] sm:h-[580px] md:h-[700px] lg:h-[800px] transition-all duration-1000 ${reveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                 <div className="w-full h-full relative rounded-3xl overflow-hidden shadow-2xl border border-slate-800">
                     <div
                         className="flex transition-transform duration-700 ease-in-out h-full w-full"
