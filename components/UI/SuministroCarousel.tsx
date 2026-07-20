@@ -4,6 +4,12 @@ import { useScrollReveal } from '../../services/hooks';
 
 const images = [
     {
+        url: "/images/carrousel/carrou/carousel 8.jpeg",
+        title: "Logística y Distribución",
+        desc: "Nuestro centro en Spegazzini equipado con flota propia para entregas a todo el país.",
+        position: "object-[center_50%]"
+    },
+    {
         url: "/images/carrousel/carrou/carrousel (1).jpg",
         title: "Fraccionamiento a Medida",
         desc: "Equipamiento tecnológico para corte y bobinado de cables según requerimientos de obra.",
