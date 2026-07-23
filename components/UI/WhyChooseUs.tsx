@@ -42,10 +42,10 @@ const WhyChooseUs: React.FC = () => {
                             <div className="mb-8 p-4 bg-slate-50 w-fit rounded-xl group-hover:bg-orange-50 transition-colors">
                                 <card.icon size={40} className="text-slate-400 group-hover:text-orange-600 transition-colors" strokeWidth={1.5} />
                             </div>
-                            <h3 className="text-4xl font-oswald font-bold text-slate-900 mb-4 uppercase tracking-wide">
+                            <h3 className="text-xl sm:text-2xl font-oswald font-bold text-slate-900 mb-3 uppercase tracking-wide">
                                 {card.title}
                             </h3>
-                            <p className="text-xl text-slate-500 leading-relaxed font-light">
+                            <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
                                 {card.description}
                             </p>
                         </div>

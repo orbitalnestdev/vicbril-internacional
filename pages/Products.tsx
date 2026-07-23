@@ -133,7 +133,7 @@ const Products: React.FC = () => {
             <span className="text-orange-500 font-bold text-xs uppercase tracking-[0.3em] mb-4 block border-l-2 border-orange-500 pl-4 animate-in fade-in slide-in-from-left-4 duration-500">
               {pageSubtitle}
             </span>
-            <h1 className="text-4xl md:text-6xl font-oswald font-bold text-white mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
+            <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-oswald font-bold text-white mb-6 uppercase tracking-tight leading-tight animate-in fade-in slide-in-from-bottom-4 duration-700">
               {pageTitle}
             </h1>
 

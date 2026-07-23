@@ -91,11 +91,11 @@ const Markets: React.FC = () => {
       <div className="bg-slate-900 py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
         <div className="container mx-auto px-6 relative z-10 text-center">
-          <span className="text-orange-500 text-base sm:text-lg md:text-xl font-bold tracking-[0.4em] uppercase mb-4 block animate-fade-in-up">Sectores</span>
-          <h1 className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-oswald font-bold text-white mb-6 uppercase tracking-tight leading-none">
+          <span className="text-orange-500 text-xs sm:text-sm font-bold tracking-[0.3em] uppercase mb-3 block animate-fade-in-up">Sectores</span>
+          <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-oswald font-bold text-white mb-6 uppercase tracking-tight leading-tight">
             Mercados que abastecemos
           </h1>
-          <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg md:text-xl lg:text-2xl font-light leading-relaxed">
+          <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg md:text-xl font-light leading-relaxed">
             Soluciones confiables y certificadas en conductores eléctricos para los sectores industriales y de infraestructura más exigentes del país.
           </p>
         </div>

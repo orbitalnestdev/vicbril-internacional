@@ -39,8 +39,8 @@ const FAQ: React.FC = () => {
           <div className="inline-block p-3 rounded-full bg-blue-100 text-blue-900 mb-4">
             <HelpCircle size={32} />
           </div>
-          <h1 className="text-4xl font-oswald font-bold text-slate-900 mb-4">PREGUNTAS FRECUENTES</h1>
-          <p className="text-gray-600">Resolvemos tus dudas principales sobre nuestros procesos comerciales y logísticos.</p>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-oswald font-bold text-slate-900 mb-4 tracking-tight">PREGUNTAS FRECUENTES</h1>
+          <p className="text-slate-600 text-base sm:text-lg font-normal">Resolvemos tus dudas principales sobre nuestros procesos comerciales y logísticos.</p>
         </div>
 
         <div className="space-y-4">
@@ -50,7 +50,7 @@ const FAQ: React.FC = () => {
                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
                 className="w-full flex justify-between items-center p-6 text-left focus:outline-none hover:bg-gray-50 transition"
               >
-                <span className="font-bold text-slate-800 text-lg">{faq.q}</span>
+                <span className="font-bold text-slate-900 text-base sm:text-lg">{faq.q}</span>
                 {openIndex === idx ? <Minus className="text-orange-500" /> : <Plus className="text-gray-400" />}
               </button>
 

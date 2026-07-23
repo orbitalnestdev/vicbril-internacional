@@ -13,11 +13,11 @@ const About: React.FC = () => {
          <div className="bg-slate-900 py-24 relative overflow-hidden">
             <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
             <div className="container mx-auto px-6 relative z-10 text-center">
-               <span className="text-orange-500 text-sm sm:text-base md:text-lg lg:text-xl font-bold tracking-[0.4em] uppercase mb-4 block animate-fade-in-up">Nuestra Esencia</span>
-               <h1 className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-oswald font-bold text-white mb-6 uppercase tracking-tight leading-none">
+               <span className="text-orange-500 text-xs sm:text-sm font-bold tracking-[0.3em] uppercase mb-3 block animate-fade-in-up">Nuestra Esencia</span>
+               <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-oswald font-bold text-white mb-6 uppercase tracking-tight leading-tight">
                   MÁS QUE DISTRIBUIDORES,<br className="hidden sm:inline" />SOCIOS ESTRATÉGICOS
                </h1>
-               <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg md:text-xl lg:text-2xl font-light leading-relaxed">
+               <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg md:text-xl font-light leading-relaxed">
                   Desde 1998, construyendo la red de energía más confiable para la industria argentina.
                </p>
             </div>
@@ -39,8 +39,8 @@ const About: React.FC = () => {
                   </div>
 
                   <div className="w-full md:w-1/2">
-                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-oswald font-bold text-slate-900 mb-8">TRAYECTORIA Y COMPROMISO</h2>
-                     <div className="space-y-6 text-slate-600 leading-loose text-base sm:text-lg">
+                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-oswald font-bold text-slate-900 mb-6 tracking-tight">TRAYECTORIA Y COMPROMISO</h2>
+                     <div className="space-y-6 text-slate-600 leading-relaxed text-base sm:text-lg font-normal">
                         <p>
                            <strong className="text-slate-900">Vicbril Internacional S.A.</strong> nace con una visión clara: profesionalizar el abasto de material eléctrico en un mercado que demandaba mayor rigor técnico y logístico.
                         </p>
@@ -62,10 +62,10 @@ const About: React.FC = () => {
                      { icon: Award, title: "VISIÓN", text: "Consolidarnos como líderes en la distribución de conductores eléctricos, destacándonos por el stock permanente, la entrega inmediata y una logística propia que asegure respuestas rápidas y confiables." },
                      { icon: Briefcase, title: "CALIDAD", text: "Trabajamos con fabricantes líderes del mercado y sostenemos altos estándares en cada etapa del proceso, desde la selección de productos hasta la entrega, asegurando confiabilidad y cumplimiento en cada operación." }
                   ].map((item, idx) => (
-                     <div key={idx} className="bg-white p-10 shadow-sm border border-gray-100 hover:shadow-xl transition-shadow duration-300 border-t-4 border-t-slate-900 hover:border-t-orange-600 group">
-                        <item.icon size={40} className="text-slate-300 mb-8 group-hover:text-orange-600 transition-colors" />
-                        <h3 className="text-3xl font-oswald font-bold text-slate-900 mb-4">{item.title}</h3>
-                        <p className="text-slate-500 leading-relaxed text-lg">{item.text}</p>
+                     <div key={idx} className="bg-white p-8 sm:p-10 shadow-sm border border-gray-100 hover:shadow-xl transition-shadow duration-300 border-t-4 border-t-slate-900 hover:border-t-orange-600 group">
+                        <item.icon size={40} className="text-slate-300 mb-6 group-hover:text-orange-600 transition-colors" />
+                        <h3 className="text-xl sm:text-2xl font-oswald font-bold text-slate-900 mb-3 tracking-wide">{item.title}</h3>
+                        <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">{item.text}</p>
                      </div>
                   ))}
                </div>

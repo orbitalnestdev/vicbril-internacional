@@ -81,17 +81,17 @@ const SuministroCarousel: React.FC = () => {
                                 <img
                                     src={slide.url}
                                     alt={slide.title}
-                                    className={`w-full h-full object-contain sm:object-cover transition-opacity duration-500 ${slide.position} ${loaded[i] ? 'opacity-100' : 'opacity-0'}`}
+                                    className={`w-full h-full object-cover transition-opacity duration-500 ${slide.position} ${loaded[i] ? 'opacity-100' : 'opacity-0'}`}
                                     onLoad={() => setLoaded(prev => ({ ...prev, [i]: true }))}
                                     loading="eager"
                                 />
-                                {/* Subtle bottom gradient for text readability without darkening photos */}
-                                <div className="absolute inset-x-0 bottom-0 h-32 sm:h-48 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none"></div>
+                                {/* Bottom gradient for high contrast text readability */}
+                                <div className="absolute inset-x-0 bottom-0 h-40 sm:h-52 bg-gradient-to-t from-black/90 via-black/40 to-transparent pointer-events-none z-10"></div>
                                 
                                 {/* Info Box */}
-                                <div className="absolute bottom-4 sm:bottom-10 left-4 sm:left-12 right-4 sm:right-12 text-white max-w-xl z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
-                                    <h3 className="text-lg sm:text-2xl md:text-4xl font-oswald font-bold uppercase mb-1 sm:mb-3 tracking-wide text-white">{slide.title}</h3>
-                                    <p className="text-xs sm:text-base md:text-lg text-slate-100 leading-tight sm:leading-relaxed font-normal">{slide.desc}</p>
+                                <div className="absolute bottom-3 sm:bottom-10 left-3 sm:left-12 right-16 sm:right-12 text-white max-w-[75%] sm:max-w-xl z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+                                    <h3 className="text-sm sm:text-2xl md:text-4xl font-oswald font-bold uppercase mb-1 sm:mb-3 tracking-wide text-white leading-tight">{slide.title}</h3>
+                                    <p className="text-[11px] sm:text-base md:text-lg text-slate-100 leading-tight sm:leading-relaxed font-normal">{slide.desc}</p>
                                 </div>
                             </div>
                         ))}
@@ -100,24 +100,24 @@ const SuministroCarousel: React.FC = () => {
                     {/* Navigation Arrows */}
                     <button
                         onClick={prev}
-                        className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/45 hover:bg-black/60 text-white p-3 rounded-full backdrop-blur-sm transition-colors z-30"
+                        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/75 text-white p-2 sm:p-3 rounded-full backdrop-blur-md transition-colors z-30 shadow-lg"
                     >
-                        <ChevronLeft size={24} />
+                        <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
                     </button>
                     <button
                         onClick={next}
-                        className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/45 hover:bg-black/60 text-white p-3 rounded-full backdrop-blur-sm transition-colors z-30"
+                        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/75 text-white p-2 sm:p-3 rounded-full backdrop-blur-md transition-colors z-30 shadow-lg"
                     >
-                        <ChevronRight size={24} />
+                        <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
                     </button>
 
                     {/* Indicators */}
-                    <div className="absolute bottom-6 right-6 md:right-12 flex gap-2 z-30">
+                    <div className="absolute bottom-3 sm:bottom-6 right-3 sm:right-12 flex gap-1.5 sm:gap-2 z-30">
                         {images.map((_, i) => (
                             <button
                                 key={i}
                                 onClick={() => setCurrent(i)}
-                                className={`h-1.5 rounded-full transition-all duration-300 ${current === i ? 'bg-orange-500 w-8' : 'bg-white/40 w-3'}`}
+                                className={`h-1 sm:h-1.5 rounded-full transition-all duration-300 ${current === i ? 'bg-orange-500 w-5 sm:w-8' : 'bg-white/50 w-2 sm:w-3'}`}
                             />
                         ))}
                     </div>

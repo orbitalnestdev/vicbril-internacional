@@ -67,22 +67,22 @@ const Home: React.FC = () => {
     <div className="flex flex-col w-full overflow-hidden">
 
       {/* Hero Section - Industrial Impact */}
-      <section className="relative min-h-[500px] xs:min-h-[540px] sm:min-h-[580px] lg:min-h-screen flex flex-col bg-white overflow-hidden">
+      <section className="relative min-h-[520px] xs:min-h-[560px] sm:min-h-[600px] lg:min-h-screen flex flex-col bg-white overflow-hidden">
         {/* Background Layer with Parallax */}
         <div 
-          className="absolute inset-x-0 bottom-0 top-[120px] z-0 bg-white flex items-center justify-end parallax-bg"
-          style={{ transform: `translateY(${scrollY * 0.2}px)` }}
+          className="absolute inset-x-0 bottom-0 top-[80px] sm:top-[120px] z-0 bg-white flex items-center justify-end transition-transform duration-75 ease-out"
+          style={{ transform: typeof window !== 'undefined' && window.innerWidth >= 768 ? `translateY(${scrollY * 0.15}px)` : 'none' }}
         >
           <div className="relative w-full h-full flex items-center justify-end">
             <img
               src="/images/banner-principal.png"
               alt="Vicbril Banner"
-              className="w-full h-full object-contain object-right animate-scale-in"
+              className="w-full h-full object-cover md:object-contain object-right sm:object-right animate-scale-in opacity-25 md:opacity-100 transition-opacity duration-500"
               fetchPriority="high"
             />
-            {/* Soft white gradient overlays to prevent text collision on mobile */}
-            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent md:hidden z-10 pointer-events-none" />
-            <div className="absolute inset-0 bg-gradient-to-t from-white via-white/30 to-transparent md:hidden z-10 pointer-events-none" />
+            {/* White gradient overlays for clean text and button backdrop on mobile */}
+            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 sm:via-white/70 to-transparent z-10 pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-white via-white/50 to-transparent md:hidden z-10 pointer-events-none" />
           </div>
         </div>
 
@@ -90,21 +90,21 @@ const Home: React.FC = () => {
         <div className="flex-grow flex items-center relative z-10 pt-24 sm:pt-32 md:pt-40 lg:pt-44 pb-12 sm:pb-0">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl">
-              <span className="text-orange-600 text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-bold uppercase mb-3 sm:mb-6 block animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
+              <span className="text-orange-600 text-xs sm:text-sm font-bold uppercase tracking-[0.3em] mb-3 sm:mb-4 block animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
                 somos vicbril
               </span>
 
-              <h1 className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold font-oswald text-slate-900 leading-[0.9] mb-6 sm:mb-10 tracking-tight animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
+              <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-oswald text-slate-900 leading-[0.95] mb-6 sm:mb-10 tracking-tight animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
                 <span className="text-orange-600">CABLES</span> DE BAJA, MEDIA <br className="hidden sm:inline" />
                 Y ALTA TENSIÓN PARA <br className="hidden sm:inline" />
                 ENTREGA INMEDIATA
               </h1>
 
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: '0.6s', opacity: 0 }}>
-                <Link to="/contacto" className="bg-orange-600 text-white text-sm font-bold uppercase tracking-[0.2em] px-8 py-4 sm:px-12 sm:py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center shadow-xl shadow-orange-600/20 glass-shine">
+                <Link to="/contacto" className="bg-orange-600 text-white text-xs sm:text-sm font-bold uppercase tracking-[0.2em] px-8 py-4 sm:px-12 sm:py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center shadow-xl shadow-orange-600/20 glass-shine">
                   Cotizar Proyecto
                 </Link>
-                <Link to="/productos" className="group bg-white/80 backdrop-blur-sm border border-slate-200 text-slate-900 text-sm font-bold uppercase tracking-[0.2em] px-8 py-4 sm:px-12 sm:py-6 hover:bg-white transition-all duration-300 flex items-center justify-center">
+                <Link to="/productos" className="group bg-white/80 backdrop-blur-sm border border-slate-200 text-slate-900 text-xs sm:text-sm font-bold uppercase tracking-[0.2em] px-8 py-4 sm:px-12 sm:py-6 hover:bg-white transition-all duration-300 flex items-center justify-center">
                   Ver Catálogo <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
                 </Link>
               </div>
@@ -118,10 +118,10 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 border-b border-gray-100 pb-8">
             <div className="max-w-3xl">
-              <h2 className={`text-5xl md:text-6xl font-oswald font-bold text-slate-900 mb-6 transition-all duration-1000 ${headlineReveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} ref={headlineReveal.ref}>
+              <h2 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-oswald font-bold text-slate-900 mb-6 tracking-tight transition-all duration-1000 ${headlineReveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} ref={headlineReveal.ref}>
                 DISTRIBUIDORES MAYORISTAS
               </h2>
-              <div className="text-slate-500 text-lg leading-relaxed space-y-5">
+              <div className="text-slate-600 text-base sm:text-lg leading-relaxed space-y-4 font-normal">
                 <p>De conductores eléctricos y cables especiales, trabajando con más de 25 fábricas líderes del mercado. Más de 25 años de experiencia abasteciendo proyectos de energía, OIL &amp; GAS y redes eléctricas.</p>
                 <p>Contamos con un centro logístico propio en el Nuevo Polo Spegazzini, con más de 5.000 m² de capacidad operativa, junto con flota propia de alta capacidad de carga, lo que nos permite garantizar disponibilidad permanente, respuesta rápida y entregas eficientes en todo el país.</p>
                 <p>En Vicbril Internacional S.A. brindamos un servicio de excelencia en la provisión de conductores eléctricos, respaldados por trayectoria, infraestructura y un equipo técnico especializado.</p>
@@ -136,7 +136,7 @@ const Home: React.FC = () => {
                 loop
                 muted
                 playsInline
-                className="w-full aspect-[16/10] object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
+                className="w-full aspect-[16/9] object-contain bg-slate-950 rounded-2xl shadow-2xl border border-slate-800 transform hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
@@ -156,12 +156,12 @@ const Home: React.FC = () => {
             ].map((item, idx) => (
               <div 
                 key={idx} 
-                className={`bg-white p-10 hover:bg-gray-50 transition-all duration-700 group hover-lift ${valuePropReveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+                className={`bg-white p-8 sm:p-10 hover:bg-gray-50 transition-all duration-700 group hover-lift ${valuePropReveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
                 style={{ transitionDelay: `${idx * 150}ms` }}
               >
                 <item.icon size={32} strokeWidth={1.5} className="text-slate-400 mb-6 group-hover:text-orange-600 transition-colors" />
-                <h3 className="text-3xl font-oswald font-bold text-slate-900 mb-3 tracking-wide">{item.title}</h3>
-                <p className="text-xl text-slate-500 leading-relaxed">{item.desc}</p>
+                <h3 className="text-xl sm:text-2xl font-oswald font-bold text-slate-900 mb-3 tracking-wide">{item.title}</h3>
+                <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -173,7 +173,7 @@ const Home: React.FC = () => {
       <section className="py-12 sm:py-16 md:py-24 bg-slate-50">
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center mb-12">
-            <h2 className="text-3xl font-oswald font-bold text-slate-900">LÍNEAS DE PRODUCTO</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-oswald font-bold text-slate-900 tracking-tight">LÍNEAS DE PRODUCTO</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" ref={productSectionReveal.ref}>
@@ -199,10 +199,10 @@ const Home: React.FC = () => {
           <div className="flex flex-col lg:flex-row items-start justify-between gap-16">
             <div className={`max-w-2xl mt-10 transition-all duration-1000 ${ctaTextReveal.isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`} ref={ctaTextReveal.ref}>
               <span className="text-orange-500 font-bold text-xs uppercase tracking-[0.3em] mb-4 block border-l-2 border-orange-500 pl-4 animate-pulse">Hablemos de tu proyecto</span>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-oswald font-bold text-white mb-8 leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-oswald font-bold text-white mb-6 leading-tight tracking-tight">
                 ¿TIENES UN PROYECTO <br /> EN PUERTA?
               </h2>
-              <div className="space-y-6 text-slate-400 text-lg mb-10">
+              <div className="space-y-6 text-slate-300 text-base sm:text-lg mb-10 font-light leading-relaxed">
                 <p>
                   Solicita una cotización formal para tu lista de materiales. Precios competitivos por volumen y atención dedicada a empresas.
                 </p>

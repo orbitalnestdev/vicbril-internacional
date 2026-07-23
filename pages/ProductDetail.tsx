@@ -168,10 +168,10 @@ const ProductDetail: React.FC = () => {
         {/* Product Title Area */}
         <div className="mb-10 border-b border-slate-100 pb-8">
           <div className="text-center md:text-left">
-            <span className="text-[11px] font-bold text-orange-600 uppercase tracking-[0.4em] mb-2 block">
+            <span className="text-xs font-bold text-orange-600 uppercase tracking-[0.3em] mb-2 block">
               {product.categoryPath && product.categoryPath.slice(-1)[0]}
             </span>
-            <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-oswald font-bold text-slate-900 uppercase tracking-tight">
+            <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-oswald font-bold text-slate-900 uppercase tracking-tight leading-tight">
               {product.name}
             </h1>
           </div>
@@ -193,9 +193,9 @@ const ProductDetail: React.FC = () => {
             {product.description && (
               <div>
                 <div className="mb-4">
-                  <h2 className="text-xl md:text-2xl font-oswald font-bold text-[#004b61] uppercase tracking-wider">DESCRIPCIÓN</h2>
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-oswald font-bold text-slate-900 uppercase tracking-wide">DESCRIPCIÓN</h2>
                 </div>
-                <p className="text-slate-600 leading-relaxed text-base md:text-lg font-medium border-l-2 border-slate-100 pl-6">
+                <p className="text-slate-600 leading-relaxed text-base sm:text-lg font-normal border-l-2 border-slate-200 pl-6">
                   {product.description}
                 </p>
               </div>
@@ -226,8 +226,8 @@ const ProductDetail: React.FC = () => {
         </div>
 
         {/* Tab Navigation */}
-        <div className="md:sticky md:top-28 z-40 bg-slate-50 border-y border-slate-200 mb-12 shadow-sm overflow-x-auto no-scrollbar">
-          <div className="flex flex-row justify-start md:justify-center container mx-auto px-0 md:px-6 min-w-max md:min-w-0">
+        <div className="sticky top-20 md:top-28 z-40 bg-white/95 backdrop-blur-md border-y border-slate-200 mb-12 shadow-md overflow-x-auto no-scrollbar hide-scrollbar">
+          <div className="flex flex-row justify-start md:justify-center container mx-auto px-4 md:px-6 min-w-max md:min-w-0 py-1">
             {[
               { id: 'DETALLES', label: 'DETALLES', target: 'detalles', hasContent: hasBottomDetails(product) },
               { id: 'APLICACIONES', label: 'APLICACIONES', target: 'usos', hasContent: !!product.applications },
@@ -249,13 +249,16 @@ const ProductDetail: React.FC = () => {
                     });
                   }
                 }}
-                className={`px-6 py-4 md:px-8 md:py-5 text-[12px] font-bold uppercase tracking-[0.2em] transition-all border-r border-slate-200 last:border-r-0 whitespace-nowrap text-center ${
+                className={`relative px-4 py-3 sm:px-6 sm:py-4 text-xs font-bold uppercase tracking-[0.15em] transition-all whitespace-nowrap rounded-t-md mx-0.5 ${
                   activeTab === tab.id 
-                    ? 'bg-white text-orange-600' 
-                    : 'text-slate-400 hover:text-orange-600 hover:bg-white'
+                    ? 'text-orange-600 bg-orange-50/80 font-extrabold' 
+                    : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50 font-semibold'
                 }`}
               >
                 {tab.label}
+                {activeTab === tab.id && (
+                  <span className="absolute bottom-0 left-0 right-0 h-1 bg-orange-600 rounded-t-full shadow-sm"></span>
+                )}
               </button>
             ))}
           </div>

@@ -16,9 +16,9 @@ const Contact: React.FC = () => {
                <div className="absolute top-0 right-0 w-96 h-96 bg-orange-600 rounded-full blur-[100px] opacity-20 -mr-20 -mt-20"></div>
 
                <div className="relative z-10">
-                  <span className="text-orange-500 text-sm font-bold tracking-widest uppercase mb-4 block">Hablemos de Negocios</span>
-                  <h1 className="text-5xl lg:text-7xl font-oswald font-bold mb-8 leading-tight">CONTACTO <br /> CORPORATIVO</h1>
-                  <p className="text-slate-400 mb-12 leading-relaxed text-xl">
+                  <span className="text-orange-500 text-xs sm:text-sm font-bold tracking-[0.3em] uppercase mb-3 block">Hablemos de Negocios</span>
+                  <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-oswald font-bold mb-6 leading-tight tracking-tight">CONTACTO <br /> CORPORATIVO</h1>
+                  <p className="text-slate-400 mb-10 leading-relaxed text-base sm:text-lg md:text-xl font-light">
                      Estamos listos para atender requerimientos de alto volumen y especificaciones técnicas complejas.
                   </p>
 
@@ -26,8 +26,8 @@ const Contact: React.FC = () => {
                      <div className="flex items-start group">
                         <MapPin className="text-orange-600 mr-4 mt-1 group-hover:text-white transition-colors" size={24} />
                         <div>
-                           <h3 className="font-oswald font-bold text-2xl">OFICINAS Y CEDIS</h3>
-                           <p className="text-slate-400 text-lg mt-1 leading-relaxed">
+                           <h3 className="font-oswald font-bold text-xl sm:text-2xl">OFICINAS Y CEDIS</h3>
+                           <p className="text-slate-400 text-base sm:text-lg mt-1 leading-relaxed font-light">
                               San Salvador de Jujuy 1305, Lote 219.<br />
                               Polo Industrial Spegazzini. Carlos Spegazzini, B.A.
                            </p>
@@ -37,8 +37,8 @@ const Contact: React.FC = () => {
                      <div className="flex items-start group">
                         <Phone className="text-orange-600 mr-4 mt-1 group-hover:text-white transition-colors" size={24} />
                         <div>
-                           <h3 className="font-oswald font-bold text-2xl">TELÉFONOS</h3>
-                           <p className="text-slate-400 text-lg mt-1">
+                           <h3 className="font-oswald font-bold text-xl sm:text-2xl">TELÉFONOS</h3>
+                           <p className="text-slate-400 text-base sm:text-lg mt-1 font-light">
                               +54 9 11 3124-0403 (WhatsApp Comercial)<br />
                               <span className="text-emerald-400 font-semibold">+54 9 11 2507-2446 (WhatsApp Ventas)</span>
                            </p>
@@ -48,8 +48,8 @@ const Contact: React.FC = () => {
                      <div className="flex items-start group">
                         <Mail className="text-orange-600 mr-4 mt-1 group-hover:text-white transition-colors" size={24} />
                         <div>
-                           <h3 className="font-oswald font-bold text-2xl">CORREO</h3>
-                           <p className="text-slate-400 text-lg mt-1">
+                           <h3 className="font-oswald font-bold text-xl sm:text-2xl">CORREO</h3>
+                           <p className="text-slate-400 text-base sm:text-lg mt-1 font-light">
                               info@vicbrilinternacional.com<br />
                            </p>
                         </div>
@@ -59,8 +59,8 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Right Panel: Light Form */}
-            <div className="lg:w-7/12 bg-white p-12 lg:p-24 flex flex-col justify-center">
-               <h2 className="text-5xl font-oswald font-bold text-slate-900 mb-8">ENVIAR MENSAJE</h2>
+            <div className="lg:w-7/12 bg-white p-8 xs:p-12 lg:p-24 flex flex-col justify-center">
+               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-oswald font-bold text-slate-900 mb-6 tracking-tight">ENVIAR MENSAJE</h2>
 
                <form className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

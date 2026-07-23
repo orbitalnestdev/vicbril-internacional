@@ -4,12 +4,38 @@ import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import { FloatingWhatsApp } from './components/UI/FloatingButtons';
 
-// Component to scroll window to top on route change
+// Component to scroll window to top on route change (bulletproof for mobile & lazy loading)
 const ScrollToTop: React.FC = () => {
   const { pathname, search } = useLocation();
 
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
+  React.useLayoutEffect(() => {
+    // Disable smooth scrolling temporarily to prevent animation cancellation midway
+    const originalScrollBehavior = document.documentElement.style.scrollBehavior;
+    document.documentElement.style.scrollBehavior = 'auto';
+
+    const forceScrollTop = () => {
+      window.scrollTo(0, 0);
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    };
+
+    // Execute immediately
+    forceScrollTop();
+
+    // Execute again on next animation frame after DOM update
+    const rafId = requestAnimationFrame(forceScrollTop);
+
+    // Execute again after 50ms to account for React lazy load chunk resolution
+    const timerId = setTimeout(() => {
+      forceScrollTop();
+      document.documentElement.style.scrollBehavior = originalScrollBehavior;
+    }, 50);
+
+    return () => {
+      cancelAnimationFrame(rafId);
+      clearTimeout(timerId);
+      document.documentElement.style.scrollBehavior = originalScrollBehavior;
+    };
   }, [pathname, search]);
 
   return null;
