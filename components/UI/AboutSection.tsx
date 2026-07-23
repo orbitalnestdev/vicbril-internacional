@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useScrollReveal } from '../../services/hooks';
 
@@ -106,12 +107,12 @@ const AboutSection: React.FC = () => {
                         </div>
 
                         <div className="mt-8">
-                            <a
-                                href="#/nosotros"
+                            <Link
+                                to="/nosotros"
                                 className="inline-block border border-white/30 hover:border-white text-white px-8 py-3 rounded-full transition-all text-sm font-bold tracking-widest uppercase hover:bg-white hover:text-slate-900 glass-shine"
                             >
                                 Más información
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
