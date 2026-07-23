@@ -94,7 +94,7 @@ const Home: React.FC = () => {
                 somos vicbril
               </span>
 
-              <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-oswald text-slate-900 leading-[0.95] mb-6 sm:mb-10 tracking-tight animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
+              <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-oswald text-slate-900 leading-[1.12] mb-6 sm:mb-10 tracking-tight animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
                 <span className="text-orange-600">CABLES</span> DE BAJA, MEDIA <br className="hidden sm:inline" />
                 Y ALTA TENSIÓN PARA <br className="hidden sm:inline" />
                 ENTREGA INMEDIATA
@@ -136,7 +136,7 @@ const Home: React.FC = () => {
                 loop
                 muted
                 playsInline
-                className="w-full aspect-[16/9] object-contain bg-slate-950 rounded-2xl shadow-2xl border border-slate-800 transform hover:scale-105 transition-transform duration-500"
+                className="w-full aspect-[2/1] sm:aspect-[2.1/1] object-cover rounded-2xl shadow-2xl border border-slate-200 transform hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
