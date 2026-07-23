@@ -51,9 +51,12 @@ const Footer: React.FC = () => {
                 <MapPin size={18} className="mr-3 text-orange-600 flex-shrink-0 mt-0.5 group-hover:text-white transition-colors" />
                 <span>San Salvador de Jujuy 1305, Lote 219. Polo Industrial Spegazzini.<br />Carlos Spegazzini, Buenos Aires.</span>
               </li>
-              <li className="flex items-center group">
-                <Phone size={18} className="mr-3 text-orange-600 flex-shrink-0 group-hover:text-white transition-colors" />
-                <span className="font-mono">+54 9 11 3124-0403</span>
+              <li className="flex items-start group">
+                <Phone size={18} className="mr-3 text-orange-600 flex-shrink-0 mt-0.5 group-hover:text-white transition-colors" />
+                <div className="font-mono text-xs space-y-1">
+                  <p>+54 9 11 3124-0403</p>
+                  <p className="text-emerald-400 font-bold">+54 9 11 2507-2446 (WhatsApp)</p>
+                </div>
               </li>
               <li className="flex items-center group">
                 <Mail size={18} className="mr-3 text-orange-600 flex-shrink-0 group-hover:text-white transition-colors" />

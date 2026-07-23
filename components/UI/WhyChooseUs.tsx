@@ -26,7 +26,7 @@ const WhyChooseUs: React.FC = () => {
         <section className="py-24 bg-slate-50">
             <div className="container mx-auto px-6">
                 <h2 
-                    className={`text-6xl font-oswald font-bold text-slate-900 mb-16 text-center transition-all duration-1000 ${reveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+                    className={`text-4xl sm:text-5xl md:text-6xl font-oswald font-bold text-slate-900 mb-10 md:mb-16 text-center transition-all duration-1000 ${reveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
                     ref={reveal.ref}
                 >
                     ¿POR QUÉ ELEGIRNOS?

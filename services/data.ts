@@ -1982,7 +1982,7 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     detailedDescription: `Nuestra línea de cables de alta tensión está diseñada para garantizar una transmisión de energía eficiente, segura y confiable en infraestructuras críticas. Construidos con materiales de vanguardia y procesos de fabricación certificados, estos cables ofrecen una resistencia superior ante condiciones ambientales exigentes y una vida útil prolongada.
 
 Nuestros cables son fabricados bajo estrictos controles de calidad, cumpliendo con las normas internacionales IEC. Esto asegura un desempeño óptimo bajo condiciones de carga variable y minimiza las pérdidas por efecto Joule, contribuyendo a la eficiencia energética de su red.`,
-    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION ALUMINIO/OTRAS POTENCIAS/portada.jpeg',
+    image: '/images/66-132-kv-aluminio.jpg',
     gallery: [],
     pdf: '',
     specs: ['66 - 132 kV', 'Aluminio', 'XLPE / PE / LSZH'],
@@ -2115,7 +2115,7 @@ Instalaciones fijas en intemperie, sobre bandejas, en ductos eléctricos o direc
     detailedDescription: `Nuestra línea de cables de alta tensión está diseñada para garantizar una transmisión de energía eficiente, segura y confiable en infraestructuras críticas. Construidos con materiales de vanguardia y procesos de fabricación certificados, estos cables ofrecen una resistencia superior ante condiciones ambientales exigentes y una vida útil prolongada.
 
 Nuestros cables son fabricados bajo estrictos controles de calidad, cumpliendo con las normas internacionales IEC. Esto asegura un desempeño óptimo bajo condiciones de carga variable y minimiza las pérdidas por efecto Joule, contribuyendo a la eficiencia energética de su red.`,
-    image: '/images/ProductosNuevos/4- CABLES DE MEDIA TENSION/CABLES MEDIA TENSION COBRE/OTRAS POTENCIAS/PORTADA.jpeg',
+    image: '/images/66-132-kv-cobre.jpg',
     gallery: [],
     pdf: '',
     specs: ['66 - 132 kV', 'Cobre', 'XLPE / PE / LSZH'],
@@ -29414,42 +29414,37 @@ libre directo o bajo techo, enterrado en trinchera o en ductos.`,
     ],
     specsTables: [
       {
-            "title": "Especificaciones Técnicas",
+            "title": "Especificaciones Técnicas (Identificación de colores)",
             "headers": [
-                  "",
-                  "Estandar",
-                  ""
+                  "Configuración",
+                  "Cubierta",
+                  "Conductores"
             ],
             "rows": [
                   [
-                        "",
-                        "Cubierta",
-                        "Conductores"
-                  ],
-                  [
                         "1 Par",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul"
                   ],
                   [
                         "2 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja"
                   ],
                   [
                         "3 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja / Blanco, Verde"
                   ],
                   [
                         "4 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja / Blanco, Verde / Blanco, Marrón"
                   ]
             ]
       },
       {
-            "title": "Características Eléctricas",
+            "title": "Características Eléctricas, Dimensionales y Pesos",
             "headers": [
                   "Número de pares",
                   "Calibre (AWG)",
@@ -29479,12 +29474,12 @@ libre directo o bajo techo, enterrado en trinchera o en ductos.`,
                   ],
                   [
                         "2",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "24",
+                        "92.7",
+                        "66",
+                        "120",
+                        "44",
+                        "13.4",
                         "8.7",
                         "92",
                         "SB 97 2P24",
@@ -29492,12 +29487,12 @@ libre directo o bajo techo, enterrado en trinchera o en ductos.`,
                   ],
                   [
                         "3",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "24",
+                        "92.7",
+                        "66",
+                        "120",
+                        "44",
+                        "13.4",
                         "9.4",
                         "107",
                         "SB 97 3P24",
@@ -29505,12 +29500,12 @@ libre directo o bajo techo, enterrado en trinchera o en ductos.`,
                   ],
                   [
                         "4",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "24",
+                        "92.7",
+                        "66",
+                        "120",
+                        "44",
+                        "13.4",
                         "10.7",
                         "135",
                         "SB 97 4P24",
@@ -29561,42 +29556,37 @@ libre directo o bajo techo, enterrado en trinchera o en ductos.`,
     ],
     specsTables: [
       {
-            "title": "Especificaciones Técnicas",
+            "title": "Especificaciones Técnicas (Identificación de colores)",
             "headers": [
-                  "",
-                  "Estandar",
-                  ""
+                  "Configuración",
+                  "Cubierta",
+                  "Conductores"
             ],
             "rows": [
                   [
-                        "",
-                        "Cubierta",
-                        "Conductores"
-                  ],
-                  [
                         "1 Par",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul"
                   ],
                   [
                         "2 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja"
                   ],
                   [
                         "3 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja / Blanco, Verde"
                   ],
                   [
                         "4 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja / Blanco, Verde / Blanco, Marrón"
                   ]
             ]
       },
       {
-            "title": "Características Eléctricas",
+            "title": "Características Eléctricas, Dimensionales y Pesos",
             "headers": [
                   "Número de pares",
                   "Calibre (AWG)",
@@ -29626,12 +29616,12 @@ libre directo o bajo techo, enterrado en trinchera o en ductos.`,
                   ],
                   [
                         "2",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "22",
+                        "58.6",
+                        "66",
+                        "120",
+                        "48",
+                        "14.6",
                         "8.4",
                         "87",
                         "SB 98 2P22",
@@ -29639,12 +29629,12 @@ libre directo o bajo techo, enterrado en trinchera o en ductos.`,
                   ],
                   [
                         "3",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "22",
+                        "58.6",
+                        "66",
+                        "120",
+                        "48",
+                        "14.6",
                         "9.1",
                         "103",
                         "SB 98 3P22",
@@ -29652,12 +29642,12 @@ libre directo o bajo techo, enterrado en trinchera o en ductos.`,
                   ],
                   [
                         "4",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "22",
+                        "58.6",
+                        "66",
+                        "120",
+                        "48",
+                        "14.6",
                         "10.3",
                         "131",
                         "SB 98 4P22",
@@ -29709,42 +29699,37 @@ del cable de interconexión y alta velocidad de transmisión de datos. Instalado
     ],
     specsTables: [
       {
-            "title": "Especificaciones Técnicas",
+            "title": "Especificaciones Técnicas (Identificación de colores)",
             "headers": [
-                  "",
-                  "Estandar",
-                  ""
+                  "Configuración",
+                  "Cubierta",
+                  "Conductores"
             ],
             "rows": [
                   [
-                        "",
-                        "Cubierta",
-                        "Conductores"
-                  ],
-                  [
                         "1 Par",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul"
                   ],
                   [
                         "2 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja"
                   ],
                   [
                         "3 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja / Blanco, Verde"
                   ],
                   [
                         "4 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja / Blanco, Verde / Blanco, Marrón"
                   ]
             ]
       },
       {
-            "title": "Características Eléctricas",
+            "title": "Características Eléctricas, Dimensionales y Pesos",
             "headers": [
                   "Número de pares",
                   "Calibre (AWG)",
@@ -29776,12 +29761,12 @@ del cable de interconexión y alta velocidad de transmisión de datos. Instalado
                   ],
                   [
                         "2",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "24",
+                        "92.7",
+                        "66",
+                        "120",
+                        "44",
+                        "13.4",
                         "8.7",
                         "12.9",
                         "304",
@@ -29790,12 +29775,12 @@ del cable de interconexión y alta velocidad de transmisión de datos. Instalado
                   ],
                   [
                         "3",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "24",
+                        "92.7",
+                        "66",
+                        "120",
+                        "44",
+                        "13.4",
                         "9.4",
                         "13.5",
                         "335",
@@ -29804,12 +29789,12 @@ del cable de interconexión y alta velocidad de transmisión de datos. Instalado
                   ],
                   [
                         "4",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "24",
+                        "92.7",
+                        "66",
+                        "120",
+                        "44",
+                        "13.4",
                         "10.7",
                         "14.8",
                         "389",
@@ -29862,42 +29847,37 @@ del cable de interconexión y alta velocidad de transmisión de datos. Instalado
     ],
     specsTables: [
       {
-            "title": "Especificaciones Técnicas",
+            "title": "Especificaciones Técnicas (Identificación de colores)",
             "headers": [
-                  "",
-                  "Estandar",
-                  ""
+                  "Configuración",
+                  "Cubierta",
+                  "Conductores"
             ],
             "rows": [
                   [
-                        "",
-                        "Cubierta",
-                        "Conductores"
-                  ],
-                  [
                         "1 Par",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul"
                   ],
                   [
                         "2 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja"
                   ],
                   [
                         "3 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja / Blanco, Verde"
                   ],
                   [
                         "4 Pares",
-                        "",
-                        ""
+                        "Negro",
+                        "Blanco, Azul / Blanco, Naranja / Blanco, Verde / Blanco, Marrón"
                   ]
             ]
       },
       {
-            "title": "Características Eléctricas",
+            "title": "Características Eléctricas, Dimensionales y Pesos",
             "headers": [
                   "Número de pares",
                   "Calibre (AWG)",
@@ -29929,12 +29909,12 @@ del cable de interconexión y alta velocidad de transmisión de datos. Instalado
                   ],
                   [
                         "2",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "22",
+                        "58.6",
+                        "66",
+                        "120",
+                        "48",
+                        "14.6",
                         "8.4",
                         "12.6",
                         "293",
@@ -29943,12 +29923,12 @@ del cable de interconexión y alta velocidad de transmisión de datos. Instalado
                   ],
                   [
                         "3",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "22",
+                        "58.6",
+                        "66",
+                        "120",
+                        "48",
+                        "14.6",
                         "9.1",
                         "13.2",
                         "321",
@@ -29957,12 +29937,12 @@ del cable de interconexión y alta velocidad de transmisión de datos. Instalado
                   ],
                   [
                         "4",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "22",
+                        "58.6",
+                        "66",
+                        "120",
+                        "48",
+                        "14.6",
                         "10.3",
                         "14.4",
                         "376",

@@ -117,39 +117,53 @@ const Markets: React.FC = () => {
 
 const MarketCard: React.FC<{ market: MarketItem; idx: number }> = ({ market, idx }) => {
   const { ref, isVisible } = useScrollReveal(0.1);
+  const [isActive, setIsActive] = React.useState(false);
 
   return (
     <div
       ref={ref}
-      className={`group relative h-96 md:h-[420px] overflow-hidden bg-slate-950 block transition-all duration-1000 shine-effect cursor-pointer border border-slate-800/80 shadow-lg hover:shadow-2xl ${
+      onClick={() => setIsActive(!isActive)}
+      className={`group relative h-96 md:h-[420px] overflow-hidden bg-slate-950 block transition-all duration-700 shine-effect cursor-pointer border border-slate-800/80 shadow-lg hover:shadow-2xl ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
       style={{ transitionDelay: `${(idx % 3) * 100}ms` }}
     >
-      {/* Background Image: Brighter initial opacity, zooms smoothly on hover */}
+      {/* Background Image: Brighter initial opacity, zooms smoothly on hover or touch tap */}
       <img
         src={market.image}
         alt={market.title}
-        className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80 group-hover:opacity-100"
+        className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ${
+          isActive ? 'scale-105 opacity-100' : 'opacity-85 group-hover:scale-105 group-hover:opacity-100'
+        }`}
         loading="lazy"
       />
       
-      {/* Dark Gradient Overlay: Lighter and fades out on hover to illuminate the photo */}
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/30 to-transparent opacity-65 group-hover:opacity-40 transition-opacity duration-500 z-10"></div>
+      {/* Dark Gradient Overlay: Fades out on hover/tap to illuminate the photo */}
+      <div className={`absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent transition-opacity duration-500 z-10 ${
+        isActive ? 'opacity-30' : 'opacity-65 group-hover:opacity-30'
+      }`}></div>
 
-      {/* Orange border overlay that lights up on hover */}
-      <div className="absolute inset-0 border-[3px] border-transparent group-hover:border-orange-500/90 transition-colors duration-500 z-25 pointer-events-none"></div>
+      {/* Orange border overlay that lights up on hover/tap */}
+      <div className={`absolute inset-0 border-[3px] transition-colors duration-500 z-25 pointer-events-none ${
+        isActive ? 'border-orange-500' : 'border-transparent group-hover:border-orange-500'
+      }`}></div>
 
       {/* Content Container */}
       <div className="absolute inset-0 flex flex-col justify-end p-6 xs:p-8 md:p-10 z-30">
-        <div className="transform translate-y-6 group-hover:translate-y-0 transition-transform duration-700 ease-out">
-          <h3 className="text-2xl xs:text-3xl md:text-4xl font-oswald font-bold text-white mb-3 uppercase tracking-tight leading-tight select-none">
+        <div className={`transform transition-all duration-500 ease-out ${
+          isActive ? 'translate-y-0' : 'translate-y-3 md:translate-y-6 group-hover:translate-y-0'
+        }`}>
+          <h3 className="text-2xl xs:text-3xl md:text-4xl font-oswald font-bold text-white mb-2 md:mb-3 uppercase tracking-tight leading-tight select-none">
             {market.title}
           </h3>
-          <p className="text-slate-200 text-sm md:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-700 max-w-lg select-none">
+          <p className={`text-slate-100 text-xs sm:text-sm md:text-base leading-relaxed transition-all duration-500 max-w-lg select-none ${
+            isActive ? 'opacity-100 block' : 'opacity-95 md:opacity-0 group-hover:opacity-100'
+          }`}>
             {market.detailedText}
           </p>
-          <div className="w-12 h-1 bg-orange-600 mt-4 transform scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700 ease-out"></div>
+          <div className={`h-1 bg-orange-600 mt-3 md:mt-4 transform origin-left transition-transform duration-500 ease-out ${
+            isActive ? 'w-16 scale-x-100' : 'w-12 scale-x-100 md:scale-x-0 group-hover:scale-x-100'
+          }`}></div>
         </div>
       </div>
     </div>

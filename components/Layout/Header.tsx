@@ -30,25 +30,29 @@ const Header: React.FC = () => {
     }`}>
 
       {/* Top Bar - Premium Industrial Look */}
-      <div className={`hidden md:block absolute top-0 right-0 left-0 bg-slate-950 text-slate-400 text-[10px] tracking-widest uppercase transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-10 opacity-100'}`}>
-        <div className="container mx-auto px-6 h-full flex justify-between items-center">
-          <div className="flex items-center space-x-8">
+      <div className={`hidden md:block absolute top-0 right-0 left-0 bg-slate-950 text-slate-300 text-xs tracking-wider uppercase transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-14 opacity-100'}`}>
+        <div className="container mx-auto px-6 h-full flex justify-between items-center py-2">
+          <div className="flex items-center space-x-6">
+            <a href="https://wa.me/5491131240403" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-white transition cursor-pointer">
+              <Phone size={14} className="mr-2 text-orange-500" /> +54 9 11 3124-0403
+            </a>
+            <span className="text-slate-600">|</span>
+            <a href="https://wa.me/5491125072446" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-white transition cursor-pointer font-semibold text-emerald-400">
+              <Phone size={14} className="mr-2 text-emerald-400" /> +54 9 11 2507-2446
+            </a>
+            <span className="text-slate-600">|</span>
             <span className="flex items-center hover:text-white transition cursor-pointer">
-              <Phone size={12} className="mr-2 text-orange-600" /> +54 9 11 3124-0403
-            </span>
-            <span className="flex items-center hover:text-white transition cursor-pointer">
-              <Mail size={12} className="mr-2 text-orange-600" /> INFO@VICBRILINTERNACIONAL.COM
+              <Mail size={14} className="mr-2 text-orange-500" /> INFO@VICBRILINTERNACIONAL.COM
             </span>
           </div>
           <div className="flex items-center space-x-6">
-            <a href="#" className="hover:text-white transition flex items-center"><Download size={12} className="mr-2" /> CATÁLOGO PDF 2024</a>
-            <span className="text-orange-600 font-bold">LÍDERES EN DISTRIBUCIÓN ELÉCTRICA</span>
+            <span className="text-orange-500 font-bold">LÍDERES EN DISTRIBUCIÓN ELÉCTRICA</span>
           </div>
         </div>
       </div>
 
       {/* Main Nav */}
-      <div className={`container mx-auto px-6 transition-all duration-300 ${isScrolled ? 'mt-0' : 'mt-4'}`}>
+      <div className={`container mx-auto px-6 transition-all duration-300 ${isScrolled ? 'mt-0' : 'mt-6'}`}>
         <div className="flex justify-between items-center">
 
           {/* Logo */}
@@ -115,8 +119,8 @@ const Header: React.FC = () => {
       {/* Mobile Menu Overlay */}
       <div className={`fixed inset-0 bg-white z-40 transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden overflow-y-auto`}>
         <div className="flex flex-col min-h-full justify-center px-8 space-y-6 pt-24 pb-8">
-          <Link to="/" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">INICIO</Link>
-          <Link to="/nosotros" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">NOSOTROS</Link>
+          <Link to="/" onClick={() => setIsOpen(false)} className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">INICIO</Link>
+          <Link to="/nosotros" onClick={() => setIsOpen(false)} className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">NOSOTROS</Link>
           <Link 
             to="/mercados" 
             onClick={() => setIsOpen(false)}
@@ -124,20 +128,21 @@ const Header: React.FC = () => {
           >
             MERCADOS
           </Link>
-          <Link to="/productos" className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">CATÁLOGO</Link>
-          <span className="text-3xl font-oswald font-bold text-slate-300 border-b border-gray-100 pb-4">AYUDA</span>
+          <Link to="/productos" onClick={() => setIsOpen(false)} className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">CATÁLOGO</Link>
+          <Link to="/faq" onClick={() => setIsOpen(false)} className="text-3xl font-oswald font-bold text-slate-900 border-b border-gray-100 pb-4">PREGUNTAS FRECUENTES</Link>
           <a 
-            href="https://wa.me/5491131240403?text=Hola%20Vicbril,%20quisiera%20realizar%20una%20consulta." 
+            href="https://wa.me/5491125072446?text=Hola%20Vicbril,%20quisiera%20realizar%20una%20consulta." 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-orange-600 text-2xl font-oswald font-bold pt-4 flex items-center"
+            className="text-emerald-600 text-2xl font-oswald font-bold pt-2 flex items-center"
           >
             CONSULTAR WHATSAPP <ChevronRight className="ml-2" />
           </a>
 
-          <div className="mt-auto pb-12 text-slate-500 text-sm">
+          <div className="mt-auto pb-12 text-slate-500 text-sm space-y-1">
             <p className="mb-2">Buenos Aires, Argentina</p>
-            <p className="font-mono text-slate-900">+54 9 11 3124-0403</p>
+            <p className="font-mono text-slate-900 font-bold">+54 9 11 3124-0403</p>
+            <p className="font-mono text-emerald-600 font-bold">+54 9 11 2507-2446 (Ventas)</p>
           </div>
         </div>
       </div>

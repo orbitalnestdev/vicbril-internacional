@@ -129,14 +129,14 @@ const Home: React.FC = () => {
                 <p>Cada conductor cuenta con su protocolo de ensayo correspondiente, y los ensayos pueden ser presenciados, garantizando trazabilidad, calidad y cumplimiento normativo en cada suministro.</p>
               </div>
             </div>
-            <div className="hidden md:block relative w-2/5 animate-reveal-right">
+            <div className="w-full md:w-2/5 mt-8 md:mt-0 relative animate-reveal-right">
               <video
                 src="/images/VIDEO LOGO VICBRIL.mp4"
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="w-full ml-auto aspect-[16/10] object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
+                className="w-full aspect-[16/10] object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>

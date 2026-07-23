@@ -65,33 +65,33 @@ const SuministroCarousel: React.FC = () => {
             className="py-12 bg-slate-900 overflow-hidden relative"
             ref={reveal.ref}
         >
-            <div className={`container mx-auto px-6 relative h-[450px] sm:h-[580px] md:h-[700px] lg:h-[800px] transition-all duration-1000 ${reveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-                <div className="w-full h-full relative rounded-3xl overflow-hidden shadow-2xl border border-slate-800">
+            <div className={`container mx-auto px-3 sm:px-6 relative aspect-[16/10] sm:aspect-auto sm:h-[580px] md:h-[700px] lg:h-[800px] transition-all duration-1000 ${reveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+                <div className="w-full h-full relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950">
                     <div
                         className="flex transition-transform duration-700 ease-in-out h-full w-full"
                         style={{ transform: `translateX(-${current * 100}%)` }}
                     >
                         {images.map((slide, i) => (
-                            <div key={i} className="w-full h-full flex-shrink-0 relative">
+                            <div key={i} className="w-full h-full flex-shrink-0 relative bg-slate-950">
                                 {!loaded[i] && (
-                                    <div className="absolute inset-0 flex items-center justify-center bg-slate-800 text-slate-400 font-oswald animate-pulse">
+                                    <div className="absolute inset-0 flex items-center justify-center bg-slate-900 text-slate-400 font-oswald animate-pulse">
                                         CARGANDO IMAGEN...
                                     </div>
                                 )}
                                 <img
                                     src={slide.url}
                                     alt={slide.title}
-                                    className={`w-full h-full object-cover transition-opacity duration-500 ${slide.position} ${loaded[i] ? 'opacity-100' : 'opacity-0'}`}
+                                    className={`w-full h-full object-contain sm:object-cover transition-opacity duration-500 ${slide.position} ${loaded[i] ? 'opacity-100' : 'opacity-0'}`}
                                     onLoad={() => setLoaded(prev => ({ ...prev, [i]: true }))}
                                     loading="eager"
                                 />
-                                {/* Gradient Overlay */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent"></div>
+                                {/* Subtle bottom gradient for text readability without darkening photos */}
+                                <div className="absolute inset-x-0 bottom-0 h-32 sm:h-48 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none"></div>
                                 
                                 {/* Info Box */}
-                                <div className="absolute bottom-10 left-6 right-6 md:left-12 md:right-12 text-white max-w-xl z-20">
-                                    <h3 className="text-2xl md:text-4xl font-oswald font-bold uppercase mb-2 md:mb-3 tracking-wide">{slide.title}</h3>
-                                    <p className="text-sm md:text-lg text-slate-300 leading-relaxed font-light">{slide.desc}</p>
+                                <div className="absolute bottom-4 sm:bottom-10 left-4 sm:left-12 right-4 sm:right-12 text-white max-w-xl z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+                                    <h3 className="text-lg sm:text-2xl md:text-4xl font-oswald font-bold uppercase mb-1 sm:mb-3 tracking-wide text-white">{slide.title}</h3>
+                                    <p className="text-xs sm:text-base md:text-lg text-slate-100 leading-tight sm:leading-relaxed font-normal">{slide.desc}</p>
                                 </div>
                             </div>
                         ))}

@@ -40,6 +40,7 @@ const Contact: React.FC = () => {
                            <h3 className="font-oswald font-bold text-2xl">TELÉFONOS</h3>
                            <p className="text-slate-400 text-lg mt-1">
                               +54 9 11 3124-0403 (WhatsApp Comercial)<br />
+                              <span className="text-emerald-400 font-semibold">+54 9 11 2507-2446 (WhatsApp Ventas)</span>
                            </p>
                         </div>
                      </div>
