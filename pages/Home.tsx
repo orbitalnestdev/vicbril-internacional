@@ -14,7 +14,6 @@ const CategoryCard: React.FC<{ cat: any; idx: number }> = ({ cat, idx }) => {
   const { ref, isVisible } = useScrollReveal(0.1);
   
   const mainImage = cat.image || '/images/vicbril-hero-1.jpg';
-  const isSpecialFit = cat.id === 'armados' || cat.id === 'especiales';
 
   return (
     <Link 
@@ -26,7 +25,7 @@ const CategoryCard: React.FC<{ cat: any; idx: number }> = ({ cat, idx }) => {
       <img 
         src={mainImage} 
         alt={cat.name} 
-        className={`absolute inset-0 w-full h-full ${isSpecialFit ? 'object-contain p-2' : 'object-cover'} transition-transform duration-1000 group-hover:scale-105 opacity-80 group-hover:opacity-90`} 
+        className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-1000 group-hover:scale-110 opacity-75 group-hover:opacity-60" 
         loading="lazy" 
       />
       <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent">
