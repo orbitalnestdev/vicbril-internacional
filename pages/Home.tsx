@@ -131,12 +131,12 @@ const Home: React.FC = () => {
             </div>
             <div className="w-full md:w-2/5 mt-8 md:mt-0 relative animate-reveal-right">
               <video
-                src="/images/VIDEO LOGO VICBRIL.mp4"
+                src="/images/videonuevo.mp4"
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="w-full aspect-[2/1] sm:aspect-[2.1/1] object-cover rounded-2xl shadow-2xl border border-slate-200 transform hover:scale-105 transition-transform duration-500"
+                className="w-full aspect-[16/9] sm:aspect-[16/10] object-cover rounded-2xl shadow-2xl border border-slate-200 transform hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
