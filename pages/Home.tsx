@@ -14,6 +14,7 @@ const CategoryCard: React.FC<{ cat: any; idx: number }> = ({ cat, idx }) => {
   const { ref, isVisible } = useScrollReveal(0.1);
   
   const mainImage = cat.image || '/images/vicbril-hero-1.jpg';
+  const isSpecialFit = cat.id === 'armados' || cat.id === 'especiales';
 
   return (
     <Link 
@@ -22,8 +23,13 @@ const CategoryCard: React.FC<{ cat: any; idx: number }> = ({ cat, idx }) => {
       className={`group relative h-80 overflow-hidden bg-slate-900 block transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
       style={{ transitionDelay: `${idx * 100}ms` }}
     >
-      <img src={mainImage} alt={cat.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70 group-hover:opacity-50" loading="lazy" />
-      <div className="absolute inset-0 flex flex-col justify-end p-8">
+      <img 
+        src={mainImage} 
+        alt={cat.name} 
+        className={`absolute inset-0 w-full h-full ${isSpecialFit ? 'object-contain p-2' : 'object-cover'} transition-transform duration-1000 group-hover:scale-105 opacity-80 group-hover:opacity-90`} 
+        loading="lazy" 
+      />
+      <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent">
         <div className="border-l-4 border-orange-600 pl-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
           <h3 className="text-3xl md:text-4xl font-oswald font-bold text-white mb-1 uppercase tracking-tight">{cat.name}</h3>
           <p className="text-orange-500 text-xs font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-300">Ver Catálogo</p>

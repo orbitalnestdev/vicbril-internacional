@@ -4,9 +4,8 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useScrollReveal } from '../../services/hooks';
 
 const images = [
-    "/images/fotos_about/IMAGEN 2.jpg",
-    "/images/fotos_about/IMAGEN 3.jpg",
-    "/images/fotos_about/IMAGEN 4.jpg"
+    "/images/nosotros-seccion/FOTO 4.jpg",
+    "/images/nosotros-seccion/FOTO 6.jpg"
 ];
 
 const AboutSection: React.FC = () => {
