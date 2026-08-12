@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ShieldCheck, Truck, Zap, ClipboardList, CheckCircle } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Truck, Zap, ClipboardList, CheckCircle, Play, X } from 'lucide-react';
 import { categories, brands } from '../services/data';
 import BrandCarousel from '../components/UI/BrandCarousel';
 import GoogleMap from '../components/UI/GoogleMap';
@@ -50,11 +50,27 @@ const Home: React.FC = () => {
   const ctaFormReveal = useScrollReveal(0.1);
   const productSectionReveal = useScrollReveal(0.1);
   const [scrollY, setScrollY] = React.useState(0);
+  const [isVideoModalOpen, setIsVideoModalOpen] = React.useState(false);
+
   React.useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  React.useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsVideoModalOpen(false);
+    };
+    if (isVideoModalOpen) {
+      document.body.style.overflow = 'hidden';
+      window.addEventListener('keydown', handleKeyDown);
+    }
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isVideoModalOpen]);
 
   const renderAnimatedText = (text: string, baseDelay: number = 0) => {
     return text.split('').map((char, i) => (
@@ -105,17 +121,58 @@ const Home: React.FC = () => {
                 ENTREGA INMEDIATA
               </h1>
 
-              <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: '0.6s', opacity: 0 }}>
-                <Link to="/contacto" className="bg-orange-600 text-white text-xs sm:text-sm font-bold uppercase tracking-[0.2em] px-8 py-4 sm:px-12 sm:py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center shadow-xl shadow-orange-600/20 glass-shine">
-                  Cotizar Proyecto
-                </Link>
-                <Link to="/productos" className="group bg-white/80 backdrop-blur-sm border border-slate-200 text-slate-900 text-xs sm:text-sm font-bold uppercase tracking-[0.2em] px-8 py-4 sm:px-12 sm:py-6 hover:bg-white transition-all duration-300 flex items-center justify-center">
+              <div className="flex flex-col sm:flex-row flex-wrap gap-4 animate-fade-in-up" style={{ animationDelay: '0.6s', opacity: 0 }}>
+                <button 
+                  onClick={() => setIsVideoModalOpen(true)}
+                  className="group bg-orange-600 text-white text-xs sm:text-sm font-bold uppercase tracking-[0.2em] px-8 py-4 sm:px-10 sm:py-6 hover:bg-orange-700 transition-all duration-300 flex items-center justify-center gap-3 shadow-xl shadow-orange-600/20 glass-shine"
+                >
+                  <Play className="fill-white text-white group-hover:scale-110 transition-transform" size={18} />
+                  Ver Video
+                </button>
+                <Link to="/productos" className="group bg-white/80 backdrop-blur-sm border border-slate-200 text-slate-900 text-xs sm:text-sm font-bold uppercase tracking-[0.2em] px-8 py-4 sm:px-10 sm:py-6 hover:bg-white transition-all duration-300 flex items-center justify-center">
                   Ver Catálogo <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
                 </Link>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Video Modal */}
+        {isVideoModalOpen && (
+          <div 
+            className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/85 backdrop-blur-md p-4 sm:p-8 animate-fade-in"
+            onClick={() => setIsVideoModalOpen(false)}
+          >
+            <div 
+              className="relative w-full max-w-5xl bg-slate-950 rounded-2xl overflow-hidden shadow-2xl border border-slate-800"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="flex items-center justify-between px-6 py-4 border-b border-slate-800/80 bg-slate-900/60">
+                <div className="flex items-center gap-3">
+                  <div className="w-3 h-3 rounded-full bg-orange-600 animate-pulse" />
+                  <span className="text-white font-oswald font-bold uppercase tracking-wider text-sm">
+                    Vicbril Internacional S.A.
+                  </span>
+                </div>
+                <button 
+                  onClick={() => setIsVideoModalOpen(false)}
+                  className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
+                  aria-label="Cerrar video"
+                >
+                  <X size={20} />
+                </button>
+              </div>
+              <div className="aspect-video w-full flex items-center justify-center bg-black">
+                <video 
+                  src="/video/VICBRIL VIDEO WEB-OP1.mp4" 
+                  controls 
+                  autoPlay 
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Value Proposition - Technical Grid */}
